@@ -193,3 +193,16 @@ body div.top-logo-header {
     border-bottom: 8px solid #003399;
     border-top: 10px solid #6487dc;
 }
+
+/**
+ * Footer colors
+ */
+body div.footer {
+    background-color: #6487dc;
+    border: none;
+    color: white;
+    text-align: center;
+}
+body div.footer a {
+    color: white;
+}
