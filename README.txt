@@ -3,7 +3,7 @@ Scipy.org website
 =================
 
 This is a Sphinx website project, aiming at updating the basic Scipy.org
-website.
+website and making it more maintainable.
 
 Building
 ========
