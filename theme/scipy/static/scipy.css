@@ -74,6 +74,7 @@ div.body h4 {
 
 body { 
   background-color: rgb(100,135,220);
+  border: none;
 }
 
 div.sphinxsidebar h3 {
