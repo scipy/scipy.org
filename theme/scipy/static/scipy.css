@@ -76,25 +76,7 @@ body {
   background-color: rgb(100,135,220);
 }
 
-/*
-div.document { 
-  background-color: rgb(230,230,230);
-}
-
-div.sphinxsidebar {
-  background-color: rgb(230,230,230);
-}
-
-div.related {
-  background-color: rgb(100,135,220);
-}
-*/
-
 div.sphinxsidebar h3 {
-  color: rgb(0,102,204);
-}
-
-div.sphinxsidebar h3 a {
   color: rgb(0,102,204);
 }
 
@@ -104,10 +86,6 @@ div.sphinxsidebar h4 {
 
 div.sphinxsidebar p {
   color: black;
-}
-
-div.sphinxsidebar a {
-  color: #355f7c;
 }
 
 div.sphinxsidebar ul.want-points {
