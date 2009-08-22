@@ -187,8 +187,9 @@ table.footnote td, table.footnote th {
 /**
  * Top header logo and colors
  */
-.top-logo-header {
+body div.top-logo-header {
     text-align: left; 
-    padding: 10px 10px 15px 15px
-    background: #8caae6;
+    background-color: #8CAAE6;
+    border-bottom: 8px solid #003399;
+    border-top: 10px solid #6487dc;
 }
