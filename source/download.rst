@@ -2,6 +2,8 @@
 Obtaining NumPy & SciPy
 =======================
 
+.. _download-official:
+
 Official Source and Binary Releases
 -----------------------------------
 
@@ -11,7 +13,7 @@ packages for other platforms may be available from your operating system
 vendor.
 
 +--------+------------------------------+-------------------------------------+
-| Project| Available packages           | Download Location                   | 
+| Project| Available packages           | Download location                   | 
 +========+==============================+=====================================+
 |        |  Official *source code*      |                                     |
 |        |  (all platforms) and         | `SourceForge site for NumPy`_       |
@@ -137,7 +139,12 @@ Subversion checkouts, maintained by Chris Fonnesbeck. It is available from
 .. _MacInScience.org: http://www.macinscience.org/
 
 The Superpack requires Mac OS X 10.5 Leopard with either Apple's preinstalled
-Python 2.5.1, `ActivePython 2.5`_ or `Python 2.5 from Python.org`_. 
+Python 2.5.1, `ActivePython 2.5`_ or `Python 2.5 from Python.org`_. Note that
+the Superpack's version detection may fail with other Python distributions
+(e.g. Python installed by `Fink`_ and `MacPorts`_) and it will refuse to 
+install. If you are using Python provided by Fink or MacPorts it is 
+recommended that you install NumPy/SciPy with the appropriate packages 
+(see :ref:`Third-Party/Vendor Package Managers <download-thirdpartypackages>` below).
 
 **NOTE:** NumPy is included in the Superpack.  For best compatibility, it is
 recommended that you use the NumPy provided with the Superpack rather than
@@ -162,6 +169,8 @@ __ `Source Python Distribution (SPD)`_
 .. _Source Python Distribution (SPD): http://code.google.com/p/spdproject/
 .. _packages format: http://www.sagemath.org/download-packages.html
 
+.. _download-thirdpartypackages:
+
 Third-Party/Vendor Package Managers
 -----------------------------------
 
@@ -172,7 +181,7 @@ These packages are **not** maintained by the NumPy and SciPy developers;
 this list is provided only as a convenience. These packages may not always
 provide the most up to date version of the software, and may be 
 unmaintained. Note that `Ubuntu Linux`_ is not listed, as official packages
-are available; see `Official Source and Binary Releases`_.
+are available; see :ref:`Official Source and Binary Releases <download-official>`.
 
 **IMPORTANT:** If you experience problems with these packages (*especially* 
 those related to installation/build errors), **please report the problem to 
@@ -181,34 +190,38 @@ the package maintainer first, rather than to the NumPy/SciPy mailing lists**.
 +---------------------+---------------------------+---------------------------+
 | Distribution        | NumPy Packages            | SciPy Packages            | 
 +=====================+===========================+===========================+
-| `Debian GNU/Linux`_ | `python-numpy`__          | `python-scipy`__          |
-|                     |                           |                           |
-|                     | __ python-numpy-debian_   | __ python-scipy-debian_   |
-+---------------------+---------------------------+---------------------------+
-| `OpenSUSE`_         | `python-numpy`_,          | `python-scipy`_,          |
-|                     | `python-numpy-devel`_     | `python-scipy-devel`_     |
-+---------------------+---------------------------+---------------------------+
-| `Gentoo Linux`_     | `dev-python/numpy`_       | `sci-libs/scipy`_         |
-+---------------------+---------------------------+---------------------------+
 | `Arch Linux`_       | `python-numpy`__          | `python-scipy`__          |
 |                     |                           |                           |
 |                     | __ python-numpy-arch_     | __ python-scipy-arch_     |
 +---------------------+---------------------------+---------------------------+
-| `Slackware Linux`_  | `numpy (slackbuilds.org)`_| `scipy (slackbuilds.org)`_|
+| `Debian GNU/Linux`_ | `python-numpy`__          | `python-scipy`__          |
+|                     |                           |                           |
+|                     | __ python-numpy-debian_   | __ python-scipy-debian_   |
++---------------------+---------------------------+---------------------------+
+| `Fedora Core`_      | `numpy`__                 | `scipy`__                 |
+|                     |                           |                           |
+|                     | __ numpy-fedoracore_      | __ scipy-fedoracore_      |
++---------------------+---------------------------+---------------------------+
+| `Fink`_             | `scipy-core-py24`_,       | `scipy-py24`_,            |
+|                     | `scipy-core-py25`_,       | `scipy-py25`_,            |
+|                     | `scipy-core-py26`_        | `scipy-py26`_             |
 +---------------------+---------------------------+---------------------------+
 | `FreeBSD Ports`_    | `ports/math/py-numpy`_    | `ports/science/py-scipy`_ |
 +---------------------+---------------------------+---------------------------+
-| `NetBSD (pkgsrc)`_  | `math/py-numpy`__         | `math/py-scipy`__         |
-|                     |                           |                           |
-|                     | __ py-numpy-pkgsrc_       | __ py-scipy-pkgsrc_       |
+| `Gentoo Linux`_     | `dev-python/numpy`_       | `sci-libs/scipy`_         |
 +---------------------+---------------------------+---------------------------+
 | `MacPorts`_         | `py-numpy`_,              | `py-scipy`_,              |
 |                     | `py25-numpy`_,            | `py25-scipy`_,            |
 |                     | `py26-numpy`_             | `py26-scipy`_             |
 +---------------------+---------------------------+---------------------------+
-| `Fink Project`_     | `scipy-core-py24`_,       | `scipy-py24`_,            |
-|                     | `scipy-core-py25`_,       | `scipy-py25`_,            |
-|                     | `scipy-core-py26`_        | `scipy-py26`_             |
+| `NetBSD (pkgsrc)`_  | `math/py-numpy`__         | `math/py-scipy`__         |
+|                     |                           |                           |
+|                     | __ py-numpy-pkgsrc_       | __ py-scipy-pkgsrc_       |
++---------------------+---------------------------+---------------------------+
+| `OpenSUSE`_         | `python-numpy`_,          | `python-scipy`_,          |
+|                     | `python-numpy-devel`_     | `python-scipy-devel`_     |
++---------------------+---------------------------+---------------------------+
+| `Slackware Linux`_  | `numpy (slackbuilds.org)`_| `scipy (slackbuilds.org)`_|
 +---------------------+---------------------------+---------------------------+
 
 .. MacPorts links
@@ -221,7 +234,7 @@ the package maintainer first, rather than to the NumPy/SciPy mailing lists**.
 .. _py26-scipy: http://trac.macports.org/browser/trunk/dports/python/py26-scipy/Portfile
 
 .. Fink links
-.. _Fink Project: http://www.finkproject.org/
+.. _Fink: http://www.finkproject.org/
 .. _scipy-core-py24: http://pdb.finkproject.org/pdb/package.php/scipy-core-py24
 .. _scipy-core-py25: http://pdb.finkproject.org/pdb/package.php/scipy-core-py25
 .. _scipy-core-py26: http://pdb.finkproject.org/pdb/package.php/scipy-core-py26
@@ -245,6 +258,11 @@ the package maintainer first, rather than to the NumPy/SciPy mailing lists**.
 .. _Gentoo Linux: http://www.gentoo.org/
 .. _sci-libs/scipy: http://packages.gentoo.org/package/sci-libs/scipy
 .. _dev-python/numpy: http://packages.gentoo.org/package/dev-python/numpy
+
+.. Fedora Core links
+.. _Fedora Core: http://www.fedoraproject.org/
+.. _numpy-fedoracore: https://admin.fedoraproject.org/pkgdb/packages/name/numpy
+.. _scipy-fedoracore: https://admin.fedoraproject.org/pkgdb/packages/name/scipy
 
 .. ArchLinux links
 .. _Arch Linux: http://www.archlinux.org/
