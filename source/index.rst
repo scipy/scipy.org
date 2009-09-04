@@ -1,6 +1,13 @@
 Scientific Computing Tools For Python
 =====================================
 
+.. toctree::
+    :maxdepth: 2
+    
+    download
+    dev-zone
+
+
 SciPy (pronounced "Sigh Pie") is, broadly speaking, an ecosystem of 
 open-source software for mathematics, science, and engineering. 
 
