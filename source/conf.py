@@ -200,4 +200,8 @@ latex_documents = [
 #latex_use_modindex = True
 
 # Example configuration for intersphinx: refer to the Python standard library.
-intersphinx_mapping = {'http://docs.python.org/': None}
+intersphinx_mapping = {'http://docs.python.org/': None, 
+                       #'http://matplotlib.sourceforge.net/': None,
+                       #'http://docs.scipy.org/doc/numpy/': None,
+                       #'http://docs.scipy.org/doc/scipy/reference/': None,
+                       }
