@@ -2,6 +2,9 @@
 Frequently Asked Questions
 ==========================
 
+.. toctree::
+    :maxdepth: 4
+
 General questions about NumPy
 -----------------------------
 
@@ -129,18 +132,17 @@ your software, please tell us by entering a ticket in the
 `tracker <http://projects.scipy.org/scipy/scipy/report/1:ticket>`_.
 
 How can I get involved in SciPy?
---------------------------------
+################################
 
 Drop us a mail on the mailing lists.  We are keen for more people to help out
 writing code, unit tests, documentation (including translations into other
 languages), and helping out with the website.
 
 Is there commercial support available?
---------------------------------------
+######################################
 
 Yes, commercial support is offered for SciPy by Enthought_. Please contact
 eric@enthought.com for more information.
-
 
 NumPy vs. SciPy vs. other packages
 ----------------------------------
@@ -148,8 +150,7 @@ NumPy vs. SciPy vs. other packages
 What is the difference between NumPy and SciPy?
 ###############################################
 
-NumPy provides core numerical functionality, the N-dimensional array
-object.
+*TODO.*
 
 How do I make plots using NumPy/SciPy?
 ######################################
@@ -205,7 +206,8 @@ matrix argument for solving `generalized eigenvalue problems`_.
 .. _LU decomposition: http://en.wikipedia.org/wiki/LU_decomposition
 .. _Schur decomposition: http://en.wikipedia.org/wiki/Schur_decomposition
 .. _matrix logarithm: http://en.wikipedia.org/wiki/Logarithm_of_a_matrix
-.. _generalized eigenvalue problems: http://en.wikipedia.org/wiki/Generalized_eigenvalue_problem#Generalized_eigenvalue_problem
+.. _generalized eigenvalue problems: GEVP_ 
+.. _GEVP: http://en.wikipedia.org/wiki/Generalized_eigenvalue_problem
 
 Python version support
 ----------------------
@@ -248,12 +250,211 @@ of Ironclad support for SciPy is unknown, but there are several
 complicating factors (namely the Fortran compiler situation on
 Windows) that make it less feasible than NumPy.
 
-Basic NumPy usage
------------------
+Basic NumPy/SciPy usage
+-----------------------
 
+What is the preferred way to check for an empty (zero element) array?
+#####################################################################
+
+If you are certain a variable is an array, then use the size attribute.
+If the variable may be a list or other sequence type, use :func:`len`.
+The size attribute is preferable to len because:
+
+::
+
+       >>> a = numpy.zeros((1,0))
+       >>> a.size
+       0
+
+whereas
+
+::
+
+       >>> len(a)
+       1
+
+I want to load data from a text file. How do I make this code more efficient?
+#############################################################################
+
+Use :func:`numpy.loadtxt`. Even if your text file has header and footer
+lines or comments, loadtxt can almost certainly read it; it is convenient and
+efficient.
+
+There are a large number of alternatives, depending on your needs (and on
+which version of NumPy/SciPy you are using):
+
+* Text files: slow, huge, portable, human-readable; built into NumPy
+* Raw binary: no metadata, totally unportable, fast; built into NumPy
+* pickle: somewhat slow, somewhat portable (may be incompatible with
+  different NumPy versions); built into NumPy
+* MATLAB format: portable; built into SciPy (:func:`scipy.io.loadmat`)
+* HDF5_: high-powered kitchen-sink format; both PyTables_ and h5py_ provide
+  a NumPy friendly interface on top of the core HDF5 library written in C.
+* `.npy`_: NumPy native binary data format, simple, efficient, portable;
+  built into NumPy as of 1.0.5.
+
+.. _HDF5: http://www.hdf5.org/
+.. _PyTables: http://www.pytables.org/
+.. _h5py: http://code.google.com/p/h5py/
+.. _.npy: http://svn.scipy.org/svn/numpy/trunk/doc/neps/npy-format.txt
+
+What is the difference between matrices and arrays?
+###################################################
+
+NumPy's basic data type is the multidimensional array. These can be
+one-dimensional (that is, one index, like a list or a vector),
+two-dimensional (two indices, like an image), three-dimensional, or more
+(zero-dimensional arrays exist and are a slightly strange corner case).
+They support various operations, including addition, subtraction,
+multiplication, exponentiation, and so on - but all of these are
+*elementwise* operations. If you want matrix multiplication between two
+two-dimensional arrays, the function :func:`numpy.dot` does this.
+It also works fine for getting the matrix product of a two-dimensional
+array and a one-dimensional array, in either direction, or two
+one-dimensional arrays. If you want some kind of matrix multiplication-like
+operation on higher-dimensional arrays (tensor contraction), you need to
+think which indices you want to be contracting over. Some combination
+of :func:`tensordot` and :func:`rollaxis` should do what you want.
+
+However, some users find that they are doing so many matrix multiplications
+that always having to write ``dot`` as a prefix is too cumbersome, or they
+really want to keep row and column vectors separate. For these users, there
+is a matrix class. This is simply a transparent wrapper around arrays that
+forces arrays to be at least two-dimensional, and that overloads the
+multiplication and exponentiation operations. Multiplication becomes matrix
+multiplication, and exponentiation becomes matrix exponentiation. If you want
+elementwise multiplication, use :func:`numpy.multiply`.
+
+The function :func:`asmatrix` converts an array into a matrix (without ever
+copying any data); :func:`asarray` converts matrices to arrays.
+:func:`asanyarray` makes sure that the result is either a matrix or an array
+(but not, say, a list). Unfortunately, a few of NumPy's many functions use
+:func:`asarray` when they should use :func:`asanyarray`, so from time to time
+you may find your matrices accidentally get converted into arrays. Just use
+:func:`asmatrix` on the output of these operations, and consider filing a bug.
+
+Why not just have a separate operator for matrix multiplication?
+################################################################
+
+Unfortunately Python does not allow extension modules to define new operators,
+and there is no operator we can overload for this purpose. This is however the
+subject of `PEP 225 <http://www.python.org/dev/peps/pep-0225/>`_, which
+(if accepted) would add several operators to the Python language. A summary
+of a discussion of PEP 225's relative merits at SciPy 2008 can be found
+in this `archived post to the Python-dev mailing list <http://mail.python.org/
+pipermail/python-dev/2008-November/083493.html>`_.
+
+
+How do I find the indices of an array where some condition is true?
+###################################################################
+
+The prefered idiom for doing this is to use the function :func:`numpy.nonzero`
+, or the :meth:`nonzero` method of an array. Given an array ``a``, the
+condition ``a > 3`` returns a boolean array and since ``False`` is
+interpreted as 0 in Python and NumPy, ``np.nonzero(a > 3)`` yields the indices
+of ``a`` where the condition is true.
+
+::
+
+   >>> import numpy as np
+   >>> a = np.array([[1,2,3],[4,5,6],[7,8,9]])
+   >>> a > 3
+   array([[False, False, False],
+          [ True,  True,  True],
+          [ True,  True,  True]], dtype=bool)
+   >>> np.nonzero(a > 3)
+   (array([1, 1, 1, 2, 2, 2]), array([0, 1, 2, 0, 1, 2]))
+
+The :meth:`nonzero` method of the boolean array can also be called.
+
+::
+
+   >>> (a > 3).nonzero()
+   (array([1, 1, 1, 2, 2, 2]), array([0, 1, 2, 0, 1, 2]))
 
 Advanced NumPy usage
 --------------------
+
+Does NumPy support :const:`nan`?
+################################
+
+:const:`nan`, short for "not a number", is a special floating point value
+defined by the IEEE-754 specification along with :const:`inf` (infinity)
+and other  values and behaviours. In theory, IEEE :const:`nan` was
+specifically designed to address the problem of missing values, but the
+reality is that different platforms behave differently, making life more
+difficult. On some platforms, the presence of :const:`nan` slows calculations
+10-100 times. For integer data, no :const:`nan` value exists. Some
+platforms, notably older Crays and VAX machines, don't support
+:const:`nan` whatsoever.
+
+Despite all these issues NumPy (and SciPy) endeavor to support IEEE-754
+behaviour (based on NumPy's predecessor numarray). The most significant
+challenge is a lack of cross-platform support within Python itself. Because
+NumPy is written to take advantage of C99, which supports IEEE-754,
+it can side-step such issues internally, but users may still face problems
+when, for example, comparing values within Python interpreter. In fact,
+NumPy currently assumes IEEE-754 behavior of the underlying floats, a
+decision that may have to be revisited when the VAX community rises up
+in rebellion.
+
+Those wishing to avoid potential headaches will be interested in an
+alternative solution which has a long history in NumPy's predecessors
+-- **masked arrays**. Masked arrays are standard arrays with a second
+"mask" array of the same shape to indicate whether the value is present
+or missing. Masked arrays are the domain of the :mod:`numpy.ma` module,
+and continue the cross-platform Numeric/numarray tradition. See
+"Cookbook/Matplotlib/Plotting values with masked arrays" (*TODO*) for
+example, to avoid plotting missing data in Matplotlib_. Despite their
+additional memory requirement, masked arrays are faster than nans on
+many floating point units. See also the `NumPy developer's wiki page on
+masked arrays <http://projects.scipy.org/numpy/wiki/MaskedArray>`_.
+
+Why doesn't A[[0, 1, 1, 2]] += 1 do what I think it should?
+###########################################################
+
+This comes up from time to time on the mailing list. See
+`here <http://projects.scipy.org/pipermail/numpy-discussion/2006-March/
+006877.html>`_ for one extensive discussion.
+
+::
+
+   >>> A = numpy.zeros(3)
+   >>> A[[0,1,1,2]] += 1
+   >>> A
+   array([ 1.,  1.,  1.])
+
+One might, quite reasonably, have expected A to contain [1,2,1].
+Unfortunately this is not what is implemented in NumPy. More, the
+`Python Reference Manual <http://docs.python.org/ref/augassign.html>`_
+specifies that
+
+::
+
+   >>> x = x + y
+
+and
+
+::
+
+   >>> x += y
+
+should result in ``x`` having the same value (though not necessarily the same
+identity). More, even if the NumPy developers wanted to modify this behaviour,
+Python does not provide an overloadable :meth:`__indexed_iadd__` function;
+the code acts like
+
+::
+
+   >>> tmp = A.__getitem__([0,1,1,2])
+   >>> tmp.__iadd__(1)
+   >>> A.__setitem__([0,1,1,2],tmp)
+
+This leads to other peculiarities sometimes; if the indexing operation is
+actually able to provide a view rather than a copy, the :meth:`__iadd__`
+writes to the array, then the view is copied into the array, so that the
+array is written to twice.
+
 
 
 Where to get help

@@ -5,6 +5,7 @@ Scientific Computing Tools For Python
     :maxdepth: 2
     
     download
+    faq
     dev-zone
 
 
