@@ -3,7 +3,8 @@ Frequently Asked Questions
 ==========================
 
 .. toctree::
-    :maxdepth: 4
+    :maxdepth: 2
+
 
 General questions about NumPy
 -----------------------------
