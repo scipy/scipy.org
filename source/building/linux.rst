@@ -72,28 +72,28 @@ official distributions.
 First, download and unpackage the LAPACK distribution from netlib (you
 need these to build a complete version of LAPACK).
 
-{{{
-wget http://www.netlib.org/lapack/lapack-3.1.1.tgz
-tar zxvf lapack-3.1.1.tgz
-cd lapack-3.1.1
-}}}
+::
+
+ wget http://www.netlib.org/lapack/lapack-3.1.1.tgz
+ tar zxvf lapack-3.1.1.tgz
+ cd lapack-3.1.1
 
 There are several make.inc files in the INSTALL directory of the
 lapack distribution.  Copy one of those files to the main directory.
 For example:
 
-{{{
-cp INSTALL/make.inc.gfortran make.inc
-}}}
+::
+
+ cp INSTALL/make.inc.gfortran make.inc
 
 Now, you must edit the make.inc file to ensure that the OPTS and NOOPT
 lines both contain the flag for compiling position-independent code on
 your platform (e.g. with gcc/gfortran it is -fPIC).  For example:
 
-{{{
-OPTS = -O2 -fPIC
-NOOPT = -O0 -fPIC
-}}}
+::
+
+ OPTS = -O2 -fPIC
+ NOOPT = -O0 -fPIC
 
 (Note: Make sure that if you build with gfortran that g77 is not
 installed on your system (or at least is not in your PATH when numpy
@@ -102,10 +102,11 @@ built lapack with when numpy builds. It will try and find g77 first
 which will lead to linking errors if you have built lapack with
 gfortran).  Then change to the SRC directory and run make
 
-{{{
-cd SRC
-make
-}}}
+::
+
+ cd SRC
+ make
+
 
 This will create an lapack_<XXXX>.a file in the head lapack directory.
 You will need the location of this file to configure atlas.
@@ -119,28 +120,30 @@ named appropriate for the platform (you can build for multiple
 platforms from the same SOURCE tree --- perhaps the source is on a
 network drive and builds are taking place for multiple platforms).
 
-{{{
-tar jxvf atlas3.7.37.tar.bz2
-cd ATLAS
-mkdir ATLAS_<my_platform_type>
-}}}
+::
 
-{{{
-cd ATLAS_<my_platform_type>
-../configure -Fa alg -fPIC --with-netlib-lapack=/path/to/lapack/lapack_<XXXX>.a
-make
-}}}
+ tar jxvf atlas3.7.37.tar.bz2
+ cd ATLAS
+ mkdir ATLAS_<my_platform_type>
+
+
+::
+
+ cd ATLAS_<my_platform_type>
+ ../configure -Fa alg -fPIC --with-netlib-lapack=/path/to/lapack/lapack_<XXXX>.a
+ make
 
 Your atlas libraries should now be in the lib subdirectory of the
 current directory.  You should copy them to some-place that you can
 tell site.cfg about so that numpy and scipy can pick them up.  If you
 want to create shared libraries, then you can do that by
 
-{{{
-cd lib
-make shared     # for sequential libraries
-make ptshared   # for threaded libraries
-}}}
+::
+
+ cd lib
+ make shared     # for sequential libraries
+ make ptshared   # for threaded libraries
+
 
 after changing to the lib directory where the .a files are already
 located.
@@ -160,23 +163,29 @@ First, download the source rpm included in the ashigabou repository
 repository the package lapack3-pic (the rpm will refuse to build
 without it). Then, use the following:
 
-{{{
-rpm -ivh atlas-version.src.rpm
-}}}
+::
 
-This will NOT install atlas, just uncompress all the necessary files for building the rpm in /usr/src/packages. Before building atlas, you must disable dynamic change of CPU frequency (used to decrease battery consumption):
+ rpm -ivh atlas-version.src.rpm
 
-{{{
-cpufreq-selector -g performance
-}}}
+
+This will NOT install atlas, just uncompress all the necessary files
+for building the rpm in /usr/src/packages. Before building atlas, you
+must disable dynamic change of CPU frequency (used to decrease battery
+consumption):
+
+::
+
+ cpufreq-selector -g performance
+
 
 If this fails telling you no cpufreq support, this is fine. Now, to
 build the rpm, go into the directory /usr/src/packages/SPEC, and
 execute
 
-{{{
-rpmbuild -ba atlas.spec
-}}}
+::
+
+ rpmbuild -ba atlas.spec
+
 
 This will build the rpm: this can take a long time, even on a powerful
 machine. What matters is whether atlas has arch defaults for your
@@ -193,15 +202,17 @@ use the atlas libraries, once you installed numpy and scipy, you
 should tell the OS to use atlas instead of default libraries by using
 LD_LIBRARY_PATH. That is, normally, you can use numpy by :
 
-{{{
-python -c "import numpy as N; a=N.random.randn(1000, 1000); N.dot(a, a)"
-}}}
+::
+
+ python -c "import numpy as N; a=N.random.randn(1000, 1000); N.dot(a, a)"
+
 
 To use atlas, you do:
 
-{{{
-LD_LIBRARY_PATH=/usr/lib/atlas/sse2 python -c "import numpy as N; a=N.random.randn(1000, 1000); N.dot(a, a)"
-}}}
+::
+
+ LD_LIBRARY_PATH=/usr/lib/atlas/sse2 python -c "import numpy as N; a=N.random.randn(1000, 1000); N.dot(a, a)"
+
 
 If everything is working correctly, you will see that the above script
 runs much faster with atlas than without (I see a ten fold speed
@@ -213,18 +224,20 @@ Mandriva 2007.1
 Binary packages for !NumPy 1.0.3.1 and !SciPy 0.5.2.1 are available
 via the contrib urpmi repository:
 
-{{{
-   urpmi python-scipy
-}}}
+::
+
+ urpmi python-scipy
+
 
 Gentoo
 ------
 
 Gentoo includes an ebuild. Type:
 
-{{{
-   sudo emerge scipy
-}}}
+::
+
+ sudo emerge scipy
+
 
 Debian / Ubuntu - Andrew Straw's unofficial repository
 ------------------------------------------------------
@@ -239,29 +252,32 @@ Binary packages Ubuntu Dapper (6.06), (i386 and amd64 architectures)
 To use the binary package in Ubuntu Dapper, add the following line to
 your /etc/apt/sources.list:
 
-{{{
-deb http://debs.astraw.com/ dapper/
-}}}
+::
+
+ deb http://debs.astraw.com/ dapper/
+
 
 Then type
 
-{{{
-sudo apt-get install python-numpy
-}}}
+::
 
-You can verify ATLAS support by running the command {{{ldd
+ sudo apt-get install python-numpy
+
+
+You can verify ATLAS support by running the command ::ldd
 /usr/lib/python2.4/site-packages/numpy/linalg/lapack_lite.so}}}, which
 should result in output like the following:
 
-{{{
-        liblapack.so.3 => /usr/lib/atlas/liblapack.so.3 (0x00002aaaaabcf000)
-        libblas.so.3 => /usr/lib/atlas/libblas.so.3 (0x00002aaaab435000)
-        libg2c.so.0 => /usr/lib/libg2c.so.0 (0x00002aaaabd15000)
-        libm.so.6 => /lib/libm.so.6 (0x00002aaaabe44000)
-        libgcc_s.so.1 => /lib/libgcc_s.so.1 (0x00002aaaabfca000)
-        libc.so.6 => /lib/libc.so.6 (0x00002aaaac0d7000)
-        /lib64/ld-linux-x86-64.so.2 (0x0000555555554000)
-}}}
+::
+
+ liblapack.so.3 => /usr/lib/atlas/liblapack.so.3 (0x00002aaaaabcf000)
+ libblas.so.3 => /usr/lib/atlas/libblas.so.3 (0x00002aaaab435000)
+ libg2c.so.0 => /usr/lib/libg2c.so.0 (0x00002aaaabd15000)
+ libm.so.6 => /lib/libm.so.6 (0x00002aaaabe44000)
+ libgcc_s.so.1 => /lib/libgcc_s.so.1 (0x00002aaaabfca000)
+ libc.so.6 => /lib/libc.so.6 (0x00002aaaac0d7000)
+ /lib64/ld-linux-x86-64.so.2 (0x0000555555554000)
+
 
 Source packages for any Debian-based distribution
 #################################################
@@ -270,16 +286,18 @@ The following may (or may not) work on any Debian-based distribution:
 
 Add the following line to your /etc/apt/sources.list:
 
-{{{
-deb-src http://debs.astraw.com/ dapper/
-}}}
+::
+
+ deb-src http://debs.astraw.com/ dapper/
+
 
 To download and build, type:
 
-{{{
-sudo apt-get build-dep python-numpy
-sudo apt-get -b source python-numpy
-}}}
+::
+
+ sudo apt-get build-dep python-numpy
+ sudo apt-get -b source python-numpy
+
 
 GPG Verification using Andrew Straw's repository
 ################################################
@@ -287,18 +305,19 @@ GPG Verification using Andrew Straw's repository
 When you start using this repository, you might get warning messages
 like this:
 
-{{{
-The following signatures couldn't be verified because 
-the public key is not available.
-}}}
+::
+
+ The following signatures couldn't be verified because the public key is not available.
+
 
 Or you will be asked questions like this over and over:
 
-{{{
-WARNING: The following packages cannot be authenticated!
-...
-Install these packages without verification [y/N]?
-}}}
+::
+
+ WARNING: The following packages cannot be authenticated!
+ ...
+ Install these packages without verification [y/N]?
+
 
 Install the package {{{astraw-keyring}}} to eliminate these
 messages. This installs Andrew's archive signing key to your apt
@@ -326,9 +345,10 @@ to build numpy and scipy from sources on your computer.
 First, you need to install several libraries/tools (you need to enable
 universe repository for some of those packages):
 
-{{{
-sudo apt-get install gcc g77 python-dev atlas3-base-dev
-}}}
+::
+
+ sudo apt-get install gcc g77 python-dev atlas3-base-dev
+
 
 To use optimized lapack and blas, you should also install the atlas
 corresponding to your achitecture: atlas3-sse2-dev if you have a CPU
@@ -337,41 +357,46 @@ capabilities only, etc... If you have a recent x86 (eg intel or AMD
 cpu), it should support SSE2. To check whether your CPU supports sse,
 sse2, etc.. you can check using the following command:
 
-{{{
-cat /proc/cpuinfo | grep flags
-}}}
+::
+
+ cat /proc/cpuinfo | grep flags
+
 
 and check whether sse, sse2, etc... appear on it.
 
 Then, you can build numpy with the following, inside the numpy source
 directory:
 
-{{{
-python setup.py build
-}}}
+::
+
+ python setup.py build
+
 
 Then, to install it system-wide (requires root privileges):
 
-{{{
-python setup.py install
-}}}
+::
+
+ python setup.py install
+
 
 To install it in another directory, you need to use the prefix
 option. For example, I like to install local softwares in my
 $HOME/local, so I do the following:
 
-{{{
-python setup.py install --prefix=$HOME/local
-}}}
+::
+
+ python setup.py install --prefix=$HOME/local
+
 
 Note that if you do not install numpy system wide, you need to tell
 python to look for the directory where you installed numpy. For
 example, if you use $HOME/local as the former example, then you should
 add $HOME/local/lib/python2.4/site-packages in your PYTHONPATH:
 
-{{{
-PYTHONPATH=$HOME/local/lib/python2.4/site-packages python
-}}}
+::
+
+ PYTHONPATH=$HOME/local/lib/python2.4/site-packages python
+
 
 (change python2.4 to python2.5 if you are using python2.5, obviously).
 
@@ -517,20 +542,22 @@ options).
 Install required packages
 #########################
 
-{{{
-sudo apt-get install build-essential python-dev swig gfortran
-}}}
+::
+
+ sudo apt-get install build-essential python-dev swig gfortran
+
 
 Install nose (easy_install nose). Do not install python-nose, it is an
 earlier version that doesn't work with scipy. Also make sure g77 is
 not installed. Distutils will not use gfortran if g77 is installed.
 
-{{{
-sudo apt-get remove python-nose
-sudo apt-get remove g77
-sudo apt-get install python-setuptools
-sudo easy_install nose
-}}}
+::
+
+ sudo apt-get remove python-nose
+ sudo apt-get remove g77
+ sudo apt-get install python-setuptools
+ sudo easy_install nose
+
 
 
 Build lapack (3.1.1)
@@ -545,11 +572,12 @@ Build ATLAS (3.8.0)
 As described above untar, create a directory for your build in ATLAS
 and run configure (add option '-b 64' for 64 bit).
 
-{{{
-sudo cpufreq-selector -g performance
-../configure -b 64 -Fa alg -fPIC --with-netlib-lapack=/path/to/lapack/lapack_<XXXX>.a
-make
-}}}
+::
+
+ sudo cpufreq-selector -g performance
+ ../configure -b 64 -Fa alg -fPIC --with-netlib-lapack=/path/to/lapack/lapack_<XXXX>.a
+ make
+
 
 Copy the libraries to a lib directory (/usr/local/lib or
 ~/scipy_build/lib for example). I found it's easier to copy all needed
@@ -562,15 +590,16 @@ Get the latest versions of AMD, UFconfig and UMFPACK and untar them
 into a directory.
 
 UFconfig/UFconfig.mk should contain:
-{{{
-CC = gcc
-CFLAGS = -O3 -fexceptions -m64 -fPIC
-F77 = gfortran
-F77FLAGS = -O -m64 -fPIC
 
-BLAS = -L/usr/lib/gcc/x86_64-linux-gnu/4.2.1 -L/home/robince/scipy_build/lib -llapack -lf77blas -lcblas -latlas -lgfortran
-LAPACK = -L/usr/lib/gcc/x86_64-linux-gnu/4.2.1 -L/home/robince/scipy_build/lib -llapack -lf77blas -lcblas -latlas -lgfortran
-}}}
+::
+
+ CC = gcc
+ CFLAGS = -O3 -fexceptions -m64 -fPIC
+ F77 = gfortran
+ F77FLAGS = -O -m64 -fPIC
+ BLAS = -L/usr/lib/gcc/x86_64-linux-gnu/4.2.1 -L/home/robince/scipy_build/lib -llapack -lf77blas -lcblas -latlas -lgfortran
+ LAPACK = -L/usr/lib/gcc/x86_64-linux-gnu/4.2.1 -L/home/robince/scipy_build/lib -llapack -lf77blas -lcblas -latlas -lgfortran
+
 
 On a 32 bit system, remove the -m64 flags and change the first -L
 option to -L/usr/lib/gcc/i486-linux-gnu/4.2.1.
@@ -578,20 +607,22 @@ option to -L/usr/lib/gcc/i486-linux-gnu/4.2.1.
 Run 'make' in UMFPACK directory. Copy resulting libraries and include
 files.
 
-{{{
-cp AMD/Lib/libamd.a ~/scipy_build/lib
-cp UMFPACK/Lib/libumfpack.a ~/scipy_build/lib
-cp AMD/Include/amd.h ~/scipy_build/lib/include
-cp UFconfig/UFconfig.h ~/scipy_build/lib/include
-cp UMFPACK/Include/*.h ~/scipy_build/lib/include
-}}}
+::
+
+ cp AMD/Lib/libamd.a ~/scipy_build/lib
+ cp UMFPACK/Lib/libumfpack.a ~/scipy_build/lib
+ cp AMD/Include/amd.h ~/scipy_build/lib/include
+ cp UFconfig/UFconfig.h ~/scipy_build/lib/include
+ cp UMFPACK/Include/*.h ~/scipy_build/lib/include
+
 
 Copy libgfortran into scipy library directory (doesn't seem to work if
 it doesn't find the umfpack_libs together).
 
-{{{
-cp /usr/lib/gcc/x86_64-linux-gnu/4.2/libgfortran.* ~/scipy_build/lib/
-}}}
+::
+
+ cp /usr/lib/gcc/x86_64-linux-gnu/4.2/libgfortran.* ~/scipy_build/lib/
+
 
 
 Build FFTW (3.1.2)
@@ -601,11 +632,12 @@ After untarring, run configure. I ran configure first and extracted
 the suggested FLAGS from the Makefile, then added -fPIC and -m64. (Not
 sure if this is necessary)
 
-{{{
-./configure --enable-sse2 --enable-threads --with-combined-threads CFLAGS="-O3 -fomit-frame-pointer -fstrict-aliasing -ffast-math -pthread -fPIC -m64" FFLAGS="-g -O2 -fPIC -m64" CXXFLAGS="-g -O2 -fPIC -m64"
-make
-sudo make install
-}}}
+::
+
+ ./configure --enable-sse2 --enable-threads --with-combined-threads CFLAGS="-O3 -fomit-frame-pointer -fstrict-aliasing -ffast-math -pthread -fPIC -m64" FFLAGS="-g -O2 -fPIC -m64" CXXFLAGS="-g -O2 -fPIC -m64"
+ make
+ sudo make install
+
 
 Build Numpy and Scipy
 #####################
@@ -614,30 +646,32 @@ Set the following entries in site.cfg (this will also work with fftw
 if it has been compiled and installed in the default location
 (/usr/local):
 
-{{{
-[DEFAULT]
-library_dirs = /usr/local/lib:/home/robince/scipy_build/lib
-include_dirs = /usr/local/include:/home/robince/scipy_build/lib/include
+::
 
-[atlas]
-atlas_libs = lapack, f77blas, cblas, atlas
+ [DEFAULT]
+ library_dirs = /usr/local/lib:/home/robince/scipy_build/lib
+ include_dirs = /usr/local/include:/home/robince/scipy_build/lib/include
 
-[amd]
-amd_libs = amd
+ [atlas]
+ atlas_libs = lapack, f77blas, cblas, atlas
 
-[umfpack]
-umfpack_libs = umfpack, gfortran
+ [amd]
+ amd_libs = amd
 
-[fftw]
-libraries = fftw3
-}}}
+ [umfpack]
+ umfpack_libs = umfpack, gfortran
+
+ [fftw]
+ libraries = fftw3
+
 
 Build Numpy and Scipy.
 
-{{{
-python setup.py build
-sudo python setup.py install
-}}}
+::
+
+ python setup.py build
+ sudo python setup.py install
+
 
 
 Any distribution with Intel C compiler and MKL
@@ -652,49 +686,55 @@ Intel MKL] are free for personal non-commercial use.
 Add some variation of the following lines to site.cfg in your top
 level numpy directory to use MKL:
 
-{{{
-[mkl]
-library_dirs = /home/youruser/intel/mkl/8.1/lib/32
-mkl_libs = mkl, vml
-include_dirs = /home/youruser/intel/mkl/8.1/include
-}}}
+::
+
+ [mkl]
+ library_dirs = /home/youruser/intel/mkl/8.1/lib/32
+ mkl_libs = mkl, vml
+ include_dirs = /home/youruser/intel/mkl/8.1/include
+
 
 There are also libraries for the IA-64 and EM64T processors.
 
 Modify cc_exe in numpy/numpy/distutils/intelccompiler.py to be
 something like:
 
-{{{
-cc_exe = 'icc -O2 -g -fomit-frame-pointer -mcpu=pentium4 -mtune=pentium4 -march=pentium4 -msse2 -axWN -Wall'
-}}}
+::
+
+ cc_exe = 'icc -O2 -g -fomit-frame-pointer -mcpu=pentium4 -mtune=pentium4 -march=pentium4 -msse2 -axWN -Wall'
+
 
 Run icc --help for more information on processor-specific options.
 
 Compile and install !NumPy with the Intel compiler:
 
-{{{
-python setup.py config --compiler=intel build_clib --compiler=intel build_ext --compiler=intel install
-}}}
+::
+
+ python setup.py config --compiler=intel build_clib --compiler=intel build_ext --compiler=intel install
+
 
 Compile and install !SciPy with the Intel compilers:
 
-{{{
-python setup.py config --compiler=intel --fcompiler=intel build_clib --compiler=intel --fcompiler=intel build_ext --compiler=intel --fcompiler=intel install
-}}}
+::
+
+ python setup.py config --compiler=intel --fcompiler=intel build_clib --compiler=intel --fcompiler=intel build_ext --compiler=intel --fcompiler=intel install
+
 
 You'll have to set LD_LIBRARY_PATH to
 
-{{{~/intel/mkl/8.1/lib/32/:~/intel/cc/9.1.044/lib}}}
+::
 
- (exact values will depend on your architecture, compiler and library
- versions) for !NumPy to work. This can still cause problems. The only
- solution I've found that always works is to build Python, !NumPy and
- !SciPy inside an environment where you've set the LD_RUN_PATH
- variable, e.g:
+ ~/intel/mkl/8.1/lib/32/:~/intel/cc/9.1.044/lib
 
-{{{
-export LD_RUN_PATH=~/opt/lib:~/intel/cc/9.1.044/lib:~/intel/fc/9.1.039/lib:~/intel/mkl/8.1/lib/32
-}}}
+(exact values will depend on your architecture, compiler and library
+versions) for !NumPy to work. This can still cause problems. The only
+solution I've found that always works is to build Python, !NumPy and
+!SciPy inside an environment where you've set the LD_RUN_PATH
+variable, e.g:
+
+::
+
+ export LD_RUN_PATH=~/opt/lib:~/intel/cc/9.1.044/lib:~/intel/fc/9.1.039/lib:~/intel/mkl/8.1/lib/32
 
 Configure Python with {{{--prefix=$HOME/opt}}}, make, make install,
 add {{{$HOME/opt/bin}}} to the front of your PATH and then build
@@ -710,8 +750,6 @@ Other distributions
 For other distributions, see
 [http://pong.tamu.edu/tiki/tiki-view_blog_post.php?blogId=6&postId=97
 the unofficial instructions by written by Steve Baum].
-
-
 
 Any Linux distro: self-contained local installation with Sage
 -------------------------------------------------------------
@@ -732,4 +770,6 @@ If you don't want to have to type in absolute paths, you can set the
 environment variables to point to your sage executables. To do this,
 run sage with the -sh option. My .profile contains the line
 
-~/Sage/sage -sh
+::
+
+ ~/Sage/sage -sh
