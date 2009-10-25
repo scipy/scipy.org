@@ -2,6 +2,9 @@
 Building NumPy & SciPy From Source on Linux
 ===========================================
 
+.. contents::
+   :local:
+
 Introduction : source and binaries
 ----------------------------------
 

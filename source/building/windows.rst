@@ -2,6 +2,9 @@
 Building NumPy & SciPy From Source on Windows
 =============================================
 
+.. contents::
+   :local:
+
 Supported Compilers
 -------------------
 
