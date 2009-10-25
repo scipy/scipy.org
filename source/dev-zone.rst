@@ -4,11 +4,11 @@ Developer Zone
 We need your help!
 ------------------
 
-This is a distributed, volunteer project with many contributors. The best way
-to join our effort is to browse around, read the last section of this page to
-learn about our vision and plans, and then announce your intent to help on one
-of the developer ["Mailing Lists"] or contact any of the folks listed on this
-page.
+This is a distributed, volunteer project with many contributors. The
+best way to join our effort is to browse around, read the last section
+of this page to learn about our vision and plans, and then announce
+your intent to help on one of the developer :doc:`mailing lists
+<mailing-lists>` or contact any of the folks listed on this page.
 
 Steering Committee
 ------------------

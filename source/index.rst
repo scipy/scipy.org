@@ -3,9 +3,10 @@ Scientific Computing Tools For Python
 
 .. toctree::
     :maxdepth: 2
-    
+
     download
     faq
+    mailing-lists
     dev-zone
 
 

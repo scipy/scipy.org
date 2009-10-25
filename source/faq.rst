@@ -146,9 +146,10 @@ your software, please tell us by entering a ticket in the
 How can I get involved in SciPy?
 ################################
 
-Drop us a mail on the mailing lists.  We are keen for more people to help out
-writing code, unit tests, documentation (including translations into other
-languages), and helping out with the website.
+Drop us a mail on the :doc:`mailing lists <mailing-lists>`.  We are
+keen for more people to help out writing code, unit tests,
+documentation (including translations into other languages), and
+helping out with the website.
 
 Is there commercial support available?
 ######################################
@@ -440,8 +441,9 @@ masked arrays <http://projects.scipy.org/numpy/wiki/MaskedArray>`_.
 Why doesn't A[[0, 1, 1, 2]] += 1 do what I think it should?
 ###########################################################
 
-This comes up from time to time on the mailing list. See
-`here <http://projects.scipy.org/pipermail/numpy-discussion/2006-March/
+This comes up from time to time on the :doc:`mailing list
+<mailing-lists>`. See `here
+<http://projects.scipy.org/pipermail/numpy-discussion/2006-March/
 006877.html>`_ for one extensive discussion.
 
 ::
