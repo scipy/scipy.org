@@ -16,13 +16,37 @@ import sys, os
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #sys.path.append(os.path.abspath('.'))
+sys.path.append(os.path.abspath('sphinxext'))
 
 # -- General configuration -----------------------------------------------------
 
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
-extensions = ['sphinx.ext.intersphinx', 'sphinx.ext.pngmath',
+extensions = ['sphinx.ext.intersphinx',
+              'sphinx.ext.pngmath',
+              'ipython_console_highlighting',
               'sphinx.ext.ifconfig']
+
+# Matplotlib sphinx extensions
+# ----------------------------
+
+# Currently we depend on some matplotlib extentions that are only in
+# the trunk, so we've added copies of these files to fall back on,
+# since most people install releases.  Once theses extensions have
+# been released for a while we should remove this hack.  I'm assuming
+# any modifications to these extensions will be done upstream in
+# matplotlib!  The matplotlib trunk will have more bug fixes and
+# feature updates so we'll try to use that one first.
+try:
+    import matplotlib.sphinxext
+    extensions.append('matplotlib.sphinxext.mathmpl')
+    extensions.append('matplotlib.sphinxext.only_directives')
+    extensions.append('matplotlib.sphinxext.plot_directive')
+except ImportError:
+    extensions.append('mathmpl')
+    extensions.append('only_directives')
+    extensions.append('plot_directive')
+
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
