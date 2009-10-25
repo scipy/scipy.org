@@ -19,8 +19,8 @@ the top. This reduces inbox clutter, but means you will get the messages with
 a delay of up to a day. It is okay to post job ads for work involving
 NumPy/SciPy and related packages if you put "[JOB]" in the subject.
 
-Core NumPy and SciPy Mailing Lists
-----------------------------------
+We also have read-only mailing lists setup for NumPy and SciPy to receive
+notifications of all SVN checkins and Trac ticket changes.
 
 +----------------------+-----------------+----------------+-----------------+
 | **NumPy-discussion** | `Read/Search`__ | `Archives`__   | `Subscribe`__   |
@@ -73,21 +73,6 @@ Core NumPy and SciPy Mailing Lists
 +----------------------+-----------------+----------------+-----------------+
 | SVN commits to the SciPy repository                                       |
 +---------------------------------------------------------------------------+
-
-
-
-
-We also have read-only mailing lists setup for NumPy and SciPy to receive
-notifications of all SVN checkins and Trac ticket changes.
-
- * **numpy-tickets** 
-   All Trac tickets changes for NumPy
- * **numpy-svn** 
-   All SVN check-ins for NumPy
- * **scipy-tickets** 
-   All Trac tickets changes for SciPy
- * **scipy-svn**
-   All SVN check-ins for SciPy
  
 .. _gm-numpy-d: http://dir.gm.org/gm.comp.python.numeric.general
 .. _gm-scipy-u: http://dir.gm.org/gm.comp.python.scientific.user
