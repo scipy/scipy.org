@@ -32,6 +32,9 @@ vendor.
 |        |  **Ubuntu Linux**            |                                     |
 +--------+------------------------------+-------------------------------------+
 
+Build instructions are available for :doc:`linux <building/linux>`,
+:doc:`windows <building/windows>` and Mac OSX.
+
 .. _SourceForge site for NumPy: http://sourceforge.net/projects/numpy/files/
 .. _SourceForge site for SciPy: http://sourceforge.net/projects/scipy/files/
 .. _SciPy PPA on Launchpad: https://edge.launchpad.net/~scipy/+archive/ppa
