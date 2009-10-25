@@ -104,6 +104,37 @@ an excellent way to become familiar with the Python syntax and objects. An
 alternative introduction can be found in the free online book `Dive Into 
 Python <http://diveintopython.org/>`_ by Mark Pilgrim.
 
+
+An example session
+##################
+
+.. sourcecode:: ipython
+
+    Python 2.5.1 (r251:54863, May  2 2007, 16:27:44)
+    Type "copyright", "credits" or "license" for more information.
+    IPython 0.7.3 -- An enhanced Interactive Python.
+    ?       -> Introduction to IPython's features.
+    %magic  -> Information about IPython's 'magic' % functions.
+    help    -> Python's own help system.
+    object? -> Details about 'object'. ?object also works, ?? prints more.
+      Welcome to pylab, a matplotlib-based Python environment.
+      For more information, type 'help(pylab)'.
+
+IPython offers a great many convenience features, such as tab-completion of
+python functions and a good help system.
+
+.. sourcecode:: ipython
+
+    In [1]: %logstart
+    Activating auto-logging. Current session state plus future input saved.
+    Filename       : ipython_log.py
+    Mode           : rotate
+    Output logging : False
+    Raw input log  : False
+    Timestamping   : False
+    State          : active
+
+
 .. _Traits: http://code.enthought.com/projects/traits/
 .. _wxPython: http://www.wxpython.org/
 .. _IPython: http://ipython.scipy.org/
