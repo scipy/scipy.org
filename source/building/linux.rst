@@ -43,9 +43,9 @@ Basic install
 To use this repository with yum, simply pick up your
 arch/distribution, and take the corresponding .repo file. Put this
 .repo file into /etc/yum.repo.d/, and then install numpy/scipy with
-yum:
+yum::
 
-yum install python-numpy python-scipy
+  yum install python-numpy python-scipy
 
 I also packaged timers and testers for blas and lapack, which can be
 useful if you intend to compile special optimized versions of
@@ -418,16 +418,19 @@ the package manager ('''YaST''') with the '''Installation Source'''
 dialog. The packages will then appear in the '''Software Management'''
 dialog.
 
-Alternatively the *.rpm files can be downloaded and installed manually
+Alternatively the ``*.rpm`` files can be downloaded and installed manually
 (for example 'rpm -U <filename>' or with 'kpackage').
 
 
  * Science: [http://download.opensuse.org/repositories/science/]
+
    * This repository contains: '''Numpy''', '''Scipy''',
      '''Matplotlib''', and many more packages of interest for
      scientific users.
+
    * Installation was tested with openSUSE 11.0 and 11.1, both i586
      and x86-64.
+
      * For openSUSE 11.1-x586 additionally the
        [http://en.opensuse.org/Additional_YaST_Package_Repositories#Packman
        Packman repository] was required as an 'Installation
@@ -442,12 +445,16 @@ Alternatively the *.rpm files can be downloaded and installed manually
    active. Also its relatively wide audience (schools) might lead to
    continuing development. (The author of this section has also filed
    bug reports in their Bugzilla.)
+
    * This repository contains: '''Numpy''', '''Scipy''',
      '''Matplotlib''', and very many other packages.
+
    * Repository has own Bugzilla:
      [http://devzilla.novell.com/education/enter_bug.cgi] and Website:
      [http://en.opensuse.org/Education]
+
    * Tested with openSUSE 11.0 and 11.1, x86-64:
+
      * openSUSE 11.0: '''broken''' package '''Scipy'''
      * openSUSE 11.1: one error in scipy.test(), package seems
        (mostly) functional though.
@@ -458,9 +465,11 @@ Novell here: [http://software.opensuse.org/search].
 
 One can also search for packages in the very big Packman repository:
 [http://packman.links2linux.org/].
+
  * Lists of Packman mirrors:
    [http://en.opensuse.org/Additional_YaST_Package_Repositories#Packman
    1] [http://packman.links2linux.de/MIRRORS.html 2]
+
  * The packman repository should be given a low priority (high value,
    for example 200, in priority field). It contains very many
    packages, that are also present in SUSE's standard
@@ -471,7 +480,9 @@ Users of older versions of SUSE/openSuse can install '''Sage''', a big
 collection of Mathematics related software. It was recently
 (Jul. 2009) reported that compiling and installing Sage from sources
 worked flawlessly, on SUSE Linux 10.2:
+
  * Sage [http://www.sagemath.org/download-source.html]
+
  * A more detailed description
    [http://www.scipy.org/Installing_SciPy/Linux#head-f4511786c10fc5a608027f22e65df5e5078357b6
    how to install Sage from sources] is on this page too.
@@ -501,6 +512,7 @@ openSuse, please put it here into the Wiki.)
 
 David Cournapeau has a repository devoted to ATLAS, but he has not
 added packages for recent SUSE versions.
+
  * Ashigabou [http://software.opensuse.org/download/home:/ashigabou/]
    This repository contains: '''ATLAS''' and additionally other
    scientific software.
