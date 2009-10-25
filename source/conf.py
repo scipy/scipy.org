@@ -139,9 +139,11 @@ html_static_path = ['_static']
 
 # If false, no module index is generated.
 #html_use_modindex = True
+html_use_modindex = False
 
 # If false, no index is generated.
 #html_use_index = True
+html_use_index = False
 
 # If true, the index is split into individual pages for each letter.
 #html_split_index = False
