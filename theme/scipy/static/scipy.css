@@ -68,21 +68,31 @@ div.body h4 {
   background-color: transparent;
 }
 
+
+
 /** 
  * Scipy colors
  */
 
-body { 
+body {
   background-color: rgb(100,135,220);
   border: none;
 }
 
 div.sphinxsidebar h3 {
-  color: rgb(0,102,204);
+  color: white;
+}
+
+div.sphinxsidebar h3 a {
+  color: white;
 }
 
 div.sphinxsidebar h4 {
-  color: rgb(0,82,194);
+  color: white;
+}
+
+div.sphinxsidebar h4 a {
+  color: white;
 }
 
 div.sphinxsidebar p {
@@ -170,7 +180,8 @@ body div.top-logo-header {
     text-align: left; 
     background-color: #8CAAE6;
     border-bottom: 8px solid #003399;
-    border-top: 10px solid #6487dc;
+    border-top: 1px solid #aaa;
+    margin-top: 10px;
 }
 
 /**
