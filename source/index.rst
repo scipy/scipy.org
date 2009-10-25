@@ -2,7 +2,7 @@ Scientific Computing Tools For Python
 =====================================
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
 
     download
     faq
@@ -13,7 +13,7 @@ Scientific Computing Tools For Python
 SciPy (pronounced "Sigh Pie") is, broadly speaking, an ecosystem of 
 open-source software for mathematics, science, and engineering. 
 
-SciPy refers to three related but distinct things:
+SciPy refers to three related but distinct entities:
 
 * A *software library*, a collection of scientific toolboxes based on NumPy_;
 * A *community* surrounding an open source software tool stack, including but not limited to NumPy and SciPy;
@@ -35,9 +35,6 @@ leading scientists and engineers.
 The Tool Stack for Scientific Computing With Python
 ---------------------------------------------------
 
-Unlike other environments, the SciPy toolstack encompasses many
-individual packages. 
-
 Core Tools
 ##########
 
@@ -47,6 +44,9 @@ Core Tools
 * For interactive scientific computing, the most popular solution is
   IPython_ - a heavily enhanced version of the Python interactive interpreter
   designed with scientific and parallel computing in mind.
+
+The following packages are often used in conjunction with the core
+tools to form a powerful scientific toolstack:
 
 2D Visualization
 ################
