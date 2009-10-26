@@ -18,7 +18,6 @@
 
 
 {%- block sidebarsearch %}
-{%- if pagename != "search" %}
 <div id="searchbox" style="display: none">
     <h3>{{ _('Search') }}</h3>
 <form class="search" action="http://www.google.com/search" method="get">
@@ -29,5 +28,4 @@
   </form>
 </div>
 <script type="text/javascript">$('#searchbox').show(0);</script>
-{%- endif %}
 {%- endblock %}
