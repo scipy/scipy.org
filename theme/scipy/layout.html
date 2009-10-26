@@ -5,12 +5,6 @@
 {% endblock %}
 
 
-{% block rootrellink %}
-        <li><a href="{{ pathto('index') }}">home</a>|&nbsp;</li>
-        <li><a href="{{ pathto('search') }}">search</a>|&nbsp;</li>
-       <li><a href="{{ pathto('content') }}">documentation </a> &raquo;</li>
-{% endblock %}
-
 {% block relbar1 %}
 <div class="top-logo-header">
 <a href="{{ pathto('index') }}"><img src="{{ pathto("_static/logo.gif", 1) }}" border="0" alt="SciPy Website"/></a>
