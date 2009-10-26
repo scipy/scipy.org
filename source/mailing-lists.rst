@@ -74,50 +74,50 @@ The following table lists the core NumPy and SciPy lists. Please see
 :ref:`before-you-post` to make sure that this is the right place to ask 
 your question.
 
-+----------------------+-----------------+----------------+-----------------+
-| **NumPy-discussion** | `Read/Search`__ | `Archives`__   | `Subscribe`__   |
-|                      |                 |                |                 |
-|                      | __ gm-numpy-d_  | __ numpy-d-ar_ | __ numpy-d-su_  |
-+----------------------+-----------------+----------------+-----------------+
-|   For discussion of *just* the core NumPy package (not SciPy).            |
-+----------------------+-----------------+----------------+-----------------+
-| **SciPy-user**       | `Read/Search`__ | `Archives`__   | `Subscribe`__   |
-|                      |                 |                |                 |
-|                      | __ gm-scipy-u_  | __ scipy-u-ar_ | __ scipy-u-su_  |
-+----------------------+-----------------+----------------+-----------------+
-|   Our user-support forum, for discussions of how to use SciPy.            |
-+----------------------+-----------------+----------------+-----------------+
-| **SciPy-dev**        | `Read/Search`__ | `Archives`__   | `Subscribe`__   |
-|                      |                 |                |                 |
-|                      | __ gm-scipy-d_  | __ scipy-d-ar_ | __ scipy-d-su_  |
-+----------------------+-----------------+----------------+-----------------+
-| For discussions about the development of SciPy, including code, website   |
-| and documentation.                                                        |
-+----------------------+-----------------+----------------+-----------------+
-| **NumPy-tickets**    |                 | `Archives`__   | `Subscribe`__   |
-|                      |                 |                |                 |
-|                      |                 | __ numpy-t-ar_ | __ numpy-t-su_  |
-+----------------------+-----------------+----------------+-----------------+
-| Trac ticket changes for NumPy                                             |
-+----------------------+-----------------+----------------+-----------------+
-| **NumPy-svn**        |                 | `Archives`__   | `Subscribe`__   |
-|                      |                 |                |                 |
-|                      |                 | __ numpy-s-ar_ | __ numpy-s-su_  |
-+----------------------+-----------------+----------------+-----------------+
-| SVN commits to the NumPy repository                                       |
-+----------------------+-----------------+----------------+-----------------+
-| **SciPy-tickets**    |                 | `Archives`__   | `Subscribe`__   |
-|                      |                 |                |                 |
-|                      |                 | __ scipy-t-ar_ | __ scipy-t-su_  |
-+----------------------+-----------------+----------------+-----------------+
-| Trac ticket changes for SciPy                                             |
-+----------------------+-----------------+----------------+-----------------+
-| **SciPy-svn**        |                 | `Archives`__   | `Subscribe`__   |
-|                      |                 |                |                 |
-|                      |                 | __ scipy-s-ar_ | __ scipy-s-su_  |
-+----------------------+-----------------+----------------+-----------------+
-| SVN commits to the SciPy repository                                       |
-+---------------------------------------------------------------------------+
+ +----------------------+----------------+---------------+----------------+
+ | **NumPy-discussion** |`Read/Search`__ |`Archives`__   |`Subscribe`__   |
+ |                      |                |               |                |
+ |                      |__ gm-numpy-d_  |__ numpy-d-ar_ |__ numpy-d-su_  |
+ +----------------------+----------------+---------------+----------------+
+ |   For discussion of *just* the core NumPy package (not SciPy).         |
+ +----------------------+----------------+---------------+----------------+
+ | **SciPy-user**       |`Read/Search`__ |`Archives`__   |`Subscribe`__   |
+ |                      |                |               |                |
+ |                      |__ gm-scipy-u_  |__ scipy-u-ar_ |__ scipy-u-su_  |
+ +----------------------+----------------+---------------+----------------+
+ |   Our user-support forum, for discussions of how to use SciPy.         |
+ +----------------------+----------------+---------------+----------------+
+ | **SciPy-dev**        |`Read/Search`__ |`Archives`__   |`Subscribe`__   |
+ |                      |                |               |                |
+ |                      |__ gm-scipy-d_  |__ scipy-d-ar_ |__ scipy-d-su_  |
+ +----------------------+----------------+---------------+----------------+
+ | For discussions about the development of SciPy, including code, website|
+ | and documentation.                                                     |
+ +----------------------+----------------+---------------+----------------+
+ | **NumPy-tickets**    |                |`Archives`__   |`Subscribe`__   |
+ |                      |                |               |                |
+ |                      |                |__ numpy-t-ar_ |__ numpy-t-su_  |
+ +----------------------+----------------+---------------+----------------+
+ | Trac ticket changes for NumPy                                          |
+ +----------------------+----------------+---------------+----------------+
+ | **NumPy-svn**        |                |`Archives`__   |`Subscribe`__   |
+ |                      |                |               |                |
+ |                      |                |__ numpy-s-ar_ |__ numpy-s-su_  |
+ +----------------------+----------------+---------------+----------------+
+ | SVN commits to the NumPy repository                                    |
+ +----------------------+----------------+---------------+----------------+
+ | **SciPy-tickets**    |                |`Archives`__   |`Subscribe`__   |
+ |                      |                |               |                |
+ |                      |                |__ scipy-t-ar_ |__ scipy-t-su_  |
+ +----------------------+----------------+---------------+----------------+
+ | Trac ticket changes for SciPy                                          |
+ +----------------------+----------------+---------------+----------------+
+ | **SciPy-svn**        |                |`Archives`__   |`Subscribe`__   |
+ |                      |                |               |                |
+ |                      |                |__ scipy-s-ar_ |__ scipy-s-su_  |
+ +----------------------+----------------+---------------+----------------+
+ | SVN commits to the SciPy repository                                    |
+ +------------------------------------------------------------------------+
 
 Affiliated Project Mailing Lists
 --------------------------------
@@ -126,45 +126,45 @@ The following is a partial list of popular mailing lists from related
 scientific Python projects, notably matplotlib_ and IPython_, listed here
 for convenience in helping direct questions to the appropriate mailing list.
 
-+----------------------+-----------------+----------------+-----------------+
-| **matplotlib-users** | `Read/Search`__ | `Archives`__   | `Subscribe`__   |
-|                      |                 |                |                 |
-|                      | __ gm-mpl-u_    | __ mpl-u-ar_   | __ mpl-u-su_    |
-+----------------------+-----------------+----------------+-----------------+
-| For discussions about using the matplotlib plotting library.              |
-+----------------------+-----------------+----------------+-----------------+
-| **matplotlib-devel** | `Read/Search`__ | `Archives`__   | `Subscribe`__   |
-|                      |                 |                |                 |
-|                      | __ gm-mpl-d_    | __ mpl-d-ar_   | __ mpl-d-su_    |
-+----------------------+-----------------+----------------+-----------------+
-| For development discussions about the matplotlib plotting library.        |
-+----------------------+-----------------+----------------+-----------------+
-| **IPython-user**     | `Read/Search`__ | `Archives`__   | `Subscribe`__   |
-|                      |                 |                |                 |
-|                      | __ gm-ip-u_     | __ ip-u-ar_    | __ ip-u-su_     |
-+----------------------+-----------------+----------------+-----------------+
-| For discussions about using the IPython interactive shell.                |
-+----------------------+-----------------+----------------+-----------------+
-| **IPython-dev**      | `Read/Search`__ | `Archives`__   | `Subscribe`__   |
-|                      |                 |                |                 |
-|                      | __ gm-mpl-d_    | __ ip-d-ar_    | __ ip-d-su_     |
-+----------------------+-----------------+----------------+-----------------+
-| For development discussions about the IPython interactive shell.          |
-+----------------------+-----------------+----------------+-----------------+
-| **Enthought-dev**    | `Read/Search`__ | `Archives`__   | `Subscribe`__   |
-|                      |                 |                |                 |
-|                      | __ gm-ets-d_    | __ ets-d-ar_   | __ ets-d-su_    |
-+----------------------+-----------------+----------------+-----------------+
-| The central list for discussion of the Enthought Tool Suite, including    |
-| MayaVi, Chaco, and Traits.                                                |
-+----------------------+-----------------+----------------+-----------------+
-| **AstroPy**          |                 | `Archives`__   | `Subscribe`__   |
-|                      |                 |                |                 |
-|                      |                 | __ astropy-ar_ | __ astropy-su_  |
-+----------------------+-----------------+----------------+-----------------+
-| For discussions about tools and modules for astronomical data analysis    |
-| and processing.                                                           |
-+----------------------+-----------------+----------------+-----------------+
+ +----------------------+----------------+---------------+----------------+
+ | **matplotlib-users** |`Read/Search`__ |`Archives`__   |`Subscribe`__   |
+ |                      |                |               |                |
+ |                      |__ gm-mpl-u_    |__ mpl-u-ar_   |__ mpl-u-su_    |
+ +----------------------+----------------+---------------+----------------+
+ | For discussions about using the matplotlib plotting library.           |
+ +----------------------+----------------+---------------+----------------+
+ | **matplotlib-devel** |`Read/Search`__ |`Archives`__   |`Subscribe`__   |
+ |                      |                |               |                |
+ |                      |__ gm-mpl-d_    |__ mpl-d-ar_   |__ mpl-d-su_    |
+ +----------------------+----------------+---------------+----------------+
+ | For development discussions about the matplotlib plotting library.     |
+ +----------------------+----------------+---------------+----------------+
+ | **IPython-user**     |`Read/Search`__ |`Archives`__   |`Subscribe`__   |
+ |                      |                |               |                |
+ |                      |__ gm-ip-u_     |__ ip-u-ar_    |__ ip-u-su_     |
+ +----------------------+----------------+---------------+----------------+
+ | For discussions about using the IPython interactive shell.             |
+ +----------------------+----------------+---------------+----------------+
+ | **IPython-dev**      |`Read/Search`__ |`Archives`__   |`Subscribe`__   |
+ |                      |                |               |                |
+ |                      |__ gm-mpl-d_    |__ ip-d-ar_    |__ ip-d-su_     |
+ +----------------------+----------------+---------------+----------------+
+ | For development discussions about the IPython interactive shell.       |
+ +----------------------+----------------+---------------+----------------+
+ | **Enthought-dev**    |`Read/Search`__ |`Archives`__   |`Subscribe`__   |
+ |                      |                |               |                |
+ |                      |__ gm-ets-d_    |__ ets-d-ar_   |__ ets-d-su_    |
+ +----------------------+----------------+---------------+----------------+
+ | The central list for discussion of the Enthought Tool Suite, including |
+ | MayaVi, Chaco, and Traits.                                             |
+ +----------------------+----------------+---------------+----------------+
+ | **AstroPy**          |                |`Archives`__   |`Subscribe`__   |
+ |                      |                |               |                |
+ |                      |                |__ astropy-ar_ |__ astropy-su_  |
+ +----------------------+----------------+---------------+----------------+
+ | For discussions about tools and modules for astronomical data analysis |
+ | and processing.                                                        |
+ +----------------------+----------------+---------------+----------------+
 
 .. _Gmane: http://www.gmane.org/ 
 .. _matplotlib: http://matplotlib.sourceforge.net/
