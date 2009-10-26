@@ -67,8 +67,8 @@ A few points on mailing list etiquette:
   recognize that those responding to your questions are volunteering 
   their free time to do so. 
 
-SciPy.org Mailing Lists
------------------------
+Mailing Lists
+-------------
 
 The following table lists the core NumPy and SciPy lists. Please see 
 :ref:`before-you-post` to make sure that this is the right place to ask 
