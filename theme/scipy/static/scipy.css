@@ -196,3 +196,9 @@ body div.footer {
 body div.footer a {
     color: white;
 }
+
+img.packageicon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
