@@ -201,9 +201,9 @@ the package maintainer first, rather than to the NumPy/SciPy mailing lists**.
 |                     |                           |                           |
 |                     | __ python-numpy-debian_   | __ python-scipy-debian_   |
 +---------------------+---------------------------+---------------------------+
-| `Fedora Core`_      | `numpy`__                 | `scipy`__                 |
+| `Fedora`_           | `numpy`__                 | `scipy`__                 |
 |                     |                           |                           |
-|                     | __ numpy-fedoracore_      | __ scipy-fedoracore_      |
+|                     | __ numpy-fedora_          | __ scipy-fedora_          |
 +---------------------+---------------------------+---------------------------+
 | `Fink`_             | `scipy-core-py24`_,       | `scipy-py24`_,            |
 |                     | `scipy-core-py25`_,       | `scipy-py25`_,            |
@@ -263,9 +263,9 @@ the package maintainer first, rather than to the NumPy/SciPy mailing lists**.
 .. _dev-python/numpy: http://packages.gentoo.org/package/dev-python/numpy
 
 .. Fedora Core links
-.. _Fedora Core: http://www.fedoraproject.org/
-.. _numpy-fedoracore: https://admin.fedoraproject.org/pkgdb/packages/name/numpy
-.. _scipy-fedoracore: https://admin.fedoraproject.org/pkgdb/packages/name/scipy
+.. _Fedora: http://www.fedoraproject.org/
+.. _numpy-fedora: https://admin.fedoraproject.org/pkgdb/packages/name/numpy
+.. _scipy-fedora: https://admin.fedoraproject.org/pkgdb/packages/name/scipy
 
 .. ArchLinux links
 .. _Arch Linux: http://www.archlinux.org/
