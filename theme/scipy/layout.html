@@ -1,5 +1,10 @@
 {% extends "sphinxdoc/layout.html" %}
 
+{% block sidebarlogo %}
+  {% include 'sitenav.html' %}
+{% endblock %}
+
+
 {% block rootrellink %}
         <li><a href="{{ pathto('index') }}">home</a>|&nbsp;</li>
         <li><a href="{{ pathto('search') }}">search</a>|&nbsp;</li>
