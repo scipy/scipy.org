@@ -10,9 +10,6 @@ Scientific Computing Tools For Python
     dev-zone
 
 
-SciPy (pronounced "Sigh Pie") is, broadly speaking, an ecosystem of 
-open-source software for mathematics, science, and engineering. 
-
 SciPy refers to three related but distinct entities:
 
 * A *software library*, a collection of scientific toolboxes based on NumPy_;
