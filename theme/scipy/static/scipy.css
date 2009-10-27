@@ -202,3 +202,10 @@ img.packageicon {
     margin-left: auto;
     margin-right: auto;
 }
+td.package {
+    vertical-align: top;
+}
+td.packageicon {
+    vertical-align: middle;
+}
+
