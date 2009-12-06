@@ -1,10 +1,14 @@
+================
+Topical Software
+================
+
 This page indexes add-on software and other resources relevant to SciPy,
 categorized by scientific discipline or computational topic.  It is intended to
 be exhaustive.  If you know of an unlisted resource, see About This Page,
 below.
 
 About This Page
-===============
+---------------
 
 As the links in each section become numerous, they may be placed on separate
 pages of their own, so be sure to visit those pages as well, if they're
@@ -29,7 +33,7 @@ page, change the section headings, etc.), please propose the idea to the
 SciPy-dev@scipy.org mailing list first and get community feedback.
 
 General Python resources
-========================
+------------------------
 
 * `Python.org <http://www.python.org>`_: official website for the Python
   language. It includes links to the 
@@ -53,10 +57,9 @@ General Python resources
 
 
 Tutorials and texts
-===================
+-------------------
 
 Some generic Python/programming tutorials:
-------------------------------------------
 
 * `The Official Python Tutorial <http://docs.python.org/tutorial/>`_ from
   Python.org.
@@ -93,9 +96,7 @@ Scientific computing with Python
   by `Dave Kuhlman <dkuhlman@rexx.com>`_.
 
 Working environments
-====================
-
-.. _ipython-target:
+--------------------
 
 * `IPython <http://ipython.scipy.org>`_: an interactive environment with many
   features geared towards efficient work in typical scientific usage. It
@@ -123,9 +124,7 @@ Working environments
   function remain visible and easily modifiable.
 
 Science: basic tools
-====================
-
-.. _scientificpython-target:
+--------------------
 
 * `ScientificPython <http://dirac.cnrs-orleans.fr/ScientificPython/>`_: another
   collection of Python modules for scientific computing. It includes basic
@@ -192,10 +191,10 @@ Science: basic tools
 .. _ROOT: http://root.cern.ch/
 
 Running Code Written In Other Languages
-=======================================
+---------------------------------------
 
 Wrapping C, C++, and FORTRAN Codes
-----------------------------------
+##################################
 
 * `SWIG <http://www.swig.org/>`_: SWIG is a software development tool that
   connects programs written in C and C++ with a variety of high-level
@@ -215,7 +214,7 @@ Wrapping C, C++, and FORTRAN Codes
   creating Python C/API modules from (handwritten or F2PY generated) signature
   files (or directly from Fortran sources).
 
-* ["Weave"]: allows the inclusion of C/C++ within Python code. It has
+* Weave_: included in SciPy; allows the inclusion of C/C++ within Python code. It has
   facilities for automatic creation of C/C++ based Python extension modules, as
   well as for direct inlining of C/C++ code in Python sources. The latter
   combines the scripting flexibility of Python with the execution speed of
@@ -249,6 +248,8 @@ Wrapping C, C++, and FORTRAN Codes
   is a Python module that allows for instant inlining of C and C++ code in
   Python. It is a small Python module built on top of SWIG.
 
+.. _Weave: http://docs.scipy.org/doc/scipy/reference/tutorial/weave.html
+
 Converting Code From Other Array Languages
 ------------------------------------------
 
@@ -259,10 +260,10 @@ Converting Code From Other Array Languages
   "Source" tab, or `browse <http://pym.googlecode.com/svn/trunk/>`_).
 
 Plotting, data visualization, 3-D programming
-=============================================
+---------------------------------------------
 
 Tools with a (mostly) 2-D focus
--------------------------------
+###############################
 
 * `matplotlib <http://matplotlib.sourceforge.net>`_: a Python 2-D plotting
   library which produces publication quality figures using in a variety of
@@ -270,7 +271,7 @@ Tools with a (mostly) 2-D focus
   GTK, Tkinter, FLTK, Qt) across platforms. matplotlib can be used in python
   scripts, interactively from the python shell (ala matlab or mathematica), in
   web application servers generating dynamic charts, or embedded in GUI
-  applications. For interactive use, IPython__ provides a special mode which 
+  applications. For interactive use, IPython provides a special mode which 
   integrates with matplotlib. See the matplotlib Cookbook for recipes.
 
 * `Chaco <http://code.enthought.com/projects/chaco/>`_: Chaco is a Python
@@ -363,12 +364,10 @@ Tools with a (mostly) 2-D focus
   astronomers (v 1.3 works with Numeric and numarray, but porting to NumPy is
   very easy).
 
-__ ipython-target_
-
 .. _Qt: http://qt.nokia.com/
 
 Data visualization (mostly 3-D, surfaces and volumetric rendering)
-------------------------------------------------------------------
+##################################################################
 
 * `MayaVi <http://mayavi.sourceforge.net/>`_: a free, easy to use scientific
   data visualizer. It is written in `Python <http://www.python.org/>`_ and uses
@@ -393,7 +392,7 @@ Data visualization (mostly 3-D, surfaces and volumetric rendering)
 * `Py2DX <http://www.psc.edu/~eschenbe>`_: Py2DX is a Python binding for the
   `OpenDX <http://www.opendx.org/>`_ API based on Py-OpenDX. Mavis is a
   visualisation software built using this interfacce and the OpenDX
-  library.(Rjoy)
+  library.
 
 * `IVuPy <http://ivupy.sourceforge.net/>`_: (I-View-Py) serves to develop
   Python programs for 3D visualization of huge data sets using Qt and PyQt.
@@ -495,7 +494,7 @@ Other 3-D programming tools
   Library <http://gts.sourceforge.net/>`_.
 
 Optimization
-============
+------------
 
 * OpenOpt_ (license: BSD) -- numerical optimization
   framework with some new solvers and connections to lots of other. It allows
@@ -513,7 +512,7 @@ Optimization
   interfaces to FFTW, BLAS, and LAPACK.
 
 Automatic differentiation
-=========================
+-------------------------
 
 Not to be confused with numerical differentiation via finite differences
 or with symbolic differentiation provided by Maxima, SymPy, etc. See
@@ -524,7 +523,7 @@ explanation of the differences.
 * FuncDesigner_ - A tool for building mathematical functions interactively which
   can be automatically differentiated and optimized using OpenOpt.
 
-* ScientificPython__ - see
+* ScientificPython - see
   modules Scientific.Functions.FirstDerivatives and
   Scientific.Functions.Derivatives
 
@@ -534,10 +533,8 @@ explanation of the differences.
 * `pyadolc <http://github.com/b45ch1/pyadolc>`_- wrapper for ADOL-C, an
   arbitrary-order forward/reverse automatic differentiation package.
 
-__ scientificpython-target_
-
 Finite differences derivatives approximation
-============================================
+--------------------------------------------
 
 * `check_grad
   <http://www.scipy.org/doc/api_docs/SciPy.optimize.optimize.html#check_grad>`_
@@ -554,7 +551,7 @@ Finite differences derivatives approximation
 .. _OpenOpt: http://openopt.org/
 
 Data Storage / Database
-=======================
+-----------------------
 
 * `PyTables <http://www.pytables.org>`_: PyTables is a hierarchical database
   package designed to efficiently manage very large amounts of data. It is
@@ -568,7 +565,7 @@ Data Storage / Database
   declarations).
 
 Parallel and distributed programming
-====================================
+------------------------------------
 
 For a brief discussion of parallel programming within NumPy/SciPy, see
 ParallelProgramming.
@@ -606,15 +603,13 @@ ParallelProgramming.
   interprocess communication, process spawning, and execution on multiple
   architectures.
 
-* Module Scientific.BSP in Konrad Hinsen's ScientificPython__
+* Module Scientific.BSP in Konrad Hinsen's ScientificPython
   provides an experimental interface to the Bulk Synchronous Parallel (BSP)
   model of parallel programming (note the link to the BSP tutorial on the
   ScientificPython page). Module Scientific.MPI provides an MPI interface. The
   `BSP <http://www.bsp-worldwide.org/>`_ model is an alternative to MPI and PVM
   message passing model. It is said to be easier to use than the message
   passing model, and is guaranteed to be deadlock-free.
-
-__ scientificpython-target_
 
 * `Pyro <http://pyro.sourceforge.net>`_: PYthon Remote Objects (Pyro) provides
   an object-oriented form of RPC. It is a Distributed Object Technology system
@@ -650,23 +645,19 @@ __ scientificpython-target_
   library.
 
 Partial differential equation (PDE) solvers
-===========================================
+-------------------------------------------
 
-* FiPy__
+* FiPy
 
-* SfePy__
+* SfePy
 
-* Hermes__
-
-__ fipy-target_
-__ sfepy-target_
-__ hermes-target_
+* Hermes
 
 Topic guides, organized by scientific field
-===========================================
+-------------------------------------------
 
 Astronomy
----------
+#########
 
 * `AstroPy <http://www.scipy.org/wikis/topical_software/Astronomy>`_: Central
   repository of information about Python and Astronomy and associated `mailing
@@ -713,7 +704,7 @@ Astronomy
   grouped under engineering tools.
 
 Artificial intelligence & machine learning
-------------------------------------------
+##########################################
 
 * See also the **Bayesian Statistics** section below
 
@@ -758,8 +749,8 @@ Artificial intelligence & machine learning
   Monte includes neural networks, conditional random fields, logistic
   regression and more.
 
-Bayesian Statistics
--------------------
+Bayesian statistics
+###################
 
 * `PyMC <http://code.google.com/p/pymc/>`_: PyMC is a Python module that
   provides a Markov chain Monte Carlo (MCMC) toolkit, making Bayesian
@@ -770,7 +761,7 @@ Bayesian Statistics
   Bayesian statistical simulation.
 
 Biology (including Neuroscience)
---------------------------------
+################################
 
 * `Brian <http://www.briansimulator.org>`_: a simulator for spiking neural
   networks in Python.
@@ -835,7 +826,7 @@ Biology (including Neuroscience)
 * `PsychoPy <http://www.psychopy.org/>`_: create psychology stimuli in Python
 
 Dynamical systems
------------------
+#################
 
 * `PyDSTool <http://pydstool.sourceforge.net/>`_: PyDSTool is an integrated
   simulation, modeling and analysis package for dynamical systems (ODEs, DDEs,
@@ -889,28 +880,27 @@ Dynamical systems
   commands provided by VFGEN.
 
 Economics and Econometrics
---------------------------
+##########################
 
 * `pyTrix <http://www.american.edu/econ/pytrix/pytrix.htm>`_: a small set of
   utilities for economics and econometrics, including pyGAUSS (GAUSS command
   analogues for use in SciPy).
 
-Electromagnetics
-----------------
+fINITE 
+
+Electromagnetic
+################
 
 * `PyFemax <http://people.web.psi.ch/geus/pyfemax>`_: computation of
   electro-magnetic waves in accelerator cavities.
 
-* FiPy__
+* FiPy
 
-* FEval__
-
-__ fipy-target_
-__ feval-target_
+* FEval
 
 
 Geosciences
------------
+###########
 
 * `CDAT <http://www-pcmdi.llnl.gov/software-portal/cdat>`_: (Climate Data
   Analysis Tools) is a suite of tools for analysis of climate models.
@@ -1112,7 +1102,7 @@ Symbolic math, number theory, etc.
   and Gnuplot.
 
 Miscellaneous
-=============
+-------------
 
 * These are just other links which may be very useful to scientists, but which
   I don't quite know where to categorize, or for which I didn't want to make a
@@ -1188,8 +1178,6 @@ Miscellaneous
   Analysis (PCA), Independent Component Analysis (ICA), Slow Feature 
   Analysis (SFA), and Growing Neural Gas.
 
-.. _fipy-target:
-
 * `FiPy <http://www.ctcms.nist.gov/fipy/>`_: FiPy is an object
   oriented, partial differential equation (PDE) solver, written in Python ,
   based on a standard finite volume (FV) approach. The framework has been
@@ -1197,8 +1185,6 @@ Miscellaneous
   Computational Materials Science (CTCMS), in the Materials Science and
   Engineering Laboratory (MSEL) at the National Institute of Standards and
   Technology (NIST).
-
-.. _sfepy-target:
 
 * `SfePy <http://sfepy.org>`_: SfePy is a finite element
   solver written in Python, with the time demanding parts implemented in C and
@@ -1209,14 +1195,10 @@ Miscellaneous
   theory of homogenization, with applications in modeling of porous media (for
   example bones or soft tissue organs) or phononic materials.
 
-.. _hermes-target:
-
 * `Hermes <http://hpfem.org>`_: Hermes is a free C++/Python
   library for rapid prototyping of adaptive FEM and hp-FEM solvers developed by
   an open source community around the hp-FEM group at the University of Nevada,
   Reno.
-
-.. _feval-target:
 
 * `FEval <http://www.sourceforge.net/projects/feval>`_: FEval
   is useful for conversion between many finite element file formats. The main
@@ -1245,6 +1227,3 @@ Miscellaneous
   scalar class can be switched off for production runs to achieve the execution
   efficiency of operations on built-in numeric types, which can be up to two
   orders of magnitude faster. A user guide is provided.
-
-
-
