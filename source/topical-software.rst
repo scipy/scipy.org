@@ -54,8 +54,6 @@ General Python resources
   maintain a resource center devoted to Python. This includes both their
   publications and articles on Python-related topics.
 
-
-
 Tutorials and texts
 -------------------
 
@@ -88,37 +86,49 @@ Scientific computing with Python
   <http://mathesaurus.sourceforge.net>`_: A Python/MATLAB/Octave/SciLab/R/Gnuplot/IDL/Axiom
   cross-language reference by Vidar Gundersen.
 
+* A `reference guide for IDL users
+  <http://www.johnny-lin.com/cdat_tips/tips_array/idl2num.html>`_ 
+  listing IDL commands and their rough equivalents in Python/Numarray, mostly
+  applicable to Numarray's successor NumPy.
+
 * `Software Carpentry <http://www.swc.scipy.org>`_ is an open source course on
   basic software development skills for people with backgrounds in science,
   engineering, and medicine.
 
-* `A tutorial for SciPy <http://www.rexx.com/~dkuhlman/SciPy_course_01.html>`_
+* `A tutorial for SciPy <http://www.rexx.com/~dkuhlman/scipy_course_01.html>`_
   by `Dave Kuhlman <dkuhlman@rexx.com>`_.
 
 Working environments
 --------------------
 
-* `IPython <http://ipython.scipy.org>`_: an interactive environment with many
+* `IPython <http://ipython.scipy.org>`_ is an interactive environment with many
   features geared towards efficient work in typical scientific usage. It
   borrows many ideas from the interactive shells of Mathematica, IDL, Matlab
   and similar packages. It includes special support for the matplotlib and
   gnuplot plotting packages. IPython also has support for (X)Emacs, to be used
   as a full IDE with IPython as the interactive Python shell.
 
-* `Pydee <http://code.google.com/p/pydee/>`_: A Qt based IDE suited to
-  developing scientific applications.  Includes integrated and external python
+* `Sage <http://www.sagemath.org/>`_ is a monolithic software distribution
+  which includes a Mathematica-like notebook interface which runs in a web
+  browser. Cells of the notebook can run Python and Cython_ (as well as Sage's
+  own preprocessed Python dialect) and display plots and interactive 
+  widgets.
+
+* `Spyder <http://code.google.com/p/spyderlib/>`_: A Qt based IDE suited to
+  developing scientific applications.  Includes integrated and external Python
   consoles, code checking built into the editor, a graphical class browser and
   full support for matplotlib graphs.
 
-* `Pymacs <http://pymacs.progiciels-bpi.ca/>`_: a tool which, once started from
-  Emacs, allows both-way communication between Emacs Lisp and Python.
+* `Pymacs <http://pymacs.progiciels-bpi.ca/notes/Pymacs_project.html>`_: 
+  a tool which, once started from Emacs, allows both-way communication 
+  between Emacs Lisp and Python.
 
 * `Pythonika <http://dkbza.org/pythonika.html>`_: A MathLink module for
   Mathematica allowing to write Python code within a Mathematica notebook and
   transparently translating objects between the two.
 
-* `tmPython <http://dkbza.org/tmPython.html>`_: the `TeXmacs
-  <http://www.texmacs.org/>`_ Python plugin. It provides a 'Mathematica
+* `tmPython <http://dkbza.org/tmPython.html>`_, the `TeXmacs
+  <http://www.texmacs.org/>`_ Python plugin, provides a 'Mathematica
   Notebook' styled interface to Python from within TeXmacs. Blocks of code can
   be run independently of their order, and full multiline blocks, i.e.,
   function remain visible and easily modifiable.
@@ -138,91 +148,101 @@ Science: basic tools
   BSPlib (Bulk Synchronous Parallel programming). Much of this functionality
   has been incorporated into SciPy, but not all.
 
-* `Numexpr <http://code.google.com/p/numexpr/>`_: a package that accepts NumPy
-  array expressions as strings, rewrites them to optimize execution time and
-  memory use, and executes them much faster than NumPy usually can.
-
-* `PyGSL <http://pygsl.sourceforge.net/>`_: a python interface for the
-  `GNU scientific library (gsl) <http://www.gnu.org/software/gsl>`_.
-
-* `GMPY <http://gmpy.sourceforge.net/>`_: a python interface for the
-  `GNU Multiple Precision library (gmp) <http://www.swox.com/gmp>`_.
-
-* `RPy <http://rpy.sourceforge.net/>`_: a very simple, yet robust, Python
-  interface to the `R Programming Language <http://www.r-project.org/>`_. It
-  can manage all kinds of R objects and can execute arbitrary R functions
-  (including the graphic functions). All errors from the R language are
-  converted to Python exceptions. Any module installed for the R system can be
-  used from within Python.
-
-* `PyROOT <http://cern.ch/wlav/pyroot>`_, a run-time based python binding to
-  the ROOT_ framework: ROOT is a complete system for
-  development of scientific applications, from math and graphics libraries, to
+* `PyROOT <http://cern.ch/wlav/pyroot>`_, a run-time based Python binding to
+  the ROOT_ framework: ROOT is a complete system for development of 
+  scientific applications, from math and graphics libraries, to
   efficient storage and reading of huge data sets, to distributed analysis. The
-  python bindings are based on run-time type information, such that you can add
+  Python bindings are based on run-time type information, such that you can add
   your own C++ classes on the fly to the system with a one-liner and
   down-casting as well as pointer manipulations become unnecessary. Using RTTI
   keeps memory and call overhead down to a minimum, resulting in bindings that
   are more light-weight and faster than any of the "standard" bindings
   generators.
 
-* `PAIDA <http://paida.sourceforge.net/>`_, a pure Python scientific analysis
-  tool including `AIDA <http://aida.freehep.org/>`_ interface.
+.. _ROOT: http://root.cern.ch/
 
-* `PyDX <http://gr.anu.edu.au/~sdburton/pydx/>`_, automatic differentiation,
-  arbitrary precision arithmetic, interval arithmetic, interval ODE solver,
-  differential geometry constructs.
-
-* `bvp <http://www.iki.fi/pav/software/bvp/index.html>`_, a Python wrapper for
-  a modified version of the `COLNEW <http://netlib.org/ode/colnew.f>`_ boundary
-  value problem solver. (COLNEW has a non-commercial-only type license)
+* `PAIDA <http://paida.sourceforge.net/>`_, is a pure Python scientific 
+  analysis tool for working with common objects in physics,
+  such as histograms and ntuples, which provides an `AIDA 
+  <http://aida.freehep.org/>`_ interface.
 
 * `NetworkX <https://networkx.lanl.gov/>`_, Python package for the creation,
   manipulation, and study of the structure, dynamics, and function of complex
   networks.
 
-* `PyAMG <http://www.pyamg.org/>`_, a library of Algebraic Multigrid (AMG)
-  solvers for large scale linear algebra problems.
-
 * `PyTrilinos <http://trilinos.sandia.gov/packages/pytrilinos/index.html>`_
   Python interface to Trilinos, a framework for solving large-scale, complex
   multi-physics engineering and scientific problems.
 
-.. _ROOT: http://root.cern.ch/
+* `PyAMG <http://www.pyamg.org/>`_, a library of Algebraic Multigrid (AMG)
+  solvers for large scale linear algebra problems.
+
+
+* `PyDX <http://gr.anu.edu.au/~sdburton/pydx/>`_ provides automatic
+  differentiation, arbitrary precision arithmetic, interval arithmetic,
+  interval ODE solver, differential geometry constructs.
+
+Python Wrappers for Existing Numerical Libraries
+################################################
+
+* `PyGSL <http://pygsl.sourceforge.net/>`_: a Python interface for the
+  `GNU scientific library (gsl) <http://www.gnu.org/software/gsl>`_.
+
+* `GMPY <http://gmpy.sourceforge.net/>`_: a Python interface for the
+  `GNU Multiple Precision library (gmp) <http://www.swox.com/gmp>`_.
+  
+* `bvp <http://www.iki.fi/pav/software/bvp/index.html>`_, a Python wrapper for
+  a modified version of the `COLNEW <http://netlib.org/ode/colnew.f>`_ boundary
+  value problem solver (COLNEW has a non-commercial-only type license).
 
 Running Code Written In Other Languages
 ---------------------------------------
 
-Wrapping C, C++, and FORTRAN Codes
-##################################
+C/C++
+#####
+
+.. _cython-target:
+
+* Cython_ is an amicable fork of the venerable Pyrex_ package which 
+  contains many advanced features not found in Pyrex, including very 
+  natural support for `handling NumPy arrays 
+  <http://docs.cython.org/src/tutorial/numpy.html>`_
+  as well as the `PEP-3118 buffer protocol 
+  <http://www.python.org/dev/peps/pep-3118/>`_. It is quite popular
+  within the Python scientific computing community.
+
+* `ctypes <http://docs.python.org/library/ctypes.html>`_ is a module in the
+  Python standard library (bundled with Python 2.5 and later) that allows you
+  to create and manipulate C data types in Python, and to call functions in
+  dynamic link libraries/shared DLLs. It allows wrapping these libraries in
+  pure Python. NumPy arrays include a ``ctypes`` property allowing easy passing
+  of the arrays to code wrapped with ctypes. See the `cookbook entry
+  <http://www.scipy.org/Cookbook/Ctypes>`_ for more information.
 
 * `SWIG <http://www.swig.org/>`_: SWIG is a software development tool that
   connects programs written in C and C++ with a variety of high-level
   programming languages. SWIG is primarily used with common scripting languages
-  such as Perl, Python, Tcl/Tk and Ruby. The
-  `SWIG Typemaps <https://geodoc.uchicago.edu/climatewiki/SwigTypemaps>`_ page
-  SWIG modifications for usage with Numeric arrays.
+  such as Perl, Python, Tcl/Tk and Ruby. The `SWIG Typemaps
+  <https://geodoc.uchicago.edu/climatewiki/SwigTypemaps>`_ page SWIG
+  modifications for usage with Numeric arrays.
 
 * `Boost.Python <http://www.boost.org/libs/python/doc/index.html>`_: a C++
   library which enables seamless interoperability between C++ and Python. The
-  `PythonInfo Wiki <http://wiki.python.org/moin/boost.python>`_ contains a
-  good howto reference. `C++-sig <http://www.python.org/sigs/c++-sig/>`_ at
-  python.org is devoted to Boost and you can subscribe to their mailing list.
+  `PythonInfo Wiki <http://wiki.python.org/moin/boost.python>`_ contains a good
+  howto reference. `C++-sig <http://www.python.org/sigs/c++-sig/>`_ at
+  Python.org is devoted to Boost.
 
-* `F2PY <http://cens.ioc.ee/projects/f2py2e/>`_: provides a connection between
-  the Python and Fortran languages. F2PY is a Python extension tool for
-  creating Python C/API modules from (handwritten or F2PY generated) signature
-  files (or directly from Fortran sources).
+* Pyrex_ is a Python dialect that lets you write code that mixes Python and C
+  data types any way you want, and compiles it into a C extension for Python.
+  See also Cython__.
 
-* Weave_: included in SciPy; allows the inclusion of C/C++ within Python code. It has
-  facilities for automatic creation of C/C++ based Python extension modules, as
-  well as for direct inlining of C/C++ code in Python sources. The latter
-  combines the scripting flexibility of Python with the execution speed of
-  compiled C/C++, while handling automatically all module generation details.
+__ cython-target_
 
-* `Pyrex <http://www.cosc.canterbury.ac.nz/~greg/python/Pyrex/>`_: Pyrex lets
-  you write code that mixes Python and C data types any way you want, and
-  compiles it into a C extension for Python. See also `Cython <http://cython.org>`_.
+* `PyCxx <http://cxx.sourceforge.net>`_: CXX/Objects is a set of C++ facilities
+  to make it easier to write Python extensions. The chief way in which PyCXX
+  makes it easier to write Python extensions is that it greatly increases the
+  probability that your program will not make a reference-counting error and
+  will not have to continually check error returns from the Python C API.
 
 * `SIP <http://www.riverbankcomputing.co.uk/sip/>`_: a tool for automatically
   generating `Python <http://www.python.org/>`_ bindings for C and C++
@@ -231,33 +251,63 @@ Wrapping C, C++, and FORTRAN Codes
   for the Qt GUI toolkit, but is suitable for generating bindings for any C or
   C++ library.
 
-* `PyCxx <http://cxx.sourceforge.net>`_: CXX/Objects is a set of C++
-  facilities to make it easier to write Python extensions. The chief way in
-  which PyCXX makes it easier to write Python extensions is that it greatly
-  increases the probability that your program will not make a
-  reference-counting error and will not have to continually check error returns
-  from the Python C API.
+Inlining C/C++
+##############
 
-* `ctypes <http://starship.python.net/crew/theller/ctypes>`_: a package to
-  create and manipulate C data types in Python, and to call functions in
-  dynamic link libraries/shared dlls. It allows wrapping these libraries in
-  pure Python.
+* Weave_ is a module included in SciPy that allows the inclusion of C/C++
+  within Python code. It has facilities for automatic creation of C/C++ based
+  Python extension modules, as well as for direct inlining of C/C++ code in
+  Python sources. The latter combines the scripting flexibility of Python with
+  the execution speed of compiled C/C++, while handling automatically all
+  module generation details.
 
-* `Instant
-  <http://heim.ifi.uio.no/~kent-and/software/Instant/doc/Instant.html>`_ Instant
-  is a Python module that allows for instant inlining of C and C++ code in
-  Python. It is a small Python module built on top of SWIG.
+* `Instant <http://heim.ifi.uio.no/~kent-and/software/Instant/doc/Instant.html>`_
+  is a Python module that allows for instant in-lining of C and C++ code in
+  Python, similar to Weave_. It is a small Python module built on top of SWIG.
 
-.. _Weave: http://docs.scipy.org/doc/scipy/reference/tutorial/weave.html
+Fortran
+#######
+
+* `F2PY <http://cens.ioc.ee/projects/f2py2e/>`_: provides a connection between
+  the Python and Fortran languages. F2PY is a Python extension tool for
+  creating Python C/API modules from (handwritten or F2PY generated) signature
+  files (or directly from Fortran sources).
+
+R
+#
+
+* `RPy <http://rpy.sourceforge.net/>`_ is a Python
+  interface to the `R Programming Language <http://www.r-project.org/>`_. It
+  can manage all kinds of R objects and can execute arbitrary R functions
+  (including the graphic functions). All errors from the R language are
+  converted to Python exceptions. Any module installed for the R system can be
+  used from within Python.
+
+MATLAB
+######
+
+* `mlabwrap <http://mlabwrap.sf.net/>`_: A high-level Python-to-MATLAB bridge.
+  Instead of opening connections to the MATLAB engine and executing statements,
+  MATLAB functions are exposed as Python functions and complicated structures
+  as proxy objects.
+
+* `pythoncall <http://www.iki.fi/pav/software/pythoncall/>`_ is a
+  MATLAB-to-Python bridge. Runs a Python interpreter inside MATLAB, and allows
+  transferring data (matrices etc.) between the Python and Matlab workspaces.
 
 Converting Code From Other Array Languages
 ------------------------------------------
 
-* `IDL <http://software.pseudogreen.org/i2py/>`_: The Interactive Data Language
-  from ITT
+* `i2py <http://software.pseudogreen.org/i2py/>`_ converts code from
+  IDL, the Interactive Data Language from ITT, into NumPy expressions.
 
-* `Matlab <http://code.google.com/p/pym>`_: from the Mathworks (check the
-  "Source" tab, or `browse <http://pym.googlecode.com/svn/trunk/>`_).
+* `pym <http://code.google.com/p/pym>`_ aims to translate MATLAB m-files into
+  analogous NumPy statements (see "Source" tab, or `browse 
+  <http://pym.googlecode.com/svn/trunk/>`_).
+
+* `OMPC <http://ompc.juricap.com/>`_ is a MATLAB-to-Python compiler and 
+  support library that reads MATLAB m-files and translates them into code 
+  that can run in a Python interpreter with the accompanying OMPC runtime.
 
 Plotting, data visualization, 3-D programming
 ---------------------------------------------
@@ -268,8 +318,8 @@ Tools with a (mostly) 2-D focus
 * `matplotlib <http://matplotlib.sourceforge.net>`_: a Python 2-D plotting
   library which produces publication quality figures using in a variety of
   hardcopy formats (PNG, JPG, PS, SVG) and interactive GUI environments (WX,
-  GTK, Tkinter, FLTK, Qt) across platforms. matplotlib can be used in python
-  scripts, interactively from the python shell (ala matlab or mathematica), in
+  GTK, Tkinter, FLTK, Qt) across platforms. matplotlib can be used in Python  
+  scripts, interactively from the Python shell (ala MATLAB or Mathematica), in
   web application servers generating dynamic charts, or embedded in GUI
   applications. For interactive use, IPython provides a special mode which 
   integrates with matplotlib. See the matplotlib Cookbook for recipes.
@@ -305,7 +355,7 @@ Tools with a (mostly) 2-D focus
   (postscript, x11, png, svg, gif), understands simple TeX, and sports a
   high-level, elegant interface.
 
-* `Gnuplot.py <http://gnuplot-py.sourceforge.net>`_: a Python package that
+* `Gnuplot.py <http://gnuplot-py.sourceforge.net>`_ is a Python package that
   interfaces to `gnuplot <http://www.gnuplot.info/>`_, the popular open-source
   plotting program. It allows you to use gnuplot from within Python to plot
   arrays of data from memory, data files, or mathematical functions. If you use
@@ -315,13 +365,13 @@ Tools with a (mostly) 2-D focus
   base package) to make it more efficient in interactive usage.
 
 * `Pylab console
-  <http://www.loria.fr/~rougier/index.php?n=Software.Software#pylab>`_: a python
-  console using GTK that allows to display matplotlib figures inline. Any call
-  to plot, imshow, matshow or show functions actually produces a Figure that is
-  inserted within the console.
+  <http://www.loria.fr/~rougier/index.php?n=Software.Software#pylab>`_ is a 
+  Python console using GTK that allows to display matplotlib figures inline. 
+  Any call to plot, imshow, matshow or show functions actually produces a 
+  Figure that is inserted within the console.
 
-* `Graceplot <http://www.idyll.org/~n8gray/code/>`_:a Python interface to the
-  `Grace <http://plasma-gate.weizmann.ac.il/Grace/>`_ 2D plotting program.
+* `Graceplot <http://www.idyll.org/~n8gray/code/>`_ is a Python interface to
+  the `Grace <http://plasma-gate.weizmann.ac.il/Grace/>`_ 2D plotting program.
 
 * `disipyl <http://kim.bio.upenn.edu/~pmagwene/disipyl.html>`_: an
   object-oriented wrapper around the `DISLIN
@@ -332,23 +382,25 @@ Tools with a (mostly) 2-D focus
   histograms, 3-D surface plots). A major goal in designing the library was to
   facilitate interactive data exploration and plot creation.
 
-* `OpenCV <http://www.intel.com/technology/computing/opencv/index.htm>`_:
-  mature library for Image Processing, Structural Analysis, Motion Analysis and
-  Object Tracking, and Pattern Recognition that has recently added Swig based
-  Python bindings. Windows and Linux-RPM packages available. An open source
-  project originally sponsored by Intel, can be coupled with Intel Performance
-  Primitive package (IPP) for increased performance. Has a Wiki
-  `here <http://opencvlibrary.sourceforge.net/>`_
+.. TODO: Need a Computer Vision section.
 
-* `PyChart <http://home.gna.org/pychart/>`_: a library for creating
+.. * `OpenCV <http://www.intel.com/technology/computing/opencv/index.htm>`_:
+..   mature library for Image Processing, Structural Analysis, Motion Analysis and
+..   Object Tracking, and Pattern Recognition that has recently added Swig based
+..   Python bindings. Windows and Linux-RPM packages available. An open source
+..   project originally sponsored by Intel, can be coupled with Intel Performance
+..   Primitive package (IPP) for increased performance. Has a Wiki
+..   `here <http://opencvlibrary.sourceforge.net/>`_
+
+* `PyChart <http://home.gna.org/pychart/>`_ is a library for creating
   Encapsulated Postscript, PDF, PNG, or SVG charts. It currently supports line
   plots, bar plots, range-fill plots, and pie charts.
 
-* `pygame <http://www.pygame.org/>`_: though intended for writing games using
-  Python, its general-purpose multimedia libraries definitely have other
-  applications in visualization.
+* `pygame <http://www.pygame.org/>`_, though intended for writing games using
+  Python, contains general-purpose multimedia libraries that definitely have 
+  other applications in visualization.
 
-* `PyNGL <http://www.pyngl.ucar.edu/>`_: a Python module for creating
+* `PyNGL <http://www.pyngl.ucar.edu/>`_ is a Python module for creating
   publication-quality 2D visualizations, with emphasis in the geosciences.
   PyNGL can create contours, vectors, streamlines, XY plots, and overlay any
   one of these on several map projections. PyNGL's graphics are based on the
@@ -359,17 +411,17 @@ Tools with a (mostly) 2-D focus
   `Numarray <http://www.stsci.edu/resources/software_hardware/numarray>`_.
   Veusz is designed to produce publication-ready Postscript output.
 
-* `ppgplot <http://efault.net/npat/hacks/ppgplot>`_: a Python module that
+* `ppgplot <http://efault.net/npat/hacks/ppgplot>`_ is a Python module that
   provides bindings to the PGPLOT graphics subroutine library popular among
   astronomers (v 1.3 works with Numeric and numarray, but porting to NumPy is
   very easy).
 
-.. _Qt: http://qt.nokia.com/
+
 
 Data visualization (mostly 3-D, surfaces and volumetric rendering)
 ##################################################################
 
-* `MayaVi <http://mayavi.sourceforge.net/>`_: a free, easy to use scientific
+* `MayaVi <http://mayavi.sourceforge.net/>`_ is a free, easy to use scientific
   data visualizer. It is written in `Python <http://www.python.org/>`_ and uses
   the amazing `Visualization Toolkit (VTK) <http://www.vtk.org/>`_ for the
   graphics. It provides a GUI written using `Tkinter
@@ -389,12 +441,12 @@ Data visualization (mostly 3-D, surfaces and volumetric rendering)
   the DXLink library is wrapped, though this may be expanded in the future to
   cover other DX libraries such as CallModule and DXLite.
 
-* `Py2DX <http://www.psc.edu/~eschenbe>`_: Py2DX is a Python binding for the
+* `Py2DX <http://www.psc.edu/~eschenbe>`_ is a Python binding for the
   `OpenDX <http://www.opendx.org/>`_ API based on Py-OpenDX. Mavis is a
   visualisation software built using this interfacce and the OpenDX
   library.
 
-* `IVuPy <http://ivupy.sourceforge.net/>`_: (I-View-Py) serves to develop
+* `IVuPy <http://ivupy.sourceforge.net/>`_ (I-View-Py) serves to develop
   Python programs for 3D visualization of huge data sets using Qt and PyQt.
   IVuPy interfaces more than 600 classes of two of the
   `Coin3D <http://www.coin3d.org/>`_ C++ libraries to Python, integrates very
@@ -428,17 +480,17 @@ Data visualization (mostly 3-D, surfaces and volumetric rendering)
 LaTeX, PostScript, diagram generation
 -------------------------------------
 
-* `PyX <http://pyx.sourceforge.net/>`_: a package for the creation of
+* `PyX <http://pyx.sourceforge.net/>`_ is a package for the creation of
   encapsulated PostScript figures. It provides both an abstraction of
   PostScript and a TeX/LaTeX interface. Complex tasks like 2-D and 3-D plots
   in publication-ready quality are built out of these primitives.
 
-* `Pyepix <http://claymore.engineer.gvsu.edu/~steriana/Python/index.html>`_: a
-  wrapper for the `ePiX
-  <http://mathcs.holycross.edu/~ahwang/current/ePiX.html>`_ plotting library for
-  LaTeX.
+* `Pyepix <http://claymore.engineer.gvsu.edu/~steriana/Python/index.html>`_ is
+  a wrapper for the `ePiX
+  <http://mathcs.holycross.edu/~ahwang/current/ePiX.html>`_ plotting library
+  for LaTeX.
 
-* `pydot <http://dkbza.org/pydot.html>`_: a Python interface to `Graphviz's
+* `pydot <http://dkbza.org/pydot.html>`_ is a Python interface to `Graphviz's
   <http://www.research.att.com/sw/tools/graphviz/>`_ Dot language.  It provides
   an interface for creating both directed and non directed graphs from Python.
   Currently all attributes implemented in the Dot language are supported (up to
@@ -446,36 +498,36 @@ LaTeX, PostScript, diagram generation
   scientific environments like `TeXmacs <http://www.texmacs.org/>`_, or output
   in any of the format's supported by the Graphviz tools dot, neato, twopi.
 
-* `Dot2TeX <http://www.fauskes.net/code/dot2tex>`_: Another tool in the
+* `Dot2TeX <http://www.fauskes.net/code/dot2tex>`_ is another tool in the
   Dot/Graphviz/LaTeX family, this is a Graphviz to LaTeX converter.  The
   purpose of dot2tex is to give graphs generated by Graphviz a more LaTeX
   friendly look and feel. This is accomplished by converting xdot output from
   Graphviz to a series of PSTricks or PGF/TikZ commands.
 
-* `pyreport <http://gael-varoquaux.info/computers/pyreport>`_: runs a script
-  and captures the output (pylab graphics included). Generates a LaTeX or pdf
-  report out of it, including litteral comments and pretty printed code.
+* `pyreport <http://gael-varoquaux.info/computers/pyreport>`_ runs a script and
+  captures the output (matplotlib graphics included). Generates a LaTeX or pdf
+  report out of it, including literal comments and pretty printed code.
 
-Other 3-D programming tools
----------------------------
+Other 3D programming tools
+--------------------------
 
 * `VPython <http://vpython.org>`_: a Python module that offers real-time 3D
   output, and is easily usable by novice programmers.
 
-* `OpenRM Scene Graph: <http://www.openrm.org>`_ a developers toolkit that
+* `OpenRM Scene Graph: <http://www.openrm.org>`_ is a developer's toolkit that
   implements a scene graph API, and which uses OpenGL for hardware accelerated
   rendering. OpenRM is intended to be used to construct high performance,
   portable graphics and scientific visualization applications on
   Unix/Linux/Windows platforms.
 
-* `Panda3D <http://www.etc.cmu.edu/panda3d>`_: an open source game and
+* `Panda3D <http://www.etc.cmu.edu/panda3d>`_ is an open source game and
   simulation engine.
 
-* `Python Computer Graphics Kit: <http://cgkit.sourceforge.net>`_ a collection
-  of Python modules that contain the basic types and functions required for
-  creating 3D computer graphics images.
+* `Python Computer Graphics Kit <http://cgkit.sourceforge.net>`_ is a
+  collection of Python modules that contain the basic types and functions
+  required for creating 3D computer graphics images.
 
-* `PyGeo <http://home.netcom.com/~ajs>`_: a Dynamic 3-D geometry laboratory.
+* `PyGeo <http://home.netcom.com/~ajs>`_ is a Dynamic 3-D geometry laboratory.
   PyGeo may be used to explore the most basic concepts of Euclidean geometry
   at an introductory level, including by elementary schools students and their
   teachers. But is particularly suitable for exploring more advanced geometric
@@ -484,63 +536,81 @@ Other 3-D programming tools
 * `Python 3-D software collection <http://www.vrplumber.com/py3d.py>`_: A small
   collection of pointers to Python software for working in three dimensions.
 
-* `pythonOCC <http://www.pythonocc.org>`_: Python bindings for `OpenCascade
-  <http://www.opencascade.org>`_, a 3D modeling & numerical simulation library.
-  (`Related <http://qtocc.sourceforge.net/links-related.html>`_ projects)
+* `pythonOCC <http://www.pythonocc.org>`_ provides Python bindings for
+  `OpenCascade <http://www.opencascade.org>`_, a 3D modeling & numerical
+  simulation library (`related projects
+  <http://qtocc.sourceforge.net/links-related.html>`_`).
 
-* `PyGTS <http://pygts.sourceforge.net/>`_: a python package used to construct,
-  manipulate, and perform computations on 3D triangulated surfaces. It is a
-  hand-crafted and pythonic binding for the `GNU Triangulated Surface (GTS)
-  Library <http://gts.sourceforge.net/>`_.
+* `PyGTS <http://pygts.sourceforge.net/>`_ is a Python package used to
+  construct, manipulate, and perform computations on 3D triangulated surfaces.
+  It is a hand-crafted and Pythonic binding for the `GNU Triangulated Surface
+  (GTS) Library <http://gts.sourceforge.net/>`_.
 
 Optimization
 ------------
 
-* OpenOpt_ (license: BSD) -- numerical optimization
-  framework with some new solvers and connections to lots of other. It allows
-  connection of **any**-licensed software, while ``scipy.optimize`` allows only
-  copyleft-free one (like BSD, MIT). Other features are convenient standard
-  interface for all solvers, `graphical output
-  <http://openopt.org/graphical_output>`_, `automatic 1st derivatives check
+* OpenOpt_ (license: BSD) -- numerical optimization framework with some new
+  solvers and connections to lots of other. It allows connection of
+  **any**-licensed software, while ``scipy.optimize`` allows only copyleft-free
+  one (like BSD, MIT). Other features are convenient standard interface for all
+  solvers, `graphical output <http://openopt.org/graphical_output>`_,
+  `automatic 1st derivatives check
   <http://trac.openopt.org/openopt/browser/OOPy/openopt/examples/checkDerivatives.py>`_
-  and much more. You can optimize FuncDesigner_ models with `automatic differentiation
-  <http://en.wikipedia.org/wiki/Automatic_differentiation>`_. OpenOpt website
-  also hosts numerical optimization `forum <http://forum.openopt.org>`_.
+  and much more. You can optimize FuncDesigner_ models with `automatic
+  differentiation <http://en.wikipedia.org/wiki/Automatic_differentiation>`_.
+  The OpenOpt website also hosts a numerical optimization `forum
+  <http://forum.openopt.org>`_.
 
-* `CVXOPT <http://www.ee.ucla.edu/~vandenbe/cvxopt/>`_ (license: GPL3), a tool
-  for convex optimization which defines its own matrix-like object and
-  interfaces to FFTW, BLAS, and LAPACK.
+* `CVXOPT <http://www.ee.ucla.edu/~vandenbe/cvxopt/>`_ is a tool
+  for convex optimization which defines its own matrix-like object, 
+  interfaces to FFTW, BLAS, and LAPACK. Licensed under the GNU GPL version 3.
+
+* `pycplex <http://www.cs.toronto.edu/~darius/software/pycplex>`_ A Python
+  interface to the ILOG CPLEX Callable Library.
 
 Automatic differentiation
 -------------------------
 
-Not to be confused with numerical differentiation via finite differences
-or with symbolic differentiation provided by Maxima, SymPy, etc. See
-the `Wikipedia entry on automatic differentiation 
-<http://en.wikipedia.org/wiki/Automatic_differentiation>`_ for an
-explanation of the differences.
+Not to be confused with numerical differentiation via finite differences or
+with symbolic differentiation provided by Maxima, SymPy, etc. See the
+`Wikipedia entry on automatic differentiation
+<http://en.wikipedia.org/wiki/Automatic_differentiation>`_ for an explanation
+of the differences.
 
-* FuncDesigner_ - A tool for building mathematical functions interactively which
-  can be automatically differentiated and optimized using OpenOpt.
+* FuncDesigner_ - A tool for building mathematical functions interactively
+  which can be automatically differentiated and optimized using OpenOpt.
 
-* ScientificPython - see
-  modules Scientific.Functions.FirstDerivatives and
+* ScientificPython - see modules Scientific.Functions.FirstDerivatives and
   Scientific.Functions.Derivatives
 
 * `pycppad <http://www.seanet.com/~bradbell/pycppad/index.htm>`_ - wrapper for
   CppAD, a second-order forward/reverse automatic differentiation package.
 
-* `pyadolc <http://github.com/b45ch1/pyadolc>`_- wrapper for ADOL-C, an
-  arbitrary-order forward/reverse automatic differentiation package.
+* `PYADOLC <http://github.com/b45ch1/pyadolc/blob/master/README.rst>`_ is a
+  Python module to differentiate complex algorithms written in Python. It wraps
+  the functionality of the library ADOL-C (C++).
+
+* `Theano <http://pylearn.org/theano/>`_ is a Python library that allows you to
+  define, optimize, and efficiently evaluate mathematical expressions involving
+  multi-dimensional arrays. It also allows you to compute the gradient of an
+  expression with respect to another. Symbolic expressions may be compiled into
+  functions, which work on the same data structures as NumPy, allowing for easy
+  interoperability.
+
+* `PyDX <http://gr.anu.edu.au/svn/people/sdburton/pydx/doc/index.html>`_ is a
+  package for working with calculus (differential geometry), arbitrary
+  precision arithmetic (using gmpy), and interval arithmetic. PyDX uses lazy
+  computation techniques to greatly enhance performance of the resulting
+  functions. PyDX provides, among other things, multivariate automatic
+  differentiation (to arbitrary order).
 
 Finite differences derivatives approximation
 --------------------------------------------
 
 * `check_grad
-  <http://www.scipy.org/doc/api_docs/SciPy.optimize.optimize.html#check_grad>`_
-  and
-  `approx_fprime
-  <http://www.scipy.org/doc/api_docs/SciPy.optimize.optimize.html#approx_fprime>`_
+  <http://www.scipy.org/doc/api_docs/scipy.optimize.optimize.html#check_grad>`_
+  and `approx_fprime
+  <http://www.scipy.org/doc/api_docs/scipy.optimize.optimize.html#approx_fprime>`_
   from SciPy.optimize
 
 * `DerApproximator <http://openopt.org/DerApproximator>`_ - several stencils,
@@ -558,7 +628,7 @@ Data Storage / Database
   built on top of the `HDF5 library <http://www.hdfgroup.org/HDF5>`_ and the
   `NumPy <http://numpy.scipy.org>`_ package.
 
-* `pyhdf <http://pysclint.sourceforge.net/pyhdf>`_: pyhdf is a python interface
+* `pyhdf <http://pysclint.sourceforge.net/pyhdf>`_: pyhdf is a Python interface
   to the NCSA `HDF4 <http://hdf.ncsa.uiuc.edu/hdf4.html>`_ library. Among the
   numerous components offered by HDF4, the following are currently supported by
   pyhdf: SD (Scientific Dataset), VS (Vdata), V (Vgroup) and HDF (common
@@ -574,7 +644,7 @@ ParallelProgramming.
   Programming for Python! This package builds on traditional Python by enabling
   users to write distributed, parallel programs based on
   `MPI <http://www-unix.mcs.anl.gov/mpi/>`_ message passing primitives. General
-  python objects can be messaged between processors.
+  Python objects can be messaged between processors.
 
 * `Pypar <http://datamining.anu.edu.au/~ole/pypar>`_: Parallel Programming in
   the spirit of Python! Pypar is an efficient but easy-to-use module that
@@ -627,7 +697,7 @@ ParallelProgramming.
   extremely lightweight method for performing independent parallel tasks on a
   cluster of Macintosh computers.
 
-* `Pyslice <http://pyslice.sourceforge.net>`_: Pyslice is a specialized
+* `Pyslice <http://pyslice.sourceforge.net>`_ is a specialized
   templating system that replaces variables in a template data set with numbers
   taken from all combinations of variables. It creates a dataset from input
   template files for each combination of variables in the series and can
@@ -637,12 +707,12 @@ ParallelProgramming.
   and the 'level' variable with 24 values taken from a normal distribution with
   a mean of 104 and standard deviation of 5.
 
-* `Python::OpenCL <http://python-opencl.next-touch.com>`_: OpenCL is a standard
-  for parallel programming on heterogeneous devices including CPUs, GPUs, and
-  others processors. It provides a common language C-like language for
-  executing code on those devices, as well as APIs to setup the computations.
-  Python::OpenCL aims at being an easy-to-use Python wrapper around the OpenCL
-  library.
+* `Python::OpenCL <http://python-opencl.next-touch.com>`_ is a
+  Boost.Python-based interface to OpenCL. OpenCL is a standard for parallel
+  programming on heterogeneous devices including CPUs, GPUs, and others
+  processors. It provides a common language C-like language for executing code
+  on those devices, as well as APIs to setup the computations. Python::OpenCL
+  aims at being an easy-to-use Python wrapper around the OpenCL library.
 
 Partial differential equation (PDE) solvers
 -------------------------------------------
@@ -659,46 +729,42 @@ Topic guides, organized by scientific field
 Astronomy
 #########
 
-* `AstroPy <http://www.scipy.org/wikis/topical_software/Astronomy>`_: Central
-  repository of information about Python and Astronomy and associated `mailing
-  list <http://www.SciPy.net/mailman/listinfo/astropy>`_.
-
 * `PyFITS <http://www.stsci.edu/resources/software_hardware/pyfits>`_:
   interface to `FITS <http://www.cv.nrao.edu/fits/>`_ formatted files under the
   `Python <http://www.python.org/>`_ scripting language and `PyRAF
   <http://www.stsci.edu/resources/software_hardware/pyraf>`_, the Python-based
   interface to IRAF.
 
-* `PyRAF <http://www.stsci.edu/resources/software_hardware/pyraf>`_: a new
+* `PyRAF <http://www.stsci.edu/resources/software_hardware/pyraf>`_ is a new
   command language for running IRAF tasks that is based on the Python scripting
   language.
 
-* `BOTEC <http://www.alcyone.com/software/botec>`_: a simple astrophysical and
-  orbital mechanics calculator, including a database of all named Solar System
-  objects.
+* `BOTEC <http://www.alcyone.com/software/botec>`_ is a simple astrophysical
+  and orbital mechanics calculator, including a database of all named Solar
+  System objects.
 
-* AstroLib: an open source effort to develop general astronomical utilities
-  akin to those available in the IDL ASTRON package
+* AstroLib is an open source effort to develop general astronomical utilities
+  akin to those available in the IDL ASTRON package.
 
-* `APLpy <http://aplpy.sourceforge.net>`_: a Python module aimed at producing
+* `APLpy <http://aplpy.sourceforge.net>`_ is a Python module aimed at producing
   publication-quality plots of astronomical imaging data in FITS format.
 
-* `Tutorial <http://www.scipy.org/wikis/topical_software/Tutorial>`_: Using
+* `A tutorial <http://www.scipy.org/wikis/topical_software/Tutorial>`_ on using
   Python for interactive data analysis in astronomy.
 
-* `ParselTongue <http://www.radionet-eu.org/rnwiki/ParselTongue>`_: A Python
+* `ParselTongue <http://www.radionet-eu.org/rnwiki/ParselTongue>`_ is a Python
   interface to classic AIPS for the calibration, data analysis, image display
   etc. of (primarily) Radio Astronomy data.
 
-* `Casa <http://casa.nrao.edu/>`_ a suite of C++ application libraries for the
-  reduction and analysis of radioastronomical data (derived from the former
+* `Casa <http://casa.nrao.edu/>`_ is a suite of C++ application libraries for
+  the reduction and analysis of radioastronomical data (derived from the former
   AIPS++ package) with a Python scripting interface.
 
-* `Healpy <http://planck.lal.in2p3.fr/wiki/pmwiki.php/Softs/Healpy>`_: Python
-  package for using and plotting HEALpix data (e.g. spherical surface maps such
-  as WMAP data).
+* `Healpy <http://planck.lal.in2p3.fr/wiki/pmwiki.php/Softs/Healpy>`_ is a
+  Python package for using and plotting HEALpix data (e.g. spherical surface
+  maps such as WMAP data).
 
-* `Pysolar <http://pysolar.org/>`_ Collection of Python libraries for
+* `Pysolar <http://pysolar.org/>`_ is a collection of Python libraries for
   simulating the irradiation of any point on earth by the sun. Pysolar includes
   code for extremely precise ephemeris calculations, and more. Could be also
   grouped under engineering tools.
@@ -708,20 +774,21 @@ Artificial intelligence & machine learning
 
 * See also the **Bayesian Statistics** section below
 
-* `ffnet <http://ffnet.sourceforge.net>`_ Feed-forward neural network for
-  python, uses NumPy arrays and SciPy optimizers.
+* `ffnet <http://ffnet.sourceforge.net>`_ is a library for feed-forward neural 
+  networks written in Python, uses NumPy arrays and SciPy optimizers.
 
 * `pyem
   <http://www.ar.media.kyoto-u.ac.jp/members/david/softwares/em/index.html>`_
-  is a tool for Gaussian Mixture Models. It implements EM algorithm for
-  Gaussian mixtures (including full matrix covariances), BIC criterion for
-  clustering. Since october 2006, it is included in SciPy toolbox.
+  is a tool for Gaussian mixture models. It implements EM algorithm for
+  Gaussian mixtures (including full matrix covariance), BIC criterion for
+  clustering. Since October 2006, it is included in SciPy toolbox.
 
-* `Orange <http://www.ailab.si/orange>`_ component-based data mining software.
+* `Orange <http://www.ailab.si/orange>`_ is a component-based data mining
+  software package written partly in Python.
 
-* `Neural Network <http://www-128.ibm.com/developerworks/library/l-neural/>`_
-  An introduction to neural networks with a simple implementation based on
-  http://arctrix.com/nas/python/bpnn.py
+* `A Python neural network tutorial
+  <http://www-128.ibm.com/developerworks/library/l-neural/>`_ with a simple
+  implementation based on http://arctrix.com/nas/python/bpnn.py
 
 * `pymorph Morphology Toolbox <http://luispedro.org/pymorph/>`_ The pymorph
   Morphology Toolbox for Python is a powerful collection of latest
@@ -729,9 +796,6 @@ Artificial intelligence & machine learning
   segmentation, non-linear filtering, pattern recognition and image analysis.
   `Pymorph <http://www.mmorph.com/pymorph/>`_ was originally written by Roberto
   A. Lutofu and Rubens C. Machado but is now maintained by Luís Pedro Coelho.
-
-* `pycplex <http://www.cs.toronto.edu/~darius/software/pycplex>`_ A Python
-  interface to the ILOG CPLEX Callable Library.
 
 * `Plearn <http://www.plearn.org>`_  A C++ library for machine learning with a
   Python interface (PyPlearn)
@@ -797,7 +861,7 @@ Biology (including Neuroscience)
   for the NCBI taxonomy database, written in Python/Tk, was developed in 1998.
 
 * `PyPhy : A phylogenomic approach to microbial evolution
-  <http://www.cbs.dtu.dk/thomas/pyphy/>`_: PyPhy is a set of python scripts and
+  <http://www.cbs.dtu.dk/thomas/pyphy/>`_: PyPhy is a set of Python scripts and
   modules for automatic, large-scale reconstructions of phylogenetic
   relationships of complete microbial genomes.
 
@@ -818,7 +882,7 @@ Biology (including Neuroscience)
   Geo-Referenced Analysis and Simulation System. Simulation and analysis of
   epidemics over networks.
 
-* `NIPY <http://neuroimaging.scipy.org>`_: The neuroimaging in python project
+* `NIPY <http://neuroimaging.scipy.org>`_: The neuroimaging in Python project
   is an environment for the analysis of structural and functional neuroimaging
   data.  It currently has a full system for general linear modeling of
   functional magnetic resonance imaging (FMRI).
@@ -828,7 +892,7 @@ Biology (including Neuroscience)
 Dynamical systems
 #################
 
-* `PyDSTool <http://pydstool.sourceforge.net/>`_: PyDSTool is an integrated
+* `PyDSTool <http://pydstool.sourceforge.net/>`_ is an integrated
   simulation, modeling and analysis package for dynamical systems (ODEs, DDEs,
   DAEs, maps, time-series, hybrid systems). Continuation and bifurcation
   analysis tools are built-in, via PyCont. It also contains a library of
@@ -840,19 +904,18 @@ Dynamical systems
   can be "compiled" automatically into dynamically-linked C code or Python
   simulators.
 
-* `SimPy <http://simpy.sourceforge.net/>`_: SimPy (= Simulation in Python) is
-  an object-oriented, process-based discrete-event simulation language based on
-  standard Python. It is released under the GNU Lesser GPL (LGPL). SimPy
-  provides the modeler with components of a simulation model including
+* `SimPy <http://simpy.sourceforge.net/>`_ is an object-oriented,
+  process-based discrete-event simulation language based on standard Python
+  SimPy provides the modeler with components of a simulation model including
   processes, for active components like customers, messages, and vehicles, and
   resources, for passive components that form limited capacity congestion
   points like servers, checkout counters, and tunnels. It also provides monitor
   variables to aid in gathering statistics. Random variates are provided by the
-  standard Python random module. SimPy comes with data collection
-  capabilities, GUI and plotting packages. It can be easily interfaced to other
-  packages, such as plotting, statistics, GUI, spreadsheets, and data bases.
+  standard Python random module. SimPy comes with data collection capabilities,
+  GUI and plotting packages. It can be easily interfaced to other packages,
+  such as plotting, statistics, GUI, spreadsheets, and data bases.
 
-* `Pyarie <http://pyarie.wikisophia.org>`_: Pyarie is a continuous modeling
+* `Pyarie <http://pyarie.wikisophia.org>`_ is a continuous modeling
   environment useful for modeling systems of ordinary differential equations.
   The system is designed to be modular so that state variables and
   relationships, as well as complete models, can be re-used and re-defined and
@@ -863,36 +926,33 @@ Dynamical systems
   the system at will and use it as a powerful continuous modeling programming
   language.
 
-* `Model-Builder <http://model-builder.sourceforge.net>`_. Model-Builder is a
-  GUI-based application for building and simulation of ODE (Ordinary
-  Differential Equations) models. Models are defined in mathematical notation,
-  with no coding required by the user. Results can be exported in csv format.
-  Graphical output based on matplotlib include time-series plots, state-space
-  plots, Spectrogram, Continuous wavelet transforms of time series. It also
-  includes a sensitivity and uncertainty analysis module. Ideal for classroom
-  use.
+* `Model-Builder <http://model-builder.sourceforge.net>`_ is a GUI-based
+  application for building and simulation of ODE (Ordinary Differential
+  Equations) models. Models are defined in mathematical notation, with no
+  coding required by the user. Results can be exported in CSV format. Graphical
+  output based on matplotlib include time-series plots, state-space plots,
+  Spectrogram, Continuous wavelet transforms of time series. It also includes a
+  sensitivity and uncertainty analysis module. Ideal for classroom use.
 
-* `VFGEN <http://www.warrenweckesser.net/vfgen>`_: VFGEN is a source code
-  generator for differential equations and delay differential equations.  The
+* `VFGEN <http://www.warrenweckesser.net/vfgen>`_ is a source code
+  generator for differential equations and delay differential equations. The
   equations are defined once in an XML format, and then VFGEN is used to
   generate the functions that implement the equations in a wide variety of
-  formats.  Python users will be interested in the SciPy, PyGSL, and PyDSTool
+  formats. Python users will be interested in the SciPy, PyGSL, and PyDSTool
   commands provided by VFGEN.
 
 Economics and Econometrics
 ##########################
 
-* `pyTrix <http://www.american.edu/econ/pytrix/pytrix.htm>`_: a small set of
+* `pyTrix <http://www.american.edu/econ/pytrix/pytrix.htm>`_ is a small set of
   utilities for economics and econometrics, including pyGAUSS (GAUSS command
-  analogues for use in SciPy).
-
-fINITE 
+  analogues for use in Python).
 
 Electromagnetic
-################
+###############
 
-* `PyFemax <http://people.web.psi.ch/geus/pyfemax>`_: computation of
-  electro-magnetic waves in accelerator cavities.
+* `PyFemax <http://people.web.psi.ch/geus/pyfemax>`_ is a library for
+  computation of electro-magnetic waves in accelerator cavities.
 
 * FiPy
 
@@ -902,112 +962,111 @@ Electromagnetic
 Geosciences
 ###########
 
-* `CDAT <http://www-pcmdi.llnl.gov/software-portal/cdat>`_: (Climate Data
-  Analysis Tools) is a suite of tools for analysis of climate models.
-  `CDMS
+* `CDAT <http://www-pcmdi.llnl.gov/software-portal/cdat>`_ is a suite of tools
+  for analysis of climate models. `CDMS
   <http://www-pcmdi.llnl.gov/software-portal/cdat/manuals/cdms_v4.0_html/ch1_cdms_4.0.html/#1.1_Overview>`_
   is the most commonly used submodule.
 
 * `Jeff Whitaker <http://www.cdc.noaa.gov/people/jeffrey.s.whitaker/>`_ has
   made a number of useful tools for atmospheric modelers, including the
-  `basemap <http://matplotlib.sf.net/toolkits.html>`_ toolkit for
-  matplotlib, and a NumPy compatible
-  `netCDF4 <http://www.cdc.noaa.gov/people/jeffrey.s.whitaker/python/netCDF4.html>`_ interface.
+  `basemap <http://matplotlib.sf.net/toolkits.html>`_ toolkit for matplotlib,
+  and a NumPy compatible `netCDF4
+  <http://www.cdc.noaa.gov/people/jeffrey.s.whitaker/python/netCDF4.html>`_
+  interface.
 
 * `seawater <http://www.imr.no/~bjorn/python/seawater/index.html>`_ is a
   package for computing properties of seawater (UNESCO 1981 and UNESCO 1983).
 
-* `A shallow water model
-  <http://geosci.uchicago.edu/~cdieterich/python/python.html>`_ and other
-  packages for geoscientists.
-
 * `Fluid <http://fluid.oceanografia.org>`_ is a series of routines for
   calulating properties of fluids (air and seawater), and their interactions
-  (e.g., wind stess).
+  (e.g., wind stress).
 
 * `atmqty <http://www.johnny-lin.com/py_pkgs/atmqty/doc/>`_ computes
-  atmospheric quantities on earth.
+  atmospheric quantities on Earth that are directly derivative (i.e. not 
+  requiring time integration or modeling) from standard state variables.
 
-* `TAPPy - Tidal Analysis Program in Python <http://tappy.sf.net>`_ decomposes
-  an hourly time-series of water levels into tidal compenents.  It uses
-  SciPy's least squares optimization.
+* `TAPPy - Tidal Analysis Program in Python <http://tappy.sourceforge.net>`_
+  decomposes an hourly time-series of water levels into tidal components. It
+  uses SciPy's least squares optimization.
 
-* `PyClimate - Analysis of climate data in Python <http://www.pyclimate.org>`_
+* `PyClimate <http://www.pyclimate.org>`_
   performs EOF analysis, downscaling by means of CCA and analogs (in the PC and
   CCC spaces), linear digital filters, kernel based probability density
   function estimation and access to DCDFLIB.C library from Python, amongst many
   other things.
 
-* `CliMT <http://mathsci.ucd.ie/~rca/climt/>`_ An object-oriented Climate
-  Modeling and diagnostics Toolkit
+* `CliMT <http://mathsci.ucd.ie/~rca/climt/>`_ is an object-oriented climate
+  modeling and diagnostics toolkit.
 
-* `ClimPy <https://code.launchpad.net/~pierregm/SciPy/climpy>`_ Hydrologic
-  orientated library
+* `ClimPy <https://code.launchpad.net/~pierregm/scipy/climpy>`_ is an 
+  early-stage hydrologic-oriented library.
 
-* `GIS Python <http://wiki.osgeo.org/wiki/OSGeo_Python_Library>`_ Python
-  programs and libraries for geodata processing
+* `The Unofficial Python GIS SIG
+  <http://groups.google.com/group/python-gis-sig>`_ is a mailing list for
+  software developers, programmers, and architects, for discussion of general
+  issues around the Python language (and variants), platforms, and geographic
+  information systems.
+
 
 Molecular modeling
 ------------------
 
-* `MGLTOOLS <http://www.scripps.edu/~sanner/python/index.html>`_: a
+* `MGLTOOLS <http://www.scripps.edu/~sanner/python/index.html>`_ is a
   comprehensive set of tools for molecular interaction calculations and
   visualization.
 
 * `The Molecular Modelling Toolkit (MMTK)
-  <http://starship.python.net/crew/hinsen/MMTK>`_: a library for molecular
+  <http://starship.python.net/crew/hinsen/MMTK>`_ is a library for molecular
   simulation applications. In addition to providing ready-to-use
   implementations of standard algorithms, MMTK serves as a code basis that can
   be easily extended and modified to deal with standard and non-standard
   problems in molecular simulations.
 
-* `Biskit <http://biskit.sf.net>`_: an object-oriented platform for structural
-  bioinformatics research. Structure and trajectory objects tightly integrate
-  with NumPy allowing, for example, fast take and
-  compress operations on molecules or trajectory frames. Biskit integrates many
-  external programs (e.g. XPlor, Modeller, Amber, DSSP, T-Coffee, Hmmer...)
-  into workflows and supports parallelization via a high-level access to
-  PyPVM.
+* `Biskit <http://biskit.sf.net>`_ is an object-oriented platform for
+  structural bioinformatics research. Structure and trajectory objects tightly
+  integrate with NumPy allowing, for example, fast take and compress operations
+  on molecules or trajectory frames. Biskit integrates many external programs
+  (e.g. XPlor, Modeller, Amber, DSSP, T-Coffee, Hmmer...) into workflows and
+  supports parallelization via a high-level access to PyPVM.
 
-* `PyMOL <http://pymol.sourceforge.net/>`_: a molecular graphics system with an
-  embedded Python interpreter designed for real-time visualization and rapid
+* `PyMOL <http://pymol.sourceforge.net/>`_ is a molecular graphics system with
+  an embedded Python interpreter designed for real-time visualization and rapid
   generation of high-quality molecular graphics images and animations.
 
-* `UCSF Chimera <http://www.cgl.ucsf.edu/chimera>`_: UCSF Chimera is a highly
-  extensible, interactive molecular graphics program. It is the successor to
-  `UCSF Midas and MidasPlus <http://www.cgl.ucsf.edu/Outreach/midasplus/>`_;
-  however, it has been completely
-  `redesigned <http://www.cgl.ucsf.edu/chimera/bkgnd.html>`_ to maximize
-  extensibility and leverage advances in hardware. UCSF Chimera can be
-  downloaded free of charge for academic, government, non-profit, and personal
-  use.
+* `UCSF Chimera <http://www.cgl.ucsf.edu/chimera>`_ is a highly extensible,
+  interactive molecular graphics program. It is the successor to `UCSF Midas
+  and MidasPlus <http://www.cgl.ucsf.edu/Outreach/midasplus/>`_; however, it
+  has been completely `redesigned
+  <http://www.cgl.ucsf.edu/chimera/bkgnd.html>`_ to maximize extensibility and
+  leverage advances in hardware. UCSF Chimera can be downloaded free of charge
+  for academic, government, non-profit, and personal use.
 
 * `The Python Macromolecular Library (mmLib)
-  <http://pymmlib.sourceforge.net/>`_: a software toolkit and library of
+  <http://pymmlib.sourceforge.net/>`_ is a software toolkit and library of
   routines for the analysis and manipulation of macromolecular structural
   models. It provides a range of useful software components for parsing mmCIF,
   PDB, and MTZ files, a library of atomic elements and monomers, an
   object-oriented data structure describing biological macromolecules, and an
   OpenGL molecular viewer.
 
-* `MDTools for Python <http://www.ks.uiuc.edu/~jim/mdtools>`_: MDTools is a
+* `MDTools for Python <http://www.ks.uiuc.edu/~jim/mdtools>`_ is a
   Python module which provides a set of classes useful for the analysis and
-  modification of protein structures. Current capabilities include reading psf
+  modification of protein structures. Current capabilities include reading PSF
   files, reading and writing (X-PLOR style) pdb and dcd files, calculating
   phi-psi angles and other properties for arbitrary selections of residues, and
   parsing output from `NAMD <http://www.ks.uiuc.edu/Research/namd/>`_ into an
   easy-to-manipulate data object.
 
-* `BALL - Biochemical Algorithms Library <http://www.ballview.org>`_: a set of
-  libraries and applications for molecular modeling and visualization. OpenGL
-  and Qt are the underlying C++ layers; some components are LGPL licensed,
-  others GPL.
+* `BALL - Biochemical Algorithms Library <http://www.ballview.org>`_ is a set
+  of libraries and applications for molecular modeling and visualization.
+  OpenGL and Qt are the underlying C++ layers; some components are LGPL
+  licensed, others GPL.
 
-* `SloppyCell <http://sloppycell.sourceforge.net/>`_: SloppyCell is a
+* `SloppyCell <http://sloppycell.sourceforge.net/>`_ is a
   software environment for simulation and analysis of biomolecular networks
   developed by the groups of Jim Sethna and Chris Myers at Cornell University.
 
-* `PyVib2 <http://pyvib2.sourceforge.net/>`_: a program for analyzing
+* `PyVib2 <http://pyvib2.sourceforge.net/>`_ is a program for analyzing
   vibrational motion and vibrational spectra. The program is supposed to be an
   open source "all-in-one" solution for scientists working in the field of
   vibrational spectroscopy (Raman and IR) and vibrational optical activity (ROA
@@ -1016,8 +1075,8 @@ Molecular modeling
 Signal processing
 -----------------
 
-* `GNU Radio <http://www.gnuradio.org>`_ is a free software development toolkit
-  that provides the signal processing runtime and processing blocks to
+* `GNU Radio <http://www.gnuradio.org/>`_ is a free software development
+  toolkit that provides the signal processing runtime and processing blocks to
   implement software radios using readily-available, low-cost external RF
   hardware and commodity processors. GNU Radio applications are primarily
   written using the Python programming language, while the supplied,
@@ -1064,35 +1123,35 @@ Signal processing
 Symbolic math, number theory, etc.
 ----------------------------------
 
-* `Swiginac <http://swiginac.berlios.de>`_: SWIG wrappers around GINAC, a C++
-  symbolic math library.
+* `Swiginac <http://swiginac.berlios.de>`_ are a set of  SWIG wrappers around
+  GINAC, a C++ symbolic math library.
 
-* `NZMATH <http://tnt.math.metro-u.ac.jp/nzmath/>`_: NZMATH is a Python based
+* `NZMATH <http://tnt.math.metro-u.ac.jp/nzmath/>`_ is a Python based
   number theory oriented calculation system developed at Tokyo Metropolitan
   University. It contains routines for factorization, gcd, lattice reduction,
   factorial, finite fields, and other such goodies. Unfortunately short on
   documentation, but contains a lot of useful stuff if you can find it.
 
-* `SAGE <http://www.sagemath.org/>`_: a comprehensive environment with support
-  for research in algebra, geometry and number theory. It wraps existing
-  libraries and provides new ones for elliptic curves, modular forms, linear
-  and non commutative algebra, and a lot more.
+* `Sage <http://www.sagemath.org/>`_ is a comprehensive environment with
+  support for research in algebra, geometry and number theory. It wraps
+  existing libraries and provides new ones for elliptic curves, modular forms,
+  linear and non-commutative algebras, and a lot more.
 
-* `SymPy <http://code.google.com/p/sympy/>`_: SymPy is a Python library for
+* `SymPy <http://code.google.com/p/sympy/>`_ is a Python library for
   symbolic mathematics. It aims to become a full-featured computer algebra
   system (CAS) while keeping the code as simple as possible in order to be
   comprehensible and easily extensible. SymPy is written entirely in Python and
   does not require any external libraries, except optionally for plotting
   support.
 
-* `Python bindings for CLNUM <http://calcrpnpy.sourceforge.net/clnum.html>`_:
-  an library which provides exact rationals and arbitrary precision floating
+* `Python bindings for CLNUM <http://calcrpnpy.sourceforge.net/clnum.html>`_,
+  a library which provides exact rationals and arbitrary precision floating
   point, orders of magnitude faster (and more full-featured) than the
   Decimal.py module from Python's standard library. From the same site, the
-  ratfun module provides rational function approximations, and rpncalc is a
-  full RPN interactive python-based calculator.
+  ``ratfun`` module provides rational function approximations, and ``rpncalc``
+  is a full RPN interactive Python-based calculator.
 
-* `DecInt <http://home.comcast.net/~casevh>`_: a Python class that provides
+* `DecInt <http://home.comcast.net/~casevh>`_ is a Python class that provides
   support for operations on very large decimal integers. Conversion to and from
   the decimal string representation is very fast; the multiplication and
   division algorithms are asymptotically faster than the native Python ones.
@@ -1103,31 +1162,6 @@ Symbolic math, number theory, etc.
 
 Miscellaneous
 -------------
-
-* These are just other links which may be very useful to scientists, but which
-  I don't quite know where to categorize, or for which I didn't want to make a
-  single-link category.
-
-* `PyMat <http://pymat.sourceforge.net/>`_: PyMat exposes the MATLAB engine
-  interface allowing Python programs to start, close, and communicate with a
-  MATLAB engine session. In addition, the package allows transferring matrices
-  to and from an MATLAB workspace. These matrices can be specified as NumPy
-  arrays, allowing a blend between the mathematical capabilities of NumPy and
-  those of MATLAB.
-
-* `mlabwrap <http://mlabwrap.sf.net/>`_: A high-level Python-to-MATLAB bridge.
-  Instead of opening connections to the MATLAB engine and executing statements,
-  MATLAB functions are exposed as Python functions and complicated structures
-  as proxy objects.
-
-* `pythoncall <http://www.iki.fi/pav/software/pythoncall/>`_: A
-  MATLAB-to-Python bridge. Runs a Python interpreter inside MATLAB, and allows
-  transferring data (matrices etc.) between the Python and Matlab workspaces.
-
-* `IDL to Numeric/numarray Mapping
-  <http://www.johnny-lin.com/cdat_tips/tips_array/idl2num.html>`_: a summary
-  mapping between IDL and numarray. Most of the mapping also applies to
-  Numeric.
 
 * `Pybliographer <http://pybliographer.org>`_: a tool for managing
   bibliographic databases. It can be used for searching, editing, reformatting,
@@ -1227,3 +1261,11 @@ Miscellaneous
   scalar class can be switched off for production runs to achieve the execution
   efficiency of operations on built-in numeric types, which can be up to two
   orders of magnitude faster. A user guide is provided.
+
+
+.. Frequently re-used link targets go here instead of inline
+
+.. _Qt: http://qt.nokia.com/
+.. _Weave: http://docs.scipy.org/doc/scipy/reference/tutorial/weave.html
+.. _Pyrex: http://www.cosc.canterbury.ac.nz/greg.ewing/python/Pyrex/
+.. _Cython: http://www.cython.org/
