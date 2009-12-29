@@ -546,8 +546,8 @@ Other 3D programming tools
   It is a hand-crafted and Pythonic binding for the `GNU Triangulated Surface
   (GTS) Library <http://gts.sourceforge.net/>`_.
 
-Optimization
-------------
+Numerical Optimization
+----------------------
 
 * OpenOpt_ (license: BSD) -- numerical optimization framework with some new
   solvers and connections to lots of other. It allows connection of
@@ -567,6 +567,24 @@ Optimization
 
 * `pycplex <http://www.cs.toronto.edu/~darius/software/pycplex>`_ A Python
   interface to the ILOG CPLEX Callable Library.
+
+Expression Evaluation Optimizers
+--------------------------------
+
+* `Numexpr <http://code.google.com/p/numexpr/>`_ accepts NumPy array
+  expressions as strings, rewrites them to optimize execution time and memory
+  use, and executes them much faster than NumPy usually can.
+  
+* `PyDX <http://gr.anu.edu.au/svn/people/sdburton/pydx/doc/index.html>`_ is a
+  package for working with calculus (differential geometry), arbitrary
+  precision arithmetic (using gmpy), and interval arithmetic. PyDX uses lazy
+  computation techniques to greatly enhance performance of the resulting
+  functions.
+
+* `Theano <http://pylearn.org/theano/>`_ is a Python library that allows you to
+  define, optimize, and efficiently evaluate mathematical expressions involving
+  multi-dimensional arrays, melding some aspects of a computer algebra system
+  (CAS) with aspects of an optimizing compiler.
 
 Automatic differentiation
 -------------------------
