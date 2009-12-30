@@ -5,10 +5,8 @@ We need your help!
 ------------------
 
 This is a distributed, volunteer project with many contributors. The
-best way to join our effort is to browse around, read the last section
-of this page to learn about our vision and plans, and then announce
-your intent to help on one of the developer :doc:`mailing lists
-<mailing-lists>` or contact any of the folks listed on this page.
+best way to join our effort is to start participating in one of the
+developer :doc:`mailing lists <mailing-lists>`.
 
 Steering Committee
 ------------------
@@ -37,11 +35,9 @@ to the appropriate Trac instance (there is one for NumPy and a different one
 for SciPy).  There are read-only mailing lists for tracking the status of 
 your bug ticket.
 
-
 Note that NumPy contains the most basic numerical functionality, and SciPy is
 layered on top of NumPy to provide a much wider range of capability. You need
 NumPy for SciPy to work.
-
 
 
 +-------+-------------------------+------------------------------------------+
@@ -58,19 +54,11 @@ NumPy for SciPy to work.
 |       | Timeline                | http://projects.scipy.org/scipy/timeline |
 +-------+-------------------------+------------------------------------------+
 
-
-
 Interested people can get repository write access as well.  This usually 
 requires a developer "vouching" for you, which happens more easily if you 
 already made a number of patch contributions.
 
 See :ref:`packaging`, below, for the process of building and making releases.
-
-Source Code Team
-################
-
-* Travis Oliphant
-* Robert Kern
 
 Affiliated, non-field-specific projects:
 
@@ -98,7 +86,7 @@ of the code API and the docs, ease of building it on all platforms, how many
 people use it, how well it is integrated into SciPy, etc.
 
 Because it must remain small and easy to build, new additions of entire
-packages to NumPy are extremely rare. Contact the Steering Committee or post on
+packages to NumPy are extremely rare. Post on
 the numpy-discussion@scipy.org mailing list if you think you have a compelling
 case.
 
@@ -116,35 +104,13 @@ Making Source and Binary Releases
 
 A releaseable tarball gets made from the sources following a straightforward
 procedure (see http://projects.scipy.org/numpy/wiki/MakingReleases ). To make
-an official release to the community, someone on the packaging team, usually
-Jarrod Millman, makes a series of test releases and announces them on the
-mailing lists. After getting feedback, the team makes a final release, posts
-it, and announces it on the mailing lists.
-
-.. FILL IN: Packaging Team, please fill in more detail on how you cut releases and
-.. where you need help. Describe the build system, standards for accepting a
-.. release candidate, what systems are tested, who does what, use of Trac for
-.. bugs, etc.
+an official release to the community, the release manager typically
+makes a series of test releases and announces them on the
+mailing lists. After getting feedback, the release manager makes a final release,
+posts it, and announces it on the mailing lists.
 
 Getting Releases Into Distribution
 ##################################
 
 Linux distributions and many others pick up our packages and deliver them to
-users as part of larger collections. To ensure that they are distributing our
-latest and best, we record on the **Distros** (TODO) page what's needed to
-trigger them to pick up a new release. This could mean contacting an
-individual, posting on a mailing list, or doing something on a web site. 
-
-**WE NEED YOUR HELP!** If you know the proper way to get a distribution to pick
-up a new version of a package, please document it under Distros (TODO).
-
-Packaging Team
-##############
-
-* Debian - `Ondrej Certik <http://ondrej.certik.cz/>`_ and the 
-  `Debian Python Modules Team (DPMT) 
-  <http://wiki.debian.org/Teams/PythonModulesTeam>`_
-* Ubuntu - `Scott Kitterman <https://edge.launchpad.net/~kitterman>`_ and
-  others
-* `numpy.distutils` - Pearu Peterson
-
+users as part of larger collections.
