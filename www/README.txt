@@ -5,8 +5,6 @@ Scipy.org website
 This is a Sphinx website project, aiming at updating the basic Scipy.org
 website and making it more maintainable.
 
-tewsts
-
 Building
 ========
 
