@@ -1,20 +1,21 @@
-.. Conference Site documentation master file, created by
-   sphinx-quickstart on Wed Jan 13 20:27:11 2010.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+Upcoming SciPy Conferences!
+===========================
 
-Welcome to Conference Site's documentation!
-===========================================
 
-Contents:
+`SciPy 2010 <http://conference.scipy.org/scipy2010>`_
 
-.. toctree::
-   :maxdepth: 2
+9th annual Python in Science conference
 
-Indices and tables
-==================
+Austin, TX, June XX - July 3 2010
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
 
+`EuroScipy 2010 <http://www.euroscipy.org/>`_
+
+3rd European meeting on Python in Science
+
+Paris, Ecole Normale Supérieure, July 8-11 2010
+
+
+`SciPy.in 2010 <http://scipy.in>`_
+
+To be announced

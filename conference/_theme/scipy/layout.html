@@ -9,23 +9,11 @@
 <div class="top-logo-header">
 <a href="{{ pathto('index') }}"><img src="{{ pathto("_static/logo.gif", 1) }}" border="0" alt="SciPy Website"/></a>
 </div>
-{{ super() }}
 {% endblock %}
+{% block relbar2 %}{% endblock %}
 
 {# put the sidebar before the body #}
 {% block sidebar1 %}{{ sidebar() }}{% endblock %}
 {% block sidebar2 %}{% endblock %}
 
-
-{%- block sidebarsearch %}
-<div id="searchbox" style="display: none">
-    <h3>{{ _('Search') }}</h3>
-<form class="search" action="http://www.google.com/search" method="get">
-    <!-- we'll use google at least until we get everything in sphinx -->
-    <input type="text" name="q" size="18" />
-    <input type="submit" value="{{ _('Go') }}" />
-    <input type="hidden" name="as_sitesearch" value="scipy.org">
-  </form>
-</div>
-<script type="text/javascript">$('#searchbox').show(0);</script>
-{%- endblock %}
+{% block sidebarsearch %}{% endblock %}
