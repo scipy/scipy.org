@@ -86,3 +86,8 @@ doctest:
 	$(SPHINXBUILD) -b doctest $(ALLSPHINXOPTS) _build/doctest
 	@echo "Testing of doctests in the sources finished, look at the " \
 	      "results in _build/doctest/output.txt."
+
+webup:
+	@echo "Copying html files to conference.scipy.org..."
+	rsync -avH -e ssh _build/html/ jarrod.millman@conference.scipy.org:/srv/www/conference
+
