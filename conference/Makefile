@@ -15,6 +15,7 @@ ALLSPHINXOPTS   = -d _build/doctrees $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) .
 
 help:
 	@echo "Please use \`make <target>' where <target> is one of"
+	@echo "  upload USER=...  to upload to conference.scipy.org
 	@echo "  html      to make standalone HTML files"
 	@echo "  dirhtml   to make HTML files named index.html in directories"
 	@echo "  pickle    to make pickle files"
@@ -28,6 +29,12 @@ help:
 
 clean:
 	-rm -rf _build/*
+
+upload: html
+	chmod ug=rwX,o=rX -R _build/html
+	rsync -r -z -p \
+	    _build/html/ \
+	    $(USER)@new.scipy.org:/srv/www/conference/
 
 html:
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) _build/html
@@ -86,8 +93,3 @@ doctest:
 	$(SPHINXBUILD) -b doctest $(ALLSPHINXOPTS) _build/doctest
 	@echo "Testing of doctests in the sources finished, look at the " \
 	      "results in _build/doctest/output.txt."
-
-webup:
-	@echo "Copying html files to conference.scipy.org..."
-	rsync -avH -e ssh _build/html/ jarrod.millman@conference.scipy.org:/srv/www/conference
-
