@@ -68,7 +68,7 @@ SciPy and friends can be used for a variety of tasks:
 
   There is a sizeable collection of both generic and application-specific
   numerical code written in or using numpy and scipy. See the
-  :ref:`topical-software` index for a partial list. Python has many advanced
+  :doc:`topical-software` index for a partial list. Python has many advanced
   modules to build interactive applications (for instance Traits_ or
   wxPython_). Using SciPy with these is the quickest way to build a 
   fully-fledged scientific application.
