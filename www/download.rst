@@ -43,21 +43,33 @@ Bleeding Edge Repository Access
 -------------------------------
 
 The most recent development versions of NumPy and SciPy are available through
-the official `Subversion`_  repositories.
+the official repositories hosted on `Github`_.
 
-.. _Subversion: http://subversion.tigris.org/
+.. _Github: http://www.github.com/
 
 To check out the latest **NumPy** sources:
 
 ::
 
-  svn co http://svn.scipy.org/svn/numpy/trunk numpy
+  git clone git://github.com/numpy/numpy.git numpy
+
+or (if you're behind a proxy blocking git ports)
+
+::
+
+  git clone http://github.com/numpy/numpy.git numpy
 
 To check out the latest **SciPy** sources:
 
 ::
 
-  svn co http://svn.scipy.org/svn/scipy/trunk scipy
+  git clone git://github.com/scipy/scipy.git scipy
+
+or
+
+::
+
+  git clone http://github.com/scipy/scipy.git scipy
    
 
 Software Distributions that include NumPy/SciPy
