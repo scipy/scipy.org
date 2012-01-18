@@ -17,19 +17,15 @@ vendor.
 +========+==============================+=====================================+
 |        |  Official *source code*      |                                     |
 |        |  (all platforms) and         | `SourceForge site for NumPy`_       |
-|        |  *binaries* for **Windows**  |                                     |
-| NumPy  |  & **Mac OS X**              |                                     |
-|        +------------------------------+-------------------------------------+
-|        |  Pre-built *binary* packages | `SciPy PPA on Launchpad`_           |
-|        |  **Ubuntu Linux**            |                                     |
+| NumPy  |  *binaries* for **Windows**  |                                     |
+|        |  & **Mac OS X**              |                                     |
+|        |                              |                                     |
 +--------+------------------------------+-------------------------------------+
 |        |  Official *source code*      |                                     |
 |        |  (all platforms) and         | `SourceForge site for SciPy`_       |
-|        |  *binaries* for **Windows**  |                                     |
-| SciPy  |  & **Mac OS X**              |                                     |
-|        +------------------------------+-------------------------------------+
-|        |  Pre-built *binary* packages | `SciPy PPA on Launchpad`_           |
-|        |  **Ubuntu Linux**            |                                     |
+| SciPy  |  *binaries* for **Windows**  |                                     |
+|        |  & **Mac OS X**              |                                     |
+|        |                              |                                     |
 +--------+------------------------------+-------------------------------------+
 
 Build instructions are available for :doc:`linux <building/linux>`,
