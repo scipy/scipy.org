@@ -17,19 +17,15 @@ vendor.
 +========+==============================+=====================================+
 |        |  Official *source code*      |                                     |
 |        |  (all platforms) and         | `SourceForge site for NumPy`_       |
-|        |  *binaries* for **Windows**  |                                     |
-| NumPy  |  & **Mac OS X**              |                                     |
-|        +------------------------------+-------------------------------------+
-|        |  Pre-built *binary* packages | `SciPy PPA on Launchpad`_           |
-|        |  **Ubuntu Linux**            |                                     |
+| NumPy  |  *binaries* for **Windows**  |                                     |
+|        |  & **Mac OS X**              |                                     |
+|        |                              |                                     |
 +--------+------------------------------+-------------------------------------+
 |        |  Official *source code*      |                                     |
 |        |  (all platforms) and         | `SourceForge site for SciPy`_       |
-|        |  *binaries* for **Windows**  |                                     |
-| SciPy  |  & **Mac OS X**              |                                     |
-|        +------------------------------+-------------------------------------+
-|        |  Pre-built *binary* packages | `SciPy PPA on Launchpad`_           |
-|        |  **Ubuntu Linux**            |                                     |
+| SciPy  |  *binaries* for **Windows**  |                                     |
+|        |  & **Mac OS X**              |                                     |
+|        |                              |                                     |
 +--------+------------------------------+-------------------------------------+
 
 Build instructions are available for :doc:`linux <building/linux>`,
@@ -43,21 +39,33 @@ Bleeding Edge Repository Access
 -------------------------------
 
 The most recent development versions of NumPy and SciPy are available through
-the official `Subversion`_  repositories.
+the official repositories hosted on `Github`_.
 
-.. _Subversion: http://subversion.tigris.org/
+.. _Github: http://www.github.com/
 
 To check out the latest **NumPy** sources:
 
 ::
 
-  svn co http://svn.scipy.org/svn/numpy/trunk numpy
+  git clone git://github.com/numpy/numpy.git numpy
+
+or (if you're behind a proxy blocking git ports)
+
+::
+
+  git clone http://github.com/numpy/numpy.git numpy
 
 To check out the latest **SciPy** sources:
 
 ::
 
-  svn co http://svn.scipy.org/svn/scipy/trunk scipy
+  git clone git://github.com/scipy/scipy.git scipy
+
+or
+
+::
+
+  git clone http://github.com/scipy/scipy.git scipy
    
 
 Software Distributions that include NumPy/SciPy
@@ -180,11 +188,10 @@ Third-Party/Vendor Package Managers
 Below is a partial list of third-party and operating system vendor package 
 managers containing NumPy and SciPy packages. 
 
-These packages are **not** maintained by the NumPy and SciPy developers; 
-this list is provided only as a convenience. These packages may not always
-provide the most up to date version of the software, and may be 
-unmaintained. Note that `Ubuntu Linux`_ is not listed, as official packages
-are available; see :ref:`Official Source and Binary Releases <download-official>`.
+These packages are **not** maintained by the NumPy and SciPy
+developers; this list is provided only as a convenience. These
+packages may not always provide the most up to date version of the
+software, and may be unmaintained.
 
 **IMPORTANT:** If you experience problems with these packages (*especially* 
 those related to installation/build errors), **please report the problem to 
@@ -200,6 +207,10 @@ the package maintainer first, rather than to the NumPy/SciPy mailing lists**.
 | `Debian GNU/Linux`_ | `python-numpy`__          | `python-scipy`__          |
 |                     |                           |                           |
 |                     | __ python-numpy-debian_   | __ python-scipy-debian_   |
++---------------------+---------------------------+---------------------------+
+| `Ubuntu Linux`_     | `python-numpy`__          | `python-scipy`__          |
+|                     |                           |                           |
+|                     | __ python-numpy-ubuntu_   | __ python-scipy-ubuntu_   |
 +---------------------+---------------------------+---------------------------+
 | `Fedora`_           | `numpy`__                 | `scipy`__                 |
 |                     |                           |                           |
@@ -279,6 +290,8 @@ the package maintainer first, rather than to the NumPy/SciPy mailing lists**.
 
 .. Ubuntu links
 .. _Ubuntu Linux: http://www.ubuntu.com/
+.. _python-numpy-ubuntu: http://packages.ubuntu.com/search?keywords=python-numpy
+.. _python-scipy-ubuntu: http://packages.ubuntu.com/search?keywords=python-scipy
 
 .. FreeBSD links
 .. _FreeBSD Ports: http://www.freebsd.org/ports/
