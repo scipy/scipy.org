@@ -237,27 +237,13 @@ matrix argument for solving `generalized eigenvalue problems`_.
 Python version support
 ----------------------
 
-Does NumPy currently work with Python 3.x? What about SciPy?
-############################################################
+Do NumPy and SciPy support Python 3.x?
+######################################
 
-Currently, NumPy and SciPy support only Python versions 2.4 to 2.6.x. Neither
-NumPy nor SciPy are currently compatible with Python 3.
-
-When will NumPy support Python 3.x?
-###################################
-
-This is a difficult question to answer, and depends largely on developer
-resources. NumPy contains a large amount of C code, which must be manually
-converted to respect the new Python API. It is hard to predict how long
-this will take, but at present we expect a NumPy release for Python 3.x
-no earlier than mid-2010.
-
-When will SciPy support Python 3.x?
-###################################
-
-SciPy depends heavily on NumPy, so it will not be possible to port
-SciPy until NumPy is done. Since we do not have a firm date for
-a 3.x-compatible NumPy, a prediction for SciPy is pointless.
+NumPy and SciPy support the Python 2.x series, beginning with version
+2.4, as well as Python 3.1 and newer. The first release of NumPy to
+support Python 3 was NumPy 1.5.0. Python 3 support in SciPy starts
+with version 0.9.0.
 
 Does NumPy/SciPy work with Jython?
 ##################################
