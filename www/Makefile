@@ -25,7 +25,6 @@ clean:
 upload: html
 	cd _build/html && \
 	    touch .nojekyll && \
-	    echo new.scipy.org > CNAME && \
 	    rm -rf .git && \
 	    git init && \
 	    git remote add target git@github.com:scipy/scipy.github.com.git && \
