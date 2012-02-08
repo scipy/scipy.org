@@ -11,6 +11,7 @@
 # serve to show the default.
 
 import sys, os
+from datetime import date
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -62,7 +63,7 @@ master_doc = 'content'
 
 # General information about the project.
 project = u'Scipy'
-copyright = u'2009 SciPy developers'
+copyright = u'%s SciPy developers' % date.today().year
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
