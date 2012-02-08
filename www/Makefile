@@ -15,8 +15,9 @@ ALLSPHINXOPTS   = -d _build/doctrees $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) .
 
 help:
 	@echo "Please use \`make <target>' where <target> is one of"
-	@echo "  upload    to upload the generated pages to Github"
-	@echo "  html      to make standalone HTML files"
+	@echo "  upload     to upload the generated pages to Github"
+	@echo "  html       to make standalone HTML files"
+	@echo "  linkcheck  to check if external links work"
 
 clean:
 	-rm -rf _build/*
