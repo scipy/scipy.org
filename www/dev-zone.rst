@@ -4,9 +4,11 @@ Developer Zone
 We need your help!
 ------------------
 
-This is a distributed, volunteer project with many contributors. The
-best way to join our effort is to start participating in one of the
-developer :doc:`mailing lists <mailing-lists>`.
+This is a distributed, volunteer project and we welcome additional
+contributors. If you're keen to help out, a good start is to monitor
+the :doc:`mailing lists <mailing-lists>`. You'll soon begin to
+recognize the areas where your assistance and expertise can make a
+difference.
 
 Steering Committee
 ------------------
@@ -39,17 +41,16 @@ Note that NumPy contains the most basic numerical functionality, and SciPy is
 layered on top of NumPy to provide a much wider range of capability. You need
 NumPy for SciPy to work.
 
-
 +-------+-------------------------+------------------------------------------+
 | NumPy | Developer's Wiki (Trac) | http://projects.scipy.org/numpy          |
 |       +-------------------------+------------------------------------------+
-|       | Subversion              | http://svn.scipy.org/svn/numpy/trunk     |
+|       | Code repository         | http://github.com/numpy/numpy            |
 |       +-------------------------+------------------------------------------+
 |       | Timeline                | http://projects.scipy.org/numpy/timeline |
 +-------+-------------------------+------------------------------------------+
-| NumPy | Developer's Wiki (Trac) | http://projects.scipy.org/scipy          |
+| SciPy | Developer's Wiki (Trac) | http://projects.scipy.org/scipy          |
 |       +-------------------------+------------------------------------------+
-|       | Subversion              | http://svn.scipy.org/svn/scipy/trunk     |
+|       | Code repository         | http://github.com/scipy/scipy            |
 |       +-------------------------+------------------------------------------+
 |       | Timeline                | http://projects.scipy.org/scipy/timeline |
 +-------+-------------------------+------------------------------------------+
@@ -57,14 +58,6 @@ NumPy for SciPy to work.
 Interested people can get repository write access as well.  This usually 
 requires a developer "vouching" for you, which happens more easily if you 
 already made a number of patch contributions.
-
-See :ref:`packaging`, below, for the process of building and making releases.
-
-Affiliated, non-field-specific projects:
-
-* `matplotlib <http://matplotlib.sourceforge.net/>`_ -- John D. Hunter
-* `IPython <http://ipython.scipy.org/>`_ -- Fernando Perez
-* `f2py <http://www.f2py.org/>`_ -- Pearu Peterson
 
 New Code
 ########
@@ -102,7 +95,7 @@ the coding is finished is the Packaging Team's job.
 Making Source and Binary Releases
 #################################
 
-A releaseable tarball gets made from the sources following a straightforward
+A releasable tarball gets made from the sources following a straightforward
 procedure (see http://projects.scipy.org/numpy/wiki/MakingReleases ). To make
 an official release to the community, the release manager typically
 makes a series of test releases and announces them on the
