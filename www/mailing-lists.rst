@@ -33,16 +33,15 @@ Before you post
   to use is an acquired skill, often it's easier than you think. Also 
   check the :ref:`faq-top` to see if your question is answered there. 
 * Please make sure that you're posting to the right list. The NumPy
-  and SciPy mailing lists should be used for questions relating to those
-  two packages in particular (general questions about how to accomplish
-  a scientific task in Python are okay, too). Questions about
-  **matplotlib** should go to one of the `matplotlib mailing lists 
-  <http://sourceforge.net/mail/?group_id=80706>`_. Questions specifically 
-  about using/developing the **IPython** shell should go to one of the 
-  `IPython mailing lists <http://ipython.scipy.org/moin/MailingLists>`_.
-  Making sure your question is going to the right list saves everyone 
-  time and makes it far more likely the right people will see (and 
-  answer) your question quickly.
+  and SciPy mailing lists should be used for questions relating to
+  those two packages in particular (general questions about how to
+  accomplish a scientific task in Python are okay, too). Questions
+  about **matplotlib** should go to one of the matplotlib_ mailing
+  lists. Questions specifically about using/developing the **IPython**
+  shell should go to one of the IPython_ lists.  Making sure your
+  question is going to the right list saves everyone time and makes it
+  far more likely the right people will see (and answer) your question
+  quickly.
 
 A few points on mailing list etiquette:
 
@@ -120,91 +119,27 @@ your question.
  | Commits to the SciPy repository                                        |
  +------------------------------------------------------------------------+
 
-Affiliated Project Mailing Lists
---------------------------------
-
-The following is a partial list of popular mailing lists from related 
-scientific Python projects, notably matplotlib_ and IPython_, listed here
-for convenience in helping direct questions to the appropriate mailing list.
-
- +----------------------+----------------+---------------+----------------+
- | **matplotlib-users** |`Read/Search`__ |`Archives`__   |`Subscribe`__   |
- |                      |                |               |                |
- |                      |__ gm-mpl-u_    |__ mpl-u-ar_   |__ mpl-u-su_    |
- +----------------------+----------------+---------------+----------------+
- | For discussions about using the matplotlib plotting library.           |
- +----------------------+----------------+---------------+----------------+
- | **matplotlib-devel** |`Read/Search`__ |`Archives`__   |`Subscribe`__   |
- |                      |                |               |                |
- |                      |__ gm-mpl-d_    |__ mpl-d-ar_   |__ mpl-d-su_    |
- +----------------------+----------------+---------------+----------------+
- | For development discussions about the matplotlib plotting library.     |
- +----------------------+----------------+---------------+----------------+
- | **IPython-user**     |`Read/Search`__ |`Archives`__   |`Subscribe`__   |
- |                      |                |               |                |
- |                      |__ gm-ip-u_     |__ ip-u-ar_    |__ ip-u-su_     |
- +----------------------+----------------+---------------+----------------+
- | For discussions about using the IPython interactive shell.             |
- +----------------------+----------------+---------------+----------------+
- | **IPython-dev**      |`Read/Search`__ |`Archives`__   |`Subscribe`__   |
- |                      |                |               |                |
- |                      |__ gm-mpl-d_    |__ ip-d-ar_    |__ ip-d-su_     |
- +----------------------+----------------+---------------+----------------+
- | For development discussions about the IPython interactive shell.       |
- +----------------------+----------------+---------------+----------------+
- | **Enthought-dev**    |`Read/Search`__ |`Archives`__   |`Subscribe`__   |
- |                      |                |               |                |
- |                      |__ gm-ets-d_    |__ ets-d-ar_   |__ ets-d-su_    |
- +----------------------+----------------+---------------+----------------+
- | The central list for discussion of the Enthought Tool Suite, including |
- | MayaVi, Chaco, and Traits.                                             |
- +----------------------+----------------+---------------+----------------+
- | **AstroPy**          |                |`Archives`__   |`Subscribe`__   |
- |                      |                |               |                |
- |                      |                |__ astropy-ar_ |__ astropy-su_  |
- +----------------------+----------------+---------------+----------------+
- | For discussions about tools and modules for astronomical data analysis |
- | and processing.                                                        |
- +----------------------+----------------+---------------+----------------+
-
 .. _Gmane: http://www.gmane.org/ 
 .. _matplotlib: http://matplotlib.sourceforge.net/
-.. _IPython: http://ipython.scipy.org/
+.. _IPython: http://ipython.org/
 
 .. _gm-numpy-d: http://dir.gmane.org/gmane.comp.python.numeric.general
 .. _gm-scipy-u: http://dir.gmane.org/gmane.comp.python.scientific.user
 .. _gm-scipy-d: http://dir.gmane.org/gmane.comp.python.scientific.devel
-.. _gm-mpl-d: http://dir.gmane.org/gmane.comp.python.matplotlib.devel
-.. _gm-mpl-u: http://dir.gmane.org/gmane.comp.python.matplotlib.general
-.. _gm-ip-d: http://dir.gmane.org/gmane.comp.python.ipython.devel
-.. _gm-ip-u: http://dir.gmane.org/gmane.comp.python.ipython.user
-.. _gm-ets-d: http://dir.gmane.org/gmane.comp.python.enthought.devel
 
 .. _numpy-d-ar: http://projects.scipy.org/pipermail/numpy-discussion
 .. _scipy-u-ar: http://projects.scipy.org/pipermail/scipy-user 
 .. _scipy-d-ar: http://projects.scipy.org/pipermail/scipy-dev
-.. _astropy-ar: http://mail.scipy.org/pipermail/astropy/
 .. _numpy-t-ar: http://projects.scipy.org/pipermail/numpy-tickets 
 .. _numpy-s-ar: http://projects.scipy.org/pipermail/numpy-svn 
 .. _scipy-t-ar: http://projects.scipy.org/pipermail/scipy-tickets/Archives
 .. _scipy-s-ar: http://projects.scipy.org/pipermail/scipy-svn
-.. _mpl-d-ar: http://sourceforge.net/mailarchive/forum.php?forum_name=matplotlib-devel
-.. _mpl-u-ar: http://sourceforge.net/mailarchive/forum.php?forum_name=matplotlib-users
-.. _ip-d-ar: http://projects.scipy.org/pipermail/ipython-dev
-.. _ip-u-ar: http://projects.scipy.org/pipermail/ipython-user
-.. _ets-d-ar: https://mail.enthought.com/pipermail/enthought-dev/
 
 
 .. _numpy-d-su: http://projects.scipy.org/mailman/listinfo/numpy-discussion
 .. _scipy-u-su: http://projects.scipy.org/mailman/listinfo/scipy-user
 .. _scipy-d-su: http://projects.scipy.org/mailman/listinfo/scipy-dev
-.. _astropy-su:  http://lists.astropy.scipy.org/mailman/listinfo/astropy
 .. _numpy-t-su: http://projects.scipy.org/mailman/listinfo/numpy-tickets
 .. _numpy-s-su: http://projects.scipy.org/mailman/listinfo/numpy-svn
 .. _scipy-t-su: http://projects.scipy.org/mailman/listinfo/scipy-tickets
 .. _scipy-s-su: http://projects.scipy.org/mailman/listinfo/scipy-svn
-.. _mpl-d-su: https://lists.sourceforge.net/lists/listinfo/matplotlib-devel
-.. _mpl-u-su: https://lists.sourceforge.net/lists/listinfo/matplotlib-users
-.. _ip-d-su: http://mail.scipy.org/mailman/listinfo/ipython-dev
-.. _ip-u-su: http://mail.scipy.org/mailman/listinfo/ipython-user
-.. _ets-d-su: https://mail.enthought.com/mailman/listinfo/enthought-dev
