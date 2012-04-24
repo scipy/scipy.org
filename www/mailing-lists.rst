@@ -19,8 +19,9 @@ the top. This reduces inbox clutter, but means you will get the messages with
 a delay of up to a day. It is okay to post job ads for work involving
 NumPy/SciPy and related packages if you put "[JOB]" in the subject.
 
-We also have read-only mailing lists setup for NumPy and SciPy to receive
-notifications of all SVN checkins and Trac ticket changes.
+We also have read-only mailing lists setup for NumPy and SciPy that
+provide notifications of all version control checkins and Trac ticket
+changes.
 
 .. _before-you-post:
 
@@ -104,7 +105,7 @@ your question.
  |                      |                |               |                |
  |                      |                |__ numpy-s-ar_ |__ numpy-s-su_  |
  +----------------------+----------------+---------------+----------------+
- | SVN commits to the NumPy repository                                    |
+ | Commits to the NumPy repository                                        |
  +----------------------+----------------+---------------+----------------+
  | **SciPy-tickets**    |                |`Archives`__   |`Subscribe`__   |
  |                      |                |               |                |
@@ -116,7 +117,7 @@ your question.
  |                      |                |               |                |
  |                      |                |__ scipy-s-ar_ |__ scipy-s-su_  |
  +----------------------+----------------+---------------+----------------+
- | SVN commits to the SciPy repository                                    |
+ | Commits to the SciPy repository                                        |
  +------------------------------------------------------------------------+
 
 Affiliated Project Mailing Lists
