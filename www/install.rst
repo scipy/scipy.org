@@ -17,8 +17,9 @@ which includes all the key packages:
   Windows and Mac.
 * `WinPython <http://code.google.com/p/winpython/>`_: A free distribution
   including the Scipy stack. Windows only.
-
-.. Add Python(x,y) here once it has newer versions of IPython, pandas
+* `Python(x,y) <http://code.google.com/p/pythonxy/>`_: A free distribution with
+  a similar aim, but the current release has older versions of some packages.
+  Windows only.
 
 Linux packages
 --------------
