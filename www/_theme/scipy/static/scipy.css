@@ -61,6 +61,8 @@ ul li a.reference {
  */
 div.body h3 { 
   background-color: transparent;
+  font-size: 1em;
+  font-style: italic;
 }
 
 div.body h4 { 
