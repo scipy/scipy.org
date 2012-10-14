@@ -13,8 +13,8 @@ which includes all the key packages:
   commercial versions include the core Scipy stack. Supports Linux, Windows and
   Mac.
 * `EPD <http://www.enthought.com/products/epd.php>`_: At present, only the
-  commercial version includes all the Scipy stack packages. Supports Linux,
-  Windows and Mac.
+  commercial version (free for academic use) includes all the Scipy stack
+  packages. Supports Linux, Windows and Mac.
 * `WinPython <http://code.google.com/p/winpython/>`_: A free distribution
   including the Scipy stack. Windows only.
 * `Python(x,y) <http://code.google.com/p/pythonxy/>`_: A free distribution with
