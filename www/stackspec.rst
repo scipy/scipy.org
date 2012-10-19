@@ -1,3 +1,5 @@
+.. _stackspec:
+
 =============================
 The Scipy Stack specification
 =============================

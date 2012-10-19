@@ -41,7 +41,7 @@ Custom
 ------
 
 You can assemble the Scipy stack from individual packages. For details of what
-you need, see the specification. Packages are typically on `the Python Package
+you need, see :ref:`the specification <stackspec>`. Packages are typically on `the Python Package
 Index <http://pypi.python.org/pypi/>`_, and projects' sites may also offer
 official binary packages (e.g. `numpy <http://sourceforge.net/projects/numpy/files/NumPy/>`_,
 `scipy library <http://sourceforge.net/projects/scipy/files/scipy/>`_).
