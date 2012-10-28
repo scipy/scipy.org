@@ -120,26 +120,26 @@ your question.
  +------------------------------------------------------------------------+
 
 .. _Gmane: http://www.gmane.org/ 
-.. _matplotlib: http://matplotlib.sourceforge.net/
+.. _matplotlib: http://matplotlib.org/
 .. _IPython: http://ipython.org/
 
 .. _gm-numpy-d: http://dir.gmane.org/gmane.comp.python.numeric.general
 .. _gm-scipy-u: http://dir.gmane.org/gmane.comp.python.scientific.user
 .. _gm-scipy-d: http://dir.gmane.org/gmane.comp.python.scientific.devel
 
-.. _numpy-d-ar: http://projects.scipy.org/pipermail/numpy-discussion
-.. _scipy-u-ar: http://projects.scipy.org/pipermail/scipy-user 
-.. _scipy-d-ar: http://projects.scipy.org/pipermail/scipy-dev
-.. _numpy-t-ar: http://projects.scipy.org/pipermail/numpy-tickets 
-.. _numpy-s-ar: http://projects.scipy.org/pipermail/numpy-svn 
-.. _scipy-t-ar: http://projects.scipy.org/pipermail/scipy-tickets/Archives
-.. _scipy-s-ar: http://projects.scipy.org/pipermail/scipy-svn
+.. _numpy-d-ar: http://projects.scipy.org/pipermail/numpy-discussion/
+.. _scipy-u-ar: http://projects.scipy.org/pipermail/scipy-user/
+.. _scipy-d-ar: http://projects.scipy.org/pipermail/scipy-dev/
+.. _numpy-t-ar: http://projects.scipy.org/pipermail/numpy-tickets/
+.. _numpy-s-ar: http://projects.scipy.org/pipermail/numpy-svn/
+.. _scipy-t-ar: http://mail.scipy.org/pipermail/scipy-tickets/
+.. _scipy-s-ar: http://projects.scipy.org/pipermail/scipy-svn/
 
 
-.. _numpy-d-su: http://projects.scipy.org/mailman/listinfo/numpy-discussion
-.. _scipy-u-su: http://projects.scipy.org/mailman/listinfo/scipy-user
-.. _scipy-d-su: http://projects.scipy.org/mailman/listinfo/scipy-dev
-.. _numpy-t-su: http://projects.scipy.org/mailman/listinfo/numpy-tickets
-.. _numpy-s-su: http://projects.scipy.org/mailman/listinfo/numpy-svn
-.. _scipy-t-su: http://projects.scipy.org/mailman/listinfo/scipy-tickets
-.. _scipy-s-su: http://projects.scipy.org/mailman/listinfo/scipy-svn
+.. _numpy-d-su: http://mail.scipy.org/mailman/listinfo/numpy-discussion
+.. _scipy-u-su: http://mail.scipy.org/mailman/listinfo/scipy-user
+.. _scipy-d-su: http://mail.scipy.org/mailman/listinfo/scipy-dev
+.. _numpy-t-su: http://mail.scipy.org/mailman/listinfo/numpy-tickets
+.. _numpy-s-su: http://mail.scipy.org/mailman/listinfo/numpy-svn
+.. _scipy-t-su: http://mail.scipy.org/mailman/listinfo/scipy-tickets
+.. _scipy-s-su: http://mail.scipy.org/mailman/listinfo/scipy-svn
