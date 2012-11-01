@@ -37,6 +37,23 @@ The versions in Ubuntu 12.10 and Debian 7.0 meet the current Scipy stack
 specification. Users might also want to add the `NeuroDebian repository
 <http://neuro.debian.net/>`_ for extra Scipy packages.
 
+Mac packages
+--------------
+
+Macs (unlike Linux) don't come with a package manager, but you can install a package manager and then use it to install the scipy stack.
+The most popular Mac package managers are:
+
+* `Macports <http://www.macports.org>`_
+* `Homebrew <http://mxcl.github.com/homebrew/>`_
+* `Fink <http://www.finkproject.org>`_
+
+To install the scipy stack for Python 2.7 with Macports execute this command in a terminal:
+
+::
+
+    sudo port install py27-numpy py27-scipy py27-matplotlib py27-ipython +notebook py27-pandas py27-sympy py27-nose
+
+
 Custom
 ------
 
