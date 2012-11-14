@@ -40,16 +40,12 @@ specification. Users might also want to add the `NeuroDebian repository
 Mac packages
 --------------
 
-Macs (unlike Linux) don't come with a package manager, but you can install a package manager and then use it to install the scipy stack.
-The most popular Mac package managers are:
+Macs (unlike Linux) don't come with a package manager, but there are a couple of popular package managers you can install.
 
-* `Macports <http://www.macports.org>`_
-* `Homebrew <http://mxcl.github.com/homebrew/>`_
-* `Fink <http://www.finkproject.org>`_
+Macports
+~~~~~~~~
 
-To install the scipy stack for Python 2.7 with Macports execute this command in a terminal:
-
-::
+To install the scipy stack for Python 2.7 with `Macports <http://www.macports.org>`_ execute this command in a terminal::
 
     sudo port install py27-numpy py27-scipy py27-matplotlib py27-ipython +notebook py27-pandas py27-sympy py27-nose
 
