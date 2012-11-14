@@ -186,6 +186,23 @@ body div.top-logo-header {
     margin-top: 10px;
 }
 
+table#top-nav {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0.5em;
+}
+
+table#top-nav td {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+table#top-nav td a {
+    font-size: 12pt;
+    text-decoration: none;
+}
+
 /**
  * Footer colors
  */
