@@ -3,6 +3,13 @@
 /**
  * Spacing fixes
  */
+ 
+body {
+    min-width: 800px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 div.body p, div.body dd, div.body li {
   line-height: 125%;
@@ -186,6 +193,7 @@ body div.top-logo-header {
     margin-top: 10px;
 }
 
+/* Navigation table on homepage */
 table#top-nav {
     margin-right: auto;
     margin-left: auto;
@@ -201,6 +209,13 @@ table#top-nav td {
 table#top-nav td a {
     font-size: 12pt;
     text-decoration: none;
+}
+
+/* Packages table on homepage */
+
+table#packageicons td {
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 /**
