@@ -15,11 +15,10 @@ which includes all the key packages:
 * `EPD <http://www.enthought.com/products/epd.php>`_: At present, only the
   commercial version (free for academic use) includes all the Scipy stack
   packages. Supports Linux, Windows and Mac.
+* `Python(x,y) <http://code.google.com/p/pythonxy/>`_: A free distribution
+  including the Scipy stack, based around the Spyder IDE. Windows only.
 * `WinPython <http://code.google.com/p/winpython/>`_: A free distribution
   including the Scipy stack. Windows only.
-* `Python(x,y) <http://code.google.com/p/pythonxy/>`_: A free distribution with
-  a similar aim, but the current release has older versions of some packages.
-  Windows only.
 
 Linux packages
 --------------
