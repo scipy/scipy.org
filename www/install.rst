@@ -36,6 +36,17 @@ The versions in Ubuntu 12.10 and Debian 7.0 meet the current Scipy stack
 specification. Users might also want to add the `NeuroDebian repository
 <http://neuro.debian.net/>`_ for extra Scipy packages.
 
+Fedora
+~~~~~~
+
+::
+
+    sudo yum install numpy scipy python-matplotlib ipython python-pandas sympy python-nose
+
+Users of Fedora 17 and earlier should then upgrade IPython using pip::
+
+    sudo pip install --upgrade ipython
+
 Mac packages
 --------------
 
