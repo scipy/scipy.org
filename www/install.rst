@@ -15,11 +15,10 @@ which includes all the key packages:
 * `EPD <http://www.enthought.com/products/epd.php>`_: At present, only the
   commercial version (free for academic use) includes all the Scipy stack
   packages. Supports Linux, Windows and Mac.
+* `Python(x,y) <http://code.google.com/p/pythonxy/>`_: A free distribution
+  including the Scipy stack, based around the Spyder IDE. Windows only.
 * `WinPython <http://code.google.com/p/winpython/>`_: A free distribution
   including the Scipy stack. Windows only.
-* `Python(x,y) <http://code.google.com/p/pythonxy/>`_: A free distribution with
-  a similar aim, but the current release has older versions of some packages.
-  Windows only.
 * `Pyzo <http://www.pyzo.org/>`_: A free distribution based on Python 3 (see
   :ref:`python3`). Supports Linux and Windows.
 
@@ -38,6 +37,17 @@ Ubuntu & Debian
 The versions in Ubuntu 12.10 and Debian 7.0 meet the current Scipy stack
 specification. Users might also want to add the `NeuroDebian repository
 <http://neuro.debian.net/>`_ for extra Scipy packages.
+
+Fedora
+~~~~~~
+
+::
+
+    sudo yum install numpy scipy python-matplotlib ipython python-pandas sympy python-nose
+
+Users of Fedora 17 and earlier should then upgrade IPython using pip::
+
+    sudo pip install --upgrade ipython
 
 Mac packages
 --------------
