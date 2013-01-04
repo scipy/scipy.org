@@ -20,6 +20,8 @@ which includes all the key packages:
 * `Python(x,y) <http://code.google.com/p/pythonxy/>`_: A free distribution with
   a similar aim, but the current release has older versions of some packages.
   Windows only.
+* `Pyzo <http://www.pyzo.org/>`_: A free distribution based on Python 3 (see
+  :ref:`python3`). Supports Linux and Windows.
 
 Linux packages
 --------------
@@ -67,3 +69,16 @@ You can also build any of the Scipy packages from source, for instance if you
 want to get involved with development. This is easy for packages written
 entirely in Python, while others like numpy require compiling C code. Refer to
 individual projects for more details.
+
+.. _python3:
+
+Note on Python 3
+----------------
+
+The Python language is moving from the 2.x series to Python 3. As of late 2012,
+all of the core Scipy Stack packages support Python 3, but some more specialist
+packages still only work on Python 2. The methods above will mostly install
+Python 2, with the exception of `Pyzo <http://www.pyzo.org/>`_.
+
+If you choose to use the new version of the language, it should be easy to find
+Python 3 versions of packages in your package manager.
