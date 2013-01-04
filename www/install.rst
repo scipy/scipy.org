@@ -20,7 +20,7 @@ which includes all the key packages:
 * `WinPython <http://code.google.com/p/winpython/>`_: A free distribution
   including the Scipy stack. Windows only.
 * `Pyzo <http://www.pyzo.org/>`_: A free distribution based on Python 3 (see
-  :ref:`python3`). Supports Linux and Windows.
+  :ref:`python3`) with the IEP editor. Supports Linux and Windows.
 
 Linux packages
 --------------
