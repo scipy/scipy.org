@@ -47,6 +47,23 @@ Users of Fedora 17 and earlier should then upgrade IPython using pip::
 
     sudo pip install --upgrade ipython
 
+Gentoo
+~~~~~~
+
+::
+
+    sudo emerge -aN '>=dev-python/numpy-1.6' '>=sci-libs/scipy-0.10' '>=dev-python/matplotlib-1.1' '>=dev-python/ipython-0.13' '>=dev-python/pandas-0.8' '>=dev-python/sympy-0.7' '>=dev-python/nose-1.1'
+
+You may get some messages saying that keyword changes or USE changes are
+necessary in order to proceed, and that you should use ``--autounmask-write`` to
+write changes to config files. This is especially likely to happen if you are
+running Gentoo Stable rather than Gentoo Testing, as of this writing (February
+2013).
+
+If this happens, just run the above command with ``--autounmask-write``
+appended, then run ``sudo dispatch-conf`` (or an alternative) to save the
+configuration changes, and finally run the original command again.
+
 Mac packages
 --------------
 
