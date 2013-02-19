@@ -32,6 +32,11 @@ upload: html
 	    git commit -m "Rebuild site" -a && \
 	    git push -f target master:master
 
+upload-new: html
+	# SSH must be correctly configured for this to work.
+	cp .htaccess _build/html/
+	rsync -az --exclude '.git' _build/html/ tkluyver@ec2-23-20-103-47.compute-1.amazonaws.com:/srv/scipy_org
+
 html:
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) _build/html
 	@echo

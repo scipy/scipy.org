@@ -1,0 +1,10 @@
+# Redirects to the old site, now at wiki.scipy.org
+RewriteRule ^(Cookbook|Developer_Zone|EuroScipy|F2Py|History_of_SciPy|License_Compatibility|PerformanceTips|ReleaseNotes|Scipy200|SubmillisecondPulsar|Topical_Software) \
+    http://wiki.scipy.org%{REQUEST_URI} [R=permanent]
+
+# Redirect URLs from the MoinMoin site to their new equivalents
+RewriteRule ^(Download|Installing_SciPy) /install.html [R=permanent]
+RewriteRule ^(Documentation|Additional_Documentation) http://docs.scipy.org/ [R=permanent]
+RewriteRule ^FAQ /faq.html [R=permanent]
+RewriteRule ^Getting_Started /getting-started.html [R=permanent]
+
