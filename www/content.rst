@@ -18,8 +18,8 @@ SciPy refers to several related but distinct entities:
 * The *community* of people who use and develop this stack.
 * Several *conferences* dedicated to scientific computing in Python - Scipy,
   EuroScipy and Scipy.in.
-* The *SciPy library*, one component of the Scipy stack, providing many
-  numerical routines.
+* The `SciPy library <scipylib.html>`_, one component of the Scipy stack,
+  providing many numerical routines.
 
 The Scipy Stack
 ---------------
@@ -27,16 +27,22 @@ The Scipy Stack
 Core Packages
 #############
 
-* Python_, the core language
-* NumPy_, the fundamental package for numerical computation
-* The SciPy library, a collection of numerical algorithms and domain-specific toolboxes
+* Python_, a general purpose programming language. It is interpreted and
+  dynamically typed and is very suited for interactive work and quick
+  prototyping, while being powerful enough to write large applications in.
+* NumPy_, the fundamental package for numerical computation. It defines the
+  numerical array and matrix types and basic operations on them.
+* The `SciPy library <scipylib.html>`_, a collection of numerical algorithms and
+  domain-specific toolboxes, including signal processing, optimization,
+  statistics and much more.
 * Matplotlib_, a mature and popular plotting package, that provides 
   publication-quality 2D plotting as well as rudimentary 3D plotting
 * pandas_, providing high-performance, easy to use data structures.
-* SymPy_, supporting symbolic mathematics
-* IPython_, a heavily enhanced version of the Python interactive interpreter
-  designed with scientific and parallel computing in mind
-* nose_, a framework for testing code
+* SymPy_, for symbolic mathematics and computer algebra.
+* IPython_, a rich interactive interface, letting you quickly process data and
+  test ideas. The **IPython notebook** works in your web browser, allowing you
+  to document your computation in an easily reproducible form.
+* nose_, a framework for testing Python code.
 
 Other packages
 ##############
@@ -54,18 +60,6 @@ is a brief overview of a few major ones:
 * Scikits_ are extra packages for more specific functionality. scikit-image_
   and scikit-learn_ are two of the most prominent.
 * h5py_ and PyTables_ can both access data stored in the HDF5 format.
-
-The SciPy Library
------------------
-
-The SciPy library depends on NumPy_, which provides convenient and 
-fast *N*-dimensional array manipulation. The SciPy library is built to
-work with NumPy arrays, and provides many user-friendly and efficient 
-numerical routines such as routines for numerical integration and 
-optimization. Together, they run on all popular operating systems, 
-are quick to install, and are free of charge. NumPy and SciPy are easy 
-to use, but powerful enough to be depended upon by some of the world's 
-leading scientists and engineers.
 
 .. _NumPy: http://numpy.scipy.org/
 .. _Matplotlib: http://matplotlib.sourceforge.net/

@@ -3,23 +3,7 @@ Getting Started
 ===============
 
 This page is intended to help the beginner get a handle on SciPy and be
-productive with it as fast as possible. 
-
-What are NumPy, SciPy and matplotlib?
--------------------------------------
-
-* **Python** is a general purpose programming language. It is interpreted and
-  dynamically typed and is very suited for interactive work and quick
-  prototyping, while being powerful enough to write large applications in.
-
-* **NumPy** is a Python extension module, written mostly in C, that defines
-  the numerical array and matrix types and basic operations on them.
-
-* **SciPy** is another Python library that uses NumPy to do advanced math,
-  signal processing, optimization, statistics and much more.
-
-* **matplotlib** is a Python library that facilitates publication-quality 
-  interactive plotting.
+productive with it as fast as possible.
 
 What are NumPy, SciPy, and matplotlib?
 --------------------------------------
