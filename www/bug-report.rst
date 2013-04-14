@@ -2,19 +2,25 @@ Bug Reports
 ===========
 **Please help us by reporting any problems you find.**
 
-We make use of `Trac <http://trac.edgewall.org/>`_ to do project management.  There, you can see what we are currently working on, as well as file bug-reports (known as *tickets*).
+We make use of Github and Trac to do project management.  There, you can see what we are currently working on (Pull Requests), as well as file bug-reports (tickets).  NumPy development has already been moved over to Github completely, the SciPy bug tracker is still on Trac but will be moved at some point as well.
 
-1. Go to the relevant Trac page:
+1. Go to the relevant page:
 
-   - `SciPy Developer Page <http://projects.scipy.org/scipy>`_
+   - `SciPy pull requests <https://github.com/scipy/scipy/pulls>`_
 
-   - `NumPy Developer Page <http://projects.scipy.org/numpy>`_
+   - `SciPy bug reports <http://projects.scipy.org/scipy>`_
 
-#. Register your username (we require logins to prevent spam), by clicking on "register". You only need to do this once (i.e, SciPy and NumPy Developer Pages use the same login/password).
+   - `NumPy pull requests <https://github.com/numpy/numpy/pulls>`_
 
-#. Make sure the bug hasn't already been reported.  Click on "Search".  Then, type in some keywords, select "Tickets" and click "Search".
+   - `NumPy bug reports <https://github.com/numpy/numpy/issues>`_
 
-#. File your bug-report by clicking "New Ticket" (**this link is only available once you've logged in**).
+#. On both Github and Trac you need to register an account the first time you use it.
+
+#. Make sure the bug hasn't already been reported.  Click on "Search" and type in some keywords to search for.
+
+#. File your bug-report by clicking "New Issue" on Github or "New Ticket" on Trac (**note that on Trac this link is only available once you've logged in**).
+
+#. Note that the bug trackers are mostly for actual bugs, if you want to propose an enhancement, then the mailing list is a better place to get feedback.
 
 Guidelines for submitting bugs
 ------------------------------
@@ -54,7 +60,7 @@ Guidelines for submitting bugs
 
 * Set the milestone to the next release.
 
-**Thank you for helping to make** SciPy **better!**
+**Thank you for helping to make** NumPy and SciPy **better!**
 
 .. ############################################################################
 
