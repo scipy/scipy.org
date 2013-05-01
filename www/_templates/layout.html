@@ -1,0 +1,26 @@
+{% extends "!layout.html" %}
+
+{% block header %}
+<style>
+.top-logo-header {
+  text-align: left;
+  background-color: rgb(140, 170, 230);
+  border-bottom: 8px solid rgb(0, 51, 153);
+  margin-top: 10px;
+  padding: 5px;
+  box-shadow: 0px 0px 3px rgb(136, 136, 136);
+}
+</style>
+<div class="container">
+  <div class="top-logo-header">
+    <a href="{{ pathto('index') }}">
+      <img border=0 alt="SciPy" src="{{ pathto('_static/logo.gif', 1) }}"></a>
+  </div>
+</div>
+{% endblock %}
+
+{% block navbar %}
+{% if pagename != 'index' %}
+{{ super() }}
+{% endif %}
+{% endblock %}

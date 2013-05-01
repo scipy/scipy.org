@@ -1,10 +1,17 @@
-{% extends "!layout.html" %}
-{% set title = 'Scientific Computing Tools For Python' %}
+.. raw:: html
 
-{% block body %}
-
-<table id="top-nav">
-
+  <style>
+  table.linktable {
+      margin: 5px;
+  }
+  table.linktable td {
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-bottom: 5px;
+  }
+  </style>
+  <center>
+  <table class="linktable">
   <tr>
     <td>
       <a href="install.html">
@@ -30,15 +37,16 @@
     <td><strong><small><a href="bug-report.html">Report Bugs</a></small></strong></td>
     <td><strong><small><a href="http://planet.scipy.org">Blogs</a></small></strong></td>
   </tr>
+  </table>
+  </center>
 
-</table>
-
-
-<p>SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem
+SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem
 of open-source software for mathematics, science, and engineering. In
-particular, these are some of the core packages:</p>
+particular, these are some of the core packages:
 
-<table id="packageicons">
+.. raw:: html
+
+  <table id="packageicons">
   <tr>
   
     <td class="packageicon">
@@ -83,8 +91,20 @@ particular, these are some of the core packages:</p>
     
   </tr>
 
-</table>
+  </table>
 
-<p style="text-align:center;"><a href="content.html">More information</a></p>
+:ref:`More information... <content>`
 
-{% endblock %}
+.. toctree:: 
+   :hidden:
+
+   about
+   download
+   getting-started
+   mailing-lists
+   bug-report
+   dev-zone
+   citing
+   faq
+   topical-software
+   building/index

@@ -1,14 +1,7 @@
+.. _content:
+
 Scientific Computing Tools for Python
 =====================================
-
-.. toctree::
-    :maxdepth: 1
-
-    install
-    faq
-    mailing-lists
-    dev-zone
-
 
 SciPy refers to several related but distinct entities:
 

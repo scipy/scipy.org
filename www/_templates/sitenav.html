@@ -1,0 +1,26 @@
+{% block sitenav %}
+
+<div class="well sidebar-nav">
+  <ul class="nav nav-list">
+    <li {% if pagename == 'about' -%}class="active"{%- endif -%}>
+      <a href="{{ pathto('about') }}">About "Scipy"</a></li>
+    <li {% if pagename == 'download' -%}class="active"{%- endif -%}>
+      <a href="{{ pathto('download') }}">Download</a></li>
+    <li {% if pagename == 'getting-started' -%}class="active"{%- endif -%}>
+      <a href="{{ pathto('getting-started') }}">Getting Started</a></li>
+    <li {% if pagename == 'mailing-lists' -%}class="active"{%- endif -%}>
+      <a href="{{ pathto('mailing-lists') }}">Mailing Lists</a></li>
+    <li {% if pagename == 'bug-report' -%}class="active"{%- endif -%}>
+      <a href="{{ pathto('bug-report') }}">Report Bugs</a></li>
+    <li {% if pagename == 'dev-zone' -%}class="active"{%- endif -%}>
+      <a href="{{ pathto('dev-zone') }}">Developer Zone</a></li>
+    <li class="nav-header">Elsewhere:</li>
+    <li><a href="http://planet.scipy.org">Blogs</a></li>
+    <li><a href="http://conference.scipy.org">Scipy Conferences</a></li>
+    <li><a href="http://www.scipy.org/Cookbook">Cookbook</a></li>
+    <li><a href="http://docs.scipy.org">Documentation</a></li>
+    <li><a href="http://www.scipy.org/Topical_Software">Topical Software</a></li>
+  </ul>
+</div>
+
+{% endblock %}
