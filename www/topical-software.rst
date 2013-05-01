@@ -13,23 +13,25 @@ http://scipy-central.org/
 About This Page
 ===============
 
-As the links in each section become numerous, they may be placed on separate
-pages of their own, so be sure to visit those pages as well, if they're
-relevant to your search. The listings are roughly organized by topic, with
-introductory resources first, more general topics next, and discipline-specific
+The listings are roughly organized by topic, with introductory
+resources first, more general topics next, and discipline-specific
 resources last.
 
-Unless otherwise indicated, all packages listed here are provided under some
-form of open source license.
+Unless otherwise indicated, all packages listed here are provided
+under some form of open source license.
 
-If you distribute or know of a resource that is not listed here, please add a
-listing. Make an account, login, visit the wiki. You'll now see an "edit" tab
-at the top. Click it and go to it. If you need help, there is a help link at
-the top of the page. Please follow the general format of the existing listings.
-Be as brief as you can, but make sure you include in your text a link to the
-resource's home page and some keywords that potential users might search for to
-find the resource. Finally, when you have saved, check out your listing and
-test the link to make sure it works.
+If you distribute or know of a resource that is not listed here,
+please add a listing. You can do this by creating an account on
+`Github <http://github.com/>`__ and going to `the source of this page
+<https://github.com/scipy/scipy.org-new/blob/master/www/topical-software.rst>`__
+There, click the "Edit" button and make the changes. Alternatively,
+send mail to scipy-dev@scipy.org with subject "Addition to topical
+software page".
+
+Please include a description --- be as brief as you can, but make sure
+you include in your text a link to the resource's home page and some
+keywords that potential users might search for to find the
+resource.
 
 In addition, please also list your software on http://scipy-central.org/
 

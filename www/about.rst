@@ -3,6 +3,11 @@
 Scientific Computing Tools for Python
 =====================================
 
+.. toctree::
+   :hidden:
+
+   citing
+
 SciPy refers to several related but distinct entities:
 
 * The *Scipy Stack*, a collection of open source software for scientific

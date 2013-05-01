@@ -104,7 +104,5 @@ particular, these are some of the core packages:
    mailing-lists
    bug-report
    dev-zone
-   citing
    faq
    topical-software
-   building/index
