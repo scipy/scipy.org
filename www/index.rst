@@ -12,6 +12,7 @@ SciPy.org
   <style>
   table.linktable {
       margin: 10px;
+      margin-bottom: 20px;
   }
   table.icontable {
       margin: 10px;
@@ -127,3 +128,4 @@ particular, these are some of the core packages:
    dev-zone
    faq
    topical-software
+   scipylib

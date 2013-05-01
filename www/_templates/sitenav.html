@@ -4,10 +4,8 @@
   <ul class="nav nav-list">
     <li {% if pagename == 'about' -%}class="active"{%- endif -%}>
       <a href="{{ pathto('about') }}">About "Scipy"</a>
-      {% if pagename in ('about', 'citing', 'scipylib', 'stackspec') -%}
+      {% if pagename in ('about', 'citing', 'stackspec') -%}
       <ul class="nav nav-list">
-	<li {% if pagename == 'scipylib' -%}class="active"{%- endif -%}>
-	  <a href="{{ pathto('scipylib') }}">SciPy library</a></li>
 	<li {% if pagename == 'stackspec' -%}class="active"{%- endif -%}>
 	  <a href="{{ pathto('stackspec') }}">SciPy Stack</a></li>
 	<li {% if pagename == 'citing' -%}class="active"{%- endif -%}>
@@ -16,36 +14,33 @@
       {% endif %}
     </li>
     <li {% if pagename == 'install' -%}class="active"{%- endif -%}>
-      <a href="{{ pathto('install') }}">Install</a>
-      {% if pagename in ('install', 'download') or pagename.startswith('building/') -%}
-      <ul class="nav nav-list">
-	<li {% if pagename == 'download' -%}class="active"{%- endif -%}>
-	  <a href="{{ pathto('download') }}">Download</a></li>
-      </ul>
-      <ul class="nav nav-list">
-	<li {% if pagename.startswith('building/') -%}class="active"{%- endif -%}>
-	  <a href="{{ pathto('building/index') }}">Build instructions</a></li>
-      </ul>
-      {% endif %}
-    </li>
+      <a href="{{ pathto('install') }}">Install</a></li>
     <li {% if pagename == 'getting-started' -%}class="active"{%- endif -%}>
       <a href="{{ pathto('getting-started') }}">Getting Started</a></li>
+    <li {% if pagename == 'topical-software' -%}class="active"{%- endif -%}>
+      <a href="{{ pathto('topical-software') }}">Topical Software</a></li>
+    <li><a href="http://scipy-central.org">SciPy Central</a></li>
+    <li><a href="http://www.scipy.org/Cookbook">Cookbook</a></li>
+    <li><a href="http://conference.scipy.org">Scipy Conferences</a></li>
+    <li><a href="http://planet.scipy.org">Blogs</a></li>
+
+    <li class="nav-header">Numpy &amp; Scipy&nbsp;(library):</li>
+    <li {% if pagename == 'scipylib' -%}class="active"{%- endif -%}>
+      <a href="{{ pathto('scipylib') }}">About Scipy</a></li>
+    <li {% if pagename == 'download' -%}class="active"{%- endif -%}>
+      <a href="{{ pathto('download') }}">Download</a></li>
+    <li {% if pagename == 'docs' -%}class="active"{%- endif -%}>
+      <a href="{{ pathto('docs') }}">Documentation</a></li>
+    <li {% if pagename.startswith('building/') -%}class="active"{%- endif -%}>
+      <a href="{{ pathto('building/index') }}">Build instructions</a></li>
     <li {% if pagename == 'mailing-lists' -%}class="active"{%- endif -%}>
       <a href="{{ pathto('mailing-lists') }}">Mailing Lists</a></li>
     <li {% if pagename == 'bug-report' -%}class="active"{%- endif -%}>
       <a href="{{ pathto('bug-report') }}">Report Bugs</a></li>
     <li {% if pagename == 'dev-zone' -%}class="active"{%- endif -%}>
       <a href="{{ pathto('dev-zone') }}">Developer Zone</a></li>
-    <li {% if pagename == 'topical-software' -%}class="active"{%- endif -%}>
-      <a href="{{ pathto('topical-software') }}">Topical Software</a></li>
     <li {% if pagename == 'faq' -%}class="active"{%- endif -%}>
       <a href="{{ pathto('faq') }}">FAQ</a></li>
-    <li class="nav-header">Elsewhere:</li>
-    <li><a href="http://planet.scipy.org">Blogs</a></li>
-    <li><a href="http://conference.scipy.org">Scipy Conferences</a></li>
-    <li><a href="http://www.scipy.org/Cookbook">Cookbook</a></li>
-    <li><a href="http://docs.scipy.org">Documentation</a></li>
-    <li><a href="http://scipy-central.org">SciPy Central</a></li>
   </ul>
 </div>
 

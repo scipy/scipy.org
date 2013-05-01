@@ -8,7 +8,6 @@ Scientific Computing Tools for Python
 
    citing
    stackspec
-   scipylib
 
 SciPy refers to several related but distinct entities:
 
