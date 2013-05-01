@@ -58,7 +58,7 @@ html_sidebars = {
     'index': ['sitenav.html'],
 }
 
-html_title = "SciPy"
+html_title = "SciPy.org"
 html_favicon = 'favicon.ico'
 html_static_path = ['_static']
 
