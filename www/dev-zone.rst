@@ -10,20 +10,6 @@ the :doc:`mailing lists <mailing-lists>`. You'll soon begin to
 recognize the areas where your assistance and expertise can make a
 difference.
 
-Steering Committee
-------------------
-
-* Jarrod Millman
-* Eric Jones
-* Robert Kern
-* Travis Oliphant
-* Stefan van der Walt
-
-The purpose of this group is to ensure coherency in the SciPy library and
-advocate its progression. It organizes doc-days, bug-days, coding sprints, and
-assists with organizing the SciPy conference. It also serves to resolve
-questions that come up regarding the future of SciPy.
-
 Source Code
 -----------
 
@@ -79,3 +65,17 @@ Getting Releases Into Distribution
 
 Linux distributions and many others pick up our packages and deliver them to
 users as part of larger collections.
+
+Steering Committee
+------------------
+
+* Jarrod Millman
+* Eric Jones
+* Robert Kern
+* Travis Oliphant
+* Stefan van der Walt
+
+The purpose of this group is to ensure coherency in the SciPy library and
+advocate its progression. It organizes doc-days, bug-days, coding sprints, and
+assists with organizing the SciPy conference. It also serves to resolve
+questions that come up regarding the future of SciPy.
