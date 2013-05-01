@@ -4,6 +4,13 @@ This repository contains the Sphinx source for the SciPy website
 The source is in the `www` directory, `cd` there, then the following
 commands apply:
 
+After cloning this repository, run
+
+    $ git submodule init
+    $ git submodule update
+
+To get the Sphinx theme used.
+
 To make a local build of the website
 
     $ make html
