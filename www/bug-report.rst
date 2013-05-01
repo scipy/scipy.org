@@ -2,32 +2,40 @@ Bug Reports
 ===========
 **Please help us by reporting any problems you find.**
 
-We make use of Github and Trac to do project management.  There, you can see what we are currently working on (Pull Requests), as well as file bug-reports (tickets).  NumPy development has already been moved over to Github completely, the SciPy bug tracker is still on Trac but will be moved at some point as well.
+We make use of Github to do project management.  There, you can see
+what we are currently working on (Pull Requests), as well as file
+bug-reports (issues).
 
 1. Go to the relevant page:
 
    - `SciPy pull requests <https://github.com/scipy/scipy/pulls>`_
 
-   - `SciPy bug reports <http://projects.scipy.org/scipy>`_
+   - `SciPy bug reports <https://github.com/scipy/scipy/issues>`_
 
    - `NumPy pull requests <https://github.com/numpy/numpy/pulls>`_
 
    - `NumPy bug reports <https://github.com/numpy/numpy/issues>`_
 
-#. On both Github and Trac you need to register an account the first time you use it.
+#. On Github you need to register an account the first time you use it.
 
-#. Make sure the bug hasn't already been reported.  Click on "Search" and type in some keywords to search for.
+#. Make sure the bug hasn't already been reported.  Click on "Search"
+   and type in some keywords to search for.
 
-#. File your bug-report by clicking "New Issue" on Github or "New Ticket" on Trac (**note that on Trac this link is only available once you've logged in**).
+#. File your bug-report by clicking "New Issue" on Github.
 
-#. Note that the bug trackers are mostly for actual bugs, if you want to propose an enhancement, then the mailing list is a better place to get feedback.
+#. Note that the bug trackers are mostly for actual bugs. If you want
+   to propose an enhancement, then the mailing list is a better place
+   to get feedback.
 
 Guidelines for submitting bugs
 ------------------------------
 
-* Provide a good description.  We tend to ignore tickets named "SciPy is BROKEN!!!", and focus on ones that state the problem clearly, e.g. "scipy.ndimage ignores keyword 'axis'".
+* Provide a good description. Tickets in the vein of "SciPy is
+  BROKEN!!!" are not useful; rather, please state the problem clearly,
+  e.g. "scipy.ndimage ignores keyword 'axis'".
 
-* Include a code snippet to illustrate the problem.  Try to narrow it down to a few lines.
+* Include a minimal stand-alone code snippet to illustrate the
+  problem.  Try to narrow it down to a few lines.
 
 * If you experience segfaults or memory errors, give a GDB traceback:
 
@@ -61,10 +69,3 @@ Guidelines for submitting bugs
 * Set the milestone to the next release.
 
 **Thank you for helping to make** NumPy and SciPy **better!**
-
-.. ############################################################################
-
-.. _SciPy: ../SciPy
-
-.. _NumPy: ../NumPy
-

@@ -18,4 +18,4 @@ for numerical integration and optimization.
 
 * `SciPy library documentation <http://docs.scipy.org/doc/scipy/reference/>`_
 * `Source code (on Github) <https://github.com/scipy/scipy>`_
-* `Project wiki and bug tracker <http://projects.scipy.org/scipy>`_
+* `Project bug tracker <http://github.com/scipy/scipy/issues>`_
