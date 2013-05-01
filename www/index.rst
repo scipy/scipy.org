@@ -120,7 +120,7 @@ particular, these are some of the core packages:
    :hidden:
 
    about
-   download
+   install
    getting-started
    mailing-lists
    bug-report

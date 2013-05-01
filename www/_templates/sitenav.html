@@ -15,9 +15,13 @@
       </ul>
       {% endif %}
     </li>
-    <li {% if pagename == 'download' -%}class="active"{%- endif -%}>
-      <a href="{{ pathto('download') }}">Download</a>
-      {% if pagename == 'download' or pagename.startswith('building/') -%}
+    <li {% if pagename == 'install' -%}class="active"{%- endif -%}>
+      <a href="{{ pathto('install') }}">Install</a>
+      {% if pagename in ('install', 'download') or pagename.startswith('building/') -%}
+      <ul class="nav nav-list">
+	<li {% if pagename == 'download' -%}class="active"{%- endif -%}>
+	  <a href="{{ pathto('download') }}">Download</a></li>
+      </ul>
       <ul class="nav nav-list">
 	<li {% if pagename.startswith('building/') -%}class="active"{%- endif -%}>
 	  <a href="{{ pathto('building/index') }}">Build instructions</a></li>

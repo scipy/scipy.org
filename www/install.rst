@@ -2,6 +2,12 @@
 Installing the Scipy Stack
 ==========================
 
+.. toctree::
+   :hidden:
+
+   download
+   building/index
+
 Scientific Python distributions
 -------------------------------
 

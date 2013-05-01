@@ -72,12 +72,6 @@ Build instructions
 
 See :ref:`building` for build instructions.
 
-.. toctree::
-   :hidden:
-
-   building/index
-
-
 Software Distributions that include NumPy/SciPy
 -----------------------------------------------
 
