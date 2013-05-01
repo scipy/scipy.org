@@ -1,13 +1,26 @@
 .. raw:: html
 
+   <style>
+   .section h1 { display: none; }
+   </style>
+
+SciPy.org
+=========
+
+.. raw:: html
+
   <style>
   table.linktable {
-      margin: 5px;
+      margin: 10px;
+  }
+  table.icontable {
+      margin: 10px;
   }
   table.linktable td {
       padding-left: 15px;
       padding-right: 15px;
       padding-bottom: 5px;
+      text-align: center;
   }
   </style>
   <center>
@@ -46,7 +59,7 @@ particular, these are some of the core packages:
 
 .. raw:: html
 
-  <table id="packageicons">
+  <table class="icontable">
   <tr>
   
     <td class="packageicon">
@@ -93,7 +106,15 @@ particular, these are some of the core packages:
 
   </table>
 
+.. raw:: html
+
+   <center>
+
 :ref:`More information... <content>`
+
+.. raw:: html
+
+   </center>
 
 .. toctree:: 
    :hidden:
