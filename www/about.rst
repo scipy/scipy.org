@@ -7,6 +7,8 @@ Scientific Computing Tools for Python
    :hidden:
 
    citing
+   stackspec
+   scipylib
 
 SciPy refers to several related but distinct entities:
 

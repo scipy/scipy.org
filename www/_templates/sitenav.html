@@ -4,8 +4,12 @@
   <ul class="nav nav-list">
     <li {% if pagename == 'about' -%}class="active"{%- endif -%}>
       <a href="{{ pathto('about') }}">About "Scipy"</a>
-      {% if pagename in ('about', 'citing') -%}
+      {% if pagename in ('about', 'citing', 'scipylib', 'stackspec') -%}
       <ul class="nav nav-list">
+	<li {% if pagename == 'scipylib' -%}class="active"{%- endif -%}>
+	  <a href="{{ pathto('scipylib') }}">SciPy library</a></li>
+	<li {% if pagename == 'stackspec' -%}class="active"{%- endif -%}>
+	  <a href="{{ pathto('stackspec') }}">SciPy Stack</a></li>
 	<li {% if pagename == 'citing' -%}class="active"{%- endif -%}>
 	  <a href="{{ pathto('citing') }}">Citing</a></li>
       </ul>
@@ -15,7 +19,7 @@
       <a href="{{ pathto('download') }}">Download</a>
       {% if pagename == 'download' or pagename.startswith('building/') -%}
       <ul class="nav nav-list">
-	<li {% if pagename == 'building/index' -%}class="active"{%- endif -%}>
+	<li {% if pagename.startswith('building/') -%}class="active"{%- endif -%}>
 	  <a href="{{ pathto('building/index') }}">Build instructions</a></li>
       </ul>
       {% endif %}
