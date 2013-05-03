@@ -1,5 +1,12 @@
 {% block sitenav %}
 
+<style>
+a.extlink:after {
+    margin-left: 5px;
+    content: url("{{ pathto('_static/external-link.png', 1) }}");
+}
+</style>
+
 <div class="well sidebar-nav">
   <ul class="nav nav-list">
     <li {% if pagename == 'about' -%}class="active"{%- endif -%}>
@@ -19,10 +26,10 @@
       <a href="{{ pathto('getting-started') }}">Getting Started</a></li>
     <li {% if pagename == 'topical-software' -%}class="active"{%- endif -%}>
       <a href="{{ pathto('topical-software') }}">Topical Software</a></li>
-    <li><a href="http://scipy-central.org">SciPy Central</a></li>
-    <li><a href="http://www.scipy.org/Cookbook">Cookbook</a></li>
-    <li><a href="http://conference.scipy.org">Scipy Conferences</a></li>
-    <li><a href="http://planet.scipy.org">Blogs</a></li>
+    <li><a class="extlink" href="http://scipy-central.org">SciPy Central</a> 
+    <li><a class="extlink" href="http://www.scipy.org/Cookbook">Cookbook</a></li>
+    <li><a class="extlink" href="http://conference.scipy.org">Scipy Conferences</a></li>
+    <li><a class="extlink" href="http://planet.scipy.org">Blogs</a></li>
 
     <li class="nav-header">Numpy &amp; Scipy&nbsp;(library):</li>
     <li {% if pagename == 'scipylib' -%}class="active"{%- endif -%}>
