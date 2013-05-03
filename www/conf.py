@@ -52,6 +52,7 @@ html_theme = 'scipy'
 html_theme_options = {
     'rootlinks': (),
     'sidebar': 'right',
+    'navigation_links': False,
 }
 html_sidebars = {
     '**': ['sitenav.html', 'localtoc.html', 'searchbox.html'],
