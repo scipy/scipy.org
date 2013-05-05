@@ -655,8 +655,6 @@ Build Numpy and Scipy.
 Any distribution with Intel C compiler and MKL
 ==============================================
 
-The `Intel C compiler <http://software.intel.com/en-us/articles/intel-compilers/>`__ and `Intel MKL <http://software.intel.com/en-us/articles/intel-mkl/>`__ are free for personal non-commercial use on Linux.
-
 Intel MKL 11.0 (updated Dec 2012)
 ---------------------------------
 
