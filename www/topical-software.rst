@@ -8,7 +8,10 @@ be exhaustive.  If you know of an unlisted resource, see About This Page,
 below.
 
 You can also check our code sharing / software list site:
-http://scipy-central.org/
+http://scipy-central.org/. Additional useful software packages can be
+found on the `Python Package index <http://pypi.python.org/>`__
+especially in its `Science/Research category
+<http://pypi.python.org/pypi?:action=browse&c=40>`__.
 
 About This Page
 ===============
