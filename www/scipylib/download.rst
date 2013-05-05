@@ -2,6 +2,10 @@
 Obtaining NumPy & SciPy
 =======================
 
+.. seealso:: 
+
+   :doc:`/install`
+
 .. _download-official:
 
 Official Source and Binary Releases
@@ -28,8 +32,8 @@ vendor.
 |        |                              |                                     |
 +--------+------------------------------+-------------------------------------+
 
-Build instructions are available for :doc:`linux <building/linux>`,
-:doc:`windows <building/windows>` and Mac OSX.
+Build instructions are available for :doc:`Linux <building/linux>`,
+:doc:`Windows <building/windows>` and :doc:`Mac OSX <building/macosx>`.
 
 .. _SourceForge site for NumPy: http://sourceforge.net/projects/numpy/files/
 .. _SourceForge site for SciPy: http://sourceforge.net/projects/scipy/files/
