@@ -5,119 +5,137 @@ Getting Started
 This page is intended to help the beginner get a handle on SciPy and be
 productive with it as fast as possible.
 
-What are NumPy, SciPy, and matplotlib?
---------------------------------------
+What are NumPy, SciPy, matplotlib, ...?
+---------------------------------------
 
 SciPy and friends can be used for a variety of tasks:
 
-* First of all, they are great for performing calculation relying heavily on
+* First of all, they are great for performing calculations relying heavily on
   mathematical and numerical operations. They can work natively with matrices
   and arrays, perform operations on them, find eigenvectors, compute integrals,
   solve differential equations.
-* NumPy's array class (which is used to implement the matrix class) is
-  implemented with speed in mind, so accessing NumPy arrays is faster than
-  accessing Python lists. Further, NumPy implements an **array language,** so 
-  that most loops are not needed. For example, Plain Python (and similarly 
-  for C, etc.): 
 
-  ::
-  
-      a = range(10000000)
-      b = range(10000000)
-      c = []
-
-      for i in range(len(a)):
-          c.append(a[i] + b[i])
-
-  This loop can take up to 10 seconds on a several GHz processor. With NumPy:
-
-  ::
-      
-      import numpy as np
-      a = np.arange(10000000)
-      b = np.arange(10000000)
-      c = a + b
-  
-  Not only is this much more compact and readable, it is almost instant
-  by comparison, and even the NumPy import is faster than the loop in plain
-  Python. Why? Python is an interpreted language with dynamic typing. This
-  means that on each loop iteration it needs to check the type of the operands
-  a and b to select the right variant of the '+' operator for those types (in
-  Python, '+' is used for many things, like concatenating strings, and lists
-  can have elements of different types). The NumPy add function, which Python
-  automatically selects when one of the operands of '+' is a NumPy array, does
-  this check only once. It then executes the "real" addition loop in a compiled
-  C function. This is very fast by comparison to the interpreted loop in plain
-  Python.
-
-  There is a sizeable collection of both generic and application-specific
-  numerical code written in or using numpy and scipy. See the
-  :doc:`topical-software` index for a partial list. Python has many advanced
-  modules to build interactive applications (for instance Traits_ or
-  wxPython_). Using SciPy with these is the quickest way to build a 
-  fully-fledged scientific application.
-
-* Using IPython_ makes interactive work easy. Data processing, exploration of
-  numerical models, trying out operations on-the-fly allows to go quickly from
-  an idea to a result (see the article on IPython). 
+  *NumPy*'s array type augments the Python language with an efficient
+  data structure useful for numerical work.
 
 * The matplotlib_ module produces high quality plots. With it you can turn your
   data or your models into figures for presentations or articles. No need to do
   the numerical work in one program, save the data, and plot it with another
   program.
 
-How to work with SciPy
-----------------------
+* Using IPython_ makes interactive work easy. Data processing, exploration of
+  numerical models, trying out operations on-the-fly allows to go quickly from
+  an idea to a result. See the `IPython site <http://ipython.org/>`__ for many
+  examples.
 
-Python is a language, it comes with several user interfaces. There is no single
-program that you can start and that gives an integrated user experience.
-Instead of that there are dozens of way to work with Python.
+* There is a sizeable collection of both generic and
+  application-specific numerical and scientific code, written using
+  Python, Numpy and Scipy. Don't reinvent the wheel, there may already
+  be a pre-made solution for your problem. See
+  :doc:`topical-software` for a partial list.
 
-The most common is to use the advanced interactive Python shell IPython_ to
-enter commands and run scripts. Scripts can be written with any text editor,
-for instance Emacs_, Vim_ or even Notepad.
+* As Python is a popular general-purpose programming language, it has
+  many advanced modules for building for example interactive
+  applications (see e.g. wxPython_ and Traits_) or web sites (see
+  e.g. Django_). Using SciPy with these is a quick way to build a
+  fully-fledged scientific application.
 
-Neither SciPy nor NumPy provide, by default, plotting functions. They are just
-numerical tools. The recommended plotting package is matplotlib_.
+How to work with SciPy 
+---------------------- 
+Python is a programming language, and there are several ways to
+approach it. There is no single program that you can start and that
+gives an integrated user experience.  Instead, there are several
+possible ways to work with Python.
+
+The most common is to use the advanced interactive Python shell
+IPython_ to enter commands and run scripts. Scripts can be written
+with any text editor, for instance Emacs_, Vim_ or even Notepad.  Some
+of the packages such as *Python(x,y)* mentioned in :doc:`install` also
+offer an integrated scientific development environment.
+
+Neither SciPy nor NumPy provide plotting functions. There are several
+plotting packages available for Python, the most commonly used one being
+matplotlib_.
 
 Learning to work with SciPy
 ---------------------------
 
 To learn more about the Python language, the `official Python tutorial`_ is
-an excellent way to become familiar with the Python syntax and objects. An 
-alternative introduction can be found in the free online book `Dive Into 
-Python <http://diveintopython.org/>`_ by Mark Pilgrim.
+an excellent way to become familiar with the Python syntax and objects.
+
+One way of getting a handle on the scientific computation tools in Python
+is to take a look at the following online resources:
+
+- `Python Scientific Lecture Notes <http://scipy-lectures.github.io/index.html>`_
+
+- `Additional Documentation
+  <http://wiki.scipy.org/Additional_Documentation>`_ includes a list of several
+  tutorials
+
+- `SciPy Tutorial <http://docs.scipy.org/doc/scipy/reference/tutorial/index.html>`_ 
+  contains examples for each submodule in the SciPy library
+
+In addition, a number of books have been written on numerical
+computation in Python, see for example a
+`Google search on books related to Scipy <http://www.google.com/search?q=scipy+scientific+python&tbm=bks>`__.
 
 
 An example session
 ##################
 
-.. sourcecode:: ipython
+To give a simple example of typical interactive use, we find and plot
+the maximum of a Bessel function. If you have worked with numerical
+computation environments before, what follows looks very familiar.
 
-    Python 2.5.1 (r251:54863, May  2 2007, 16:27:44)
-    Type "copyright", "credits" or "license" for more information.
-    IPython 0.7.3 -- An enhanced Interactive Python.
-    ?       -> Introduction to IPython's features.
-    %magic  -> Information about IPython's 'magic' % functions.
-    help    -> Python's own help system.
-    object? -> Details about 'object'. ?object also works, ?? prints more.
-      Welcome to pylab, a matplotlib-based Python environment.
-      For more information, type 'help(pylab)'.
-
-IPython offers a great many convenience features, such as tab-completion of
-python functions and a good help system.
+This assumes you have installed the Scipy stack, for example following
+the instructions in :doc:`install`.  
 
 .. sourcecode:: ipython
 
-    In [1]: %logstart
-    Activating auto-logging. Current session state plus future input saved.
-    Filename       : ipython_log.py
-    Mode           : rotate
-    Output logging : False
-    Raw input log  : False
-    Timestamping   : False
-    State          : active
+   $ ipython --pylab
 
+   Python 2.7.4 (default, Apr 19 2013, 18:28:01) 
+   Type "copyright", "credits" or "license" for more information.
+
+   IPython 0.13.2 -- An enhanced Interactive Python.
+   ?         -> Introduction and overview of IPython's features.
+   %quickref -> Quick reference.
+   help      -> Python's own help system.
+   object?   -> Details about 'object', use 'object??' for extra details.
+
+   Welcome to pylab, a matplotlib-based Python environment [backend: Agg].
+   For more information, type 'help(pylab)'.
+
+   In [1]: from scipy import special, optimize
+
+   In [2]: f = lambda x: -special.jv(3, x)
+
+   In [3]: sol = optimize.minimize(f, 1.0)
+
+   In [4]: x = linspace(0, 10, 5000)
+
+   In [5]: x
+   Out[5]: 
+   array([  0.00000000e+00,   2.00040008e-03,   4.00080016e-03, ...,
+            9.99599920e+00,   9.99799960e+00,   1.00000000e+01])
+
+   In [6]: plot(x, special.jv(3, x), '-', sol.x, -sol.fun, 'o')
+
+   In [7]: savefig('plot.png', dpi=96)
+
+.. image:: getting-started-plot.png
+
+An example script
+#################
+
+The above example session can be written as a non-interactive script
+as follows. Here, we don't give the simplest example possible, but
+follow what is considered good practice on command-line scripts.
+
+Contents of a file ``example.py``:
+
+.. literalinclude:: getting-started-example.py
+   :language: python
 
 .. _Traits: http://code.enthought.com/projects/traits/
 .. _wxPython: http://www.wxpython.org/
@@ -126,3 +144,4 @@ python functions and a good help system.
 .. _Emacs: http://www.gnu.org/software/emacs/
 .. _Vim: http://www.vim.org/
 .. _official Python tutorial: http://docs.python.org/tutorial/
+.. _Django: http://djangoproject.com/
