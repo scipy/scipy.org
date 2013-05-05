@@ -7,6 +7,10 @@ categorized by scientific discipline or computational topic.  It is intended to
 be exhaustive.  If you know of an unlisted resource, see About This Page,
 below.
 
+You may also want to take a look at the `list of Scikits
+<http://scikits.appspot.com/scikits>`__, Python packages oriented
+specifically at scientific computation tasks.
+
 You can also check our code sharing / software list site:
 http://scipy-central.org/. Additional useful software packages can be
 found on the `Python Package index <http://pypi.python.org/>`__
