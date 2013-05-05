@@ -10,78 +10,36 @@ the :doc:`mailing lists <mailing-lists>`. You'll soon begin to
 recognize the areas where your assistance and expertise can make a
 difference.
 
-Steering Committee
-------------------
-
-* Jarrod Millman
-* Eric Jones
-* Robert Kern
-* Travis Oliphant
-* Stefan van der Walt
-
-The purpose of this group is to ensure coherency in the SciPy library and
-advocate its progression. It organizes doc-days, bug-days, coding sprints, and
-assists with organizing the SciPy conference. It also serves to resolve
-questions that come up regarding the future of SciPy.
-
 Source Code
 -----------
 
-Make contributions (e.g. code patches), feature requests and file bug reports 
-by submitting a "ticket" on the Trac pages linked below.  Because of spam 
-abuse, you must create an account on our Trac in order to submit a ticket, 
-then click on the "New Ticket" tab that only appears when you have logged in.
-Please give as much information as you can in the ticket.  Also specify the
-component, the version you are referring to and the milestone.  Report bugs
-to the appropriate Trac instance (there is one for NumPy and a different one
-for SciPy).  There are read-only mailing lists for tracking the status of 
-your bug ticket.
+Make contributions (e.g. code patches), feature requests and file bug
+reports by submitting a issues or pull requests on the Github pages
+linked below. For any bigger changes, discussion on the mailing lists
+is recommended even before starting.
 
-Note that NumPy contains the most basic numerical functionality, and SciPy is
-layered on top of NumPy to provide a much wider range of capability. You need
-NumPy for SciPy to work.
+Useful information on how to contribute new features to SciPy is
+contained in `HACKING.txt
+<https://github.com/scipy/scipy/blob/master/HACKING.rst.txt>`__,
+please read it.
+
+Note that NumPy contains the most basic numerical functionality, and
+SciPy is layered on top of NumPy to provide a much wider range of
+capability. You need NumPy for SciPy to work.
 
 +-------+-------------------------+------------------------------------------+
-| NumPy | Developer's Wiki (Trac) | http://projects.scipy.org/numpy          |
+| NumPy | Code repository         | http://github.com/numpy/numpy            |
 |       +-------------------------+------------------------------------------+
-|       | Code repository         | http://github.com/numpy/numpy            |
-|       +-------------------------+------------------------------------------+
-|       | Timeline                | http://projects.scipy.org/numpy/timeline |
+|       | Timeline                | https://github.com/organizations/numpy   |
 +-------+-------------------------+------------------------------------------+
-| SciPy | Developer's Wiki (Trac) | http://projects.scipy.org/scipy          |
+| SciPy | Code repository         | http://github.com/scipy/scipy            |
 |       +-------------------------+------------------------------------------+
-|       | Code repository         | http://github.com/scipy/scipy            |
-|       +-------------------------+------------------------------------------+
-|       | Timeline                | http://projects.scipy.org/scipy/timeline |
+|       | Timeline                | https://github.com/organizations/scipy   |
 +-------+-------------------------+------------------------------------------+
 
 Interested people can get repository write access as well.  This usually 
 requires a developer "vouching" for you, which happens more easily if you 
 already made a number of patch contributions.
-
-New Code
-########
-
-If you have some new code you'd like to see included in SciPy, the first 
-thing to do is make a **SciKit**.
-
-A SciKit is a stand-alone package including your code (including complete
-reference and user documentation). SciKits are distributed at
-http://scikits.appspot.com/. This site is currently still in early construction
-phases, and will be moved (and linked) to the main page of this site when it is
-ready to accept new SciKits. Right now users and developers are encouraged to
-view the site and comment on scipy-dev@scipy.org to ensure it serves your
-needs.
-
-Once you get some use experience, the community may decide to include your
-SciKit in SciPy. These decisions are based on many factors, including maturity
-of the code API and the docs, ease of building it on all platforms, how many
-people use it, how well it is integrated into SciPy, etc.
-
-Because it must remain small and easy to build, new additions of entire
-packages to NumPy are extremely rare. Post on
-the numpy-discussion@scipy.org mailing list if you think you have a compelling
-case.
 
 .. _packaging:
 
@@ -107,3 +65,17 @@ Getting Releases Into Distribution
 
 Linux distributions and many others pick up our packages and deliver them to
 users as part of larger collections.
+
+Steering Committee
+------------------
+
+* Jarrod Millman
+* Eric Jones
+* Robert Kern
+* Travis Oliphant
+* Stefan van der Walt
+
+The purpose of this group is to ensure coherency in the SciPy library and
+advocate its progression. It organizes doc-days, bug-days, coding sprints, and
+assists with organizing the SciPy conference. It also serves to resolve
+questions that come up regarding the future of SciPy.

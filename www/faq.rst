@@ -144,7 +144,9 @@ I've found a bug.  What do I do?
 The SciPy development team works hard to make SciPy as reliable as possible,
 but, as in any software product, bugs do occur. If you find bugs that affect
 your software, please tell us by entering a ticket in the
-`tracker <http://projects.scipy.org/scipy/report/1>`_.
+`Scipy bug tracker <http://github.com/scipy/scipy/issues>`_,
+or `Numpy bug tracker <http://github.com/scipy/numpy/issues>`_,
+as appropriate.
 
 How can I get involved in SciPy?
 ################################

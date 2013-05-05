@@ -66,7 +66,11 @@ or
 ::
 
   git clone http://github.com/scipy/scipy.git scipy
-   
+
+Build instructions
+------------------
+
+See :ref:`building` for build instructions.
 
 Software Distributions that include NumPy/SciPy
 -----------------------------------------------
