@@ -16,7 +16,7 @@ SciPy refers to several related but distinct entities:
 * The *community* of people who use and develop this stack.
 * Several *conferences* dedicated to scientific computing in Python - Scipy,
   EuroScipy and Scipy.in.
-* The :doc:`SciPy library <scipylib>`, one component of the Scipy stack,
+* The :doc:`SciPy library <scipylib/index>`, one component of the Scipy stack,
   providing many numerical routines.
 
 The Scipy Stack
@@ -30,7 +30,7 @@ Core Packages
   prototyping, while being powerful enough to write large applications in.
 * NumPy_, the fundamental package for numerical computation. It defines the
   numerical array and matrix types and basic operations on them.
-* The :doc:`SciPy library <scipylib>`, a collection of numerical algorithms and
+* The :doc:`SciPy library <scipylib/index>`, a collection of numerical algorithms and
   domain-specific toolboxes, including signal processing, optimization,
   statistics and much more.
 * Matplotlib_, a mature and popular plotting package, that provides 

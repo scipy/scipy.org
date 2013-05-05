@@ -123,9 +123,5 @@ particular, these are some of the core packages:
    about
    install
    getting-started
-   mailing-lists
-   bug-report
-   dev-zone
-   faq
    topical-software
-   scipylib
+   scipylib/index
