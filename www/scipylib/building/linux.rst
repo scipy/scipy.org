@@ -1,21 +1,16 @@
-===========================================
+###########################################
 Building NumPy & SciPy From Source on Linux
-===========================================
-
-.. contents::
-   :local:
-
-Introduction : source and binaries
-==================================
+###########################################
 
 * On Linux, Scipy and Numpy official releases are source-code only. Installing Numpy and Scipy from source is reasonably easy; However, both packages depend on other software, some of them which can be challenging to install, or shipped with incompatibilities by major Linux distributions. Hopefully, you can install Numpy and Scipy without any software outside the necessary tools to build python extensions, as most dependencies are optional.
 
-* Most major Linux distributions now ship Numpy and Scipy and, although the situation is still far from optimal, those binary packages are now reasonably reliable to use. Many other binary options are also available, ranging from individually made packages by some scipy developers for a specific Linux version, to whole commercially-supported scientific distributions. However, keep in mind that if you want to use the last improvements done to Numpy and Scipy on Linux, you have to build it from sources.
+* Most major Linux distributions now ship Numpy and Scipy and, those binary packages are now reasonably reliable to use. Many other binary options are also available, ranging from individually made packages by some scipy developers for a specific Linux version, to whole commercially-supported scientific distributions. However, keep in mind that if you want to use the last improvements done to Numpy and Scipy on Linux, you have to build it from sources.
 
-Building from sources
-=====================
+====================
+Generic instructions
+====================
 
-To build Numpy/Scipy from source, get the [:Download:source package], unpack it, and:
+To build Numpy/Scipy from source, get the :doc:`source package </scipylib/download>`, unpack it, and:
 
 ::
 
@@ -49,10 +44,18 @@ If you don't want to any LAPACK, just do "``export LAPACK=``".
 
 You will find below additional installation instructions and advice for many major Linux distributions.
 
+
+=====================
+Specific instructions
+=====================
+
+.. contents::
+   :local:
+
 Fedora Core 8, openSUSE 10.2, RHEL/Centos 5
 ===========================================
 
-I (`DavidCournapeau <DavidCournapeau>`__) have packaged the last released of numpy, scipy as well as lapack and blas dependencies for Fedora Core 8, opensuse 10.2 and Centos/RHEL 5 and a few others thanks to the opensuse build service. I strongly advise you to use those packages instead of the "official" ones, which are often unusable. The repository is there:
+D.C. has packaged the last released of numpy, scipy as well as lapack and blas dependencies for Fedora Core 8, opensuse 10.2 and Centos/RHEL 5 and a few others thanks to the opensuse build service. I strongly advise you to use those packages instead of the "official" ones, which are often unusable. The repository is there:
 
 https://build.opensuse.org/project/packages?project=home%3Aashigabou
 
@@ -341,7 +344,7 @@ manually (for example 'rpm -U <filename>' or with 'kpackage').
 
   * This repository contains: **Numpy**, **Scipy**, **Matplotlib**, and very many other packages.
 
-  * Repository has own Bugzilla: `and Website: [http://en.opensuse.org/Education <http://devzilla.novell.com/education/enter_bug.cgi]>`__
+  * Repository has own Bugzilla: `and Website <http://en.opensuse.org/Education <http://devzilla.novell.com/education/enter_bug.cgi>`__
 
   * Tested with openSUSE 11.0 and 11.1, x86-64: 
 
@@ -349,7 +352,7 @@ manually (for example 'rpm -U <filename>' or with 'kpackage').
 
     * openSUSE 11.1: one error in scipy.test(), package seems (mostly) functional though.
 
-Alternatively one can search for packages in repositories hosted by Novell here: `One can also search for packages in the very big Packman repository: [http://packman.links2linux.org/ <http://software.opensuse.org/search].>`__. 
+Alternatively one can search for packages in repositories hosted by Novell here: One can also search for packages in the `very big Packman repository: <http://packman.links2linux.org/ <http://software.opensuse.org/search>`__. 
 
 * Lists of Packman mirrors: `1 <http://en.opensuse.org/Additional_YaST_Package_Repositories#Packman>`__ `2 <http://packman.links2linux.de/MIRRORS.html>`__
 
@@ -357,7 +360,7 @@ Alternatively one can search for packages in repositories hosted by Novell here:
 
 Users of older versions of SUSE/openSuse can install **Sage**, a big collection of Mathematics related software. It was recently (Jul. 2009) reported that compiling and installing Sage from sources worked flawlessly, on SUSE Linux 10.2:
 
-* Sage `* A more detailed description [http://www.scipy.org/Installing_SciPy/Linux#head-f4511786c10fc5a608027f22e65df5e5078357b6 how to install Sage from sources <http://www.sagemath.org/download-source.html]>`__ is on this page too.
+* A more detailed description how to install Sage `from sources <http://www.sagemath.org/download-source.html]>`__ is on this page too.
 
 ATLAS
 -----
@@ -366,7 +369,7 @@ ATLAS
 
 **There is currently no comfortable way to use ATLAS on openSuse.**
 
-The  `build instructions for ATLAS <http://www.scipy.org/Installing_SciPy/Linux#head-89e1f6afaa3314d98a22c79b063cceee2cc6313c>`__  on this page work, but unfortunately the Numpy and Scipy packages don't work with ATLAS. One could build Numpy and Scipy from sources though, and a relatively painless way to do this is the `Sage <http://www.scipy.org/Installing_SciPy/Linux#head-f4511786c10fc5a608027f22e65df5e5078357b6>`__ package. (If you know a comfortable way to make ATLAS work on openSuse, please put it here into the Wiki.)
+The  `build instructions for ATLAS <http://www.scipy.org/Installing_SciPy/Linux#head-89e1f6afaa3314d98a22c79b063cceee2cc6313c>`__  on this page work, but unfortunately the Numpy and Scipy packages don't work with ATLAS. One could build Numpy and Scipy from sources though, and a relatively painless way to do this is the Sage package. (If you know a comfortable way to make ATLAS work on openSuse, please put it here into the Wiki.)
 
 David Cournapeau has a repository devoted to ATLAS, but he has not added packages for recent SUSE versions.
 
@@ -434,7 +437,7 @@ Note that make ptshared might not work on a single core machine. Note also that 
 Step 3: Build UMFPACK (5.5.0) with AMD (2.2.1), UFConfig(3.5.0) and CHOLMOD (1.7.1)
 -----------------------------------------------------------------------------------
 
-NOTE: Dowloading and building the entire `SuiteSparse <http://www.cise.ufl.edu/research/sparse/SuiteSparse/>`__ all at once is easier than the following steps. `SuiteSparse <http://www.cise.ufl.edu/research/sparse/SuiteSparse/>`__ Version 4.0.2 is confirmed to have worked on Xubuntu 12.10 with the latest ATLAS, LAPACK, `NumPy <http://numpy.scipy.org>`__ and `SciPy <SciPy>`__ as of 2012-10-18. --`MartinSpacek <MartinSpacek>`__
+NOTE: Dowloading and building the entire `SuiteSparse <http://www.cise.ufl.edu/research/sparse/SuiteSparse/>`__ all at once is easier than the following steps. `SuiteSparse <http://www.cise.ufl.edu/research/sparse/SuiteSparse/>`__ Version 4.0.2 is confirmed to have worked on Xubuntu 12.10 with the latest ATLAS, LAPACK, `NumPy <http://numpy.scipy.org>`__ and SciPy as of 2012-10-18.
 
 --
 
@@ -603,7 +606,7 @@ Build FFTW (3.1.2)
 SciPy Versions >= 0.7 and Numpy >= 1.2
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Because of license, configuration, and maintenance issues support for FFTW was removed in versions of `SciPy <SciPy>`__ >= 0.7 and `NumPy <NumPy>`__ >= 1.2.  Instead now uses a built-in version of fftpack.
+Because of license, configuration, and maintenance issues support for FFTW was removed in versions of SciPy >= 0.7 and NumPy >= 1.2.  Instead now uses a built-in version of fftpack.
 
 There are a couple ways to take advantage of the speed of FFTW if necessary for your analysis.
 
@@ -688,7 +691,7 @@ Modify cc_exe in numpy/numpy/distutils/intelccompiler.py to be something like:
 
    cc_exe = 'icc -O2 -g -openmp -avx'
 
-Here we use, default optimizations (-O2), OpenMP threading (-openmp) and Intel® AVX optimizations for Intel® Xeon E5 or E3 Series which are based on Intel® `SandyBridge <SandyBridge>`__ Architecture (-avx).  Run icc --help for more information on processor-specific options.
+Here we use, default optimizations (-O2), OpenMP threading (-openmp) and Intel® AVX optimizations for Intel® Xeon E5 or E3 Series which are based on Intel® `SandyBridge <http://wiki.scipy.org/SandyBridge>`__ Architecture (-avx).  Run icc --help for more information on processor-specific options.
 
 Compile and install NumPy with the Intel compiler (on 64-bit platforms replace "intel" with "intelem"):
 
@@ -702,7 +705,7 @@ Compile and install SciPy with the Intel compilers (on 64-bit platforms replace 
 
    python setup.py config --compiler=intel --fcompiler=intel build_clib --compiler=intel --fcompiler=intel build_ext --compiler=intel --fcompiler=intel install
 
-You'll have to set LD_LIBRARY_PATH to Intel® MKL libraries (exact values will depend on your architecture, compiler and library versions) and OpenMP library for `NumPy <NumPy>`__ to work.  If you build NumPy for Intel® 64 platforms:
+You'll have to set LD_LIBRARY_PATH to Intel® MKL libraries (exact values will depend on your architecture, compiler and library versions) and OpenMP library for NumPy to work.  If you build NumPy for Intel® 64 platforms:
 
 ::
 
@@ -717,7 +720,7 @@ If you build NumPy for ia32 bit platforms:
 Intel MKL 10.0
 --------------
 
-The above instructions must be slightly modified to install `NumPy <NumPy>`__ 1.6 with Intel MKL 10.0 on a 64-bit Red Hat 4 system.  If threading is desired, set
+The above instructions must be slightly modified to install NumPy 1.6 with Intel MKL 10.0 on a 64-bit Red Hat 4 system.  If threading is desired, set
 
 ``mkl_libs = mkl_intel_lp64, mkl_intel_thread, mkl_core, guide``
 
