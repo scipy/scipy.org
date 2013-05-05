@@ -28,8 +28,8 @@ vendor.
 |        |                              |                                     |
 +--------+------------------------------+-------------------------------------+
 
-Build instructions are available for :doc:`linux <building/linux>`,
-:doc:`windows <building/windows>` and Mac OSX.
+Build instructions are available for :doc:`Linux <building/linux>`,
+:doc:`Windows <building/windows>` and :doc:`Mac OSX <building/macosx>`.
 
 .. _SourceForge site for NumPy: http://sourceforge.net/projects/numpy/files/
 .. _SourceForge site for SciPy: http://sourceforge.net/projects/scipy/files/
@@ -75,11 +75,15 @@ See :ref:`building` for build instructions.
 Software Distributions that include NumPy/SciPy
 -----------------------------------------------
 
+.. seealso:: 
+
+   :doc:`/install`
+
 A number of software distributions exist that bundle NumPy and SciPy along
 with a variety of other tools, including data file manipulation packages,
 visualization tools and more general software development tools. Such 
 distributions can be an excellent way to get started with Python for
-scientific computing. 
+scientific computing.
  
 We present a list of the most prominent such distributions below. They vary 
 in terms of platform/operating system support, license (free/commercial), 

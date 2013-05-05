@@ -20,8 +20,53 @@ a delay of up to a day. It is okay to post job ads for work involving
 NumPy/SciPy and related packages if you put "[JOB]" in the subject.
 
 We also have read-only mailing lists setup for NumPy and SciPy that
-provide notifications of all version control checkins and Trac ticket
-changes.
+provide notifications of all version control checkins.
+
+Mailing Lists
+-------------
+
+The following table lists the core NumPy and SciPy lists. Please see 
+:ref:`before-you-post` to make sure that this is the right place to ask 
+your question.
+
+ +----------------------+----------------+---------------+----------------+
+ | **NumPy-discussion** |`Read/Search`__ |`Archives`__   |`Subscribe`__   |
+ |                      |                |               |                |
+ |                      |__ gm-numpy-d_  |__ numpy-d-ar_ |__ numpy-d-su_  |
+ +----------------------+----------------+---------------+----------------+
+ |   For discussion of *just* the core NumPy package (not SciPy).         |
+ +----------------------+----------------+---------------+----------------+
+ | **SciPy-user**       |`Read/Search`__ |`Archives`__   |`Subscribe`__   |
+ |                      |                |               |                |
+ |                      |__ gm-scipy-u_  |__ scipy-u-ar_ |__ scipy-u-su_  |
+ +----------------------+----------------+---------------+----------------+
+ |   Our user-support forum, for discussions of how to use SciPy.         |
+ +----------------------+----------------+---------------+----------------+
+ | **SciPy-dev**        |`Read/Search`__ |`Archives`__   |`Subscribe`__   |
+ |                      |                |               |                |
+ |                      |__ gm-scipy-d_  |__ scipy-d-ar_ |__ scipy-d-su_  |
+ +----------------------+----------------+---------------+----------------+
+ | For discussions about the development of SciPy, including code, website|
+ | and documentation.                                                     |
+ +----------------------+----------------+---------------+----------------+
+ | **NumPy-svn**        |                |`Archives`__   |`Subscribe`__   |
+ |                      |                |               |                |
+ |                      |                |__ numpy-s-ar_ |__ numpy-s-su_  |
+ +----------------------+----------------+---------------+----------------+
+ | Commits to the NumPy repository                                        |
+ +----------------------+----------------+---------------+----------------+
+ | **SciPy-svn**        |                |`Archives`__   |`Subscribe`__   |
+ |                      |                |               |                |
+ |                      |                |__ scipy-s-ar_ |__ scipy-s-su_  |
+ +----------------------+----------------+---------------+----------------+
+ | Commits to the SciPy repository                                        |
+ +------------------------------------------------------------------------+
+
+
+IRC
+---
+
+There is also an IRC channel ``#scipy`` on `irc.freenode.net <http://freenode.net/>`__.
 
 .. _before-you-post:
 
@@ -56,68 +101,18 @@ A few points on mailing list etiquette:
   if you expect a reply, you should either monitor the list traffic 
   through your mail client or through a service like Gmane_; responses
   will generally be sent to the list and only the list.
+
 * **Don't reply to digests.**
   
   Digests should only be used if you intend to read and not participate.
   Replying to digests makes it impossible to follow conversation threads;
   please subscribe normally if you wish to participate in the conversation.
+
 * **Keep it friendly, folks.**
 
   Please keep the tone of conversations cordial and respectful, and 
   recognize that those responding to your questions are volunteering 
   their free time to do so. 
-
-Mailing Lists
--------------
-
-The following table lists the core NumPy and SciPy lists. Please see 
-:ref:`before-you-post` to make sure that this is the right place to ask 
-your question.
-
- +----------------------+----------------+---------------+----------------+
- | **NumPy-discussion** |`Read/Search`__ |`Archives`__   |`Subscribe`__   |
- |                      |                |               |                |
- |                      |__ gm-numpy-d_  |__ numpy-d-ar_ |__ numpy-d-su_  |
- +----------------------+----------------+---------------+----------------+
- |   For discussion of *just* the core NumPy package (not SciPy).         |
- +----------------------+----------------+---------------+----------------+
- | **SciPy-user**       |`Read/Search`__ |`Archives`__   |`Subscribe`__   |
- |                      |                |               |                |
- |                      |__ gm-scipy-u_  |__ scipy-u-ar_ |__ scipy-u-su_  |
- +----------------------+----------------+---------------+----------------+
- |   Our user-support forum, for discussions of how to use SciPy.         |
- +----------------------+----------------+---------------+----------------+
- | **SciPy-dev**        |`Read/Search`__ |`Archives`__   |`Subscribe`__   |
- |                      |                |               |                |
- |                      |__ gm-scipy-d_  |__ scipy-d-ar_ |__ scipy-d-su_  |
- +----------------------+----------------+---------------+----------------+
- | For discussions about the development of SciPy, including code, website|
- | and documentation.                                                     |
- +----------------------+----------------+---------------+----------------+
- | **NumPy-tickets**    |                |`Archives`__   |`Subscribe`__   |
- |                      |                |               |                |
- |                      |                |__ numpy-t-ar_ |__ numpy-t-su_  |
- +----------------------+----------------+---------------+----------------+
- | Trac ticket changes for NumPy                                          |
- +----------------------+----------------+---------------+----------------+
- | **NumPy-svn**        |                |`Archives`__   |`Subscribe`__   |
- |                      |                |               |                |
- |                      |                |__ numpy-s-ar_ |__ numpy-s-su_  |
- +----------------------+----------------+---------------+----------------+
- | Commits to the NumPy repository                                        |
- +----------------------+----------------+---------------+----------------+
- | **SciPy-tickets**    |                |`Archives`__   |`Subscribe`__   |
- |                      |                |               |                |
- |                      |                |__ scipy-t-ar_ |__ scipy-t-su_  |
- +----------------------+----------------+---------------+----------------+
- | Trac ticket changes for SciPy                                          |
- +----------------------+----------------+---------------+----------------+
- | **SciPy-svn**        |                |`Archives`__   |`Subscribe`__   |
- |                      |                |               |                |
- |                      |                |__ scipy-s-ar_ |__ scipy-s-su_  |
- +----------------------+----------------+---------------+----------------+
- | Commits to the SciPy repository                                        |
- +------------------------------------------------------------------------+
 
 .. _Gmane: http://www.gmane.org/ 
 .. _matplotlib: http://matplotlib.org/

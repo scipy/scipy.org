@@ -6,18 +6,17 @@ Scientific Computing Tools for Python
 .. toctree::
    :hidden:
 
-   citing
    stackspec
 
 SciPy refers to several related but distinct entities:
 
 * The *Scipy Stack*, a collection of open source software for scientific
-  computing in Python, and particularly a `specified set of core packages
-  <stackspec.html>`_.
+  computing in Python, and particularly a :doc:`specified set of core packages
+  <stackspec>`.
 * The *community* of people who use and develop this stack.
 * Several *conferences* dedicated to scientific computing in Python - Scipy,
   EuroScipy and Scipy.in.
-* The `SciPy library <scipylib.html>`_, one component of the Scipy stack,
+* The :doc:`SciPy library <scipylib/index>`, one component of the Scipy stack,
   providing many numerical routines.
 
 The Scipy Stack
@@ -31,7 +30,7 @@ Core Packages
   prototyping, while being powerful enough to write large applications in.
 * NumPy_, the fundamental package for numerical computation. It defines the
   numerical array and matrix types and basic operations on them.
-* The `SciPy library <scipylib.html>`_, a collection of numerical algorithms and
+* The :doc:`SciPy library <scipylib/index>`, a collection of numerical algorithms and
   domain-specific toolboxes, including signal processing, optimization,
   statistics and much more.
 * Matplotlib_, a mature and popular plotting package, that provides 
@@ -59,6 +58,8 @@ is a brief overview of a few major ones:
 * Scikits_ are extra packages for more specific functionality. scikit-image_
   and scikit-learn_ are two of the most prominent.
 * h5py_ and PyTables_ can both access data stored in the HDF5 format.
+
+See the :doc:`topical-software` page for more.
 
 .. _NumPy: http://numpy.scipy.org/
 .. _Matplotlib: http://matplotlib.sourceforge.net/
