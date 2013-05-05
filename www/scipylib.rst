@@ -10,6 +10,7 @@ The SciPy library
    mailing-lists
    bug-report
    dev-zone
+   citing
    faq
 
 The SciPy library is one of the core packages that make up the SciPy stack. It

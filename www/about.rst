@@ -6,7 +6,6 @@ Scientific Computing Tools for Python
 .. toctree::
    :hidden:
 
-   citing
    stackspec
 
 SciPy refers to several related but distinct entities:
