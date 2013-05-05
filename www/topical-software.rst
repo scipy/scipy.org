@@ -7,8 +7,15 @@ categorized by scientific discipline or computational topic.  It is intended to
 be exhaustive.  If you know of an unlisted resource, see About This Page,
 below.
 
+You may also want to take a look at the `list of Scikits
+<http://scikits.appspot.com/scikits>`__, Python packages oriented
+specifically at scientific computation tasks.
+
 You can also check our code sharing / software list site:
-http://scipy-central.org/
+http://scipy-central.org/. Additional useful software packages can be
+found on the `Python Package index <http://pypi.python.org/>`__
+especially in its `Science/Research category
+<http://pypi.python.org/pypi?:action=browse&c=40>`__.
 
 About This Page
 ===============
@@ -23,10 +30,10 @@ under some form of open source license.
 If you distribute or know of a resource that is not listed here,
 please add a listing. You can do this by creating an account on
 `Github <http://github.com/>`__ and going to `the source of this page
-<https://github.com/scipy/scipy.org-new/blob/master/www/topical-software.rst>`__
+<https://github.com/scipy/scipy.org-new/blob/master/www/topical-software.rst>`__.
 There, click the "Edit" button and make the changes. Alternatively,
-send mail to scipy-dev@scipy.org with subject "Addition to topical
-software page".
+send mail to :doc:`scipy-dev mailing list <scipylib/mailing-lists>`
+with subject "Addition to topical software page".
 
 Please include a description --- be as brief as you can, but make sure
 you include in your text a link to the resource's home page and some

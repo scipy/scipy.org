@@ -1,10 +1,9 @@
-<div id="searchbox">
-    <h3>{{ _('Search') }}</h3>
-<form class="search" action="http://www.google.com/search" method="get">
+<h3>{{ _('Search') }}</h3>
+<form class="form-search" action="http://www.google.com/search" method="get">
+  <fieldset>
     <!-- we'll use google at least until we get everything in sphinx -->
-    <input type="text" name="q" size="18" />
-    <input type="submit" value="{{ _('Go') }}" />
+    <input type="text" name="q" size="18" class="input-small search-query">
+    <button type="submit" class="btn">{{ _('Go') }}</button>
     <input type="hidden" name="as_sitesearch" value="scipy.org">
-  </form>
-</div>
-<script type="text/javascript">$('#searchbox').show(0);</script>
+  </fieldset>
+</form>
