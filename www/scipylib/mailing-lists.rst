@@ -23,50 +23,6 @@ We also have read-only mailing lists setup for NumPy and SciPy that
 provide notifications of all version control checkins and Trac ticket
 changes.
 
-.. _before-you-post:
-
-Before you post
----------------
-
-* Search the appropriate archives first (one way is to use the
-  "Read/Search" links to Gmane below).  Though knowing what search terms 
-  to use is an acquired skill, often it's easier than you think. Also 
-  check the :ref:`faq-top` to see if your question is answered there. 
-* Please make sure that you're posting to the right list. The NumPy
-  and SciPy mailing lists should be used for questions relating to
-  those two packages in particular (general questions about how to
-  accomplish a scientific task in Python are okay, too). Questions
-  about **matplotlib** should go to one of the matplotlib_ mailing
-  lists. Questions specifically about using/developing the **IPython**
-  shell should go to one of the IPython_ lists.  Making sure your
-  question is going to the right list saves everyone time and makes it
-  far more likely the right people will see (and answer) your question
-  quickly.
-
-A few points on mailing list etiquette:
-
-* **Reply to list, not to sender.**
-  
-  In general it is not necessary to CC respondents on further replies to
-  your thread. Please reply to the list rather than to the list *and* the 
-  individual respondents (note that the NumPy and SciPy lists `add 
-  Reply-To headers <http://www.metasystema.net/essays/reply-to.html>`_
-  to facilitate this; normally, clicking 'Reply' in your mail client
-  will direct replies to the list rather than the sender). Likewise,
-  if you expect a reply, you should either monitor the list traffic 
-  through your mail client or through a service like Gmane_; responses
-  will generally be sent to the list and only the list.
-* **Don't reply to digests.**
-  
-  Digests should only be used if you intend to read and not participate.
-  Replying to digests makes it impossible to follow conversation threads;
-  please subscribe normally if you wish to participate in the conversation.
-* **Keep it friendly, folks.**
-
-  Please keep the tone of conversations cordial and respectful, and 
-  recognize that those responding to your questions are volunteering 
-  their free time to do so. 
-
 Mailing Lists
 -------------
 
@@ -118,6 +74,58 @@ your question.
  +----------------------+----------------+---------------+----------------+
  | Commits to the SciPy repository                                        |
  +------------------------------------------------------------------------+
+
+
+IRC
+---
+
+There is also an IRC channel ``#scipy`` on `irc.freenode.net <http://freenode.net/>`__.
+
+.. _before-you-post:
+
+Before you post
+---------------
+
+* Search the appropriate archives first (one way is to use the
+  "Read/Search" links to Gmane below).  Though knowing what search terms 
+  to use is an acquired skill, often it's easier than you think. Also 
+  check the :ref:`faq-top` to see if your question is answered there. 
+* Please make sure that you're posting to the right list. The NumPy
+  and SciPy mailing lists should be used for questions relating to
+  those two packages in particular (general questions about how to
+  accomplish a scientific task in Python are okay, too). Questions
+  about **matplotlib** should go to one of the matplotlib_ mailing
+  lists. Questions specifically about using/developing the **IPython**
+  shell should go to one of the IPython_ lists.  Making sure your
+  question is going to the right list saves everyone time and makes it
+  far more likely the right people will see (and answer) your question
+  quickly.
+
+A few points on mailing list etiquette:
+
+* **Reply to list, not to sender.**
+  
+  In general it is not necessary to CC respondents on further replies to
+  your thread. Please reply to the list rather than to the list *and* the 
+  individual respondents (note that the NumPy and SciPy lists `add 
+  Reply-To headers <http://www.metasystema.net/essays/reply-to.html>`_
+  to facilitate this; normally, clicking 'Reply' in your mail client
+  will direct replies to the list rather than the sender). Likewise,
+  if you expect a reply, you should either monitor the list traffic 
+  through your mail client or through a service like Gmane_; responses
+  will generally be sent to the list and only the list.
+
+* **Don't reply to digests.**
+  
+  Digests should only be used if you intend to read and not participate.
+  Replying to digests makes it impossible to follow conversation threads;
+  please subscribe normally if you wish to participate in the conversation.
+
+* **Keep it friendly, folks.**
+
+  Please keep the tone of conversations cordial and respectful, and 
+  recognize that those responding to your questions are volunteering 
+  their free time to do so. 
 
 .. _Gmane: http://www.gmane.org/ 
 .. _matplotlib: http://matplotlib.org/
