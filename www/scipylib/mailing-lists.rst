@@ -20,8 +20,7 @@ a delay of up to a day. It is okay to post job ads for work involving
 NumPy/SciPy and related packages if you put "[JOB]" in the subject.
 
 We also have read-only mailing lists setup for NumPy and SciPy that
-provide notifications of all version control checkins and Trac ticket
-changes.
+provide notifications of all version control checkins.
 
 Mailing Lists
 -------------
@@ -50,23 +49,11 @@ your question.
  | For discussions about the development of SciPy, including code, website|
  | and documentation.                                                     |
  +----------------------+----------------+---------------+----------------+
- | **NumPy-tickets**    |                |`Archives`__   |`Subscribe`__   |
- |                      |                |               |                |
- |                      |                |__ numpy-t-ar_ |__ numpy-t-su_  |
- +----------------------+----------------+---------------+----------------+
- | Trac ticket changes for NumPy                                          |
- +----------------------+----------------+---------------+----------------+
  | **NumPy-svn**        |                |`Archives`__   |`Subscribe`__   |
  |                      |                |               |                |
  |                      |                |__ numpy-s-ar_ |__ numpy-s-su_  |
  +----------------------+----------------+---------------+----------------+
  | Commits to the NumPy repository                                        |
- +----------------------+----------------+---------------+----------------+
- | **SciPy-tickets**    |                |`Archives`__   |`Subscribe`__   |
- |                      |                |               |                |
- |                      |                |__ scipy-t-ar_ |__ scipy-t-su_  |
- +----------------------+----------------+---------------+----------------+
- | Trac ticket changes for SciPy                                          |
  +----------------------+----------------+---------------+----------------+
  | **SciPy-svn**        |                |`Archives`__   |`Subscribe`__   |
  |                      |                |               |                |
