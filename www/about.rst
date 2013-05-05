@@ -1,14 +1,13 @@
+.. _content:
+
 Scientific Computing Tools for Python
 =====================================
 
 .. toctree::
-    :maxdepth: 1
+   :hidden:
 
-    install
-    faq
-    mailing-lists
-    dev-zone
-
+   citing
+   stackspec
 
 SciPy refers to several related but distinct entities:
 
