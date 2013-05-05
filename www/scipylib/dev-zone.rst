@@ -21,11 +21,13 @@ is recommended even before starting.
 Useful information on how to contribute new features to SciPy is
 contained in `HACKING.txt
 <https://github.com/scipy/scipy/blob/master/HACKING.rst.txt>`__,
-please read it.
+please read it. Also, take a look at the `Numpy developer guide
+<http://docs.scipy.org/doc/numpy/dev/>`__ for information on practical
+issues.
 
 Note that NumPy contains the most basic numerical functionality, and
 SciPy is layered on top of NumPy to provide a much wider range of
-capability. You need NumPy for SciPy to work.
+capabilities. You need NumPy for SciPy to work.
 
 +-------+-------------------------+------------------------------------------+
 | NumPy | Code repository         | http://github.com/numpy/numpy            |
@@ -43,8 +45,8 @@ already made a number of patch contributions.
 
 .. _packaging:
 
-Packaging
----------
+On packaging
+------------
 
 For the majority of users who do not want to build the code from source, binary
 installers that "just work" are the key to using SciPy. Producing these after
@@ -65,17 +67,3 @@ Getting Releases Into Distribution
 
 Linux distributions and many others pick up our packages and deliver them to
 users as part of larger collections.
-
-Steering Committee
-------------------
-
-* Jarrod Millman
-* Eric Jones
-* Robert Kern
-* Travis Oliphant
-* Stefan van der Walt
-
-The purpose of this group is to ensure coherency in the SciPy library and
-advocate its progression. It organizes doc-days, bug-days, coding sprints, and
-assists with organizing the SciPy conference. It also serves to resolve
-questions that come up regarding the future of SciPy.
