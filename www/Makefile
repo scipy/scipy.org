@@ -35,7 +35,7 @@ upload: html
 upload-new: html
 	# SSH must be correctly configured for this to work.
 	cp .htaccess _build/html/
-	rsync -az --exclude '.git' _build/html/ tkluyver@ec2-23-20-103-47.compute-1.amazonaws.com:/srv/scipy_org
+	rsync -az --exclude '.git' _build/html/ tkluyver@new.scipy.org:/srv/scipy_org
 
 html:
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) _build/html
