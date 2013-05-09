@@ -12,6 +12,7 @@ The SciPy library
    dev-zone
    citing
    faq
+   license
 
 The SciPy library is one of the core packages that make up the SciPy stack. It
 provides many user-friendly and efficient numerical routines such as routines
