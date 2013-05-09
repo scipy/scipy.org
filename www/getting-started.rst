@@ -10,13 +10,14 @@ What are NumPy, SciPy, matplotlib, ...?
 
 SciPy and friends can be used for a variety of tasks:
 
-* First of all, they are great for performing calculations relying heavily on
-  mathematical and numerical operations. They can work natively with matrices
-  and arrays, perform operations on them, find eigenvectors, compute integrals,
-  solve differential equations.
+* *NumPy*'s array type augments the Python language with an efficient data
+  structure useful for numerical work, e.g., manipulating matrices.  *NumPy*
+  also provides basic numerical routines, such as tools for finding
+  eigenvectors.
 
-  *NumPy*'s array type augments the Python language with an efficient
-  data structure useful for numerical work.
+  *SciPy* contains additional routines needed in scientific work: for example,
+  routines for computing integrals numerically, solving differential equations,
+  optimization, and sparse matrices.
 
 * The matplotlib_ module produces high quality plots. With it you can turn your
   data or your models into figures for presentations or articles. No need to do
