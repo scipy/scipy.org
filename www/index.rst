@@ -125,3 +125,4 @@ particular, these are some of the core packages:
    getting-started
    topical-software
    scipylib/index
+   scikits

@@ -25,6 +25,11 @@ please read it. Also, take a look at the `Numpy developer guide
 <http://docs.scipy.org/doc/numpy/dev/>`__ for information on practical
 issues.
 
+If your contribution would be large, e.g. expanding functionality to a
+scientific field not currently covered, it may make sense to at least
+at first start it as an independent project. Check :doc:`/scikits`
+about how to write independent add-on packages.
+
 Note that NumPy contains the most basic numerical functionality, and
 SciPy is layered on top of NumPy to provide a much wider range of
 capabilities. You need NumPy for SciPy to work.
