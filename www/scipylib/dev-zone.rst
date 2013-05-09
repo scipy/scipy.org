@@ -29,14 +29,12 @@ Note that NumPy contains the most basic numerical functionality, and
 SciPy is layered on top of NumPy to provide a much wider range of
 capabilities. You need NumPy for SciPy to work.
 
+.. rst-class:: table table-bordered
+
 +-------+-------------------------+------------------------------------------+
 | NumPy | Code repository         | http://github.com/numpy/numpy            |
-|       +-------------------------+------------------------------------------+
-|       | Timeline                | https://github.com/organizations/numpy   |
 +-------+-------------------------+------------------------------------------+
 | SciPy | Code repository         | http://github.com/scipy/scipy            |
-|       +-------------------------+------------------------------------------+
-|       | Timeline                | https://github.com/organizations/scipy   |
 +-------+-------------------------+------------------------------------------+
 
 Interested people can get repository write access as well.  This usually 
