@@ -1,5 +1,7 @@
 {% extends "!layout.html" %}
 
+{% set css_files = css_files + [pathto("_static/scipy-org.css", 1)] %}
+
 {% block header %}
 <style>
 .top-logo-header {

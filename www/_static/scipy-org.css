@@ -1,0 +1,33 @@
+
+.news {
+    margin-top: 20px;
+}
+
+.news dt {
+    float: left;
+    width: 180px;
+    clear: left;
+    text-align: right;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.news dd {
+    margin-left: 200px;
+    min-height: 30px;
+}
+
+.news-date {
+    display: block;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.news-date:before {
+    content: "(";
+}
+
+.news-date:after {
+    content: ")";
+}
