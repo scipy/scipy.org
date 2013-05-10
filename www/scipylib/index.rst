@@ -1,5 +1,5 @@
-The SciPy library
-=================
+SciPy library
+=============
 
 .. toctree::
    :hidden:
