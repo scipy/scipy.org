@@ -56,7 +56,7 @@ html_theme_options = {
 }
 html_sidebars = {
     '**': ['sitenav.html', 'localtoc.html', 'searchbox.html'],
-    'index': ['sitenav.html'],
+    'index': ['sitenav.html', 'searchbox.html'],
 }
 
 html_title = "SciPy.org"
