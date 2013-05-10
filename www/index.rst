@@ -60,52 +60,95 @@ particular, these are some of the core packages:
 
 .. raw:: html
 
-  <table class="icontable">
-  <tr>
-  
-    <td class="packageicon">
-      <img class="packageicon" src="_static/images/numpylogo_med.png" height="50"/></td>
-    <td class="package">
-      <a href="http://numpy.scipy.org">NumPy</a><br />Base N-dimensional array package
-    </td>
-    
-    <td class="packageicon">
-      <img class="packageicon" src="_static/images/scipy_med.png" height="50"/></td>
-    <td class="package">
-      <a href="http://www.scipy.org">SciPy library</a><br/>Fundamental library for scientific computing
-    </td>
-    
-    <td class="packageicon">
-      <img class="packageicon" src="_static/images/matplotlib_med.png" height="50"/></td>
-    <td class="package">
-      <a href="http://matplotlib.org/">Matplotlib</a><br/>Comprehensive 2D Plotting
-    </td>
-  
-  </tr>
-  <tr>
-    
-    <td class="packageicon">
-      <img class="packageicon" src="_static/images/ipython.png" height="50"/></td>
-    <td class="package">
-      <a href="http://ipython.org">IPython</a><br/>Enhanced Interactive Console
-    </td>
-    
-    <td class="packageicon">
-      <img class="packageicon" src="_static/images/sympy_logo.png" height="50"/></td>
-    <td class="package">
-      <a href="http://sympy.org/">Sympy</a><br/>Symbolic mathematics
-    </td>
-    
-    <td class="packageicon">
-      <img class="packageicon" src="_static/images/pandas_badge2.jpg" height="50"/>
-    </td>
-    <td class="package">
-      <a href="http://pandas.pydata.org/">pandas</a><br/>Data structures &amp; analysis
-    </td>
-    
-  </tr>
+  <div>
+  <ul class="thumbnails packageicons">
 
-  </table>
+  <li class="span4">
+  <div class="thumbnail">
+  <div class="pull-left img">
+    <a href="http://numpy.scipy.org">
+    <img src="_static/images/numpylogo_med.png" width="64"/>
+    </a>
+  </div>
+  <div class="img-label">
+    <h4 class="media-heading"><a href="http://numpy.scipy.org">NumPy</a></h4>
+    Base N-dimensional array package
+  </div>
+  </div>
+  </li>
+
+  <li class="span4">
+  <div class="thumbnail">
+  <div class="pull-left img">
+    <a href="http://www.scipy.org">
+    <img src="_static/images/scipy_med.png" width="64"/>
+    </a>
+  </div>
+  <div class="img-label">
+    <h4 class="media-heading"><a href="scipylib/index.html">SciPy library</a></h4>
+    Fundamental library for scientific computing
+  </div>
+  </div>
+  </li>
+
+  <li class="span4">
+  <div class="thumbnail">
+  <div class="pull-left img">
+    <a href="http://matplotlib.org/">
+    <img src="_static/images/matplotlib_med.png" width="64"/>
+    </a>
+  </div>
+  <div class="img-label">
+    <h4 class="media-heading"><a href="http://matplotlib.org/">Matplotlib</a></h4>
+    Comprehensive 2D Plotting
+  </div>
+  </div>
+  </li>
+
+  <li class="span4">
+  <div class="thumbnail">
+  <div class="pull-left img">
+    <a href="http://ipython.org">
+    <img src="_static/images/ipython.png" width="64"/>
+    </a>
+  </div>
+  <div class="img-label">
+    <h4 class="media-heading"><a href="http://ipython.org">IPython</a></h4>
+    Enhanced Interactive Console
+  </div>
+  </div>
+  </li>
+
+  <li class="span4">
+  <div class="thumbnail">
+  <div class="pull-left img">
+    <a href="http://sympy.org/">
+    <img src="_static/images/sympy_logo.png" width="64"/>
+    </a>
+  </div>
+  <div class="img-label">
+    <h4 class="media-heading"><a href="http://sympy.org/">Sympy</a></h4>
+    Symbolic mathematics
+  </div>
+  </div>
+  </li>
+
+  <li class="span4">
+  <div class="thumbnail">
+  <div class="pull-left img">
+    <a href="http://pandas.pydata.org/">
+    <img src="_static/images/pandas_badge2.jpg" width="64"/>
+    </a>
+  </div>
+  <div class="img-label">
+    <h4 class="media-heading"><a href="http://pandas.pydata.org/">pandas</a></h4>
+    Data structures &amp; analysis
+  </div>
+  </div>
+  </li>
+
+  </ul>
+  </div>
 
 .. raw:: html
 

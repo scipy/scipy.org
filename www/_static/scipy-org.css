@@ -31,3 +31,30 @@
 .news-date:after {
     content: ")";
 }
+
+ul.packageicons {
+    margin-left: 20px !important;
+    margin-top: 20px;
+}
+
+.packageicons li {
+    margin-left: 0px !important;
+    min-width: 220px;
+}
+
+.packageicons div.img {
+    display: block;
+    height: 80px;
+}
+
+.packageicons div.img-label {
+    display: block;
+    margin-left: 80px;
+}
+
+.packageicons .thumbnail {
+    height: 80px;
+    margin-right: 10px;
+    border: none;
+    box-shadow: none;
+}
