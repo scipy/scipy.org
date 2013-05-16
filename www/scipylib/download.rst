@@ -119,17 +119,15 @@ Python(x,y)
 ###########
 
 `Python(x,y)`_ is a distribution of free/open source scientific and engineering
-software for Microsoft Windows XP/Vista (although there is an effort underway
-to develop an `Ubuntu Linux version <http://linux.pythonxy.com/ubuntu/>`_) 
-based around `Qt`_ and `Eclipse`_. It aims to provide an environment for 
-interactive scientific computing as well as more development-oriented features
-such as integrated GUI design tools for scientific software development.
-More details as well as downloads are available on at the 
-`Python(x,y) website`__.
+software for Microsoft Windows XP/Vista and Linux based around `Qt`_ and
+`Eclipse`_. It aims to provide an environment for interactive scientific
+computing as well as more development-oriented features such as integrated GUI
+design tools for scientific software development.  More details as well as
+downloads are available on at the `Python(x,y) website`__.
 
 __ `Python(x,y)`_
 
-.. _Python(x,y): http://www.pythonxy.com/
+.. _Python(x,y): http://code.google.com/p/pythonxy/
 .. _Qt: http://qt.nokia.com/
 .. _Eclipse: http://www.eclipse.org/
 
@@ -233,8 +231,6 @@ the package maintainer first, rather than to the NumPy/SciPy mailing lists**.
 | `Gentoo Linux`_     | `dev-python/numpy`_       | `sci-libs/scipy`_         |
 +---------------------+---------------------------+---------------------------+
 | `MacPorts`_         | `py-numpy`_,              | `py-scipy`_,              |
-|                     | `py25-numpy`_,            | `py25-scipy`_,            |
-|                     | `py26-numpy`_             | `py26-scipy`_             |
 +---------------------+---------------------------+---------------------------+
 | `NetBSD (pkgsrc)`_  | `math/py-numpy`__         | `math/py-scipy`__         |
 |                     |                           |                           |
@@ -249,11 +245,7 @@ the package maintainer first, rather than to the NumPy/SciPy mailing lists**.
 .. MacPorts links
 .. _MacPorts: http://www.macports.org/
 .. _py-numpy: http://trac.macports.org/browser/trunk/dports/python/py-numpy/Portfile
-.. _py25-numpy: http://trac.macports.org/browser/trunk/dports/python/py25-numpy/Portfile
-.. _py26-numpy: http://trac.macports.org/browser/trunk/dports/python/py26-numpy/Portfile
 .. _py-scipy: http://trac.macports.org/browser/trunk/dports/python/py-scipy/Portfile
-.. _py25-scipy: http://trac.macports.org/browser/trunk/dports/python/py25-scipy/Portfile
-.. _py26-scipy: http://trac.macports.org/browser/trunk/dports/python/py26-scipy/Portfile
 
 .. Fink links
 .. _Fink: http://www.finkproject.org/
@@ -307,6 +299,6 @@ the package maintainer first, rather than to the NumPy/SciPy mailing lists**.
 .. _ports/science/py-scipy: http://www.freebsd.org/cgi/cvsweb.cgi/ports/science/py-scipy/
 
 .. pkgsrc links
-.. _NetBSD (pkgsrc): http://www.netbsd.org/pkg
+.. _NetBSD (pkgsrc): http://www.pkgsrc.org/
 .. _py-numpy-pkgsrc: http://pkgsrc.se/math/py-numpy
 .. _py-scipy-pkgsrc: http://pkgsrc.se/math/py-scipy
