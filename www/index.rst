@@ -1,6 +1,6 @@
 .. raw:: html
 
-   <style>
+   <style type="text/css">
    .section h1 { display: none; }
    </style>
 
@@ -9,7 +9,7 @@ SciPy.org
 
 .. raw:: html
 
-  <style>
+  <style type="text/css">
   table.linktable {
       margin: 10px;
       margin-bottom: 20px;
@@ -29,19 +29,19 @@ SciPy.org
   <tr>
     <td>
       <a href="install.html">
-         <img alt="Download" src="_static/images/download.png" title="Download" height="80" style="display: block; margin-left: auto; margin-right: auto;"/></a> </td>
+         <img alt="Download" src="_static/images/download.png" title="Download" height="80" style="display: block; margin-left: auto; margin-right: auto;"></a> </td>
     <td>
       <a href="getting-started.html">
-        <img alt="Getting Started" src="_static/images/tutorial.png" title="Getting Started"  height="80" style="display: block; margin-left: auto; margin-right: auto;"/></a> </td>
+        <img alt="Getting Started" src="_static/images/tutorial.png" title="Getting Started"  height="80" style="display: block; margin-left: auto; margin-right: auto;"></a> </td>
     <td>
       <a href="scipylib/docs.html">
-        <img alt="Documentation" src="_static/images/documentation.png" title="Documentation"  height="80" style="display: block; margin-left: auto; margin-right: auto;"/></a> </td>
+        <img alt="Documentation" src="_static/images/documentation.png" title="Documentation"  height="80" style="display: block; margin-left: auto; margin-right: auto;"></a> </td>
     <td>
       <a href="scipylib/bug-report.html">
-        <img alt="Bug Report" src="_static/images/bugs.png" title="Bug Report"  height="80" style="display: block; margin-left: auto; margin-right: auto;"/></a> </td>
+        <img alt="Bug Report" src="_static/images/bugs.png" title="Bug Report"  height="80" style="display: block; margin-left: auto; margin-right: auto;"></a> </td>
     <td>
       <a href="http://planet.scipy.org">
-         <img alt="Blog" src="_static/images/feed-icon.png" title="Blog"  height="80" style="display: block; margin-left: auto; margin-right: auto;"/></a> </td>
+         <img alt="Blog" src="_static/images/feed-icon.png" title="Blog"  height="80" style="display: block; margin-left: auto; margin-right: auto;"></a> </td>
   </tr>
 
   <tr>
@@ -67,7 +67,7 @@ particular, these are some of the core packages:
   <div class="thumbnail">
   <div class="pull-left img">
     <a href="http://numpy.scipy.org">
-    <img src="_static/images/numpylogo_med.png" width="64"/>
+    <img src="_static/images/numpylogo_med.png" width="64">
     </a>
   </div>
   <div class="img-label">
@@ -81,7 +81,7 @@ particular, these are some of the core packages:
   <div class="thumbnail">
   <div class="pull-left img">
     <a href="http://www.scipy.org">
-    <img src="_static/images/scipy_med.png" width="64"/>
+    <img src="_static/images/scipy_med.png" width="64">
     </a>
   </div>
   <div class="img-label">
@@ -95,7 +95,7 @@ particular, these are some of the core packages:
   <div class="thumbnail">
   <div class="pull-left img">
     <a href="http://matplotlib.org/">
-    <img src="_static/images/matplotlib_med.png" width="64"/>
+    <img src="_static/images/matplotlib_med.png" width="64">
     </a>
   </div>
   <div class="img-label">
@@ -109,7 +109,7 @@ particular, these are some of the core packages:
   <div class="thumbnail">
   <div class="pull-left img">
     <a href="http://ipython.org">
-    <img src="_static/images/ipython.png" width="64"/>
+    <img src="_static/images/ipython.png" width="64">
     </a>
   </div>
   <div class="img-label">
@@ -123,7 +123,7 @@ particular, these are some of the core packages:
   <div class="thumbnail">
   <div class="pull-left img">
     <a href="http://sympy.org/">
-    <img src="_static/images/sympy_logo.png" width="64"/>
+    <img src="_static/images/sympy_logo.png" width="64">
     </a>
   </div>
   <div class="img-label">
@@ -137,7 +137,7 @@ particular, these are some of the core packages:
   <div class="thumbnail">
   <div class="pull-left img">
     <a href="http://pandas.pydata.org/">
-    <img src="_static/images/pandas_badge2.jpg" width="64"/>
+    <img src="_static/images/pandas_badge2.jpg" width="64">
     </a>
   </div>
   <div class="img-label">
