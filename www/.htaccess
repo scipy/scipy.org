@@ -4,6 +4,9 @@ RewriteEngine on
 RewriteRule ^(Cookbook|Developer_Zone|EuroScipy|F2Py|History_of_SciPy|License_Compatibility|PerformanceTips|ReleaseNotes|Scipy200|SubmillisecondPulsar|Topical_Software) \
     http://wiki.scipy.org%{REQUEST_URI} [R=permanent]
 
+# Redirect from scipy.org/doc/*
+RewriteRule ^(doc/) http://docs.scipy.org/ [R=permanent]
+
 # Redirect URLs from the MoinMoin site to their new equivalents
 RewriteRule ^(Download|Installing_SciPy) /install.html [R=permanent]
 RewriteRule ^(Documentation|Additional_Documentation) http://docs.scipy.org/ [R=permanent]
