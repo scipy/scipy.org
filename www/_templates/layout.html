@@ -1,7 +1,9 @@
 {% extends "!layout.html" %}
 
+{% set css_files = css_files + [pathto("_static/scipy-org.css", 1)] %}
+
 {% block header %}
-<style>
+<style type="text/css">
 .top-logo-header {
   text-align: left;
   background-color: rgb(140, 170, 230);
@@ -14,7 +16,7 @@
 <div class="container">
   <div class="top-logo-header">
     <a href="{{ pathto('index') }}">
-      <img border=0 alt="SciPy" src="{{ pathto('_static/logo.gif', 1) }}"></a>
+      <img style="border: 0;" alt="SciPy" src="{{ pathto('_static/logo.gif', 1) }}"></a>
   </div>
 </div>
 {% endblock %}

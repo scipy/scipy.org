@@ -1,6 +1,6 @@
 {% block sitenav %}
 
-<style>
+<style type="text/css">
 a.extlink:after {
     margin-left: 5px;
     content: url("{{ pathto('_static/external-link.png', 1) }}");
@@ -23,7 +23,15 @@ a.extlink:after {
     <li {% if pagename == 'getting-started' -%}class="active"{%- endif -%}>
       <a href="{{ pathto('getting-started') }}">Getting Started</a></li>
     <li {% if pagename == 'topical-software' -%}class="active"{%- endif -%}>
-      <a href="{{ pathto('topical-software') }}">Topical Software</a></li>
+      <a href="{{ pathto('topical-software') }}">Topical Software</a>
+      {% if pagename in ('topical-software', 'scikits') -%}
+      <ul class="nav nav-list">
+	<li {% if pagename == 'scikits'  -%}class="active"{%- endif -%}>
+	  <a href="{{ pathto('scikits') }}">About Scikits</a></li>
+	<li><a class="extlink" href="http://scikits.appspot.com/scikits">List of Scikits</a></li>
+      </ul>
+      {% endif %}
+    </li>
     <li><a class="extlink" href="http://www.scipy.org/Cookbook">Cookbook</a></li>
     <li><a class="extlink" href="http://scipy-central.org">SciPy Central</a> 
     <li><a class="extlink" href="http://wiki.scipy.org">Wiki</a></li>
@@ -32,8 +40,15 @@ a.extlink:after {
 
     <li class="nav-header">Numpy &amp; Scipy&nbsp;(library):</li>
     <li {% if pagename == 'scipylib/index' -%}class="active"{%- endif -%}>
-      <a href="{{ pathto('scipylib/index') }}">About Scipy</a></li>
-    <li><a class="extlink" href="http://www.numpy.org">About Numpy</a> 
+      <a href="{{ pathto('scipylib/index') }}">SciPy (library)</a>
+      {% if pagename in ('scipylib/index', 'scipylib/license') -%}
+      <ul class="nav nav-list">
+	<li {% if pagename == 'scipylib/license' -%}class="active"{%- endif -%}>
+	  <a href="{{ pathto('scipylib/license') }}">License</a></li>
+      </ul>
+      {% endif %}
+    </li>
+    <li><a class="extlink" href="http://www.numpy.org">Numpy</a> 
     <li {% if pagename == 'scipylib/download' -%}class="active"{%- endif -%}>
       <a href="{{ pathto('scipylib/download') }}">Download</a></li>
     <li {% if pagename == 'scipylib/docs' -%}class="active"{%- endif -%}>
