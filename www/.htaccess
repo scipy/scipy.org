@@ -1,7 +1,7 @@
 RewriteEngine on
 
 # Redirects to the old site, now at wiki.scipy.org
-RewriteRule ^(Cookbook|Developer_Zone|EuroScipy|F2Py|History_of_SciPy|License_Compatibility|NumPy_for_Matlab_Users|Numpy_Functions_by_Category|PerformanceTips|ReleaseNotes|Scipy200|SubmillisecondPulsar|Tentative_NumPy_Tutorial|Topical_Software) \
+RewriteRule ^(Cookbook|Developer_Zone|EuroScipy|F2Py|History_of_SciPy|License_Compatibility|NumPy_for_Matlab_Users|Numpy_Functions_by_Category|PerformanceTips|PyLab|ReleaseNotes|Scipy200|SubmillisecondPulsar|Tentative_NumPy_Tutorial|Topical_Software) \
     http://wiki.scipy.org%{REQUEST_URI} [R=permanent]
 
 # Redirect from scipy.org/doc/*
