@@ -12,9 +12,7 @@ which includes all the key packages:
 * `Anaconda <https://store.continuum.io/cshop/anaconda>`_: Both the free and the
   commercial versions include the core Scipy stack. Supports Linux, Windows and
   Mac.
-* `EPD <http://www.enthought.com/products/epd.php>`_: At present, only the
-  commercial version (free for academic use) includes all the Scipy stack
-  packages. Supports Linux, Windows and Mac.
+* `Enthought Canopy <http://www.enthought.com/products/canopy/>`_: The free and commercial versions include the core Scipy stack packages. Supports Linux, Windows and Mac.
 * `Python(x,y) <http://code.google.com/p/pythonxy/>`_: A free distribution
   including the Scipy stack, based around the Spyder IDE. Windows only.
 * `WinPython <http://code.google.com/p/winpython/>`_: A free distribution
