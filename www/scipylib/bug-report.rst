@@ -27,6 +27,21 @@ bug-reports (issues).
    to propose an enhancement, then the mailing list is a better place
    to get feedback.
 
+.. note:: 
+   
+   While the instructions above are for NumPy and SciPy (the library),
+   they apply for most other projects in the SciPy Stack as well.  Bug
+   trackers for other core projects:
+   
+   - `Matplotlib <https://github.com/matplotlib/matplotlib/issues>`_
+
+   - `IPython <https://github.com/ipython/ipython/issues>`_
+
+   - `Pandas <https://github.com/pydata/pandas/issues>`_
+
+   - `SymPy <http://code.google.com/p/sympy/issues/list>`_
+
+
 Guidelines for submitting bugs
 ------------------------------
 
