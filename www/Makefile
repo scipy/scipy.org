@@ -13,11 +13,14 @@ ALLSPHINXOPTS   = -d _build/doctrees $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) .
 
 .PHONY: help clean html linkcheck
 
+USERNAME=tkluyver
+
 help:
 	@echo "Please use \`make <target>' where <target> is one of"
-	@echo "  upload     to upload the generated pages to Github"
-	@echo "  html       to make standalone HTML files"
-	@echo "  linkcheck  to check if external links work"
+	@echo "  upload                     to upload the generated pages to Github"
+	@echo "  upload-new USERNAME=user   to upload the generated pages to new.scipy.org"
+	@echo "  html                       to make standalone HTML files"
+	@echo "  linkcheck                  to check if external links work"
 
 clean:
 	-rm -rf _build/*
@@ -35,7 +38,10 @@ upload: html
 upload-new: html
 	# SSH must be correctly configured for this to work.
 	cp .htaccess _build/html/
-	rsync -az --exclude '.git' _build/html/ tkluyver@new.scipy.org:/srv/scipy_org
+	chmod a+rX -R _build/html/
+	rsync -az --exclude '.git' _build/html/ \
+	    $(USERNAME)@new.scipy.org:/srv/scipy_org
+	ssh $(USERNAME)@new.scipy.org /srv/bin/fixperm-scipy_org.sh
 
 html:
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) _build/html
