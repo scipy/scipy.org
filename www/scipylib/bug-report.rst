@@ -2,8 +2,8 @@ Bug Reports
 ===========
 **Please help us by reporting any problems you find.**
 
-We make use of Github to do project management.  There, you can see
-what we are currently working on (Pull Requests), as well as file
+NumPy and SciPy make use of Github to do project management.  There, you can
+see what we are currently working on (Pull Requests), as well as file
 bug-reports (issues).
 
 1. Go to the relevant page:
@@ -26,20 +26,6 @@ bug-reports (issues).
 #. Note that the bug trackers are mostly for actual bugs. If you want
    to propose an enhancement, then the mailing list is a better place
    to get feedback.
-
-.. note:: 
-   
-   While the instructions above are for NumPy and SciPy (the library),
-   they apply for most other projects in the SciPy Stack as well.  Bug
-   trackers for other core projects:
-   
-   - `Matplotlib <https://github.com/matplotlib/matplotlib/issues>`_
-
-   - `IPython <https://github.com/ipython/ipython/issues>`_
-
-   - `Pandas <https://github.com/pydata/pandas/issues>`_
-
-   - `SymPy <http://code.google.com/p/sympy/issues/list>`_
 
 
 Guidelines for submitting bugs
@@ -76,10 +62,9 @@ Guidelines for submitting bugs
       Reading symbols for shared libraries . done
       ...
 
-  Then use the "bt" command after the segfault happens to get the backtrace. Alternatively, `run the code through Valgrind <http://wiki.scipy.org/Cookbook/C_Extensions#head-9d3c4f5894aa215af47ea7784a33ab0252d230d8>`_.
-
-.. FIXME: the link for running code through Valgrind will change once we
-    migrate from the wiki
+  Then use the "bt" command after the segfault happens to get the backtrace.
+  Alternatively, `run the code through Valgrind
+  <http://wiki.scipy.org/Cookbook/C_Extensions#head-9d3c4f5894aa215af47ea7784a33ab0252d230d8>`_.
 
 * Set the milestone to the next release.
 

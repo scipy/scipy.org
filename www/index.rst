@@ -39,7 +39,7 @@ SciPy.org
       <a href="docs.html">
         <img alt="Documentation" src="_static/images/documentation.png" title="Documentation"  height="80" style="display: block; margin-left: auto; margin-right: auto;"></a> </td>
     <td>
-      <a href="scipylib/bug-report.html">
+      <a href="bug-report.html">
         <img alt="Bug Report" src="_static/images/bugs.png" title="Bug Report"  height="80" style="display: block; margin-left: auto; margin-right: auto;"></a> </td>
     <td>
       <a href="http://planet.scipy.org">
@@ -50,7 +50,7 @@ SciPy.org
     <td><strong><small><a href="install.html">Install</a></small></strong></td>
     <td><strong><small><a href="getting-started.html">Getting Started</a></small></strong></td>
     <td><strong><small><a href="docs.html">Documentation</a></small></strong></td>
-    <td><strong><small><a href="scipylib/bug-report.html">Report Bugs</a></small></strong></td>
+    <td><strong><small><a href="bug-report.html">Report Bugs</a></small></strong></td>
     <td><strong><small><a href="http://planet.scipy.org">Blogs</a></small></strong></td>
   </tr>
   </table>
@@ -200,6 +200,7 @@ SIAM CSE '13
    install
    getting-started
    docs
+   bug-report
    topical-software
    scipylib/index
    scikits

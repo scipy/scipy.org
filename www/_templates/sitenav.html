@@ -24,6 +24,8 @@ a.extlink:after {
       <a href="{{ pathto('getting-started') }}">Getting Started</a></li>
     <li {% if pagename == 'docs' -%}class="active"{%- endif -%}>
       <a href="{{ pathto('docs') }}">Documentation</a></li>
+    <li {% if pagename == 'bug-report' -%}class="active"{%- endif -%}>
+      <a href="{{ pathto('bug-report') }}">Bug Report</a></li>
     <li {% if pagename == 'topical-software' -%}class="active"{%- endif -%}>
       <a href="{{ pathto('topical-software') }}">Topical Software</a>
       {% if pagename in ('topical-software', 'scikits') -%}
