@@ -22,6 +22,8 @@ a.extlink:after {
       <a href="{{ pathto('install') }}">Install</a></li>
     <li {% if pagename == 'getting-started' -%}class="active"{%- endif -%}>
       <a href="{{ pathto('getting-started') }}">Getting Started</a></li>
+    <li {% if pagename == 'docs' -%}class="active"{%- endif -%}>
+      <a href="{{ pathto('docs') }}">Documentation</a></li>
     <li {% if pagename == 'topical-software' -%}class="active"{%- endif -%}>
       <a href="{{ pathto('topical-software') }}">Topical Software</a>
       {% if pagename in ('topical-software', 'scikits') -%}
@@ -51,8 +53,7 @@ a.extlink:after {
     <li><a class="extlink" href="http://www.numpy.org">Numpy</a> 
     <li {% if pagename == 'scipylib/download' -%}class="active"{%- endif -%}>
       <a href="{{ pathto('scipylib/download') }}">Download</a></li>
-    <li {% if pagename == 'scipylib/docs' -%}class="active"{%- endif -%}>
-      <a href="{{ pathto('scipylib/docs') }}">Documentation</a></li>
+    <li><a class="extlink" href="http://docs.scipy.org/doc/">Documentation</a> 
     <li {% if pagename.startswith('scipylib/building/') -%}class="active"{%- endif -%}>
       <a href="{{ pathto('scipylib/building/index') }}">Build instructions</a></li>
     <li {% if pagename == 'scipylib/mailing-lists' -%}class="active"{%- endif -%}>
