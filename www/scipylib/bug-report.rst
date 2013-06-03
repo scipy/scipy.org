@@ -61,7 +61,7 @@ Guidelines for submitting bugs
       Reading symbols for shared libraries . done
       ...
 
-  Then use the "bt" command after the segfault happens to get the backtrace. Alternatively, `run the code through Valgrind <http://www.scipy.org/Cookbook/C_Extensions#head-9d3c4f5894aa215af47ea7784a33ab0252d230d8>`_.
+  Then use the "bt" command after the segfault happens to get the backtrace. Alternatively, `run the code through Valgrind <http://wiki.scipy.org/Cookbook/C_Extensions#head-9d3c4f5894aa215af47ea7784a33ab0252d230d8>`_.
 
 .. FIXME: the link for running code through Valgrind will change once we
     migrate from the wiki

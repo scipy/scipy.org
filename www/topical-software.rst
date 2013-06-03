@@ -70,9 +70,9 @@ And some more specifically geared towards scientific computing:
 ---------------------------------------------------------------
 
 - The main `Numpy and Scipy documentation <http://docs.scipy.org/>`__.
-- The `extra documentation page <http://www.scipy.org/Additional_Documentation/>`__ has a number of important links on using SciPy, including a (slightly outdated, but still useful) `PDF tutorial <http://www.scipy.org/Additional_Documentation?action=AttachFile&do=get&target=scipy_tutorial.pdf>`__ for the SciPy library.
+- The `extra documentation page <http://wiki.scipy.org/Additional_Documentation/>`__ has a number of important links on using SciPy, including a (slightly outdated, but still useful) `PDF tutorial <http://wiki.scipy.org/Additional_Documentation?action=AttachFile&do=get&target=scipy_tutorial.pdf>`__ for the SciPy library.
 - The `user guide for the new NumPy system <http://www.tramy.us/>`__. Numeric and Numarray have been unified into the new NumPy environment. This document covers all the details of the new system, and was written by its lead developer.
-- A `tutorial focused on interactive data analysis <http://www.scipy.org/Additional_Documentation/Astronomy_Tutorial>`__ for astronomy, but of generic utility to most scientific users. Developed at the STSCI, available for free download including all data files necessary to run the examples.
+- A `tutorial focused on interactive data analysis <http://wiki.scipy.org/Additional_Documentation/Astronomy_Tutorial>`__ for astronomy, but of generic utility to most scientific users. Developed at the STSCI, available for free download including all data files necessary to run the examples.
 - `Konrad Hinsen's Python page <http://starship.python.net/crew/hinsen/>`__: contains a number of introductions and tutorials to Python, geared towards the needs of scientists.
 - `Jacek Generowicz's Python Courses. <http://jacek.home.cern.ch/jacek/python-course>`__
 - `Python Scripting for Computational Science <http://www.springeronline.com/sgw/cda/frontpage/0,11855,5-115-22-17627636-0,00.html>`__: not free, this is a Springer book.
@@ -167,7 +167,7 @@ Data visualization (mostly 3-D, surfaces and volumetric rendering)
 - `Py2DX <http://www.psc.edu/~eschenbe>`__: Py2DX is a Python binding for the `OpenDX <http://www.opendx.org/>`__ API based on Py-OpenDX. Mavis is a visualisation software built using this interfacce and the OpenDX library.(Rjoy)
 - `IVuPy <http://ivupy.sourceforge.net/>`__: (I-View-Py) serves to develop Python programs for 3D visualization of huge data sets using Qt and PyQt. IVuPy interfaces more than 600 classes of two of the `Coin3D <http://www.coin3d.org/>`__ C++ libraries to Python, integrates very well with PyQt, and is fun to program. Coin3D is a `scene graph <http://www.tomshardware.se/column/20000110/>`__ library, and is optimized for speed. In comparison with `VTK <http://www.vtk.org/>`__, Coin3D is more low level and lacks many of VTK's advanced visualization and imaging algorithms.
 - `Pivy <http://pivy.coin3d.org/>`__ is another Coin3D binding for Python. Pivy allows the development of Coin3D applications and extensions in Python, interactive modification of Coin3D programs from within the Python interpreter at runtime and incorporation of Scripting Nodes into the scene graph which are capable of executing Python code and callbacks.
-- `Mat3D <http://www.scipy.org/WilnaDuToit>`__ provides a few routines for basic 3D plotting. It makes use of OpenGL and is written in Python and Tk. One can interact (rotate and zoom) with with the generated graph and the view can be saved to an image.
+- `Mat3D <http://wiki.scipy.org/WilnaDuToit>`__ provides a few routines for basic 3D plotting. It makes use of OpenGL and is written in Python and Tk. One can interact (rotate and zoom) with with the generated graph and the view can be saved to an image.
 - `S2PLOT <http://astronomy.swin.edu.au/s2plot/>`__ is a three-dimensional plotting library based on OpenGL with support for standard and enhanced display devices. The S2PLOT library was written in C and can be used with C, C++, FORTRAN and Python programs on GNU/Linux, Apple/OSX and GNU/Cygwin systems. The library is currently closed-source, but free for commercial and academic use. They are hoping for an open source release towards the end of 2008.
 - `pyqtgraph <http://luke.campagnola.me/code/pyqtgraph>`__: Pure-python plotting, 3D graphics (including volumetric and isosurface rendering), and GUI library based on PyQt, python-opengl, and numpy/scipy. 
 
@@ -296,14 +296,14 @@ Topic guides, organized by scientific field
 Astronomy
 ---------
 
-- `AstroPy <http://www.scipy.org/wikis/topical_software/Astronomy>`__: Central repository of information about Python and Astronomy.
+- `AstroPy <http://wiki.scipy.org/wikis/topical_software/Astronomy>`__: Central repository of information about Python and Astronomy.
 - `AstroPython <http://www.astropython.org>`__: Knowledge base for research in astronomy using                 Python.
 - `PyFITS <http://www.stsci.edu/resources/software_hardware/pyfits>`__: interface to `FITS <http://www.cv.nrao.edu/fits/>`__ formatted files under the `Python <http://www.python.org/>`__ scripting language and `PyRAF <http://www.stsci.edu/resources/software_hardware/pyraf>`__, the Python-based interface to IRAF.
 - `PyRAF <http://www.stsci.edu/resources/software_hardware/pyraf>`__: a new command language for running IRAF tasks that is based on the Python scripting language.
 - `BOTEC <http://www.alcyone.com/software/botec>`__: a simple astrophysical and orbital mechanics calculator, including a database of all named Solar System objects.
 - AstroLib: an open source effort to develop general astronomical utilities akin to those available in the IDL ASTRON package
 - `APLpy <http://aplpy.sourceforge.net>`__: a Python module aimed at producing publication-quality plots of astronomical imaging data in FITS format.
-- `Tutorial <http://www.scipy.org/wikis/topical_software/Tutorial>`__: Using Python for interactive data analysis in astronomy.
+- `Tutorial <http://wiki.scipy.org/wikis/topical_software/Tutorial>`__: Using Python for interactive data analysis in astronomy.
 - `ParselTongue <http://www.radionet-eu.org/rnwiki/ParselTongue>`__: A Python interface to classic AIPS for the calibration, data analysis, image display etc. of (primarily) Radio Astronomy data.
 - `Casa <http://casa.nrao.edu/>`__ a suite of C++ application libraries for the reduction and analysis of radioastronomical data (derived from the former AIPS++ package) with a Python scripting interface.
 - `Healpy <http://planck.lal.in2p3.fr/wiki/pmwiki.php/Softs/Healpy>`__ Python package for using and plotting HEALpix data (e.g. spherical surface maps such as WMAP data).

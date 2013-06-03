@@ -82,7 +82,7 @@ particular, these are some of the core packages:
   <li class="span4">
   <div class="thumbnail">
   <div class="pull-left img">
-    <a href="http://www.scipy.org">
+    <a href="scipylib/index.html">
     <img alt="scipy" src="_static/images/scipy_med.png" width="64">
     </a>
   </div>
