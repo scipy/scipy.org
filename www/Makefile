@@ -17,25 +17,14 @@ USERNAME=tkluyver
 
 help:
 	@echo "Please use \`make <target>' where <target> is one of"
-	@echo "  upload                     to upload the generated pages to Github"
-	@echo "  upload-new USERNAME=user   to upload the generated pages to new.scipy.org"
-	@echo "  html                       to make standalone HTML files"
-	@echo "  linkcheck                  to check if external links work"
+	@echo "  upload USERNAME=user   to upload the generated pages to new.scipy.org"
+	@echo "  html                   to make standalone HTML files"
+	@echo "  linkcheck              to check if external links work"
 
 clean:
 	-rm -rf _build/*
 
 upload: html
-	cd _build/html && \
-	    touch .nojekyll && \
-	    rm -rf .git && \
-	    git init && \
-	    git remote add target git@github.com:scipy/scipy.github.com.git && \
-	    git add -A && \
-	    git commit -m "Rebuild site" -a && \
-	    git push -f target master:master
-
-upload-new: html
 	# SSH must be correctly configured for this to work.
 	cp .htaccess _build/html/
 	chmod a+rX -R _build/html/
