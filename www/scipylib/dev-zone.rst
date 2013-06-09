@@ -21,7 +21,7 @@ is recommended even before starting.
 Useful information on how to contribute new features to SciPy is
 contained in `HACKING.txt
 <https://github.com/scipy/scipy/blob/master/HACKING.rst.txt>`__,
-please read it. Also, take a look at the `Numpy developer guide
+please read it. Also, take a look at the `NumPy developer guide
 <http://docs.scipy.org/doc/numpy/dev/>`__ for information on practical
 issues.
 

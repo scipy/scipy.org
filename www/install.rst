@@ -1,9 +1,9 @@
 ==========================
-Installing the Scipy Stack
+Installing the SciPy Stack
 ==========================
 
 These are instructions for installing :ref:`the full SciPy stack
-<stackspec>`.  For installing individual packages, such as Numpy and
+<stackspec>`.  For installing individual packages, such as NumPy and
 SciPy, see :ref:`individual-packages` below.
 
 
@@ -11,18 +11,18 @@ Scientific Python distributions
 -------------------------------
 
 For most users, especially on Windows and Mac, the easiest way to install the
-packages of the Scipy stack is to download one of these Python distributions,
+packages of the SciPy stack is to download one of these Python distributions,
 which includes all the key packages:
 
 * `Anaconda <http://continuum.io/downloads.html>`_: A free distribution
-  for the Scipy stack. Supports Linux, Windows and Mac.
+  for the SciPy stack. Supports Linux, Windows and Mac.
 * `Enthought Canopy <http://www.enthought.com/products/canopy/>`_: The free and
-  commercial versions include the core Scipy stack packages. Supports Linux,
+  commercial versions include the core SciPy stack packages. Supports Linux,
   Windows and Mac.
 * `Python(x,y) <http://code.google.com/p/pythonxy/>`_: A free distribution
-  including the Scipy stack, based around the Spyder IDE. Windows only.
+  including the SciPy stack, based around the Spyder IDE. Windows only.
 * `WinPython <http://code.google.com/p/winpython/>`_: A free distribution
-  including the Scipy stack. Windows only.
+  including the SciPy stack. Windows only.
 * `Pyzo <http://www.pyzo.org/>`_: A free distribution based on Python 3 (see
   :ref:`python3`) with the IEP editor. Supports Linux and Windows.
 
@@ -39,9 +39,9 @@ Ubuntu & Debian
 
     sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
 
-The versions in Ubuntu 12.10 and Debian 7.0 meet the current Scipy stack
+The versions in Ubuntu 12.10 and Debian 7.0 meet the current SciPy stack
 specification. Users might also want to add the `NeuroDebian repository
-<http://neuro.debian.net/>`_ for extra Scipy packages.
+<http://neuro.debian.net/>`_ for extra SciPy packages.
 
 Fedora
 ~~~~~~
@@ -91,7 +91,7 @@ To install the scipy stack for Python 2.7 with `Macports
 Individual binary and source packages
 -------------------------------------
 
-The maintainers of many of the packages in the :ref:`Scipy stack
+The maintainers of many of the packages in the :ref:`SciPy stack
 <stackspec>` provide "official" binary installers for common Windows
 and OS-X systems that can be used to install the packages
 one by one. These installers are generally built to be compatible
@@ -108,11 +108,11 @@ with the Python binaries available from python.org.
 
 For Windows: Christoph Gohlke provides `pre-built Windows installers
 <http://www.lfd.uci.edu/~gohlke/pythonlibs/>`_ for many Python
-packages, including all of the core Scipy stack.
+packages, including all of the core SciPy stack.
 
-You can also build any of the Scipy packages from source, for instance if you
+You can also build any of the SciPy packages from source, for instance if you
 want to get involved with development. This is easy for packages written
-entirely in Python, while others like Numpy require compiling C code. Refer to
+entirely in Python, while others like NumPy require compiling C code. Refer to
 individual projects for more details.
 
 
@@ -122,7 +122,7 @@ Note on Python 3
 ----------------
 
 The Python language is moving from the 2.x series to Python 3. As of late 2012,
-all of the core Scipy Stack packages support Python 3, but some more specialist
+all of the core SciPy Stack packages support Python 3, but some more specialist
 packages still only work on Python 2. The full distribution listed above will
 mostly install Python 2, with the exception of `Pyzo <http://www.pyzo.org/>`_.
 

@@ -322,7 +322,7 @@ Miscellaneous Notes:
 
 If you're getting a ``gcc.lib not found`` error, it is probably because you're
 building with ``--compiler=msvc``, but you also have MinGW installed. In that
-case Numpy may compile some Fortran files using MinGW, and then at link time
+case NumPy may compile some Fortran files using MinGW, and then at link time
 try to link with ``gcc.lib`` which doesn't exist in the MinGW distribution. You
 can fix this by copying some MinGW ``.a`` file to ``.lib`` files::
 

@@ -31,7 +31,7 @@ SciPy and friends can be used for a variety of tasks:
 
 * There is a sizeable collection of both generic and
   application-specific numerical and scientific code, written using
-  Python, Numpy and Scipy. Don't reinvent the wheel, there may already
+  Python, NumPy and SciPy. Don't reinvent the wheel, there may already
   be a pre-made solution for your problem. See
   :doc:`topical-software` for a partial list.
 
@@ -78,7 +78,7 @@ is to take a look at the following online resources:
 
 In addition, a number of books have been written on numerical
 computation in Python, see for example a
-`Google search on books related to Scipy <http://www.google.com/search?q=scipy+scientific+python&tbm=bks>`__.
+`Google search on books related to SciPy <http://www.google.com/search?q=scipy+scientific+python&tbm=bks>`__.
 
 
 An example session
@@ -88,7 +88,7 @@ To give a simple example of typical interactive use, we find and plot
 the maximum of a Bessel function. If you have worked with numerical
 computation environments before, what follows looks very familiar.
 
-This assumes you have installed the Scipy stack, for example following
+This assumes you have installed the SciPy stack, for example following
 the instructions in :doc:`install`.  
 
 .. sourcecode:: ipython
