@@ -62,7 +62,7 @@ is a brief overview of a few major ones:
 See the :doc:`topical-software` page for more.
 
 .. _NumPy: http://numpy.scipy.org/
-.. _Matplotlib: http://matplotlib.sourceforge.net/
+.. _Matplotlib: http://matplotlib.org/
 .. _pandas: http://pandas.pydata.org/
 .. _SymPy: http://pandas.pydata.org/
 .. _nose: https://nose.readthedocs.org/en/latest/
