@@ -9,9 +9,8 @@ For most users, especially on Windows and Mac, the easiest way to install the
 packages of the Scipy stack is to download one of these Python distributions,
 which includes all the key packages:
 
-* `Anaconda <https://store.continuum.io/cshop/anaconda>`_: Both the free and the
-  commercial versions include the core Scipy stack. Supports Linux, Windows and
-  Mac.
+* `Anaconda <http://continuum.io/downloads.html>`_: A free distribution
+  for the Scipy stack. Supports Linux, Windows and Mac.
 * `Enthought Canopy <http://www.enthought.com/products/canopy/>`_: The free and
   commercial versions include the core Scipy stack packages. Supports Linux,
   Windows and Mac.
