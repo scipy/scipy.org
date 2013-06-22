@@ -38,6 +38,7 @@ organizations for providing services and development infrastructure:
 - `Enthought`_: scipy.org and mailing lists hosting, holding the SciPy trademark
 - `Github`_: code hosting and development workflow platform
 - `Travis CI`_: continuous integration service
+- `SourceForge`_: hosting released sources and installers
 - `Intel`_: Intel MKL licenses
 - `NumFOCUS`_: hosted Mac Mini build machine
 
@@ -59,5 +60,6 @@ This list is current as of 22 June 2013::
 .. _Enthought: http://www.enthought.com
 .. _Github: https://github.com
 .. _Travis CI: https://travis-ci.org
+.. _SourceForge: http://sourceforge.net
 .. _Intel: http://www.intel.com
 .. _NumFOCUS: http://numfocus.org
