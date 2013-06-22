@@ -59,7 +59,7 @@ Making Source and Binary Releases
 #################################
 
 A releasable tarball gets made from the sources following a straightforward
-procedure (see http://projects.scipy.org/numpy/wiki/MakingReleases ). To make
+procedure (see `HOWTO_RELEASE.txt <https://github.com/numpy/numpy/blob/master/doc/HOWTO_RELEASE.rst.txt>`_). To make
 an official release to the community, the release manager typically
 makes a series of test releases and announces them on the
 mailing lists. After getting feedback, the release manager makes a final release,
