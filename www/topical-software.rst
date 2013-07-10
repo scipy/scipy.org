@@ -114,6 +114,7 @@ These are links which cover basic tools generally useful for scientific work in 
 - `PyTrilinos <http://trilinos.sandia.gov/packages/pytrilinos/index.html>`__ Python interface to Trilinos, a framework for solving large-scale, complex multi-physics engineering and scientific problems.
 - `PyIMSLStudio <http://www.vni.com/campaigns/pyimslstudioeval>`__ is a complete packaged, supported and documented development environment for Windows and Red Hat designed for prototyping mathematics and statistics models and deploying them into production applications. PyIMSL Studio includes wrappers for the IMSL Numerical Library, a Python distribution and a selection of open source python modules useful for prototype analytical development. PyIMSL Studio is available for download at no charge for non-commercial use or for commercial evaluation.
 - `Bottleneck <http://pypi.python.org/pypi/Bottleneck>`__ is a collection of fast NumPy array functions written in Cython.
+- `KryPy <https://github.com/andrenarchy/krypy>`__ is a Krylov subspace methods package for the efficient solution of linear algebraic systems with large and sparse matrices.
 
 Running Code Written In Other Languages
 =======================================
