@@ -3,9 +3,9 @@ Building NumPy & SciPy From Source on Mac OSX
 =============================================
 
 These instructions describe how to build NumPy and SciPy from
-source. 
+source.
 
-If you just want to use them, install pre-built binaries as described
+If you just want to use NumPy or SciPy, install pre-built binaries as described
 in :doc:`/install`.
 
 Python
@@ -21,31 +21,31 @@ Apple's Developer Tools
 Apple's Developer Tools provide a number of key libraries,
 particularly the `vecLib Framework
 <http://developer.apple.com/documentation/ReleaseNotes/MacOSX/vecLib.html>`__
-, which includes BLAS and LAPACK. Install the most recent version from
-`Apple's Developer Connection site <https://connect.apple.com>`__
-(after free registration). The most recent version may also be
-included on your OS X installation CD.  Ensure that all components are
-installed by choosing **customize** when available during the install
-process and selecting all optional packages - at least the X11
+, which includes the BLAS and LAPACK libraries for optimizing matrix and vector
+operations. Install the most recent version from `Apple's Developer Connection
+site <https://connect.apple.com>`__ (after free registration). The most recent
+version may also be included on your OS X installation CD.  Ensure that all
+components are installed by choosing **customize** when available during the
+install process and selecting all optional packages - at least the X11
 development tools and (on OS X 10.6 or lower) the 10.4 SDK.
 
 FORTRAN
 -------
 
-Though virtually any commercial C/C++ compiler may be used with SciPy,
-OS X come with GNU C compilers pre-installed. The only thing missing
-is the GNU FORTRAN compiler.
+Though virtually any commercial C/C++ compiler may be used with SciPy, OS X
+comes with GNU C compilers pre-installed. The only thing missing is the GNU
+FORTRAN compiler.
 
-Binaries of gfortran (GNU F95, this is a version of the much awaited,
-free, open source, F95 compiler) are available from `this site
-<http://r.research.att.com/tools/>`__ (`download universal binary
-<http://r.research.att.com/gfortran-4.2.3.dmg>`__). We strongly
-recommend to use this exact build, many other gfortran versions/builds
-have created problems in the past.  On OS X 10.7 (Lion) the correct
-version is http://r.research.att.com/gfortran-lion-5666-3.pkg (for
-Xcode 4.1) and
-http://r.research.att.com/tools/gcc-42-5666.3-darwin11.pkg (for Xcode
-4.2 or higher) (also available through Homebrew).
+We recommend gfortran; this is a free, open source, F95 compiler. We suggest you
+use the following binaries:
+
+* For Snow Leopard : http://cran.r-project.org/bin/macosx/tools/gfortran-4.2.3.pkg
+* For Lion : http://r.research.att.com/gfortran-lion-5666-3.pkg (for
+  Xcode 4.1)
+* Later versions : http://r.research.att.com/tools/gcc-42-5666.3-darwin11.pkg (for Xcode
+  4.2 or higher) (also available through Homebrew)
+
+See `this site <http://r.research.att.com/tools/>`__ for the most recent links.
 
 Version-specific notes
 ----------------------
