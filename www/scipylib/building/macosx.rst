@@ -29,8 +29,8 @@ components are installed by choosing **customize** when available during the
 install process and selecting all optional packages - at least the X11
 development tools and (on OS X 10.6 or lower) the 10.4 SDK.
 
-FORTRAN
--------
+Compilers (C/C++/FORTRAN/Cython)
+--------------------------------
 
 Though virtually any commercial C/C++ compiler may be used with SciPy, OS X
 comes with GNU C compilers pre-installed. The only thing missing is the GNU
@@ -46,6 +46,9 @@ use the following binaries:
   4.2 or higher) (also available through Homebrew)
 
 See `this site <http://r.research.att.com/tools/>`__ for the most recent links.
+
+Additionally, a recent version of the `Cython <http://cython.org/>`__
+compiler is needed to create ``c`` files.
 
 Version-specific notes
 ----------------------

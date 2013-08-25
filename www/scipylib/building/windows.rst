@@ -43,7 +43,9 @@ Downloading and installing a compiler
 -------------------------------------
 
 Generally you only need one C compiler (and one Fortran compiler). Cygwin is
-required if you want to build ATLAS yourself.
+required if you want to build ATLAS yourself. Additionally, you need a
+recent version of the `Cython <http://cython.org/>`__ compiler to create
+``c`` files.
 
 MinGW
 #####
