@@ -99,9 +99,8 @@ starting with ".", so you may have to use the command line to rename it. Make
 sure you have a ``HOME`` user environment variable that points to your home
 directory (see Control Panel/System/Advanced/Environment Variables). Add the
 following to the file, substituting your MKL installation path where
-appropriate: 
+appropriate::
 
-::
     # config file for building numpy on ia32 platform,
     # using Intel's Math Kernel Library for win32
     # builds successfully with MSVC7.1
@@ -119,15 +118,13 @@ appropriate:
     # libguide.lib : "Static threading library"
     # libguide40.lib : "Interface library for dynamic threading library"
 
-Check that the specified libraries can indeed be found by running:
+Check that the specified libraries can indeed be found by running::
 
-::
     python setup.py config
 
 from the root NumPy source directory. Then, (as of numpy r3726) all that's
-required is running: 
+required is running::
 
-::
     python setup.py install
 
 This should build NumPy without errors and install it to your site-packages
@@ -220,10 +217,8 @@ folder ``BLASLAPACKLIBS`` created above.
 Obtaining an ATLAS-optimized LAPACK
 ###################################
 
-In Cygwin, ``cd`` to your ``BLASLAPACKLIBS`` folder and execute the following:
+In Cygwin, ``cd`` to your ``BLASLAPACKLIBS`` folder and execute the following::
 
-::
-    
     ar x liblapack.a
     ar r lapack_LINUX.a *.o
     rm *.o
@@ -237,9 +232,7 @@ library. If you want to use MSVC to build NumPy/SciPy, you have to rename the
 instance.
 
 In case you want to create a DLL with the full BLAS, CBLAS and LAPACK interface
-(currently not relevant for SciPy), this could be easily done as follows: 
-
-::
+(currently not relevant for SciPy), this could be easily done as follows::
 
    gcc -mno-cygwin -shared -o blaslapack.dll -Wl,--out-implib=blaslapack.lib \
    -Wl,--export-all-symbols -Wl,--allow-multiple-definition \
@@ -263,16 +256,14 @@ need to copy the ``site.cfg.example`` file in the root directory of NumPy to
 ``site.cfg``. If ``site.cfg.example`` does not exist, then just create a new
 ``site.cfg``.  Change its contents as follows:
 
-If you've built ATLAS and LAPACK as described above:
+If you've built ATLAS and LAPACK as described above::
 
-::
     [atlas]
     library_dirs = c:\path\to\BLASLAPACKLIBS
     atlas_libs = lapack, f77blas, cblas, atlas
 
-If you want to use some other static BLAS and LAPACK libraries instead, use: 
+If you want to use some other static BLAS and LAPACK libraries instead, use::
 
-::
     [blas]
     library_dirs = c:\path\to\CBLAS
     blas_libs = cblas
@@ -289,12 +280,14 @@ the Cygwin bash shell). If you want to compile with MinGW or Cygwin-MinGW,
 execute
 
 ::
+
     c:\path\to\python.exe setup.py config --compiler=mingw32 build
     --compiler=mingw32 bdist_wininst
 
 and if you want to compile with Visual Studio 2003, execute
 
 ::
+
     c:\path\to\python.exe setup.py config --compiler=msvc build --compiler=msvc
     bdist_wininst
 
@@ -302,9 +295,8 @@ This leaves you with a nice binary installer in the dist subfolder, which you
 can use to install NumPy and later uninstall through "Add and Remove Programs"
 in the Windows Control Panel. 
 
-If you'd rather just go ahead and actually install it somewhere, use: 
+If you'd rather just go ahead and actually install it somewhere, use::
 
-::
     c:\path\to\python.exe setup.py config --compiler=[compiler] build
     --compiler=[compiler] install --prefix=c:\where\to\install
 
@@ -313,6 +305,7 @@ If you want to compile and install NumPy for use with the Python from Cygwin
 (usually you don't), execute
 
 ::
+
     python setup.py config --compiler=mingw32 build --compiler=mingw32 install
 
 If you later wish to rebuild NumPy, say after updating the code from SVN, 
@@ -328,16 +321,14 @@ If you're getting a ``gcc.lib not found`` error, it is probably because you're
 building with ``--compiler=msvc``, but you also have MinGW installed. In that
 case Numpy may compile some Fortran files using MinGW, and then at link time
 try to link with ``gcc.lib`` which doesn't exist in the MinGW distribution. You
-can fix this by copying some MinGW ``.a`` file to ``.lib`` files:
+can fix this by copying some MinGW ``.a`` file to ``.lib`` files::
 
-::
     cd c:\MinGW\lib\gcc\mingw32\{compiler.version}\
     copy libgcc.a   gcc.lib
     copy c:\MinGW\lib\libg2c.a   .\g2c.lib
 
-If you get errors like this:
+If you get errors like this::
 
-::
     lapack.lib(zunmbr.o) : error LNK2001: unresolved external symbol _s_cat
     lapack.lib(zunmqr.o) : error LNK2001: unresolved external symbol _s_cat
     lapack.lib(dormql.o) : error LNK2001: unresolved external symbol _s_cat
