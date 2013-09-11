@@ -64,7 +64,7 @@ See the :doc:`topical-software` page for more.
 .. _NumPy: http://numpy.scipy.org/
 .. _Matplotlib: http://matplotlib.org/
 .. _pandas: http://pandas.pydata.org/
-.. _SymPy: http://pandas.pydata.org/
+.. _SymPy: http://sympy.org/
 .. _nose: https://nose.readthedocs.org/en/latest/
 .. _IPython: http://ipython.org/
 .. _Python: http://www.python.org/
