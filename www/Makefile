@@ -28,7 +28,7 @@ upload: html
 	# SSH must be correctly configured for this to work.
 	cp .htaccess _build/html/
 	chmod a+rX -R _build/html/
-	rsync -az --exclude '.git' _build/html/ \
+	-rsync -az --exclude '.git' _build/html/ \
 	    $(USERNAME)@new.scipy.org:/srv/scipy_org
 	ssh $(USERNAME)@new.scipy.org /srv/bin/fixperm-scipy_org.sh
 
