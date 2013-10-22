@@ -20,6 +20,18 @@ which includes all the key packages:
   including the Scipy stack. Windows only.
 * `Pyzo <http://www.pyzo.org/>`_: A free distribution based on Python 3 (see
   :ref:`python3`) with the IEP editor. Supports Linux and Windows.
+* Christoph Gohlke provides `pre-built Windows installers <http://www.lfd.uci.edu/~gohlke/pythonlibs/>`_ for many Python packages, including all of the core Scipy stack.
+
+"Official" binaries
+-------------------------------
+
+The maintainers of many of the packages in the Scipy stack provide binary installers for common Windows and OS-X systems.
+
+*  `numpy <http://sourceforge.net/projects/numpy/files/NumPy/>`_
+*  `scipy <http://sourceforge.net/projects/scipy/files/scipy/>`_
+*  `matplotlib <http://matplotlib.org/downloads.html>`_
+*  `ipython <https://github.com/ipython/ipython/releases>`_
+*  and others -- check teh project's web site
 
 Linux packages
 --------------
@@ -79,20 +91,33 @@ To install the scipy stack for Python 2.7 with `Macports
 
     sudo port install py27-numpy py27-scipy py27-matplotlib py27-ipython +notebook py27-pandas py27-sympy py27-nose
 
+Homebrew
+~~~~~~~~
+
+To install the scipy stack for Python with `Homebrew
+<http://brew.sh/>`_ : First intall homebrew, then::
+
+    brew install python
+    pip install numpy
+    brew install gfortran
+    pip install scipy
+    brew install freetype
+    pip install matplotlib
+    pip install ipython
+
+And you should be able to `pip install` other packages as well.
 
 Custom
 ------
 
 You can assemble the Scipy stack from individual packages. For details of what
 you need, see :ref:`the specification <stackspec>`. Packages are typically on
-`the Python Package Index <http://pypi.python.org/pypi/>`_, and projects' sites
-may also offer official binary packages (e.g. `numpy
-<http://sourceforge.net/projects/numpy/files/NumPy/>`_, `scipy library
-<http://sourceforge.net/projects/scipy/files/scipy/>`_).
+`the Python Package Index <http://pypi.python.org/pypi/>`_, and many can be
+installed with a simple::
 
-Christoph Gohlke provides `pre-built Windows installers
-<http://www.lfd.uci.edu/~gohlke/pythonlibs/>`_ for many Python packages,
-including all of the core Scipy stack.
+    pip install packagename
+
+In addition, many projects' sites may also offer official binary packages
 
 You can also build any of the Scipy packages from source, for instance if you
 want to get involved with development. This is easy for packages written
@@ -106,8 +131,8 @@ Note on Python 3
 
 The Python language is moving from the 2.x series to Python 3. As of late 2012,
 all of the core Scipy Stack packages support Python 3, but some more specialist
-packages still only work on Python 2. The methods above will mostly install
-Python 2, with the exception of `Pyzo <http://www.pyzo.org/>`_.
+packages still only work on Python 2. The full distribution listed above will
+mostly install Python 2, with the exception of `Pyzo <http://www.pyzo.org/>`_.
 
 If you choose to use the new version of the language, it should be easy to find
 Python 3 versions of packages in your package manager.
