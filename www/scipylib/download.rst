@@ -2,6 +2,10 @@
 Obtaining NumPy & SciPy
 =======================
 
+.. seealso:: 
+
+   :doc:`/install`
+
 .. _download-official:
 
 Official Source and Binary Releases
@@ -71,120 +75,6 @@ Build instructions
 ------------------
 
 See :ref:`building` for build instructions.
-
-Software Distributions that include NumPy/SciPy
------------------------------------------------
-
-.. seealso:: 
-
-   :doc:`/install`
-
-A number of software distributions exist that bundle NumPy and SciPy along
-with a variety of other tools, including data file manipulation packages,
-visualization tools and more general software development tools. Such 
-distributions can be an excellent way to get started with Python for
-scientific computing.
- 
-We present a list of the most prominent such distributions below. They vary 
-in terms of platform/operating system support, license (free/commercial), 
-packages included, and general focus (general/interactive scientific 
-computing vs. mathematics/computer algebra vs. scientific software/GUI 
-development). If you hope to transition to using Python as your every day 
-scientific computing environment, these distributions are well worth 
-investigating.
-
-Enthought Python Distribution
-#############################
-
-The `Enthought Python Distribution (EPD)`_ is a "kitchen-sink-included"
-distribution of the Python programming language, including over 80
-additional tools and libraries. The EPD bundle includes NumPy, SciPy,
-`IPython`_, 2D and 3D visualization, database adapters, and a lot of
-other tools right out of the box.
-
-.. _IPython: http://ipython.scipy.org/
-
-It is currently available as a single-click installer for Windows XP (x86),
-Mac OS X (a universal binary for OS X 10.4 and above), RedHat 3, 4 and 5, 
-as well as Solaris 10 (x86 and x86_64/amd64).
-
-EPD is free for academic use.  An annual subscription including installation
-support is available for individual and commercial use. You can download
-a 30-day free trial at the `Enthought website`__.
-
-__ `Enthought Python Distribution (EPD)`_
-.. _Enthought Python Distribution (EPD): http://www.enthought.com/products/epd.php
-
-Python(x,y)
-###########
-
-`Python(x,y)`_ is a distribution of free/open source scientific and engineering
-software for Microsoft Windows XP/Vista and Linux based around `Qt`_ and
-`Eclipse`_. It aims to provide an environment for interactive scientific
-computing as well as more development-oriented features such as integrated GUI
-design tools for scientific software development.  More details as well as
-downloads are available on at the `Python(x,y) website`__.
-
-__ `Python(x,y)`_
-
-.. _Python(x,y): http://code.google.com/p/pythonxy/
-.. _Qt: http://qt.nokia.com/
-.. _Eclipse: http://www.eclipse.org/
-
-Sage
-####
-
-`Sage`_ is a monolithic distribution of a wide variety of open source 
-mathematical software available in both source and binary forms for a 
-number of operating systems, including Linux (x86/amd64), Mac OS X, Solaris, 
-and Windows (through VMware Player). A bootable Sage LiveCD is also available.
-
-Sage bundles recent  versions of both NumPy and SciPy, along with its
-own Python interpreter. See the `Sage Installation Guide`_ for installation 
-instructions.
-
-.. _Sage: http://sagemath.org/
-.. _Sage Installation Guide: http://sagemath.org/doc/installation/
-
-SciPy Superpack (OS X)
-######################
-
-The Superpack provides *bleeding edge* binaries of NumPy and SciPy from recent
-Subversion checkouts, maintained by Chris Fonnesbeck. It is available from 
-`MacInScience.org`_.
-
-.. _MacInScience.org: http://www.macinscience.org/
-
-The Superpack requires Mac OS X 10.5 Leopard with either Apple's preinstalled
-Python 2.5.1, `ActivePython 2.5`_ or `Python 2.5 from Python.org`_. Note that
-the Superpack's version detection may fail with other Python distributions
-(e.g. Python installed by `Fink`_ and `MacPorts`_) and it will refuse to 
-install. If you are using Python provided by Fink or MacPorts it is 
-recommended that you install NumPy/SciPy with the appropriate packages 
-(see :ref:`Third-Party/Vendor Package Managers <download-thirdpartypackages>` below).
-
-**NOTE:** NumPy is included in the Superpack.  For best compatibility, it is
-recommended that you use the NumPy provided with the Superpack rather than
-a separately installed version.
-
-.. _ActivePython 2.5: http://www.activestate.com/Products/ActivePython/
-.. _Python 2.5 from Python.org: http://www.python.org/download/releases/2.5.4/
-
-
-Source Python Distribution
-##########################
-
-`Source Python Distribution (SPD)`_ is a Python distribution based on 
-Sage, containing many optional (mainly scientific) packages that build 
-from source. It contains only a small subset of Sage (an approximately 60 MB 
-download compared with Sage's several hundred megabytes). It bundles recent 
-versions of NumPy and SciPy, and is compatible with Sage's `packages format`_ 
-so that you can selectively install other pieces of software included in 
-Sage but not in SPD. See the `SPD website`__ for details.
-
-__ `Source Python Distribution (SPD)`_
-.. _Source Python Distribution (SPD): http://code.google.com/p/spdproject/
-.. _packages format: http://www.sagemath.org/download-packages.html
 
 .. _download-thirdpartypackages:
 
