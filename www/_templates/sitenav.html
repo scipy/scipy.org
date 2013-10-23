@@ -7,10 +7,11 @@ a.extlink:after {
 }
 </style>
 
+{% if not pagename.startswith('scipylib/') -%}
 <div class="well sidebar-nav">
   <ul class="nav nav-list">
     <li {% if pagename == 'about' -%}class="active"{%- endif -%}>
-      <a href="{{ pathto('about') }}">About "Scipy"</a>
+      <a href="{{ pathto('about') }}">About SciPy</a>
       {% if pagename in ('about', 'stackspec') -%}
       <ul class="nav nav-list">
 	<li {% if pagename == 'stackspec' -%}class="active"{%- endif -%}>
@@ -25,7 +26,7 @@ a.extlink:after {
     <li {% if pagename == 'docs' -%}class="active"{%- endif -%}>
       <a href="{{ pathto('docs') }}">Documentation</a></li>
     <li {% if pagename == 'bug-report' -%}class="active"{%- endif -%}>
-      <a href="{{ pathto('bug-report') }}">Bug Report</a></li>
+      <a href="{{ pathto('bug-report') }}">Bug Reports</a></li>
     <li {% if pagename == 'topical-software' -%}class="active"{%- endif -%}>
       <a href="{{ pathto('topical-software') }}">Topical Software</a>
       {% if pagename in ('topical-software', 'scikits') -%}
@@ -42,18 +43,31 @@ a.extlink:after {
     <li><a class="extlink" href="http://conference.scipy.org">Scipy Conferences</a></li>
     <li><a class="extlink" href="http://planet.scipy.org">Blogs</a></li>
     <li><a class="extlink" href="http://numfocus.org">NumFOCUS</a></li>
+  </ul>
+</div>
 
-    <li class="nav-header">Numpy &amp; Scipy&nbsp;(library):</li>
+<div class="well sidebar-nav">
+  <ul class="nav nav-list">
+    <li class="nav-header">Core packages:</li>
+    <li><a class="extlink" href="http://www.numpy.org">Numpy</a> 
+    <li><a class="extlink" href="{{ pathto('scipylib/index') }}">SciPy library</a>
+    <li><a class="extlink" href="http://matplotlib.org">Matplotlib</a> 
+    <li><a class="extlink" href="http://ipython.org">IPython</a> 
+    <li><a class="extlink" href="http://sympy.org/">Sympy</a> 
+    <li><a class="extlink" href="http://pandas.pydata.org/">Pandas</a> 
+  </ul>
+</div>
+{% endif %}
+
+{% if pagename.startswith('scipylib/') -%}
+<div class="well sidebar-nav">
+  <ul class="nav nav-list">
+    <li class="nav-header">SciPy library:</li>
     <li {% if pagename == 'scipylib/index' -%}class="active"{%- endif -%}>
       <a href="{{ pathto('scipylib/index') }}">SciPy (library)</a>
-      {% if pagename in ('scipylib/index', 'scipylib/license') -%}
-      <ul class="nav nav-list">
-	<li {% if pagename == 'scipylib/license' -%}class="active"{%- endif -%}>
-	  <a href="{{ pathto('scipylib/license') }}">License</a></li>
-      </ul>
-      {% endif %}
     </li>
-    <li><a class="extlink" href="http://www.numpy.org">Numpy</a> 
+    <li {% if pagename == 'scipylib/license' -%}class="active"{%- endif -%}>
+      <a href="{{ pathto('scipylib/license') }}">License</a></li>
     <li {% if pagename == 'scipylib/download' -%}class="active"{%- endif -%}>
       <a href="{{ pathto('scipylib/download') }}">Download</a></li>
     <li><a class="extlink" href="http://docs.scipy.org/doc/">Documentation</a> 
@@ -71,8 +85,6 @@ a.extlink:after {
       <a href="{{ pathto('scipylib/faq') }}">FAQ</a></li>
   </ul>
 </div>
-
-<ul class="nav nav-list">
-</ul>
+{% endif %}
 
 {% endblock %}
