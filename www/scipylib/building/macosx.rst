@@ -50,8 +50,8 @@ use the following binaries:
 
 See `this site <http://r.research.att.com/tools/>`__ for the most recent links.
 
-Additionally, a recent version of the `Cython <http://cython.org/>`__
-compiler is needed to create ``c`` files.
+Unless you are building from released source packages, the `Cython
+<http://cython.org/>`__ compiler is also needed.
 
 Version-specific notes
 ----------------------
