@@ -2,6 +2,10 @@
 Installing the Scipy Stack
 ==========================
 
+These are instructions for installing the full scipy stack: :ref:`the specification <stackspec>`.
+For installing individual packages, such as numpy and scipy, see the Custom section below.
+
+
 Scientific Python distributions
 -------------------------------
 
@@ -20,18 +24,7 @@ which includes all the key packages:
   including the Scipy stack. Windows only.
 * `Pyzo <http://www.pyzo.org/>`_: A free distribution based on Python 3 (see
   :ref:`python3`) with the IEP editor. Supports Linux and Windows.
-* Christoph Gohlke provides `pre-built Windows installers <http://www.lfd.uci.edu/~gohlke/pythonlibs/>`_ for many Python packages, including all of the core Scipy stack.
 
-"Official" binaries
--------------------------------
-
-The maintainers of many of the packages in the Scipy stack provide binary installers for common Windows and OS-X systems.
-
-*  `numpy <http://sourceforge.net/projects/numpy/files/NumPy/>`_
-*  `scipy <http://sourceforge.net/projects/scipy/files/scipy/>`_
-*  `matplotlib <http://matplotlib.org/downloads.html>`_
-*  `ipython <https://github.com/ipython/ipython/releases>`_
-*  and others -- check teh project's web site
 
 Linux packages
 --------------
@@ -94,35 +87,40 @@ To install the scipy stack for Python 2.7 with `Macports
 Homebrew
 ~~~~~~~~
 
-To install the scipy stack for Python with `Homebrew
-<http://brew.sh/>`_ : First intall homebrew, then::
+You can install the scipy stack for Python with `Homebrew
+<http://brew.sh/>`_ : See the homebrew documentaion for how to use Homebrew.
 
-    brew install python
-    pip install numpy
-    brew install gfortran
-    pip install scipy
-    brew install freetype
-    pip install matplotlib
-    pip install ipython
-
-And you should be able to `pip install` other packages as well.
 
 Custom
 ------
 
 You can assemble the Scipy stack from individual packages. For details of what
-you need, see :ref:`the specification <stackspec>`. Packages are typically on
-`the Python Package Index <http://pypi.python.org/pypi/>`_, and many can be
-installed with a simple::
+you need, see :ref:`the specification <stackspec>`.
 
-    pip install packagename
+"Official" binaries
+~~~~~~~~~~~~~~~~~~~~~~~
 
-In addition, many projects' sites may also offer official binary packages
+The maintainers of many of the packages in the Scipy stack provide binary installers for common Windows and
+OS-X systems. These installers are genrally built to be compatibible with the python builds from python.org.
+
+*  `python <http://python.org/download/>`_
+*  `numpy <http://sourceforge.net/projects/numpy/files/NumPy/>`_
+*  `scipy <http://sourceforge.net/projects/scipy/files/scipy/>`_
+*  `matplotlib <http://matplotlib.org/downloads.html>`_
+*  `ipython <https://github.com/ipython/ipython/releases>`_
+*  `pandas <http://pandas.pydata.org/getpandas.html>`_
+*  `sympy <https://github.com/sympy/sympy/releases>`_
+*  `nose <https://nose.readthedocs.org/en/latest/>`_
+
+
+For Windows: Christoph Gohlke provides `pre-built Windows installers <http://www.lfd.uci.edu/~gohlke/pythonlibs/>`_ for many Python packages, including all of the core Scipy stack.
+
 
 You can also build any of the Scipy packages from source, for instance if you
 want to get involved with development. This is easy for packages written
 entirely in Python, while others like numpy require compiling C code. Refer to
 individual projects for more details.
+
 
 .. _python3:
 
