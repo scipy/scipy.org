@@ -71,8 +71,19 @@ a.extlink:after {
     <li {% if pagename == 'scipylib/download' -%}class="active"{%- endif -%}>
       <a href="{{ pathto('scipylib/download') }}">Download</a></li>
     <li><a class="extlink" href="http://docs.scipy.org/doc/">Documentation</a> 
-    <li {% if pagename.startswith('scipylib/building/') -%}class="active"{%- endif -%}>
-      <a href="{{ pathto('scipylib/building/index') }}">Build instructions</a></li>
+    <li {% if pagename == 'scipylib/building/index' -%}class="active"{%- endif -%}>
+      <a href="{{ pathto('scipylib/building/index') }}">Build instructions</a>
+      {% if pagename.startswith('scipylib/building/') -%}
+      <ul class="nav nav-list">
+	<li {% if pagename == 'scipylib/building/linux'  -%}class="active"{%- endif -%}>
+	  <a href="{{ pathto('scipylib/building/linux') }}">Linux</a></li>
+	<li {% if pagename == 'scipylib/building/windows'  -%}class="active"{%- endif -%}>
+	  <a href="{{ pathto('scipylib/building/windows') }}">Windows</a></li>
+	<li {% if pagename == 'scipylib/building/macosx'  -%}class="active"{%- endif -%}>
+	  <a href="{{ pathto('scipylib/building/macosx') }}">Mac OSX</a></li>
+      </ul>
+      {% endif %}
+    </li>
     <li {% if pagename == 'scipylib/mailing-lists' -%}class="active"{%- endif -%}>
       <a href="{{ pathto('scipylib/mailing-lists') }}">Mailing Lists</a></li>
     <li {% if pagename == 'scipylib/bug-report' -%}class="active"{%- endif -%}>
