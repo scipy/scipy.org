@@ -1,8 +1,8 @@
-=============================================
-Building NumPy & SciPy From Source on Mac OSX
-=============================================
+===============================
+Building From Source on Mac OSX
+===============================
 
-These instructions describe how to build NumPy and SciPy from
+These instructions describe how to build NumPy and SciPy libraries from
 source.
 
 If you just want to use NumPy or SciPy, install pre-built binaries as described
@@ -162,7 +162,7 @@ source tree. Change directory first.
 If you have any problems installing SciPy on your Mac
 based on these instructions, please check the :doc:`scipy-users and
 scipy-dev mailing list archives
-</scipylib/mailing-lists>`__ for possible solutions. If you
+</scipylib/mailing-lists>` for possible solutions. If you
 are still stuck, feel free to join scipy-users for further
 assistance. Please have the following information ready:
 

@@ -1,8 +1,8 @@
-###########################################
-Building NumPy & SciPy From Source on Linux
-###########################################
+#############################
+Building From Source on Linux
+#############################
 
-* On Linux, Scipy and Numpy official releases are source-code only. Installing Numpy and Scipy from source is reasonably easy; However, both packages depend on other software, some of them which can be challenging to install, or shipped with incompatibilities by major Linux distributions. Hopefully, you can install Numpy and Scipy without any software outside the necessary tools to build python extensions, as most dependencies are optional.
+* On Linux, Scipy and Numpy libraries' official releases are source-code only. Installing Numpy and Scipy from source is reasonably easy; However, both packages depend on other software, some of them which can be challenging to install, or shipped with incompatibilities by major Linux distributions. Hopefully, you can install Numpy and Scipy without any software outside the necessary tools to build python extensions, as most dependencies are optional.
 
 * Most major Linux distributions now ship Numpy and Scipy and, those binary packages are now reasonably reliable to use. Many other binary options are also available, ranging from individually made packages by some scipy developers for a specific Linux version, to whole commercially-supported scientific distributions. However, keep in mind that if you want to use the last improvements done to Numpy and Scipy on Linux, you have to build it from sources.
 

@@ -1,6 +1,6 @@
-=============================================
-Building NumPy & SciPy From Source on Windows
-=============================================
+===============================
+Building From Source on Windows
+===============================
 
 .. contents::
    :local:
@@ -8,9 +8,10 @@ Building NumPy & SciPy From Source on Windows
 Supported Compilers
 -------------------
 
-As is pointed out in the general build guidelines, building NumPy and SciPy
-requires a C compiler. Furthermore, a Fortran 77 compiler is needed to build
-SciPy and to build a LAPACK library for use in NumPy and SciPy.
+As is pointed out in the general build guidelines, building NumPy and
+SciPy libraries requires a C compiler. Furthermore, a Fortran 77
+compiler is needed to build SciPy and to build a LAPACK library for
+use in NumPy and SciPy.
 
 The MinGW_ project provides windows versions of the free GNU compilers gcc and
 g77. These are the compilers most SciPy developers work with and hence the
