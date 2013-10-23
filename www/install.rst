@@ -2,8 +2,9 @@
 Installing the Scipy Stack
 ==========================
 
-These are instructions for installing the full scipy stack: :ref:`the specification <stackspec>`.
-For installing individual packages, such as numpy and scipy, see the Custom section below.
+These are instructions for installing :ref:`the full SciPy stack
+<stackspec>`.  For installing individual packages, such as Numpy and
+SciPy, see :ref:`individual-packages` below.
 
 
 Scientific Python distributions
@@ -71,7 +72,7 @@ appended, then run ``sudo dispatch-conf`` (or an alternative) to save the
 configuration changes, and finally run the original command again.
 
 Mac packages
---------------
+------------
 
 Macs (unlike Linux) don't come with a package manager, but there are a couple of
 popular package managers you can install.
@@ -84,24 +85,17 @@ To install the scipy stack for Python 2.7 with `Macports
 
     sudo port install py27-numpy py27-scipy py27-matplotlib py27-ipython +notebook py27-pandas py27-sympy py27-nose
 
-Homebrew
-~~~~~~~~
 
-You can install the scipy stack for Python with `Homebrew
-<http://brew.sh/>`_ : See the homebrew documentaion for how to use Homebrew.
+.. _individual-packages:
 
+Individual binary and source packages
+-------------------------------------
 
-Custom
-------
-
-You can assemble the Scipy stack from individual packages. For details of what
-you need, see :ref:`the specification <stackspec>`.
-
-"Official" binaries
-~~~~~~~~~~~~~~~~~~~~~~~
-
-The maintainers of many of the packages in the Scipy stack provide binary installers for common Windows and
-OS-X systems. These installers are genrally built to be compatibible with the python builds from python.org.
+The maintainers of many of the packages in the :ref:`Scipy stack
+<stackspec>` provide "official" binary installers for common Windows
+and OS-X systems that can be used to install the packages
+one by one. These installers are generally built to be compatible
+with the Python binaries available from python.org.
 
 *  `python <http://python.org/download/>`_
 *  `numpy <http://sourceforge.net/projects/numpy/files/NumPy/>`_
@@ -112,13 +106,13 @@ OS-X systems. These installers are genrally built to be compatibible with the py
 *  `sympy <https://github.com/sympy/sympy/releases>`_
 *  `nose <https://nose.readthedocs.org/en/latest/>`_
 
-
-For Windows: Christoph Gohlke provides `pre-built Windows installers <http://www.lfd.uci.edu/~gohlke/pythonlibs/>`_ for many Python packages, including all of the core Scipy stack.
-
+For Windows: Christoph Gohlke provides `pre-built Windows installers
+<http://www.lfd.uci.edu/~gohlke/pythonlibs/>`_ for many Python
+packages, including all of the core Scipy stack.
 
 You can also build any of the Scipy packages from source, for instance if you
 want to get involved with development. This is easy for packages written
-entirely in Python, while others like numpy require compiling C code. Refer to
+entirely in Python, while others like Numpy require compiling C code. Refer to
 individual projects for more details.
 
 
