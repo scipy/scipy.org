@@ -168,6 +168,9 @@ News
 .. role:: news-date
    :class: news-date
 
+NumPy 1.8.0 released :news-date:`2013-10-30`
+    See :doc:`/scipylib/download`.
+
 SciPy 0.13.0 released :news-date:`2013-10-20`
     See :doc:`/scipylib/download`.
 
@@ -176,7 +179,7 @@ SciPy 0.13.0 released :news-date:`2013-10-20`
    <a href="past-news.html" style="margin-left: 200px;">Past news...</a>
    </div>
 
-.. toctree:: 
+.. toctree::
    :hidden:
 
    about
