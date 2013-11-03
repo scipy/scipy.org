@@ -280,8 +280,8 @@ the package maintainer first, rather than to the NumPy/SciPy mailing lists**.
 
 .. ArchLinux links
 .. _Arch Linux: http://www.archlinux.org/
-.. _python-numpy-arch: http://www.archlinux.org/packages/extra/python-numpy/
-.. _python-scipy-arch: http://www.archlinux.org/packages/extra/python-scipy/
+.. _python-numpy-arch: https://www.archlinux.org/packages/?q=numpy
+.. _python-scipy-arch: https://www.archlinux.org/packages/?q=scipy
 
 .. Slackware links
 .. _Slackware Linux: http://www.slackware.com/
