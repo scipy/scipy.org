@@ -388,6 +388,7 @@ Electromagnetics and Electrical Engineering
 - `EMPy <http://sourceforge.net/projects/empy/>`__ (Electromagnetic Python): Various common algorithms for electromagnetic problems and optics, including the transfer matrix algorithm and rigorous coupled wave analysis.
 - `Optics of multilayer films <http://sjbyrnes.com/?page_id=12>`__, including the transfer-matrix method, coherent and incoherent propagation, and depth-dependent absorption profiles.
 - `openTMM <http://pypi.python.org/pypi/openTMM/0.1.0>`__: An electrodynamic S-matrix (transfer matrix) code with modern applications.
+- `pyLuminous <https://pypi.python.org/pypi/pyLuminous>`__: Optical modelling of dielectric interfaces and a tranfser-matrix solver (including a useful case of uniaxial layers). Includes pyQW for modelling of very simple quantum well structures and their intersubband transitions.
 - `pyofss <http://pypi.python.org/pypi/pyofss/0.5>`__ analyzes optical fibre telecommunication systems, including numerically integrating the appropriate appropriate Schrödinger-type equation to calculate fibre dispersion.
 - `ThunderStorm <http://pypi.python.org/pypi/ThunderStorm/0.7a2>`__, a library for ElectroStatic-Discharge (ESD) Transmission Line Pulse (TLP) measurement data analysis.
 - `electrode <http://pypi.python.org/pypi/electrode/1.1>`__, a toolkit to develop and analyze rf surface ion traps.
@@ -471,5 +472,5 @@ Miscellaneous
 - http://wiki.scipy.org/StatisticalDataStructures Wiki page to discuss pandas, larry, NumPy and other issues related to statistical data structures
 
 - `CNEMLIB <http://plateformesn-m2p.ensam.eu/SphinxDoc/cnem/index.html>`__ : propose an implementation of CNEM in 2d and 3d.The CNEM is a generalisation for non convex domain of the Natural Element Method. It's a FEM like approach. The main functionalities of CNEMLIB are : i) interpolation of scattered data spread on convex or non convex domains with the Natural Neighbour interpolant (Sibson ) in 2d, and the Natural Neighbour interpolant (Sibson or Laplace) or the linear finite element interpolant over the Delaunay tessellation in 3d. ii) a gradient matrix operator which allows to calculate nodal gradients for scattered data(The approach used is based on the stabilized nodal integration, SCNI).iii) a general assembling tools to construct assembled matrix associated with a weak formulation (heat problem, mechanic problem, hydrodynamic problem, general purpose problem) as such used with the Finite Element Method (FEM).
-
-
+- `aestimo <http://aestimo.ndct.org/doku.php/start>`__: models quantum well semiconductor heterostructure using a 1-D self-consistent Schrödinger-Poisson solver. Contains a shooting method solver and a finite element k.p solver.
+- `plotexplorer_gui <https://pypi.python.org/pypi/plotexplorer_gui/>`__: A wxpython/matplotlib script for plotting and contrasting a collection of graphs via a sortable checkbox list.
