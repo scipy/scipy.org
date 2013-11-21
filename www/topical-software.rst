@@ -339,6 +339,7 @@ Bayesian Statistics
 
 - `PyMC <http://code.google.com/p/pymc/>`__: PyMC is a Python module that provides a Markov chain Monte Carlo (MCMC) toolkit, making Bayesian simulation models relatively easy to implement. PyMC relieves users of the need for re-implementing MCMC algorithms and associated utilities, such as plotting and statistical summary. This allows the modelers to concentrate on important aspects of the problem at hand, rather than the mundane details of Bayesian statistical simulation.
 - `PyBayes <https://github.com/strohel/PyBayes>`__: PyBayes is an object-oriented Python library for recursive Bayesian estimation (Bayesian filtering) that is convenient to use. Already implemented are Kalman filter, particle filter and marginalized particle filter, all built atop of a light framework of probability density functions. PyBayes can optionally use Cython for lage speed gains (Cython build is several times faster).
+- `NIFTY <http://www.mpa-garching.mpg.de/ift/nifty/>`__: Numerical Information Field Theory offers a toolkit designed to enable the coding of signal inference algorithms that operate regardless of the underlying spatial grid and its resolution.
 
 Biology (including Neuroscience)
 --------------------------------
