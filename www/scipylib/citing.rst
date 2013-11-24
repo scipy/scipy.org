@@ -1,8 +1,8 @@
-==================
-Citing SciPy Tools
-==================
+====================
+Citing SciPy library
+====================
 
-If you would like to cite the SciPy tools in a paper or presentation, the following is recommended:
+If you would like to cite the SciPy library in a paper or presentation, the following is recommended:
 
 * **Author:** Eric Jones, Travis Oliphant, Pearu Peterson and others.
 * **Title:** SciPy: Open Source Scientific Tools for Python

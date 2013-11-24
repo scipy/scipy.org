@@ -2,15 +2,15 @@ Bug Reports
 ===========
 **Please help us by reporting any problems you find.**
 
-NumPy and SciPy make use of Github to do project management.  There, you can
-see what we are currently working on (Pull Requests), as well as file
-bug-reports (issues).
+NumPy and SciPy library make use of Github to do project management.
+There, you can see what we are currently working on (Pull Requests),
+as well as file bug-reports (issues).
 
 1. Go to the relevant page:
 
-   - `SciPy pull requests <https://github.com/scipy/scipy/pulls>`_
+   - `SciPy library pull requests <https://github.com/scipy/scipy/pulls>`_
 
-   - `SciPy bug reports <https://github.com/scipy/scipy/issues>`_
+   - `SciPy library bug reports <https://github.com/scipy/scipy/issues>`_
 
    - `NumPy pull requests <https://github.com/numpy/numpy/pulls>`_
 
