@@ -69,7 +69,7 @@ Some generic Python/programming tutorials:
 And some more specifically geared towards scientific computing:
 ---------------------------------------------------------------
 
-- The main `Numpy and Scipy documentation <http://docs.scipy.org/>`__.
+- The main `NumPy and SciPy documentation <http://docs.scipy.org/>`__.
 - The `extra documentation page <http://wiki.scipy.org/Additional_Documentation/>`__ has a number of important links on using SciPy, including a (slightly outdated, but still useful) `PDF tutorial <http://wiki.scipy.org/Additional_Documentation?action=AttachFile&do=get&target=scipy_tutorial.pdf>`__ for the SciPy library.
 - The `user guide for the new NumPy system <http://www.tramy.us/>`__. Numeric and Numarray have been unified into the new NumPy environment. This document covers all the details of the new system, and was written by its lead developer.
 - A `tutorial focused on interactive data analysis <http://wiki.scipy.org/Additional_Documentation/Astronomy_Tutorial>`__ for astronomy, but of generic utility to most scientific users. Developed at the STSCI, available for free download including all data files necessary to run the examples.
@@ -331,7 +331,7 @@ Artificial intelligence & machine learning
 - `ELEFANT <https://elefant.developer.nicta.com.au/>`__ We aim at developing an open source machine learning platform which will become the platform of choice for prototyping and deploying machine learning algorithms.
 - `Bayes Blocks <http://www.cis.hut.fi/projects/bayes/software/#bblocks>`__ The library is a C++/Python implementation of the variational building block framework using variational Bayesian learning.
 - `Monte python <http://montepython.sourceforge.net>`__ A machine learning library written in pure Python. The focus is on gradient based learning. Monte includes neural networks, conditional random fields, logistic regression and more.
-- `hcluster <http://scipy-cluster.googlecode.com/>`__: A hierarchical clustering library for Scipy with base implementation written in C for efficiency. Clusters data, computes cluster statistics, and plots dendrograms.
+- `hcluster <http://scipy-cluster.googlecode.com/>`__: A hierarchical clustering library for SciPy with base implementation written in C for efficiency. Clusters data, computes cluster statistics, and plots dendrograms.
 - `PyPR <http://pypr.sourceforge.net>`__ A collection of machine learning methods written in Python: Artificial Neural Networks, Gaussian Processes, Gaussian mixture models, and K-means.
 - `Theano <http://deeplearning.net/software/theano/>`__: A CPU and GPU Math Expression Compiler: Theano is a Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently. 
 - `NeuroLab <http://http://code.google.com/p/neurolab/>`__: Neurolab is a simple and powerful Neural Network Library for Python.

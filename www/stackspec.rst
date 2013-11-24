@@ -1,14 +1,14 @@
 .. _stackspec:
 
 =============================
-The Scipy Stack specification
+The SciPy Stack specification
 =============================
 
-Python Distributions promoting themselves as providing the Scipy stack should
+Python Distributions promoting themselves as providing the SciPy stack should
 meet the requirements listed below.
 
 This specification is versioned, so it can be updated. The current version is
-Scipy Stack 1.0.
+SciPy Stack 1.0.
 
 Components
 ----------
@@ -18,8 +18,8 @@ Second-level bullet points indicate dependencies: the versions of these should
 be sufficient for the packages that require them.
 
 * Python (2.x >= 2.6 or 3.x >= 3.2)
-* Numpy (>= 1.6)
-* Scipy library (>= 0.10)
+* NumPy (>= 1.6)
+* SciPy library (>= 0.10)
 * Matplotlib (>= 1.1)
 
   - dateutil

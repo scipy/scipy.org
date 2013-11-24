@@ -2,15 +2,15 @@
 Building From Source on Linux
 #############################
 
-* On Linux, Scipy and Numpy libraries' official releases are source-code only. Installing Numpy and Scipy from source is reasonably easy; However, both packages depend on other software, some of them which can be challenging to install, or shipped with incompatibilities by major Linux distributions. Hopefully, you can install Numpy and Scipy without any software outside the necessary tools to build python extensions, as most dependencies are optional.
+* On Linux, SciPy and NumPy libraries' official releases are source-code only. Installing NumPy and SciPy from source is reasonably easy; However, both packages depend on other software, some of them which can be challenging to install, or shipped with incompatibilities by major Linux distributions. Hopefully, you can install NumPy and SciPy without any software outside the necessary tools to build python extensions, as most dependencies are optional.
 
-* Most major Linux distributions now ship Numpy and Scipy and, those binary packages are now reasonably reliable to use. Many other binary options are also available, ranging from individually made packages by some scipy developers for a specific Linux version, to whole commercially-supported scientific distributions. However, keep in mind that if you want to use the last improvements done to Numpy and Scipy on Linux, you have to build it from sources.
+* Most major Linux distributions now ship NumPy and SciPy and, those binary packages are now reasonably reliable to use. Many other binary options are also available, ranging from individually made packages by some scipy developers for a specific Linux version, to whole commercially-supported scientific distributions. However, keep in mind that if you want to use the last improvements done to NumPy and SciPy on Linux, you have to build it from sources.
 
 ====================
 Generic instructions
 ====================
 
-To build Numpy/Scipy from source, get the :doc:`source package </scipylib/download>`, unpack it, and:
+To build NumPy/SciPy from source, get the :doc:`source package </scipylib/download>`, unpack it, and:
 
 ::
 
@@ -23,9 +23,9 @@ or
    python setup.py build
    sudo python setup.py install --prefix=/usr/local   # installs to /usr/local
 
-Before building, you will also need to install packages that Numpy and Scipy depend on
+Before building, you will also need to install packages that NumPy and SciPy depend on
 
-* BLAS and LAPACK libraries (optional but strongly recommended for Numpy, required for Scipy): typically `ATLAS <http://math-atlas.sourceforge.net/>`__ + `LAPACK <http://www.netlib.org/lapack/>`__, or `MKL <http://software.intel.com/en-us/articles/intel-mkl/>`__, or `ACML <http://developer.amd.com/cpu/Libraries/acml/Pages/default.aspx>`__
+* BLAS and LAPACK libraries (optional but strongly recommended for NumPy, required for SciPy): typically `ATLAS <http://math-atlas.sourceforge.net/>`__ + `LAPACK <http://www.netlib.org/lapack/>`__, or `MKL <http://software.intel.com/en-us/articles/intel-mkl/>`__, or `ACML <http://developer.amd.com/cpu/Libraries/acml/Pages/default.aspx>`__
 
 * C and Fortran compilers (typically ``gcc`` and ``gfortran``).
 
@@ -198,7 +198,7 @@ Gentoo includes an ebuild. Type:
 Debian / Ubuntu
 ===============
 
-Debian and Ubuntu ship with Numpy and Scipy -- to install their binary packages, use
+Debian and Ubuntu ship with NumPy and SciPy -- to install their binary packages, use
 
 ::
 
@@ -331,16 +331,16 @@ openSUSE
 
 (This section reflects the situation of July 2009. If you have newer of more accurate information, feel free to modify this section.)
 
-OpenSUSE does not contain **Numpy**, **Scipy** or **Matplotlib** in the standard installation. Instead those packages are provided by additional repositories, that seem to be run by volunteers. However Novell provides webspace for some of those repositories. Packages usually exist only for a few current SUSE versions.
+OpenSUSE does not contain **NumPy**, **SciPy** or **Matplotlib** in the standard installation. Instead those packages are provided by additional repositories, that seem to be run by volunteers. However Novell provides webspace for some of those repositories. Packages usually exist only for a few current SUSE versions.
 
-The following repositories are currently the best to obtain **Numpy**, **Scipy** and **Matplotlib**. They can be added to the package manager (**YaST**) with the **Installation Source** dialog. The packages will then appear in the **Software Management** dialog. 
+The following repositories are currently the best to obtain **NumPy**, **SciPy** and **Matplotlib**. They can be added to the package manager (**YaST**) with the **Installation Source** dialog. The packages will then appear in the **Software Management** dialog. 
 
 Alternatively the ``*.rpm`` files can be downloaded and installed
 manually (for example 'rpm -U <filename>' or with 'kpackage').
 
 * Science: [http://download.opensuse.org/repositories/science/]
 
-  * This repository contains: **Numpy**, **Scipy**, **Matplotlib**, and many more packages of interest for scientific users.
+  * This repository contains: **NumPy**, **SciPy**, **Matplotlib**, and many more packages of interest for scientific users.
 
   * Installation was tested with openSUSE 11.0 and 11.1, both i586 and x86-64.
 
@@ -348,13 +348,13 @@ manually (for example 'rpm -U <filename>' or with 'kpackage').
 
 * Education: [http://www.opensuse-education.org/download/repo/1.0/] This project seems to have some backing from Novell. It is primarily oriented towards schools. The repository was added despite of the broken packages, because it is big and still active. Also its relatively wide audience (schools) might lead to continuing development. (The author of this section has also filed bug reports in their Bugzilla.) 
 
-  * This repository contains: **Numpy**, **Scipy**, **Matplotlib**, and very many other packages.
+  * This repository contains: **NumPy**, **SciPy**, **Matplotlib**, and very many other packages.
 
   * Repository has own Bugzilla: `and Website <http://en.opensuse.org/Education <http://devzilla.novell.com/education/enter_bug.cgi>`__
 
   * Tested with openSUSE 11.0 and 11.1, x86-64: 
 
-    * openSUSE 11.0: **broken** package **Scipy**
+    * openSUSE 11.0: **broken** package **SciPy**
 
     * openSUSE 11.1: one error in scipy.test(), package seems (mostly) functional though.
 
@@ -375,7 +375,7 @@ ATLAS
 
 **There is currently no comfortable way to use ATLAS on openSuse.**
 
-The  `build instructions for ATLAS <http://www.scipy.org/Installing_SciPy/Linux#head-89e1f6afaa3314d98a22c79b063cceee2cc6313c>`__  on this page work, but unfortunately the Numpy and Scipy packages don't work with ATLAS. One could build Numpy and Scipy from sources though, and a relatively painless way to do this is the Sage package. (If you know a comfortable way to make ATLAS work on openSuse, please put it here into the Wiki.)
+The  `build instructions for ATLAS <http://www.scipy.org/Installing_SciPy/Linux#head-89e1f6afaa3314d98a22c79b063cceee2cc6313c>`__  on this page work, but unfortunately the NumPy and SciPy packages don't work with ATLAS. One could build NumPy and SciPy from sources though, and a relatively painless way to do this is the Sage package. (If you know a comfortable way to make ATLAS work on openSuse, please put it here into the Wiki.)
 
 David Cournapeau has a repository devoted to ATLAS, but he has not added packages for recent SUSE versions.
 
@@ -609,18 +609,18 @@ Copy libgfortran into scipy library directory (doesn't seem to work if it doesn'
 Build FFTW (3.1.2)
 ------------------
 
-SciPy Versions >= 0.7 and Numpy >= 1.2
+SciPy Versions >= 0.7 and NumPy >= 1.2
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Because of license, configuration, and maintenance issues support for FFTW was removed in versions of SciPy >= 0.7 and NumPy >= 1.2.  Instead now uses a built-in version of fftpack.
 
 There are a couple ways to take advantage of the speed of FFTW if necessary for your analysis.
 
-1. Downgrade to a Numpy/Scipy version that includes support.
+1. Downgrade to a NumPy/SciPy version that includes support.
 
 #. Install or create your own wrapper of FFTW.  See http://developer.berlios.de/projects/pyfftw/ as an un-endorsed example.
 
-SciPy Versions < 0.7 and Numpy < 1.2
+SciPy Versions < 0.7 and NumPy < 1.2
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 After untarring, run configure. I ran configure first and extracted the suggested FLAGS from the Makefile, then added -fPIC and -m64. (Not sure if this is necessary)
@@ -631,7 +631,7 @@ After untarring, run configure. I ran configure first and extracted the suggeste
    make
    sudo make install
 
-Build Numpy and Scipy
+Build NumPy and SciPy
 ---------------------
 
 Set the following entries in site.cfg (this will also work with fftw if it has been compiled and installed in the default location (/usr/local):
@@ -654,7 +654,7 @@ Set the following entries in site.cfg (this will also work with fftw if it has b
    [fftw]
    libraries = fftw3
 
-Build Numpy and Scipy.
+Build NumPy and SciPy.
 
 ::
 

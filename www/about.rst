@@ -10,16 +10,16 @@ Scientific Computing Tools for Python
 
 SciPy refers to several related but distinct entities:
 
-* The *Scipy Stack*, a collection of open source software for scientific
+* The *SciPy Stack*, a collection of open source software for scientific
   computing in Python, and particularly a :doc:`specified set of core packages
   <stackspec>`.
 * The *community* of people who use and develop this stack.
-* Several *conferences* dedicated to scientific computing in Python - Scipy,
-  EuroScipy and Scipy.in.
-* The :doc:`SciPy library <scipylib/index>`, one component of the Scipy stack,
+* Several *conferences* dedicated to scientific computing in Python - SciPy,
+  EuroSciPy and SciPy.in.
+* The :doc:`SciPy library <scipylib/index>`, one component of the SciPy stack,
   providing many numerical routines.
 
-The Scipy Stack
+The SciPy Stack
 ---------------
 
 Core Packages
