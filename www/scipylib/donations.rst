@@ -7,7 +7,7 @@ Support SciPy development
 
 SciPy will always be 100% open source software, free for all to use and
 released under the liberal terms of the modified BSD license.  While we have a
-large amount of `contributors <http://www.ohloh.net/p/scipy/contributors>`_ who
+large number of `contributors <http://www.ohloh.net/p/scipy/contributors>`_ who
 volunteer their time to improve SciPy, financial resources are needed to run
 the project and accelerate its development.  If you have found SciPy to be
 useful in your work, research or company, please consider making a donation to
