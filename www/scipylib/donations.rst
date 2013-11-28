@@ -13,18 +13,26 @@ the project and accelerate its development.  If you have found SciPy to be
 useful in your work, research or company, please consider making a donation to
 the project commensurate with your resources. Any amount helps!  
 
+If you are interested in donating to the project you can use the *Paypal*
+button below or the `NumFOCUS Donations Page <http://numfocus.org/donations>`_
+(if you use the latter, please indicate that you are donating to the Scipy
+project).  All donations will be used strictly to fund SciPy development, by
+supporting activities such as developer sprints, documentation and maintenance
+work, and paying for hosting costs of servers and build slaves.
 
-.. topic:: Donation buttons and links here
+.. raw:: html
 
-   Paypal / credit cards / link to NumFOCUS donations site / ...
+    </br>
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+    <input type="hidden" name="cmd" value="_s-xclick">
+    <input type="hidden" name="hosted_button_id" value="XRDZAJAASQ8MA">
+    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" style="position: relative; left: 40%;">
+    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
 
-All donations will be used strictly to fund SciPy development, by supporting
-activities such as developer sprints, documentation and maintenance work, and
-paying for hosting costs of servers and build slaves.
-
-Our donations are managed by the `NumFOCUS`_ foundation, which passes 9X% of your
-contribution to the SciPy project, and provides the SciPy development team with
-basic administrative and legal services for the other X%.  NumFOCUS is a
+Our donations are managed by the `NumFOCUS`_ foundation, which passes >=96% of
+your contribution to the SciPy project, and provides the SciPy development team
+with basic administrative and legal services for the other 4%.  NumFOCUS is a
 501(c)3 non-profit foundation, so if you are subject to US Tax law, your
 contributions will be tax-deductible.
 
@@ -39,7 +47,7 @@ organizations for providing services and development infrastructure:
 - `Github`_: code hosting and development workflow platform
 - `Travis CI`_: continuous integration service
 - `SourceForge`_: hosting released sources and installers
-- `Intel`_: Intel MKL licenses
+- `Intel`_: Intel `MKL <http://software.intel.com/en-us/intel-mkl/>`_ licenses
 - `NumFOCUS`_: hosted Mac Mini build machine
 
 
