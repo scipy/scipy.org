@@ -364,6 +364,7 @@ Biology (including Neuroscience)
 - `VeSPA <http://scion.duhs.duke.edu/vespa/>`__: The VeSPA suite contains three magnetic resonance (MR) spectroscopy applications: RFPulse (for RF pulse design), Simulation (for spectral simulation), and Analysis (for spectral data processing and analysis).
 - `Neo <http://pypi.python.org/pypi/neo/0.2.0>`__: A package for representing electrophysiology data in Python, together with support for reading a wide range of neurophysiology file formats.
 - `Myokit <http://myokit.org>`__: A programming toolkit for working with ODE models of cardiac myocytes (and other excitable tissues).
+- `MNE-Python <http://martinos.org/mne/mne-python.html>`__: A package for magnetoencephalography (MEG) and electroencephalography (EEG) data analysis.
 
 Dynamical systems
 -----------------
