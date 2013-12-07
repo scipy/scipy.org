@@ -57,13 +57,9 @@ Donors
 The SciPy development team would like to thank the following donors for their
 contributions. Donors are listed in descending order using an algorithm that
 takes into account both the amount and age of the donation.
-This list is current as of 22 June 2013:
+This list is current as of 7 Dec 2013:
 
 - Google Summer of Code
-
-::
-
-    (include list from separate .rst page (and where do we keep it?)
 
 
 ..
