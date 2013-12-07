@@ -9,6 +9,7 @@ SciPy library
    mailing-lists
    bug-report
    dev-zone
+   donations
    citing
    faq
    license
