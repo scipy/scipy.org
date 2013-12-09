@@ -116,7 +116,7 @@ the package maintainer first, rather than to the NumPy/SciPy mailing lists**.
 |                     | `scipy-core-py25`_,       | `scipy-py25`_,            |
 |                     | `scipy-core-py26`_        | `scipy-py26`_             |
 +---------------------+---------------------------+---------------------------+
-| `FreeBSD Ports`_    | `ports/math/py-numpy`_    | `ports/science/py-scipy`_ |
+| `FreeBSD (Ports)`_  | `math/py-numpy`_          | `science/py-scipy`_       |
 +---------------------+---------------------------+---------------------------+
 | `Gentoo Linux`_     | `dev-python/numpy`_       | `sci-libs/scipy`_         |
 +---------------------+---------------------------+---------------------------+
@@ -184,9 +184,9 @@ the package maintainer first, rather than to the NumPy/SciPy mailing lists**.
 .. _python-scipy-ubuntu: http://packages.ubuntu.com/search?keywords=python-scipy
 
 .. FreeBSD links
-.. _FreeBSD Ports: http://www.freebsd.org/ports/
-.. _ports/math/py-numpy: http://www.freebsd.org/cgi/cvsweb.cgi/ports/math/py-numpy/
-.. _ports/science/py-scipy: http://www.freebsd.org/cgi/cvsweb.cgi/ports/science/py-scipy/
+.. _FreeBSD (Ports): https://www.freebsd.org/ports/
+.. _math/py-numpy: https://svnweb.freebsd.org/ports/head/math/py-numpy
+.. _science/py-scipy: https://svnweb.freebsd.org/ports/head/science/py-scipy
 
 .. pkgsrc links
 .. _NetBSD (pkgsrc): http://www.pkgsrc.org/
