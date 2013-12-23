@@ -90,6 +90,7 @@ Working environments
 - `Pymacs <http://pymacs.progiciels-bpi.ca/>`__: a tool which, once started from Emacs, allows both-way communication between Emacs Lisp and Python.
 - `Python Tools for Visual Studio <http://pytools.codeplex.com>`__: a rich IDE plugin for Visual Studio that supports CPython, IronPython, the IPython REPL, Debugging, Profiling, including running debugging MPI program on HPC clusters.
 - `Plotly <https://plot.ly/>`__: an online Python environment for data exploration and graphing. Plotly has a command line, and allows for storage and sharing of Python scripts, and has special support for `interactive Plotly graphs <https://plot.ly/api/python>`__.
+- `Wakari <http://wakari.io/>`__: Scientific and Technical Computing in the browser.  You can create and share workflows, IPython notebooks, plots, and applications in the cloud all on-top of Anaconda a complete Scientific and Big-Data Python distribution.   More information available at `Continuum website <http://www.continuum.io/wakari>`__.
 - `Other IDE links <http://www.python.org/cgi-bin/moinmoin/IntegratedDevelopmentEnvironments>`__: the official Python website maintains a comprehensive lists of Integrated Development Environments for Python.
 
 Science: basic tools
