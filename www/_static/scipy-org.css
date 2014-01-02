@@ -58,3 +58,30 @@ ul.packageicons {
     border: none;
     box-shadow: none;
 }
+
+.topnavicons {
+    margin-left: 14% !important;
+}
+
+.topnavicons li {
+    margin-left: 0px !important;
+    min-width: 120px;
+    text-align: center;
+}
+
+.topnavicons .thumbnail {
+    margin-right: 10px;
+    border: none;
+    box-shadow: none;
+    text-align: center;
+    font-size: 85%;
+    font-weight: bold;
+    line-height: 10px;
+    height: 120px;
+}
+
+.topnavicons .thumbnail img {
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+}

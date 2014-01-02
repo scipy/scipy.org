@@ -27,32 +27,67 @@ SciPy.org
   }
   </style>
   
-  <table class="linktable">
-  <tr>
-    <td>
-      <a href="install.html">
-         <img alt="Download" src="_static/images/download.png" title="Download" height="80" style="display: block; margin-left: auto; margin-right: auto;"></a> </td>
-    <td>
-      <a href="getting-started.html">
-        <img alt="Getting Started" src="_static/images/tutorial.png" title="Getting Started"  height="80" style="display: block; margin-left: auto; margin-right: auto;"></a> </td>
-    <td>
-      <a href="docs.html">
-        <img alt="Documentation" src="_static/images/documentation.png" title="Documentation"  height="80" style="display: block; margin-left: auto; margin-right: auto;"></a> </td>
-    <td>
-      <a href="bug-report.html">
-        <img alt="Bug Report" src="_static/images/bugs.png" title="Bug Report"  height="80" style="display: block; margin-left: auto; margin-right: auto;"></a> </td>
-    <td>
-      <a href="http://planet.scipy.org">
-         <img alt="Blog" src="_static/images/feed-icon.png" title="Blog"  height="80" style="display: block; margin-left: auto; margin-right: auto;"></a> </td>
-  </tr>
+  <div>
+  <ul class="thumbnails topnavicons">
 
-  <tr>
-    <td><strong><small><a href="install.html">Install</a></small></strong></td>
-    <td><strong><small><a href="getting-started.html">Getting Started</a></small></strong></td>
-    <td><strong><small><a href="docs.html">Documentation</a></small></strong></td>
-    <td><strong><small><a href="bug-report.html">Report Bugs</a></small></strong></td>
-    <td><strong><small><a href="http://planet.scipy.org">Blogs</a></small></strong></td>
-  </tr>
+  <li class="span2">
+  <div class="thumbnail">
+  <div class="img">
+    <a href="install.html">
+    <img alt="Install" src="_static/images/download.png" title="Install" height="80">
+    <br>Install
+    </a>
+  </div>
+  </div>
+  </li>
+
+  <li class="span2">
+  <div class="thumbnail">
+  <div class="img">
+    <a href="getting-started.html">
+     <img alt="Getting Started" src="_static/images/tutorial.png" title="Getting Started" height="80">
+    <br>Getting Started
+    </a>
+  </div>
+  </div>
+  </li>
+
+  <li class="span2">
+  <div class="thumbnail">
+  <div class="img">
+    <a href="docs.html">
+    <img alt="Documentation" src="_static/images/documentation.png" title="Documentation" height="80">
+    <br>Documentation
+    </a>
+  </div>
+  </div>
+  </li>
+
+  <li class="span2">
+  <div class="thumbnail">
+  <div class="img">
+    <a href="bug-report.html">
+    <img alt="Report Bugs" src="_static/images/bugs.png" title="Report Bugs" height="80">
+    <br>Report Bugs
+    </a>
+  </div>
+  </div>
+  </li>
+
+  <li class="span2">
+  <div class="thumbnail">
+  <div class="img">
+    <a href="http://planet.scipy.org">
+    <img alt="Blogs" src="_static/images/feed-icon.png" title="Blogs" height="80">
+    <br>Blogs
+    </a>
+  </div>
+  </div>
+  </li>
+
+  </ul>
+  </div>
+
   </table>
   
 
