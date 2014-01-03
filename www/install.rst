@@ -25,7 +25,11 @@ which includes all the key packages:
   including the SciPy stack. Windows only.
 * `Pyzo <http://www.pyzo.org/>`_: A free distribution based on Python 3 (see
   :ref:`python3`) with the IEP editor. Supports Linux and Windows.
-
+* `Algorete Loopy <http://algorete.org>`_: A free, community oriented
+  distribution for the SciPy stack maintained by researches at Dartmouth
+  College. Loopy supports both Python 2 and 3 on Linux, Windows and Mac
+  OSX. The distribution is derived from Anaconda with additional packages (e.g.
+  Space Physics, BioInformatics).
 
 Linux packages
 --------------
