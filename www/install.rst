@@ -19,17 +19,17 @@ which includes all the key packages:
 * `Enthought Canopy <http://www.enthought.com/products/canopy/>`_: The free and
   commercial versions include the core SciPy stack packages. Supports Linux,
   Windows and Mac.
-* `Algorete Loopy <http://algorete.org>`_: A free, community oriented
-  distribution for the SciPy stack maintained by researches at Dartmouth
-  College. Loopy supports both Python 2 and 3 on Linux, Windows and Mac
-  OSX. The distribution is derived from Anaconda with additional packages (e.g.
-  Space Physics, BioInformatics).
 * `Python(x,y) <http://code.google.com/p/pythonxy/>`_: A free distribution
   including the SciPy stack, based around the Spyder IDE. Windows only.
 * `WinPython <http://code.google.com/p/winpython/>`_: A free distribution
   including the SciPy stack. Windows only.
 * `Pyzo <http://www.pyzo.org/>`_: A free distribution based on Python 3 (see
   :ref:`python3`) with the IEP editor. Supports Linux and Windows.
+* `Algorete Loopy <http://algorete.org>`_: A free, community oriented
+  distribution for the SciPy stack maintained by researches at Dartmouth
+  College. Loopy supports both Python 2 and 3 on Linux, Windows and Mac
+  OSX. The distribution is derived from Anaconda with additional packages (e.g.
+  Space Physics, BioInformatics).
 
 Linux packages
 --------------
