@@ -60,12 +60,12 @@ ul.packageicons {
 }
 
 .topnavicons {
-    margin-left: 14% !important;
+    margin-left: 10% !important;
 }
 
 .topnavicons li {
     margin-left: 0px !important;
-    min-width: 120px;
+    min-width: 100px;
     text-align: center;
 }
 
@@ -77,7 +77,7 @@ ul.packageicons {
     font-size: 85%;
     font-weight: bold;
     line-height: 10px;
-    height: 120px;
+    height: 100px;
 }
 
 .topnavicons .thumbnail img {
