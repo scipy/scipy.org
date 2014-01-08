@@ -253,12 +253,15 @@ Automatic differentiation
 - `ScientificPython <http://dirac.cnrs-orleans.fr/ScientificPython/>`__ - see modules Scientific.Functions.FirstDerivatives and Scientific.Functions.Derivatives
 - `pycppad <http://www.seanet.com/~bradbell/pycppad/index.htm>`__ - wrapper for CppAD, second order forward/reverse
 - `pyadolc <http://github.com/b45ch1/pyadolc>`__ - wrapper for ADOL-C, arbitrary order forward/reverse
+- `algopy <http://pythonhosted.org/algopy/>`__ - evaluation of higher-order derivatives in the forward and reverse mode of algorithmic differentiation, with a particular focus on numerical linear algebra
 
 Finite differences derivatives approximation
 ============================================
 
 - `check_grad <http://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.check_grad.html>`__ from scipy.optimize
 - `DerApproximator <http://openopt.org/DerApproximator>`__ - several stencils, trying to avoid NaNs, is used by `OpenOpt <http://openopt.org/OOFramework>`__ and `FuncDesigner <http://openopt.org/FuncDesigner>`__
+- `numdifftools <https://code.google.com/p/numdifftools/>`__ - tools to solve numerical differentiation problems in one or more variables, based on extrapolation of finite differences
+
 
 Data Storage / Database
 =======================
