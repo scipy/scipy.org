@@ -262,7 +262,6 @@ Finite differences derivatives approximation
 - `DerApproximator <http://openopt.org/DerApproximator>`__ - several stencils, trying to avoid NaNs, is used by `OpenOpt <http://openopt.org/OOFramework>`__ and `FuncDesigner <http://openopt.org/FuncDesigner>`__
 - `numdifftools <https://code.google.com/p/numdifftools/>`__ - tools to solve numerical differentiation problems in one or more variables, based on extrapolation of finite differences
 
-
 Data Storage / Database
 =======================
 
