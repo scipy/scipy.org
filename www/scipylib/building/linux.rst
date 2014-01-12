@@ -21,7 +21,7 @@ or
 ::
 
    python setup.py build
-   sudo python setup.py install --prefix=/usr/local   # installs to /usr/local
+   python setup.py install --prefix=$HOME/local
 
 Before building, you will also need to install packages that NumPy and SciPy depend on
 
