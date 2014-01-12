@@ -206,7 +206,7 @@ Debian and Ubuntu ship with NumPy and SciPy -- to install their binary packages,
 
 Debian and Ubuntu package optimized BLAS libraries in a exchangeable way. By
 default the reference BLAS libblas3 package is used.
-You can install other libraries like ATLAS or openblas and change the default
+You can install other libraries like ATLAS or OpenBLAS and change the default
 one used via the alternatives mechanism:
 
 ::
@@ -217,13 +217,17 @@ one used via the alternatives mechanism:
     /usr/lib/libblas/libblas.so.3
     /usr/lib/openblas-base/libopenblas.so.0
 
-    # use openblas (beware does not support multiprocessing)
     $ sudo update-alternatives --set libblas.so.3 /usr/lib/openblas-base/libopenblas.so.0
 
 See /usr/share/doc/libatlas3-base/README.Debian for instructions on how to
 build optimized ATLAS packages for your specific CPU.
-The packaged openblas chooses the optimal code at runtime so it does not need
+The packaged OpenBLAS chooses the optimal code at runtime so it does not need
 recompiling unless the packaged version does not yet support the used CPU.
+
+As of Jan. 2014 ATLAS is the recommended library to use as OpenBLAS will
+deadlock when used in combination with the `multiprocessing` module
+(or any use of `os.fork`) and older versions (<= 0.2.8) tend to crash when used
+on larger problem sizes.
 
 You can also use a library you built yourself by preloading it. This does not
 require administrator rights.
@@ -242,17 +246,17 @@ To build from source more packages are needed:
    sudo apt-get install gcc gfortran python-dev libblas-dev liblapack-dev cython
 
 In order to build numpy with integration of optimized BLAS libraries like
-ATLAS or openblas one needs to setup a `site.cfg` file.
+ATLAS or OpenBLAS one needs to setup a `site.cfg` file.
 See the `site.cfg.example` file in the numpy source for the options you can
 set.
-A simple file using openblas looks like this (requires numpy >= 1.8.0):
+A simple file using OpenBLAS looks like this (requires numpy >= 1.8.0):
 
 ::
 
     [openblas]
     library_dirs = /opt/local/lib/openblas
 
-Due to issues in the buildsystem as of at least numpy 1.8.0 the openblas
+Due to issues in the buildsystem as of at least numpy 1.8.0 the OpenBLAS
 installation must embed lapack.
 This means the system package provided version will not work.
 
