@@ -21,7 +21,7 @@ or
 ::
 
    python setup.py build
-   sudo python setup.py install --prefix=/usr/local   # installs to /usr/local
+   python setup.py install --prefix=$HOME/local
 
 Before building, you will also need to install packages that NumPy and SciPy depend on
 
@@ -204,101 +204,81 @@ Debian and Ubuntu ship with NumPy and SciPy -- to install their binary packages,
 
    sudo apt-get install python-numpy python-scipy
 
-Note (esp. Ubuntu versions prior to Maverick): Do not install versions 3.6.0-* of ``libatlas-sse2`` or ``libatlas-sse`` packages -- they contained severe known bugs.
-
-Andrew Straw's unofficial repository for Ubuntu / Debian
-========================================================
-
-Andrew Straw has an unofficial repository for NumPy .deb packages. These were built with `stdeb <http://stdeb.python-hosting.com/>`__. The binaries are for Ubuntu Dapper (6.06 LTS).
-
-Binary packages Ubuntu Dapper (6.06), (i386 and amd64 architectures)
---------------------------------------------------------------------
-
-To use the binary package in Ubuntu Dapper, add the following line to your /etc/apt/sources.list:
+Debian and Ubuntu package optimized BLAS libraries in a exchangeable way. By
+default the reference BLAS libblas3 package is used.
+You can install other libraries like ATLAS or OpenBLAS and change the default
+one used via the alternatives mechanism:
 
 ::
 
-   deb http://debs.astraw.com/ dapper/
+    $ sudo apt-get install libopenblas-base libatlas3-base
+    $ update-alternatives --list libblas.so.3
+    /usr/lib/atlas-base/atlas/libblas.so.3
+    /usr/lib/libblas/libblas.so.3
+    /usr/lib/openblas-base/libopenblas.so.0
 
-Then type
+    $ sudo update-alternatives --set libblas.so.3 /usr/lib/openblas-base/libopenblas.so.0
 
-::
+See /usr/share/doc/libatlas3-base/README.Debian for instructions on how to
+build optimized ATLAS packages for your specific CPU.
+The packaged OpenBLAS chooses the optimal code at runtime so it does not need
+recompiling unless the packaged version does not yet support the used CPU.
 
-   sudo apt-get install python-numpy
+As of Jan. 2014 ATLAS is the recommended library to use as OpenBLAS will
+deadlock when used in combination with the `multiprocessing` module
+(or any use of `os.fork`) and older versions (<= 0.2.8) tend to crash when used
+on larger problem sizes.
 
-You can verify ATLAS support by running the command ``ldd /usr/lib/python2.4/site-packages/numpy/linalg/lapack_lite.so``, which should result in output like the following:
-
-::
-
-           liblapack.so.3 => /usr/lib/atlas/liblapack.so.3 (0x00002aaaaabcf000)
-           libblas.so.3 => /usr/lib/atlas/libblas.so.3 (0x00002aaaab435000)
-           libg2c.so.0 => /usr/lib/libg2c.so.0 (0x00002aaaabd15000)
-           libm.so.6 => /lib/libm.so.6 (0x00002aaaabe44000)
-           libgcc_s.so.1 => /lib/libgcc_s.so.1 (0x00002aaaabfca000)
-           libc.so.6 => /lib/libc.so.6 (0x00002aaaac0d7000)
-           /lib64/ld-linux-x86-64.so.2 (0x0000555555554000)
-
-Source packages for any Debian-based distribution
--------------------------------------------------
-
-The following may (or may not) work on any Debian-based distribution:
-
-Add the following line to your /etc/apt/sources.list:
+You can also use a library you built yourself by preloading it. This does not
+require administrator rights.
 
 ::
 
-   deb-src http://debs.astraw.com/ dapper/
+    LD_PRELOAD=/path/to/libatlas.so.3 ./my-application
 
-To download and build, type:
+Installation from source:
+-------------------------
 
-::
-
-   sudo apt-get build-dep python-numpy
-   sudo apt-get -b source python-numpy
-
-GPG Verification using Andrew Straw's repository
-------------------------------------------------
-
-When you start using this repository, you might get warning messages like this:
+To build from source more packages are needed:
 
 ::
 
-   The following signatures couldn't be verified because
-   the public key is not available.
+   sudo apt-get install gcc gfortran python-dev libblas-dev liblapack-dev cython
 
-Or you will be asked questions like this over and over:
-
-::
-
-   WARNING: The following packages cannot be authenticated!
-   ...
-   Install these packages without verification [y/N]?
-
-Install the package ``astraw-keyring`` to eliminate these messages. This installs Andrew's archive signing key to your apt through the apt-key add command.
-
-Debian sarge notes
-------------------
-
-If you install NumPy or SciPy ontop of a debian sarge installation for a CPU with SSE2, there is a bug in libc6 2.3.2 affecting floating point operations (fixed in version 2.3.3). Due to this bug, the numpy and scipy tests crach with a SIGFPE. Since there is now patch available, in order to fix this the libc6 sources need to be downloaded, fixed, and rebuilt. See `Andrew Straw's instructions <http://www.its.caltech.edu/~astraw/coding.html#libc-patched-for-debian-sarge-to-fix-floating-point-exceptions-on-sse2>`__ for more information.
-
-Ubuntu notes
-------------
-
-If you choose **not** to use Andrew Straw's repository (which includes numpy built with ATLAS support), here are some further notes to build numpy and scipy from sources on your computer.
-
-First, you need to install several libraries/tools (you need to enable universe repository for some of those packages):
+In order to build numpy with integration of optimized BLAS libraries like
+ATLAS or OpenBLAS one needs to setup a `site.cfg` file.
+See the `site.cfg.example` file in the numpy source for the options you can
+set.
+A simple file using OpenBLAS looks like this (requires numpy >= 1.8.0):
 
 ::
 
-   sudo apt-get install gcc g77 python-dev atlas3-base-dev
+    [openblas]
+    library_dirs = /opt/local/lib/openblas
 
-To use optimized lapack and blas, you should also install the atlas corresponding to your achitecture: atlas3-sse2-dev if you have a CPU with SSE2 capabilities, atlas3-sse-dev if you have a CPU with SSE capabilities only, etc... If you have a recent x86 (eg intel or AMD cpu), it should support SSE2. To check whether your CPU supports sse, sse2, etc.. you can check using the following command:
+Due to issues in the buildsystem as of at least numpy 1.8.0 the OpenBLAS
+installation must embed lapack.
+This means the system package provided version will not work.
+
+Building with ATLAS should not require a `site.cfg` if libatlas-base-dev is
+installed.
+
+Alternatively one can apply following patch to numpy to link against the system
+blas by default:
 
 ::
 
-   cat /proc/cpuinfo | grep flags
-
-and check whether sse, sse2, etc... appear on it.
+    --- a/numpy/core/setup.py
+    +++ b/numpy/core/setup.py
+    @@ -940,7 +940,7 @@ def configuration(parent_package='',top_path=None):
+         #######################################################################
+     
+         # Configure blasdot
+    -    blas_info = get_info('blas_opt', 0)
+    +    blas_info = get_info('blas', 0)
+         #blas_info = {}
+         def get_dotblas_sources(ext, build_dir):
+             if blas_info:
 
 Then, you can build numpy with the following, inside the numpy source directory:
 
@@ -306,7 +286,14 @@ Then, you can build numpy with the following, inside the numpy source directory:
 
    python setup.py build
 
-Then, to install it system-wide (requires root privileges):
+You can change the blas library linked against by setting the BLAS environment
+variable to the path of the library.
+
+::
+
+   BLAS=/path/to/libopenblas.so python setup.py build
+
+Then, to install it system-wide (not recommended, requires root privileges):
 
 ::
 
@@ -318,13 +305,29 @@ To install it in another directory, you need to use the prefix option. For examp
 
    python setup.py install --prefix=$HOME/local
 
-Note that if you do not install numpy system wide, you need to tell python to look for the directory where you installed numpy. For example, if you use $HOME/local as the former example, then you should add $HOME/local/lib/python2.4/site-packages in your PYTHONPATH:
+To verify if optimized blas is being used check for the presence of the
+`_dotblas.so` file in the installation location.
 
 ::
 
-   PYTHONPATH=$HOME/local/lib/python2.4/site-packages python
+   find $HOME/local -name _dotblas.so
 
-(change python2.4 to python2.5 if you are using python2.5, obviously).
+You can use the `ldd` command on this file to see which library it is using.
+If that library is not in a system location you may have to set the
+`LD_LIBRARY_PATH` environment variable to the place the library can be found.
+For example if using the bash shell and having the blas library in `/opt/local/lib` run:
+
+::
+
+    export LD_LIBRARY_PATH=/opt/local/lib
+
+Note that if you do not install numpy system wide, you need to tell python to look for the directory where you installed numpy. For example, if you use $HOME/local as the former example, then you should add $HOME/local/lib/python2.7/site-packages in your PYTHONPATH:
+
+::
+
+   PYTHONPATH=$HOME/local/lib/python2.7/site-packages python
+
+(change python2.7 to the version you are using).
 
 openSUSE
 ========
