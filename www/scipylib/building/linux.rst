@@ -239,7 +239,7 @@ To build from source more packages are needed:
 
 ::
 
-   sudo apt-get install gcc gfortran python-dev libblas-dev cython
+   sudo apt-get install gcc gfortran python-dev libblas-dev liblapack-dev cython
 
 In order to build numpy with integration of optimized BLAS libraries like
 ATLAS or openblas one needs to setup a `site.cfg` file.
@@ -250,8 +250,14 @@ A simple file using openblas looks like this (requires numpy >= 1.8.0):
 ::
 
     [openblas]
-    library_dirs = /usr/lib/openblas-base/
+    library_dirs = /opt/local/lib/openblas
 
+Due to issues in the buildsystem as of at least numpy 1.8.0 the openblas
+installation must embed lapack.
+This means the system package provided version will not work.
+
+Building with ATLAS should not require a `site.cfg` if libatlas-base-dev is
+installed.
 
 Alternatively one can apply following patch to numpy to link against the system
 blas by default:
