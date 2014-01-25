@@ -60,10 +60,10 @@ This section notes only things specific to one version of OS X or Python.
 The build instructions in :ref:`Obtaining and Building NumPy and SciPy
 <osx-obtaining-and-building>` apply to all versions.
 
-OS X 10.7 (Lion) and 10.8 (Snow Lion)
-:::::::::::::::::::::::::::::::::::::
+OS X 10.7 (Lion) and 10.8 (Mountain Lion)
+:::::::::::::::::::::::::::::::::::::::::
 
-The default C compiler on (Snow) Lion is llvm-gcc-4.2, which has so far
+The default C compiler on (Mountain) Lion is llvm-gcc-4.2, which has so far
 proven to be problematic (up to scipy 0.12.0). 
 We recommend to use gcc-4.2, or alternatively clang. 
 The Fortran flag "-ff2c" has been reported to be necessary.
