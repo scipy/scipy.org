@@ -84,7 +84,7 @@ gcc, the easiest thing is to do:
 ::
 
      $ export CC=clang
-     $ export CXX=clang
+     $ export CXX=clang++
      $ export FFLAGS=-ff2c
 
 Alternatively, you may try installing gcc-4.2 manually, and then using
