@@ -165,8 +165,8 @@ the package maintainer first, rather than to the NumPy/SciPy mailing lists**.
 
 .. Fedora Core links
 .. _Fedora: http://www.fedoraproject.org/
-.. _numpy-fedora: https://admin.fedoraproject.org/pkgdb/packages/name/numpy
-.. _scipy-fedora: https://admin.fedoraproject.org/pkgdb/packages/name/scipy
+.. _numpy-fedora: https://apps.fedoraproject.org/packages/numpy
+.. _scipy-fedora: https://apps.fedoraproject.org/packages/scipy
 
 .. ArchLinux links
 .. _Arch Linux: http://www.archlinux.org/
