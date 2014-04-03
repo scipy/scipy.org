@@ -466,6 +466,7 @@ Miscellaneous
 - `py2tex <http://www.sollunae.net/py2tex>`__: format Python source code as LaTeX. Note that `this <http://oedipus.sourceforge.net/py2tex>`__ site contains an older release of the same code, don't be confused.
 - `pyreport <http://gael-varoquaux.info/computers/pyreport>`__: runs a script and captures the output (pylab graphics included). Generates a LaTeX or pdf report out of it, including litteral comments and pretty printed code.
 - `Vision Egg <http://www.visionegg.org/>`__: a powerful, flexible, and free way to produce stimuli for vision research experiments.
+- `Easyleed http://andim.github.io/easyleed/`__: a tool for the automated extraction of intensity-energy spectra from low-energy electron diffraction experiments commonly performed in condensed matter physics
 - `PsychoPy <http://www.psychopy.org/>`__: a freeware library for vision research experiments (and analyse data) with an emphasis on psychophysics.
 - `PyEPL <http://pyepl.sourceforge.net/>`__: the Python Experiment Programing Library. A free library to create experiments ranging from simple display of stimuli and recording of responses (including audio) to the creation of interactive virtual reality environments.
 - `Pythonica <http://www.tildesoft.com/Pythonica.html>`__: a Python implementation of a symbolic math program, based upon the fantastic precedent set by Mathematica.
