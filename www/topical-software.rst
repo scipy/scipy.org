@@ -458,6 +458,13 @@ Symbolic math, number theory, etc.
 - `DecInt <http://home.comcast.net/~casevh>`__: a Python class that provides support for operations on very large decimal integers. Conversion to and from the decimal string representation is very fast; the multiplication and division algorithms are asymptotically faster than the native Python ones.
 - `Kayali <http://kayali.sourceforge.net/>`__ is a Qt based Computer Algebra System (CAS) written in Python. It is essentially a front end GUI for Maxima and Gnuplot.
 
+Quantum mechanics
+-----------------
+
+- `QuTiP <http://www.qutip.org/>`__ QuTiP is a numerical framework for simulating the dynamics of open and closed quantum systems. 
+- `QNET <http://mabuchilab.github.io/QNET/>`__ The QNET is a package to aid in the design and analysis of photonic circuit models.
+- `PyQuante <http://pyquante.sourceforge.net/>`__ PyQuante is a suite of programs for developing quantum chemistry methods.
+
 Miscellaneous
 =============
 
