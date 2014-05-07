@@ -79,6 +79,7 @@ And some more specifically geared towards scientific computing:
 - `Python/Matlab/Octave/Scilab/R/Gnuplot/IDL/Axiom <http://mathesaurus.sourceforge.net>`__ cross-reference by Vidar Gundersen.
 - `Software Carpentry <http://software-carpentry.org/>`__ is an open source course on basic software development skills for people with backgrounds in science, engineering, and medicine.
 - `A tutorial for SciPy <http://www.rexx.com/~dkuhlman/scipy_course_01.html>`__ by Dave Kuhlman ( dkuhlman@rexx.com ).
+- `Lectures on scientific computing with Python <https://github.com/jrjohansson/scientific-python-lectures>`__ by J.R. Johansson.
 
 Working environments
 ====================
