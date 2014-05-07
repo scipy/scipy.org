@@ -462,7 +462,7 @@ Quantum mechanics
 -----------------
 
 - `QuTiP <http://www.qutip.org/>`__ QuTiP is a numerical framework for simulating the dynamics of open and closed quantum systems. 
-- `QNET <http://mabuchilab.github.io/QNET/>`__ The QNET is a package to aid in the design and analysis of photonic circuit models.
+- `QNET <http://mabuchilab.github.io/QNET/>`__ QNET is a package to aid in the design and analysis of photonic circuit models.
 - `PyQuante <http://pyquante.sourceforge.net/>`__ PyQuante is a suite of programs for developing quantum chemistry methods.
 
 Miscellaneous
