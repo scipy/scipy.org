@@ -79,6 +79,7 @@ And some more specifically geared towards scientific computing:
 - `Python/Matlab/Octave/Scilab/R/Gnuplot/IDL/Axiom <http://mathesaurus.sourceforge.net>`__ cross-reference by Vidar Gundersen.
 - `Software Carpentry <http://software-carpentry.org/>`__ is an open source course on basic software development skills for people with backgrounds in science, engineering, and medicine.
 - `A tutorial for SciPy <http://www.rexx.com/~dkuhlman/scipy_course_01.html>`__ by Dave Kuhlman ( dkuhlman@rexx.com ).
+- `Lectures on scientific computing with Python <https://github.com/jrjohansson/scientific-python-lectures>`__ by J.R. Johansson.
 
 Working environments
 ====================
@@ -456,6 +457,13 @@ Symbolic math, number theory, etc.
 - `Python bindings for CLNUM <http://calcrpnpy.sourceforge.net/clnum.html>`__: an library which provides exact rationals and arbitrary precision floating point, orders of magnitude faster (and more full-featured) than the Decimal.py module from Python's standard library. From the same site, the ratfun module provides rational function approximations, and rpncalc is a full RPN interactive python-based calculator.
 - `DecInt <http://home.comcast.net/~casevh>`__: a Python class that provides support for operations on very large decimal integers. Conversion to and from the decimal string representation is very fast; the multiplication and division algorithms are asymptotically faster than the native Python ones.
 - `Kayali <http://kayali.sourceforge.net/>`__ is a Qt based Computer Algebra System (CAS) written in Python. It is essentially a front end GUI for Maxima and Gnuplot.
+
+Quantum mechanics
+-----------------
+
+- `QuTiP <http://www.qutip.org/>`__ QuTiP is a numerical framework for simulating the dynamics of open and closed quantum systems. 
+- `QNET <http://mabuchilab.github.io/QNET/>`__ QNET is a package to aid in the design and analysis of photonic circuit models.
+- `PyQuante <http://pyquante.sourceforge.net/>`__ PyQuante is a suite of programs for developing quantum chemistry methods.
 
 Miscellaneous
 =============
