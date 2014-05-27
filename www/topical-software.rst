@@ -221,6 +221,8 @@ Optimization
 
 - `CVXOPT <http://www.ee.ucla.edu/~vandenbe/cvxopt/>`__ (license: GPL3), a tool for convex optimization which defines its own matrix-like object and interfaces to FFTW, BLAS, and LAPACK.
 
+- `cvxpy <http://www.cvxpy.org/>`__ A Python-embedded modeling language for convex optimization problems.
+
 - `DEAP <http://deap.googlecode.com>`__: Distributed Evolutionary Algorithms in Python]
 
 - `ECsPy <http://pypi.python.org/pypi/ecspy>`__: Evolutionary Computations in Python
