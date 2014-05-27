@@ -58,28 +58,29 @@ General Python resources
 Tutorials and texts
 ===================
 
-Some generic Python/programming tutorials:
-------------------------------------------
+Generic Python/programming tutorials:
+-------------------------------------
 
 - `The standard Python docs <http://www.python.org/doc/>`__ : this contains the official documentation and tutorials which ship with the language.
-- `Learning to Program <http://www.freenetpages.co.uk/hp/alan.gauld/>`__: beginner's tutorial.
-- `How to Think Like a Computer Scientist <http://www.greenteapress.com/thinkpython/thinkCSpy/>`__: another beginner's tutorial.
-- `Many more <http://www.awaretek.com/tutorials.html>`__: an external collection with over 100 tutorials.
+- `Learn Python <learnpython.org>`__ Interactive site with Python tutorials.
+- `How to Think Like a Computer Scientist <http://www.greenteapress.com/thinkpython/thinkCSpy/>`__: a free book for Python beginners.
 
-And some more specifically geared towards scientific computing:
----------------------------------------------------------------
+Scientific computing with Python tutorials:
+-------------------------------------------
 
 - The main `NumPy and SciPy documentation <http://docs.scipy.org/>`__.
-- The `extra documentation page <http://wiki.scipy.org/Additional_Documentation/>`__ has a number of important links on using SciPy, including a (slightly outdated, but still useful) `PDF tutorial <http://wiki.scipy.org/Additional_Documentation?action=AttachFile&do=get&target=scipy_tutorial.pdf>`__ for the SciPy library.
-- The `user guide for the new NumPy system <http://www.tramy.us/>`__. Numeric and Numarray have been unified into the new NumPy environment. This document covers all the details of the new system, and was written by its lead developer.
-- A `tutorial focused on interactive data analysis <http://wiki.scipy.org/Additional_Documentation/Astronomy_Tutorial>`__ for astronomy, but of generic utility to most scientific users. Developed at the STSCI, available for free download including all data files necessary to run the examples.
-- `Konrad Hinsen's Python page <http://starship.python.net/crew/hinsen/>`__: contains a number of introductions and tutorials to Python, geared towards the needs of scientists.
-- `Jacek Generowicz's Python Courses. <http://jacek.home.cern.ch/jacek/python-course>`__
-- `Python Scripting for Computational Science <http://www.springeronline.com/sgw/cda/frontpage/0,11855,5-115-22-17627636-0,00.html>`__: not free, this is a Springer book.
-- `Python/Matlab/Octave/Scilab/R/Gnuplot/IDL/Axiom <http://mathesaurus.sourceforge.net>`__ cross-reference by Vidar Gundersen.
+- `Python Scientific Lecture Notes <http://scipy-lectures.github.io/>`__ a comprehensive set of tutorials on the scientific Python ecosystem. 
 - `Software Carpentry <http://software-carpentry.org/>`__ is an open source course on basic software development skills for people with backgrounds in science, engineering, and medicine.
-- `A tutorial for SciPy <http://www.rexx.com/~dkuhlman/scipy_course_01.html>`__ by Dave Kuhlman ( dkuhlman@rexx.com ).
 - `Lectures on scientific computing with Python <https://github.com/jrjohansson/scientific-python-lectures>`__ by J.R. Johansson.
+
+Older scientific computing tutorials:
+-------------------------------------
+
+- The `extra documentation page <http://wiki.scipy.org/Additional_Documentation/>`__ has a number of important links on using SciPy, including a (slightly outdated, but still useful) `PDF tutorial <http://wiki.scipy.org/Additional_Documentation?action=AttachFile&do=get&target=scipy_tutorial.pdf>`__ for the SciPy library.
+- `A tutorial for SciPy <http://www.rexx.com/~dkuhlman/scipy_course_01.html>`__ by Dave Kuhlman. 
+- `Python Scripting for Computational Science <http://www.springer.com/mathematics/computational+science+%26+engineering/book/978-3-540-73915-9>`__: not free, this is a Springer book.
+- `Python/Matlab/Octave/Scilab/R/Gnuplot/IDL/Axiom <http://mathesaurus.sourceforge.net>`__ cross-reference by Vidar Gundersen.
+- A `tutorial focused on interactive data analysis <http://wiki.scipy.org/Additional_Documentation/Astronomy_Tutorial>`__ for astronomy, but of generic utility to most scientific users. Developed at the STSCI, available for free download including all data files necessary to run the examples.
 
 Working environments
 ====================
@@ -491,6 +492,6 @@ Miscellaneous
 - `PyCVF <http://pycvf.sourceforge.net>`__: A computer vision and videomining Framework.
 - http://wiki.scipy.org/StatisticalDataStructures Wiki page to discuss pandas, larry, NumPy and other issues related to statistical data structures
 
-- `CNEMLIB <https://sn-m2p.cnrs.fr/SphinxDoc/cnem/index.html>`__ : propose an implementation of CNEM in 2d and 3d.The CNEM is a generalisation for non convex domain of the Natural Element Method. It's a FEM like approach. The main functionalities of CNEMLIB are : i) interpolation of scattered data spread on convex or non convex domains with the Natural Neighbour interpolant (Sibson ) in 2d, and the Natural Neighbour interpolant (Sibson or Laplace) or the linear finite element interpolant over the Delaunay tessellation in 3d. ii) a gradient matrix operator which allows to calculate nodal gradients for scattered data(The approach used is based on the stabilized nodal integration, SCNI).iii) a general assembling tools to construct assembled matrix associated with a weak formulation (heat problem, mechanic problem, hydrodynamic problem, general purpose problem) as such used with the Finite Element Method (FEM).
+- `CNEMLIB <https://sn-m2p.cnrs.fr/SphinxDoc/cnem/index.html>`__ : propose an implementation of CNEM in 2d and 3d. The CNEM is a generalisation for non convex domain of the Natural Element Method. It's a FEM like approach. The main functionalities of CNEMLIB are : i) interpolation of scattered data spread on convex or non convex domains with the Natural Neighbour interpolant (Sibson) in 2d, and the Natural Neighbour interpolant (Sibson or Laplace) or the linear finite element interpolant over the Delaunay tessellation in 3d. ii) a gradient matrix operator which allows to calculate nodal gradients for scattered data (the approach used is based on the stabilized nodal integration, SCNI). iii) a general assembling tools to construct assembled matrix associated with a weak formulation (heat problem, mechanic problem, hydrodynamic problem, general purpose problem) as such used with the Finite Element Method (FEM).
 - `aestimo <http://aestimo.ndct.org/doku.php/start>`__: models quantum well semiconductor heterostructure using a 1-D self-consistent Schrödinger-Poisson solver. Contains a shooting method solver and a finite element k.p solver.
 - `plotexplorer_gui <https://pypi.python.org/pypi/plotexplorer_gui/>`__: A wxpython/matplotlib script for plotting and contrasting a collection of graphs via a sortable checkbox list.
