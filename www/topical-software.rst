@@ -72,6 +72,7 @@ Scientific computing with Python tutorials:
 - `Python Scientific Lecture Notes <http://scipy-lectures.github.io/>`__ a comprehensive set of tutorials on the scientific Python ecosystem. 
 - `Software Carpentry <http://software-carpentry.org/>`__ is an open source course on basic software development skills for people with backgrounds in science, engineering, and medicine.
 - `Lectures on scientific computing with Python <https://github.com/jrjohansson/scientific-python-lectures>`__ by J.R. Johansson.
+- `Introduction to Statistics <http://work.thaslwanter.at/Stats/html/>`__ an introduction to the basic statistical concepts, combined with a complete set of application examples for the statistical data analysis with Python (by T. Haslwanter).
 
 Older scientific computing tutorials:
 -------------------------------------
