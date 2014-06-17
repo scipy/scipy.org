@@ -1,8 +1,17 @@
-====================
-Citing SciPy library
-====================
+======================================
+Citing packages in the SciPy ecosystem
+======================================
 
-If you would like to cite the SciPy library in a paper or presentation, the following is recommended:
+A number of articles related to scientific computing with Python have appeared;
+a selection related to some of the core toolstack are listed below. See also
+the `May 2007`__ and `March 2011`__ editions of the journal *Computing in
+Science & Engineering* which focuses on scientific computing with Python.
+
+__ http://scitation.aip.org/content/aip/journal/cise/9/3
+__ http://scitation.aip.org/content/aip/journal/cise/13/2
+
+SciPy (the library)
+###################
 
 * Jones E, Oliphant E, Peterson P, *et al.*
   **SciPy: Open Source Scientific Tools for Python**, 2001-,
@@ -34,18 +43,6 @@ Here's an example of a BibTeX entry:
 For any specific algorithm, also consider citing the original author's paper
 (this can often be found under the "References" section of the docstring).
 
-A number of articles related to scientific computing with Python have appeared;
-a selection related to some of the core toolstack are listed below. See also
-the `May 2007`__ and `March 2011`__ editions of the journal *Computing in
-Science & Engineering* which focuses on scientific computing with Python.
-
-__ http://scitation.aip.org/content/aip/journal/cise/9/3
-__ http://scitation.aip.org/content/aip/journal/cise/13/2
-
-
-Journal Articles
-----------------
-
 Scientific Computing in Python
 ##############################
 
@@ -68,7 +65,7 @@ __ http://scitation.aip.org/content/aip/journal/cise/13/2/10.1109/MCSE.2011.36
 NumPy & SciPy
 #############
 
-* Van der Walt S, Colbert SC and Varoquaux G.
+* Stéfan van der Walt, S. Chris Colbert and Gaël Varoquaux.
   **The NumPy Array: A Structure for Efficient Numerical Computation**,
   Computing in Science & Engineering, **13**, 22-30 (2011),
   `DOI:10.1109/MCSE.2011.37`__ (`publisher link`__)
@@ -97,6 +94,51 @@ Matplotlib
 
 __ http://dx.doi.org/10.1109/MCSE.2007.55
 __ http://scitation.aip.org/content/aip/journal/cise/9/3/10.1109/MCSE.2007.55
+
+Cython
+######
+* Stefan Behnel, Robert Bradshaw, Craig Citro, Lisandro Dalcin, Dag Sverre
+  Seljebotn and Kurt Smith.
+  **Cython: The Best of Both Worlds**,
+  Computing in Science and Engineering, **13**, 31-39 (2011),
+  `DOI:10.1109/MCSE.2010.118`__ (`publisher link`__)
+
+__ http://dx.doi.org/10.1109/MCSE.2010.118
+__ http://scitation.aip.org/content/aip/journal/cise/13/2/10.1109/MCSE.2010.118
+
+Pandas
+######
+* Wes McKinney.
+  **Data Structures for Statistical Computing in Python**,
+  Proceedings of the 9th Python in Science Conference, 51-56 (2010)
+  (`publisher link`__)
+
+__ http://conference.scipy.org/proceedings/scipy2010/mckinney.html
+
+scikit-learn
+############
+
+* Fabian Pedregosa, Gaël Varoquaux, Alexandre Gramfort, Vincent Michel,
+  Bertrand Thirion, Olivier Grisel, Mathieu Blondel, Peter Prettenhofer, Ron
+  Weiss, Vincent Dubourg, Jake Vanderplas, Alexandre Passos, David Cournapeau,
+  Matthieu Brucher, Matthieu Perrot, Édouard Duchesnay.
+  **Scikit-learn: Machine Learning in Python**,
+  Journal of Machine Learning Research, **12**, 2825-2830 (2011)
+  (`publisher link`__)
+
+__ http://jmlr.org/papers/v12/pedregosa11a.html
+
+scikit-image
+############
+
+* Stéfan van der Walt, Johannes L. Schönberger, Juan Nunez-Inglesias, François
+  Boulogne, Joshua D. Warner, Neil Yager, Emmanuelle Gouillart, Tony Yu and the
+  scikit-image contributor.
+  **scikit-image: Image processing in Python**,
+  PeerJ PrePrints, 2:e336v2 (2012)
+  (`publisher link`__)
+
+__ https://peerj.com/preprints/336v2/
 
 F2PY
 ####
