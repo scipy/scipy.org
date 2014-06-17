@@ -133,7 +133,7 @@ scikit-image
 
 * Stéfan van der Walt, Johannes L. Schönberger, Juan Nunez-Inglesias, François
   Boulogne, Joshua D. Warner, Neil Yager, Emmanuelle Gouillart, Tony Yu and the
-  scikit-image contributor.
+  scikit-image contributors.
   **scikit-image: Image processing in Python**,
   PeerJ PrePrints, 2:e336v2 (2012)
   (`publisher link`__)
