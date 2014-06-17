@@ -49,7 +49,7 @@ Journal Articles
 Scientific Computing in Python
 ##############################
 
-* Oliphant TE.
+* Travis E. Oliphant.
   **Python for Scientific Computing**,
   Computing in Science & Engineering, **9**, 10-20 (2007),
   `DOI:10.1109/MCSE.2007.58`__ (`publisher link`__)
@@ -58,7 +58,7 @@ __ http://dx.doi.org/10.1109/MCSE.2007.58
 __ http://scitation.aip.org/content/aip/journal/cise/9/3/10.1109/MCSE.2007.58
 
 
-* Millman, KJ and Aivazis M. **Python for Scientists and Engineers**,
+* K. Jarrod Millman and Michael Aivazis. **Python for Scientists and Engineers**,
   Computing in Science & Engineering, **13**, 9-12 (2011),
   `DOI:10.1109/MCSE.2011.36`__ (`publisher link`__)
 
@@ -79,7 +79,7 @@ __ http://scitation.aip.org/content/aip/journal/cise/13/2/10.1109/MCSE.2011.37
 IPython
 #######
 
-* Pérez F and Granger BE.
+* Fernando Pérez and Brian E. Granger.
   **IPython: A System for Interactive Scientific Computing**,
   Computing in Science & Engineering, **9**, 21-29 (2007),
   `DOI:10.1109/MCSE.2007.53`__ (`publisher link`__)
@@ -90,7 +90,7 @@ __ http://scitation.aip.org/content/aip/journal/cise/9/3/10.1109/MCSE.2007.53
 Matplotlib
 ##########
 
-* Hunter, JD.
+* John D. Hunter.
   **Matplotlib: A 2D Graphics Environment**,
   Computing in Science & Engineering, **9**, 90-95 (2007),
   `DOI:10.1109/MCSE.2007.55`__ (`publisher link`__)
@@ -101,7 +101,7 @@ __ http://scitation.aip.org/content/aip/journal/cise/9/3/10.1109/MCSE.2007.55
 F2PY
 ####
 
-* Peterson, P.
+* Pearu Peterson.
   **F2PY: a tool for connecting Fortran and Python programs**,
   International Journal of Computational Science and Engineering,
   **4** (4), 296-305 (2009),
