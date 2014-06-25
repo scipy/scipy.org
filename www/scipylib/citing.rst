@@ -135,10 +135,10 @@ scikit-image
   Boulogne, Joshua D. Warner, Neil Yager, Emmanuelle Gouillart, Tony Yu and the
   scikit-image contributors.
   **scikit-image: Image processing in Python**,
-  PeerJ PrePrints, 2:e336v2 (2012)
+  PeerJ 2:e453 (2014)
   (`publisher link`__)
 
-__ https://peerj.com/preprints/336v2/
+__ http://dx.doi.org/10.7717/peerj.453
 
 F2PY
 ####
