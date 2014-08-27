@@ -203,13 +203,10 @@ News
 .. role:: news-date
    :class: news-date
 
+NumPy 1.9.0 released :news-date:`2014-09-07`
+    See :doc:`/scipylib/download`.
+
 NumPy 1.8.2 released :news-date:`2014-08-09`
-    See :doc:`/scipylib/download`.
-
-NumPy 1.9.0b2 released :news-date:`2014-07-30`
-    See :doc:`/scipylib/download`.
-
-NumPy 1.9.0b1 released :news-date:`2014-06-08`
     See :doc:`/scipylib/download`.
 
 SciPy 0.14.0 released :news-date:`2014-05-03`
@@ -227,9 +224,6 @@ SciPy 2014
     `SciPy <http://conference.scipy.org/scipy2014/>`__ is an annual conference
     for scientists using Python. The 2014 edition will take place in 
     Austin, Texas, July 6-12.
-
-NumPy 1.8.1rc1 released :news-date:`2014-03-03`
-    See :doc:`/scipylib/download`.
 
 SciPy 0.13.3 released :news-date:`2014-02-04`
     See :doc:`/scipylib/download`.
