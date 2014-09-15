@@ -150,7 +150,7 @@ Converting Code From Other Array Languages
 ------------------------------------------
 
 - `IDL <http://software.pseudogreen.org/i2py/>`__: The Interactive Data Language from ITT
-- `SMOP <http://github.com/victorlei/smop>`__: Small Matlab and Octave to Python converter.  Best for translating legacy matlab libraries to python.  Actively developed.
+- `SMOP <http://github.com/victorlei/smop>`__: Small Matlab and Octave to Python converter. Translates legacy matlab libraries to python.
 
 Plotting, data visualization, 3-D programming
 =============================================
