@@ -21,7 +21,7 @@ which includes all the key packages:
   Supports Linux, Windows and Mac.
 * `Python(x,y) <http://code.google.com/p/pythonxy/>`_: A free distribution
   including the SciPy stack, based around the Spyder IDE.  Windows only.
-* `WinPython <http://winpython.sourceforge.net/>`_: A free distribution
+* `WinPython <http://winpython.github.io>`_: A free distribution
   including the SciPy stack.  Windows only.
 * `Pyzo <http://www.pyzo.org/>`_: A free distribution based on Anaconda and the
   IEP interactive development environment.  Supports Linux, Windows and Mac.
