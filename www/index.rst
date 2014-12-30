@@ -248,6 +248,7 @@ NumPy 1.7.2 released :news-date:`2013-12-31`
    docs
    bug-report
    topical-software
+   citing
    scipylib/index
    scikits
    past-news

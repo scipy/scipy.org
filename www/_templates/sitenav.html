@@ -37,6 +37,8 @@ a.extlink:after {
       </ul>
       {% endif %}
     </li>
+    <li {% if pagename == 'citing' -%}class="active"{%- endif -%}>
+      <a href="{{ pathto('citing') }}">Citing</a></li>
     <li><a class="extlink" href="http://wiki.scipy.org/Cookbook">Cookbook</a></li>
     <li><a class="extlink" href="http://scipy-central.org">SciPy Central</a> 
     <li><a class="extlink" href="http://wiki.scipy.org">Wiki</a></li>
@@ -92,8 +94,6 @@ a.extlink:after {
       <a href="{{ pathto('scipylib/dev-zone') }}">Developer Zone</a></li>
     <li {% if pagename == 'scipylib/donations' -%}class="active"{%- endif -%}>
       <a href="{{ pathto('scipylib/donations') }}">Donations</a></li>
-    <li {% if pagename == 'scipylib/citing' -%}class="active"{%- endif -%}>
-      <a href="{{ pathto('scipylib/citing') }}">Citing</a></li>
     <li {% if pagename == 'scipylib/faq' -%}class="active"{%- endif -%}>
       <a href="{{ pathto('scipylib/faq') }}">FAQ</a></li>
   </ul>

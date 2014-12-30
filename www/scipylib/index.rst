@@ -10,7 +10,6 @@ SciPy library
    bug-report
    dev-zone
    donations
-   citing
    faq
    license
 

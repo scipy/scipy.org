@@ -15,21 +15,20 @@ packages of the SciPy stack is to download one of these Python distributions,
 which includes all the key packages:
 
 * `Anaconda <http://continuum.io/downloads.html>`_: A free distribution
-  for the SciPy stack. Supports Linux, Windows and Mac.
+  for the SciPy stack.  Supports Linux, Windows and Mac.
 * `Enthought Canopy <http://www.enthought.com/products/canopy/>`_: The free and
-  commercial versions include the core SciPy stack packages. Supports Linux,
-  Windows and Mac.
+  commercial versions include the core SciPy stack packages.
+  Supports Linux, Windows and Mac.
 * `Python(x,y) <http://code.google.com/p/pythonxy/>`_: A free distribution
-  including the SciPy stack, based around the Spyder IDE. Windows only.
-* `WinPython <http://code.google.com/p/winpython/>`_: A free distribution
-  including the SciPy stack. Windows only.
-* `Pyzo <http://www.pyzo.org/>`_: A free distribution based on Python 3 (see
-  :ref:`python3`) with the IEP editor. Supports Linux, Windows and Mac.
+  including the SciPy stack, based around the Spyder IDE.  Windows only.
+* `WinPython <http://winpython.sourceforge.net/>`_: A free distribution
+  including the SciPy stack.  Windows only.
+* `Pyzo <http://www.pyzo.org/>`_: A free distribution based on Anaconda and the
+  IEP interactive development environment.  Supports Linux, Windows and Mac.
 * `Algorete Loopy <http://algorete.org>`_: A free, community oriented
   distribution for the SciPy stack maintained by researches at Dartmouth
-  College. Loopy supports both Python 2 and 3 on Linux, Windows and Mac
-  OSX. The distribution is derived from Anaconda with additional packages (e.g.
-  Space Physics, BioInformatics).
+  College.  Supports Linux, Windows and Mac.  The distribution is derived from
+  Anaconda with additional packages (e.g. Space Physics, BioInformatics).
 
 Linux packages
 --------------
@@ -119,16 +118,3 @@ want to get involved with development. This is easy for packages written
 entirely in Python, while others like NumPy require compiling C code. Refer to
 individual projects for more details.
 
-
-.. _python3:
-
-Note on Python 3
-----------------
-
-The Python language is moving from the 2.x series to Python 3. As of late 2012,
-all of the core SciPy Stack packages support Python 3, but some more specialist
-packages still only work on Python 2. The full distribution listed above will
-mostly install Python 2, with the exception of `Pyzo <http://www.pyzo.org/>`_.
-
-If you choose to use the new version of the language, it should be easy to find
-Python 3 versions of packages in your package manager.
