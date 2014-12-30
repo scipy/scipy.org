@@ -8,6 +8,18 @@ Past News
 .. role:: news-date
    :class: news-date
 
+EuroSciPy 2014
+    `EuroSciPy <http://www.euroscipy.org/2014>`__ is the European gathering 
+    for scientists using Python. The 2014 edition will take place in 
+    Cambridge, UK, Aug. 27-31.
+SciPy 2014
+    `SciPy <http://conference.scipy.org/scipy2014/>`__ is an annual conference
+    for scientists using Python. The 2014 edition will take place in 
+    Austin, Texas, July 6-12.
+SciPy 0.13.3 released :news-date:`2014-02-04`
+    See :doc:`/scipylib/download`.
+NumPy 1.7.2 released :news-date:`2013-12-31`
+    See :doc:`/scipylib/download`.
 SciPy 0.13.2 released :news-date:`2013-12-08`
     See :doc:`/scipylib/download`.
 NumPy 1.7.2rc1 released :news-date:`2013-11-03`
