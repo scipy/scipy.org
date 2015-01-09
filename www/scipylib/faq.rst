@@ -355,13 +355,16 @@ you may find your matrices accidentally get converted into arrays. Just use
 Why not just have a separate operator for matrix multiplication?
 ################################################################
 
-Unfortunately Python does not allow extension modules to define new operators,
-and there is no operator we can overload for this purpose. This is however the
-subject of `PEP 225 <http://www.python.org/dev/peps/pep-0225/>`_, which
-(if accepted) would add several operators to the Python language. A summary
-of a discussion of PEP 225's relative merits at SciPy 2008 can be found
-in this `archived post to the Python-dev mailing list <http://mail.python.org/
-pipermail/python-dev/2008-November/083493.html>`_.
+From Python 3.5, the ``@`` symbol will be defined as a matrix multiplication
+operator, and Numpy and Scipy will make use of this. This addition was the
+subject of `PEP 465 <https://www.python.org/dev/peps/pep-0465/>`_. The separate
+matrix and array types exist to work around the lack of this operator in earlier
+versions of Python.
+
+In fact, additional operators to meet this need were proposed as far back as
+Python 2.1, in `PEP 225 <https://www.python.org/dev/peps/pep-0225/>`_. That
+proposal was arguably overambitious, adding six new operators, and it was not
+accepted.
 
 
 How do I find the indices of an array where some condition is true?
