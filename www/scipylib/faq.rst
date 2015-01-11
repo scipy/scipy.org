@@ -493,6 +493,12 @@ array is written to twice.
 Where to get help
 -----------------
 
+You can ask questions with the `Scipy tag on Stackoverflow
+<http://stackoverflow.com/questions/tagged/scipy>`_, or on the scipy-user
+:doc:`mailing list <mailing-lists>`. Search for an answer first, because someone
+may already have found a solution to your problem, and using that will save
+everyone time.
+
 .. Links
 .. _f2py: http://www.f2py.org/
 .. _Enthought: http://www.enthought.com/
