@@ -361,12 +361,6 @@ subject of `PEP 465 <https://www.python.org/dev/peps/pep-0465/>`_. The separate
 matrix and array types exist to work around the lack of this operator in earlier
 versions of Python.
 
-In fact, additional operators to meet this need were proposed as far back as
-Python 2.1, in `PEP 225 <https://www.python.org/dev/peps/pep-0225/>`_. That
-proposal was arguably overambitious, adding six new operators, and it was not
-accepted.
-
-
 How do I find the indices of an array where some condition is true?
 ###################################################################
 
