@@ -270,7 +270,7 @@ Automatic differentiation
 - `pycppad <http://www.seanet.com/~bradbell/pycppad/index.htm>`__ - wrapper for CppAD, second order forward/reverse
 - `pyadolc <http://github.com/b45ch1/pyadolc>`__ - wrapper for ADOL-C, arbitrary order forward/reverse
 - `algopy <http://pythonhosted.org/algopy/>`__ - evaluation of higher-order derivatives in the forward and reverse mode of algorithmic differentiation, with a particular focus on numerical linear algebra
-- `CasADi <https://github.com/casadi/casadi/wiki/>`__ - a symbolic framework for algorithmic (a.k.a. automatic) differentiation and numeric optimization
+- `CasADi <http://casadi.org>`__ - a symbolic framework for algorithmic (a.k.a. automatic) differentiation and numeric optimization
 
 Finite differences derivatives approximation
 ============================================
