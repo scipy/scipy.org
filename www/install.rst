@@ -14,7 +14,7 @@ For most users, especially on Windows and Mac, the easiest way to install the
 packages of the SciPy stack is to download one of these Python distributions,
 which includes all the key packages:
 
-* `Anaconda <http://continuum.io/downloads.html>`_: A free distribution
+* `Anaconda <http://continuum.io/downloads>`_: A free distribution
   for the SciPy stack.  Supports Linux, Windows and Mac.
 * `Enthought Canopy <http://www.enthought.com/products/canopy/>`_: The free and
   commercial versions include the core SciPy stack packages.
@@ -25,10 +25,6 @@ which includes all the key packages:
   including the SciPy stack.  Windows only.
 * `Pyzo <http://www.pyzo.org/>`_: A free distribution based on Anaconda and the
   IEP interactive development environment.  Supports Linux, Windows and Mac.
-* `Algorete Loopy <http://algorete.org>`_: A free, community oriented
-  distribution for the SciPy stack maintained by researches at Dartmouth
-  College.  Supports Linux, Windows and Mac.  The distribution is derived from
-  Anaconda with additional packages (e.g. Space Physics, BioInformatics).
 
 Linux packages
 --------------

@@ -103,12 +103,12 @@ particular, these are some of the core packages:
   <li class="span4">
   <div class="thumbnail">
   <div class="pull-left img">
-    <a href="http://numpy.scipy.org">
+    <a href="http://numpy.org">
     <img alt="numpy" src="_static/images/numpylogo_med.png" width="64">
     </a>
   </div>
   <div class="img-label">
-    <h4 class="media-heading"><a href="http://numpy.scipy.org">NumPy</a></h4>
+    <h4 class="media-heading"><a href="http://numpy.org">NumPy</a></h4>
     Base N-dimensional array package
   </div>
   </div>

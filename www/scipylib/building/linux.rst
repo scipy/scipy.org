@@ -446,7 +446,7 @@ Note that make ptshared might not work on a single core machine. Note also that 
 Step 3: Build UMFPACK (5.5.0) with AMD (2.2.1), UFConfig(3.5.0) and CHOLMOD (1.7.1)
 -----------------------------------------------------------------------------------
 
-NOTE: Dowloading and building the entire `SuiteSparse <http://www.cise.ufl.edu/research/sparse/SuiteSparse/>`__ all at once is easier than the following steps. `SuiteSparse <http://www.cise.ufl.edu/research/sparse/SuiteSparse/>`__ Version 4.0.2 is confirmed to have worked on Xubuntu 12.10 with the latest ATLAS, LAPACK, `NumPy <http://numpy.scipy.org>`__ and SciPy as of 2012-10-18.
+NOTE: Dowloading and building the entire `SuiteSparse <http://www.cise.ufl.edu/research/sparse/SuiteSparse/>`__ all at once is easier than the following steps. `SuiteSparse <http://www.cise.ufl.edu/research/sparse/SuiteSparse/>`__ Version 4.0.2 is confirmed to have worked on Xubuntu 12.10 with the latest ATLAS, LAPACK, `NumPy <http://numpy.org>`__ and SciPy as of 2012-10-18.
 
 --
 
