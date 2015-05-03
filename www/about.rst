@@ -61,10 +61,10 @@ is a brief overview of a few major ones:
 
 See the :doc:`topical-software` page for more.
 
-.. _NumPy: http://numpy.scipy.org/
+.. _NumPy: http://numpy.org/
 .. _Matplotlib: http://matplotlib.org/
 .. _pandas: http://pandas.pydata.org/
-.. _SymPy: http://sympy.org/
+.. _SymPy: http://www.sympy.org/
 .. _nose: https://nose.readthedocs.org/en/latest/
 .. _IPython: http://ipython.org/
 .. _Python: http://www.python.org/
@@ -72,15 +72,15 @@ See the :doc:`topical-software` page for more.
 .. _Scikits: http://scikits.appspot.com/scikits
 .. _scikit-image: http://scikit-image.org/
 .. _scikit-learn: http://scikit-learn.org/
-.. _h5py: http://code.google.com/p/h5py/
-.. _PyTables: http://www.pytables.org/moin
+.. _h5py: http://www.h5py.org
+.. _PyTables: http://www.pytables.org
 
 .. ETS stuff
 .. _Enthought Tool Suite: http://code.enthought.com/projects/index.php
 .. _Chaco: http://code.enthought.com/projects/chaco/
 .. _Traits: http://code.enthought.com/projects/traits/
 .. _Mayavi: http://code.enthought.com/projects/mayavi/
-.. _VTK: http://vtk.org/
+.. _VTK: http://www.vtk.org/
 
 .. Indices and tables
 .. ==================

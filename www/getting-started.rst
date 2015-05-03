@@ -140,9 +140,9 @@ Contents of a file ``example.py``:
 
 .. _Traits: http://code.enthought.com/projects/traits/
 .. _wxPython: http://www.wxpython.org/
-.. _IPython: http://ipython.scipy.org/
+.. _IPython: http://ipython.org/
 .. _matplotlib: http://matplotlib.sourceforge.net/
 .. _Emacs: http://www.gnu.org/software/emacs/
 .. _Vim: http://www.vim.org/
 .. _official Python tutorial: http://docs.python.org/tutorial/
-.. _Django: http://djangoproject.com/
+.. _Django: https://www.djangoproject.com/
