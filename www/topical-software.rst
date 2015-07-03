@@ -120,6 +120,7 @@ These are links which cover basic tools generally useful for scientific work in 
 - `PyIMSLStudio <http://www.vni.com/campaigns/pyimslstudioeval>`__ is a complete packaged, supported and documented development environment for Windows and Red Hat designed for prototyping mathematics and statistics models and deploying them into production applications. PyIMSL Studio includes wrappers for the IMSL Numerical Library, a Python distribution and a selection of open source python modules useful for prototype analytical development. PyIMSL Studio is available for download at no charge for non-commercial use or for commercial evaluation.
 - `Bottleneck <http://pypi.python.org/pypi/Bottleneck>`__ is a collection of fast NumPy array functions written in Cython.
 - `KryPy <https://github.com/andrenarchy/krypy>`__ is a Krylov subspace methods package for the efficient solution of linear algebraic systems with large and sparse matrices.
+- `Imageio <http://imageio.github.io/>__ is a library that provides an easy interface to read and write a wide range of image data, including animated images, video, volumetric data, and scientific formats. It is cross-platform, runs on Python 2.x and 3.x, and is easy to install.
 
 Running Code Written In Other Languages
 =======================================
