@@ -121,7 +121,7 @@ These are links which cover basic tools generally useful for scientific work in 
 - `Bottleneck <http://pypi.python.org/pypi/Bottleneck>`__ is a collection of fast NumPy array functions written in Cython.
 - `KryPy <https://github.com/andrenarchy/krypy>`__ is a Krylov subspace methods package for the efficient solution of linear algebraic systems with large and sparse matrices.
 - `Imageio <http://imageio.github.io/>`__ is a library that provides an easy interface to read and write a wide range of image data, including animated images, video, volumetric data, and scientific formats. It is cross-platform, runs on Python 2.x and 3.x, and is easy to install.
-
+- `mpmath <http://mpmath.org/>`__ is a free (BSD licensed) Python library for real and complex floating-point arithmetic with arbitrary precision.
 Running Code Written In Other Languages
 =======================================
 
