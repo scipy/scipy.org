@@ -203,25 +203,13 @@ News
 .. role:: news-date
    :class: news-date
 
-SciPy 0.15.0 released :news-date:`2015-01-11`
+SciPy 0.16.0 released :news-date:`2015-07-23`
     See :doc:`/scipylib/download`.
 
-SciPy 0.14.1 released :news-date:`2014-12-30`
+NumPy 1.9.2 released :news-date:`2015-03-01`
     See :doc:`/scipylib/download`.
 
-NumPy 1.9.1 released :news-date:`2014-11-02`
-    See :doc:`/scipylib/download`.
-
-NumPy 1.9.0 released :news-date:`2014-09-07`
-    See :doc:`/scipylib/download`.
-
-NumPy 1.8.2 released :news-date:`2014-08-09`
-    See :doc:`/scipylib/download`.
-
-SciPy 0.14.0 released :news-date:`2014-05-03`
-    See :doc:`/scipylib/download`.
-
-NumPy 1.8.1 released :news-date:`2014-03-26`
+SciPy 0.15.1 released :news-date:`2015-01-18`
     See :doc:`/scipylib/download`.
 
 .. raw:: html
