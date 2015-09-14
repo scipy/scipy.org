@@ -19,7 +19,7 @@ which includes all the key packages:
 * `Enthought Canopy <http://www.enthought.com/products/canopy/>`_: The free and
   commercial versions include the core SciPy stack packages.
   Supports Linux, Windows and Mac.
-* `Python(x,y) <http://code.google.com/p/pythonxy/>`_: A free distribution
+* `Python(x,y) <http://python-xy.github.io/>`_: A free distribution
   including the SciPy stack, based around the Spyder IDE.  Windows only.
 * `WinPython <http://winpython.github.io>`_: A free distribution
   including the SciPy stack.  Windows only.
