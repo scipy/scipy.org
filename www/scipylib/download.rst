@@ -26,15 +26,16 @@ vendor.
 |        |                              |                                     |
 +--------+------------------------------+-------------------------------------+
 |        |  Official *source code*      |                                     |
-|        |  (all platforms) and         | `SourceForge site for SciPy`_       |
+|        |  (all platforms) and         | `SciPy release page`_               |
 | SciPy  |  *binaries* for **Windows**  |                                     |
-|        |  & **Mac OS X**              |                                     |
+|        |  & **Mac OS X**              | `SourceForge site for SciPy`_       |
 |        |                              |                                     |
 +--------+------------------------------+-------------------------------------+
 
 Build instructions are available for :doc:`Linux <building/linux>`,
 :doc:`Windows <building/windows>` and :doc:`Mac OSX <building/macosx>`.
 
+.. _SciPy release page: https://github.com/scipy/scipy/releases
 .. _SourceForge site for NumPy: http://sourceforge.net/projects/numpy/files/
 .. _SourceForge site for SciPy: http://sourceforge.net/projects/scipy/files/
 .. _SciPy PPA on Launchpad: https://edge.launchpad.net/~scipy/+archive/ppa
