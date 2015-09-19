@@ -77,6 +77,17 @@ SciPy.org
   <li class="span2">
   <div class="thumbnail">
   <div class="img">
+    <a href="http://central.scipy.org">
+    <img alt="Blogs" src="_static/images/scipycentral.png" title="SciPy Central">
+    <br>Central
+    </a>
+  </div>
+  </div>
+  </li>
+  
+  <li class="span2">
+  <div class="thumbnail">
+  <div class="img">
     <a href="http://planet.scipy.org">
     <img alt="Blogs" src="_static/images/feed-icon.png" title="Blogs" height="80">
     <br>Blogs
