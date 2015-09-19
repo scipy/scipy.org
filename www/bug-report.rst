@@ -20,9 +20,9 @@ list of the project it concerns.  Trackers:
 
 Bug reports and suggestions for this website (http://scipy.org) should be
 submitted at https://github.com/scipy/scipy.org/issues.  Errors in
-documentation should be repoted on the project-specific issue trackers above.
+documentation however should be reported on the project-specific issue trackers above.
 Technical problems with http://docs.scipy.org such as connectivity issues, etc.
-however should be reported to the scipy.org website issue tracker.
+should be reported to the scipy.org website issue tracker.
 
 Guidelines for submitting bugs
 ------------------------------
