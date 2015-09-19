@@ -18,12 +18,11 @@ list of the project it concerns.  Trackers:
 
    - `SymPy <http://code.google.com/p/sympy/issues/list>`_
 
-Bug reports and suggestions for this website (http://scipy.org) should be submitted
-at https://github.com/scipy/scipy.org/issues.  That includes generic issues
-like out-of-date docs, connectivity issues, etc. with http://docs.scipy.org.
-Issues with project-specific documentation on that site has to be reported on
-the Numpy or Scipy issue tracker linked above.
-
+Bug reports and suggestions for this website (http://scipy.org) should be
+submitted at https://github.com/scipy/scipy.org/issues.  Errors in
+documentation should be repoted on the project-specific issue trackers above.
+Technical problems with http://docs.scipy.org such as connectivity issues, etc.
+however should be reported to the scipy.org website issue tracker.
 
 Guidelines for submitting bugs
 ------------------------------
