@@ -8,6 +8,10 @@ Past News
 .. role:: news-date
    :class: news-date
 
+NumPy 1.9.2 released :news-date:`2015-03-01`
+    See :doc:`/scipylib/download`.
+SciPy 0.15.1 released :news-date:`2015-01-18`
+    See :doc:`/scipylib/download`.
 SciPy 0.15.0 released :news-date:`2015-01-11`
     See :doc:`/scipylib/download`.
 SciPy 0.14.1 released :news-date:`2014-12-30`
