@@ -77,11 +77,9 @@ Scientific computing with Python tutorials:
 Older scientific computing tutorials:
 -------------------------------------
 
-- The `extra documentation page <http://wiki.scipy.org/Additional_Documentation/>`__ has a number of important links on using SciPy, including a (slightly outdated, but still useful) `PDF tutorial <http://wiki.scipy.org/Additional_Documentation?action=AttachFile&do=get&target=scipy_tutorial.pdf>`__ for the SciPy library.
-- `A tutorial for SciPy <http://www.rexx.com/~dkuhlman/scipy_course_01.html>`__ by Dave Kuhlman. 
 - `Python Scripting for Computational Science <http://www.springer.com/mathematics/computational+science+%26+engineering/book/978-3-540-73915-9>`__: not free, this is a Springer book.
 - `Python/Matlab/Octave/Scilab/R/Gnuplot/IDL/Axiom <http://mathesaurus.sourceforge.net>`__ cross-reference by Vidar Gundersen.
-- A `tutorial focused on interactive data analysis <http://wiki.scipy.org/Additional_Documentation/Astronomy_Tutorial>`__ for astronomy, but of generic utility to most scientific users. Developed at the STSCI, available for free download including all data files necessary to run the examples.
+- A `tutorial focused on interactive data analysis <http://stsdas.stsci.edu/perry/pydatatut.pdf>`__ for astronomy, but of generic utility to most scientific users. Developed at the STSCI, available for free download including `all data files <http://stsdas.stsci.edu/perry/full.tar.gz>`__ necessary to run the examples.
 
 Working environments
 ====================
@@ -131,9 +129,9 @@ Wrapping C, C++, and FORTRAN Codes
 ----------------------------------
 
 - `SWIG <http://www.swig.org/>`__: SWIG is a software development tool that connects programs written in C and C++ with a variety of high-level programming languages. SWIG is primarily used with common scripting languages such as Perl, Python, Tcl/Tk and Ruby. The `SWIG Typemaps <https://geodoc.uchicago.edu/climatewiki/SwigTypemaps>`__ page SWIG modifications for usage with Numeric arrays.
-- `Boost.Python <http://www.boost.org/libs/python/doc/index.html>`__: a C++ library which enables seamless interoperability between C++ and Python. The `PythonInfo Wiki <http://wiki.python.org/moin/boost.python>`__ contains a good howto reference. "c++-sig": http://www.python.org/community/sigs/current/cplusplus-sig/ at python.org is devoted to Boost and you can subscribe to their mailing list. Some personal notes can be found at http://wiki.scipy.org/Boost.Notes
+- `Boost.Python <http://www.boost.org/libs/python/doc/index.html>`__: a C++ library which enables seamless interoperability between C++ and Python. The `PythonInfo Wiki <http://wiki.python.org/moin/boost.python>`__ contains a good howto reference. "c++-sig": http://www.python.org/community/sigs/current/cplusplus-sig/ at python.org is devoted to Boost and you can subscribe to their mailing list.
 - `F2PY <http://cens.ioc.ee/projects/f2py2e/>`__: provides a connection between the Python and Fortran languages. F2PY is a Python extension tool for creating Python C/API modules from (handwritten or F2PY generated) signature files (or directly from Fortran sources).
-- http://wiki.scipy.org/Weave: allows the inclusion of C/C++ within Python code. It has facilities for automatic creation of C/C++ based Python extension modules, as well as for direct inlining of C/C++ code in Python sources. The latter combines the scripting flexibility of Python with the execution speed of compiled C/C++, while handling automatically all module generation details.
+- http://github.com/scipy/weave: allows the inclusion of C/C++ within Python code. It has facilities for automatic creation of C/C++ based Python extension modules, as well as for direct inlining of C/C++ code in Python sources. The latter combines the scripting flexibility of Python with the execution speed of compiled C/C++, while handling automatically all module generation details.
 - `Pyrex <http://www.cosc.canterbury.ac.nz/~greg/python/Pyrex/>`__: Pyrex lets you write code that mixes Python and C data types any way you want, and compiles it into a C extension for Python. See also `Cython <http://cython.org>`__.
 - `PyCxx <http://cxx.sourceforge.net>`__: CXX/Objects is a set of C++ facilities to make it easier to write Python extensions. The chief way in which PyCXX makes it easier to write Python extensions is that it greatly increases the probability that your program will not make a reference-counting error and will not have to continually check error returns from the Python C API.
 - `ctypes <http://starship.python.net/crew/theller/ctypes>`__: a package to create and manipulate C data types in Python, and to call functions in dynamic link libraries/shared dlls. It allows wrapping these libraries in pure Python.
@@ -161,7 +159,7 @@ Plotting, data visualization, 3-D programming
 Tools with a (mostly) 2-D focus
 -------------------------------
 
-- `matplotlib <http://matplotlib.org>`__: a Python 2-D plotting library which produces publication quality figures using in a variety of hardcopy formats (PNG, JPG, PS, SVG) and interactive GUI environments (WX, GTK, Tkinter, FLTK, Qt) across platforms. matplotlib can be used in python scripts, interactively from the python shell (ala matlab or mathematica), in web application servers generating dynamic charts, or embedded in GUI applications. For interactive use, `IPython <http://ipython.org/>`__ provides a special mode which integrates with matplotlib. See the `matplotlib cookbook <http://wiki.scipy.org/Cookbook/Matplotlib>`__ for recipes.
+- `matplotlib <http://matplotlib.org>`__: a Python 2-D plotting library which produces publication quality figures using in a variety of hardcopy formats (PNG, JPG, PS, SVG) and interactive GUI environments (WX, GTK, Tkinter, FLTK, Qt) across platforms. matplotlib can be used in python scripts, interactively from the python shell (ala matlab or mathematica), in web application servers generating dynamic charts, or embedded in GUI applications. For interactive use, `IPython <http://ipython.org/>`__ provides a special mode which integrates with matplotlib. See the `matplotlib gallery <http://matplotlib.org/gallery.html>`__ for recipes.
 - `Bokeh <http://bokeh.pydata.org/>`__: an interactive web visualization library for large datasets. Its goal is to provide elegant, concise construction of novel graphics in the style of Protovis/D3, while delivering high-performance interactivity over large data to thin clients.
 - `Chaco <http://code.enthought.com/projects/chaco/>`__: Chaco is a Python toolkit for producing interactive plotting applications. Chaco applications can range from simple line plotting scripts up to GUI applications for interactively exploring different aspects of interrelated data. As an open-source project being developed by Enthought, Chaco leverages other Enthought technologies such as Kiva, Enable, and Traits to produce highly interactive plots of publication quality.
 - `PyQwt <http://pyqwt.sourceforge.net>`__: a set of Python bindings for the `Qwt <http://qwt.sourceforge.net/>`__ C++ class library which extends the `Qt <http://www.trolltech.com/>`__ framework with widgets for scientific and engineering applications. It provides a widget to plot 2-dimensional data and various widgets to display and control bounded or unbounded floating point values.
@@ -187,7 +185,6 @@ Data visualization (mostly 3-D, surfaces and volumetric rendering)
 - `Py2DX <http://www.psc.edu/~eschenbe>`__: Py2DX is a Python binding for the `OpenDX <http://www.opendx.org/>`__ API based on Py-OpenDX. Mavis is a visualisation software built using this interfacce and the OpenDX library.(Rjoy)
 - `IVuPy <http://ivupy.sourceforge.net/>`__: (I-View-Py) serves to develop Python programs for 3D visualization of huge data sets using Qt and PyQt. IVuPy interfaces more than 600 classes of two of the `Coin3D <http://www.coin3d.org/>`__ C++ libraries to Python, integrates very well with PyQt, and is fun to program. Coin3D is a `scene graph <http://www.tomshardware.se/column/20000110/>`__ library, and is optimized for speed. In comparison with `VTK <http://www.vtk.org/>`__, Coin3D is more low level and lacks many of VTK's advanced visualization and imaging algorithms.
 - `Pivy <http://pivy.coin3d.org/>`__ is another Coin3D binding for Python. Pivy allows the development of Coin3D applications and extensions in Python, interactive modification of Coin3D programs from within the Python interpreter at runtime and incorporation of Scripting Nodes into the scene graph which are capable of executing Python code and callbacks.
-- `Mat3D <http://wiki.scipy.org/WilnaDuToit>`__ provides a few routines for basic 3D plotting. It makes use of OpenGL and is written in Python and Tk. One can interact (rotate and zoom) with with the generated graph and the view can be saved to an image.
 - `S2PLOT <http://astronomy.swin.edu.au/s2plot/>`__ is a three-dimensional plotting library based on OpenGL with support for standard and enhanced display devices. The S2PLOT library was written in C and can be used with C, C++, FORTRAN and Python programs on GNU/Linux, Apple/OSX and GNU/Cygwin systems. The library is currently closed-source, but free for commercial and academic use. They are hoping for an open source release towards the end of 2008.
 - `pyqtgraph <http://luke.campagnola.me/code/pyqtgraph>`__: Pure-python plotting, 3D graphics (including volumetric and isosurface rendering), and GUI library based on PyQt, python-opengl, and numpy/scipy. 
 
@@ -289,7 +286,6 @@ Data Storage / Database
 - `PyTables <http://www.pytables.org>`__: PyTables is a hierarchical database package designed to efficiently manage very large amounts of data. It is built on top of the `HDF5 library <http://www.hdfgroup.org/HDF5>`__ and the `NumPy <http://numpy.org>`__ package.
 - `pyhdf <http://pysclint.sourceforge.net/pyhdf>`__: pyhdf is a python interface to the `HDF4 <http://www.hdfgroup.org/products/hdf4/>`__ library. Among the numerous components offered by HDF4, the following are currently supported by pyhdf: SD (Scientific Dataset), VS (Vdata), V (Vgroup) and HDF (common declarations).
 - `h5py <http://h5py.alfven.org/>`__: h5py is a python interface to the `HDF5 <http://www.hdfgroup.org/HDF5/>`__ library.  It provides a more direct wrapper for HDF5 than PyTables.
-- http://wiki.scipy.org/RSFormats
 
 Parallel and distributed programming
 ====================================
@@ -322,14 +318,14 @@ Topic guides, organized by scientific field
 Astronomy
 ---------
 
-- `AstroPy <http://wiki.scipy.org/wikis/topical_software/Astronomy>`__: Central repository of information about Python and Astronomy.
+- `AstroPy <http://astropy.org>`__: Central repository of information about Python and Astronomy.
 - `AstroPython <http://www.astropython.org>`__: Knowledge base for research in astronomy using                 Python.
 - `PyFITS <http://www.stsci.edu/resources/software_hardware/pyfits>`__: interface to `FITS <http://www.cv.nrao.edu/fits/>`__ formatted files under the `Python <http://www.python.org/>`__ scripting language and `PyRAF <http://www.stsci.edu/resources/software_hardware/pyraf>`__, the Python-based interface to IRAF.
 - `PyRAF <http://www.stsci.edu/resources/software_hardware/pyraf>`__: a new command language for running IRAF tasks that is based on the Python scripting language.
 - `BOTEC <http://www.alcyone.com/software/botec>`__: a simple astrophysical and orbital mechanics calculator, including a database of all named Solar System objects.
 - AstroLib: an open source effort to develop general astronomical utilities akin to those available in the IDL ASTRON package
 - `APLpy <http://aplpy.sourceforge.net>`__: a Python module aimed at producing publication-quality plots of astronomical imaging data in FITS format.
-- `Tutorial <http://wiki.scipy.org/wikis/topical_software/Tutorial>`__: Using Python for interactive data analysis in astronomy.
+- `Tutorial <http://stsdas.stsci.edu/perry/pydatatut.pdf>`__: Using Python for interactive data analysis in astronomy.
 - `Casa <http://casa.nrao.edu/>`__ a suite of C++ application libraries for the reduction and analysis of radioastronomical data (derived from the former AIPS++ package) with a Python scripting interface.
 - `Healpy <http://planck.lal.in2p3.fr/wiki/pmwiki.php/Softs/Healpy>`__ Python package for using and plotting HEALpix data (e.g. spherical surface maps such as WMAP data).
 - `Pysolar <http://pysolar.org/>`__ Collection of Python libraries for simulating the irradiation of any point on earth by the sun. Pysolar includes code for extremely precise ephemeris calculations, and more. Could be also grouped under engineering tools.
@@ -498,7 +494,6 @@ Miscellaneous
 - SciPyAmazonAmi: Add software you would like installed on a publicly available Amazon EC2 image here
 - `larry <https://pypi.python.org/pypi/la>`__: Label the rows, columns, any dimension, of your NumPy arrays.
 - `PyCVF <http://pycvf.sourceforge.net>`__: A computer vision and videomining Framework.
-- http://wiki.scipy.org/StatisticalDataStructures Wiki page to discuss pandas, larry, NumPy and other issues related to statistical data structures
 
 - `CNEMLIB <https://sn-m2p.cnrs.fr/SphinxDoc/cnem/index.html>`__ : propose an implementation of CNEM in 2d and 3d. The CNEM is a generalisation for non convex domain of the Natural Element Method. It's a FEM like approach. The main functionalities of CNEMLIB are : i) interpolation of scattered data spread on convex or non convex domains with the Natural Neighbour interpolant (Sibson) in 2d, and the Natural Neighbour interpolant (Sibson or Laplace) or the linear finite element interpolant over the Delaunay tessellation in 3d. ii) a gradient matrix operator which allows to calculate nodal gradients for scattered data (the approach used is based on the stabilized nodal integration, SCNI). iii) a general assembling tools to construct assembled matrix associated with a weak formulation (heat problem, mechanic problem, hydrodynamic problem, general purpose problem) as such used with the Finite Element Method (FEM).
 - `aestimo <http://aestimo.ndct.org/doku.php/start>`__: models quantum well semiconductor heterostructure using a 1-D self-consistent Schrödinger-Poisson solver. Contains a shooting method solver and a finite element k.p solver.
