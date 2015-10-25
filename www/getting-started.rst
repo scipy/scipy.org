@@ -69,10 +69,6 @@ is to take a look at the following online resources:
 
 - `Python Scientific Lecture Notes <http://scipy-lectures.github.io/index.html>`_
 
-- `Additional Documentation
-  <http://wiki.scipy.org/Additional_Documentation>`_ includes a list of several
-  tutorials
-
 - `SciPy Tutorial <http://docs.scipy.org/doc/scipy/reference/tutorial/index.html>`_ 
   contains examples for each submodule in the SciPy library
 
