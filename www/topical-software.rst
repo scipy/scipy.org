@@ -122,6 +122,8 @@ These are links which cover basic tools generally useful for scientific work in 
 - `KryPy <https://github.com/andrenarchy/krypy>`__ is a Krylov subspace methods package for the efficient solution of linear algebraic systems with large and sparse matrices.
 - `Imageio <http://imageio.github.io/>`__ is a library that provides an easy interface to read and write a wide range of image data, including animated images, video, volumetric data, and scientific formats. It is cross-platform, runs on Python 2.x and 3.x, and is easy to install.
 - `mpmath <http://mpmath.org/>`__ is a free (BSD licensed) Python library for real and complex floating-point arithmetic with arbitrary precision.
+
+
 Running Code Written In Other Languages
 =======================================
 
@@ -272,6 +274,7 @@ Automatic differentiation
 - `pyadolc <http://github.com/b45ch1/pyadolc>`__ - wrapper for ADOL-C, arbitrary order forward/reverse
 - `algopy <http://pythonhosted.org/algopy/>`__ - evaluation of higher-order derivatives in the forward and reverse mode of algorithmic differentiation, with a particular focus on numerical linear algebra
 - `CasADi <http://casadi.org>`__ - a symbolic framework for algorithmic (a.k.a. automatic) differentiation and numeric optimization
+- `autograd <https://github.com/HIPS/autograd>`__ - efficient automatic differentiation with good support for code using Numpy.
 
 Finite differences derivatives approximation
 ============================================
