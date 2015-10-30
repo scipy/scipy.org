@@ -700,7 +700,7 @@ Modify cc_exe in numpy/numpy/distutils/intelccompiler.py to be something like:
 
    cc_exe = 'icc -O2 -g -openmp -avx'
 
-Here we use, default optimizations (-O2), OpenMP threading (-openmp) and Intel® AVX optimizations for Intel® Xeon E5 or E3 Series which are based on Intel® `SandyBridge <http://wiki.scipy.org/SandyBridge>`__ Architecture (-avx).  Run icc --help for more information on processor-specific options.
+Here we use, default optimizations (-O2), OpenMP threading (-openmp) and Intel® AVX optimizations for Intel® Xeon E5 or E3 Series which are based on Intel® SandyBridge Architecture (-avx).  Run icc --help for more information on processor-specific options.
 
 Compile and install NumPy with the Intel compiler (on 64-bit platforms replace "intel" with "intelem"):
 

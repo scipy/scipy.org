@@ -1,14 +1,23 @@
 RewriteEngine on
 
 # Redirects to the old site, now at wiki.scipy.org
-RewriteRule ^(Cookbook|Developer_Zone|EuroScipy|F2Py|History_of_SciPy|License_Compatibility|MlabWrap|NumPy_for_Matlab_Users|Numpy_Functions_by_Category|PerformanceTips|PyLab|ReleaseNotes|Scipy200|SubmillisecondPulsar|Tentative_NumPy_Tutorial) \
-    http://wiki.scipy.org%{REQUEST_URI} [R=permanent]
+#RewriteRule ^(EuroScipy|History_of_SciPy|License_Compatibility|MlabWrap|PerformanceTips|PyLab|Scipy200|SubmillisecondPulsar) \
+#    http://wiki.scipy.org%{REQUEST_URI} [R]
 
 # Redirect from scipy.org/doc/*
 RewriteRule ^(doc/) http://docs.scipy.org/ [R=permanent]
 
 # Redirect URLs from the MoinMoin site to their new equivalents
 RewriteRule ^(Download|Installing_SciPy) /install.html [R=permanent]
+RewriteRule ^(scipy_Example_List) https://docs.scipy.org/doc/scipy/reference/ [R=permanent]
+RewriteRule ^(Numpy_Example_List) https://docs.scipy.org/doc/numpy/reference/routines.html [R=permanent]
+RewriteRule ^(Numpy_Functions_by_Category) https://docs.scipy.org/doc/numpy/reference/routines.html [R=permanent]
+RewriteRule ^(Tentative_NumPy_Tutorial) https://docs.scipy.org/doc/numpy-dev/user/quickstart.html [R=permanent]
+RewriteRule ^(Cookbook) http://scipy-cookbook.readthedocs.org/ [R=permanent]
+RewriteRule ^(F2Py) https://docs.scipy.org/doc/numpy/f2py/ [R=permanent]
+RewriteRule ^(ReleaseNotes) https://docs.scipy.org/ [R=permanent]
+RewriteRule ^(Developer_Zone) https://scipy.org/ [R=permanent]
+RewriteRule ^(NumPy_for_Matlab_Users) https://docs.scipy.org/doc/numpy-dev/user/numpy-for-matlab-users.html [R=permanent]
 RewriteRule ^(Documentation|Additional_Documentation) http://docs.scipy.org/ [R=permanent]
 RewriteRule ^FAQ /scipylib/faq.html [R=permanent]
 RewriteRule ^Getting_Started /getting-started.html [R=permanent]

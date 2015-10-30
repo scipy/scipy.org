@@ -59,5 +59,4 @@ Guidelines for submitting bugs
       ...
 
   Then use the "bt" command after the segfault happens to get the backtrace.
-  Alternatively, `run the code through Valgrind
-  <http://wiki.scipy.org/Cookbook/C_Extensions#head-9d3c4f5894aa215af47ea7784a33ab0252d230d8>`_.
+  Alternatively, run the code using `Valgrind <http://valgrind.org/>`__.
