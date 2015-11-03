@@ -13,22 +13,24 @@ __ http://scitation.aip.org/content/aip/journal/cise/13/2
 SciPy (the library)
 ###################
 
-* Jones E, Oliphant E, Peterson P, *et al.*
-  **SciPy: Open Source Scientific Tools for Python**, 2001-,
-  http://www.scipy.org/ [Online; accessed <today>].
-
-Here's an example of a BibTeX entry:
-
 .. raw:: html
 
    <script type="text/javascript">
      $(document).ready(function() {
          var date = new Date().toJSON().slice(0,10);
-         $("body").html(function(i, html) {
-           return html.replace("&lt;today&gt;", date);
+         $("#today-replace").html(function(i, html) {
+             return html.replace(/&lt;today&gt;/g, date);
          });
-       });
+     });
    </script>
+
+   <div id='today-replace'>
+
+* Jones E, Oliphant E, Peterson P, *et al.*
+  **SciPy: Open Source Scientific Tools for Python**, 2001-,
+  http://www.scipy.org/ [Online; accessed <today>].
+
+Here's an example of a BibTeX entry:
 
 ::
 
@@ -42,6 +44,10 @@ Here's an example of a BibTeX entry:
 
 For any specific algorithm, also consider citing the original author's paper
 (this can often be found under the "References" section of the docstring).
+
+.. raw:: html
+
+   </div>
 
 Scientific Computing in Python
 ##############################
