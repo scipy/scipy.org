@@ -15,7 +15,7 @@ SciPy and friends can be used for a variety of tasks:
   also provides basic numerical routines, such as tools for finding
   eigenvectors.
 
-  *SciPy* contains additional routines needed in scientific work: for example,
+* *SciPy* contains additional routines needed in scientific work: for example,
   routines for computing integrals numerically, solving differential equations,
   optimization, and sparse matrices.
 
@@ -73,6 +73,12 @@ is to take a look at the following online resources:
 
 - `SciPy Tutorial <http://docs.scipy.org/doc/scipy/reference/tutorial/index.html>`_ 
   contains examples for each submodule in the SciPy library
+
+- `Matplotlib beginner's guide <http://matplotlib.org/users/beginner.html>`__
+
+- `Pandas tutorials <http://pandas.pydata.org/pandas-docs/stable/tutorials.html>`__
+
+- `Sympy tutorial <http://docs.sympy.org/latest/tutorial/>`__
 
 In addition, a number of books have been written on numerical
 computation in Python, see for example a
