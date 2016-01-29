@@ -217,6 +217,9 @@ News
 NumPy 1.11.0b2 released :news-date:`2016-01-28`
     See :doc:`/scipylib/download`.
 
+SciPy 0.17.0 released :news-date:`2016-01-23`
+    See :doc:`/scipylib/download`.
+
 NumPy 1.10.4 released :news-date:`2016-01-07`
     See :doc:`/scipylib/download`.
 
