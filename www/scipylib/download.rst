@@ -29,6 +29,7 @@ vendor.
 |        |  (all platforms) and         | `SciPy release page`_               |
 | SciPy  |  *binaries* for **Windows**  |                                     |
 |        |  & **Mac OS X**              | `SourceForge site for SciPy`_       |
+|        |                              |  (legacy releases only)             |
 |        |                              |                                     |
 +--------+------------------------------+-------------------------------------+
 
