@@ -427,6 +427,7 @@ Geosciences
 - `PyClimate - Analysis of climate data in Python <http://www.pyclimate.org>`__ performs EOF analysis, downscaling by means of CCA and analogs (in the PC and CCC spaces), linear digital filters, kernel based probability density function estimation and access to DCDFLIB.C library from Python, amongst many other things.
 - `ClimPy <https://code.launchpad.net/~pierregm/scipy/climpy>`__ Hydrologic orientated library
 - `GIS Python <http://wiki.osgeo.org/wiki/OSGeo_Python_Library>`__ Python programs and libraries for geodata processing
+- `SimPEG <http://simpeg.xyz>`__ Simulation and parameter estimation in geophysics (including 3D forward modelling and inversion routines for electromagnetics, magnetotellurics, direct-current resistivity, magnetics, and gravity)
 
 Molecular modeling
 ------------------
