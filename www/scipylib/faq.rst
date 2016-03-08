@@ -305,8 +305,8 @@ NumPy/SciPy you are using):
 * MATLAB format: portable; built into SciPy (:func:`scipy.io.loadmat`)
 * HDF5_: high-powered kitchen-sink format; both PyTables_ and h5py_ provide
   a NumPy friendly interface on top of the core HDF5 library written in C.
-* FITS_: standard kitchen-sink format in astronomy; pyfits_ provides a
-  convenient python interface.
+* FITS_: standard kitchen-sink format in astronomy; the astropy_ library
+  provides a convenient Python interface through its pyfits_ package (``astropy.io.pyfits``).
 * `.npy`_: NumPy native binary data format, simple, efficient, portable;
   built into NumPy as of 1.0.5.
 
@@ -314,7 +314,8 @@ NumPy/SciPy you are using):
 .. _PyTables: http://www.pytables.org/
 .. _h5py: http://code.google.com/p/h5py/
 .. _FITS: http://fits.gsfc.nasa.gov/
-.. _pyfits: http://www.stsci.edu/resources/software_hardware/pyfits
+.. _astropy: http://www.astropy.org/
+.. _pyfits: http://docs.astropy.org/en/stable/io/fits/index.html
 .. _.npy: http://svn.scipy.org/svn/numpy/trunk/doc/neps/npy-format.txt
 
 What is the difference between matrices and arrays?
