@@ -17,11 +17,11 @@ can on the other two platforms.
 Fortunately, a lot of work has been done recently to rectify this situation.
 Projects such as OpenBLAS_ and Mingwpy_ are under active development to develop
 open-source toolchains that would allow Windows users to build and develop with
-NumPy and SciPy from source without issues of financial, platform, and licensing constraints.
+NumPy and SciPy from source without issues of financial, platform, or licensing constraints.
 
 This document will attempt to provide a general summary of the available options that
 users can currently avail themselves to if they so choose to build these libraries from
-source. However, in light of all the work currently being performed **do not expect**
+source. However, in light of all the work currently being done, **do not expect**
 these instructions to be accurate in the long-run and be sure to check up on any of the
 open source projects mentioned for the most up-to-date information. For more information
 on all of these projects, the Mingwpy_ website is an **excellent** source of more in-depth
@@ -57,20 +57,20 @@ MinGW
 #####
 
 The Mingw-w64_ project provides Windows versions of the free GNU compilers **gcc** and
-**gfortran**. These are the compilers most NumPy SciPy developers work with and hence
-the compilers that are supported the best by build scripts in both libraries. Also,
-as indicated in the name, they also form the basis of the ongoing Mingwpy_ project
-mentioned previously. Thus, from a long-term perspective, these compilers may be
-the optimal ones to use. Installation instructions can be found `here <http://mingw-w64.org/doku.php/download>`__.
+**gfortran**. These are the compilers most NumPy and SciPy developers work with and hence
+are the best supported by build scripts in both libraries. Also, as indicated in the name,
+they form the basis of the ongoing Mingwpy_ project mentioned previously. Thus, from a
+long-term perspective, these compilers may be the optimal ones to use. Installation
+instructions can be found `here <http://mingw-w64.org/doku.php/download>`__.
 
 .. _Mingw-w64: http://mingw-w64.org/doku.php/
 
 Cygwin
 ######
 
-A POSIX compatible Linux-like environment for Windows, Cygwin_ is a very useful tool,
-as it allows to compile and use many Unix tools without modification. It can also be
-used to build libraries ATLAS_, which at the moment is very Unix-oriented, although
+A POSIX-compatible, Linux-like environment for Windows, Cygwin_ is a very useful tool,
+as it allows compilation and use of many Unix tools without modification. It can also be
+used to build libraries like ATLAS_, which at the moment is very Unix-oriented, although
 that may be subject to change as we will discuss later on. Installation instructions
 for Cygwin_ can be found `here <https://cygwin.com/install.html>`__. When using the
 installer (either 32-bit or 64-bit depending on your computer), **make sure to search
@@ -79,27 +79,26 @@ gcc, anything built with it can only run in a Cygwin environment and not in your
 Windows environment.**
 
 In addition, Cygwin also offers its own **identical** packages for Mingw-w64_ that you can
-install by searching from **mingw64** in the packages and then selecting those that contain
+install by searching for **mingw64** in the packages list and then selecting those that contain
 **i686** if you're using 32-bit or **x86_64** if you're using 64-bit. If you choose this option,
 **there is no need to have a separate installation of Mingw-w64.** This is because anything built
 with Mingw-w64_ will be cross-platform compatible, so the build will work in your native Windows
 environment as well.
 
-Finally, the installer may also miss several important DLL's necessary for proper function, as
+Finally, the installer may also miss several important DLL's necessary for proper function as
 pointed out `here <http://stackoverflow.com/questions/32897685/cannot-compile-anything-with-gcc-on-cygwin32-missing-cygisl-10-dll>`__,
-so double check that you have them marked as well during installation. Note that
-even if you forget to install a package, you can always run the installer again to
-install additional ones.
+so double check that you have them marked during installation. Rest assured that even if you forget to
+install a package, you can always run the installer again to install additional ones.
 
 .. _Cygwin: http://www.cygwin.com/
 
 Microsoft Visual C++ (MSVC)
 ###########################
 
-NumPy and SciPy both support MSVC as the C/C++ compiler extension modules for the official
+NumPy and SciPy both support MSVC and its C/C++ compiler extension modules for the official
 binary distribution of Python. However, make sure that you download the correct version!
 For example, Python 2.7.x is compiled with Visual Studio 2008, and Python 3.5.1 is compiled
-with Visual Studio 2015. If you are using Python 2.7.x, you should visit this link `here <https://www.microsoft.com/en-gb/download/details.aspx?id=44266>`__
+with Visual Studio 2015. If you are using Python 2.7.x, you can also visit this link `here <https://www.microsoft.com/en-gb/download/details.aspx?id=44266>`__
 to download the **Microsoft Visual C++ Compiler for Python 2.7**. If you are using Python 3.4.x and Windows 7, you
 should visit this link `here <https://www.microsoft.com/en-us/download/details.aspx?id=8279>`__ and download the
 **Microsoft Windows SDK for Windows 7**. If you are using Python 3.5.x, you should obtain the compiler via their `Visual Studio`_
@@ -128,17 +127,18 @@ Intel has provided its own implementations of BLAS_ and LAPACK_, and they are by
 of the best performing libraries for **both** NumPy and SciPy. Unfortunately, they are not free and
 also require their own Fortran compiler for these libraries to work. While it is possible to obtain
 the libraries for free via their Community License (you can click `here <https://software.intel.com/sites/campaigns/nest/>`__
-to learn and click `here <https://registrationcenter.intel.com/en/forms/?productid=2558&licensetype=2>`__ to register),
-it does not come with their Fortran compiler, **ifort**, which is necessary for building both the NumPy and SciPy libraries with MKL.
+to learn more and click `here <https://registrationcenter.intel.com/en/forms/?productid=2558&licensetype=2>`__ to register),
+it does not come with the Fortran compiler, **ifort**, which is necessary for building both the NumPy and SciPy libraries with MKL.
 
-To obtain this compiler, it is necessary to download for their **Intel Parallel Studio XE** product,
+To obtain this compiler, it is necessary to download their **Intel Parallel Studio XE** product,
 which can be trialed for 30 days, but it is currently unknown what will happen to the library and header
 files on your hard drive after that period has expired. To download, visit this page `here <https://software.intel.com/en-us/fortran-compilers>`__
-for more information. However, if you are a **student** or **educator**, this option is quite
-viable because Intel's academic license will provide you everything that you need **free of charge**.
-To register, visit this page `here <https://software.intel.com/en-us/qualify-for-free-software>`__, choose the
-appropriate option corresponding to you. Afterwards, click the link corresponding to **Intel Parallel Studio XE**
-and download. Note that this installation will require that you have the most up-to-date version of `Visual Studio`_.
+for more information. Note, if you are a **student** or **educator**, this option is very appealing because
+Intel's academic license will provide you everything that you need **free of charge**. To register, visit
+this page `here <https://software.intel.com/en-us/qualify-for-free-software>`__ and choose the appropriate
+option corresponding to your current academic situations. Afterwards, click the link corresponding to
+**Intel Parallel Studio XE** and download. Note that this installation will require that you have the most
+up-to-date version of `Visual Studio`_.
 
 Finally, a brief note regarding C/C++ compilers: the **Intel Parallel Studio XE** software package will come with
 its own C/C++ compiler (**icc**), which will work perfectly fine when building the libraries. However, the C/C++ compiler
@@ -154,22 +154,23 @@ folder corresponding to your architecture (32-bit or 64-bit). While this setup h
 it is not known yet whether it can build SciPy.
 
 If you are so inclined to build ATLAS_ by hand, you **must** use Cygwin to build it because the library was explicitly
-designed for Unix environments. However, you can compile the library either the native **gcc** tools or with the **mingww-64**
-tool package that you can download with Cygwin_. Installations scripts can be found in the same location `here <https://github.com/matthew-brett/np-wheel-builder/tree/master/atlas-builds>`__.
+designed for Unix environments. However, you can compile the library with either the native **gcc** tools or the **mingww-64**
+tool package that you downloaded with Cygwin_. Installations scripts can be found in the same location `here <https://github.com/matthew-brett/np-wheel-builder/tree/master/atlas-builds>`__.
 In the folder corresponding to your architecture, search for an **install_atlas** script, download the appropriate ZIP files
 `here <http://nipy.bic.berkeley.edu/scipy_installers/atlas_builds/>`__, fill in some of the variables with appropriate
 values corresponding to your directory structure (e.g. the **code_home** variable) and then run script. **Be forewarned
 though that this will take a very long time (around eight hours) to install**.
 
 Finally, it should be noted that ATLAS_, although open source, is not well optimized for Windows given its intended
-operating system environment. Thus, if performance is of the utmost importance, ATLAS_ may not be the best choice of libraries.
+operating system environment. Thus, if performance is of the utmost importance, ATLAS_ may not be the best choice of
+libraries for building from source.
 
 OpenBLAS and LAPACK
 ###################
 
 OpenBLAS_ is an optimized version of BLAS that is currently used in languages like Julia_ by default. Besides being
-actively worked upon, it performs about as well as the Intel libraries discussed previously. Furthermore, it is also
-quite easy install using Cygwin_. Just search for **openblas** and **lapack** in the packages that you are downloading,
+actively worked upon, it performs about as well as the Intel libraries discussed previously. Furthermore, it is
+quite easy to install using Cygwin_. Just search for **openblas** and **lapack** in the packages that you are downloading,
 and they will be automatically installed into your **usr/lib** directory, which is where NumPy and SciPy will search
 for libraries if no configuration file is provided. **Please note that if you choose this route, you must use Cygwin's
 Python for this setup to work.** During installation, just search for **python** in the packages and download the
@@ -182,8 +183,8 @@ BLAS and LAPACK
 ###############
 
 Up to this point, we have been discussing optimized versions of BLAS_ coupled with LAPACK_. It goes without saying then
-that it must be possible then to build NumPy and SciPy with an unoptimized (and therefore lower-performant) BLAS_ library.
-Pre-built libraries are readily available here, though **be sure to check the environment in which the libraries** were
+that it must be possible to build NumPy and SciPy with an unoptimized (and therefore lower-performant) BLAS_ library.
+Pre-built libraries are readily available `here <https://icl.cs.utk.edu/lapack-for-windows/lapack/>`__, though **be sure to check the environment in which the libraries** were
 built. Otherwise, NumPy and SciPy will not build. However, if none of the environments match your own environment, the
 libraries themselves can be downloaded as ZIP files by searching for a "download" section on the BLAS_ and LAPACK_ webpages.
 Rough installation instructions can be found `here <http://ab-initio.mit.edu/wiki/index.php/Template:Installing_BLAS_and_LAPACK>`__ for
@@ -195,16 +196,16 @@ Linking Libraries to NumPy and SciPy
 
 Now that you have obtained the libraries that you want to use to build NumPy and SciPy, it is now necessary to link
 those libraries to NumPy and SciPy so that they will be used during the building process. There are two ways to do this.
-First, you can store them in the "standard" locations which correspond either to your ``Lib`` directory of your Python
+First, you can store them in the "standard" locations, which correspond either to the ``Lib`` directory of your Python
 installation or one of your ``lib`` directories (e.g. ``/usr/lib``) if you are using Cygwin_. To determine the "standard"
 locations on your computer, navigate to the top-most level of your NumPy or SciPy directory and run ``python setup.py config``,
 and the output will show you where Python is searching for libraries.
 
 The other option is to create a configuration file, either called ``site.cfg`` or ``.numpy-site.cfg``. If you are building
-both NumPy and SciPy, you should store it in your ``C:\Users\{username}`` directory in your native Windows environments or
-your ``$HOME`` or ``~`` directory if you are using Cygwin_. If you are just building NumPy, you can just store it in the
-same directory as the ``setup.py`` file. Before filling it in, make sure that your configuration file can be detected by
-filling it with some invalid text (e.g. "asdf") and then run ``python setup.py config`` again. An exception will be thrown
+both NumPy and SciPy, you should store it in your ``C:\Users\{username}`` directory of your native Windows environment or
+your ``$HOME`` or ``~`` directory if you are using Cygwin_. If you are just building NumPy, you can store it in the
+same directory as the topmost ``setup.py`` file. Before filling it in, make sure that your configuration file can be detected by
+filling it with some invalid text (e.g. "asdf") and then run ``python setup.py config`` again. An exception should be thrown
 because Python won't be able to parse your configuration file.
 
 Depending on which library you use, the exact specifics of the configuration file will vary. The ``site.cfg.example``
@@ -214,11 +215,11 @@ your configuration file given the libraries you are using. If you do not have su
 Additional Resources
 --------------------
 
-As discussed in the overview, this document is not meant to provide extremely detailed explanations as to how to build
+As discussed in the overview, this document is not meant to provide extremely detailed explanations on how to build
 NumPy and SciPy on Windows. This is largely because there is no one clearly superior way to do so at this point in time,
-and because the process for building these libraries on Windows is under active development, making it probable that any
+and because the process for building these libraries on Windows is under active development, it is probable that any
 information will go out of date relatively soon. If you wish to receive more assistance, please reach out to the NumPy
 and SciPy mailing lists, which can be found `here <http://www.scipy.org/scipylib/mailing-lists.html>`__.  There are many
 developers out there working on this issue right now, and they would certainly be happy to help you out!  Google is also
 a good resource, as there are many people out there who use NumPy and SciPy on Windows, so it would not be surprising if
-your question or problem has been already addressed by someone already online.
+your question or problem has already been addressed.
