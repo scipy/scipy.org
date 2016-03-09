@@ -20,9 +20,9 @@ vendor.
 | Project| Available packages           | Download location                   | 
 +========+==============================+=====================================+
 |        |  Official *source code*      |                                     |
-|        |  (all platforms) and         | `SourceForge site for NumPy`_       |
+|        |  (all platforms) and         | `NumPy release page`_               |
 | NumPy  |  *binaries* for **Windows**  |                                     |
-|        |  & **Mac OS X**              |                                     |
+|        |  & **Mac OS X**              | `SourceForge site for NumPy`_       |
 |        |                              |                                     |
 +--------+------------------------------+-------------------------------------+
 |        |  Official *source code*      |                                     |
@@ -36,9 +36,10 @@ vendor.
 Build instructions are available for :doc:`Linux <building/linux>`,
 :doc:`Windows <building/windows>` and :doc:`Mac OSX <building/macosx>`.
 
+.. _NumPy release page: https://github.com/numpy/numpy/releases
 .. _SciPy release page: https://github.com/scipy/scipy/releases
-.. _SourceForge site for NumPy: http://sourceforge.net/projects/numpy/files/
-.. _SourceForge site for SciPy: http://sourceforge.net/projects/scipy/files/
+.. _SourceForge site for NumPy: https://sourceforge.net/projects/numpy/files/
+.. _SourceForge site for SciPy: https://sourceforge.net/projects/scipy/files/
 .. _SciPy PPA on Launchpad: https://edge.launchpad.net/~scipy/+archive/ppa
 
 Bleeding Edge Repository Access
@@ -47,7 +48,7 @@ Bleeding Edge Repository Access
 The most recent development versions of NumPy and SciPy are available through
 the official repositories hosted on `Github`_.
 
-.. _Github: http://www.github.com/
+.. _Github: https://github.com/
 
 To check out the latest **NumPy** sources:
 
@@ -150,35 +151,35 @@ the package maintainer first, rather than to the NumPy/SciPy mailing lists**.
 
 .. Debian links
 .. _Debian GNU/Linux: http://www.debian.org/
-.. _python-numpy-debian: http://packages.debian.org/python-numpy
-.. _python-scipy-debian: http://packages.debian.org/python-scipy
+.. _python-numpy-debian: https://packages.debian.org/search?keywords=python-numpy
+.. _python-scipy-debian: https://packages.debian.org/search?keywords=python-scipy
 
 .. OpenSUSE links
-.. _OpenSUSE: http://www.opensuse.org/
+.. _OpenSUSE: https://www.opensuse.org/
 .. _python-numpy: http://software.opensuse.org/search?q=python-numpy
 .. _python-numpy-devel: http://software.opensuse.org/search?q=python-numpy-devel
 .. _python-scipy: http://software.opensuse.org/search?q=python-scipy
 .. _python-scipy-devel: http://software.opensuse.org/search?q=python-scipy-devel
 
 .. Gentoo links
-.. _Gentoo Linux: http://www.gentoo.org/
-.. _sci-libs/scipy: http://packages.gentoo.org/package/sci-libs/scipy
-.. _dev-python/numpy: http://packages.gentoo.org/package/dev-python/numpy
+.. _Gentoo Linux: https://www.gentoo.org/
+.. _sci-libs/scipy: https://packages.gentoo.org/packages/sci-libs/scipy
+.. _dev-python/numpy: https://packages.gentoo.org/packages/dev-python/numpy
 
 .. Fedora Core links
-.. _Fedora: http://www.fedoraproject.org/
+.. _Fedora: https://getfedora.org/
 .. _numpy-fedora: https://apps.fedoraproject.org/packages/numpy
 .. _scipy-fedora: https://apps.fedoraproject.org/packages/scipy
 
 .. ArchLinux links
-.. _Arch Linux: http://www.archlinux.org/
+.. _Arch Linux: https://www.archlinux.org/
 .. _python-numpy-arch: https://www.archlinux.org/packages/?q=numpy
 .. _python-scipy-arch: https://www.archlinux.org/packages/?q=scipy
 
 .. Slackware links
 .. _Slackware Linux: http://www.slackware.com/
-.. _numpy (slackbuilds.org): http://slackbuilds.org/result/?search=numpy
-.. _scipy (slackbuilds.org): http://slackbuilds.org/result/?search=scipy
+.. _numpy (slackbuilds.org): https://slackbuilds.org/result/?search=numpy
+.. _scipy (slackbuilds.org): https://slackbuilds.org/result/?search=scipy
 
 .. Ubuntu links
 .. _Ubuntu Linux: http://www.ubuntu.com/

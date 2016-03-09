@@ -13,7 +13,7 @@ Python
 
 Apple ships its own version of Python with OS X. However, we
 *strongly* recommend installing the `official Python distribution
-<http://www.python.org/download/>`__.
+<https://www.python.org/downloads/>`__.
 
 Alternatively, use Python from one of the OS X package managers 
 (Homebrew, MacPorts, Fink).  
@@ -23,13 +23,11 @@ Apple's Developer Tools
 
 Apple's Developer Tools provide a number of key libraries,
 particularly the `vecLib Framework
-<http://developer.apple.com/documentation/ReleaseNotes/MacOSX/vecLib.html>`__
+<https://developer.apple.com/library/mac/documentation/Performance/Conceptual/vecLib/>`__
 , which includes the BLAS and LAPACK libraries for optimizing matrix and vector
-operations. Install the most recent version from `Apple's Developer Connection
-site <https://connect.apple.com>`__ (after free registration). The most recent
-version may also be included on your OS X installation CD.  Ensure that all
-components are installed by choosing **customize** when available during the
-install process and selecting all optional packages - at least the X11
+operations. The most recent version should be included on your OS X installation CD.
+Ensure that all components are installed by choosing **customize** when available
+during the install process and selecting all optional packages - at least the X11
 development tools and (on OS X 10.6 or lower) the 10.4 SDK.
 
 Compilers (C/C++/FORTRAN/Cython)
@@ -42,7 +40,7 @@ FORTRAN compiler.
 We recommend gfortran; this is a free, open source, F95 compiler. We suggest you
 use the following binaries:
 
-* For Snow Leopard : http://cran.r-project.org/bin/macosx/tools/gfortran-4.2.3.pkg
+* For Snow Leopard : https://cran.r-project.org/bin/macosx/tools/gfortran-4.2.3.pkg
 * For Lion : http://r.research.att.com/gfortran-lion-5666-3.pkg (for
   Xcode 4.1)
 * Later versions : http://r.research.att.com/tools/gcc-42-5666.3-darwin11.pkg (for Xcode
@@ -138,7 +136,7 @@ Both NumPy and SciPy are built as follows:
        $ python setup.py install
 
 The above applies to the `official Python distribution
-<http://www.python.org/download/>`__, which is 32-bit
+<https://www.python.org/downloads/>`__, which is 32-bit
 only for 2.6 while 32/64-bit bundles are available for 2.7 and
 3.x. For alternative 64-bit Pythons (either from Apple or home-built)
 on Snow Leopard, you may need to extend your build flags to specify

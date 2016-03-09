@@ -67,7 +67,7 @@ an excellent way to become familiar with the Python syntax and objects.
 One way of getting a handle on the scientific computation tools in Python
 is to take a look at the following online resources:
 
-- `Python Scientific Lecture Notes <http://scipy-lectures.github.io/index.html>`_
+- `Python Scientific Lecture Notes <http://www.scipy-lectures.org/index.html>`_
 
 - `NumPy User Guide <http://docs.scipy.org/doc/numpy-dev/user/>`_ 
 
@@ -145,7 +145,7 @@ Contents of a file ``example.py``:
 .. _Traits: http://code.enthought.com/projects/traits/
 .. _wxPython: http://www.wxpython.org/
 .. _IPython: http://ipython.org/
-.. _matplotlib: http://matplotlib.sourceforge.net/
+.. _matplotlib: http://matplotlib.org/
 .. _Emacs: http://www.gnu.org/software/emacs/
 .. _Vim: http://www.vim.org/
 .. _official Python tutorial: http://docs.python.org/tutorial/

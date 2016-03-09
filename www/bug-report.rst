@@ -16,12 +16,12 @@ list of the project it concerns.  Trackers:
 
    - `Pandas <https://github.com/pydata/pandas/issues>`_
 
-   - `SymPy <http://code.google.com/p/sympy/issues/list>`_
+   - `SymPy <https://github.com/sympy/sympy/issues>`_
 
 Bug reports and suggestions for this website (http://scipy.org) should be
 submitted at https://github.com/scipy/scipy.org/issues.  Errors in
 documentation however should be reported on the project-specific issue trackers above.
-Technical problems with http://docs.scipy.org such as connectivity issues, etc.
+Technical problems with http://docs.scipy.org/doc/ such as connectivity issues, etc.
 should be reported to the scipy.org website issue tracker.
 
 Guidelines for submitting bugs
