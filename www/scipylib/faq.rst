@@ -114,8 +114,8 @@ any way allowed by its liberal BSD license.
 What are SciPy's licensing terms?
 #################################
 
-SciPy's license is free for both commercial and non-commercial use, the terms
-of the BSD license. (TODO: Link)
+SciPy's license is free for both commercial and non-commercial use, per the terms
+of the BSD license `here <https://github.com/scipy/scipy/blob/master/LICENSE.txt>`__.
 
 How can SciPy be fast if it is written in an interpreted language like Python?
 ##############################################################################
@@ -306,7 +306,7 @@ NumPy/SciPy you are using):
 * HDF5_: high-powered kitchen-sink format; both PyTables_ and h5py_ provide
   a NumPy friendly interface on top of the core HDF5 library written in C.
 * FITS_: standard kitchen-sink format in astronomy; the astropy_ library
-  provides a convenient Python interface through its pyfits_ package (``astropy.io.pyfits``).
+  provides a convenient Python interface through its `io.fits`_ package.
 * `.npy`_: NumPy native binary data format, simple, efficient, portable;
   built into NumPy as of 1.0.5.
 
@@ -315,8 +315,8 @@ NumPy/SciPy you are using):
 .. _h5py: http://code.google.com/p/h5py/
 .. _FITS: http://fits.gsfc.nasa.gov/
 .. _astropy: http://www.astropy.org/
-.. _pyfits: http://docs.astropy.org/en/stable/io/fits/index.html
-.. _.npy: http://svn.scipy.org/svn/numpy/trunk/doc/neps/npy-format.txt
+.. _io.fits: http://docs.astropy.org/en/stable/io/fits/index.html
+.. _.npy: http://docs.scipy.org/doc/numpy/neps/npy-format.html
 
 What is the difference between matrices and arrays?
 ###################################################
@@ -456,7 +456,7 @@ This comes up from time to time on the :doc:`mailing list
    array([ 1.,  1.,  1.])
 
 One might, quite reasonably, have expected A to contain [1,2,1].
-Unfortunately this is not what is implemented in NumPy. More, the
+Unfortunately this is not what is implemented in NumPy. Moreover, the
 `Python Reference Manual <http://docs.python.org/ref/augassign.html>`_
 specifies that
 
@@ -471,7 +471,7 @@ and
    >>> x += y
 
 should result in ``x`` having the same value (though not necessarily the same
-identity). More, even if the NumPy developers wanted to modify this behaviour,
+identity). Moreover, even if the NumPy developers wanted to modify this behaviour,
 Python does not provide an overloadable :meth:`__indexed_iadd__` function;
 the code acts like
 
@@ -486,7 +486,17 @@ actually able to provide a view rather than a copy, the :meth:`__iadd__`
 writes to the array, then the view is copied into the array, so that the
 array is written to twice.
 
+However, do not despair! NumPy does contain functionality for this type of behaviour, and it can be
+obtained by using the ufunc :meth:`at`, which is an attribute of the addition (``np.add``), subtraction
+(``np.subtract``), multiplication (``np.multiply``), and division (``np.divide``) ufuncs between a matrix
+and a scalar:
 
+::
+
+   >>> A = numpy.zeros(3)
+   >>> numpy.add.at(A, [0, 1, 1, 2], 1)
+   >>> A
+   array([ 1.,  2.,  1.])
 
 Where to get help
 -----------------
