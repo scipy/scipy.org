@@ -94,9 +94,8 @@ A few points on mailing list etiquette:
   
   In general it is not necessary to CC respondents on further replies to
   your thread. Please reply to the list rather than to the list *and* the 
-  individual respondents (note that the NumPy and SciPy lists `add 
-  Reply-To headers <http://www.metasystema.net/essays/reply-to.html>`_
-  to facilitate this; normally, clicking 'Reply' in your mail client
+  individual respondents (note that the NumPy and SciPy lists add Reply-To
+  headers to facilitate this; normally, clicking 'Reply' in your mail client
   will direct replies to the list rather than the sender). Likewise,
   if you expect a reply, you should either monitor the list traffic 
   through your mail client or through a service like Gmane_; responses
@@ -122,19 +121,19 @@ A few points on mailing list etiquette:
 .. _gm-scipy-u: http://dir.gmane.org/gmane.comp.python.scientific.user
 .. _gm-scipy-d: http://dir.gmane.org/gmane.comp.python.scientific.devel
 
-.. _numpy-d-ar: http://projects.scipy.org/pipermail/numpy-discussion/
-.. _scipy-u-ar: http://projects.scipy.org/pipermail/scipy-user/
-.. _scipy-d-ar: http://projects.scipy.org/pipermail/scipy-dev/
-.. _numpy-t-ar: http://projects.scipy.org/pipermail/numpy-tickets/
-.. _numpy-s-ar: http://projects.scipy.org/pipermail/numpy-svn/
-.. _scipy-t-ar: http://mail.scipy.org/pipermail/scipy-tickets/
-.. _scipy-s-ar: http://projects.scipy.org/pipermail/scipy-svn/
+.. _numpy-d-ar: https://mail.scipy.org/pipermail/numpy-discussion/
+.. _scipy-u-ar: https://mail.scipy.org/pipermail/scipy-user/
+.. _scipy-d-ar: https://mail.scipy.org/pipermail/scipy-dev/
+.. _numpy-t-ar: https://mail.scipy.org/pipermail/numpy-tickets/
+.. _numpy-s-ar: https://mail.scipy.org/pipermail/numpy-svn/
+.. _scipy-t-ar: https://mail.scipy.org/pipermail/scipy-tickets/
+.. _scipy-s-ar: https://mail.scipy.org/pipermail/scipy-svn/
 
 
-.. _numpy-d-su: http://mail.scipy.org/mailman/listinfo/numpy-discussion
-.. _scipy-u-su: http://mail.scipy.org/mailman/listinfo/scipy-user
-.. _scipy-d-su: http://mail.scipy.org/mailman/listinfo/scipy-dev
-.. _numpy-t-su: http://mail.scipy.org/mailman/listinfo/numpy-tickets
-.. _numpy-s-su: http://mail.scipy.org/mailman/listinfo/numpy-svn
-.. _scipy-t-su: http://mail.scipy.org/mailman/listinfo/scipy-tickets
-.. _scipy-s-su: http://mail.scipy.org/mailman/listinfo/scipy-svn
+.. _numpy-d-su: https://mail.scipy.org/mailman/listinfo/numpy-discussion
+.. _scipy-u-su: https://mail.scipy.org/mailman/listinfo/scipy-user
+.. _scipy-d-su: https://mail.scipy.org/mailman/listinfo/scipy-dev
+.. _numpy-t-su: https://mail.scipy.org/pipermail/numpy-tickets/
+.. _numpy-s-su: https://mail.scipy.org/mailman/listinfo/numpy-svn
+.. _scipy-t-su: https://mail.scipy.org/mailman/listinfo/scipy-tickets
+.. _scipy-s-su: https://mail.scipy.org/mailman/listinfo/scipy-svn

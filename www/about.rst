@@ -61,13 +61,13 @@ is a brief overview of a few major ones:
 
 See the :doc:`topical-software` page for more.
 
-.. _NumPy: http://numpy.org/
+.. _NumPy: http://www.numpy.org/
 .. _Matplotlib: http://matplotlib.org/
 .. _pandas: http://pandas.pydata.org/
 .. _SymPy: http://www.sympy.org/
 .. _nose: https://nose.readthedocs.org/en/latest/
 .. _IPython: http://ipython.org/
-.. _Python: http://www.python.org/
+.. _Python: https://www.python.org/
 .. _Cython: http://cython.org/
 .. _Scikits: http://scikits.appspot.com/scikits
 .. _scikit-image: http://scikit-image.org/

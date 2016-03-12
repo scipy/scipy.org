@@ -37,9 +37,9 @@ capabilities. You need NumPy for SciPy to work.
 .. rst-class:: table table-bordered
 
 +-------+-------------------------+------------------------------------------+
-| NumPy | Code repository         | http://github.com/numpy/numpy            |
+| NumPy | Code repository         | https://github.com/numpy/numpy           |
 +-------+-------------------------+------------------------------------------+
-| SciPy | Code repository         | http://github.com/scipy/scipy            |
+| SciPy | Code repository         | https://github.com/scipy/scipy           |
 +-------+-------------------------+------------------------------------------+
 
 Interested people can get repository write access as well.  This usually 

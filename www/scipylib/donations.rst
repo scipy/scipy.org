@@ -7,14 +7,14 @@ Support SciPy development
 
 SciPy will always be 100% open source software, free for all to use and
 released under the liberal terms of the modified BSD license.  While we have a
-large number of `contributors <http://www.ohloh.net/p/scipy/contributors>`_ who
+large number of `contributors <https://github.com/scipy/scipy/blob/master/THANKS.txt>`_ who
 volunteer their time to improve SciPy, financial resources are needed to run
 the project and accelerate its development.  If you have found SciPy to be
 useful in your work, research or company, please consider making a donation to
 the project commensurate with your resources. Any amount helps!  
 
 If you are interested in donating to the project you can use the *Paypal*
-button below or the `NumFOCUS Donations Page <http://numfocus.org/donations>`_
+button below or click the "Support NumFOCUS" button at the bottom our `homepage <http://www.numfocus.org/>`_
 (if you use the latter, please indicate that you are donating to the Scipy
 project).  All donations will be used strictly to fund SciPy development, by
 supporting activities such as developer sprints, documentation and maintenance
@@ -47,7 +47,7 @@ organizations for providing services and development infrastructure:
 - `Github`_: code hosting and development workflow platform
 - `Travis CI`_: continuous integration service
 - `SourceForge`_: hosting released sources and installers
-- `Intel`_: Intel `MKL <http://software.intel.com/en-us/intel-mkl/>`_ licenses
+- `Intel`_: Intel `MKL <https://software.intel.com/en-us/intel-mkl/>`_ licenses
 - `NumFOCUS`_: hosted Mac Mini build machine
 
 
@@ -65,9 +65,9 @@ This list is current as of 7 Dec 2013:
 ..
    # end of page content; list of links below
 
-.. _Enthought: http://www.enthought.com
+.. _Enthought: https://www.enthought.com/
 .. _Github: https://github.com
 .. _Travis CI: https://travis-ci.org
-.. _SourceForge: http://sourceforge.net
+.. _SourceForge: https://sourceforge.net/
 .. _Intel: http://www.intel.com
-.. _NumFOCUS: http://numfocus.org
+.. _NumFOCUS: http://www.numfocus.org/

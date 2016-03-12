@@ -25,7 +25,7 @@ or
 
 Before building, you will also need to install packages that NumPy and SciPy depend on
 
-* BLAS and LAPACK libraries (optional but strongly recommended for NumPy, required for SciPy): typically `ATLAS <http://math-atlas.sourceforge.net/>`__ + `LAPACK <http://www.netlib.org/lapack/>`__, or `MKL <http://software.intel.com/en-us/articles/intel-mkl/>`__, or `ACML <http://developer.amd.com/cpu/Libraries/acml/Pages/default.aspx>`__
+* BLAS and LAPACK libraries (optional but strongly recommended for NumPy, required for SciPy): typically `ATLAS <http://math-atlas.sourceforge.net/>`__ + `LAPACK <http://www.netlib.org/lapack/>`__, or `MKL <https://software.intel.com/en-us/intel-mkl>`__, or `ACML <http://developer.amd.com/tools-and-sdks/archive/amd-core-math-library-acml/>`__
 
 * C and Fortran compilers (typically ``gcc`` and ``gfortran``).
 
@@ -63,23 +63,26 @@ Fedora Core 8, openSUSE 10.2, RHEL/Centos 5
 
 D.C. has packaged the last released of numpy, scipy as well as lapack and blas dependencies for Fedora Core 8, opensuse 10.2 and Centos/RHEL 5 and a few others thanks to the opensuse build service. I strongly advise you to use those packages instead of the "official" ones, which are often unusable. The repository is there:
 
-https://build.opensuse.org/project/packages?project=home%3Aashigabou
+https://build.opensuse.org/project/show/home:ashigabou
 
 Basic install
 -------------
 
 To use this repository with yum, simply pick up your arch/distribution from http://download.opensuse.org/repositories/science:/ScientificLinux/ , and take the corresponding .repo file. Put this .repo file into /etc/yum.repo.d/, and then install numpy/scipy with yum:
 
-yum install python-numpy python-scipy
+::
+
+   yum install python-numpy python-scipy
 
 I also packaged timers and testers for blas and lapack, which can be useful if you intend to compile special optimized versions of BLAS/LAPACK (eg GOTO or ATLAS). You can also find the package lapack3-pic, which can be used to build a complete LAPACK with ATLAS: it is a static version, but  as it is built with the -fPIC compiler flag, it can be used to build python extensions; this is particularly useful for x86_64 arch.
 
-Building Atlas
+
+Building ATLAS
 --------------
 
 ATLAS is a BLAS/LAPACK implementation which tuned itself on the machine to provide ideal performances, and often match vendor specific implementations. Unfortunately, building ATLAS is not easy.  But, it is getting easier all the time.   
 
-Building Atlas by Hand
+Building ATLAS by Hand
 ~~~~~~~~~~~~~~~~~~~~~~
 
 These instructions show how to build ATLAS (and LAPACK) from their official distributions.
@@ -114,7 +117,7 @@ Now, you must edit the make.inc file to ensure that the OPTS and NOOPT lines bot
 
 This will create an lapack_<XXXX>.a file in the head lapack directory.  You will need the location of this file to configure atlas.   
 
-Now, download the latest release of ATLAS (these instructions worked on 3.7.37).  See, for example, http://sourceforge.net/project/showfiles.php?group_id=23725.   Unpackage the result, change to the directory created, and create a directory to contain the resulting build.  This directory should be named appropriate for the platform (you can build for multiple platforms from the same SOURCE tree --- perhaps the source is on a network drive and builds are taking place for multiple platforms). 
+Now, download the latest release of ATLAS (these instructions worked on 3.7.37).  See, for example, https://sourceforge.net/projects/math-atlas/files/.   Unpackage the result, change to the directory created, and create a directory to contain the resulting build.  This directory should be named appropriate for the platform (you can build for multiple platforms from the same SOURCE tree --- perhaps the source is on a network drive and builds are taking place for multiple platforms).
 
 ::
 
@@ -138,7 +141,7 @@ Your atlas libraries should now be in the lib subdirectory of the current direct
 
 after changing to the lib directory where the .a files are already located. 
 
-Building Atlas with atlas-XXX.src.rpm from Ashigabou Repository
+Building ATLAS with atlas-XXX.src.rpm from Ashigabou Repository
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ashigabou repository does not provide binary versions, but provides all the tools to make the building process of ATLAS almost painless: it will build a complete LAPACK, build it with the right fortran compiler to avoid ABI issues (eg _gfortran_string_write, etc...), and with the right compiler flags such as it is usable to build numpy and scipy (with the -fPIC option).
@@ -347,13 +350,13 @@ manually (for example 'rpm -U <filename>' or with 'kpackage').
 
   * Installation was tested with openSUSE 11.0 and 11.1, both i586 and x86-64.
 
-    * For openSUSE 11.1-x586 additionally the `Packman repository <http://en.opensuse.org/Additional_YaST_Package_Repositories#Packman>`__ was required as an 'Installation Source'. Select a suitable mirror from the `list <http://en.opensuse.org/Additional_YaST_Package_Repositories#Packman>`__. 
+    * For openSUSE 11.1-x586 additionally the `Packman repository <https://en.opensuse.org/Additional_package_repositories#Packman>`__ was required as an 'Installation Source'. Select a suitable mirror from the `list <https://en.opensuse.org/Additional_package_repositories#Packman>`__.
 
-* Education: [http://www.opensuse-education.org/download/repo/1.0/] This project seems to have some backing from Novell. It is primarily oriented towards schools. The repository was added despite of the broken packages, because it is big and still active. Also its relatively wide audience (schools) might lead to continuing development. (The author of this section has also filed bug reports in their Bugzilla.) 
+* Education: [http://download.opensuse-education.org/] This project seems to have some backing from Novell. It is primarily oriented towards schools. The repository was added despite of the broken packages, because it is big and still active. Also its relatively wide audience (schools) might lead to continuing development. (The author of this section has also filed bug reports in their Bugzilla.)
 
   * This repository contains: **NumPy**, **SciPy**, **Matplotlib**, and very many other packages.
 
-  * Repository has own Bugzilla: `and Website <http://en.opensuse.org/Education <http://devzilla.novell.com/education/enter_bug.cgi>`__
+  * Repository has own website: `<https://en.opensuse.org/Education>`__
 
   * Tested with openSUSE 11.0 and 11.1, x86-64: 
 
@@ -363,13 +366,13 @@ manually (for example 'rpm -U <filename>' or with 'kpackage').
 
 Alternatively one can search for packages in repositories hosted by Novell here: One can also search for packages in the `very big Packman repository: <http://packman.links2linux.org/ <http://software.opensuse.org/search>`__. 
 
-* Lists of Packman mirrors: `1 <http://en.opensuse.org/Additional_YaST_Package_Repositories#Packman>`__ `2 <http://packman.links2linux.de/MIRRORS.html>`__
+* Lists of Packman mirrors: `1 <https://en.opensuse.org/Additional_package_repositories#Packman>`__ `2 <http://packman.links2linux.de/MIRRORS.html>`__
 
 * The packman repository should be given a low priority (high value, for example 200, in priority field). It contains very many packages, that are also present in SUSE's standard repositories. These packages might otherwise override original packages from SUSE.
 
 Users of older versions of SUSE/openSuse can install **Sage**, a big collection of Mathematics related software. It was recently (Jul. 2009) reported that compiling and installing Sage from sources worked flawlessly, on SUSE Linux 10.2:
 
-* A more detailed description how to install Sage `from sources <http://www.sagemath.org/download-source.html]>`__ is on this page too.
+* A more detailed description how to install Sage `from sources <http://www.sagemath.org/download-source.html>`__ is on this page too.
 
 ATLAS
 -----
@@ -378,11 +381,11 @@ ATLAS
 
 **There is currently no comfortable way to use ATLAS on openSuse.**
 
-The  `build instructions for ATLAS <http://www.scipy.org/Installing_SciPy/Linux#head-89e1f6afaa3314d98a22c79b063cceee2cc6313c>`__  on this page work, but unfortunately the NumPy and SciPy packages don't work with ATLAS. One could build NumPy and SciPy from sources though, and a relatively painless way to do this is the Sage package. (If you know a comfortable way to make ATLAS work on openSuse, please put it here into the Wiki.)
+The  `Building ATLAS`_ instructions on this page work, but unfortunately the NumPy and SciPy packages don't work with ATLAS. One could build NumPy and SciPy from sources though, and a relatively painless way to do this is the Sage package. (If you know a comfortable way to make ATLAS work on openSuse, please put it here into the Wiki.)
 
 David Cournapeau has a repository devoted to ATLAS, but he has not added packages for recent SUSE versions.
 
-* Ashigabou [https://build.opensuse.org/project/packages?project=home%3Aashigabou]
+* Ashigabou [https://build.opensuse.org/project/show/home:ashigabou]
 
     This repository contains: **ATLAS** and additionally other scientific software.
 
@@ -446,11 +449,11 @@ Note that make ptshared might not work on a single core machine. Note also that 
 Step 3: Build UMFPACK (5.5.0) with AMD (2.2.1), UFConfig(3.5.0) and CHOLMOD (1.7.1)
 -----------------------------------------------------------------------------------
 
-NOTE: Dowloading and building the entire `SuiteSparse <http://www.cise.ufl.edu/research/sparse/SuiteSparse/>`__ all at once is easier than the following steps. `SuiteSparse <http://www.cise.ufl.edu/research/sparse/SuiteSparse/>`__ Version 4.0.2 is confirmed to have worked on Xubuntu 12.10 with the latest ATLAS, LAPACK, `NumPy <http://numpy.org>`__ and SciPy as of 2012-10-18.
+NOTE: Downloading and building the entire `SuiteSparse <http://faculty.cse.tamu.edu/davis/suitesparse.html>`__ all at once is easier than the following steps. `SuiteSparse <http://faculty.cse.tamu.edu/davis/suitesparse.html>`__ Version 4.0.2 is confirmed to have worked on Xubuntu 12.10 with the latest ATLAS, LAPACK, `NumPy <http://www.numpy.org/>`__ and SciPy as of 2012-10-18.
 
---
+.. TODO: Update these instructions!
 
-Dowload all four packages and extract them in the same directory. Edit UFconfig/UFconfig.mk to read:
+Download all four packages and extract them in the same directory. Edit UFconfig/UFconfig.mk to read:
 
 ::
 
@@ -621,7 +624,7 @@ There are a couple ways to take advantage of the speed of FFTW if necessary for 
 
 1. Downgrade to a NumPy/SciPy version that includes support.
 
-#. Install or create your own wrapper of FFTW.  See http://developer.berlios.de/projects/pyfftw/ as an un-endorsed example.
+#. Install or create your own wrapper of FFTW.  See https://sourceforge.net/projects/pyfftw.berlios/ as an un-endorsed example.
 
 SciPy Versions < 0.7 and NumPy < 1.2
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -27,7 +27,7 @@ SciPy 0.14.0 released :news-date:`2014-05-03`
 NumPy 1.8.1 released :news-date:`2014-03-26`
     See :doc:`/scipylib/download`.
 EuroSciPy 2014
-    `EuroSciPy <http://www.euroscipy.org/2014>`__ is the European gathering 
+    `EuroSciPy <https://www.euroscipy.org/2014/>`__ is the European gathering
     for scientists using Python. The 2014 edition will take place in 
     Cambridge, UK, Aug. 27-31.
 SciPy 2014
@@ -49,7 +49,7 @@ SciPy 0.12.0 released :news-date:`2013-04-07`
 NumPy 1.7.0 released :news-date:`2013-02-10`
     See :doc:`/scipylib/download`.
 EuroSciPy 2013
-    `EuroSciPy <http://euroscipy.org>`__ is the European gathering 
+    `EuroSciPy <https://www.euroscipy.org/>`__ is the European gathering
     for scientists using Python. The 2013 edition will take place in 
     Brussels, Aug. 21-24.
 SciPy 2013
