@@ -38,8 +38,8 @@ Ubuntu & Debian
 
     sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
 
-The versions in Ubuntu 12.10 and Debian 7.0 meet the current SciPy stack
-specification. Users might also want to add the `NeuroDebian repository
+The versions in Ubuntu 12.10 or newer and Debian 7.0 or newer meet the current
+SciPy stack specification. Users might also want to add the `NeuroDebian repository
 <http://neuro.debian.net/>`_ for extra SciPy packages.
 
 Fedora
@@ -49,9 +49,7 @@ Fedora
 
     sudo yum install numpy scipy python-matplotlib ipython python-pandas sympy python-nose blas-devel lapack-devel
 
-Users of Fedora 17 and earlier should then upgrade IPython using pip::
-
-    sudo pip install --upgrade ipython
+The versions in Fedora 17 or newer meet the current SciPy stack specification.
 
 Gentoo
 ~~~~~~
@@ -62,9 +60,7 @@ Gentoo
 
 You may get some messages saying that keyword changes or USE changes are
 necessary in order to proceed, and that you should use ``--autounmask-write`` to
-write changes to config files. This is especially likely to happen if you are
-running Gentoo Stable rather than Gentoo Testing, as of this writing (February
-2013).
+write changes to config files.
 
 If this happens, just run the above command with ``--autounmask-write``
 appended, then run ``sudo dispatch-conf`` (or an alternative) to save the
@@ -79,13 +75,27 @@ popular package managers you can install.
 Macports
 ~~~~~~~~
 
-To install the scipy stack for Python 2.7 with `Macports
+To install the SciPy stack for Python 2.7 with `Macports
 <http://www.macports.org>`_ execute this command in a terminal::
 
     sudo port install py27-numpy py27-scipy py27-matplotlib py27-ipython +notebook py27-pandas py27-sympy py27-nose
 
+Homebrew
+~~~~~~~~
+
+At the time of writing (March 2016), `Homebrew <http://brew.sh/>`_ does not
+have the full SciPy stack available (i.e. you cannot do ``brew install <formula>``
+for everything).
 
 .. _individual-packages:
+
+Windows packages
+----------------
+
+Windows does not have any package manager analogous to that in Linux, so installing
+one of the scientific Python distributions mentioned above is preferred. However, if
+that is not an option, Christoph Gohlke provides `pre-built Windows installers <http://www.lfd.uci.edu/~gohlke/pythonlibs/>`_
+for many Python packages, including all of the core SciPy stack, which work extremely well.
 
 Individual binary and source packages
 -------------------------------------
@@ -105,12 +115,7 @@ with the Python binaries available from python.org.
 *  `sympy <https://github.com/sympy/sympy/releases>`_
 *  `nose <https://nose.readthedocs.org/en/latest/>`_
 
-For Windows: Christoph Gohlke provides `pre-built Windows installers
-<http://www.lfd.uci.edu/~gohlke/pythonlibs/>`_ for many Python
-packages, including all of the core SciPy stack.
-
 You can also build any of the SciPy packages from source, for instance if you
 want to get involved with development. This is easy for packages written
 entirely in Python, while others like NumPy require compiling C code. Refer to
 individual projects for more details.
-
