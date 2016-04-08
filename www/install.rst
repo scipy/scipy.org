@@ -47,7 +47,7 @@ Fedora
 
 ::
 
-    sudo yum install numpy scipy python-matplotlib ipython python-pandas sympy python-nose
+    sudo yum install numpy scipy python-matplotlib ipython python-pandas sympy python-nose blas-devel lapack-devel
 
 Users of Fedora 17 and earlier should then upgrade IPython using pip::
 
