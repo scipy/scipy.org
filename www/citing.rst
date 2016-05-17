@@ -137,7 +137,7 @@ __ http://jmlr.org/papers/v12/pedregosa11a.html
 scikit-image
 ############
 
-* Stéfan van der Walt, Johannes L. Schönberger, Juan Nunez-Inglesias, François
+* Stéfan van der Walt, Johannes L. Schönberger, Juan Nunez-Iglesias, François
   Boulogne, Joshua D. Warner, Neil Yager, Emmanuelle Gouillart, Tony Yu and the
   scikit-image contributors.
   **scikit-image: Image processing in Python**,
