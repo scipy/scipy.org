@@ -235,6 +235,10 @@ Optimization
 
 - `lmfit-py <https://lmfit.github.io/lmfit-py/>`__ is a wrapper around scipy.optimize.leastsq that uses named fitting parameters which may be varied, fixed, or constrained with simple mathematical expressions.
 
+- `noisyopt <https://github.com/andim/noisyopt>`__: provides algorithms for the optimization of noisy functions including pattern search with adaptive sampling and simultaneous perturbation stochastic approximation 
+
+- `scipydirect <https://github.com/andim/scipydirect>`__: is a wrapper about the DIRECT algorithm for global optimization. 
+
 Systems of nonlinear equations
 ==============================
 
