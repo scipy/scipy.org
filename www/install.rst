@@ -47,7 +47,7 @@ Fedora
 
 ::
 
-    sudo yum install numpy scipy python-matplotlib ipython python-pandas sympy python-nose blas-devel lapack-devel
+    sudo yum install numpy scipy python-matplotlib ipython python-pandas sympy python-nose atlas-devel lapack-devel
 
 The versions in Fedora 17 or newer meet the current SciPy stack specification.
 
