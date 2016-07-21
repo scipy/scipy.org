@@ -4,25 +4,24 @@ Report Bugs
 
 Projects in the SciPy Stack all have their own bug trackers, on which issues
 can be reported.  Questions and feature requests are best sent to the mailing
-list of the project it concerns.  Trackers:
+list of the project it concerns.
 
-   - `NumPy <https://github.com/numpy/numpy/issues>`_
+Please report bugs, documentation errors etc. in the following trackers:
 
-   - `SciPy <https://github.com/scipy/scipy/issues>`_
+- `NumPy issues <https://github.com/numpy/numpy/issues>`_
+
+- `SciPy issues <https://github.com/scipy/scipy/issues>`_
    
-   - `Matplotlib <https://github.com/matplotlib/matplotlib/issues>`_
+- `Matplotlib issues <https://github.com/matplotlib/matplotlib/issues>`_
 
-   - `IPython <https://github.com/ipython/ipython/issues>`_
+- `IPython issues <https://github.com/ipython/ipython/issues>`_
 
-   - `Pandas <https://github.com/pydata/pandas/issues>`_
+- `Pandas issues <https://github.com/pydata/pandas/issues>`_
 
-   - `SymPy <https://github.com/sympy/sympy/issues>`_
+- `SymPy issues <https://github.com/sympy/sympy/issues>`_
 
-Bug reports and suggestions for this website (http://scipy.org) should be
-submitted at https://github.com/scipy/scipy.org/issues.  Errors in
-documentation however should be reported on the project-specific issue trackers above.
-Technical problems with http://docs.scipy.org/doc/ such as connectivity issues, etc.
-should be reported to the scipy.org website issue tracker.
+For problems with this scipy.org website, use the bug tracker
+for the `scipy.org website project <https://github.com/scipy/scipy.org/>`_.
 
 Guidelines for submitting bugs
 ------------------------------
