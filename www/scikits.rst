@@ -72,4 +72,4 @@ to Fortran code using Numpy's build framework.
 
 Further reading:
 
-- `Python Package Index tutorial <https://wiki.python.org/moin/CheeseShopTutorial>`__
+- `Python Packaging User Guide <https://packaging.python.org/>`__
