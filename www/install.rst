@@ -28,12 +28,15 @@ include all the key packages:
 Installing via pip
 ------------------
 
-Mac and Linux users can install pre-built binary packages for the scipy stack
+Mac and Linux users can install pre-built binary packages for the SciPy stack
 using `pip <https://pip.pypa.io/en/stable>`_.  pip is the installation tool
-recommended by the Python Packaging Authority.
+recommended by the `Python Packaging Authority <https://www.pypa.io>`_. Pip
+can install pre-built binary packages in the `wheel
+<http://wheel.readthedocs.io>`_ package format.
 
-At the moment, *pip does not work well for Windows* because we do not have the
-necessary compilers to build some binary packages on Windows.
+*pip does not work well for Windows* because the standard pip package index
+site, `pypi <https://pypi.python.org/pypi>`_, does not yet have Windows wheels
+for some packages, such as SciPy.
 
 To install via pip on Mac or Linux, first upgrade pip to the latest version.
 For Python 3::
@@ -42,7 +45,7 @@ For Python 3::
 
 Replace ``python3`` with ``python2`` for Python 2 pip upgrade.
 
-Then install the scipy stack packages with pip.  We recommend a *user*
+Then install the SciPy stack packages with pip.  We recommend a *user*
 install, using the ``--user`` flag to pip.  This installs packages for your
 local user, and does not need extra permissions to write to the system
 directories::
