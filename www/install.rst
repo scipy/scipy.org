@@ -29,8 +29,8 @@ Installing via pip
 ------------------
 
 Mac and Linux users can install pre-built binary packages for the scipy stack
-packages using `pip <https://pip.pypa.io/en/stable>`_.  pip is the
-installation tool recommended by the Python Packaging Authority.
+using `pip <https://pip.pypa.io/en/stable>`_.  pip is the installation tool
+recommended by the Python Packaging Authority.
 
 At the moment, *pip does not work well for Windows* because we do not have the
 necessary compilers to build some binary packages on Windows.
