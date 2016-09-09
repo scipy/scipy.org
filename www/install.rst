@@ -35,29 +35,37 @@ installation tool recommended by the Python Packaging Authority.
 At the moment, *pip does not work well for Windows* because we do not have the
 necessary compilers to build some binary packages on Windows.
 
-To install via pip on Mac or Linux, first upgrade pip to the latest version::
+To install via pip on Mac or Linux, first upgrade pip to the latest version.
+For Python 3::
 
-    python -m pip install --upgrade pip
+    python3 -m pip install --upgrade pip
+
+Replace ``python3`` with ``python2`` for Python 2 pip upgrade.
 
 Then install the scipy stack packages with pip.  We recommend a *user*
 install, using the ``--user`` flag to pip.  This installs packages for your
 local user, and does not need extra permissions to write to the system
 directories::
 
-    pip install --user numpy scipy matplotlib ipython jupyter pandas sympy nose
+    pip3 install --user numpy scipy matplotlib ipython jupyter pandas sympy nose
+
+Use ``pip2`` instead of ``pip3`` for Python 2 installs.
 
 For user installs, make sure your user install executable directory is on your
-PATH.
+PATH.  Here are example commands for setting the user PATH where the user is
+using Python 3 by default:
 
 Linux::
 
+    # Consider adding this at the end of your ~/.bashrc file
     export PATH="$PATH:/home/your_user/.local/bin"
 
 OSX::
 
+    # Consider adding this at the end of your ~/.bash_profile file
     export PATH="$PATH:/Users/your_user/Library/Python/3.5/bin"
 
-replacing ``your_user`` with your username.
+Replace ``your_user`` with your username.
 
 Install systemwide via a Linux package manager
 ----------------------------------------------
@@ -81,11 +89,11 @@ repository <http://neuro.debian.net/>`_ for extra SciPy packages.
 Fedora
 ~~~~~~
 
-Fedora 22 and greater::
+Fedora 22 and later::
 
     sudo dnf install numpy scipy python-matplotlib ipython python-pandas sympy python-nose atlas-devel
 
-Fedora < 22::
+Fedora 21 or earlier::
 
     sudo yum install numpy scipy python-matplotlib ipython python-pandas sympy python-nose atlas-devel
 
@@ -123,8 +131,8 @@ To install the SciPy stack for Python 2.7 with `Macports
 Homebrew
 ~~~~~~~~
 
-At the time of writing (September 2016), `Homebrew <http://brew.sh/>`_ does not
-have the full SciPy stack available (i.e. you cannot do ``brew install
+At the time of writing (September 2016), `Homebrew <http://brew.sh/>`_ does
+not have the full SciPy stack available (i.e. you cannot do ``brew install
 <formula>`` for everything).  You can install NumPy, SciPy and Matplotlib,
 with ``brew tap homebrew/python; brew install python numpy scipy matplotlib``,
 but we recommend pip installs in preference to the homebrew builds.
@@ -139,27 +147,10 @@ one of the scientific Python distributions mentioned above is preferred. However
 that is not an option, Christoph Gohlke provides `pre-built Windows installers <http://www.lfd.uci.edu/~gohlke/pythonlibs/>`_
 for many Python packages, including all of the core SciPy stack, which work extremely well.
 
-Individual binary and source packages
--------------------------------------
+Individual source packages
+--------------------------
 
-The maintainers of many of the packages in the :ref:`SciPy stack
-<stackspec>` provide "official" binary installers for common Windows
-and OS-X systems that can be used to install the packages
-one by one. These installers are generally built to be compatible
-with the Python binaries available from python.org.
-
-*  `python <https://www.python.org/downloads/>`_
-*  `numpy <https://github.com/numpy/numpy/releases>`_
-*  `scipy <https://github.com/scipy/scipy/releases>`_
-*  `matplotlib <http://matplotlib.org/downloads.html>`_
-*  `ipython <https://github.com/ipython/ipython/releases>`_
-*  `pandas <http://pandas.pydata.org/getpandas.html>`_
-*  `sympy <https://github.com/sympy/sympy/releases>`_
-*  `nose <https://nose.readthedocs.org/en/latest/>`_
-
-You can also build any of the SciPy packages from source, for instance if you
+You can build any of the SciPy packages from source, for instance if you
 want to get involved with development. This is easy for packages written
 entirely in Python, while others like NumPy require compiling C code. Refer to
 individual projects for more details.
-
-.. |--| unicode:: U+2013   .. en dash
