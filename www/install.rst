@@ -1,3 +1,5 @@
+.. _install:
+
 ==========================
 Installing the SciPy Stack
 ==========================
@@ -5,6 +7,15 @@ Installing the SciPy Stack
 These are instructions for installing :ref:`the full SciPy stack
 <stackspec>`.  For installing individual packages, such as NumPy and
 SciPy, see :ref:`individual-packages` below.
+
+.. note::
+
+  This page contains instructions for how to use various installation method.
+  Which method to use is discussed in detail in
+  :ref:`Choosing an install method <choosing-install-method>`.
+  Here we just summarize the most important point: if you're a new scientific
+  user or you are on Windows, use a scientific Python distribution.
+
 
 Scientific Python distributions
 -------------------------------
@@ -29,10 +40,8 @@ Installing via pip
 ------------------
 
 Mac and Linux users can install pre-built binary packages for the SciPy stack
-using `pip <https://pip.pypa.io/en/stable>`_.  pip is the installation tool
-recommended by the `Python Packaging Authority <https://www.pypa.io>`_. Pip
-can install pre-built binary packages in the `wheel
-<http://wheel.readthedocs.io>`_ package format.
+using `pip <https://pip.pypa.io/en/stable>`_.  Pip can install pre-built binary
+packages in the `wheel <http://wheel.readthedocs.io>`_ package format.
 
 *pip does not work well for Windows* because the standard pip package index
 site, `pypi <https://pypi.python.org/pypi>`_, does not yet have Windows wheels
@@ -69,6 +78,15 @@ OSX::
     export PATH="$PATH:/Users/your_user/Library/Python/3.5/bin"
 
 Replace ``your_user`` with your username.
+
+
+Installing via conda
+--------------------
+See the `conda documentation <http://conda.pydata.org/docs/>`_ for command line usage.
+
+See `Anaconda Navigator <https://docs.continuum.io/anaconda/navigator>`_ for
+how to use a GUI.
+
 
 Install systemwide via a Linux package manager
 ----------------------------------------------
@@ -118,7 +136,7 @@ appended, then run ``sudo dispatch-conf`` (or an alternative) to save the
 configuration changes, and finally run the original command again.
 
 Install systemwide via a Mac package manager
-----------------------------------------------
+--------------------------------------------
 
 Macs (unlike Linux) don't come with a package manager, but there are a couple
 of popular package managers you can install.
@@ -138,7 +156,7 @@ At the time of writing (September 2016), `Homebrew <http://brew.sh/>`_ does
 not have the full SciPy stack available (i.e. you cannot do ``brew install
 <formula>`` for everything).  You can install NumPy, SciPy and Matplotlib,
 with ``brew tap homebrew/python; brew install python numpy scipy matplotlib``,
-but we recommend pip installs in preference to the homebrew builds.
+but we recommend pip installs in preference to the Homebrew builds.
 
 .. _individual-packages:
 
@@ -156,4 +174,4 @@ Individual source packages
 You can build any of the SciPy packages from source, for instance if you
 want to get involved with development. This is easy for packages written
 entirely in Python, while others like NumPy require compiling C code. Refer to
-individual projects for more details.
+documentation for individual projects for more details.
