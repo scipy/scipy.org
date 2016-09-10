@@ -6,13 +6,12 @@ These are instructions for installing :ref:`the full SciPy stack
 <stackspec>`.  For installing individual packages, such as NumPy and
 SciPy, see :ref:`individual-packages` below.
 
-
 Scientific Python distributions
 -------------------------------
 
-For most users, especially on Windows and Mac, the easiest way to install the
-packages of the SciPy stack is to download one of these Python distributions,
-which includes all the key packages:
+For most users, especially on Windows, the easiest way to install the packages
+of the SciPy stack is to download one of these Python distributions, which
+include all the key packages:
 
 * `Anaconda <https://www.continuum.io/downloads>`_: A free distribution
   for the SciPy stack.  Supports Linux, Windows and Mac.
@@ -26,10 +25,58 @@ which includes all the key packages:
 * `Pyzo <http://www.pyzo.org/>`_: A free distribution based on Anaconda and the
   IEP interactive development environment.  Supports Linux, Windows and Mac.
 
-Linux packages
---------------
+Installing via pip
+------------------
 
-Users on Linux can quickly install the necessary packages from repositories.
+Mac and Linux users can install pre-built binary packages for the SciPy stack
+using `pip <https://pip.pypa.io/en/stable>`_.  pip is the installation tool
+recommended by the `Python Packaging Authority <https://www.pypa.io>`_. Pip
+can install pre-built binary packages in the `wheel
+<http://wheel.readthedocs.io>`_ package format.
+
+*pip does not work well for Windows* because the standard pip package index
+site, `pypi <https://pypi.python.org/pypi>`_, does not yet have Windows wheels
+for some packages, such as SciPy.
+
+To install via pip on Mac or Linux, first upgrade pip to the latest version.
+For Python 3::
+
+    python3 -m pip install --upgrade pip
+
+Replace ``python3`` with ``python2`` for Python 2 pip upgrade.
+
+Then install the SciPy stack packages with pip.  We recommend a *user*
+install, using the ``--user`` flag to pip.  This installs packages for your
+local user, and does not need extra permissions to write to the system
+directories::
+
+    pip3 install --user numpy scipy matplotlib ipython jupyter pandas sympy nose
+
+Use ``pip2`` instead of ``pip3`` for Python 2 installs.
+
+For user installs, make sure your user install executable directory is on your
+PATH.  Here are example commands for setting the user PATH where the user is
+using Python 3 by default:
+
+Linux::
+
+    # Consider adding this at the end of your ~/.bashrc file
+    export PATH="$PATH:/home/your_user/.local/bin"
+
+OSX::
+
+    # Consider adding this at the end of your ~/.bash_profile file
+    export PATH="$PATH:/Users/your_user/Library/Python/3.5/bin"
+
+Replace ``your_user`` with your username.
+
+Install systemwide via a Linux package manager
+----------------------------------------------
+
+Users on Linux can quickly install the necessary packages from standard
+repositories for various distributions.  These installations will be
+system-wide, and will be somewhat out of date compared to versions installed
+with pip.
 
 Ubuntu & Debian
 ~~~~~~~~~~~~~~~
@@ -39,13 +86,17 @@ Ubuntu & Debian
     sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
 
 The versions in Ubuntu 12.10 or newer and Debian 7.0 or newer meet the current
-SciPy stack specification. Users might also want to add the `NeuroDebian repository
-<http://neuro.debian.net/>`_ for extra SciPy packages.
+SciPy stack specification. Users might also want to add the `NeuroDebian
+repository <http://neuro.debian.net/>`_ for extra SciPy packages.
 
 Fedora
 ~~~~~~
 
-::
+Fedora 22 and later::
+
+    sudo dnf install numpy scipy python-matplotlib ipython python-pandas sympy python-nose atlas-devel
+
+Fedora 21 or earlier::
 
     sudo yum install numpy scipy python-matplotlib ipython python-pandas sympy python-nose atlas-devel
 
@@ -66,11 +117,11 @@ If this happens, just run the above command with ``--autounmask-write``
 appended, then run ``sudo dispatch-conf`` (or an alternative) to save the
 configuration changes, and finally run the original command again.
 
-Mac packages
-------------
+Install systemwide via a Mac package manager
+----------------------------------------------
 
-Macs (unlike Linux) don't come with a package manager, but there are a couple of
-popular package managers you can install.
+Macs (unlike Linux) don't come with a package manager, but there are a couple
+of popular package managers you can install.
 
 Macports
 ~~~~~~~~
@@ -83,9 +134,11 @@ To install the SciPy stack for Python 2.7 with `Macports
 Homebrew
 ~~~~~~~~
 
-At the time of writing (March 2016), `Homebrew <http://brew.sh/>`_ does not
-have the full SciPy stack available (i.e. you cannot do ``brew install <formula>``
-for everything).
+At the time of writing (September 2016), `Homebrew <http://brew.sh/>`_ does
+not have the full SciPy stack available (i.e. you cannot do ``brew install
+<formula>`` for everything).  You can install NumPy, SciPy and Matplotlib,
+with ``brew tap homebrew/python; brew install python numpy scipy matplotlib``,
+but we recommend pip installs in preference to the homebrew builds.
 
 .. _individual-packages:
 
@@ -97,25 +150,10 @@ one of the scientific Python distributions mentioned above is preferred. However
 that is not an option, Christoph Gohlke provides `pre-built Windows installers <http://www.lfd.uci.edu/~gohlke/pythonlibs/>`_
 for many Python packages, including all of the core SciPy stack, which work extremely well.
 
-Individual binary and source packages
--------------------------------------
+Individual source packages
+--------------------------
 
-The maintainers of many of the packages in the :ref:`SciPy stack
-<stackspec>` provide "official" binary installers for common Windows
-and OS-X systems that can be used to install the packages
-one by one. These installers are generally built to be compatible
-with the Python binaries available from python.org.
-
-*  `python <https://www.python.org/downloads/>`_
-*  `numpy <https://github.com/numpy/numpy/releases>`_
-*  `scipy <https://github.com/scipy/scipy/releases>`_
-*  `matplotlib <http://matplotlib.org/downloads.html>`_
-*  `ipython <https://github.com/ipython/ipython/releases>`_
-*  `pandas <http://pandas.pydata.org/getpandas.html>`_
-*  `sympy <https://github.com/sympy/sympy/releases>`_
-*  `nose <https://nose.readthedocs.org/en/latest/>`_
-
-You can also build any of the SciPy packages from source, for instance if you
+You can build any of the SciPy packages from source, for instance if you
 want to get involved with development. This is easy for packages written
 entirely in Python, while others like NumPy require compiling C code. Refer to
 individual projects for more details.
