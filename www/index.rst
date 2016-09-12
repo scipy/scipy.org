@@ -26,7 +26,7 @@ SciPy.org
       text-align: center;
   }
   </style>
-  
+
   <div>
   <ul class="thumbnails topnavicons">
 
@@ -84,7 +84,7 @@ SciPy.org
   </div>
   </div>
   </li>
-  
+
   <li class="span2">
   <div class="thumbnail">
   <div class="img">
@@ -100,7 +100,7 @@ SciPy.org
   </div>
 
   </table>
-  
+
 
 SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem
 of open-source software for mathematics, science, and engineering. In
@@ -254,6 +254,7 @@ SciPy 0.16.0 released :news-date:`2015-07-23`
 
    about
    install
+   choosing-install-method
    getting-started
    docs
    bug-report
