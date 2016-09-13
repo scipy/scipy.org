@@ -29,34 +29,28 @@ Installing via pip
 ------------------
 
 Mac and Linux users can install pre-built binary packages for the SciPy stack
-using `pip <https://pip.pypa.io/en/stable>`_.  pip is the installation tool
-recommended by the `Python Packaging Authority <https://www.pypa.io>`_. Pip
-can install pre-built binary packages in the `wheel
-<http://wheel.readthedocs.io>`_ package format.
+using `pip <https://pip.pypa.io/en/stable>`_.  Pip can install pre-built binary
+packages in the `wheel <http://wheel.readthedocs.io>`_ package format.
+
+*Note that you need to have Python and pip already installed on your system.*
 
 *pip does not work well for Windows* because the standard pip package index
-site, `pypi <https://pypi.python.org/pypi>`_, does not yet have Windows wheels
+site, `PyPI <https://pypi.python.org/pypi>`_, does not yet have Windows wheels
 for some packages, such as SciPy.
 
-To install via pip on Mac or Linux, first upgrade pip to the latest version.
-For Python 3::
+To install via pip on Mac or Linux, first upgrade pip to the latest version::
 
-    python3 -m pip install --upgrade pip
-
-Replace ``python3`` with ``python2`` for Python 2 pip upgrade.
+    python -m pip install --upgrade pip
 
 Then install the SciPy stack packages with pip.  We recommend a *user*
 install, using the ``--user`` flag to pip.  This installs packages for your
 local user, and does not need extra permissions to write to the system
 directories::
 
-    pip3 install --user numpy scipy matplotlib ipython jupyter pandas sympy nose
-
-Use ``pip2`` instead of ``pip3`` for Python 2 installs.
+    pip install --user numpy scipy matplotlib ipython jupyter pandas sympy nose
 
 For user installs, make sure your user install executable directory is on your
-PATH.  Here are example commands for setting the user PATH where the user is
-using Python 3 by default:
+PATH.  Here are example commands for setting the user PATH::
 
 Linux::
 
@@ -68,7 +62,7 @@ OSX::
     # Consider adding this at the end of your ~/.bash_profile file
     export PATH="$PATH:/Users/your_user/Library/Python/3.5/bin"
 
-Replace ``your_user`` with your username.
+Replace ``your_user`` with your username, and "3.5" with your Python version.
 
 Install systemwide via a Linux package manager
 ----------------------------------------------
