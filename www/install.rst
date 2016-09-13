@@ -78,6 +78,10 @@ repositories for various distributions.  These installations will be
 system-wide, and will be somewhat out of date compared to versions installed
 with pip.
 
+The install commands for the most common Linux distributions are given here.
+For other distributions, search the default package repository for package
+names of individual packages in the :ref:`SciPy stack <stackspec>`.
+
 Ubuntu & Debian
 ~~~~~~~~~~~~~~~
 
@@ -96,26 +100,8 @@ Fedora 22 and later::
 
     sudo dnf install numpy scipy python-matplotlib ipython python-pandas sympy python-nose atlas-devel
 
-Fedora 21 or earlier::
-
-    sudo yum install numpy scipy python-matplotlib ipython python-pandas sympy python-nose atlas-devel
-
 The versions in Fedora 17 or newer meet the current SciPy stack specification.
 
-Gentoo
-~~~~~~
-
-::
-
-    sudo emerge -aN '>=dev-python/numpy-1.6' '>=sci-libs/scipy-0.10' '>=dev-python/matplotlib-1.1' '>=dev-python/ipython-0.13' '>=dev-python/pandas-0.8' '>=dev-python/sympy-0.7' '>=dev-python/nose-1.1'
-
-You may get some messages saying that keyword changes or USE changes are
-necessary in order to proceed, and that you should use ``--autounmask-write`` to
-write changes to config files.
-
-If this happens, just run the above command with ``--autounmask-write``
-appended, then run ``sudo dispatch-conf`` (or an alternative) to save the
-configuration changes, and finally run the original command again.
 
 Install systemwide via a Mac package manager
 ----------------------------------------------
@@ -126,10 +112,10 @@ of popular package managers you can install.
 Macports
 ~~~~~~~~
 
-To install the SciPy stack for Python 2.7 with `Macports
+To install the SciPy stack for Python 3.5 with `Macports
 <http://www.macports.org>`_ execute this command in a terminal::
 
-    sudo port install py27-numpy py27-scipy py27-matplotlib py27-ipython +notebook py27-pandas py27-sympy py27-nose
+    sudo port install py35-numpy py35-scipy py35-matplotlib py35-ipython +notebook py35-pandas py35-sympy py35-nose
 
 Homebrew
 ~~~~~~~~
@@ -137,8 +123,7 @@ Homebrew
 At the time of writing (September 2016), `Homebrew <http://brew.sh/>`_ does
 not have the full SciPy stack available (i.e. you cannot do ``brew install
 <formula>`` for everything).  You can install NumPy, SciPy and Matplotlib,
-with ``brew tap homebrew/python; brew install python numpy scipy matplotlib``,
-but we recommend pip installs in preference to the homebrew builds.
+with ``brew tap homebrew/python.
 
 .. _individual-packages:
 
