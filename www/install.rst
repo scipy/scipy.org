@@ -117,7 +117,7 @@ Homebrew
 At the time of writing (September 2016), `Homebrew <http://brew.sh/>`_ does
 not have the full SciPy stack available (i.e. you cannot do ``brew install
 <formula>`` for everything).  You can install NumPy, SciPy and Matplotlib,
-with ``brew tap homebrew/python.
+with ``brew tap homebrew/python; brew install python numpy scipy matplotlib``.
 
 .. _individual-packages:
 
