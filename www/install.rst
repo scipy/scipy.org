@@ -43,7 +43,8 @@ To install via pip on Mac or Linux, first upgrade pip to the latest version::
     python -m pip install --upgrade pip
 
 Then install the SciPy stack packages with pip.  We recommend a *user*
-install, using the ``--user`` flag to pip.  This installs packages for your
+install, using the ``--user`` flag to pip (note: don't use ``sudo pip``, that
+will give problems).  This installs packages for your
 local user, and does not need extra permissions to write to the system
 directories::
 
