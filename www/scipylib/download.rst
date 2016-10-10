@@ -41,37 +41,21 @@ Build instructions are available for :doc:`Linux <building/linux>`,
 .. _PyPI page for NumPy: https://pypi.python.org/pypi/numpy
 .. _PyPI page for SciPy: https://pypi.python.org/pypi/scipy
 
-Bleeding Edge Repository Access
--------------------------------
+Source Code Repository Access
+-----------------------------
 
 The most recent development versions of NumPy and SciPy are available through
 the official repositories hosted on `Github`_.
 
 .. _Github: https://github.com/
 
-To check out the latest **NumPy** sources:
+To check out the latest **NumPy** sources::
 
-::
+  git clone https://github.com/numpy/numpy.git numpy
 
-  git clone git://github.com/numpy/numpy.git numpy
+To check out the latest **SciPy** sources::
 
-or (if you're behind a proxy blocking git ports)
-
-::
-
-  git clone http://github.com/numpy/numpy.git numpy
-
-To check out the latest **SciPy** sources:
-
-::
-
-  git clone git://github.com/scipy/scipy.git scipy
-
-or
-
-::
-
-  git clone http://github.com/scipy/scipy.git scipy
+  git clone https://github.com/scipy/scipy.git scipy
 
 Build instructions
 ------------------
@@ -114,9 +98,8 @@ the package maintainer first, rather than to the NumPy/SciPy mailing lists**.
 |                     |                           |                           |
 |                     | __ numpy-fedora_          | __ scipy-fedora_          |
 +---------------------+---------------------------+---------------------------+
-| `Fink`_             | `scipy-core-py24`_,       | `scipy-py24`_,            |
-|                     | `scipy-core-py25`_,       | `scipy-py25`_,            |
-|                     | `scipy-core-py26`_        | `scipy-py26`_             |
+| `Fink`_             | `numpy-py27`_,            | `scipy-py27`_,            |
+|                     | `numpy-py35`_             | `scipy-py35`_             |
 +---------------------+---------------------------+---------------------------+
 | `FreeBSD (Ports)`_  | `math/py-numpy`_          | `science/py-scipy`_       |
 +---------------------+---------------------------+---------------------------+
@@ -141,12 +124,10 @@ the package maintainer first, rather than to the NumPy/SciPy mailing lists**.
 
 .. Fink links
 .. _Fink: http://www.finkproject.org/
-.. _scipy-core-py24: http://pdb.finkproject.org/pdb/package.php/scipy-core-py24
-.. _scipy-core-py25: http://pdb.finkproject.org/pdb/package.php/scipy-core-py25
-.. _scipy-core-py26: http://pdb.finkproject.org/pdb/package.php/scipy-core-py26
-.. _scipy-py24: http://pdb.finkproject.org/pdb/package.php/scipy-py24
-.. _scipy-py25: http://pdb.finkproject.org/pdb/package.php/scipy-py25
-.. _scipy-py26: http://pdb.finkproject.org/pdb/package.php/scipy-py26
+.. _numpy-py27: http://pdb.finkproject.org/pdb/package.php/numpy-py27
+.. _numpy-py35: http://pdb.finkproject.org/pdb/package.php/numpy-py35
+.. _scipy-py27: http://pdb.finkproject.org/pdb/package.php/scipy-py27
+.. _scipy-py35: http://pdb.finkproject.org/pdb/package.php/scipy-py35
 
 .. Debian links
 .. _Debian GNU/Linux: http://www.debian.org/
