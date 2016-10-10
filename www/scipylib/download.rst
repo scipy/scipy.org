@@ -12,24 +12,24 @@ Official Source and Binary Releases
 -----------------------------------
 
 For each official release of NumPy and SciPy, we provide source code 
-(tarball) as well as binary packages for several major platforms. Binary 
-packages for other platforms may be available from your operating system 
-vendor.
+(tarball) as well as binary wheels for several major platforms.
+Binary wheels for SciPy on Windows are not available, we strongly recommend
+using a scientific Python distribution (those all do provide SciPy).
 
 +--------+------------------------------+-------------------------------------+
 | Project| Available packages           | Download location                   | 
 +========+==============================+=====================================+
 |        |  Official *source code*      |                                     |
-|        |  (all platforms) and         | `NumPy release page`_               |
-| NumPy  |  *binaries* for **Windows**  |                                     |
-|        |  & **Mac OS X**              | `SourceForge site for NumPy`_       |
+|        |  (all platforms) and         |  `PyPI page for NumPy`_             |
+| NumPy  |  *binaries* for **Windows**, |                                     |
+|        |  **Linux** and **Mac OS X**  |                                     |
 |        |                              |                                     |
 +--------+------------------------------+-------------------------------------+
 |        |  Official *source code*      |                                     |
-|        |  (all platforms) and         | `SciPy release page`_               |
+|        |  (all platforms) and         | `SciPy release page`_ (sources)     |
 | SciPy  |  *binaries* for **Windows**  |                                     |
-|        |  & **Mac OS X**              | `SourceForge site for SciPy`_       |
-|        |                              |  (legacy releases only)             |
+|        |  & **Mac OS X**              | `PyPI page for SciPy`_ (all)        |
+|        |                              |                                     |
 |        |                              |                                     |
 +--------+------------------------------+-------------------------------------+
 
@@ -38,9 +38,8 @@ Build instructions are available for :doc:`Linux <building/linux>`,
 
 .. _NumPy release page: https://github.com/numpy/numpy/releases
 .. _SciPy release page: https://github.com/scipy/scipy/releases
-.. _SourceForge site for NumPy: https://sourceforge.net/projects/numpy/files/
-.. _SourceForge site for SciPy: https://sourceforge.net/projects/scipy/files/
-.. _SciPy PPA on Launchpad: https://edge.launchpad.net/~scipy/+archive/ppa
+.. _PyPI page for NumPy: https://pypi.python.org/pypi/numpy
+.. _PyPI page for SciPy: https://pypi.python.org/pypi/scipy
 
 Bleeding Edge Repository Access
 -------------------------------
