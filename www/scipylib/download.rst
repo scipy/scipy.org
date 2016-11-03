@@ -12,24 +12,24 @@ Official Source and Binary Releases
 -----------------------------------
 
 For each official release of NumPy and SciPy, we provide source code 
-(tarball) as well as binary packages for several major platforms. Binary 
-packages for other platforms may be available from your operating system 
-vendor.
+(tarball) as well as binary wheels for several major platforms.
+Binary wheels for SciPy on Windows are not available, we strongly recommend
+using a scientific Python distribution (those all do provide SciPy).
 
 +--------+------------------------------+-------------------------------------+
 | Project| Available packages           | Download location                   | 
 +========+==============================+=====================================+
 |        |  Official *source code*      |                                     |
-|        |  (all platforms) and         | `NumPy release page`_               |
-| NumPy  |  *binaries* for **Windows**  |                                     |
-|        |  & **Mac OS X**              | `SourceForge site for NumPy`_       |
+|        |  (all platforms) and         |  `PyPI page for NumPy`_             |
+| NumPy  |  *binaries* for **Windows**, |                                     |
+|        |  **Linux** and **Mac OS X**  |                                     |
 |        |                              |                                     |
 +--------+------------------------------+-------------------------------------+
 |        |  Official *source code*      |                                     |
-|        |  (all platforms) and         | `SciPy release page`_               |
+|        |  (all platforms) and         | `SciPy release page`_ (sources)     |
 | SciPy  |  *binaries* for **Windows**  |                                     |
-|        |  & **Mac OS X**              | `SourceForge site for SciPy`_       |
-|        |                              |  (legacy releases only)             |
+|        |  & **Mac OS X**              | `PyPI page for SciPy`_ (all)        |
+|        |                              |                                     |
 |        |                              |                                     |
 +--------+------------------------------+-------------------------------------+
 
@@ -38,41 +38,24 @@ Build instructions are available for :doc:`Linux <building/linux>`,
 
 .. _NumPy release page: https://github.com/numpy/numpy/releases
 .. _SciPy release page: https://github.com/scipy/scipy/releases
-.. _SourceForge site for NumPy: https://sourceforge.net/projects/numpy/files/
-.. _SourceForge site for SciPy: https://sourceforge.net/projects/scipy/files/
-.. _SciPy PPA on Launchpad: https://edge.launchpad.net/~scipy/+archive/ppa
+.. _PyPI page for NumPy: https://pypi.python.org/pypi/numpy
+.. _PyPI page for SciPy: https://pypi.python.org/pypi/scipy
 
-Bleeding Edge Repository Access
--------------------------------
+Source Code Repository Access
+-----------------------------
 
 The most recent development versions of NumPy and SciPy are available through
 the official repositories hosted on `Github`_.
 
 .. _Github: https://github.com/
 
-To check out the latest **NumPy** sources:
+To check out the latest **NumPy** sources::
 
-::
+  git clone https://github.com/numpy/numpy.git numpy
 
-  git clone git://github.com/numpy/numpy.git numpy
+To check out the latest **SciPy** sources::
 
-or (if you're behind a proxy blocking git ports)
-
-::
-
-  git clone http://github.com/numpy/numpy.git numpy
-
-To check out the latest **SciPy** sources:
-
-::
-
-  git clone git://github.com/scipy/scipy.git scipy
-
-or
-
-::
-
-  git clone http://github.com/scipy/scipy.git scipy
+  git clone https://github.com/scipy/scipy.git scipy
 
 Build instructions
 ------------------
@@ -115,9 +98,8 @@ the package maintainer first, rather than to the NumPy/SciPy mailing lists**.
 |                     |                           |                           |
 |                     | __ numpy-fedora_          | __ scipy-fedora_          |
 +---------------------+---------------------------+---------------------------+
-| `Fink`_             | `scipy-core-py24`_,       | `scipy-py24`_,            |
-|                     | `scipy-core-py25`_,       | `scipy-py25`_,            |
-|                     | `scipy-core-py26`_        | `scipy-py26`_             |
+| `Fink`_             | `numpy-py27`_,            | `scipy-py27`_,            |
+|                     | `numpy-py35`_             | `scipy-py35`_             |
 +---------------------+---------------------------+---------------------------+
 | `FreeBSD (Ports)`_  | `math/py-numpy`_          | `science/py-scipy`_       |
 +---------------------+---------------------------+---------------------------+
@@ -142,12 +124,10 @@ the package maintainer first, rather than to the NumPy/SciPy mailing lists**.
 
 .. Fink links
 .. _Fink: http://www.finkproject.org/
-.. _scipy-core-py24: http://pdb.finkproject.org/pdb/package.php/scipy-core-py24
-.. _scipy-core-py25: http://pdb.finkproject.org/pdb/package.php/scipy-core-py25
-.. _scipy-core-py26: http://pdb.finkproject.org/pdb/package.php/scipy-core-py26
-.. _scipy-py24: http://pdb.finkproject.org/pdb/package.php/scipy-py24
-.. _scipy-py25: http://pdb.finkproject.org/pdb/package.php/scipy-py25
-.. _scipy-py26: http://pdb.finkproject.org/pdb/package.php/scipy-py26
+.. _numpy-py27: http://pdb.finkproject.org/pdb/package.php/numpy-py27
+.. _numpy-py35: http://pdb.finkproject.org/pdb/package.php/numpy-py35
+.. _scipy-py27: http://pdb.finkproject.org/pdb/package.php/scipy-py27
+.. _scipy-py35: http://pdb.finkproject.org/pdb/package.php/scipy-py35
 
 .. Debian links
 .. _Debian GNU/Linux: http://www.debian.org/
