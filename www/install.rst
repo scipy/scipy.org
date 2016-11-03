@@ -51,7 +51,7 @@ directories::
     pip install --user numpy scipy matplotlib ipython jupyter pandas sympy nose
 
 For user installs, make sure your user install executable directory is on your
-PATH.  Here are example commands for setting the user PATH::
+PATH.  Here are example commands for setting the user PATH:
 
 Linux::
 
