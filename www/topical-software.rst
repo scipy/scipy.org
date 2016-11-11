@@ -62,8 +62,9 @@ Generic Python/programming tutorials:
 -------------------------------------
 
 - `The standard Python docs <https://www.python.org/doc/>`__ : this contains the official documentation and tutorials which ship with the language.
-- `Learn Python <learnpython.org>`__ Interactive site with Python tutorials.
+- `Learn Python <http://learnpython.org/>`__ Interactive site with Python tutorials.
 - `How to Think Like a Computer Scientist <http://www.greenteapress.com/thinkpython/thinkCSpy/>`__: a free book for Python beginners.
+- `Learn Python for Data Science <https://www.datacamp.com/courses/intro-to-python-for-data-science>`__ Interactive site with Python tutorials focused on Data Science applications.
 
 Scientific computing with Python tutorials:
 -------------------------------------------
