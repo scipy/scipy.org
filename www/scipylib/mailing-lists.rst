@@ -8,7 +8,7 @@ receive user support.
 
 **Searching a list** is a great way to get your questions answered without
 actually signing up for a list. Follow the **Read/Search** link for a nice
-interface from Gmane_. Or, browse the old fashioned 
+interface from Gmane_. Or, browse the old fashioned
 way at the official **Archives** link.
 
 To post to a list, you have to be on it. If you want to see **how much
@@ -25,8 +25,8 @@ provide notifications of all version control checkins.
 Mailing Lists
 -------------
 
-The following table lists the core NumPy and SciPy lists. Please see 
-:ref:`before-you-post` to make sure that this is the right place to ask 
+The following table lists the core NumPy and SciPy lists. Please see
+:ref:`before-you-post` to make sure that this is the right place to ask
 your question.
 
  +----------------------+----------------+---------------+----------------+
@@ -74,9 +74,9 @@ Before you post
 ---------------
 
 * Search the appropriate archives first (one way is to use the
-  "Read/Search" links to Gmane below).  Though knowing what search terms 
-  to use is an acquired skill, often it's easier than you think. Also 
-  check the :ref:`faq-top` to see if your question is answered there. 
+  "Read/Search" links to Gmane below).  Though knowing what search terms
+  to use is an acquired skill, often it's easier than you think. Also
+  check the :ref:`faq-top` to see if your question is answered there.
 * Please make sure that you're posting to the right list. The NumPy
   and SciPy mailing lists should be used for questions relating to
   those two packages in particular (general questions about how to
@@ -91,29 +91,29 @@ Before you post
 A few points on mailing list etiquette:
 
 * **Reply to list, not to sender.**
-  
+
   In general it is not necessary to CC respondents on further replies to
-  your thread. Please reply to the list rather than to the list *and* the 
+  your thread. Please reply to the list rather than to the list *and* the
   individual respondents (note that the NumPy and SciPy lists add Reply-To
   headers to facilitate this; normally, clicking 'Reply' in your mail client
   will direct replies to the list rather than the sender). Likewise,
-  if you expect a reply, you should either monitor the list traffic 
+  if you expect a reply, you should either monitor the list traffic
   through your mail client or through a service like Gmane_; responses
   will generally be sent to the list and only the list.
 
 * **Don't reply to digests.**
-  
+
   Digests should only be used if you intend to read and not participate.
   Replying to digests makes it impossible to follow conversation threads;
   please subscribe normally if you wish to participate in the conversation.
 
 * **Keep it friendly, folks.**
 
-  Please keep the tone of conversations cordial and respectful, and 
-  recognize that those responding to your questions are volunteering 
-  their free time to do so. 
+  Please keep the tone of conversations cordial and respectful, and
+  recognize that those responding to your questions are volunteering
+  their free time to do so.
 
-.. _Gmane: http://www.gmane.org/ 
+.. _Gmane: http://www.gmane.org/
 .. _matplotlib: http://matplotlib.org/
 .. _IPython: http://ipython.org/
 
@@ -122,7 +122,7 @@ A few points on mailing list etiquette:
 .. _gm-scipy-d: http://dir.gmane.org/gmane.comp.python.scientific.devel
 
 .. _numpy-d-ar: https://mail.scipy.org/pipermail/numpy-discussion/
-.. _scipy-u-ar: https://mail.scipy.org/pipermail/scipy-user/
+.. _scipy-u-ar: https://mail.python.org/pipermail/scipy-user/
 .. _scipy-d-ar: https://mail.scipy.org/pipermail/scipy-dev/
 .. _numpy-t-ar: https://mail.scipy.org/pipermail/numpy-tickets/
 .. _numpy-s-ar: https://mail.scipy.org/pipermail/numpy-svn/
@@ -131,7 +131,7 @@ A few points on mailing list etiquette:
 
 
 .. _numpy-d-su: https://mail.scipy.org/mailman/listinfo/numpy-discussion
-.. _scipy-u-su: https://mail.scipy.org/mailman/listinfo/scipy-user
+.. _scipy-u-su: https://mail.python.org/mailman/listinfo/scipy-user
 .. _scipy-d-su: https://mail.scipy.org/mailman/listinfo/scipy-dev
 .. _numpy-t-su: https://mail.scipy.org/pipermail/numpy-tickets/
 .. _numpy-s-su: https://mail.scipy.org/mailman/listinfo/numpy-svn
