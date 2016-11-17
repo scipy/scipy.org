@@ -8,6 +8,14 @@ Past News
 .. role:: news-date
    :class: news-date
 
+NumPy 1.11.1 released :news-date:`2016-06-26`
+    See :doc:`/scipylib/download`.
+NumPy 1.11.0 released :news-date:`2016-03-27`
+    See :doc:`/scipylib/download`.
+NumPy 1.10.4 released :news-date:`2016-01-07`
+    See :doc:`/scipylib/download`.
+NumPy 1.10.2 released :news-date:`2015-12-14`
+    See :doc:`/scipylib/download`.
 NumPy 1.9.2 released :news-date:`2015-03-01`
     See :doc:`/scipylib/download`.
 SciPy 0.15.1 released :news-date:`2015-01-18`
@@ -28,11 +36,11 @@ NumPy 1.8.1 released :news-date:`2014-03-26`
     See :doc:`/scipylib/download`.
 EuroSciPy 2014
     `EuroSciPy <https://www.euroscipy.org/2014/>`__ is the European gathering
-    for scientists using Python. The 2014 edition will take place in 
+    for scientists using Python. The 2014 edition will take place in
     Cambridge, UK, Aug. 27-31.
 SciPy 2014
     `SciPy <http://conference.scipy.org/scipy2014/>`__ is an annual conference
-    for scientists using Python. The 2014 edition will take place in 
+    for scientists using Python. The 2014 edition will take place in
     Austin, Texas, July 6-12.
 SciPy 0.13.3 released :news-date:`2014-02-04`
     See :doc:`/scipylib/download`.
