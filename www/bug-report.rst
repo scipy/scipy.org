@@ -21,7 +21,9 @@ Please report bugs, documentation errors etc. in the following trackers:
 - `SymPy issues <https://github.com/sympy/sympy/issues>`_
 
 For problems with this scipy.org website, use the bug tracker
-for the `scipy.org website project <https://github.com/scipy/scipy.org/>`_.
+for the `scipy.org website project <https://github.com/scipy/scipy.org/>`_. This
+*excludes* `docs.scipy.org <https://docs.scipy.org/doc/>`__: problems in docs
+should be reported to the project which the document describes.
 
 Guidelines for submitting bugs
 ------------------------------
