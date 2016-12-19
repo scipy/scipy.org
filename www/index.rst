@@ -214,6 +214,9 @@ News
 .. role:: news-date
    :class: news-date
 
+NumPy 1.11.3 released :news-date:`2016-12-18`
+    See :doc:`/scipylib/download`.
+
 NumPy 1.12.0b1 released :news-date:`2016-11-16`
     See :doc:`/scipylib/download`.
 
