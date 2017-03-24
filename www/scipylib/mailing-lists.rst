@@ -121,19 +121,15 @@ A few points on mailing list etiquette:
 .. _gm-scipy-u: http://dir.gmane.org/gmane.comp.python.scientific.user
 .. _gm-scipy-d: http://dir.gmane.org/gmane.comp.python.scientific.devel
 
-.. _numpy-d-ar: https://mail.scipy.org/pipermail/numpy-discussion/
+.. _numpy-d-ar: https://mail.python.org/pipermail/numpy-discussion/
 .. _scipy-u-ar: https://mail.python.org/pipermail/scipy-user/
-.. _scipy-d-ar: https://mail.scipy.org/pipermail/scipy-dev/
-.. _numpy-t-ar: https://mail.scipy.org/pipermail/numpy-tickets/
-.. _numpy-s-ar: https://mail.scipy.org/pipermail/numpy-svn/
-.. _scipy-t-ar: https://mail.scipy.org/pipermail/scipy-tickets/
-.. _scipy-s-ar: https://mail.scipy.org/pipermail/scipy-svn/
+.. _scipy-d-ar: https://mail.python.org/pipermail/scipy-dev/
+.. _numpy-s-ar: https://mail.python.org/pipermail/numpy-svn/
+.. _scipy-s-ar: https://mail.python.org/pipermail/scipy-svn/
 
 
-.. _numpy-d-su: https://mail.scipy.org/mailman/listinfo/numpy-discussion
+.. _numpy-d-su: https://mail.python.org/mailman/listinfo/numpy-discussion
 .. _scipy-u-su: https://mail.python.org/mailman/listinfo/scipy-user
-.. _scipy-d-su: https://mail.scipy.org/mailman/listinfo/scipy-dev
-.. _numpy-t-su: https://mail.scipy.org/pipermail/numpy-tickets/
-.. _numpy-s-su: https://mail.scipy.org/mailman/listinfo/numpy-svn
-.. _scipy-t-su: https://mail.scipy.org/mailman/listinfo/scipy-tickets
-.. _scipy-s-su: https://mail.scipy.org/mailman/listinfo/scipy-svn
+.. _scipy-d-su: https://mail.python.org/mailman/listinfo/scipy-dev
+.. _numpy-s-su: https://mail.python.org/mailman/listinfo/numpy-svn
+.. _scipy-s-su: https://mail.python.org/mailman/listinfo/scipy-svn
