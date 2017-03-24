@@ -17,7 +17,7 @@ USERNAME=tkluyver
 
 help:
 	@echo "Please use \`make <target>' where <target> is one of"
-	@echo "  upload USERNAME=user   to upload the generated pages to new.scipy.org"
+	@echo "  upload USERNAME=user   to upload the generated pages to scipy.org"
 	@echo "  html                   to make standalone HTML files"
 	@echo "  linkcheck              to check if external links work"
 
@@ -29,8 +29,8 @@ upload: html
 	cp .htaccess _build/html/
 	chmod a+rX -R _build/html/
 	-rsync -az --delete-after --exclude '.git' _build/html/ \
-	    $(USERNAME)@new.scipy.org:/srv/scipy_org
-	ssh $(USERNAME)@new.scipy.org /srv/bin/fixperm-scipy_org.sh
+	    $(USERNAME)@scipy.org:/srv/scipy_org
+	ssh $(USERNAME)@scipy.org /srv/bin/fixperm-scipy_org.sh
 
 html:
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) _build/html
