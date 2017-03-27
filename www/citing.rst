@@ -158,3 +158,16 @@ F2PY
 __ http://dx.doi.org/10.1504/IJCSE.2009.029165
 __ http://www.inderscience.com/info/inarticletoc.php?jcode=ijcse&year=2009&vol=4&issue=4
 __ http://cens.ioc.ee/~pearu/papers/IJCSE4.4_Paper_8.pdf
+
+SymPy
+#####
+
+* Meurer A, Smith CP, Paprocki M, Čertík O, Kirpichev SB, Rocklin M, Kumar A, 
+  Ivanov S, Moore JK, Singh S, Rathnayake T, Vig S, Granger BE, Muller RP, 
+  Bonazzi F, Gupta H, Vats S, Johansson F, Pedregosa F, Curry MJ, Terrel AR, 
+  Roučka Š, Saboo A, Fernando I, Kulal S, Cimrman R, Scopatz A. 
+  **SymPy: symbolic computing in Python**,
+  PeerJ Computer Science 3:e103 (2017)
+  (`publisher link`__) 
+
+__ https://doi.org/10.7717/peerj-cs.103
