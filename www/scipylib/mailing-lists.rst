@@ -8,16 +8,17 @@ receive user support.
 
 **Searching a list** is a great way to get your questions answered without
 actually signing up for a list. Follow the **Read/Search** link for a nice
-interface from Gmane_. Or, browse the old fashioned
-way at the official **Archives** link.
+interface from Nabble_. Or, browse the old fashioned way at the official
+**Archives** link.
 
 To post to a list, you have to be on it. If you want to see **how much
-traffic** a list gets, there is a chart on the Gmane page, or just go to the
-list archive and take a look. You can opt to receive messages in digest form.
-Groups of about 10 messages are sent in one email, with a table of contents at
-the top. This reduces inbox clutter, but means you will get the messages with
-a delay of up to a day. It is okay to post job ads for work involving
-NumPy/SciPy and related packages if you put "[JOB]" in the subject.
+traffic** a list gets, just go to the list archive and take a look. You can opt
+to receive messages in digest form.  Groups of about 10 messages are sent in
+one email, with a table of contents at the top.  This reduces inbox clutter,
+but means you will get the messages with a delay of up to a day.
+
+It is okay to post job ads for work involving NumPy/SciPy and related packages
+if you put ``[JOB]`` in the subject.
 
 We also have read-only mailing lists setup for NumPy and SciPy that
 provide notifications of all version control checkins.
@@ -42,9 +43,9 @@ your question.
  +----------------------+----------------+---------------+----------------+
  |   Our user-support forum, for discussions of how to use SciPy.         |
  +----------------------+----------------+---------------+----------------+
- | **SciPy-dev**        |`Read/Search`__ |`Archives`__   |`Subscribe`__   |
+ | **SciPy-dev**        |                |`Archives`__   |`Subscribe`__   |
  |                      |                |               |                |
- |                      |__ gm-scipy-d_  |__ scipy-d-ar_ |__ scipy-d-su_  |
+ |                      |                |__ scipy-d-ar_ |__ scipy-d-su_  |
  +----------------------+----------------+---------------+----------------+
  | For discussions about the development of SciPy, including code, website|
  | and documentation.                                                     |
@@ -63,10 +64,20 @@ your question.
  +------------------------------------------------------------------------+
 
 
+Stackoverflow
+-------------
+Stackoverflow_ is a good place to ask usage questions.  Tag your question
+with ``numpy`` or ``scipy``, and with ``python``.
+
+Usage questions can of course also be asked on the ``scipy-user`` or
+``numpy-discussion`` lists.
+
+
 IRC
 ---
 
 There is also an IRC channel ``#scipy`` on `irc.freenode.net <http://freenode.net/>`__.
+
 
 .. _before-you-post:
 
@@ -74,11 +85,11 @@ Before you post
 ---------------
 
 * Search the appropriate archives first (one way is to use the
-  "Read/Search" links to Gmane below).  Though knowing what search terms
+  "Read/Search" links to Nabble above).  Though knowing what search terms
   to use is an acquired skill, often it's easier than you think. Also
   check the :ref:`faq-top` to see if your question is answered there.
-* Please make sure that you're posting to the right list. The NumPy
-  and SciPy mailing lists should be used for questions relating to
+* Please make sure that you're posting to the right list. The **NumPy**
+  and **SciPy** mailing lists should be used for questions relating to
   those two packages in particular (general questions about how to
   accomplish a scientific task in Python are okay, too). Questions
   about **matplotlib** should go to one of the matplotlib_ mailing
@@ -98,7 +109,7 @@ A few points on mailing list etiquette:
   headers to facilitate this; normally, clicking 'Reply' in your mail client
   will direct replies to the list rather than the sender). Likewise,
   if you expect a reply, you should either monitor the list traffic
-  through your mail client or through a service like Gmane_; responses
+  through your mail client or through a service like Nabble_; responses
   will generally be sent to the list and only the list.
 
 * **Don't reply to digests.**
@@ -107,19 +118,26 @@ A few points on mailing list etiquette:
   Replying to digests makes it impossible to follow conversation threads;
   please subscribe normally if you wish to participate in the conversation.
 
+* **Use bottom-posting.**
+
+  When replying to a message, please use bottom-posting.  This means quoting
+  the content you reply to and inserting your replies below each quote.
+  For more details, see `posting style
+  <https://en.wikipedia.org/wiki/Posting_style>`_.
+
 * **Keep it friendly, folks.**
 
   Please keep the tone of conversations cordial and respectful, and
   recognize that those responding to your questions are volunteering
   their free time to do so.
 
-.. _Gmane: http://www.gmane.org/
+.. _Nabble: http://www.nabble.com
 .. _matplotlib: http://matplotlib.org/
 .. _IPython: http://ipython.org/
+.. _Stackoverflow: http://stackoverflow.com
 
-.. _gm-numpy-d: http://dir.gmane.org/gmane.comp.python.numeric.general
-.. _gm-scipy-u: http://dir.gmane.org/gmane.comp.python.scientific.user
-.. _gm-scipy-d: http://dir.gmane.org/gmane.comp.python.scientific.devel
+.. _gm-numpy-d: http://numpy-discussion.10968.n7.nabble.com
+.. _gm-scipy-u: http://scipy-user.10969.n7.nabble.com
 
 .. _numpy-d-ar: https://mail.python.org/pipermail/numpy-discussion/
 .. _scipy-u-ar: https://mail.python.org/pipermail/scipy-user/
