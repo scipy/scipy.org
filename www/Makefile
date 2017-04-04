@@ -30,7 +30,7 @@ upload: html
 	chmod a+rX -R _build/html/
 	rsync -og --chown=www-data:www-data --delete-after -r \
 	    --exclude '.git' _build/html/ \
-	    $(USERNAME)@scipy.org:/srv/scipy_org
+	    $(USERNAME)@scipy.org:/var/www/html
 
 html:
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) _build/html
