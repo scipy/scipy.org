@@ -170,6 +170,7 @@ Tools with a (mostly) 2-D focus
 - `pygame <http://www.pygame.org/hifi.html>`__: though intended for writing games using Python, its general-purpose multimedia libraries definitely have other applications in visualization.
 - `PyNGL <http://www.pyngl.ucar.edu/>`__: a Python module for creating publication-quality 2D visualizations, with emphasis in the geosciences. PyNGL can create contours, vectors, streamlines, XY plots, and overlay any one of these on several map projections. PyNGL's graphics are based on the same high-quality graphics as the NCAR Command Language and NCAR Graphics.
 - `Veusz <http://home.gna.org/veusz/>`__ : a scientific plotting package written in Python. It uses `PyQt <https://riverbankcomputing.com/software/pyqt/intro>`__ and `Numpy <http://www.numpy.org/>`__. Veusz is designed to produce publication-ready Postscript output.
+- `Yellowbrick <https://github.com/DistrictDataLabs/yellowbrick>`_ A suite of custom matplotlib visualizers for scikit-learn estimators to support visual model selection, evaluation, and diagnostics.
 
 Data visualization (mostly 3-D, surfaces and volumetric rendering)
 ------------------------------------------------------------------
@@ -236,9 +237,9 @@ Optimization
 
 - `lmfit-py <https://lmfit.github.io/lmfit-py/>`__ is a wrapper around scipy.optimize.leastsq that uses named fitting parameters which may be varied, fixed, or constrained with simple mathematical expressions.
 
-- `noisyopt <https://github.com/andim/noisyopt>`__: provides algorithms for the optimization of noisy functions including pattern search with adaptive sampling and simultaneous perturbation stochastic approximation 
+- `noisyopt <https://github.com/andim/noisyopt>`__: provides algorithms for the optimization of noisy functions including pattern search with adaptive sampling and simultaneous perturbation stochastic approximation
 
-- `scipydirect <https://github.com/andim/scipydirect>`__: is a wrapper about the DIRECT algorithm for global optimization. 
+- `scipydirect <https://github.com/andim/scipydirect>`__: is a wrapper about the DIRECT algorithm for global optimization.
 
 Systems of nonlinear equations
 ==============================
@@ -335,7 +336,7 @@ Artificial intelligence & machine learning
 - `Monte Python <http://montepython.sourceforge.net>`__ A machine learning library written in pure Python. The focus is on gradient based learning. Monte includes neural networks, conditional random fields, logistic regression and more.
 - `hcluster <https://code.google.com/archive/p/scipy-cluster>`__: A hierarchical clustering library for SciPy with base implementation written in C for efficiency. Clusters data, computes cluster statistics, and plots dendrograms.
 - `PyPR <http://pypr.sourceforge.net>`__ A collection of machine learning methods written in Python: Artificial Neural Networks, Gaussian Processes, Gaussian mixture models, and K-means.
-- `Theano <http://deeplearning.net/software/theano/>`__: A CPU and GPU Math Expression Compiler: Theano is a Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently. 
+- `Theano <http://deeplearning.net/software/theano/>`__: A CPU and GPU Math Expression Compiler: Theano is a Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently.
 - `NeuroLab <https://pypi.python.org/pypi/neurolab>`__: Neurolab is a simple and powerful Neural Network Library for Python.
 
 Bayesian Statistics
