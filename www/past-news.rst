@@ -8,6 +8,20 @@ Past News
 .. role:: news-date
    :class: news-date
 
+NumPy 1.12.0 released :news-date:`2017-01-15`
+    See :doc:`/scipylib/download`.
+NumPy 1.11.3 released :news-date:`2016-12-18`
+    See :doc:`/scipylib/download`.
+SciPy 0.18.1 released :news-date:`2016-09-19`
+    See :doc:`/scipylib/download`.
+SciPy 0.18.0 released :news-date:`2016-07-25`
+    See :doc:`/scipylib/download`.
+SciPy 0.17.1 released :news-date:`2016-05-12`
+    See :doc:`/scipylib/download`.
+SciPy 0.17.0 released :news-date:`2016-01-23`
+    See :doc:`/scipylib/download`.
+SciPy 0.16.1 released :news-date:`2015-10-24`
+    See :doc:`/scipylib/download`.
 NumPy 1.13.0rc2 released :news-date:`2017-05-18`
     See :doc:`/scipylib/download`.
 NumPy 1.13.0rc1 released :news-date:`2017-05-10`
