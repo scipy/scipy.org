@@ -39,25 +39,21 @@ Core Packages
 * SymPy_, for symbolic mathematics and computer algebra.
 * IPython_, a rich interactive interface, letting you quickly process data and
   test ideas.
-* The Jupyter_ notebook provides IPython functionality and more in your web
-  browser, allowing you to document your computation in an easily reproducible form.
+* nose_, a framework for testing Python code, being phased out in preference for pytest_.
 
 Other packages
 ##############
 
-There are many more packages built on this stack - too many to list here. This
+There are :doc:`many more relevant packages <topical-software>`. This
 is a brief overview of a few major ones:
 
-* Mayavi_ is a powerful and user-friendly framework for 3D visualization, 
-  built on top of the award winning Visualization Toolkit, VTK_.
+* The Jupyter_ notebook provides IPython functionality and more in your web
+  browser, allowing you to document your computation in an easily reproducible form.
 * Cython_ extends Python syntax so that you can conveniently build C extensions,
   either to speed up critical code, or to integrate with C/C++ libraries.
 * scikit-image_ is a collection of algorithms for image processing.
 * scikit-learn_ is a collection of algorithms and tools for machine learning.
-* Further Scikits_ are available providing more specific functionality. 
 * h5py_ and PyTables_ can both access data stored in the HDF5 format.
-
-See the :doc:`topical-software` page for more.
 
 .. _NumPy: http://www.numpy.org/
 .. _Matplotlib: http://matplotlib.org/
@@ -73,6 +69,7 @@ See the :doc:`topical-software` page for more.
 .. _h5py: http://www.h5py.org
 .. _PyTables: http://www.pytables.org
 .. _Jupyter: http://jupyter.org/
+.. _pytest: https://docs.pytest.org/
 
 .. ETS stuff
 .. _Enthought Tool Suite: http://code.enthought.com/projects/index.php
