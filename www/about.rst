@@ -57,8 +57,7 @@ Productivity and high-perormance computing:
 Quality assurance:
 
 * nose_, a framework for testing Python code, being phased out in preference for pytest_.
-
-
+* numpydoc_, a standard and library for documenting Scientific Python libraries.
 
 .. _NumPy: http://www.numpy.org/
 .. _Matplotlib: http://matplotlib.org/
@@ -78,6 +77,7 @@ Quality assurance:
 .. _Dask: https://dask.readthedocs.io/
 .. _Joblib: https://joblib.readthedocs.io/
 .. _IPyParallel: https://ipyparallel.readthedocs.io/
+.. _numpydoc: https://github.com/numpy/numpydoc
 
 .. ETS stuff
 .. _Enthought Tool Suite: http://code.enthought.com/projects/index.php
