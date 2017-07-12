@@ -4,6 +4,12 @@
 The SciPy Stack specification
 =============================
 
+.. deprecated::
+
+    The SciPy Stack Specification was developed in 2012.
+    As of 2017, the SciPy Stack concept is obsolete given
+    improvements in package management and distribution.
+
 Python Distributions promoting themselves as providing the SciPy stack should
 meet the requirements listed below.
 
