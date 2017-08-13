@@ -15,12 +15,12 @@ include all the key packages:
 
 * `Anaconda <https://www.continuum.io/downloads>`_: A free distribution
   for the SciPy stack.  Supports Linux, Windows and Mac.
-* `Enthought Canopy <https://www.enthought.com/products/canopy/>`_: The free and
+* `Enthought Canopy <https://www.enthought.com/products/canopy>`_: The free and
   commercial versions include the core SciPy stack packages.
   Supports Linux, Windows and Mac.
-* `Python(x,y) <http://python-xy.github.io/>`_: A free distribution
+* `Python(x,y) <https://python-xy.github.io/>`_: A free distribution
   including the SciPy stack, based around the Spyder IDE.  Windows only.
-* `WinPython <http://winpython.github.io>`_: A free distribution
+* `WinPython <https://winpython.github.io>`_: A free distribution
   including the SciPy stack.  Windows only.
 * `Pyzo <http://www.pyzo.org/>`_: A free distribution based on Anaconda and the
   IEP interactive development environment.  Supports Linux, Windows and Mac.
@@ -30,7 +30,7 @@ Installing via pip
 
 Mac and Linux users can install pre-built binary packages for the SciPy stack
 using `pip <https://pip.pypa.io/en/stable>`_.  Pip can install pre-built binary
-packages in the `wheel <http://wheel.readthedocs.io>`_ package format.
+packages in the `wheel <https://wheel.readthedocs.io>`_ package format.
 
 *Note that you need to have Python and pip already installed on your system.*
 
@@ -86,7 +86,7 @@ Ubuntu & Debian
 
 The versions in Ubuntu 12.10 or newer and Debian 7.0 or newer meet the current
 SciPy stack specification. Users might also want to add the `NeuroDebian
-repository <http://neuro.debian.net/>`_ for extra SciPy packages.
+repository <http://neuro.debian.net>`_ for extra SciPy packages.
 
 Fedora
 ~~~~~~
@@ -108,17 +108,17 @@ Macports
 ~~~~~~~~
 
 To install the SciPy stack for Python 3.5 with `Macports
-<http://www.macports.org>`_ execute this command in a terminal::
+<https://www.macports.org>`_ execute this command in a terminal::
 
     sudo port install py35-numpy py35-scipy py35-matplotlib py35-ipython +notebook py35-pandas py35-sympy py35-nose
 
 Homebrew
 ~~~~~~~~
 
-At the time of writing (September 2016), `Homebrew <http://brew.sh/>`_ does
+At the time of writing (September 2016), `Homebrew <https://brew.sh>`_ does
 not have the full SciPy stack available (i.e. you cannot do ``brew install
 <formula>`` for everything).  You can install NumPy, SciPy and Matplotlib,
-with ``brew tap homebrew/python; brew install python numpy scipy matplotlib``.
+with ``brew tap homebrew/science; brew install python numpy scipy matplotlib``.
 
 .. _individual-packages:
 
@@ -127,7 +127,7 @@ Windows packages
 
 Windows does not have any package manager analogous to that in Linux, so installing
 one of the scientific Python distributions mentioned above is preferred. However, if
-that is not an option, Christoph Gohlke provides `pre-built Windows installers <http://www.lfd.uci.edu/~gohlke/pythonlibs/>`_
+that is not an option, Christoph Gohlke provides `pre-built Windows installers <http://www.lfd.uci.edu/~gohlke/pythonlibs>`_
 for many Python packages, including all of the core SciPy stack, which work extremely well.
 
 Individual source packages
