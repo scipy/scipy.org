@@ -115,10 +115,10 @@ To install the SciPy stack for Python 3.5 with `Macports
 Homebrew
 ~~~~~~~~
 
-At the time of writing (September 2016), `Homebrew <https://brew.sh>`_ does
+At the time of writing (August 2017), `Homebrew <https://brew.sh>`_ does
 not have the full SciPy stack available (i.e. you cannot do ``brew install
-<formula>`` for everything).  You can install NumPy, SciPy and Matplotlib,
-with ``brew tap homebrew/science; brew install python numpy scipy matplotlib``.
+<formula>`` for everything).  You can install NumPy, SciPy, and Matplotlib,
+with ``brew tap homebrew/science && brew install python numpy scipy matplotlib``.
 
 .. _individual-packages:
 
