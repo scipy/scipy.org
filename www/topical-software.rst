@@ -207,6 +207,8 @@ Any-dimensional tools
 Optimization
 ============
 
+- `CMA <https://pypi.python.org/pypi/cma/>`__: Covariance Matrix Adaptation Evolution Strategy for non-linear numerical optimization in Python.
+
 - `CVXOPT <http://cvxopt.org/>`__ (license: GPL3), a tool for convex optimization which defines its own matrix-like object and interfaces to FFTW, BLAS, and LAPACK.
 
 - `CVXPY <http://www.cvxpy.org/en/latest/>`__ A Python-embedded modeling language for convex optimization problems.
