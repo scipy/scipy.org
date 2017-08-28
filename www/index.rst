@@ -214,6 +214,9 @@ News
 .. role:: news-date
    :class: news-date
 
+NumPy 1.13.1 released :news-date:`2017-07-06`
+    See :doc:`/scipylib/download`.
+
 EuroSciPy 2017 :news-date:`2017-08-28`
     The `EuroSciPy <https://www.euroscipy.org/2017/>`__ meeting is a
     cross-disciplinary gathering focused on the use and development
