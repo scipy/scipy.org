@@ -7,15 +7,14 @@ categorized by scientific discipline or computational topic.  It is intended to
 be exhaustive.  If you know of an unlisted resource, see About This Page,
 below.
 
+Additional useful software packages can be
+found on the `Python Package Index <https://pypi.org/>`__
+especially in its `Science/Research category
+<https://pypi.org/search/?o=-created&c=Intended+Audience+%3A%3A+Science%2FResearch>`__.
+
 You may also want to take a look at the `list of Scikits
 <http://scikits.appspot.com/scikits>`__, Python packages oriented
 specifically at scientific computation tasks.
-
-You can also check our code sharing / software list site:
-http://central.scipy.org/. Additional useful software packages can be
-found on the `Python Package index <https://pypi.python.org/pypi>`__
-especially in its `Science/Research category
-<https://pypi.python.org/pypi?:action=browse&c=40>`__.
 
 About This Page
 ===============
@@ -39,8 +38,6 @@ Please include a description --- be as brief as you can, but make sure
 you include in your text a link to the resource's home page and some
 keywords that potential users might search for to find the
 resource.
-
-In addition, please also list your software on http://central.scipy.org/
 
 If you wish to restructure the page (e.g., break out a section into its own
 page, change the section headings, etc.), please propose the idea to the
