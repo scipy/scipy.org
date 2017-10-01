@@ -44,7 +44,7 @@ Data and computation:
 * scikit-learn_ is a collection of algorithms and tools for machine learning.
 * h5py_ and PyTables_ can both access data stored in the HDF5 format.
 
-Productivity and high-perormance computing:
+Productivity and high-performance computing:
 
 * IPython_, a rich interactive interface, letting you quickly process data and
   test ideas.
