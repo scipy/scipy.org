@@ -214,13 +214,10 @@ News
 .. role:: news-date
    :class: news-date
 
+NumPy 1.13.3 released :news-date:`2017-09-29`
+    See :doc:`/scipylib/download`.
+
 SciPy 1.0.0rc1 released :news-date:`2017-09-27`
-    See :doc:`/scipylib/download`.
-
-NumPy 1.13.2 released :news-date:`2017-09-27`
-    See :doc:`/scipylib/download`.
-
-NumPy 1.13.1 released :news-date:`2017-07-06`
     See :doc:`/scipylib/download`.
 
 EuroSciPy 2017 :news-date:`2017-08-28`
@@ -236,12 +233,6 @@ SciPy 2017 :news-date:`2017-07-10`
     Austin, Texas.
 
 SciPy 0.19.1 released :news-date:`2017-06-21`
-    See :doc:`/scipylib/download`.
-
-NumPy 1.13.0 released :news-date:`2017-06-07`
-    See :doc:`/scipylib/download`.
-
-NumPy 1.12.1 released :news-date:`2017-03-18`
     See :doc:`/scipylib/download`.
 
 SciPy 0.19.0 released :news-date:`2017-03-09`
