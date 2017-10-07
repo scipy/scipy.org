@@ -4,7 +4,7 @@
 The SciPy Stack specification
 =============================
 
-.. deprecated::
+.. note::
 
     The SciPy Stack Specification was developed in 2012.
     As of 2017, the SciPy Stack concept is obsolete given
