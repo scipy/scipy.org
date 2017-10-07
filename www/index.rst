@@ -73,17 +73,6 @@ SciPy.org
   </div>
   </div>
   </li>
-
-  <li class="span2">
-  <div class="thumbnail">
-  <div class="img">
-    <a href="http://central.scipy.org">
-    <img alt="SciPy Central" src="_static/images/scipycentral.png" title="SciPy Central">
-    <br>SciPy&nbsp;Central
-    </a>
-  </div>
-  </div>
-  </li>
   
   <li class="span2">
   <div class="thumbnail">
