@@ -47,12 +47,12 @@ First, download all of the following software concurrently:
 1) MinGW-w64 from https://mingw-w64.org
 2) Microsoft Visual Studio 2015 or 2017 Community Edition (available from Microsoft)
 3) git from https://git-scm.org/
-4) Cygwin from https://www.cygwin.com/
+4) MSYS2 from http://www.msys2.org/
 5) Python **with pip** from https://python.org/
 
 While that's downloading let's outline our plan of action. We're going to:
 
-1) Build OpenBLAS using the MinGW-w64 compiler suite, using the build system from Cygwin
+1) Build OpenBLAS using the MinGW-w64 compiler suite, using the build system from MSYS2
 2) Copy the associated libraries to the `Python\\Lib` directory
 3) Build SciPy with a hybrid MinGW-w64 toolchain
 
@@ -63,7 +63,7 @@ Once git installed, open a terminal in your favorite directory and type the foll
    cd build-openblas
    git submodule update --init --recursive
 
-Now let's build OpenBLAS. Open a Cygwin terminal and change directories to the
+Now let's build OpenBLAS. Open a MSYS2 terminal and change directories to the
 `build-openblas` folder. To make sure that we're ready to build, type the following in
 the terminal:
 
@@ -106,11 +106,9 @@ Proceeding on that assumption, let's build SciPy. Copy `openblas.a` to the
     pip install numpy cython pytest pytest-xdist pytest-faulthandler
 
 Please note that this is a simpler procedure than what is used for the official binaries.
-**Your binaries will only work with the latest numpy version**. If you want to build 
-SciPy to work with an older numpy version, then you will need to replace the 
-`Python\\Lib\\site-packages\\numpy\\distutils` folder with the folder from the latest
-numpy (yes, this is a pain, which is why you should use the latest numpy version). After
-that's completed, run the following command in the (non Cygwin) termial.
+**Your binaries will only work with the latest numpy version**. For building against
+older Numpy versions, see Building Against an Older Numpy Version .After you have Numpy
+installed, run the following command in the (non Cygwin) termial.
 
 .. code:: shell
     gfortran
@@ -126,6 +124,15 @@ run the following.
     python runtests.py --mode full
 
 Congratulatations, you've build SciPy!
+
+
+Building Against an Older Numpy Version
+--------------------------------------
+
+If you want to build SciPy to work with an older numpy version, then you will need 
+to replace the `Python\\Lib\\site-packages\\numpy\\distutils` folder with the folder
+from the latest numpy (yes, this is a pain, which is why you should use the latest
+numpy version).
 
 
 Python Libraries
