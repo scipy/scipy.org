@@ -74,7 +74,7 @@ the terminal:
    gcc
 
 If any of these commands fail, you're not ready to build. Go back and make sure that
-Cygwin is installed correctly and has the required packages enabled. Now, let's set
+MSYS2 is installed correctly and has the required packages enabled. Now, let's set
 some environment variables. In the Cygwin terminal, type the following.
 
 .. code:: shell
@@ -107,7 +107,7 @@ Proceeding on that assumption, let's build SciPy. Copy `openblas.a` to the
 
 Please note that this is a simpler procedure than what is used for the official binaries.
 **Your binaries will only work with the latest numpy version**. For building against
-older Numpy versions, see Building Against an Older Numpy Version .After you have Numpy
+older Numpy versions, see Building Against an Older Numpy Version. After you have Numpy
 installed, run the following command in the (non Cygwin) termial.
 
 .. code:: shell
