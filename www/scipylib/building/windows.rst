@@ -32,6 +32,102 @@ information than this document will provide.
 .. _OpenBLAS: https://github.com/xianyi/OpenBLAS
 .. _LAPACK: http://www.netlib.org/lapack/
 
+
+Building the Released SciPy
+---------------------------
+
+This section provides the step-by-step process to build the released scipy. If you want
+to build completely from source, you should estimate at least three hours to build all
+libraries and compile SciPy. Feel free to stop and inspect any step at any time, but
+we're mostly just going to breeze through this. More in-depth documentation is provided 
+below.
+
+First, download all of the following software concurrently:
+
+1) MinGW-w64 from https://mingw-w64.org
+2) Microsoft Visual Studio 2015 or 2017 Community Edition (available from Microsoft)
+3) git from https://git-scm.org/
+4) Cygwin from https://www.cygwin.com/
+5) Python **with pip** from https://python.org/
+
+While that's downloading let's outline our plan of action. We're going to:
+
+1) Build OpenBLAS using the MinGW-w64 compiler suite, using the build system from Cygwin
+2) Copy the associated libraries to the `Python\\Lib` directory
+3) Build SciPy with a hybrid MinGW-w64 toolchain
+
+Once git installed, open a terminal in your favorite directory and type the following:
+
+.. code:: shell
+   git clone https://github.com/matthew-brett/build-openblas.git
+   cd build-openblas
+   git submodule update --init --recursive
+
+Now let's build OpenBLAS. Open a Cygwin terminal and change directories to the
+`build-openblas` folder. To make sure that we're ready to build, type the following in
+the terminal:
+
+.. code:: shell
+   git
+   make
+   gfortran
+   gcc
+
+If any of these commands fail, you're not ready to build. Go back and make sure that
+Cygwin is installed correctly and has the required packages enabled. Now, let's set
+some environment variables. In the Cygwin terminal, type the following.
+
+.. code:: shell
+    export OPENBLAS_COMMIT=5f998ef
+    export OPENBLAS_ROOT=c:\opt
+    export BUILD_BITS=64
+
+Make sure that each variable makes sense. More specifically, make sure that the
+path that `OPENBLAS_ROOT` points to can be deleted. Make sure that the `OPENBLAS_COMMIT`
+points to the version that you want to build. Make sure that the architecture is
+correctly set. And after you've made sure of that, build OpenBLAS.
+
+.. code:: shell
+    .\build_openblas.sh
+
+Building OpenBLAS is extremely problematic and may fail if your system is not correctly
+configured. Your build may fail after a few hours and you may have to restart it after
+fixing an undocumented problem. OpenBLAS builds can also fail silently and produce
+and incorrect binary. Please, if you have any issues, report them to
+https://github.com/scipy/scipy.org so that we can save the next person's time.
+
+After you've build OpenBLAS, there will be an `openblas.a` file somewhere on your system.
+If you don't have that file, you'll probably need to find out what happened and then
+build OpenBLAS again. If you have that file, then you may have built OpenBLAS correctly.
+Proceeding on that assumption, let's build SciPy. Copy `openblas.a` to the
+`Python\\Lib` directory and open a (non Cygwin) terminal. Then run the following commands.
+
+.. code:: shell
+    pip install numpy cython pytest pytest-xdist pytest-faulthandler
+
+Please note that this is a simpler procedure than what is used for the official binaries.
+**Your binaries will only work with the latest numpy version**. If you want to build 
+SciPy to work with an older numpy version, then you will need to replace the 
+`Python\\Lib\\site-packages\\numpy\\distutils` folder with the folder from the latest
+numpy (yes, this is a pain, which is why you should use the latest numpy version). After
+that's completed, run the following command in the (non Cygwin) termial.
+
+.. code:: shell
+    gfortran
+
+If gfortran is not on your path, then you will need to add it. Note that this may be
+different from the Cygwin terminal. Assuming that you have set up everything correctly
+run the following.
+
+.. code:: shell
+    git clone https://github.com/scipy/scipy.git
+    cd scipy
+    pip wheel -v -v - v .
+    python runtests.py --mode full
+
+Congratulatations, you've build SciPy!
+
+
 Python Libraries
 ----------------
 
