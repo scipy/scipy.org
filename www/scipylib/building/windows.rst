@@ -114,7 +114,7 @@ installed, run the following command in the (non Cygwin) termial.
     gfortran
 
 If gfortran is not on your path, then you will need to add it. Note that this may be
-different from the Cygwin terminal. Assuming that you have set up everything correctly
+different from the MSYS2 terminal. Assuming that you have set up everything correctly
 run the following.
 
 .. code:: shell
