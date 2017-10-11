@@ -75,7 +75,7 @@ the terminal:
 
 If any of these commands fail, you're not ready to build. Go back and make sure that
 MSYS2 is installed correctly and has the required packages enabled. Now, let's set
-some environment variables. In the Cygwin terminal, type the following.
+some environment variables. In the MSYS2 terminal, type the following.
 
 .. code:: shell
     export OPENBLAS_COMMIT=5f998ef
