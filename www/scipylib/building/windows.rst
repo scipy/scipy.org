@@ -141,7 +141,7 @@ powershell for the rest of the procedure.
    git clone https://github.com/scipy/scipy.git
    cd scipy
    
-Now we need to copy the `openblas.a` file that we've build earlier to the correct location. Find
+Now we need to copy the `openblas.a` file that we've built earlier to the correct location. Find
 where Python is installed:
 
 .. code:: shell
@@ -181,7 +181,7 @@ the following commands:
     pip wheel -v -v - v .
     python runtests.py --mode full
 
-Congratulatations, you've build SciPy!
+Congratulatations, you've built SciPy!
 
 .. _BLAS: https://en.wikipedia.org/wiki/Basic_Linear_Algebra_Subprograms
 .. _OpenBLAS: https://github.com/xianyi/OpenBLAS
