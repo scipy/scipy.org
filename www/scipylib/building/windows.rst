@@ -118,8 +118,8 @@ the next person's time.
 While you're waiting on OpenBLAS to finish building, go ahead and install `build tools`_
 from Microsoft, since these take a while to install and you'll need them later.
 
-After you've built OpenBLAS, there should be an `openblas.a` file somewhere on your system.
-If `OPENBLAS_ROOT` was set to `C:\\opt`, then you might see a line like this in the MSYS2
+After you've built OpenBLAS, there should be an :code:`openblas.a` file somewhere on your system.
+If :code:`OPENBLAS_ROOT` was set to :code:`C:\\opt`, then you might see a line like this in the MSYS2
 terminal:
 
 .. code:: shell
@@ -127,8 +127,8 @@ terminal:
    Copying the static library to /c/opt/64/lib
 
 If you see that line, then you might have OpenBLAS correctly, even if other failures
-occurred. Look in that folder for `openblas.a`. If you find a file called something like
-`libopenblas_5f998ef_gcc7_2_0.a`, just rename it to `openblas.a` and continue. If the file
+occurred. Look in that folder for :code:`openblas.a`. If you find a file called something like
+:code:`libopenblas_5f998ef_gcc7_2_0.a`, just rename it to `openblas.a` and continue. If the file
 isn't there, then poke around and try to find the file elsewhere. If you don't have that file,
 you'll probably need to find out what happened and then build OpenBLAS again. But if you have
 that file, we'll assume that it's been correctly built. Proceeding on that assumption,
@@ -136,7 +136,7 @@ let's build SciPy.
 
 From this point forward, we're not going to need MSYS2 any longer, so you might uninstall it to
 prevent further confusion. Building SciPy requires a different set of build tools than building
-OpenBLAS (yes, the whole previous excercise was to build a single file: `openblas.a`), so let's
+OpenBLAS (yes, the whole previous excercise was to build a single file: :code:`openblas.a`), so let's
 go ahead and install them:
 
 1) Install MinGW-w64 from https://mingw-w64.org (check the "posix-threads" box)
@@ -155,22 +155,22 @@ powershell for the rest of the procedure.
    git clone https://github.com/scipy/scipy.git
    cd scipy
    
-Now we need to copy the `openblas.a` file that we've built earlier to the correct location. Find
+Now we need to copy the :code:`openblas.a` file that we've built earlier to the correct location. Find
 where Python is installed:
 
 .. code:: shell
 
    python -c "import sys; print(sys.executable)"
 
-If your Python is installed somewhere like `C:\\Program Files\\Python36\\python.exe`, you'll need
-to put the `openblas.a` file in `C:\\Program Files\\Python36\\Lib`. Adjust the location accordingly
-based on where `python.exe` is located. Now for a sanity check:
+If your Python is installed somewhere like :code:`C:\\Program Files\\Python36\\python.exe`, you'll need
+to put the :code:`openblas.a` file in :code:`C:\\Program Files\\Python36\\Lib`. Adjust the location accordingly
+based on where :code:`python.exe` is located. Now for a sanity check:
 
 .. code:: shell
 
     gfortran
     
-You might see an error with the above command. Chances are, `gfortran` is not on your `$env:PATH`.
+You might see an error with the above command. Chances are, :code:`gfortran` is not on your :code:`$env:PATH`.
 To add it, you'll need to run a command like the following (except with the path adjusted to be
 correct). Run the following, and then try `gfortran` again.
 
@@ -203,7 +203,6 @@ the following commands:
 
 Congratulatations, you've built SciPy!
 
-.. _BLAS: https://en.wikipedia.org/wiki/Basic_Linear_Algebra_Subprograms
 .. _OpenBLAS: https://github.com/xianyi/OpenBLAS
 .. _`these instructions`: https://github.com/orlp/dev-on-windows/wiki/Installing-GCC--&-MSYS2
 .. _`build tools`: https://www.visualstudio.com/downloads/#build-tools-for-visual-studio-2017
@@ -302,7 +301,7 @@ As mentioned in the overview, certain libraries (math libraries to be specific) 
 for a high performing NumPy and for building SciPy, and they are BLAS_ and LAPACK_. There are
 many options available, in particular for BLAS_, and we will discuss several of the options below.
 
-.. _BLAS: http://www.netlib.org/blas/
+.. _BLAS: https://en.wikipedia.org/wiki/Basic_Linear_Algebra_Subprograms
 
 .. _`MKL Library`:
 
