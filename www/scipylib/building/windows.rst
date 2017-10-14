@@ -41,7 +41,11 @@ to build completely from source, you should estimate at least three hours to bui
 libraries and compile SciPy. Feel free to stop and inspect any step at any time, but
 for this section, we'll just mention the steps without providing an in-depth explanation
 for the reasons behind them. If you have further questions about what we're doing, more
-in-depth documentation is provided in the sections below.
+in-depth documentation is provided in the sections below. Also, please make sure to read
+this section before proceeding, as the presence or absence of error messages in general
+does not necessarily indicate whether you've completed a step correctly. The particular
+messages that you receive and the particular files that are built are more informative
+than the amount of error messages that you receive in general.
 
 First, we need to install the software required to build OpenBLAS_, which is the BLAS_
 library that we're going to use. Because the software to build OpenBLAS is different than
