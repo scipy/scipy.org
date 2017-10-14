@@ -58,6 +58,7 @@ architecture for the SciPy that you want to build (eg. 32 or 64 bit), and make s
 install the MinGW, and git packages. Open a MSYS2 terminal and type the following:
 
 .. code:: shell
+
    pacman -S --needed base-devel 
        mingw-w64-i686-toolchain
        mingw-w64-x86_64-toolchain
@@ -68,12 +69,14 @@ You should now have all of the tools required to build OpenBLAS. Now change dire
 to your favorite location with the following:
  
 .. code:: shell
+
    cd /c/Users/MyUser/Downloads/
    
 You don't necessarily need to build in that particular location, but it should be somewhere
 reasonable. Now clone the repository required to build OpenBLAS:
 
 .. code:: shell
+
    git clone https://github.com/matthew-brett/build-openblas.git
    cd build-openblas
    git submodule update --init --recursive
@@ -82,6 +85,7 @@ Now let's build OpenBLAS. To make sure that we're ready to build, type the follo
 the terminal:
 
 .. code:: shell
+
    make
    gfortran
    gcc
@@ -91,6 +95,7 @@ MSYS2 is installed correctly and has the required packages enabled. Now, let's s
 some environment variables. In the MSYS2 terminal, type the following.
 
 .. code:: shell
+
     export OPENBLAS_COMMIT=5f998ef
     export OPENBLAS_ROOT="C:\\opt"
     export BUILD_BITS=64
@@ -101,6 +106,7 @@ points to the version that you want to build. Make sure that the architecture is
 correctly set. And after you've made sure of that, build OpenBLAS.
 
 .. code:: shell
+
     .\build_openblas.sh
 
 Building OpenBLAS is extremely problematic and may fail if your system is not correctly
@@ -117,13 +123,16 @@ If `OPENBLAS_ROOT` was set to `C:\\opt`, then you might see a line like this in 
 terminal:
 
 .. code:: shell
+
    Copying the static library to /c/opt/64/lib
 
-If you see that line, then you might have built OpenBLAS correctly, even if other failures
-occurred. Look in that folder for `openblas.a`. If the file isn't there, then poke around and
-try to find the file elsewhere. If you don't have that file, you'll probably need to find out
-what happened and then build OpenBLAS again. But if you have that file, then you may have built
-OpenBLAS correctly. Proceeding on that assumption, let's build SciPy.
+If you see that line, then you might have OpenBLAS correctly, even if other failures
+occurred. Look in that folder for `openblas.a`. If you find a file called something like
+`libopenblas_5f998ef_gcc7_2_0.a`, just rename it to `openblas.a` and continue. If the file
+isn't there, then poke around and try to find the file elsewhere. If you don't have that file,
+you'll probably need to find out what happened and then build OpenBLAS again. But if you have
+that file, we'll assume that it's been correctly built. Proceeding on that assumption,
+let's build SciPy.
 
 From this point forward, we're not going to need MSYS2 any longer, so you might uninstall it to
 prevent further confusion. Building SciPy requires a different set of build tools than building
@@ -141,6 +150,7 @@ using a different toolchain with different commands), and clone SciPy. From now 
 powershell for the rest of the procedure.
 
 .. code:: shell
+
    cd C:\Users\MyUser\Downloads
    git clone https://github.com/scipy/scipy.git
    cd scipy
@@ -149,6 +159,7 @@ Now we need to copy the `openblas.a` file that we've built earlier to the correc
 where Python is installed:
 
 .. code:: shell
+
    python -c "import sys; print(sys.executable)"
 
 If your Python is installed somewhere like `C:\\Program Files\\Python36\\python.exe`, you'll need
@@ -156,6 +167,7 @@ to put the `openblas.a` file in `C:\\Program Files\\Python36\\Lib`. Adjust the l
 based on where `python.exe` is located. Now for a sanity check:
 
 .. code:: shell
+
     gfortran
     
 You might see an error with the above command. Chances are, `gfortran` is not on your `$env:PATH`.
@@ -163,11 +175,13 @@ To add it, you'll need to run a command like the following (except with the path
 correct). Run the following, and then try `gfortran` again.
 
 .. code:: shell
+
     $env:PATH += ";C:\mingw-w64\x86_64-6.3.0-posix-seh-rt_v5-rev1\mingw64\bin"
 
 Now install the dependencies that we need to build and test SciPy:
 
 .. code:: shell
+
     pip install numpy cython pytest pytest-xdist pytest-faulthandler
 
 Please note that this is a simpler procedure than what is used for the official binaries.
@@ -176,12 +190,14 @@ older Numpy versions, see Building Against an Older Numpy Version. Make sure tha
 in the directory with `setup.py` (you should be if you haven't changed directories):
 
 .. code:: shell
+
     ls setup.py
     
 Assuming that you have set up everything correctly, you should be ready to build. Run
 the following commands:
 
 .. code:: shell
+
     pip wheel -v -v - v .
     python runtests.py --mode full
 
