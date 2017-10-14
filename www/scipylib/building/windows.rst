@@ -39,24 +39,20 @@ Building the Released SciPy
 This section provides the step-by-step process to build the released scipy. If you want
 to build completely from source, you should estimate at least three hours to build all
 libraries and compile SciPy. Feel free to stop and inspect any step at any time, but
-we're mostly just going to breeze through this. More in-depth documentation is provided 
-below.
+for this section, we'll just mention the steps without providing an in-depth explanation
+for the reasons behind them. If you have further questions about what we're doing, more
+in-depth documentation is provided in the sections below.
 
-First, download all of the following software concurrently:
+First, we need to install the software required to build OpenBLAS_, which is the BLAS_
+library that we're going to use. Because the software to build OpenBLAS is different than
+that required to build SciPy and because OpenBLAS takes a long time to build, we're going
+to start building OpenBLAS first and then explain what to do next while the OpenBLAS build
+is running.
 
-1) MinGW-w64 from https://mingw-w64.org
-2) Microsoft Visual Studio 2015 or 2017 Community Edition (available from Microsoft)
-3) git from https://git-scm.org/
-4) MSYS2 from http://www.msys2.org/
-5) Python **with pip** from https://python.org/
-
-While that's downloading let's outline our plan of action. We're going to:
-
-1) Build OpenBLAS using the MinGW-w64 compiler suite, using the build system from MSYS2
-2) Copy the associated libraries to the `Python\\Lib` directory
-3) Build SciPy with a hybrid MinGW-w64 toolchain
-
-Once git installed, open a terminal in your favorite directory and type the following:
+First, install MSYS2 using `these instructions`_. Make sure to install the correct
+architecture for the SciPy that you want to build (eg. 32 or 64 bit), and make sure to
+install the MinGW, and git packages.Once you've installed these packages, open a MSYS2
+terminal in your favorite directory and type the following:
 
 .. code:: shell
    git clone https://github.com/matthew-brett/build-openblas.git
@@ -102,6 +98,15 @@ build OpenBLAS again. If you have that file, then you may have built OpenBLAS co
 Proceeding on that assumption, let's build SciPy. Copy `openblas.a` to the
 `Python\\Lib` directory and open a (non Cygwin) terminal. Then run the following commands.
 
+
+
+1) MinGW-w64 from https://mingw-w64.org
+2) Microsoft Visual Studio 2015 or 2017 Community Edition (available from Microsoft)
+3) git from https://git-scm.org/
+4) MSYS2 from http://www.msys2.org/
+5) Python **with pip** from https://python.org/
+
+
 .. code:: shell
     pip install numpy cython pytest pytest-xdist pytest-faulthandler
 
@@ -125,6 +130,9 @@ run the following.
 
 Congratulatations, you've build SciPy!
 
+.. _BLAS: https://en.wikipedia.org/wiki/Basic_Linear_Algebra_Subprograms
+.. _OpenBLAS: https://github.com/xianyi/OpenBLAS
+.. _`these instructions`: https://github.com/orlp/dev-on-windows/wiki/Installing-GCC--&-MSYS2
 
 Building Against an Older Numpy Version
 --------------------------------------
