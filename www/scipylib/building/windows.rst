@@ -139,7 +139,7 @@ prevent further confusion. Building SciPy requires a different set of build tool
 OpenBLAS (yes, the whole previous excercise was to build a single file: :code:`openblas.a`), so let's
 go ahead and install them:
 
-1) Install MinGW-w64 from https://mingw-w64.org (check the "posix-threads" box)
+1) Install MinGW-w64 from https://mingw-w64.org (check the "posix-threads" box/ "MinGW builds")
 2) Microsoft Visual Studio 2015 or 2017 Community Edition (use the `build tools`_ from Microsoft)
 3) git from https://git-scm.org/
 4) Python from https://python.org/ (make sure to check the box to install pip)
