@@ -215,17 +215,15 @@ Building Against an Older Numpy Version
 --------------------------------------
 
 If you want to build SciPy to work with an older numpy version, then you will need 
-to replace the `Python\\Lib\\site-packages\\numpy\\distutils` folder with the folder
-from the latest numpy. The following powershell snipped can upgrade Numpy distutils
-while retaining an older Numpy ABI.
+to replace the Numpy "distutils" folder with the folder from the latest numpy.
+The following powershell snipped can upgrade Numpy distutils while retaining an older
+Numpy ABI_.
 
 .. code:: shell
 
       $NumpyDir = $((python -c 'import os; import numpy; print(os.path.dirname(numpy.__file__))') | Out-String).Trim()
       rm -r -Force "$NumpyDir\distutils"
       $tmpdir = New-TemporaryFile | %{ rm $_; mkdir $_ }
-      echo $env:NUMPY_HEAD
-      echo $env:NUMPY_BRANCH
       git clone -q --depth=1 -b master https://github.com/numpy/numpy.git $tmpdir
       mv $tmpdir\numpy\distutils $NumpyDir
 
