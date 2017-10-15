@@ -43,9 +43,9 @@ for this section, we'll just mention the steps without providing an in-depth exp
 for the reasons behind them. If you have further questions about what we're doing, more
 in-depth documentation is provided in the sections below. Also, please make sure to read
 this section before proceeding, as the presence or absence of error messages in general
-does not necessarily indicate whether you've completed a step correctly. The particular
-messages that you receive and the particular files that are built are more informative
-than the amount of error messages that you receive in general.
+is not a good indication of whether you've completed a step correctly. Each step creates
+particular files, and what ultimately matters is whether you have built the required files
+rather than whether error messages appeared in your terminal.
 
 First, we need to install the software required to build OpenBLAS_, which is the BLAS_
 library that we're going to use. Because the software to build OpenBLAS is different than
@@ -61,10 +61,9 @@ install the MinGW, and git packages. Open a MSYS2 terminal and type the followin
 
    pacman -S --needed base-devel 
        mingw-w64-i686-toolchain
-       mingw-w64-x86_64-toolchain
-       git subversion mercurial
+       mingw-w64-x86_64-toolchain git
        mingw-w64-i686-cmake mingw-w64-x86_64-cmake
-       
+
 You should now have all of the tools required to build OpenBLAS. Now change directories
 to your favorite location with the following:
  
@@ -90,9 +89,9 @@ the terminal:
    gfortran
    gcc
 
-If any of these commands fail, you're not ready to build. Go back and make sure that
-MSYS2 is installed correctly and has the required packages enabled. Now, let's set
-some environment variables. In the MSYS2 terminal, type the following.
+If any of these commands fail, you're not ready to build. Go back and make sure that MSYS2
+is installed correctly and has the required packages enabled. Now, let's set some
+environment variables. In the MSYS2 terminal, type the following.
 
 .. code:: shell
 
@@ -100,54 +99,57 @@ some environment variables. In the MSYS2 terminal, type the following.
     export OPENBLAS_ROOT="C:\\opt"
     export BUILD_BITS=64
 
-Make sure that each variable makes sense. More specifically, make sure that the
-path that `OPENBLAS_ROOT` points to can be deleted. Make sure that the `OPENBLAS_COMMIT`
-points to the version that you want to build. Make sure that the architecture is
-correctly set. And after you've made sure of that, build OpenBLAS.
+Make sure that each variable makes sense. More specifically, make sure that the path that
+`OPENBLAS_ROOT` points to can be deleted. Make sure that the `OPENBLAS_COMMIT` points to
+the version that you want to build. Make sure that the architecture is correctly set. And
+after you've made sure of that, build OpenBLAS.
 
 .. code:: shell
 
     .\build_openblas.sh
 
 Building OpenBLAS is extremely problematic and may fail if your system is not correctly
-configured. Your build may fail after a few hours and you may have to restart it after
-fixing an undocumented problem. OpenBLAS builds can also fail silently and produce
-and incorrect binary. Please, if you have any issues, `report them`_ so that we can save
-the next person's time.
+configured. Your build may fail after a few hours and you may have to restart it after 
+fixing an undocumented problem. OpenBLAS builds can also fail silently and produce an
+incorrect binary. Please, if you have any issues, `report them`_ so that we can save the
+next person's time.
 
 While you're waiting on OpenBLAS to finish building, go ahead and install `build tools`_
 from Microsoft, since these take a while to install and you'll need them later.
 
-After you've built OpenBLAS, there should be an :code:`openblas.a` file somewhere on your system.
-If :code:`OPENBLAS_ROOT` was set to :code:`C:\\opt`, then you might see a line like this in the MSYS2
-terminal:
+After the :code:`build_openblas.sh` script has completed (probably with an error), there
+should be an :code:`openblas.a` file somewhere on your system. If :code:`OPENBLAS_ROOT` was
+set to :code:`C:\\opt`, then you might see a line like this in the MSYS2 terminal:
 
 .. code:: shell
 
    Copying the static library to /c/opt/64/lib
 
 If you see that line, then you might have OpenBLAS correctly, even if other failures
-occurred. Look in that folder for :code:`openblas.a`. If you find a file called something like
-:code:`libopenblas_5f998ef_gcc7_2_0.a`, just rename it to `openblas.a` and continue. If the file
-isn't there, then poke around and try to find the file elsewhere. If you don't have that file,
-you'll probably need to find out what happened and then build OpenBLAS again. But if you have
-that file, we'll assume that it's been correctly built. Proceeding on that assumption,
-let's build SciPy.
+occurred. Look in that folder for :code:`openblas.a`. If you find a file called something
+like :code:`libopenblas_5f998ef_gcc7_2_0.a`, just rename it to `openblas.a` and continue.
+If the file isn't there, then poke around and try to find the file elsewhere. If you don't
+have that file, you'll probably need to find out what happened and then build OpenBLAS
+again. But if you have that file, we'll assume that you've completed this step correctly.
+Proceeding on that assumption, let's build SciPy.
 
-From this point forward, we're not going to need MSYS2 any longer, so you might uninstall it to
-prevent further confusion. Building SciPy requires a different set of build tools than building
-OpenBLAS (yes, the whole previous excercise was to build a single file: :code:`openblas.a`), so let's
-go ahead and install them:
+From this point forward, we're not going to need MSYS2 any longer, so you might uninstall
+it to prevent further confusion. Building SciPy requires a different set of build tools
+than building OpenBLAS (yes, the whole previous excercise was to build a single file:
+:code:`openblas.a`), so let's go ahead and install them:
 
-1) Install MinGW-w64 from https://mingw-w64.org (check the "posix-threads" box/ "MinGW builds")
-2) Microsoft Visual Studio 2015 or 2017 Community Edition (use the `build tools`_ from Microsoft)
-3) git from https://git-scm.org/
-4) Python from https://python.org/ (make sure to check the box to install pip)
+1) Install MinGW-w64 from https://mingw-w64.org. Use the "MinGW builds" and 
+   check the "posix-threads" box.
+2) Install Microsoft Visual Studio 2015 or 2017 Community Edition (use the `build tools`_
+   from Microsoft)
+3) Install git from https://git-scm.org/
+4) Finally, install Python from https://python.org/ (make sure to check the box to install
+   pip)
 
-After you've installed the required software, open Powershell (Start -> type "powershell" -> enter),
-change to a good location to build (just like with building OpenBLAS, but this time we're
-using a different toolchain with different commands), and clone SciPy. From now on, we'll use
-powershell for the rest of the procedure.
+After you've installed the required software, open Powershell (Start -> type "powershell" 
+ -> enter), change to a good location to build (just like with building OpenBLAS, but this
+time we're using a different toolchain with different commands), and clone SciPy. From now
+on, we'll use powershell for the rest of the procedure.
 
 .. code:: shell
 
@@ -155,24 +157,25 @@ powershell for the rest of the procedure.
    git clone https://github.com/scipy/scipy.git
    cd scipy
    
-Now we need to copy the :code:`openblas.a` file that we've built earlier to the correct location. Find
-where Python is installed:
+Now we need to copy the :code:`openblas.a` file that we've built earlier to the correct
+location. Find where Python is installed:
 
 .. code:: shell
 
    python -c "import sys; print(sys.executable)"
 
-If your Python is installed somewhere like :code:`C:\\Program Files\\Python36\\python.exe`, you'll need
-to put the :code:`openblas.a` file in :code:`C:\\Program Files\\Python36\\Lib`. Adjust the location accordingly
-based on where :code:`python.exe` is located. Now for a sanity check:
+If your Python is installed somewhere like :code:`C:\\Program Files\\Python36\\python.exe`,
+you'll need to put the :code:`openblas.a` file in :code:`C:\\Program Files\\Python36\\Lib`.
+Adjust the location accordingly based on where :code:`python.exe` is located. Now for a
+sanity check. Type  the following and press enter.
 
 .. code:: shell
 
     gfortran
     
-You might see an error with the above command. Chances are, :code:`gfortran` is not on your :code:`$env:PATH`.
-To add it, you'll need to run a command like the following (except with the path adjusted to be
-correct). Run the following, and then try `gfortran` again.
+You might see an error with the above command. Chances are, :code:`gfortran` is not on your
+:code:`$env:PATH`. To add it, you'll need to run a command like the following (except with
+the path adjusted to be correct). Run the following, and then try :code:`gfortran` again.
 
 .. code:: shell
 
@@ -213,9 +216,20 @@ Building Against an Older Numpy Version
 
 If you want to build SciPy to work with an older numpy version, then you will need 
 to replace the `Python\\Lib\\site-packages\\numpy\\distutils` folder with the folder
-from the latest numpy (yes, this is a pain, which is why you should use the latest
-numpy version).
+from the latest numpy. The following powershell snipped can upgrade Numpy distutils
+while retaining an older Numpy ABI.
 
+.. code:: shell
+
+      $NumpyDir = $((python -c 'import os; import numpy; print(os.path.dirname(numpy.__file__))') | Out-String).Trim()
+      rm -r -Force "$NumpyDir\distutils"
+      $tmpdir = New-TemporaryFile | %{ rm $_; mkdir $_ }
+      echo $env:NUMPY_HEAD
+      echo $env:NUMPY_BRANCH
+      git clone -q --depth=1 -b master https://github.com/numpy/numpy.git $tmpdir
+      mv $tmpdir\numpy\distutils $NumpyDir
+
+.. _ABI: https://en.wikipedia.org/wiki/Application_binary_interface
 
 Python Libraries
 ----------------
