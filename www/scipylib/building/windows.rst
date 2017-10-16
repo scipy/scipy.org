@@ -133,6 +133,24 @@ have that file, you'll probably need to find out what happened and then build Op
 again. But if you have that file, we'll assume that you've completed this step correctly.
 Proceeding on that assumption, let's build SciPy.
 
+**Before continuing, it is extremely important that you remove every file named either**
+:code:`openblas.lib` **or** :code:`libopenblas.lib` **from your computer. Failure to do**
+**so could result in later build errors that will be difficult to debug. If you see the**
+**following output at any point, you have not completed this step correctly.**
+
+.. code:: shell
+
+   FOUND:
+      libraries = ['libopenblas', 'libopenblas']
+      library_dirs = ['C:\opt\64\lib']
+      language = c
+      define_macros = [('HAVE_CBLAS', None)]
+   FOUND:
+      libraries = ['libopenblas', 'libopenblas']
+      library_dirs = ['C:\opt\64\lib']
+      language = c
+      define_macros = [('HAVE_CBLAS', None)]
+
 From this point forward, we're not going to need MSYS2 any longer, so you might uninstall
 it to prevent further confusion. Building SciPy requires a different set of build tools
 than building OpenBLAS (yes, the whole previous excercise was to build a single file:
@@ -204,23 +222,6 @@ the following commands:
     pip wheel -v -v -v .
     python runtests.py --mode full
     
-If you see the following output while building, you must remove all files named :code:`openblas.lib`
-or :code:`libopenblas.lib` from your system. Yes, **all** of them! Then, try the build again.
-
-.. code:: shell
-
-   FOUND:
-   libraries = ['libopenblas', 'libopenblas']
-   library_dirs = ['C:\opt\64\lib']
-   language = c
-   define_macros = [('HAVE_CBLAS', None)]
-   FOUND:
-   libraries = ['libopenblas', 'libopenblas']
-   library_dirs = ['C:\opt\64\lib']
-   language = c
-   define_macros = [('HAVE_CBLAS', None)]
-
-
 Congratulatations, you've built SciPy!
 
 .. _OpenBLAS: https://github.com/xianyi/OpenBLAS
