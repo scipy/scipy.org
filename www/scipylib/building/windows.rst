@@ -201,8 +201,25 @@ the following commands:
 
 .. code:: shell
 
-    pip wheel -v -v - v .
+    pip wheel -v -v -v .
     python runtests.py --mode full
+    
+If you see the following output while building, you must remove all files named :code:`openblas.lib`
+or :code:`libopenblas.lib` from your system. Yes, **all** of them! Then, try the build again.
+
+.. code:: shell
+
+   FOUND:
+   libraries = ['libopenblas', 'libopenblas']
+   library_dirs = ['C:\opt\64\lib']
+   language = c
+   define_macros = [('HAVE_CBLAS', None)]
+   FOUND:
+   libraries = ['libopenblas', 'libopenblas']
+   library_dirs = ['C:\opt\64\lib']
+   language = c
+   define_macros = [('HAVE_CBLAS', None)]
+
 
 Congratulatations, you've built SciPy!
 
