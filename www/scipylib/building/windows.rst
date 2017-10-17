@@ -101,8 +101,8 @@ environment variables. In the MSYS2 terminal, type the following.
 
 Make sure that each variable makes sense. More specifically, make sure that the path that
 `OPENBLAS_ROOT` points to can be deleted. Make sure that the `OPENBLAS_COMMIT` points to
-the version that you want to build. Make sure that the architecture is correctly set. And
-after you've made sure of that, build OpenBLAS.
+the version that you want to build. Make sure that the architecture is correctly set to
+either 32 or 64 bit. And after you've made sure of that, build OpenBLAS.
 
 .. code:: shell
 
@@ -164,8 +164,8 @@ than building OpenBLAS (yes, the whole previous excercise was to build a single 
 4) Finally, install Python from https://python.org/ (make sure to check the box to install
    pip)
 
-After you've installed the required software, open Powershell (Start -> type "powershell" 
- -> enter), change to a good location to build (just like with building OpenBLAS, but this
+After you've installed the required software, open Powershell (click start, type "powershell",
+press enter), change to a good location to build (just like with building OpenBLAS, but this
 time we're using a different toolchain with different commands), and clone SciPy. From now
 on, we'll use powershell for the rest of the procedure.
 
