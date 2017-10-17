@@ -47,11 +47,15 @@ is not a good indication of whether you've completed a step correctly. Each step
 particular files, and what ultimately matters is whether you have built the required files
 rather than whether error messages appeared in your terminal.
 
+Building OpenBLAS
+=================
+
 First, we need to install the software required to build OpenBLAS_, which is the BLAS_
 library that we're going to use. Because the software to build OpenBLAS is different than
 that required to build SciPy and because OpenBLAS takes a long time to build, we're going
 to start building OpenBLAS first and then explain what to do next while the OpenBLAS build
-is running.
+is running. **Alternatively, if you'd rather download a pre-build OpenBLAS, download the**
+**one of the** `pre-built zip files`_ **and skip to the Installing OpenBLAS section below.**
 
 First, install MSYS2 using `these instructions`_. Make sure to install the correct
 architecture for the SciPy that you want to build (eg. 32 or 64 bit), and make sure to
@@ -125,6 +129,9 @@ set to :code:`C:\\opt`, then you might see a line like this in the MSYS2 termina
 
    Copying the static library to /c/opt/64/lib
 
+Installing OpenBLAS
+===================
+
 If you see that line, then you might have OpenBLAS correctly, even if other failures
 occurred. Look in that folder for :code:`openblas.a`. If you find a file called something
 like :code:`libopenblas_5f998ef_gcc7_2_0.a`, just rename it to `openblas.a` and continue.
@@ -150,6 +157,9 @@ Proceeding on that assumption, let's build SciPy.
       library_dirs = ['C:\opt\64\lib']
       language = c
       define_macros = [('HAVE_CBLAS', None)]
+
+Building SciPy
+==============
 
 From this point forward, we're not going to need MSYS2 any longer, so you might uninstall
 it to prevent further confusion. Building SciPy requires a different set of build tools
@@ -228,6 +238,7 @@ Congratulatations, you've built SciPy!
 .. _`these instructions`: https://github.com/orlp/dev-on-windows/wiki/Installing-GCC--&-MSYS2
 .. _`build tools`: https://www.visualstudio.com/downloads/#build-tools-for-visual-studio-2017
 .. _`report them`: https://github.com/scipy/scipy/issues/new
+.. _`pre-built zip files`: https://3f23b170c54c2533c070-1c8a9b3114517dc5fe17b7c3f8c63a43.ssl.cf2.rackcdn.com/
 
 Building Against an Older Numpy Version
 --------------------------------------
