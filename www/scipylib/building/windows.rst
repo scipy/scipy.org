@@ -180,23 +180,17 @@ Proceeding on that assumption, let's build SciPy.
 Building SciPy
 ==============
 
-From this point forward, we're not going to need MSYS2 any longer, so you might uninstall
-it to prevent further confusion. Building SciPy requires a different set of build tools
-than building OpenBLAS (yes, the whole previous excercise was to build a single file:
-:code:`openblas.a`), so let's go ahead and install them:
+Once you have built OpenBLAS, it's time to build SciPy. Before continuing make sure to
+install the following software for building on the latest Python version. For building
+on other Python versions, see the WindowsCompilers_ page.
 
-1) Install MinGW-w64 from https://mingw-w64.org. Use the "MinGW builds" and 
-   check the "posix-threads" box.
-2) Install Microsoft Visual Studio 2015 or 2017 Community Edition (use the `build tools`_
+1) Install Microsoft Visual Studio 2015 or 2017 Community Edition (use the `build tools`_
    from Microsoft)
-3) Install git from https://git-scm.org/
-4) Finally, install Python from https://python.org/ (make sure to check the box to install
+2) Finally, install Python from https://python.org/ (make sure to check the box to install
    pip)
 
-After you've installed the required software, open Powershell (click start, type "powershell",
-press enter), change to a good location to build (just like with building OpenBLAS, but this
-time we're using a different toolchain with different commands), and clone SciPy. From now
-on, we'll use powershell for the rest of the procedure.
+After you've installed the required software, open an MSYS2 terminal, change to a good
+location to build, and clone SciPy.
 
 .. code:: shell
 
@@ -205,13 +199,7 @@ on, we'll use powershell for the rest of the procedure.
    cd scipy
    
 Now we need to copy the :code:`openblas.a` file that we've built earlier to the correct
-location. Find where Python is installed:
-
-.. code:: shell
-
-   python -c "import sys; print(sys.executable)"
-
-If your Python is installed somewhere like the following:
+location. If your Python is installed somewhere like the following:
 
 ..code:: shell
 
@@ -230,20 +218,18 @@ sanity check. Type  the following and press enter.
 .. code:: shell
 
     gfortran
-    
-You might see an error with the above command. Chances are, :code:`gfortran` is not on your
-:code:`$env:PATH`. To add it, you'll need to run a command like the following (except with
-the path adjusted to be correct). Run the following, and then try :code:`gfortran` again.
+
+If you see an error with the above command, :code:`gfortran` is not correctly installed.
+Go back to the "Building OpenBLAS" section and make sure that you have installed the correct
+tools.
+
+Now install the dependencies that we need to build and test SciPy. **It's important that you**
+**specify the full path to the Python interpreter so that the built-in MSYS2 Python will not**
+**be used.**
 
 .. code:: shell
 
-    $env:PATH += ";C:\mingw-w64\x86_64-6.3.0-posix-seh-rt_v5-rev1\mingw64\bin"
-
-Now install the dependencies that we need to build and test SciPy:
-
-.. code:: shell
-
-    pip install numpy cython pytest pytest-xdist pytest-faulthandler
+    /c/dev/python36_64/python -m pip install numpy cython pytest pytest-xdist pytest-faulthandler
 
 Please note that this is a simpler procedure than what is used for the official binaries.
 **Your binaries will only work with the latest numpy version**. For building against
@@ -253,15 +239,15 @@ in the directory with `setup.py` (you should be if you haven't changed directori
 .. code:: shell
 
     ls setup.py
-    
+
 Assuming that you have set up everything correctly, you should be ready to build. Run
 the following commands:
 
 .. code:: shell
 
-    pip wheel -v -v -v .
-    python runtests.py --mode full
-    
+    /c/dev/python36_64/python -m pip wheel -v -v -v .
+    /c/dev/python36_64/python runtests.py --mode full
+
 Congratulatations, you've built SciPy!
 
 .. _BLAS: https://en.wikipedia.org/wiki/Basic_Linear_Algebra_Subprograms
@@ -270,6 +256,7 @@ Congratulatations, you've built SciPy!
 .. _`build tools`: https://www.visualstudio.com/downloads/#build-tools-for-visual-studio-2017
 .. _`report them`: https://github.com/scipy/scipy/issues/new
 .. _`pre-built zip files`: https://3f23b170c54c2533c070-1c8a9b3114517dc5fe17b7c3f8c63a43.ssl.cf2.rackcdn.com/
+.. _WindowsCompilers: https://wiki.python.org/moin/WindowsCompilers
 
 Building Against an Older Numpy Version
 --------------------------------------
