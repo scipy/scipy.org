@@ -206,7 +206,7 @@ News
 NumPy 1.13.3 released :news-date:`2017-09-29`
     See :doc:`/scipylib/download`.
 
-SciPy 1.0.0rc1 released :news-date:`2017-09-27`
+SciPy 1.0.0rc2 released :news-date:`2017-10-18`
     See :doc:`/scipylib/download`.
 
 EuroSciPy 2017 :news-date:`2017-08-28`
