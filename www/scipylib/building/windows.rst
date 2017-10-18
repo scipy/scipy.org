@@ -54,14 +54,15 @@ First, we need to install the software required to build OpenBLAS_, which is the
 library that we're going to use. Because the software to build OpenBLAS is different than
 that required to build SciPy and because OpenBLAS takes a long time to build, we're going
 to start building OpenBLAS first and then explain what to do next while the OpenBLAS build
-is running. **Alternatively, if you'd rather download a pre-build OpenBLAS, download the**
+is running. **Alternatively, if you'd rather download a pre-built OpenBLAS, download the**
 **one of the** `pre-built zip files`_ **and skip to the Installing OpenBLAS section below.**
-First, install MSYS2 using `these instructions`_ including the `pacman` update instructions.
-Occasionally during the updates the terminal might ask you to close the terminal but 
-refuses to be closed and hang. If this happens you can kill it via Task Manager and continue 
-with the instructions. Make sure to install the correct architecture for the SciPy that you 
-want to build (eg. 32 or 64 bit). Now, you have three options for opening a terminal 
-which are MSYS2, MINGW (32bit,64bit). After updating all the packages, now we are 
+
+Otherwise, install MSYS2 using `these instructions`_ including the `pacman` update
+instructions. Occasionally during the updates the terminal might ask you to close the
+terminal but refuses to be closed and hang. If this happens you can kill it via Task Manager
+and continue with the instructions. Make sure to install the correct architecture for the
+SciPy that you want to build (eg. 32 or 64 bit). Now, you have three options for opening a
+terminal which are MSYS2, MINGW (32bit,64bit). After updating all the packages, now we are 
 ready to install some more package bundles that we will need. Open a MSYS2 terminal 
 and type the following depending on the architecture of your choice:
 
@@ -119,10 +120,10 @@ environment variables. In the MSYS2 terminal, type the following.
     export BUILD_BITS=64
 
 Please check these variables' purpose for a moment. More specifically, make sure that
-you have  write/delete access to the path `OPENBLAS_ROOT` points to. The output of the
-OpenBLAS build will  be collected in this folder. Make sure that the `OPENBLAS_COMMIT`
+you have  write/delete access to the path :code:`OPENBLAS_ROOT` points to. The output of the
+OpenBLAS build will  be collected in this folder. Make sure that the :code:`OPENBLAS_COMMIT`
 points to the correct OpenBLAS commit that you want to build in the cloned repo. In the
-future, `build_openblas` repository might get updated and you might want to get those
+future, :code:`build_openblas` repository might get updated and you might want to get those
 updates by changing the commit. Make sure that the architecture is correctly set to either
 32 or 64 bit. And after you've made sure of that, start the OpenBLAS build with:
 
@@ -152,7 +153,7 @@ Installing OpenBLAS
 
 If you see that line, then you might have OpenBLAS correctly, even if other failures
 occurred. Look in that folder for :code:`openblas.a`. If you find a file called something
-like :code:`libopenblas_5f998ef_gcc7_2_0.a`, just rename it to `openblas.a` and continue.
+like :code:`libopenblas_5f998ef_gcc7_2_0.a`, just rename it to :code:`openblas.a` and continue.
 If the file isn't there, then poke around and try to find the file elsewhere. If you don't
 have that file, you'll probably need to find out what happened and then build OpenBLAS
 again. But if you have that file, we'll assume that you've completed this step correctly.
@@ -263,6 +264,7 @@ the following commands:
     
 Congratulatations, you've built SciPy!
 
+.. _BLAS: https://en.wikipedia.org/wiki/Basic_Linear_Algebra_Subprograms
 .. _OpenBLAS: https://github.com/xianyi/OpenBLAS
 .. _`these instructions`: https://github.com/orlp/dev-on-windows/wiki/Installing-GCC--&-MSYS2
 .. _`build tools`: https://www.visualstudio.com/downloads/#build-tools-for-visual-studio-2017
