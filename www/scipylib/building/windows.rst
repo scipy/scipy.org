@@ -56,17 +56,33 @@ that required to build SciPy and because OpenBLAS takes a long time to build, we
 to start building OpenBLAS first and then explain what to do next while the OpenBLAS build
 is running. **Alternatively, if you'd rather download a pre-build OpenBLAS, download the**
 **one of the** `pre-built zip files`_ **and skip to the Installing OpenBLAS section below.**
-
-First, install MSYS2 using `these instructions`_. Make sure to install the correct
-architecture for the SciPy that you want to build (eg. 32 or 64 bit), and make sure to
-install the MinGW, and git packages. Open a MSYS2 terminal and type the following:
+First, install MSYS2 using `these instructions`_ including the `pacman` update instructions.
+Occasionally during the updates the terminal might ask you to close the terminal but 
+refuses to be closed and hang. If this happens you can kill it via Task Manager and continue 
+with the instructions. Make sure to install the correct architecture for the SciPy that you 
+want to build (eg. 32 or 64 bit). Now, you have three options for opening a terminal 
+which are MSYS2, MINGW (32bit,64bit). After updating all the packages, now we are 
+ready to install some more package bundles that we will need. Open a MSYS2 terminal 
+and type the following depending on the architecture of your choice:
 
 .. code:: shell
 
-   pacman -S --needed base-devel 
-       mingw-w64-i686-toolchain
-       mingw-w64-x86_64-toolchain git
-       mingw-w64-i686-cmake mingw-w64-x86_64-cmake
+    pacman -S --needed base-devel mingw-w64-i686-toolchain mingw-w64-i686-cmake git
+
+for 32-bit and 
+
+.. code:: shell
+
+    pacman -S --needed base-devel mingw-w64-x86_64-toolchain mingw-w64-x86_64-cmake git
+
+for 64-bit build. It will prompt to whether install everything in these packages and 
+you can simply accept all via hitting enter key at each step. 
+
+We should be aware of the fact that these tools also install Python2, very similar to 
+a virtual environment, which is only usable within MSYS2 terminals and we are 
+**not** going to use it at any point. Therefore, after the OpenBLAS build we are 
+done with MSYS2 and its terminals. We will not use for any step for building SciPy. 
+Please keep this in mind to avoid nasty conflicts. 
 
 You should now have all of the tools required to build OpenBLAS. Now change directories
 to your favorite location with the following:
@@ -75,6 +91,14 @@ to your favorite location with the following:
 
    cd /c/Users/MyUser/Downloads/
    
+To make sure that we're ready to build, type the following in the terminal:
+
+.. code:: shell
+
+   make
+   gfortran
+   gcc
+
 You don't necessarily need to build in that particular location, but it should be somewhere
 reasonable. Now clone the repository required to build OpenBLAS:
 
@@ -83,15 +107,6 @@ reasonable. Now clone the repository required to build OpenBLAS:
    git clone https://github.com/matthew-brett/build-openblas.git
    cd build-openblas
    git submodule update --init --recursive
-
-Now let's build OpenBLAS. To make sure that we're ready to build, type the following in
-the terminal:
-
-.. code:: shell
-
-   make
-   gfortran
-   gcc
 
 If any of these commands fail, you're not ready to build. Go back and make sure that MSYS2
 is installed correctly and has the required packages enabled. Now, let's set some
@@ -103,14 +118,17 @@ environment variables. In the MSYS2 terminal, type the following.
     export OPENBLAS_ROOT="C:\\opt"
     export BUILD_BITS=64
 
-Make sure that each variable makes sense. More specifically, make sure that the path that
-`OPENBLAS_ROOT` points to can be deleted. Make sure that the `OPENBLAS_COMMIT` points to
-the version that you want to build. Make sure that the architecture is correctly set to
-either 32 or 64 bit. And after you've made sure of that, build OpenBLAS.
+Please check these variables' purpose for a moment. More specifically, make sure that
+you have  write/delete access to the path `OPENBLAS_ROOT` points to. The output of the
+OpenBLAS build will  be collected in this folder. Make sure that the `OPENBLAS_COMMIT`
+points to the correct OpenBLAS commit that you want to build in the cloned repo. In the
+future, `build_openblas` repository might get updated and you might want to get those
+updates by changing the commit. Make sure that the architecture is correctly set to either
+32 or 64 bit. And after you've made sure of that, start the OpenBLAS build with:
 
 .. code:: shell
 
-    .\build_openblas.sh
+    ./build_openblas.sh
 
 Building OpenBLAS is extremely problematic and may fail if your system is not correctly
 configured. Your build may fail after a few hours and you may have to restart it after 
@@ -192,8 +210,19 @@ location. Find where Python is installed:
 
    python -c "import sys; print(sys.executable)"
 
-If your Python is installed somewhere like :code:`C:\\Program Files\\Python36\\python.exe`,
-you'll need to put the :code:`openblas.a` file in :code:`C:\\Program Files\\Python36\\Lib`.
+If your Python is installed somewhere like the following:
+
+..code:: shell
+
+   C:\Users\<user name>\AppData\Local\Programs\Python\Python36\python.exe
+
+
+Then you'll need to put the :code:`openblas.a` file somewhere like the following:
+
+..code:: shell
+
+   C:\Users\<user name>\AppData\Local\Programs\Python\Python36\Lib
+
 Adjust the location accordingly based on where :code:`python.exe` is located. Now for a
 sanity check. Type  the following and press enter.
 
