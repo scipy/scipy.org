@@ -224,12 +224,18 @@ Go back to the "Building OpenBLAS" section and make sure that you have installed
 tools.
 
 Now install the dependencies that we need to build and test SciPy. **It's important that you**
-**specify the full path to the Python interpreter so that the built-in MSYS2 Python will not**
-**be used.**
+**specify the full path to the native Python interpreter so that the built-in MSYS2 Python will**
+**not be used. Attempting to build with the MSYS2 Python will not work correctly.**
+
+**18 October 2017** A development NumPy is currently required to build. In addition, pip
+does not always correctly install a VCS URL. See the NumPy documentation for installing
+the latest development version. After the next major NumPy release, this restriction will
+be removed.
 
 .. code:: shell
 
-    /c/dev/python36_64/python -m pip install numpy cython pytest pytest-xdist pytest-faulthandler
+    /c/Users/<user name>/AppData/Local/Programs/Python/Python36/python.exe \
+         -m pip install numpy cython pytest pytest-xdist pytest-faulthandler
 
 Please note that this is a simpler procedure than what is used for the official binaries.
 **Your binaries will only work with the latest numpy version**. For building against
@@ -245,8 +251,10 @@ the following commands:
 
 .. code:: shell
 
-    /c/dev/python36_64/python -m pip wheel -v -v -v .
-    /c/dev/python36_64/python runtests.py --mode full
+    /c/Users/<user name>/AppData/Local/Programs/Python/Python36/python.exe \
+         -m pip wheel -v -v -v .
+    /c/Users/<user name>/AppData/Local/Programs/Python/Python36/python.exe \
+         runtests.py --mode full
 
 Congratulatations, you've built SciPy!
 
