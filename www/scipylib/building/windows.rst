@@ -85,12 +85,13 @@ a virtual environment, which is only usable within MSYS2 terminals and we are
 done with MSYS2 and its terminals. We will not use for any step for building SciPy. 
 Please keep this in mind to avoid nasty conflicts. 
 
-You should now have all of the tools required to build OpenBLAS. Now change directories
-to your favorite location with the following:
- 
+If you already have a GitHub repository folder where you keep your own repos, it is better 
+to use that location to keep things nice and tidy since we are going to clone yet another 
+repository to obtain the source code, hence
+
 .. code:: shell
 
-   cd /c/Users/MyUser/Downloads/
+    cd /c/<wherever the GitHub repo folder is>/GitHub
    
 To make sure that we're ready to build, type the following in the terminal:
 
@@ -154,10 +155,10 @@ Installing OpenBLAS
 If you see that line, then you might have OpenBLAS correctly, even if other failures
 occurred. Look in that folder for :code:`openblas.a`. If you find a file called something
 like :code:`libopenblas_5f998ef_gcc7_2_0.a`, just rename it to :code:`openblas.a` and continue.
-If the file isn't there, then poke around and try to find the file elsewhere. If you don't
-have that file, you'll probably need to find out what happened and then build OpenBLAS
-again. But if you have that file, we'll assume that you've completed this step correctly.
-Proceeding on that assumption, let's build SciPy.
+If the file isn't there, then poke around and try to find the file elsewhere in
+:code:`OPENBLAS_ROOT`. If you don't have that file, you'll probably need to find out what
+happened and then build OpenBLAS again. But if you have that file, we'll assume that you've
+completed this step correctly. Proceeding on that assumption, let's build SciPy.
 
 **Before continuing, it is extremely important that you remove every file named either**
 :code:`openblas.lib` **or** :code:`libopenblas.lib` **from your computer. Failure to do**
@@ -208,7 +209,7 @@ location. If your Python is installed somewhere like the following:
 
 Then you'll need to put the :code:`openblas.a` file somewhere like the following:
 
-..code:: shell
+.. code:: shell
 
    C:\Users\<user name>\AppData\Local\Programs\Python\Python36\Lib
 
@@ -227,10 +228,8 @@ Now install the dependencies that we need to build and test SciPy. **It's import
 **specify the full path to the native Python interpreter so that the built-in MSYS2 Python will**
 **not be used. Attempting to build with the MSYS2 Python will not work correctly.**
 
-**18 October 2017** A development NumPy is currently required to build. In addition, pip
-does not always correctly install a VCS URL. See the NumPy documentation for installing
-the latest development version. After the next major NumPy release, this restriction will
-be removed.
+**18 October 2017** Until NumPy 1.14 is officially released, we have to work with the latest
+development  version of the NumPy repository. See the NumPy documentation....
 
 .. code:: shell
 
