@@ -62,7 +62,7 @@ instructions. Occasionally during the updates the terminal might ask you to clos
 terminal but refuses to be closed and hang. If this happens you can kill it via Task Manager
 and continue with the instructions. Make sure to install the correct architecture for the
 SciPy that you want to build (eg. 32 or 64 bit). Now, you have three options for opening a
-terminal which are MSYS2, MINGW (32bit,64bit). After updating all the packages, now we are 
+terminal which are MSYS2, MINGW (32 or 64 bit). After updating all the packages, now we are 
 ready to install some more package bundles that we will need. Open a MSYS2 terminal 
 and type the following depending on the architecture of your choice:
 
@@ -80,10 +80,8 @@ for 64-bit build. It will prompt to whether install everything in these packages
 you can simply accept all via hitting enter key at each step. 
 
 We should be aware of the fact that these tools also install Python2, very similar to 
-a virtual environment, which is only usable within MSYS2 terminals and we are 
-**not** going to use it at any point. Therefore, after the OpenBLAS build we are 
-done with MSYS2 and its terminals. We will not use for any step for building SciPy. 
-Please keep this in mind to avoid nasty conflicts. 
+a virtual environment, which is only usable within MSYS2 terminals and we are **not**
+going to use it at any point.
 
 If you already have a GitHub repository folder where you keep your own repos, it is better 
 to use that location to keep things nice and tidy since we are going to clone yet another 
