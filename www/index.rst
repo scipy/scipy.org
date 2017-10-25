@@ -203,10 +203,10 @@ News
 .. role:: news-date
    :class: news-date
 
-NumPy 1.13.3 released :news-date:`2017-09-29`
+SciPy 1.0.0 released :news-date:`2017-10-25`
     See :doc:`/scipylib/download`.
 
-SciPy 1.0.0rc2 released :news-date:`2017-10-18`
+NumPy 1.13.3 released :news-date:`2017-09-29`
     See :doc:`/scipylib/download`.
 
 EuroSciPy 2017 :news-date:`2017-08-28`
