@@ -129,11 +129,9 @@ updates by changing the commit. Make sure that the architecture is correctly set
 
     ./build_openblas.sh
 
-Building OpenBLAS is extremely problematic and may fail if your system is not correctly
-configured. Your build may fail after a few hours and you may have to restart it after 
-fixing an undocumented problem. OpenBLAS builds can also fail silently and produce an
-incorrect binary. Please, if you have any issues, `report them`_ so that we can save the
-next person's time.
+Building OpenBLAS is challenging. The build may fail with an error after a few
+hours but may also fail silently and produce an incorrect binary. Please, if you
+have any issues, `report them`_ so that we can save the next person's time.
 
 While you're waiting on OpenBLAS to finish building, go ahead and install `build tools`_
 from Microsoft, since these take a while to install and you'll need them later.
@@ -149,7 +147,7 @@ set to :code:`C:\\opt`, then you might see a line like this in the MSYS2 termina
 Installing OpenBLAS
 ===================
 
-If you see that line, then you might have OpenBLAS correctly, even if other failures
+If you see that line, then you might have OpenBLAS correctly built, even if other failures
 occurred. Look in that folder for :code:`openblas.a`. If you find a file called something
 like :code:`libopenblas_5f998ef_gcc7_2_0.a`, just rename it to :code:`openblas.a` and continue.
 If the file isn't there, then poke around and try to find the file elsewhere in
