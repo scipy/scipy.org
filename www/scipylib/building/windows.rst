@@ -8,7 +8,7 @@ Building From Source on Windows
 Overview
 --------
 
-Compared to OSX and Linux, building NumPy and SciPy on Windows is difficult,
+Compared to OSX and Linux, building NumPy and SciPy on Windows is more difficult,
 largely due to the lack of compatible, open-source libraries like LAPACK_ or
 ATLAS_ that are necessary to build both libraries and have them perform
 relatively well. You can't ``sudo apt-get install`` everything like you
@@ -19,9 +19,8 @@ Projects such as OpenBLAS_ and Mingwpy_ are under active development to develop
 open-source toolchains that would allow Windows users to build and develop with
 NumPy and SciPy from source without issues of financial, platform, or licensing constraints.
 
-This document will attempt to provide a general summary of the available options that
-users can currently avail themselves to if they so choose to build these libraries from
-source. However, in light of all the work currently being done, **do not expect**
+This document describes one option to build OpenBLAS and SciPy from source that was validated
+for scipy 1.0.0. However, in light of all the work currently being done, **do not expect**
 these instructions to be accurate in the long-run and be sure to check up on any of the
 open source projects mentioned for the most up-to-date information. For more information
 on all of these projects, the Mingwpy_ website is an **excellent** source of more in-depth
