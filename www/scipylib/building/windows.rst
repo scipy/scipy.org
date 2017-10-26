@@ -250,7 +250,7 @@ Congratulatations, you've built SciPy!
 
 .. _BLAS: https://en.wikipedia.org/wiki/Basic_Linear_Algebra_Subprograms
 .. _OpenBLAS: https://github.com/xianyi/OpenBLAS
-.. _`these instructions`: https://github.com/orlp/dev-on-windows/wiki/Installing-GCC--&-MSYS2
+.. _`these instructions`: https://github.com/msys2/msys2/wiki/MSYS2-installation
 .. _`build tools`: https://www.visualstudio.com/downloads/#build-tools-for-visual-studio-2017
 .. _`report them`: https://github.com/scipy/scipy/issues/new
 .. _`pre-built zip files`: https://3f23b170c54c2533c070-1c8a9b3114517dc5fe17b7c3f8c63a43.ssl.cf2.rackcdn.com/
