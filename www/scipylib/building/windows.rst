@@ -158,20 +158,16 @@ If the file isn't there, then poke around and try to find the file elsewhere in
 happened and then build OpenBLAS again. But if you have that file, we'll assume that you've
 completed this step correctly. Proceeding on that assumption, let's build SciPy.
 
-**Before continuing, it is extremely important that you remove every file named either**
-:code:`openblas.lib` **or** :code:`libopenblas.lib` **from your computer. Failure to do**
-**so could result in later build errors that will be difficult to debug. If you see the**
-**following output at any point, you have not completed this step correctly.**
+**Before continuing, make sure that you don't have other copies of either **
+**:code:`openblas.lib` **or** :code:`libopenblas.lib` ** on your computer. **
+**Mulitple copies could result in later build errors that will be difficult **
+**to debug. You may verifiy that the openblas library was correctly picked up **
+**by looking for the following in your build log:**
 
 .. code:: shell
 
    FOUND:
-      libraries = ['libopenblas', 'libopenblas']
-      library_dirs = ['C:\opt\64\lib']
-      language = c
-      define_macros = [('HAVE_CBLAS', None)]
-   FOUND:
-      libraries = ['libopenblas', 'libopenblas']
+      libraries = ['openblas']
       library_dirs = ['C:\opt\64\lib']
       language = c
       define_macros = [('HAVE_CBLAS', None)]
