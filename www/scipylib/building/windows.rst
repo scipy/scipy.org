@@ -11,20 +11,21 @@ Overview
 Compared to OSX and Linux, building NumPy and SciPy on Windows is more difficult,
 largely due to the lack of compatible, open-source libraries like LAPACK_ or
 ATLAS_ that are necessary to build both libraries and have them perform
-relatively well. You can't ``sudo apt-get install`` everything like you
-can on the other two platforms.
+relatively well. It is not possible to just call a one-liner on the command
+prompt as you would on other platforms via ``sudo apt-get install`` machinery.
 
 Fortunately, a lot of work has been done recently to rectify this situation.
 Projects such as OpenBLAS_ and Mingwpy_ are under active development to develop
 open-source toolchains that would allow Windows users to build and develop with
-NumPy and SciPy from source without issues of financial, platform, or licensing constraints.
+NumPy and SciPy from source, and hence, freeing them from financial, platform,
+or licensing constraints.
 
-This document describes one option to build OpenBLAS and SciPy from source that was validated
-for scipy 1.0.0. However, in light of all the work currently being done, **do not expect**
-these instructions to be accurate in the long-run and be sure to check up on any of the
-open source projects mentioned for the most up-to-date information. For more information
-on all of these projects, the Mingwpy_ website is an **excellent** source of more in-depth
-information than this document will provide.
+This document describes one option to build OpenBLAS and SciPy from source that 
+was validated for scipy 1.0.0. However, in light of all the work currently being 
+done, **do not expect** these instructions to be accurate in the long-run and be
+sure to check up on any of the open source projects mentioned for the most up-to-date
+information. For more information on all of these projects, the Mingwpy_ website
+is an excellent source of in-depth information than this document will provide.
 
 .. _Mingwpy: http://mingwpy.github.io/
 .. _ATLAS: http://math-atlas.sourceforge.net/
@@ -53,33 +54,34 @@ First, we need to install the software required to build OpenBLAS_, which is the
 library that we're going to use. Because the software to build OpenBLAS is different than
 that required to build SciPy and because OpenBLAS takes a long time to build, we're going
 to start building OpenBLAS first and then explain what to do next while the OpenBLAS build
-is running. **Alternatively, if you'd rather download a pre-built OpenBLAS, download the**
-**one of the** `pre-built zip files`_ **and skip to the Installing OpenBLAS section below.**
+is running. **Alternatively, if you'd rather download a pre-built OpenBLAS, download the
+one of the** `pre-built zip files`_ **and skip to the Installing OpenBLAS section below.**
 
 Otherwise, install MSYS2 using `these instructions`_ including the `pacman` update
 instructions. Occasionally during the updates the terminal might ask you to close the
-terminal but refuses to be closed and hang. If this happens you can kill it via Task Manager
-and continue with the instructions. Make sure to install the correct architecture for the
-SciPy that you want to build (eg. 32 or 64 bit). Now, you have three options for opening a
-terminal which are MSYS2, MINGW (32 or 64 bit). After updating all the packages, now we are 
-ready to install some more package bundles that we will need. Open a MSYS2 terminal 
-and type the following depending on the architecture of your choice:
+terminal but then might refuse to be closed and hang. If this happens you can kill it via
+Task Manager and continue with the instructions. Make sure to install the correct
+architecture for the SciPy that you want to build (eg. 32 or 64 bit). Now, you have three
+options for opening a terminal which are MSYS2, MINGW (32 or 64 bit). After updating all
+the packages, now we are ready to install some more package bundles that we will need. 
+Open a MSYS2 terminal and type the following depending on the architecture of your 
+choice; run the following for a 32-bit build
 
 .. code:: shell
 
     pacman -S --needed base-devel mingw-w64-i686-toolchain mingw-w64-i686-cmake git
 
-for 32-bit and 
+and for 64-bit
 
 .. code:: shell
 
     pacman -S --needed base-devel mingw-w64-x86_64-toolchain mingw-w64-x86_64-cmake git
 
-for 64-bit build. It will prompt to whether install everything in these packages and 
-you can simply accept all via hitting enter key at each step. 
+It will prompt to whether install everything in these packages and you can simply accept
+all via hitting enter key at each step. 
 
 We should be aware of the fact that these tools also install Python2, very similar to 
-a virtual environment, which is only usable within MSYS2 terminals and we are **not**
+a virtual environment, which is only usable within an MSYS2 terminal and we are **not**
 going to use it at any point.
 
 If you already have a GitHub repository folder where you keep your own repos, it is better 
@@ -89,8 +91,9 @@ repository to obtain the source code, hence
 .. code:: shell
 
     cd /c/<wherever the GitHub repo folder is>/GitHub
-   
-To make sure that we're ready to build, type the following in the terminal:
+
+You don't necessarily need to build in that particular location, but it should be somewhere
+convenient. To make sure that we're ready to build, type the following in the terminal:
 
 .. code:: shell
 
@@ -98,8 +101,9 @@ To make sure that we're ready to build, type the following in the terminal:
    gfortran
    gcc
 
-You don't necessarily need to build in that particular location, but it should be somewhere
-reasonable. Now clone the repository required to build OpenBLAS:
+These commands should give errors as we have not provided any arguments to them.
+However an error also implies that they are accessible on the path. Now clone
+the repository required to build OpenBLAS:
 
 .. code:: shell
 
@@ -118,7 +122,7 @@ environment variables. In the MSYS2 terminal, type the following.
     export BUILD_BITS=64
 
 Please check these variables' purpose for a moment. More specifically, make sure that
-you have  write/delete access to the path :code:`OPENBLAS_ROOT` points to. The output of the
+you have read/write access to the path that :code:`OPENBLAS_ROOT` points to. The output of the
 OpenBLAS build will  be collected in this folder. Make sure that the :code:`OPENBLAS_COMMIT`
 points to the correct OpenBLAS commit that you want to build in the cloned repo. In the
 future, :code:`build_openblas` repository might get updated and you might want to get those
@@ -155,11 +159,11 @@ If the file isn't there, then poke around and try to find the file elsewhere in
 happened and then build OpenBLAS again. But if you have that file, we'll assume that you've
 completed this step correctly. Proceeding on that assumption, let's build SciPy.
 
-**Before continuing, make sure that you don't have other copies of either **
-**:code:`openblas.lib` **or** :code:`libopenblas.lib` ** on your computer. **
-**Mulitple copies could result in later build errors that will be difficult **
-**to debug. You may verifiy that the openblas library was correctly picked up **
-**by looking for the following in your build log:**
+**Before continuing, make sure that you don't have other copies of either**
+:code:`openblas.lib` **or** :code:`libopenblas.lib` **on your computer elsewhere.
+Mulitple copies could result in later build errors that will be difficult to debug.
+You may verifiy that the openblas library was correctly picked up by looking for
+the following in your build log:**
 
 .. code:: shell
 
@@ -193,7 +197,7 @@ location to build, and clone SciPy.
 Now we need to copy the :code:`openblas.a` file that we've built earlier to the correct
 location. If your Python is installed somewhere like the following:
 
-..code:: shell
+.. code:: shell
 
    C:\Users\<user name>\AppData\Local\Programs\Python\Python36\python.exe
 
@@ -215,9 +219,9 @@ If you see an error with the above command, :code:`gfortran` is not correctly in
 Go back to the "Building OpenBLAS" section and make sure that you have installed the correct
 tools.
 
-Now install the dependencies that we need to build and test SciPy. **It's important that you**
-**specify the full path to the native Python interpreter so that the built-in MSYS2 Python will**
-**not be used. Attempting to build with the MSYS2 Python will not work correctly.**
+Now install the dependencies that we need to build and test SciPy. **It's important that you
+specify the full path to the native Python interpreter so that the built-in MSYS2 Python will
+not be used. Attempting to build with the MSYS2 Python will not work correctly.**
 
 **18 October 2017** Until NumPy 1.14 is officially released, we have to work with the latest
 development  version of the NumPy repository. See the NumPy documentation....
@@ -228,9 +232,10 @@ development  version of the NumPy repository. See the NumPy documentation....
          -m pip install numpy cython pytest pytest-xdist pytest-faulthandler
 
 Please note that this is a simpler procedure than what is used for the official binaries.
-**Your binaries will only work with the latest numpy version**. For building against
-older Numpy versions, see Building Against an Older Numpy Version. Make sure that you're
-in the directory with `setup.py` (you should be if you haven't changed directories):
+**Your binaries will only work with the latest NumPy (v1.14.0dev and higher)**. For
+building against older Numpy versions, see `Building Against an Older Numpy Version`_. 
+Make sure that you are in the same directory where  `setup.py` is (you should be if you 
+have not changed directories):
 
 .. code:: shell
 
@@ -278,10 +283,10 @@ Additional Resources
 --------------------
 
 As discussed in the overview, this document is not meant to provide extremely detailed explanations on how to build
-NumPy and SciPy on Windows. This is largely because there is no one clearly superior way to do so at this point in time,
-and because the process for building these libraries on Windows is under active development, it is probable that any
+NumPy and SciPy on Windows. This is largely because currently, there is no single superior way to do so
+and because the process for building these libraries on Windows is under development. It is likely that any
 information will go out of date relatively soon. If you wish to receive more assistance, please reach out to the NumPy
 and SciPy mailing lists, which can be found `here <http://www.scipy.org/scipylib/mailing-lists.html>`__.  There are many
-developers out there working on this issue right now, and they would certainly be happy to help you out!  Google is also
+developers out there, working on this issue right now, and they would certainly be happy to help you out!  Google is also
 a good resource, as there are many people out there who use NumPy and SciPy on Windows, so it would not be surprising if
 your question or problem has already been addressed.
