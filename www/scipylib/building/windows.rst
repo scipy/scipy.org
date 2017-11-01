@@ -262,7 +262,7 @@ Congratulatations, you've built SciPy!
 .. _WindowsCompilers: https://wiki.python.org/moin/WindowsCompilers
 
 Building Against an Older Numpy Version
---------------------------------------
+---------------------------------------
 
 If you want to build SciPy to work with an older numpy version, then you will need 
 to replace the Numpy "distutils" folder with the folder from the latest numpy.
