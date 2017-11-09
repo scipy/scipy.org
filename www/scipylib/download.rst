@@ -11,10 +11,8 @@ Obtaining NumPy & SciPy libraries
 Official Source and Binary Releases
 -----------------------------------
 
-For each official release of NumPy and SciPy, we provide source code 
-(tarball) as well as binary wheels for several major platforms.
-Binary wheels for SciPy on Windows are not available, we strongly recommend
-using a scientific Python distribution (those all do provide SciPy).
+For each official release of NumPy and SciPy, we provide source code (tarball)
+as well as binary wheels for several major platforms (Windows, OSX, Linux).
 
 +--------+------------------------------+-------------------------------------+
 | Project| Available packages           | Download location                   | 
@@ -27,8 +25,8 @@ using a scientific Python distribution (those all do provide SciPy).
 +--------+------------------------------+-------------------------------------+
 |        |  Official *source code*      |                                     |
 |        |  (all platforms) and         | `SciPy release page`_ (sources)     |
-| SciPy  |  *binaries* for **Windows**  |                                     |
-|        |  & **Mac OS X**              | `PyPI page for SciPy`_ (all)        |
+| SciPy  |  *binaries* for **Windows**, |                                     |
+|        |  **Linux** and **Mac OS X**  | `PyPI page for SciPy`_ (all)        |
 |        |                              |                                     |
 |        |                              |                                     |
 +--------+------------------------------+-------------------------------------+
