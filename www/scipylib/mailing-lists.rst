@@ -76,8 +76,9 @@ Usage questions can of course also be asked on the ``scipy-user`` or
 IRC
 ---
 
-There is also an IRC channel ``#scipy`` on `irc.freenode.net <http://freenode.net/>`__.
+There is also an IRC chat channel `#scipy <scipy-irc_>`__ on ``irc.freenode.net``.
 
+.. _scipy-irc: https://webchat.freenode.net?channels=%23scipy
 
 .. _before-you-post:
 
@@ -129,12 +130,14 @@ A few points on mailing list etiquette:
 
   Please keep the tone of conversations cordial and respectful, and
   recognize that those responding to your questions are volunteering
-  their free time to do so.
+  their free time to do so. The `SciPy code of conduct <scipy-coc_>`__ applies on
+  Scipy lists and IRC.
 
 .. _Nabble: http://www.nabble.com
 .. _matplotlib: http://matplotlib.org/
 .. _IPython: http://ipython.org/
 .. _Stackoverflow: http://stackoverflow.com
+.. _scipy-coc: https://docs.scipy.org/doc/scipy-dev/reference/dev/conduct/code_of_conduct.html
 
 .. _gm-numpy-d: http://numpy-discussion.10968.n7.nabble.com
 .. _gm-scipy-u: http://scipy-user.10969.n7.nabble.com
