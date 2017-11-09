@@ -5,7 +5,6 @@ SciPy library
    :hidden:
 
    download
-   building/index
    mailing-lists
    bug-report
    dev-zone
