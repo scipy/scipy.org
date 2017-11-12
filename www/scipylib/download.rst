@@ -31,9 +31,6 @@ as well as binary wheels for several major platforms (Windows, OSX, Linux).
 |        |                              |                                     |
 +--------+------------------------------+-------------------------------------+
 
-Build instructions are available for :doc:`Linux <building/linux>`,
-:doc:`Windows <building/windows>` and :doc:`Mac OSX <building/macosx>`.
-
 .. _NumPy release page: https://github.com/numpy/numpy/releases
 .. _SciPy release page: https://github.com/scipy/scipy/releases
 .. _PyPI page for NumPy: https://pypi.python.org/pypi/numpy
@@ -58,7 +55,10 @@ To check out the latest **SciPy** sources::
 Build instructions
 ------------------
 
-See :ref:`building` for build instructions.
+Build instructions for Scipy can be found in its documentation.
+The latest version can be found at:
+https://docs.scipy.org/doc/scipy-dev/reference/building/index.html
+
 
 .. _download-thirdpartypackages:
 

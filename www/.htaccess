@@ -4,6 +4,9 @@ RewriteEngine on
 #RewriteRule ^(EuroScipy|History_of_SciPy|License_Compatibility|MlabWrap|PerformanceTips|PyLab|Scipy200|SubmillisecondPulsar) \
 #    http://wiki.scipy.org%{REQUEST_URI} [R]
 
+# Redirect moved pages
+RewriteRule ^(scipylib/building/) https://docs.scipy.org/doc/scipy-dev/reference/building/ [R=permanent]
+
 # Redirect from scipy.org/doc/*
 RewriteRule ^(doc/) http://docs.scipy.org/ [R=permanent]
 
