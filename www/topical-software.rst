@@ -215,8 +215,6 @@ Optimization
 
 - `ECsPy <https://pypi.python.org/pypi/ecspy>`__: Evolutionary Computations in Python
 
-- `EMMA <http://emma-project.org/latest/>`__: A Python optimization library with a focus on constraint programming
-
 - `Mystic <http://trac.mystic.cacr.caltech.edu/project/mystic>`__: An optimization framework focused on continuous optimization.
 
 - `NLPy <http://nlpy.sourceforge.net/>`__: A Python optimization framework that leverages AMPL to create problem instances, which can then be processed in Python
@@ -422,6 +420,7 @@ Molecular modeling
 - `SloppyCell <http://sloppycell.sourceforge.net/>`__: SloppyCell is a software environment for simulation and analysis of biomolecular networks developed by the groups of Jim Sethna and Chris Myers at Cornell University.
 - `PyVib2 <http://pyvib2.sourceforge.net/>`__: a program for analyzing vibrational motion and vibrational spectra. The program is supposed to be an open source "all-in-one" solution for scientists working in the field of vibrational spectroscopy (Raman and IR) and vibrational optical activity (ROA and VCD). It is based on numpy, matplotlib, VTK and Pmw.
 - `ASE <https://wiki.fysik.dtu.dk/ase/>`__ is an atomistic simulation environment written in Python with the aim of setting up, stearing, and analyzing atomistic simulations. It can use a number of backend calculation engines (Abinit, Siesta, Vasp, Dacapo, GPAW, ...) to perform ab-initio calculations within Density Functional Theory. It can do total energy calculations, molecular dynamics, geometry optimization and much more. There is also a GUI and visualization tools for interactive work.
+- `PyEMMA <https://emma-project.org/>`__ (EMMA = Emma's Markov Model Algorithms) is an open source Python/C package for analysis of extensive molecular dynamics simulations. In particular, it includes algorithms for estimation, validation and analysis of Markov state models, a popular toolset to gain insight on the kinetics of the simulation. It provides collective variables calculation, clustering methods, time lagged independent component analysis (TICA) and model estimation for Markov state models, hidden Markov models and multi ensemble simulation like umbrella sampling. In addition transition path theory can be applied onto these models, which allows for kinetic pathway extraction and flux computations via transition networks.
 
 Signal processing
 -----------------
