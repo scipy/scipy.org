@@ -13,11 +13,12 @@ commands apply:
 
 To make a local build of the website
 
+    $ cd www
     $ make html
 
 To build and upload the site (requires ssh access to www.scipy.org).
 
-    $ make upload
+    $ make upload USERNAME=myusername
 
 To test external links from the site
 
