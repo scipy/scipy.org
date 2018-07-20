@@ -57,7 +57,7 @@ Scientific Computing in Python
   Computing in Science & Engineering, **9**, 10-20 (2007),
   `DOI:10.1109/MCSE.2007.58`__ (`publisher link`__)
 
-__ http://dx.doi.org/10.1109/MCSE.2007.58
+__ https://doi.org/10.1109/MCSE.2007.58
 __ http://scitation.aip.org/content/aip/journal/cise/9/3/10.1109/MCSE.2007.58
 
 
@@ -65,7 +65,7 @@ __ http://scitation.aip.org/content/aip/journal/cise/9/3/10.1109/MCSE.2007.58
   Computing in Science & Engineering, **13**, 9-12 (2011),
   `DOI:10.1109/MCSE.2011.36`__ (`publisher link`__)
 
-__ http://dx.doi.org/10.1109/MCSE.2011.36
+__ https://doi.org/10.1109/MCSE.2011.36
 __ http://scitation.aip.org/content/aip/journal/cise/13/2/10.1109/MCSE.2011.36
 
 NumPy
@@ -83,7 +83,7 @@ IPython
   Computing in Science & Engineering, **9**, 21-29 (2007),
   `DOI:10.1109/MCSE.2007.53`__ (`publisher link`__)
 
-__ http://dx.doi.org/10.1109/MCSE.2007.53
+__ https://doi.org/10.1109/MCSE.2007.53
 __ http://scitation.aip.org/content/aip/journal/cise/9/3/10.1109/MCSE.2007.53
 
 Matplotlib
@@ -94,7 +94,7 @@ Matplotlib
   Computing in Science & Engineering, **9**, 90-95 (2007),
   `DOI:10.1109/MCSE.2007.55`__ (`publisher link`__)
 
-__ http://dx.doi.org/10.1109/MCSE.2007.55
+__ https://doi.org/10.1109/MCSE.2007.55
 __ http://scitation.aip.org/content/aip/journal/cise/9/3/10.1109/MCSE.2007.55
 
 Cython
@@ -105,7 +105,7 @@ Cython
   Computing in Science and Engineering, **13**, 31-39 (2011),
   `DOI:10.1109/MCSE.2010.118`__ (`publisher link`__)
 
-__ http://dx.doi.org/10.1109/MCSE.2010.118
+__ https://doi.org/10.1109/MCSE.2010.118
 __ http://scitation.aip.org/content/aip/journal/cise/13/2/10.1109/MCSE.2010.118
 
 Pandas
@@ -140,7 +140,7 @@ scikit-image
   PeerJ 2:e453 (2014)
   (`publisher link`__)
 
-__ http://dx.doi.org/10.7717/peerj.453
+__ https://doi.org/10.7717/peerj.453
 
 F2PY
 ####
@@ -151,7 +151,7 @@ F2PY
   **4** (4), 296-305 (2009),
   `DOI:10.1504/IJCSE.2009.029165`__ (`publisher link`__) (`preprint`__)
 
-__ http://dx.doi.org/10.1504/IJCSE.2009.029165
+__ https://doi.org/10.1504/IJCSE.2009.029165
 __ http://www.inderscience.com/info/inarticletoc.php?jcode=ijcse&year=2009&vol=4&issue=4
 __ http://cens.ioc.ee/~pearu/papers/IJCSE4.4_Paper_8.pdf
 
