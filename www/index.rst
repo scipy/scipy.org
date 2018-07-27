@@ -272,3 +272,4 @@ SciPy 0.19.0 released :news-date:`2017-03-09`
    scipylib/index
    scikits
    past-news
+   codes-of-conduct
