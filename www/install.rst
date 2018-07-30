@@ -19,9 +19,10 @@ packages:
   Supports Linux, Windows and Mac.
 * `Python(x,y) <https://python-xy.github.io/>`_: A free distribution
   including scientific packages, based around the
-  `Spyder IDE <https://www.spyder-ide.org/>`__.  Windows only.
+  `Spyder IDE <https://www.spyder-ide.org/>`__.  Windows and Ubuntu; Py2 only.
 * `WinPython <https://winpython.github.io>`_: Another free distribution
-  including scientific packages and the Spyder IDE.  Windows only.
+  including scientific packages and the Spyder IDE.  Windows only,
+  but more actively maintained and supports the latest Python 3 versions.
 * `Pyzo <http://www.pyzo.org/>`_: A free distribution based on Anaconda and the
   IEP interactive development environment.  Supports Linux, Windows and Mac.
 
