@@ -10,6 +10,7 @@ a.extlink:after {
 {% if not pagename.startswith('scipylib/') -%}
 <div class="well sidebar-nav">
   <ul class="nav nav-list">
+
     <li {% if pagename == 'about' -%}class="active"{%- endif -%}>
       <a href="{{ pathto('about') }}">About SciPy</a>
       {% if pagename in ('about', 'stackspec') -%}
@@ -19,14 +20,17 @@ a.extlink:after {
       </ul>
       {% endif %}
     </li>
-    <li {% if pagename == 'install' -%}class="active"{%- endif -%}>
-      <a href="{{ pathto('install') }}">Install</a></li>
     <li {% if pagename == 'getting-started' -%}class="active"{%- endif -%}>
       <a href="{{ pathto('getting-started') }}">Getting Started</a></li>
     <li {% if pagename == 'docs' -%}class="active"{%- endif -%}>
       <a href="{{ pathto('docs') }}">Documentation</a></li>
+    <li {% if pagename == 'install' -%}class="active"{%- endif -%}>
+      <a href="{{ pathto('install') }}">Install</a></li>
     <li {% if pagename == 'bug-report' -%}class="active"{%- endif -%}>
       <a href="{{ pathto('bug-report') }}">Bug Reports</a></li>
+    <li {% if pagename == 'codes-of-conduct' -%}class="active"{%- endif -%}>
+      <a href="{{ pathto('codes-of-conduct') }}">Codes of Conduct</a></li>
+    <li><a class="extlink" href="http://conference.scipy.org">SciPy Conferences</a></li>    
     <li {% if pagename == 'topical-software' -%}class="active"{%- endif -%}>
       <a href="{{ pathto('topical-software') }}">Topical Software</a>
       {% if pagename in ('topical-software', 'scikits') -%}
@@ -40,7 +44,6 @@ a.extlink:after {
     <li {% if pagename == 'citing' -%}class="active"{%- endif -%}>
       <a href="{{ pathto('citing') }}">Citing</a></li>
     <li><a class="extlink" href="http://scipy-cookbook.readthedocs.org">Cookbook</a></li>
-    <li><a class="extlink" href="http://conference.scipy.org">SciPy Conferences</a></li>
     <li><a class="extlink" href="http://planet.scipy.org">Blogs</a></li>
     <li><a class="extlink" href="http://numfocus.org">NumFOCUS</a></li>
   </ul>
@@ -68,6 +71,7 @@ a.extlink:after {
     </li>
     <li {% if pagename == 'scipylib/license' -%}class="active"{%- endif -%}>
       <a href="{{ pathto('scipylib/license') }}">License</a></li>
+    <li><a href="http://scipy.github.io/devdocs/dev/conduct/code_of_conduct.html">Code of Conduct</a></li>
     <li {% if pagename == 'scipylib/download' -%}class="active"{%- endif -%}>
       <a href="{{ pathto('scipylib/download') }}">Download</a></li>
     <li><a class="extlink" href="https://docs.scipy.org/doc/">Documentation</a></li>
