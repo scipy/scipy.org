@@ -18,9 +18,10 @@ packages:
   commercial versions include the core scientific packages.
   Supports Linux, Windows and Mac.
 * `Python(x,y) <https://python-xy.github.io/>`_: A free distribution
-  including scientific packages, based around the Spyder IDE.  Windows only.
-* `WinPython <https://winpython.github.io>`_: A free distribution
-  including scientific packages.  Windows only.
+  including scientific packages, based around the
+  `Spyder IDE <https://www.spyder-ide.org/>`__.  Windows only.
+* `WinPython <https://winpython.github.io>`_: Another free distribution
+  including scientific packages and the Spyder IDE.  Windows only.
 * `Pyzo <http://www.pyzo.org/>`_: A free distribution based on Anaconda and the
   IEP interactive development environment.  Supports Linux, Windows and Mac.
 
@@ -83,7 +84,7 @@ For Python 3.5 with `Macports <https://www.macports.org>`_ execute this command 
 .. rubric:: Homebrew
 
 You can install NumPy, SciPy, and Matplotlib, with::
-  
+
     brew tap homebrew/science && brew install python numpy scipy matplotlib
 
 .. _individual-packages:
