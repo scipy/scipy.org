@@ -84,9 +84,12 @@ For Python 3.5 with `Macports <https://www.macports.org>`_ execute this command 
 
 .. rubric:: Homebrew
 
-You can install NumPy, SciPy, and Matplotlib, with::
+Homebrew no longer packages NumPy or other packages of the scientific Python
+stack. If you're a Homebrew user, install
+[Python3 with Homebrew](https://docs.brew.sh/Homebrew-and-Python)
+and the rest with pip::
 
-    brew tap homebrew/science && brew install python numpy scipy matplotlib
+    python -m pip install numpy scipy matplotlib
 
 .. _individual-packages:
 
