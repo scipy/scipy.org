@@ -12,7 +12,7 @@ For many users, especially on Windows, the easiest way to begin is to
 download one of these Python distributions, which include all the key
 packages:
 
-* `Anaconda <https://www.continuum.io/downloads>`_: A free distribution
+* `Anaconda <https://www.anaconda.com/download/>`_: A free distribution
   of Python with scientific packages.  Supports Linux, Windows and Mac.
 * `Enthought Canopy <https://www.enthought.com/products/canopy>`_: The free and
   commercial versions include the core scientific packages.
