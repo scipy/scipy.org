@@ -16,7 +16,8 @@ To make a local build of the website
     $ cd www
     $ make html
 
-To build and upload the site (requires ssh access to www.scipy.org).
+To build and upload the site (requires ssh access to www.scipy.org,
+and if you're on macOS then upgrade rsync with Homebrew first):
 
     $ make upload USERNAME=myusername
 

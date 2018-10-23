@@ -27,7 +27,7 @@ clean:
 upload: html
 	# SSH must be correctly configured for this to work.
 	cp .htaccess _build/html/
-	chmod a+rX -R _build/html/
+	chmod -R a+rX _build/html/
 	rsync -og --chown=www-data:www-data --delete-after -r \
 	    --exclude '.git' _build/html/ \
 	    $(USERNAME)@scipy.org:/var/www/html
