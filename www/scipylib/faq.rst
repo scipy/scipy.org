@@ -247,6 +247,17 @@ to do so is 1.2.x.
 The first release of NumPy to support Python 3.x was NumPy 1.5.0.
 Python 3 support in SciPy was introduced in 0.9.0.
 
+Does NumPy/SciPy work with PyPy?
+################################
+
+In general, yes. Recent improvements in PyPy_ have made the scientific Python
+stack work with PyPy. The NumPy and SciPy projects run PyPy in continuous
+integration and aim to further improve support over time.
+Since much of NumPy and SciPy is implemented as C extension
+modules, the code may not run any faster (for most cases it's significantly
+slower still, however PyPy is actively working on improving this). As always
+when benchmarking, your experience is the best guide.
+
 Does NumPy/SciPy work with Jython or C#/.NET?
 #############################################
 
@@ -514,3 +525,4 @@ everyone time.
 .. _Bokeh: https://bokeh.pydata.org/en/latest
 .. _Altair: https://altair-viz.github.io
 .. _Plotly: https://plot.ly
+.. _PyPy: http://pypy.org
