@@ -68,12 +68,21 @@ __ http://scitation.aip.org/content/aip/journal/cise/9/3/10.1109/MCSE.2007.58
 __ https://doi.org/10.1109/MCSE.2011.36
 __ http://scitation.aip.org/content/aip/journal/cise/13/2/10.1109/MCSE.2011.36
 
+
 NumPy
 #####
 
-
 * Travis E, Oliphant. **A guide to NumPy**,
   USA: Trelgol Publishing, (2006).
+
+* Stéfan van der Walt, S. Chris Colbert and Gaël Varoquaux.
+  **The NumPy Array: A Structure for Efficient Numerical Computation**,
+  Computing in Science & Engineering, **13**, 22-30 (2011),
+  `DOI:10.1109/MCSE.2011.37`__ (`publisher link`__)
+
+__ http://dx.doi.org/10.1109/MCSE.2011.37
+__ http://scitation.aip.org/content/aip/journal/cise/13/2/10.1109/MCSE.2011.37
+
 
 IPython
 #######
