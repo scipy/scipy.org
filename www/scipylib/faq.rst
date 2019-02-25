@@ -17,17 +17,17 @@ What is NumPy?
 ##############
 
 NumPy is a Python extension module that provides efficient operation on arrays
-of homogeneous data.  It allows python to serve as a high-level language for
-manipulating numerical data, much like IDL, MATLAB, or Yorick.
+of homogeneous data.  It allows Python to serve as a high-level language for
+manipulating numerical data, much like for example IDL or MATLAB.
 
-Why should I use NumPy rather than IDL, MATLAB, Octave, or Yorick?
-##################################################################
+Why should I use NumPy rather than IDL, MATLAB, or Octave?
+##########################################################
 
 As always, you should choose the programming tools that suit your problem
 and your environment. Advantages many people cite are that it is open-source,
-it doesn't cost anything, it uses the general-purpose language (Python)
-rather than a *sui generis* programming language, and it is relatively easy
-to connect existing C and Fortran code to the Python interpreter.
+it doesn't cost anything, it uses a general-purpose programming language (Python)
+which is very popular and has high-quality libraries for almost any task available,
+and it is relatively easy to connect existing C and Fortran code to the Python interpreter.
 
 What is a NumPy array?
 ######################
@@ -102,7 +102,7 @@ differential equation (ODE) solvers, gradient optimization, parallel
 programming tools, an expression-to-C++ compiler for fast execution,
 and others. A good rule of thumb is that if it's covered in a general textbook 
 on numerical computing (for example, the well-known Numerical Recipes series), 
-it's probably implemented in scipy. 
+it's probably implemented in SciPy. 
 
 How much does it cost?
 ######################
@@ -120,8 +120,8 @@ of the BSD license `here <https://github.com/scipy/scipy/blob/master/LICENSE.txt
 How can SciPy be fast if it is written in an interpreted language like Python?
 ##############################################################################
 
-Actually, the time-critical loops are usually implemented in C or Fortran.
-Much of SciPy is a thin layer of code on top of the scientific routines that
+Actually, the time-critical loops are usually implemented in C, C++ or Fortran.
+Parts of SciPy are thin layers of code on top of the scientific routines that
 are freely available at http://www.netlib.org/. Netlib is a huge repository
 of incredibly valuable and robust scientific algorithms written in C and
 Fortran. It would be silly to rewrite these algorithms and would take years
@@ -135,7 +135,7 @@ entirely or wrapped with Cython_.
 
 A second answer is that for difficult problems, a better algorithm can make 
 a tremendous difference in the time it takes to solve a problem. So using 
-scipy's built-in algorithms may be much faster than a simple algorithm 
+SciPy's built-in algorithms may be much faster than a simple algorithm 
 coded in C. 
 
 I've found a bug.  What do I do?
@@ -159,8 +159,8 @@ helping out with the website.
 Is there commercial support available?
 ######################################
 
-Yes, commercial support is offered for SciPy by Enthought_. Please contact
-eric@enthought.com for more information.
+Yes, commercial support is offered for SciPy by a number of companies,
+for example Anaconda_, Enthought_ and Quansight_.
 
 NumPy vs. SciPy vs. other packages
 ----------------------------------
@@ -173,20 +173,21 @@ the most basic operations: indexing, sorting, reshaping, basic elementwise
 functions, et cetera. All numerical code would reside in SciPy. However,
 one of NumPy's important goals is compatibility, so NumPy tries to retain
 all features supported by either of its predecessors. Thus NumPy contains
-some linear algebra functions, even though these more properly belong in
-SciPy. In any case, SciPy contains more fully-featured versions of the
-linear algebra modules, as well as many other numerical algorithms. If you
-are doing scientific computing with python, you should probably install
-both NumPy and SciPy. Most new features belong in SciPy rather than NumPy.
+some linear algebra functions and Fourier transforms, even though these more
+properly belong in SciPy. In any case, SciPy contains more fully-featured
+versions of the linear algebra modules, as well as many other numerical
+algorithms. If you are doing scientific computing with Python, you should
+probably install both NumPy and SciPy. Most new features belong in SciPy
+rather than NumPy.
 
 How do I make plots using NumPy/SciPy?
 ######################################
 
 Plotting functionality is beyond the scope of NumPy and SciPy, which focus
 on numerical objects and algorithms. Several packages exist that integrate
-closely with NumPy to produce high quality plots, such as the immensely
-popular `Matplotlib`_ and the extensible, modular toolkit
-`Chaco <http://code.enthought.com/projects/chaco/>`_.
+closely with NumPy and Pandas to produce high quality plots, such as the
+immensely popular `Matplotlib`_. Other popular options are `Bokeh`_, `Plotly`_,
+`Altair`_ and`Chaco <http://code.enthought.com/projects/chaco/>`_.
 
 How do I make 3D plots/visualizations using NumPy/SciPy?
 ########################################################
@@ -204,7 +205,7 @@ Why both :mod:`numpy.linalg` and :mod:`scipy.linalg`? What's the difference?
 :mod:`scipy.linalg` is a more complete wrapping of Fortran LAPACK_ using f2py_.
 
 One of the design goals of NumPy was to make it buildable without a Fortran
-compiler, and if  you don't have  LAPACK available NumPy will use its own
+compiler, and if  you don't have LAPACK available NumPy will use its own
 implementation. SciPy requires a Fortran compiler to be built, and heavily
 depends on wrapped Fortran code.
 
@@ -216,9 +217,9 @@ depends on wrapped Fortran code.
 .. ::
 ..
 ..    import numpy as np
-..    import scipy as sc
-..    print np.show_config()
-..    print sc.show_config()
+..    import scipy
+..    print(np.show_config())
+..    print(scipy.show_config())
 
 The :mod:`linalg` modules in NumPy and SciPy have some common functions but
 with different docstrings, and :mod:`scipy.linalg` contains functions not
@@ -238,29 +239,36 @@ matrix argument for solving `generalized eigenvalue problems`_.
 Python version support
 ----------------------
 
-Do NumPy and SciPy support Python 3.x?
-######################################
+Do NumPy and SciPytill support Python 2.7?
+##########################################
 
-NumPy and SciPy support the Python 2.x series, (versions 2.6 and 2.7),
-as well as Python 3.2 and newer. The first release of NumPy to
-support Python 3 was NumPy 1.5.0. Python 3 support in SciPy starts
-with version 0.9.0.
+The last version of NumPy to support Python 2.7 is numpy 1.16.x. The last SciPy version
+to do so is 1.2.x.
+The first release of NumPy to support Python 3.x was NumPy 1.5.0.
+Python 3 support in SciPy was introduced in 0.9.0.
 
-Does NumPy/SciPy work with Jython?
-##################################
+Does NumPy/SciPy work with PyPy?
+################################
 
-No. Simply put, Jython runs on top of the Java Virtual Machine and has no
-way to interface with extensions written in C for the standard Python
-(CPython) interpreter.
+In general, yes. Recent improvements in PyPy_ have made the scientific Python
+stack work with PyPy. The NumPy and SciPy projects run PyPy in continuous
+integration and aim to further improve support over time.
+Since much of NumPy and SciPy is implemented as C extension
+modules, the code may not run any faster (for most cases it's significantly
+slower still, however PyPy is actively working on improving this). As always
+when benchmarking, your experience is the best guide.
 
-Does NumPy/SciPy work with IronPython (.NET)?
+Does NumPy/SciPy work with Jython or C#/.NET?
 #############################################
 
-Some users have reported success in using NumPy with `Ironclad
-<https://code.google.com/archive/p/ironclad>`_ on 32-bit Windows. The current status
-of Ironclad support for SciPy is unknown, but there are several
-complicating factors (namely the Fortran compiler situation on
-Windows) that make it less feasible than NumPy.
+No, neither are supported. Jython never worked, because it runs on top of the
+Java Virtual Machine and has no way to interface with extensions written in C
+for the standard Python (CPython) interpreter.
+
+Some years ago there was an effort to make NumPy and SciPy compatible with .NET.
+Some users at the time reported success in using NumPy with `Ironclad
+<https://code.google.com/archive/p/ironclad>`_ on 32-bit Windows.
+
 
 Basic NumPy/SciPy usage
 -----------------------
@@ -292,16 +300,15 @@ Use :func:`numpy.loadtxt`. Even if your text file has header and footer
 lines or comments, loadtxt can almost certainly read it; it is convenient and
 efficient.
 
-If you find this still too slow, you should consider changing to a more 
-efficient file format than plain text.  There are a large number of 
+If you find this still too slow, you can try Pandas (it has a faster csv
+reader for example). If that doesn't help, you should consider changing to a
+more efficient file format than plain text. There are a large number of
 alternatives, depending on your needs (and on which version of 
 NumPy/SciPy you are using):
 
 * Text files: slow, huge, portable, human-readable; built into NumPy
-* Raw binary: no metadata, totally unportable, fast; built into NumPy
 * pickle: somewhat slow, somewhat portable (may be incompatible with
   different NumPy versions); built into NumPy
-* MATLAB format: portable; built into SciPy (:func:`scipy.io.loadmat`)
 * HDF5_: high-powered kitchen-sink format; both PyTables_ and h5py_ provide
   a NumPy friendly interface on top of the core HDF5 library written in C.
 * FITS_: standard kitchen-sink format in astronomy; the astropy_ library
@@ -320,6 +327,9 @@ NumPy/SciPy you are using):
 What is the difference between matrices and arrays?
 ###################################################
 
+*Note: NumPy matrices will be deprecated, do not use them for new code. The
+rest of the answer below is kept for historical reasons.*
+
 NumPy's basic data type is the multidimensional array. These can be
 one-dimensional (that is, one index, like a list or a vector),
 two-dimensional (two indices, like an image), three-dimensional, or more
@@ -327,13 +337,14 @@ two-dimensional (two indices, like an image), three-dimensional, or more
 They support various operations, including addition, subtraction,
 multiplication, exponentiation, and so on - but all of these are
 *elementwise* operations. If you want matrix multiplication between two
-two-dimensional arrays, the function :func:`numpy.dot` does this.
-It also works fine for getting the matrix product of a two-dimensional
-array and a one-dimensional array, in either direction, or two
-one-dimensional arrays. If you want some kind of matrix multiplication-like
-operation on higher-dimensional arrays (tensor contraction), you need to
-think which indices you want to be contracting over. Some combination
-of :func:`tensordot` and :func:`rollaxis` should do what you want.
+two-dimensional arrays, the function :func:`numpy.dot` or the built-in Python
+operator ``@`` do this. It also works fine for getting the matrix product of
+a two-dimensional array and a one-dimensional array, in either direction, or
+two one-dimensional arrays. If you want some kind of matrix
+multiplication-like operation on higher-dimensional arrays (tensor
+contraction), you need to think which indices you want to be contracting
+over. Some combination of :func:`tensordot` and :func:`rollaxis` should do
+what you want.
 
 However, some users find that they are doing so many matrix multiplications
 that always having to write ``dot`` as a prefix is too cumbersome, or they
@@ -413,19 +424,14 @@ and other  values and behaviours. In theory, IEEE :const:`nan` was
 specifically designed to address the problem of missing values, but the
 reality is that different platforms behave differently, making life more
 difficult. On some platforms, the presence of :const:`nan` slows calculations
-10-100 times. For integer data, no :const:`nan` value exists. Some
-platforms, notably older Crays and VAX machines, don't support
-:const:`nan` whatsoever.
+10-100 times. For integer data, no :const:`nan` value exists.
 
 Despite all these issues NumPy (and SciPy) endeavor to support IEEE-754
 behaviour (based on NumPy's predecessor numarray). The most significant
 challenge is a lack of cross-platform support within Python itself. Because
 NumPy is written to take advantage of C99, which supports IEEE-754,
 it can side-step such issues internally, but users may still face problems
-when, for example, comparing values within Python interpreter. In fact,
-NumPy currently assumes IEEE-754 behavior of the underlying floats, a
-decision that may have to be revisited when the VAX community rises up
-in rebellion.
+when, for example, comparing values within Python interpreter.
 
 Those wishing to avoid potential headaches will be interested in an
 alternative solution which has a long history in NumPy's predecessors
@@ -438,6 +444,10 @@ example, to avoid plotting missing data in Matplotlib_. Despite their
 additional memory requirement, masked arrays are faster than nans on
 many floating point units. See also the `NumPy documentation on masked
 arrays <http://docs.scipy.org/doc/numpy/reference/maskedarray.html>`_.
+
+Another good option is to use Pandas - it uses ``nan`` in a similar way to
+NumPy for floating point data, and since pandas 0.25.0 also supports missing
+integer values.
 
 Why doesn't A[[0, 1, 1, 2]] += 1 do what I think it should?
 ###########################################################
@@ -500,13 +510,19 @@ and a scalar:
 Where to get help
 -----------------
 
-You can ask questions with the `Scipy tag on Stackoverflow
+You can ask questions with the `SciPy tag on Stackoverflow
 <http://stackoverflow.com/questions/tagged/scipy>`_, or on the scipy-user
 :doc:`mailing list <mailing-lists>`. Search for an answer first, because someone
 may already have found a solution to your problem, and using that will save
 everyone time.
 
 .. Links
-.. _f2py: http://www.f2py.com/
-.. _Enthought: https://www.enthought.com/
-.. _Matplotlib: http://matplotlib.org/
+.. _f2py: http://www.f2py.com
+.. _Enthought: https://www.enthought.com
+.. _Anaconda: https://www.anaconda.com
+.. _Quansight: https://www.quansight.com
+.. _Matplotlib: http://matplotlib.org
+.. _Bokeh: https://bokeh.pydata.org/en/latest
+.. _Altair: https://altair-viz.github.io
+.. _Plotly: https://plot.ly
+.. _PyPy: http://pypy.org
