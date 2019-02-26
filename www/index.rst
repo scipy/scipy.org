@@ -26,7 +26,7 @@ SciPy.org
       text-align: center;
   }
   </style>
-  
+
   <div>
   <ul class="thumbnails topnavicons">
 
@@ -73,7 +73,7 @@ SciPy.org
   </div>
   </div>
   </li>
-  
+
   <li class="span2">
   <div class="thumbnail">
   <div class="img">
@@ -89,7 +89,7 @@ SciPy.org
   </div>
 
   </table>
-  
+
 
 SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem
 of open-source software for mathematics, science, and engineering. In
@@ -203,6 +203,11 @@ News
 .. role:: news-date
    :class: news-date
 
+SciPy 2019 :news-date:`2019-07-08`
+    `SciPy <https://scipy2019.scipy.org/>`__, the 18th annual Scientific
+    Computing with Python conference, will be held July 8-14, 2019 in
+    Austin, Texas.
+
 NumPy 1.16.2 released :news-date:`2019-02-26`
     See :doc:`/scipylib/download`.
 
@@ -215,28 +220,13 @@ NumPy 1.16.1 released :news-date:`2019-01-31`
 NumPy 1.16.0 released :news-date:`2019-01-13`
     See :doc:`/scipylib/download`.
 
-NumPy 1.16.0rc2 released :news-date:`2019-01-04`
-    See :doc:`/scipylib/download`.
-
-NumPy 1.16.0rc1 released :news-date:`2018-12-20`
-    See :doc:`/scipylib/download`.
-
 SciPy 1.2.0 released :news-date:`2018-12-17`
     See :doc:`/scipylib/download`.
 
 NumPy 1.15.4 released :news-date:`2018-11-04`
     See :doc:`/scipylib/download`.
 
-NumPy 1.15.3 released :news-date:`2018-10-22`
-    See :doc:`/scipylib/download`.
-
 NumPy 1.14.6 released :news-date:`2018-09-23`
-    See :doc:`/scipylib/download`.
-
-NumPy 1.15.2 released :news-date:`2018-09-23`
-    See :doc:`/scipylib/download`.
-
-NumPy 1.15.1 released :news-date:`2018-08-21`
     See :doc:`/scipylib/download`.
 
 NumPy 1.15.0 released :news-date:`2018-07-23`
@@ -259,12 +249,6 @@ SciPy 2017 :news-date:`2017-07-10`
     `SciPy <https://scipy2017.scipy.org/>`__, the 16th annual Scientific
     Computing with Python conference, will be held July 10-16, 2017 in
     Austin, Texas.
-
-SciPy 0.19.1 released :news-date:`2017-06-21`
-    See :doc:`/scipylib/download`.
-
-SciPy 0.19.0 released :news-date:`2017-03-09`
-    See :doc:`/scipylib/download`.
 
 .. raw:: html
 

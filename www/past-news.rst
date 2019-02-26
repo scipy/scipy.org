@@ -8,6 +8,16 @@ Past News
 .. role:: news-date
    :class: news-date
 
+NumPy 1.15.3 released :news-date:`2018-10-22`
+    See :doc:`/scipylib/download`.
+NumPy 1.15.2 released :news-date:`2018-09-23`
+    See :doc:`/scipylib/download`.
+NumPy 1.15.1 released :news-date:`2018-08-21`
+    See :doc:`/scipylib/download`.
+SciPy 0.19.1 released :news-date:`2017-06-21`
+    See :doc:`/scipylib/download`.
+SciPy 0.19.0 released :news-date:`2017-03-09`
+    See :doc:`/scipylib/download`.
 NumPy 1.15.0rc2 released :news-date:`2018-07-09`
     See :doc:`/scipylib/download`.
 NumPy 1.15.0rc1 released :news-date:`2018-06-21`
@@ -30,6 +40,16 @@ NumPy 1.13.3 released :news-date:`2017-09-29`
     See :doc:`/scipylib/download`.
 NumPy 1.13.2 released :news-date:`2017-09-27`
     See :doc:`/scipylib/download`.
+EuroSciPy 2017 :news-date:`2017-08-28`
+    The `EuroSciPy <https://www.euroscipy.org/2017/>`__ meeting is a
+    cross-disciplinary gathering focused on the use and development
+    of the Python language in scientific research.
+    The 2017 edition will take place in
+    Erlangen, Germany, Aug 28--Sep 1.
+SciPy 2017 :news-date:`2017-07-10`
+    `SciPy <https://scipy2017.scipy.org/>`__, the 16th annual Scientific
+    Computing with Python conference, will be held July 10-16, 2017 in
+    Austin, Texas.
 NumPy 1.13.1 released :news-date:`2017-07-06`
     See :doc:`/scipylib/download`.
 NumPy 1.13.0 released :news-date:`2017-06-07`
@@ -116,18 +136,18 @@ NumPy 1.7.0 released :news-date:`2013-02-10`
     See :doc:`/scipylib/download`.
 EuroSciPy 2013
     `EuroSciPy <https://www.euroscipy.org/>`__ is the European gathering
-    for scientists using Python. The 2013 edition will take place in 
+    for scientists using Python. The 2013 edition will take place in
     Brussels, Aug. 21-24.
 SciPy 2013
     `SciPy <http://conference.scipy.org/scipy2013/>`__ is an annual conference
-    for scientists using Python. The 2013 edition will take place in 
+    for scientists using Python. The 2013 edition will take place in
     Austin, Texas, June 24-29.
 SciPy 0.11.0 :news-date:`2012-09-25`
     See :doc:`/scipylib/download`.
 SIAM CSE '13
     The `SIAM Conference on Computational Science and Engineering
-    <http://www.siam.org/meetings/cse13>`__ will take place in Boston, 
-    February 25-March 1, 2013, and for this version there will be a track 
+    <http://www.siam.org/meetings/cse13>`__ will take place in Boston,
+    February 25-March 1, 2013, and for this version there will be a track
     focused on the topic of Big Data.
 AMS Annual Meeting
     The annual meeting of the American Meteorological Society takes
@@ -139,7 +159,7 @@ SciPy 2012
 EuroSciPy 2012
     EuroSciPy is the European gathering for scientists using
     Python. The 2012 edition took place in Brussels, Aug. 23-27.
-NumPy 1.6.2 released :news-date:`2012-05-20` 
+NumPy 1.6.2 released :news-date:`2012-05-20`
     See :doc:`/scipylib/download`.
 PyCon 2012
     PyCon is the largest annual gathering for the community using and
