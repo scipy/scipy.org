@@ -119,6 +119,7 @@ These are links which cover basic tools generally useful for scientific work in 
 - `Imageio <http://imageio.github.io/>`__ is a library that provides an easy interface to read and write a wide range of image data, including animated images, video, volumetric data, and scientific formats. It is cross-platform, runs on Python 2.x and 3.x, and is easy to install.
 - `mpmath <http://mpmath.org/>`__ is a free (BSD licensed) Python library for real and complex floating-point arithmetic with arbitrary precision.
 - `paramnormal <http://phobson.github.io/paramnormal/>`__ is a wrapper around the ``scipy.stats`` module that facilitates creating, fitting, and vizualizing probability distributions with more conventional parameters.
+- `MetroloPy <https://nrc-cnrc.github.io/MetroloPy/>`__ tools for dealing with physical quantities: uncertainty propagation and unit conversion
 
 
 Running Code Written In Other Languages
