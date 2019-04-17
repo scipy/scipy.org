@@ -15,7 +15,6 @@ extensions = ['sphinx.ext.intersphinx',
               'ipython_console_highlighting',
               'sphinx.ext.ifconfig',
               'matplotlib.sphinxext.mathmpl',
-              'matplotlib.sphinxext.only_directives',
               'matplotlib.sphinxext.plot_directive']
 
 templates_path = ['_templates']
