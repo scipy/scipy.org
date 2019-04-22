@@ -203,6 +203,9 @@ News
 .. role:: news-date
    :class: news-date
 
+NumPy 1.16.3 released :news-date:`2019-04-21`
+    See :doc:`/scipylib/download`.
+
 SciPy 2019 :news-date:`2019-07-08`
     `SciPy <https://scipy2019.scipy.org/>`__, the 18th annual Scientific
     Computing with Python conference, will be held July 8-14, 2019 in
