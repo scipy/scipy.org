@@ -184,14 +184,26 @@ particular, these are some of the core packages:
   </div>
   </li>
 
+  <li class="span12">
+  <div class="thumbnail">
+  <div class="pull-left img">
+    <a href="http://pandas.pydata.org/">
+    <img alt="pandas badge" src="_static/numfocus-logo-small.png" width="128">
+    </a>
+  </div>
+  <div class="img-label">
+    Large parts of the SciPy ecosystem (including all six projects above) are
+    fiscally sponsored by
+    <a href="https://numfocus.org/sponsored-projects">NumFOCUS</a>.
+  </div>
+  </div>
+  </li>
+
+
   </ul>
   </div>
 
-.. raw:: html
 
-   <div style="text-align: center;">
-   <a class="btn btn-info" href="about.html">More information...</a>
-   </div>
 
 .. raw:: html
 
