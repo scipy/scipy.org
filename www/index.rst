@@ -184,14 +184,26 @@ particular, these are some of the core packages:
   </div>
   </li>
 
+  <li class="span12">
+  <div class="thumbnail">
+  <div class="pull-left img">
+    <a href="http://pandas.pydata.org/">
+    <img alt="pandas badge" src="_static/numfocus-logo-small.png" width="128">
+    </a>
+  </div>
+  <div class="img-label">
+    Large parts of the SciPy ecosystem (including all six projects above) are
+    fiscally sponsored by
+    <a href="https://numfocus.org/sponsored-projects">NumFOCUS</a>.
+  </div>
+  </div>
+  </li>
+
+
   </ul>
   </div>
 
-.. raw:: html
 
-   <div style="text-align: center;">
-   <a class="btn btn-info" href="about.html">More information...</a>
-   </div>
 
 .. raw:: html
 
@@ -202,6 +214,10 @@ News
 
 .. role:: news-date
    :class: news-date
+
+SciPy-NumFOCUS
+    SciPy becomes a `NumFOCUS <http://numfocus.org/>`__ fiscally
+    sponsored project :news-date:`2019-04-18`
 
 NumPy 1.16.3 released :news-date:`2019-04-21`
     See :doc:`/scipylib/download`.
@@ -217,41 +233,12 @@ NumPy 1.16.2 released :news-date:`2019-02-26`
 SciPy 1.2.1 released :news-date:`2019-02-08`
     See :doc:`/scipylib/download`.
 
-NumPy 1.16.1 released :news-date:`2019-01-31`
-    See :doc:`/scipylib/download`.
-
 NumPy 1.16.0 released :news-date:`2019-01-13`
     See :doc:`/scipylib/download`.
 
 SciPy 1.2.0 released :news-date:`2018-12-17`
     See :doc:`/scipylib/download`.
 
-NumPy 1.15.4 released :news-date:`2018-11-04`
-    See :doc:`/scipylib/download`.
-
-NumPy 1.14.6 released :news-date:`2018-09-23`
-    See :doc:`/scipylib/download`.
-
-NumPy 1.15.0 released :news-date:`2018-07-23`
-    See :doc:`/scipylib/download`.
-
-SciPy 1.1.0 released :news-date:`2018-05-05`
-    See :doc:`/scipylib/download`.
-
-SciPy 1.0.0 released :news-date:`2017-10-25`
-    See :doc:`/scipylib/download`.
-
-EuroSciPy 2017 :news-date:`2017-08-28`
-    The `EuroSciPy <https://www.euroscipy.org/2017/>`__ meeting is a
-    cross-disciplinary gathering focused on the use and development
-    of the Python language in scientific research.
-    The 2017 edition will take place in
-    Erlangen, Germany, Aug 28--Sep 1.
-
-SciPy 2017 :news-date:`2017-07-10`
-    `SciPy <https://scipy2017.scipy.org/>`__, the 16th annual Scientific
-    Computing with Python conference, will be held July 10-16, 2017 in
-    Austin, Texas.
 
 .. raw:: html
 
