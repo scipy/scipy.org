@@ -478,3 +478,4 @@ Miscellaneous
 - `plotexplorer_gui <https://pypi.python.org/pypi/plotexplorer_gui/>`__: A wxpython/matplotlib script for plotting and contrasting a collection of graphs via a sortable checkbox list.
 - `VibrationTesting <http://vibration-testing.github.io/vibrationtesting/>`__: Tools for signal processing, model solution, model manipulation, and system and modal identification of linear vibratory systems.
 - `Vibration_Toolbox <http://vibrationtoolbox.github.io/vibration_toolbox/>`__: Educational set of tools intended primarily for demonstration of vibration analysis and phenomenon. You may find them useful for application, but that isn't the intent of this module.
+- `Colour <https://colour-science.org/>`__: Package implementing a comprehensive number of colour theory transformations and algorithms.
