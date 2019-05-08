@@ -20,21 +20,23 @@ project).  All donations will be used strictly to fund SciPy development, by
 supporting activities such as developer sprints, documentation and maintenance
 work, and paying for hosting costs of servers and build slaves.
 
-.. raw:: html
-
-    </br>
-    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-    <input type="hidden" name="cmd" value="_s-xclick">
-    <input type="hidden" name="hosted_button_id" value="XRDZAJAASQ8MA">
-    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" style="position: relative; left: 40%;">
-    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-    </form>
 
 Our donations are managed by the `NumFOCUS`_ foundation, which passes 90% of
 your contribution to the SciPy project, and provides the SciPy development team
 with basic administrative and legal services for the other 10%.  NumFOCUS is a
 501(c)3 non-profit foundation, so if you are subject to US Tax law, your
 contributions are tax-deductible.
+
+.. raw:: html
+   
+    <div style="display: block; float:center;">
+       <a href="https://numfocus.salsalabs.org/donate-to-scipy" target="_blank"
+          style="background:#a0c4ff;padding:10px;margin:10px 0px;
+                 text-decoration:none;font-size:12pt;color:#ffffff;
+                 font-family:Arial,Helvetica,sans-serif;display:inline-block;">
+          Donate to SciPy
+       </a>
+    </div>
 
 
 Acknowledgements
