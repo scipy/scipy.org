@@ -187,7 +187,7 @@ particular, these are some of the core packages:
   <li class="span12">
   <div class="thumbnail">
   <div class="pull-left img">
-    <a href="http://pandas.pydata.org/">
+    <a href="http://numfocus.org/">
     <img alt="pandas badge" src="_static/numfocus-logo-small.png" width="128">
     </a>
   </div>
