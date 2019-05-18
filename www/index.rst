@@ -215,6 +215,9 @@ News
 .. role:: news-date
    :class: news-date
 
+SciPy 1.3.0 released :news-date:`2019-05-17`
+    See :doc:`/scipylib/download`.
+
 SciPy-NumFOCUS
     SciPy becomes a `NumFOCUS <http://numfocus.org/>`__ fiscally
     sponsored project :news-date:`2019-04-18`
