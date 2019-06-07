@@ -46,6 +46,7 @@ The SciPy development team would like to thank the following companies and
 organizations for providing financial support, services or development
 infrastructure:
 
+- `Tidelift`_: financial support for SciPy through the Tidelift open source subscription
 - `Enthought`_: scipy.org and mailing lists hosting, holding the SciPy trademark
 - `NumFOCUS`_: several small development grants, and a hosted Mac Mini build machine
 - `Google`_: support for many Google Summer of Code students
@@ -59,6 +60,7 @@ updated in April 2019.*
 ..
    # end of page content; list of links below
 
+.. _Tidelift: https://tidelift.com/subscription/pkg/pypi-scipy?utm_source=pypi-scipy&utm_medium=referral&utm_campaign=readme
 .. _Enthought: https://www.enthought.com
 .. _Mayo Clinic: https://www.mayoclinic.org
 .. _BYU: https://www.byu.edu
