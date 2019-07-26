@@ -218,12 +218,6 @@ News
 NumPy 1.17.0 released :news-date:`2019-07-26`
     See :doc:`/scipylib/download`.
 
-NumPy 1.17.0rc2 released :news-date:`2019-07-16`
-    See :doc:`/scipylib/download`.
-
-NumPy 1.17.0rc1 released :news-date:`2019-06-30`
-    See :doc:`/scipylib/download`.
-
 SciPy 1.2.2 released :news-date:`2019-06-06`
     See :doc:`/scipylib/download`.
 
