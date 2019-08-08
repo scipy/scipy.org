@@ -41,8 +41,8 @@ SciPy and friends can be used for a variety of tasks:
   e.g. Django_). Using SciPy with these is a quick way to build a
   fully-fledged scientific application.
 
-How to work with SciPy 
----------------------- 
+How to work with SciPy
+----------------------
 Python is a programming language, and there are several ways to
 approach it. There is no single program that you can start and that
 gives an integrated user experience.  Instead, there are several
@@ -69,9 +69,9 @@ is to take a look at the following online resources:
 
 - `Python Scientific Lecture Notes <http://www.scipy-lectures.org/index.html>`_
 
-- `NumPy User Guide <http://docs.scipy.org/doc/numpy-dev/user/>`_ 
+- `NumPy User Guide <http://www.numpy.org/devdocs/user/>`_
 
-- `SciPy Tutorial <http://docs.scipy.org/doc/scipy/reference/tutorial/index.html>`_ 
+- `SciPy Tutorial <http://docs.scipy.org/doc/scipy/reference/tutorial/index.html>`_
   contains examples for each submodule in the SciPy library
 
 - `Matplotlib beginner's guide <http://matplotlib.org/users/beginner.html>`__
@@ -93,13 +93,13 @@ the maximum of a Bessel function. If you have worked with numerical
 computation environments before, what follows looks very familiar.
 
 This assumes you have installed the SciPy stack, for example following
-the instructions in :doc:`install`.  
+the instructions in :doc:`install`.
 
 .. sourcecode:: ipython
 
    $ ipython --pylab
 
-   Python 2.7.4 (default, Apr 19 2013, 18:28:01) 
+   Python 2.7.4 (default, Apr 19 2013, 18:28:01)
    Type "copyright", "credits" or "license" for more information.
 
    IPython 0.13.2 -- An enhanced Interactive Python.
@@ -120,7 +120,7 @@ the instructions in :doc:`install`.
    In [4]: x = linspace(0, 10, 5000)
 
    In [5]: x
-   Out[5]: 
+   Out[5]:
    array([  0.00000000e+00,   2.00040008e-03,   4.00080016e-03, ...,
             9.99599920e+00,   9.99799960e+00,   1.00000000e+01])
 
