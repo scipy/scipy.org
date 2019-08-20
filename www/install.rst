@@ -10,12 +10,12 @@ Installations methods include:
 * :ref:`Source <source>`
 * :ref:`Binaries <binaries>`
 
-Methods differ in ease of use, coverage, maintenance of old versions, system-wide versus local environment use, and control. With pip or Anaconda's conda, you can control the package versions for a specific project to prevent conflicts. Conda also controls non-Python packages like MKL or HDF5. System package managers, like ``apt-get``, install across the entire computer, often have older versions, and don't have as many available versions. Source compilation is much more difficult but is necessary for debugging and development.
+Methods differ in ease of use, coverage, maintenance of old versions, system-wide versus local environment use, and control. With pip or Anaconda's conda, you can control the package versions for a specific project to prevent conflicts. Conda also controls non-Python packages like MKL or HDF5. System package managers, like ``apt-get``, install across the entire computer, often have older versions, and don't have as many available versions. Source compilation is much more difficult but is necessary for debugging and development. If you don't know which installation method you need or prefer, we recommend the Scientific Python Distribution `Anaconda <https://www.anaconda.com/download/>`_ .
 
 .. _distributions:
 
-Scientific Python Distributions
-===============================
+Scientific Python Distributions (Recommended)
+=============================================
 
 Python distributions provide the language itself along with the most commonly used packages and tools. These downloadable files require little configuration, work on almost all setups, and provide all the commonly used scientific python tools.
 
