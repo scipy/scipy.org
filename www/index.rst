@@ -117,12 +117,12 @@ particular, these are some of the core packages:
   <li class="span4">
   <div class="thumbnail">
   <div class="pull-left img">
-    <a href="scipylib/index.html">
+    <a href="https://docs.scipy.org/doc/scipy/reference/">
     <img alt="scipy" src="_static/images/scipy_med.png" width="64">
     </a>
   </div>
   <div class="img-label">
-    <h4 class="media-heading"><a href="scipylib/index.html">SciPy library</a></h4>
+    <h4 class="media-heading"><a href="https://docs.scipy.org/doc/scipy/reference/">SciPy library</a></h4>
     Fundamental library for scientific computing
   </div>
   </div>
