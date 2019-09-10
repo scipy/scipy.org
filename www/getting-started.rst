@@ -17,7 +17,7 @@ Jupyter runs by calling to `IPython <https://ipython.org/>`_ behind the scenes, 
 
 Code Editors and IDE's (Integrated Development Environments) facilitate the writing of scripts, packages, and libraries.  These tools handle projects, like SciPy itself, that start to grow larger and more complicated. Separate files can hold frequently used functions, types, variables, and analysis scripts for simpler, more maintainable, and more reusable code.  
 
-Code editors run from minimal, like Window's Notepad or `Emacs <https://www.gnu.org/software/emacs/>`_ , to the fully-featured and customizable, like `Atom <https://atom.io/>`_ ,`Visual Studio Code <https://code.visualstudio.com/>`_ , or PyCharm <https://www.jetbrains.com/pycharm/>`_ . Features include syntax highlighting, the ability to execute code, debugging tools, autocompletion, and project management.
+Code editors run from minimal, like Window's Notepad or `Emacs <https://www.gnu.org/software/emacs/>`_ , to the fully-featured and customizable, like `Atom <https://atom.io/>`_ ,`Visual Studio Code <https://code.visualstudio.com/>`_ , or `PyCharm <https://www.jetbrains.com/pycharm/>`_ . Features include syntax highlighting, the ability to execute code, debugging tools, autocompletion, and project management.
 
 
 Hello SciPy 
