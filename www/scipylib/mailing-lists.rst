@@ -17,8 +17,10 @@ to receive messages in digest form.  Groups of about 10 messages are sent in
 one email, with a table of contents at the top.  This reduces inbox clutter,
 but means you will get the messages with a delay of up to a day.
 
-It is okay to post job ads for work involving NumPy/SciPy and related packages
-if you put ``[JOB]`` in the subject.
+Please only post job ads if the work involves not only using NumPy, SciPy and
+related packages but an opportunity to contribute to these packages as part of
+the role (we love to see that become more common!).  If that's the case, please
+put ``[JOB]`` in the subject.
 
 We also have read-only mailing lists setup for NumPy and SciPy that
 provide notifications of all version control checkins.
