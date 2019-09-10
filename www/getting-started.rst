@@ -15,7 +15,10 @@ Where to Write
 
 Jupyter runs by calling to `IPython <https://ipython.org/>`_ behind the scenes, but IPython itself also acts as a standalone tool. A *command-line* of individual statements and returned values, IPython is useful for debugging and experimenting.
 
-Editors for scripts run from minimal, like Window's Notepad or `Emacs <https://www.gnu.org/software/emacs/>`_ , to the fully-featured and customizable, like `Atom <https://atom.io/>`_ or `Visual Studio Code <https://code.visualstudio.com/>`_ . Jupyter and IPython work well for interacting with code and experimenting, but scripts, files with a `*.py` extension, form backends, infrastructure, or anything heavy-duty.  
+Code Editors and IDE's (Integrated Development Environments) facilitate the writing of scripts, packages, and libraries.  These tools handle projects, like SciPy itself, that start to grow larger and more complicated. Separate files can hold frequently used functions, types, variables, and analysis scripts for simpler, more maintainable, and more reusable code.  
+
+Code editors run from minimal, like Window's Notepad or `Emacs <https://www.gnu.org/software/emacs/>`_ , to the fully-featured and customizable, like `Atom <https://atom.io/>`_ ,`Visual Studio Code <https://code.visualstudio.com/>`_ , or PyCharm <https://www.jetbrains.com/pycharm/>`_ . Features include syntax highlighting, the ability to execute code, debugging tools, autocompletion, and project management.
+
 
 Hello SciPy 
 ===========
@@ -23,14 +26,14 @@ Hello SciPy
 Need to test if the packages got installed?  Type these lines at an IPython prompt, or save in a `*.py` file to execute::
 
     import numpy as np
-    print("I like ",np.pi)
+    print("I like ", np.pi)
 
-For testing the SciPy Library and Matplotlib, here's a fun Easter Egg::
+For testing the SciPy library and Matplotlib, here's a fun Easter egg::
 
-    import scipy.misc
+    from scipy import misc
     import matplotlib.pyplot as plt
 
-    face=scipy.misc.face()
+    face = misc.face()
     plt.imshow(face)
     plt.show()
 
@@ -48,7 +51,7 @@ Each package has official tutorials:
 
 - `Pandas tutorials <http://pandas.pydata.org/pandas-docs/stable/tutorials.html>`_
 
-- `Sympy tutorial <http://docs.sympy.org/latest/tutorial/>`_
+- `SymPy tutorial <http://docs.sympy.org/latest/tutorial/>`_
 
 Additional outside tutorials exist, such as the `Scipy Lecture Notes <http://scipy-lectures.org/index.html>`_ or `Elegant SciPy <https://github.com/elegant-scipy/notebooks>`_ .
  
@@ -64,16 +67,16 @@ Start by looking at the error message.  Yes, error messages are often intimidati
 Unsure of how to use a particular function?  In Jupyter and the IPython shell, call up documentation with::
 
     import numpy as np
-    help(np.linspace)
+    np.linspace?
 
-or::
+or for viewing the source::
 
     import numpy as np
-    ? np.linspace
+    np.linspace??
 
 `?` works on both functions and variables::
 
-    a="SciPy is awesome ;)"
+    a = "SciPy is awesome ;)"
     ? a 
 
 Try searching the internet and sites like `Stack Overflow <https://stackoverflow.com/>`_ to see if others have encountered similar problems or can help with yours. 
