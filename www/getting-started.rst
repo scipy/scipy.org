@@ -2,151 +2,114 @@
 Getting Started
 ===============
 
-This page is intended to help the beginner get a handle on SciPy and be
-productive with it as fast as possible.
+Got the SciPy packages installed? Wondering what to do next?
 
-What are NumPy, SciPy, matplotlib, ...?
----------------------------------------
+"Scientific Python" doesn't exist without "Python". SciPy skills need to build
+on a foundation of standard programming skills. While Python itself has an
+`official tutorial <https://docs.python.org/3/tutorial/>`_ , countless
+resources exist online, in hard copy, in person, or whatever format you prefer.
 
-SciPy and friends can be used for a variety of tasks:
+Just remember to have fun, make mistakes, and persevere.
 
-* *NumPy*'s array type augments the Python language with an efficient data
-  structure useful for numerical work, e.g., manipulating matrices.  *NumPy*
-  also provides basic numerical routines, such as tools for finding
-  eigenvectors.
 
-* *SciPy* contains additional routines needed in scientific work: for example,
-  routines for computing integrals numerically, solving differential equations,
-  optimization, and sparse matrices.
+Where to Write
+==============
 
-* The matplotlib_ module produces high quality plots. With it you can turn your
-  data or your models into figures for presentations or articles. No need to do
-  the numerical work in one program, save the data, and plot it with another
-  program.
+`Jupyter <https://jupyter.org/>`_ notebooks combine code, markdown, and more in
+an interactive setting. They are an excellent tool for learning, collaborating,
+experimenting, or documenting. Notebooks can run on your local machine, and
+`MyBinder <https://mybinder.org/>`_ also serves Jupyter notebooks to the
+browser without the need for anything on the local computer. For example,
+`MyBinder Elegant Scipy <https://mybinder.org/v2/gh/elegant-scipy/notebooks/master?filepath=index.ipynb>`_
+provides an interactive tutorial.
 
-* Using IPython_ makes interactive work easy. Data processing, exploration of
-  numerical models, trying out operations on-the-fly allows to go quickly from
-  an idea to a result. See the `IPython site <http://ipython.org/>`__ for many
-  examples.
+Jupyter runs by calling to `IPython <https://ipython.org/>`_ behind the scenes,
+but IPython itself also acts as a standalone tool. A *command-line* of
+individual statements and returned values, IPython is useful for debugging and
+experimenting.
 
-* There is a sizeable collection of both generic and
-  application-specific numerical and scientific code, written using
-  Python, NumPy and SciPy. Don't reinvent the wheel, there may already
-  be a pre-made solution for your problem. See
-  :doc:`topical-software` for a partial list.
+Code Editors and IDE's (Integrated Development Environments) facilitate the
+writing of scripts, packages, and libraries.  These tools handle projects, like
+SciPy itself, that start to grow larger and more complicated. Separate files
+can hold frequently used functions, types, variables, and analysis scripts for
+simpler, more maintainable, and more reusable code.
 
-* As Python is a popular general-purpose programming language, it has
-  many advanced modules for building for example interactive
-  applications (see e.g. wxPython_ and Traits_) or web sites (see
-  e.g. Django_). Using SciPy with these is a quick way to build a
-  fully-fledged scientific application.
+Code editors run from minimal, like Window's Notepad, to the fully-featured and
+customizable, like `Atom <https://atom.io/>`_ , `Visual Studio Code
+<https://code.visualstudio.com/>`_ , or `PyCharm <https://www.jetbrains.com/pycharm/>`_.
+Features include syntax highlighting, the ability to execute code, debugging
+tools, autocompletion, and project management.
 
-How to work with SciPy
-----------------------
-Python is a programming language, and there are several ways to
-approach it. There is no single program that you can start and that
-gives an integrated user experience.  Instead, there are several
-possible ways to work with Python.
 
-The most common is to use the advanced interactive Python shell
-IPython_ to enter commands and run scripts. Scripts can be written
-with any text editor, for instance Emacs_, Vim_ or even Notepad.  Some
-of the packages such as *Python(x,y)* mentioned in :doc:`install` also
-offer an integrated scientific development environment.
+Hello SciPy
+===========
 
-Neither SciPy nor NumPy provide plotting functions. There are several
-plotting packages available for Python, the most commonly used one being
-matplotlib_.
+Need to test if the packages got installed?  Type these lines at an IPython
+prompt, or save in a ``*.py`` file to execute::
 
-Learning to work with SciPy
----------------------------
+    import numpy as np
+    print("I like ", np.pi)
 
-To learn more about the Python language, the `official Python tutorial`_ is
-an excellent way to become familiar with the Python syntax and objects.
+For testing the SciPy library and Matplotlib, here's a fun Easter egg::
 
-One way of getting a handle on the scientific computation tools in Python
-is to take a look at the following online resources:
+    from scipy import misc
+    import matplotlib.pyplot as plt
 
-- `Python Scientific Lecture Notes <http://www.scipy-lectures.org/index.html>`_
+    face = misc.face()
+    plt.imshow(face)
+    plt.show()
+
+
+Start Learning
+==============
+
+Each package has official tutorials:
 
 - `NumPy User Guide <http://www.numpy.org/devdocs/user/>`_
 
 - `SciPy Tutorial <http://docs.scipy.org/doc/scipy/reference/tutorial/index.html>`_
-  contains examples for each submodule in the SciPy library
 
-- `Matplotlib beginner's guide <http://matplotlib.org/users/beginner.html>`__
+- `Matplotlib beginner's guide <http://matplotlib.org/users/beginner.html>`_
 
-- `Pandas tutorials <http://pandas.pydata.org/pandas-docs/stable/tutorials.html>`__
+- `Pandas tutorials <http://pandas.pydata.org/pandas-docs/stable/tutorials.html>`_
 
-- `Sympy tutorial <http://docs.sympy.org/latest/tutorial/>`__
+- `SymPy tutorial <http://docs.sympy.org/latest/tutorial/>`_
 
-In addition, a number of books have been written on numerical
-computation in Python, see for example a
-`Google search on books related to SciPy <http://www.google.com/search?q=scipy+scientific+python&tbm=bks>`__.
+Additional outside tutorials exist, such as the
+`Scipy Lecture Notes <http://scipy-lectures.org/index.html>`_ or
+`Elegant SciPy <https://github.com/elegant-scipy/notebooks>`_ .
+
+But the best way to learn is to start coding.
 
 
-An example session
-##################
+Stuck? Need Help?
+=================
 
-To give a simple example of typical interactive use, we find and plot
-the maximum of a Bessel function. If you have worked with numerical
-computation environments before, what follows looks very familiar.
+Getting errors that you can't figure out?
 
-This assumes you have installed the SciPy stack, for example following
-the instructions in :doc:`install`.
+Start by looking at the error message.  Yes, error messages are often
+intimidating and filled with technical detail. However, they can often help
+pinpoint the exact location in code where things go wrong. This is often most
+of the battle.
 
-.. sourcecode:: ipython
+Unsure of how to use a particular function?  In Jupyter and the IPython shell,
+call up documentation with::
 
-   $ ipython --pylab
+    import numpy as np
+    np.linspace?
 
-   Python 2.7.4 (default, Apr 19 2013, 18:28:01)
-   Type "copyright", "credits" or "license" for more information.
+or for viewing the source::
 
-   IPython 0.13.2 -- An enhanced Interactive Python.
-   ?         -> Introduction and overview of IPython's features.
-   %quickref -> Quick reference.
-   help      -> Python's own help system.
-   object?   -> Details about 'object', use 'object??' for extra details.
+    import numpy as np
+    np.linspace??
 
-   Welcome to pylab, a matplotlib-based Python environment [backend: Agg].
-   For more information, type 'help(pylab)'.
+``?`` works on both functions and variables::
 
-   In [1]: from scipy import special, optimize
+    a = "SciPy is awesome ;)"
+    a?
 
-   In [2]: f = lambda x: -special.jv(3, x)
+Try searching the internet and sites like `Stack Overflow <https://stackoverflow.com/>`_
+to see if others have encountered similar problems or can help with yours.
 
-   In [3]: sol = optimize.minimize(f, 1.0)
-
-   In [4]: x = linspace(0, 10, 5000)
-
-   In [5]: x
-   Out[5]:
-   array([  0.00000000e+00,   2.00040008e-03,   4.00080016e-03, ...,
-            9.99599920e+00,   9.99799960e+00,   1.00000000e+01])
-
-   In [6]: plot(x, special.jv(3, x), '-', sol.x, -sol.fun, 'o')
-
-   In [7]: savefig('plot.png', dpi=96)
-
-.. image:: getting-started-plot.png
-
-An example script
-#################
-
-The above example session can be written as a non-interactive script
-as follows. Here, we don't give the simplest example possible, but
-follow what is considered good practice on command-line scripts.
-
-Contents of a file ``example.py``:
-
-.. literalinclude:: getting-started-example.py
-   :language: python
-
-.. _Traits: http://code.enthought.com/projects/traits/
-.. _wxPython: http://www.wxpython.org/
-.. _IPython: http://ipython.org/
-.. _matplotlib: http://matplotlib.org/
-.. _Emacs: http://www.gnu.org/software/emacs/
-.. _Vim: http://www.vim.org/
-.. _official Python tutorial: http://docs.python.org/tutorial/
-.. _Django: https://www.djangoproject.com/
+If you think you have truly encountered a problem with SciPy itself, read the
+page on `Reporting Bugs <https://scipy.org/bug-report.html>`_.
