@@ -13,5 +13,5 @@ Documentation for core SciPy Stack projects:
 The :doc:`getting-started` page contains links to several good tutorials
 dealing with the SciPy stack.
 
-Take part in our `user survey <http://forms.gle/LGxx5hXzrDyChj38A>` and
+Take part in our `user survey <http://forms.gle/LGxx5hXzrDyChj38A>`_ and
 help us improve the documentation!
