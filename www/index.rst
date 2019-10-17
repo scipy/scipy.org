@@ -215,6 +215,9 @@ News
 .. role:: news-date
    :class: news-date
 
+NumPy 1.17.3 released :news-date:`2019-10-17`
+    See :doc:`/scipylib/download`.
+
 SciPy user survey :news-date:`2019-10-04`
     `Tell us <http://forms.gle/LGxx5hXzrDyChj38A>`_
     how we can improve the documentation.
