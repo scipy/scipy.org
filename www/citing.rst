@@ -13,6 +13,53 @@ __ http://scitation.aip.org/content/aip/journal/cise/13/2
 SciPy (the library)
 ###################
 
+There is now a preprint available for citing usage of SciPy until
+the journal article is available:
+
+* Pauli Virtanen, Ralf Gommers, Travis E. Oliphant, Matt Haberland,
+Tyler Reddy, David Cournapeau, Evgeni Burovski, Pearu Peterson,
+Warren Weckesser, Jonathan Bright, Stéfan J. van der Walt,
+Matthew Brett, Joshua Wilson, K. Jarrod Millman, Nikolay Mayorov,
+Andrew R. J. Nelson, Eric Jones, Robert Kern, Eric Larson, CJ Carey,
+İlhan Polat, Yu Feng, Eric W. Moore, Jake VanderPlas, Denis Laxalde,
+Josef Perktold, Robert Cimrman, Ian Henriksen, E.A. Quintero, Charles R Harris,
+Anne M. Archibald, Antônio H. Ribeiro, Fabian Pedregosa, Paul van Mulbregt,
+and SciPy 1.0 Contributors. (2019) eprint arXiv:1907.10121_
+
+Here's an example of a BibTeX entry:
+
+::
+
+@ARTICLE{2019arXiv190710121V,
+       author = {{Virtanen}, Pauli and {Gommers}, Ralf and {Oliphant}, Travis E. and
+         {Haberland}, Matt and {Reddy}, Tyler and {Cournapeau}, David and
+         {Burovski}, Evgeni and {Peterson}, Pearu and {Weckesser}, Warren and
+         {Bright}, Jonathan and {van der Walt}, St{\'e}fan J. and
+         {Brett}, Matthew and {Wilson}, Joshua and {Jarrod Millman}, K. and
+         {Mayorov}, Nikolay and {Nelson}, Andrew R.~J. and {Jones}, Eric and
+         {Kern}, Robert and {Larson}, Eric and {Carey}, CJ and
+         {Polat}, {\.I}lhan and {Feng}, Yu and {Moore}, Eric W. and {Vand
+        erPlas}, Jake and {Laxalde}, Denis and {Perktold}, Josef and
+         {Cimrman}, Robert and {Henriksen}, Ian and {Quintero}, E.~A. and
+         {Harris}, Charles R and {Archibald}, Anne M. and
+         {Ribeiro}, Ant{\^o}nio H. and {Pedregosa}, Fabian and
+         {van Mulbregt}, Paul and {Contributors}, SciPy 1. 0},
+        title = "{SciPy 1.0--Fundamental Algorithms for Scientific Computing in Python}",
+      journal = {arXiv e-prints},
+         year = "2019",
+        month = "Jul",
+          eid = {arXiv:1907.10121},
+        pages = {arXiv:1907.10121},
+archivePrefix = {arXiv},
+       eprint = {1907.10121},
+ primaryClass = {cs.MS},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2019arXiv190710121V},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+  
+.. _1907.10121: https://arxiv.org/abs/1907.10121
+
 .. raw:: html
 
    <script type="text/javascript">
