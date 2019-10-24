@@ -32,20 +32,21 @@ Here's an example of a BibTeX entry:
 ::
 
     @ARTICLE{2019arXiv190710121V,
-           author = {{Virtanen}, Pauli and {Gommers}, Ralf and {Oliphant}, Travis E. and
-             {Haberland}, Matt and {Reddy}, Tyler and {Cournapeau}, David and
-             {Burovski}, Evgeni and {Peterson}, Pearu and {Weckesser}, Warren and
-             {Bright}, Jonathan and {van der Walt}, St{\'e}fan J. and
-             {Brett}, Matthew and {Wilson}, Joshua and {Jarrod Millman}, K. and
-             {Mayorov}, Nikolay and {Nelson}, Andrew R.~J. and {Jones}, Eric and
-             {Kern}, Robert and {Larson}, Eric and {Carey}, CJ and
-             {Polat}, {\.I}lhan and {Feng}, Yu and {Moore}, Eric W. and {Vand
-            erPlas}, Jake and {Laxalde}, Denis and {Perktold}, Josef and
-             {Cimrman}, Robert and {Henriksen}, Ian and {Quintero}, E.~A. and
-             {Harris}, Charles R and {Archibald}, Anne M. and
-             {Ribeiro}, Ant{\^o}nio H. and {Pedregosa}, Fabian and
+           author = {{Virtanen}, Pauli and {Gommers}, Ralf and {Oliphant},
+             Travis E.  and {Haberland}, Matt and {Reddy}, Tyler and
+             {Cournapeau}, David and {Burovski}, Evgeni and {Peterson}, Pearu
+             and {Weckesser}, Warren and {Bright}, Jonathan and {van der Walt},
+             St{\'e}fan J.  and {Brett}, Matthew and {Wilson}, Joshua and
+             {Jarrod Millman}, K.  and {Mayorov}, Nikolay and {Nelson}, Andrew
+             R.~J. and {Jones}, Eric and {Kern}, Robert and {Larson}, Eric and
+             {Carey}, CJ and {Polat}, {\.I}lhan and {Feng}, Yu and {Moore},
+             Eric W. and {Vand erPlas}, Jake and {Laxalde}, Denis and
+             {Perktold}, Josef and {Cimrman}, Robert and {Henriksen}, Ian and
+             {Quintero}, E.~A. and {Harris}, Charles R and {Archibald}, Anne M.
+             and {Ribeiro}, Ant{\^o}nio H. and {Pedregosa}, Fabian and
              {van Mulbregt}, Paul and {Contributors}, SciPy 1. 0},
-            title = "{SciPy 1.0--Fundamental Algorithms for Scientific Computing in Python}",
+            title = "{SciPy 1.0--Fundamental Algorithms for Scientific
+                      Computing in Python}",
           journal = {arXiv e-prints},
              year = "2019",
             month = "Jul",
@@ -64,9 +65,6 @@ Here's an example of a BibTeX entry:
 For any specific algorithm, also consider citing the original author's paper
 (this can often be found under the "References" section of the docstring).
 
-.. raw:: html
-
-   </div>
 
 Scientific Computing in Python
 ##############################
