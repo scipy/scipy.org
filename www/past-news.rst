@@ -8,7 +8,25 @@ Past News
 .. role:: news-date
    :class: news-date
 
+NumPy 1.16.4 released :news-date:`2019-05-28`
+    See :doc:`/scipylib/download`.
+SciPy 1.2.2 released :news-date:`2019-06-06`
+    See :doc:`/scipylib/download`.
+NumPy 1.16.3 released :news-date:`2019-04-21`
+    See :doc:`/scipylib/download`.
+SciPy 2019 :news-date:`2019-07-08`
+    `SciPy <https://scipy2019.scipy.org/>`__, the 18th annual Scientific
+    Computing with Python conference, will be held July 8-14, 2019 in
+    Austin, Texas.
+NumPy 1.16.2 released :news-date:`2019-02-26`
+    See :doc:`/scipylib/download`.
+SciPy 1.2.1 released :news-date:`2019-02-08`
+    See :doc:`/scipylib/download`.
 NumPy 1.16.1 released :news-date:`2019-01-31`
+    See :doc:`/scipylib/download`.
+NumPy 1.16.0 released :news-date:`2019-01-13`
+    See :doc:`/scipylib/download`.
+SciPy 1.2.0 released :news-date:`2018-12-17`
     See :doc:`/scipylib/download`.
 NumPy 1.15.4 released :news-date:`2018-11-04`
     See :doc:`/scipylib/download`.
