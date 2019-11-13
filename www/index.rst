@@ -215,6 +215,9 @@ News
 .. role:: news-date
    :class: news-date
 
+SciPy user survey results :news-date:`2019-11-13`
+    See the survey results `here <https://github.com/mkg33/GSoD/blob/master/user_survey_summary.pdf>`_.
+
 NumPy 1.17.4 released :news-date:`2019-11-10`
     See :doc:`/scipylib/download`.
 
