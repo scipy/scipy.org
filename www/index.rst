@@ -215,6 +215,9 @@ News
 .. role:: news-date
    :class: news-date
 
+SciPy 1.3.3 released :news-date:`2019-11-23`
+    See :doc:`/scipylib/download`.
+
 SciPy user survey results :news-date:`2019-11-13`
     See the survey results `here <https://github.com/mkg33/GSoD/blob/master/user_survey_summary.pdf>`_.
 
