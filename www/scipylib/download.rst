@@ -2,20 +2,20 @@
 Obtaining NumPy & SciPy libraries
 =================================
 
-.. seealso:: 
+.. seealso::
 
    :doc:`/install`
 
 .. _download-official:
 
-Official Source and Binary Releases
+Official source and binary releases
 -----------------------------------
 
-For each official release of NumPy and SciPy, we provide source code (tarball)
+For each official release of NumPy and SciPy, we provide source code (tarball),
 as well as binary wheels for several major platforms (Windows, OSX, Linux).
 
 +--------+------------------------------+-------------------------------------+
-| Project| Available packages           | Download location                   | 
+| Project| Available packages           | Download location                   |
 +========+==============================+=====================================+
 |        |  Official *source code*      |                                     |
 |        |  (all platforms) and         |  `PyPI page for NumPy`_             |
@@ -36,13 +36,13 @@ as well as binary wheels for several major platforms (Windows, OSX, Linux).
 .. _PyPI page for NumPy: https://pypi.python.org/pypi/numpy
 .. _PyPI page for SciPy: https://pypi.python.org/pypi/scipy
 
-Source Code Repository Access
+Source code repository access
 -----------------------------
 
 The most recent development versions of NumPy and SciPy are available through
-the official repositories hosted on `Github`_.
+the official repositories hosted on `GitHub`_.
 
-.. _Github: https://github.com/
+.. _GitHub: https://github.com/
 
 To check out the latest **NumPy** sources::
 
@@ -55,30 +55,30 @@ To check out the latest **SciPy** sources::
 Build instructions
 ------------------
 
-Build instructions for Scipy can be found in its documentation.
+Build instructions for SciPy can be found in its documentation.
 The latest version can be found at:
 https://docs.scipy.org/doc/scipy-dev/reference/building/index.html
 
 
 .. _download-thirdpartypackages:
 
-Third-Party/Vendor Package Managers
+Third-party/vendor package managers
 -----------------------------------
 
-Below is a partial list of third-party and operating system vendor package 
-managers containing NumPy and SciPy packages. 
+Below is a partial list of third-party and operating system vendor package
+managers containing NumPy and SciPy packages.
 
 These packages are **not** maintained by the NumPy and SciPy
 developers; this list is provided only as a convenience. These
-packages may not always provide the most up to date version of the
+packages may not always provide the most up-to-date version of the
 software, and may be unmaintained.
 
-**IMPORTANT:** If you experience problems with these packages (*especially* 
-those related to installation/build errors), **please report the problem to 
-the package maintainer first, rather than to the NumPy/SciPy mailing lists**. 
+**IMPORTANT:** If you experience problems with these packages (*especially*
+those related to installation/build errors), **please report the problem to
+the package maintainer first, rather than to the NumPy/SciPy mailing lists**.
 
 +---------------------+---------------------------+---------------------------+
-| Distribution        | NumPy Packages            | SciPy Packages            | 
+| Distribution        | NumPy Packages            | SciPy Packages            |
 +=====================+===========================+===========================+
 | `Arch Linux`_       | `python-numpy`__          | `python-scipy`__          |
 |                     |                           |                           |
@@ -149,7 +149,7 @@ the package maintainer first, rather than to the NumPy/SciPy mailing lists**.
 .. _numpy-fedora: https://apps.fedoraproject.org/packages/numpy
 .. _scipy-fedora: https://apps.fedoraproject.org/packages/scipy
 
-.. ArchLinux links
+.. Arch Linux links
 .. _Arch Linux: https://www.archlinux.org/
 .. _python-numpy-arch: https://www.archlinux.org/packages/?q=numpy
 .. _python-scipy-arch: https://www.archlinux.org/packages/?q=scipy

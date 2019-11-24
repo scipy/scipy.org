@@ -14,7 +14,7 @@ SciPy refers to several related but distinct entities:
   computing in Python.
 * The *community* of people who use and develop this stack.
 * Several *conferences* dedicated to scientific computing in Python - SciPy,
-  EuroSciPy and SciPy.in.
+  EuroSciPy, and SciPy.in.
 * The :doc:`SciPy library <scipylib/index>`, one component of the SciPy stack,
   providing many numerical routines.
 
@@ -24,21 +24,24 @@ The SciPy ecosystem
 Scientific computing in Python builds upon a small core of packages:
 
 * Python_, a general purpose programming language. It is interpreted and
-  dynamically typed and is very suited for interactive work and quick
+  dynamically typed and is very well suited for interactive work and quick
   prototyping, while being powerful enough to write large applications in.
 * NumPy_, the fundamental package for numerical computation. It defines the
   numerical array and matrix types and basic operations on them.
 * The :doc:`SciPy library <scipylib/index>`, a collection of numerical algorithms and
   domain-specific toolboxes, including signal processing, optimization,
-  statistics and much more.
-* Matplotlib_, a mature and popular plotting package, that provides 
-  publication-quality 2D plotting as well as rudimentary 3D plotting
+  statistics, and much more.
+* Matplotlib_, a mature and popular plotting package that provides
+  publication-quality 2D plotting, as well as rudimentary 3D plotting.
 
-On this base, the SciPy ecosystem includes general and specialised tools for data management and computation, productive experimentation and high-performance computing. Below we overview some key packages, though there are :doc:`many more relevant packages <topical-software>`.
+On this base, the SciPy ecosystem includes general and specialised tools for
+data management and computation, productive experimentation, and
+high-performance computing. Below, we overview some key packages,
+though there are :doc:`many more relevant packages <topical-software>`.
 
 Data and computation:
 
-* pandas_, providing high-performance, easy to use data structures.
+* pandas_, providing high-performance, easy-to-use data structures.
 * SymPy_, for symbolic mathematics and computer algebra.
 * scikit-image_ is a collection of algorithms for image processing.
 * scikit-learn_ is a collection of algorithms and tools for machine learning.
@@ -51,7 +54,7 @@ Productivity and high-performance computing:
 * The Jupyter_ notebook provides IPython functionality and more in your web
   browser, allowing you to document your computation in an easily reproducible form.
 * Cython_ extends Python syntax so that you can conveniently build C extensions,
-  either to speed up critical code, or to integrate with C/C++ libraries.
+  either to speed up critical code or to integrate with C/C++ libraries.
 * Dask_, Joblib_ or IPyParallel_ for distributed processing with a focus on numeric data.
 
 Quality assurance:
@@ -92,4 +95,3 @@ Quality assurance:
 .. * :ref:`genindex`
 .. * :ref:`modindex`
 .. * :ref:`search`
-

@@ -1,4 +1,4 @@
-Developer Zone
+Developer zone
 ==============
 
 We need your help!
@@ -10,11 +10,11 @@ the :doc:`mailing lists <mailing-lists>`. You'll soon begin to
 recognize the areas where your assistance and expertise can make a
 difference.
 
-Source Code
+Source code
 -----------
 
-Make contributions (e.g. code patches), feature requests and file bug
-reports by submitting a issues or pull requests on the Github pages
+Make contributions (e.g., code patches), feature requests, and file bug
+reports by submitting issues or pull requests on the GitHub pages
 linked below. For any bigger changes, discussion on the mailing lists
 is recommended even before starting.
 
@@ -25,7 +25,7 @@ please read it. Also, take a look at the `NumPy developer guide
 <http://docs.scipy.org/doc/numpy/dev/>`__ for information on practical
 issues.
 
-If your contribution would be large, e.g. expanding functionality to a
+If your contribution would be large, e.g., expanding functionality to a
 scientific field not currently covered, it may make sense to at least
 at first start it as an independent project. Check :doc:`/scikits`
 about how to write independent add-on packages.
@@ -42,8 +42,8 @@ capabilities. You need NumPy for SciPy to work.
 | SciPy | Code repository         | https://github.com/scipy/scipy           |
 +-------+-------------------------+------------------------------------------+
 
-Interested people can get repository write access as well.  This usually 
-requires a developer "vouching" for you, which happens more easily if you 
+Interested people can get repository write access as well. This usually
+requires a developer "vouching" for you, which happens more easily if you
 already made a number of patch contributions.
 
 .. _packaging:
