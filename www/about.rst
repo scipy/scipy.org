@@ -1,6 +1,6 @@
 .. _content:
 
-Scientific Computing Tools for Python
+Scientific computing tools for Python
 =====================================
 
 .. toctree::
@@ -32,7 +32,7 @@ Scientific computing in Python builds upon a small core of packages:
   domain-specific toolboxes, including signal processing, optimization,
   statistics, and much more.
 * Matplotlib_, a mature and popular plotting package that provides
-  publication-quality 2D plotting, as well as rudimentary 3D plotting.
+  publication-quality 2-D plotting, as well as rudimentary 3-D plotting.
 
 On this base, the SciPy ecosystem includes general and specialised tools for
 data management and computation, productive experimentation, and

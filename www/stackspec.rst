@@ -38,7 +38,7 @@ be sufficient for the packages that require them.
   - tornado
 
 * pandas (>= 0.8)
-* Sympy (>= 0.7)
+* SymPy (>= 0.7)
 * nose (>= 1.1)
 
 
