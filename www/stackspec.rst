@@ -6,11 +6,11 @@ The SciPy Stack specification
 
 .. note::
 
-    The SciPy Stack Specification was developed in 2012.
+    The SciPy Stack specification was developed in 2012.
     As of 2017, the SciPy Stack concept is obsolete given
     improvements in package management and distribution.
 
-Python Distributions promoting themselves as providing the SciPy stack should
+Python Distributions promoting themselves as providing the SciPy Stack should
 meet the requirements listed below.
 
 This specification is versioned, so it can be updated. The current version is
@@ -30,7 +30,7 @@ be sufficient for the packages that require them.
 
   - dateutil
   - pytz
-  - Support for at least one backend
+  - support for at least one backend
 
 * IPython (>= 0.13)
 
@@ -38,7 +38,7 @@ be sufficient for the packages that require them.
   - tornado
 
 * pandas (>= 0.8)
-* Sympy (>= 0.7)
+* SymPy (>= 0.7)
 * nose (>= 1.1)
 
 
@@ -48,7 +48,7 @@ Other requirements
 After installation, entering ``ipython`` in a terminal/command prompt should
 start IPython, and it should be possible to import any of the packages specified
 above. Distributions are welcome to also provide other shortcuts, menu entries,
-and interfaces such as IDEs.
+and interfaces, such as IDEs.
 
 The user should be able to install arbitrary extra Python packages into the
 distribution.

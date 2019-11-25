@@ -1,8 +1,8 @@
-Bug Reports
+Bug reports
 ===========
 **Please help us by reporting any problems you find.**
 
-NumPy and SciPy library make use of Github to do project management.
+NumPy and SciPy libraries make use of GitHub to do project management.
 There, you can see what we are currently working on (Pull Requests),
 as well as file bug-reports (issues).
 
@@ -12,17 +12,17 @@ as well as file bug-reports (issues).
 
    - `SciPy library bug reports <https://github.com/scipy/scipy/issues>`_
 
-   - `NumPy pull requests <https://github.com/numpy/numpy/pulls>`_
+   - `NumPy library pull requests <https://github.com/numpy/numpy/pulls>`_
 
-   - `NumPy bug reports <https://github.com/numpy/numpy/issues>`_
+   - `NumPy library bug reports <https://github.com/numpy/numpy/issues>`_
 
-#. On Github you need to register an account the first time you use it.
+#. On GitHub, you need to register an account the first time you use it.
 
-#. Make sure the bug hasn't already been reported.  Click on "Search"
+#. Make sure the bug hasn't already been reported. Click on "Search"
    and type in some keywords to search for.
 
-#. File your bug-report by clicking "New Issue" on Github.  For advice on
-   how to provide a useful bug report see :doc:`../bug-report`.
+#. File your bug-report by clicking "New Issue" on GitHub. For advice on
+   how to provide a useful bug report, see :doc:`../bug-report`.
 
 #. Note that the bug trackers are mostly for actual bugs. If you want
    to propose an enhancement, then the mailing list is a better place

@@ -5,7 +5,7 @@ Citing packages in the SciPy ecosystem
 A number of articles related to scientific computing with Python have appeared;
 a selection related to some of the core toolstack are listed below. See also
 the `May 2007`__ and `March 2011`__ editions of the journal *Computing in
-Science & Engineering* which focuses on scientific computing with Python.
+Science & Engineering*, which focuses on scientific computing with Python.
 
 __ http://scitation.aip.org/content/aip/journal/cise/9/3
 __ http://scitation.aip.org/content/aip/journal/cise/13/2
@@ -33,7 +33,7 @@ Here's an example of a BibTeX entry:
 
     @ARTICLE{2019arXiv190710121V,
            author = {{Virtanen}, Pauli and {Gommers}, Ralf and {Oliphant},
-             Travis E.  and {Haberland}, Matt and {Reddy}, Tyler and
+             Travis E. and {Haberland}, Matt and {Reddy}, Tyler and
              {Cournapeau}, David and {Burovski}, Evgeni and {Peterson}, Pearu
              and {Weckesser}, Warren and {Bright}, Jonathan and {van der Walt},
              St{\'e}fan J.  and {Brett}, Matthew and {Wilson}, Joshua and
@@ -59,14 +59,14 @@ Here's an example of a BibTeX entry:
           adsnote = {Provided by the SAO/NASA Astrophysics Data System}
     }
 
-  
+
 .. _arXiv:1907.10121: https://arxiv.org/abs/1907.10121
 
 For any specific algorithm, also consider citing the original author's paper
 (this can often be found under the "References" section of the docstring).
 
 
-Scientific Computing in Python
+Scientific computing in Python
 ##############################
 
 * Travis E. Oliphant.
@@ -89,7 +89,8 @@ __ http://scitation.aip.org/content/aip/journal/cise/13/2/10.1109/MCSE.2011.36
 NumPy
 #####
 
-* Travis E, Oliphant. **A guide to NumPy**,
+* Travis E. Oliphant.
+  **A guide to NumPy**,
   USA: Trelgol Publishing, (2006).
 
 * Stéfan van der Walt, S. Chris Colbert and Gaël Varoquaux.
@@ -134,7 +135,7 @@ Cython
 __ https://doi.org/10.1109/MCSE.2010.118
 __ http://scitation.aip.org/content/aip/journal/cise/13/2/10.1109/MCSE.2010.118
 
-Pandas
+pandas
 ######
 * Wes McKinney.
   **Data Structures for Statistical Computing in Python**,
@@ -184,12 +185,12 @@ __ http://cens.ioc.ee/~pearu/papers/IJCSE4.4_Paper_8.pdf
 SymPy
 #####
 
-* Meurer A, Smith CP, Paprocki M, Čertík O, Kirpichev SB, Rocklin M, Kumar A, 
-  Ivanov S, Moore JK, Singh S, Rathnayake T, Vig S, Granger BE, Muller RP, 
-  Bonazzi F, Gupta H, Vats S, Johansson F, Pedregosa F, Curry MJ, Terrel AR, 
-  Roučka Š, Saboo A, Fernando I, Kulal S, Cimrman R, Scopatz A. 
+* Meurer A, Smith CP, Paprocki M, Čertík O, Kirpichev SB, Rocklin M, Kumar A,
+  Ivanov S, Moore JK, Singh S, Rathnayake T, Vig S, Granger BE, Muller RP,
+  Bonazzi F, Gupta H, Vats S, Johansson F, Pedregosa F, Curry MJ, Terrel AR,
+  Roučka Š, Saboo A, Fernando I, Kulal S, Cimrman R, Scopatz A.
   **SymPy: symbolic computing in Python**,
   PeerJ Computer Science 3:e103 (2017)
-  (`publisher link`__) 
+  (`publisher link`__)
 
 __ https://doi.org/10.7717/peerj-cs.103

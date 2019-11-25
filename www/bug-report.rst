@@ -3,20 +3,20 @@ Report Bugs
 **Please help us by reporting any problems you find.**
 
 Projects in the SciPy Stack all have their own bug trackers, on which issues
-can be reported.  Questions and feature requests are best sent to the mailing
+can be reported. Questions and feature requests are best sent to the mailing
 list of the project it concerns.
 
-Please report bugs, documentation errors etc. in the following trackers:
+Please report bugs, documentation errors etc., in the following trackers:
 
 - `NumPy issues <https://github.com/numpy/numpy/issues>`_
 
 - `SciPy issues <https://github.com/scipy/scipy/issues>`_
-   
+
 - `Matplotlib issues <https://github.com/matplotlib/matplotlib/issues>`_
 
 - `IPython issues <https://github.com/ipython/ipython/issues>`_
 
-- `Pandas issues <https://github.com/pydata/pandas/issues>`_
+- `pandas issues <https://github.com/pydata/pandas/issues>`_
 
 - `SymPy issues <https://github.com/sympy/sympy/issues>`_
 
@@ -30,10 +30,10 @@ Guidelines for submitting bugs
 
 * Provide a good description. Tickets in the vein of "SciPy is
   BROKEN!!!" are not useful; rather, please state the problem clearly,
-  e.g. "scipy.ndimage ignores keyword 'axis'".
+  e.g., "scipy.ndimage ignores keyword 'axis'".
 
-* Include a minimal stand-alone code snippet to illustrate the
-  problem.  Try to narrow it down to a few lines.
+* Include a minimal standalone code snippet to illustrate the
+  problem. Try to narrow it down to a few lines.
 
 * If you experience segfaults or memory errors, give a GDB traceback:
 

@@ -5,7 +5,7 @@ SciPy license
 | Copyright © 2001, 2002 Enthought, Inc.
 | All rights reserved.
 |
-| Copyright © 2003-2013 SciPy Developers.
+| Copyright © 2003-2019 SciPy Developers.
 | All rights reserved.
 
 Redistribution and use in source and binary forms, with or without

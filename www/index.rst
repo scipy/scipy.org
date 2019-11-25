@@ -46,7 +46,7 @@ SciPy.org
   <div class="img">
     <a href="getting-started.html">
      <img alt="Getting Started" src="_static/images/tutorial.png" title="Getting Started" height="80">
-    <br>Getting Started
+    <br>Getting started
     </a>
   </div>
   </div>
@@ -68,7 +68,7 @@ SciPy.org
   <div class="img">
     <a href="bug-report.html">
     <img alt="Report Bugs" src="_static/images/bugs.png" title="Report Bugs" height="80">
-    <br>Report Bugs
+    <br>Report bugs
     </a>
   </div>
   </div>
@@ -137,7 +137,7 @@ particular, these are some of the core packages:
   </div>
   <div class="img-label">
     <h4 class="media-heading"><a href="http://matplotlib.org/">Matplotlib</a></h4>
-    Comprehensive 2D Plotting
+    Comprehensive 2-D plotting
   </div>
   </div>
   </li>
@@ -151,7 +151,7 @@ particular, these are some of the core packages:
   </div>
   <div class="img-label">
     <h4 class="media-heading"><a href="http://ipython.org">IPython</a></h4>
-    Enhanced Interactive Console
+    Enhanced interactive console
   </div>
   </div>
   </li>
@@ -164,7 +164,7 @@ particular, these are some of the core packages:
     </a>
   </div>
   <div class="img-label">
-    <h4 class="media-heading"><a href="http://sympy.org/">Sympy</a></h4>
+    <h4 class="media-heading"><a href="http://sympy.org/">SymPy</a></h4>
     Symbolic mathematics
   </div>
   </div>
@@ -214,9 +214,6 @@ News
 
 .. role:: news-date
    :class: news-date
-
-SciPy 1.3.3 released :news-date:`2019-11-23`
-    See :doc:`/scipylib/download`.
 
 SciPy user survey results :news-date:`2019-11-13`
     See the survey results `here <https://github.com/mkg33/GSoD/blob/master/user_survey_summary.pdf>`_.

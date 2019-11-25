@@ -17,15 +17,15 @@ What is NumPy?
 ##############
 
 NumPy is a Python extension module that provides efficient operation on arrays
-of homogeneous data.  It allows Python to serve as a high-level language for
-manipulating numerical data, much like for example IDL or MATLAB.
+of homogeneous data. It allows Python to serve as a high-level language for
+manipulating numerical data, much like, for example, IDL or MATLAB.
 
 Why should I use NumPy rather than IDL, MATLAB, or Octave?
 ##########################################################
 
 As always, you should choose the programming tools that suit your problem
 and your environment. Advantages many people cite are that it is open-source,
-it doesn't cost anything, it uses a general-purpose programming language (Python)
+it doesn't cost anything, it uses a general-purpose programming language (Python),
 which is very popular and has high-quality libraries for almost any task available,
 and it is relatively easy to connect existing C and Fortran code to the Python interpreter.
 
@@ -40,8 +40,8 @@ the spacing between elements along each axis.
 
 For example, you might have a NumPy array that represents the numbers from
 zero to nine, stored as 32-bit integers, one right after another, in a single
-block of memory. (for comparison, each Python integer needs to have some type
-information stored alongside it). You might also have the array of even
+block of memory. (For comparison, each Python integer needs to have some type
+information stored alongside it.) You might also have the array of even
 numbers from zero to eight, stored in the same block of memory, but with a
 gap of four bytes (one 32-bit integer) between elements. This is called
 **striding**, and it means that you can often create a new array referring
@@ -49,7 +49,7 @@ to a subset of the elements in an array without copying any data. Such subsets
 are called **views**. This is an efficiency gain, obviously, but it also
 allows modification of selected elements of an array in various ways.
 
-An important constraint on NumPy arrays is that for a given axis, all the
+An important constraint on NumPy arrays is that, for a given axis, all the
 elements must be spaced by the same number of bytes in memory. NumPy cannot
 use double-indirection to access array elements, so indexing modes that would
 require this must produce copies. This constraint makes it possible for all
@@ -66,15 +66,15 @@ Python's lists are efficient general-purpose containers. They support
 (fairly) efficient insertion, deletion, appending, and concatenation,
 and Python's list comprehensions make them easy to construct and manipulate.
 However, they have certain limitations: they don't support "vectorized"
-operations like elementwise addition and multiplication, and the fact that
+operations, like elementwise addition and multiplication, and the fact that
 they can contain objects of differing types mean that Python must store
-type information for every element, and must execute type dispatching
+type information for every element, and must execute type-dispatching
 code when operating on each element. This also means that very few list
 operations can be carried out by efficient C loops -- each iteration
 would require type checks and other Python API bookkeeping.
 
-What's the story with Numeric, numarray, and NumPy?
-###################################################
+What's the story behind Numeric, numarray, and NumPy?
+#####################################################
 
 The short version is that Numeric was the original package that provided
 efficient homogeneous numeric arrays for Python, but some developers felt
@@ -120,7 +120,7 @@ of the BSD license `here <https://github.com/scipy/scipy/blob/master/LICENSE.txt
 How can SciPy be fast if it is written in an interpreted language like Python?
 ##############################################################################
 
-Actually, the time-critical loops are usually implemented in C, C++ or Fortran.
+Actually, the time-critical loops are usually implemented in C, C++, or Fortran.
 Parts of SciPy are thin layers of code on top of the scientific routines that
 are freely available at http://www.netlib.org/. Netlib is a huge repository
 of incredibly valuable and robust scientific algorithms written in C and
@@ -134,11 +134,11 @@ entirely or wrapped with Cython_.
 .. _Cython: http://cython.org/
 
 A second answer is that for difficult problems, a better algorithm can make
-a tremendous difference in the time it takes to solve a problem. So using
+a tremendous difference in the time it takes to solve a problem. So, using
 SciPy's built-in algorithms may be much faster than a simple algorithm
 coded in C.
 
-I've found a bug.  What do I do?
+I've found a bug. What do I do?
 ################################
 
 The SciPy development team works hard to make SciPy as reliable as possible,
@@ -151,7 +151,7 @@ as appropriate.
 How can I get involved in SciPy?
 ################################
 
-Drop us a mail on the :doc:`mailing lists <mailing-lists>`.  We are
+Drop us a mail on the :doc:`mailing lists <mailing-lists>`. We are
 keen for more people to help out writing code, unit tests,
 documentation (including translations into other languages), and
 helping out with the website.
@@ -160,7 +160,7 @@ Is there commercial support available?
 ######################################
 
 Yes, commercial support is offered for SciPy by a number of companies,
-for example Anaconda_, Enthought_ and Quansight_.
+for example Anaconda_, Enthought_, and Quansight_.
 
 NumPy vs. SciPy vs. other packages
 ----------------------------------
@@ -170,9 +170,9 @@ What is the difference between NumPy and SciPy?
 
 In an ideal world, NumPy would contain nothing but the array data type and
 the most basic operations: indexing, sorting, reshaping, basic elementwise
-functions, et cetera. All numerical code would reside in SciPy. However,
+functions, etc. All numerical code would reside in SciPy. However,
 one of NumPy's important goals is compatibility, so NumPy tries to retain
-all features supported by either of its predecessors. Thus NumPy contains
+all features supported by either of its predecessors. Thus, NumPy contains
 some linear algebra functions and Fourier transforms, even though these more
 properly belong in SciPy. In any case, SciPy contains more fully-featured
 versions of the linear algebra modules, as well as many other numerical
@@ -187,7 +187,7 @@ Plotting functionality is beyond the scope of NumPy and SciPy, which focus
 on numerical objects and algorithms. Several packages exist that integrate
 closely with NumPy and Pandas to produce high quality plots, such as the
 immensely popular `Matplotlib`_. Other popular options are `Bokeh`_, `Plotly`_,
-`Altair`_ and `Chaco`_.
+`Altair`_, and `Chaco`_.
 
 How do I make 3D plots/visualizations using NumPy/SciPy?
 ########################################################
@@ -205,7 +205,7 @@ Why both :mod:`numpy.linalg` and :mod:`scipy.linalg`? What's the difference?
 :mod:`scipy.linalg` is a more complete wrapping of Fortran LAPACK_ using f2py_.
 
 One of the design goals of NumPy was to make it buildable without a Fortran
-compiler, and if  you don't have LAPACK available NumPy will use its own
+compiler, and if you don't have LAPACK available, NumPy will use its own
 implementation. SciPy requires a Fortran compiler to be built, and heavily
 depends on wrapped Fortran code.
 
@@ -225,9 +225,9 @@ The :mod:`linalg` modules in NumPy and SciPy have some common functions but
 with different docstrings, and :mod:`scipy.linalg` contains functions not
 found in :mod:`numpy.linalg`, such as functions related to
 `LU decomposition`_ and the `Schur decomposition`_, multiple ways
-of calculating the pseudoinverse, and matrix transcendentals like the `matrix
+of calculating the pseudoinverse, and matrix transcendentals, like the `matrix
 logarithm`_. Some functions that exist in both have augmented functionality
-in :mod:`scipy.linalg`; for example :func:`scipy.linalg.eig` can take a second
+in :mod:`scipy.linalg`; for example, :func:`scipy.linalg.eig` can take a second
 matrix argument for solving `generalized eigenvalue problems`_.
 
 .. _LU decomposition: https://en.wikipedia.org/wiki/LU_decomposition
@@ -242,10 +242,10 @@ Python version support
 Do NumPy and SciPytill support Python 2.7?
 ##########################################
 
-The last version of NumPy to support Python 2.7 is numpy 1.16.x. The last SciPy version
-to do so is 1.2.x.
+The last version of NumPy to support Python 2.7 is NumPy 1.16.x. The last SciPy version
+to do so is SciPy 1.2.x.
 The first release of NumPy to support Python 3.x was NumPy 1.5.0.
-Python 3 support in SciPy was introduced in 0.9.0.
+Python 3 support in SciPy was introduced in SciPy 0.9.0.
 
 Does NumPy/SciPy work with PyPy?
 ################################
@@ -255,17 +255,17 @@ stack work with PyPy. The NumPy and SciPy projects run PyPy in continuous
 integration and aim to further improve support over time.
 Since much of NumPy and SciPy is implemented as C extension
 modules, the code may not run any faster (for most cases it's significantly
-slower still, however PyPy is actively working on improving this). As always
+slower still, however, PyPy is actively working on improving this). As always
 when benchmarking, your experience is the best guide.
 
 Does NumPy/SciPy work with Jython or C#/.NET?
 #############################################
 
-No, neither are supported. Jython never worked, because it runs on top of the
+No, neither is supported. Jython never worked, because it runs on top of the
 Java Virtual Machine and has no way to interface with extensions written in C
 for the standard Python (CPython) interpreter.
 
-Some years ago there was an effort to make NumPy and SciPy compatible with .NET.
+Some years ago, there was an effort to make NumPy and SciPy compatible with .NET.
 Some users at the time reported success in using NumPy with `Ironclad
 <https://code.google.com/archive/p/ironclad>`_ on 32-bit Windows.
 
@@ -273,11 +273,11 @@ Some users at the time reported success in using NumPy with `Ironclad
 Basic NumPy/SciPy usage
 -----------------------
 
-What is the preferred way to check for an empty (zero element) array?
+What is the preferred way to check for an empty (zero-element) array?
 #####################################################################
 
 If you are certain a variable is an array, then use the size attribute.
-If the variable may be a list or other sequence type, use :func:`len`.
+If the variable is a list or other sequence type, use :func:`len`.
 The size attribute is preferable to len because:
 
 ::
@@ -300,7 +300,7 @@ Use :func:`numpy.loadtxt`. Even if your text file has header and footer
 lines or comments, loadtxt can almost certainly read it; it is convenient and
 efficient.
 
-If you find this still too slow, you can try Pandas (it has a faster csv
+If you find this still too slow, you can try pandas (it has a faster csv
 reader for example). If that doesn't help, you should consider changing to a
 more efficient file format than plain text. There are a large number of
 alternatives, depending on your needs (and on which version of
@@ -310,11 +310,11 @@ NumPy/SciPy you are using):
 * pickle: somewhat slow, somewhat portable (may be incompatible with
   different NumPy versions); built into NumPy
 * HDF5_: high-powered kitchen-sink format; both PyTables_ and h5py_ provide
-  a NumPy friendly interface on top of the core HDF5 library written in C.
+  a NumPy-friendly interface on top of the core HDF5 library written in C
 * FITS_: standard kitchen-sink format in astronomy; the astropy_ library
-  provides a convenient Python interface through its `io.fits`_ package.
+  provides a convenient Python interface through its `io.fits`_ package
 * `.npy`_: NumPy native binary data format, simple, efficient, portable;
-  built into NumPy as of 1.0.5.
+  built into NumPy as of 1.0.5
 
 .. _HDF5: http://www.hdfgroup.org/
 .. _PyTables: http://www.pytables.org/
@@ -331,26 +331,26 @@ What is the difference between matrices and arrays?
 rest of the answer below is kept for historical reasons.*
 
 NumPy's basic data type is the multidimensional array. These can be
-one-dimensional (that is, one index, like a list or a vector),
-two-dimensional (two indices, like an image), three-dimensional, or more
-(zero-dimensional arrays exist and are a slightly strange corner case).
+1-D (that is, one index, like a list or a vector),
+2-D (two indices, like an image), 3-D, or more
+(0-D arrays exist and are slightly strange corner cases).
 They support various operations, including addition, subtraction,
 multiplication, exponentiation, and so on - but all of these are
 *elementwise* operations. If you want matrix multiplication between two
-two-dimensional arrays, the function :func:`numpy.dot` or the built-in Python
+2-D arrays, the function :func:`numpy.dot` or the built-in Python
 operator ``@`` do this. It also works fine for getting the matrix product of
-a two-dimensional array and a one-dimensional array, in either direction, or
-two one-dimensional arrays. If you want some kind of matrix
+a 2-D array and a 1-D array, in either direction, or
+two 1-D arrays. If you want some kind of matrix
 multiplication-like operation on higher-dimensional arrays (tensor
-contraction), you need to think which indices you want to be contracting
-over. Some combination of :func:`tensordot` and :func:`rollaxis` should do
+contraction), you need to think over which indices you want to be contracting.
+Some combination of :func:`tensordot` and :func:`rollaxis` should do
 what you want.
 
 However, some users find that they are doing so many matrix multiplications
 that always having to write ``dot`` as a prefix is too cumbersome, or they
 really want to keep row and column vectors separate. For these users, there
 is a matrix class. This is simply a transparent wrapper around arrays that
-forces arrays to be at least two-dimensional, and that overloads the
+forces arrays to be at least 2-D, and that overloads the
 multiplication and exponentiation operations. Multiplication becomes matrix
 multiplication, and exponentiation becomes matrix exponentiation. If you want
 elementwise multiplication, use :func:`numpy.multiply`.
@@ -359,15 +359,15 @@ The function :func:`asmatrix` converts an array into a matrix (without ever
 copying any data); :func:`asarray` converts matrices to arrays.
 :func:`asanyarray` makes sure that the result is either a matrix or an array
 (but not, say, a list). Unfortunately, a few of NumPy's many functions use
-:func:`asarray` when they should use :func:`asanyarray`, so from time to time
-you may find your matrices accidentally get converted into arrays. Just use
-:func:`asmatrix` on the output of these operations, and consider filing a bug.
+:func:`asarray` when they should use :func:`asanyarray`, so, from time to time,
+you may find your matrices accidentally getting converted into arrays. Just use
+:func:`asmatrix` on the output of these operations and consider filing a bug.
 
 Why not just have a separate operator for matrix multiplication?
 ################################################################
 
 From Python 3.5, the ``@`` symbol will be defined as a matrix multiplication
-operator, and Numpy and Scipy will make use of this. This addition was the
+operator, and NumPy and SciPy will make use of this. This addition was the
 subject of `PEP 465 <https://www.python.org/dev/peps/pep-0465/>`_. The separate
 matrix and array types exist to work around the lack of this operator in earlier
 versions of Python.
@@ -375,9 +375,9 @@ versions of Python.
 How do I find the indices of an array where some condition is true?
 ###################################################################
 
-The prefered idiom for doing this is to use the function :func:`numpy.nonzero`
-, or the :meth:`nonzero` method of an array. Given an array ``a``, the
-condition ``a > 3`` returns a boolean array and since ``False`` is
+The preferred idiom for doing this is to use the function :func:`numpy.nonzero`,
+or the :meth:`nonzero` method of an array. Given an array ``a``, the
+condition ``a > 3`` returns a boolean array, and since ``False`` is
 interpreted as 0 in Python and NumPy, ``np.nonzero(a > 3)`` yields the indices
 of ``a`` where the condition is true.
 
@@ -418,35 +418,35 @@ Advanced NumPy usage
 Does NumPy support :const:`nan`?
 ################################
 
-:const:`nan`, short for "not a number", is a special floating point value
-defined by the IEEE-754 specification along with :const:`inf` (infinity)
-and other  values and behaviours. In theory, IEEE :const:`nan` was
+:const:`nan`, short for "not a number", is a special floating-point value
+defined by the IEEE-754 specification, along with :const:`inf` (infinity)
+and other values and behaviours. In theory, IEEE :const:`nan` was
 specifically designed to address the problem of missing values, but the
 reality is that different platforms behave differently, making life more
 difficult. On some platforms, the presence of :const:`nan` slows calculations
 10-100 times. For integer data, no :const:`nan` value exists.
 
 Despite all these issues NumPy (and SciPy) endeavor to support IEEE-754
-behaviour (based on NumPy's predecessor numarray). The most significant
-challenge is a lack of cross-platform support within Python itself. Because
+behavior (based on NumPy's predecessor numarray). The most significant
+challenge is the lack of cross-platform support within Python itself. Because
 NumPy is written to take advantage of C99, which supports IEEE-754,
 it can side-step such issues internally, but users may still face problems
-when, for example, comparing values within Python interpreter.
+when, for example, comparing values within the Python interpreter.
 
 Those wishing to avoid potential headaches will be interested in an
-alternative solution which has a long history in NumPy's predecessors
+alternative solution, which has a long history in NumPy's predecessors
 -- **masked arrays**. Masked arrays are standard arrays with a second
 "mask" array of the same shape to indicate whether the value is present
 or missing. Masked arrays are the domain of the :mod:`numpy.ma` module,
 and continue the cross-platform Numeric/numarray tradition. See
 "Cookbook/Matplotlib/Plotting values with masked arrays" (*TODO*) for
 example, to avoid plotting missing data in Matplotlib_. Despite their
-additional memory requirement, masked arrays are faster than nans on
+additional memory requirement, masked arrays are faster than ``nans`` on
 many floating point units. See also the `NumPy documentation on masked
 arrays <http://docs.scipy.org/doc/numpy/reference/maskedarray.html>`_.
 
-Another good option is to use Pandas - it uses ``nan`` in a similar way to
-NumPy for floating point data, and since pandas 0.25.0 also supports missing
+Another good option is to use pandas - it uses ``nan`` in a similar way to
+NumPy for floating-point data, and since pandas 0.25.0 also supports missing
 integer values.
 
 Why doesn't A[[0, 1, 1, 2]] += 1 do what I think it should?
@@ -465,7 +465,7 @@ for one extensive discussion.
    array([ 1.,  1.,  1.])
 
 One might, quite reasonably, have expected A to contain [1,2,1].
-Unfortunately this is not what is implemented in NumPy. Moreover, the
+Unfortunately, this is not what is implemented in NumPy. Moreover, the
 `Python Reference Manual <https://docs.python.org/reference/simple_stmts.html#grammar-token-augmented_assignment_stmt>`_
 specifies that
 
@@ -480,7 +480,7 @@ and
    >>> x += y
 
 should result in ``x`` having the same value (though not necessarily the same
-identity). Moreover, even if the NumPy developers wanted to modify this behaviour,
+identity). Moreover, even if the NumPy developers wanted to modify this behavior,
 Python does not provide an overloadable :meth:`__indexed_iadd__` function;
 the code acts like
 
@@ -495,7 +495,7 @@ actually able to provide a view rather than a copy, the :meth:`__iadd__`
 writes to the array, then the view is copied into the array, so that the
 array is written to twice.
 
-However, do not despair! NumPy does contain functionality for this type of behaviour, and it can be
+However, do not despair! NumPy does contain functionality for this type of behavior, and it can be
 obtained by using the ufunc :meth:`at`, which is an attribute of the addition (``np.add``), subtraction
 (``np.subtract``), multiplication (``np.multiply``), and division (``np.divide``) ufuncs between a matrix
 and a scalar:
@@ -510,7 +510,7 @@ and a scalar:
 Where to get help
 -----------------
 
-You can ask questions with the `SciPy tag on Stackoverflow
+You can ask questions with the `SciPy tag on StackOverflow
 <http://stackoverflow.com/questions/tagged/scipy>`_, or on the scipy-user
 :doc:`mailing list <mailing-lists>`. Search for an answer first, because someone
 may already have found a solution to your problem, and using that will save
@@ -527,4 +527,3 @@ everyone time.
 .. _Plotly: https://plot.ly
 .. _Chaco: http://code.enthought.com/projects/chaco
 .. _PyPy: http://pypy.org
-

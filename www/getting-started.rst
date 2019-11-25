@@ -1,5 +1,5 @@
 ===============
-Getting Started
+Getting started
 ===============
 
 Got the SciPy packages installed? Wondering what to do next?
@@ -12,7 +12,7 @@ resources exist online, in hard copy, in person, or whatever format you prefer.
 Just remember to have fun, make mistakes, and persevere.
 
 
-Where to Write
+Where to write
 ==============
 
 `Jupyter <https://jupyter.org/>`_ notebooks combine code, markdown, and more in
@@ -28,8 +28,8 @@ but IPython itself also acts as a standalone tool. A *command-line* of
 individual statements and returned values, IPython is useful for debugging and
 experimenting.
 
-Code Editors and IDE's (Integrated Development Environments) facilitate the
-writing of scripts, packages, and libraries.  These tools handle projects, like
+Code Editors and IDEs (Integrated Development Environments) facilitate the
+writing of scripts, packages, and libraries. These tools handle projects, like
 SciPy itself, that start to grow larger and more complicated. Separate files
 can hold frequently used functions, types, variables, and analysis scripts for
 simpler, more maintainable, and more reusable code.
@@ -44,7 +44,7 @@ tools, autocompletion, and project management.
 Hello SciPy
 ===========
 
-Need to test if the packages got installed?  Type these lines at an IPython
+Need to test if the packages got installed? Type these lines at an IPython
 prompt, or save in a ``*.py`` file to execute::
 
     import numpy as np
@@ -60,7 +60,7 @@ For testing the SciPy library and Matplotlib, here's a fun Easter egg::
     plt.show()
 
 
-Start Learning
+Start learning
 ==============
 
 Each package has official tutorials:
@@ -71,7 +71,7 @@ Each package has official tutorials:
 
 - `Matplotlib beginner's guide <http://matplotlib.org/users/beginner.html>`_
 
-- `Pandas tutorials <http://pandas.pydata.org/pandas-docs/stable/tutorials.html>`_
+- `pandas tutorials <http://pandas.pydata.org/pandas-docs/stable/tutorials.html>`_
 
 - `SymPy tutorial <http://docs.sympy.org/latest/tutorial/>`_
 
@@ -82,17 +82,17 @@ Additional outside tutorials exist, such as the
 But the best way to learn is to start coding.
 
 
-Stuck? Need Help?
+Stuck? Need help?
 =================
 
 Getting errors that you can't figure out?
 
-Start by looking at the error message.  Yes, error messages are often
+Start by looking at the error message. Yes, error messages are often
 intimidating and filled with technical detail. However, they can often help
 pinpoint the exact location in code where things go wrong. This is often most
 of the battle.
 
-Unsure of how to use a particular function?  In Jupyter and the IPython shell,
+Unsure of how to use a particular function? In Jupyter and the IPython shell,
 call up documentation with::
 
     import numpy as np
@@ -108,7 +108,7 @@ or for viewing the source::
     a = "SciPy is awesome ;)"
     a?
 
-Try searching the internet and sites like `Stack Overflow <https://stackoverflow.com/>`_
+Try searching the Internet and sites like `StackOverflow <https://stackoverflow.com/>`_
 to see if others have encountered similar problems or can help with yours.
 
 If you think you have truly encountered a problem with SciPy itself, read the
