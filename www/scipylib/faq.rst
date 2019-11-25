@@ -74,7 +74,7 @@ operations can be carried out by efficient C loops -- each iteration
 would require type checks and other Python API bookkeeping.
 
 What's the story behind Numeric, numarray, and NumPy?
-###################################################
+#####################################################
 
 The short version is that Numeric was the original package that provided
 efficient homogeneous numeric arrays for Python, but some developers felt
@@ -376,7 +376,7 @@ How do I find the indices of an array where some condition is true?
 ###################################################################
 
 The preferred idiom for doing this is to use the function :func:`numpy.nonzero`,
- or the :meth:`nonzero` method of an array. Given an array ``a``, the
+or the :meth:`nonzero` method of an array. Given an array ``a``, the
 condition ``a > 3`` returns a boolean array, and since ``False`` is
 interpreted as 0 in Python and NumPy, ``np.nonzero(a > 3)`` yields the indices
 of ``a`` where the condition is true.

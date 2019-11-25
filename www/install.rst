@@ -38,17 +38,17 @@ which still provides access to the *conda* package manager.
 Other options include:
 
 * `Enthought Canopy <https://www.enthought.com/products/canopy>`_: Free and
-commercial versions; supports Linux, Windows, and Mac; includes an IDE.
+  commercial versions; supports Linux, Windows, and Mac; includes an IDE.
 * `Python(x,y) <https://python-xy.github.io/>`_: A free distribution including
-scientific packages; based around the `Spyder IDE <https://www.spyder-ide.org/>`__;
-Windows and Ubuntu; Py2 only.
+  scientific packages; based around the `Spyder IDE <https://www.spyder-ide.org/>`__;
+  Windows and Ubuntu; Py2 only.
 * `WinPython <https://winpython.github.io>`_: Another free distribution
-including scientific packages and the Spyder IDE; Windows only, but more
-actively maintained and supports the latest Python 3 versions.
+  including scientific packages and the Spyder IDE; Windows only, but more
+  actively maintained and supports the latest Python 3 versions.
 * `Pyzo <http://www.pyzo.org/>`_: A free distribution based on Anaconda and
-the IEP interactive development environment; Supports Linux, Windows, and Mac.
+  the IEP interactive development environment; Supports Linux, Windows, and Mac.
 * `NeuroDebian repository <http://neuro.debian.net>`_ : Only for the Debian OS
-and geared toward neuroscientists.
+  and geared toward neuroscientists.
 
 .. _pip-install:
 

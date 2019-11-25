@@ -94,7 +94,6 @@ Working environments
 - `Pymacs <https://github.com/pinard/Pymacs>`__: a tool which, once started from Emacs, allows both-way communication between Emacs Lisp and Python.
 - `Python Tools for Visual Studio <https://microsoft.github.io/PTVS/>`__: a rich IDE plugin for Visual Studio that supports CPython, IronPython, the IPython REPL, debugging, profiling, including running debugging MPI program on HPC clusters.
 - `Plotly <https://plot.ly/python/>`__: an online Python environment for data exploration and graphing. Plotly has a command line, and allows for storage and sharing of Python scripts, and has special support for `interactive Plotly graphs <https://plot.ly/python/>`__.
-- `Wakari <https://wakari.io/>`__: scientific and technical computing in the browser. You can create and share workflows, IPython notebooks, plots, and applications in the cloud all on-top of Anaconda a complete scientific and Big Data Python distribution. More information available on the `Wakari website <https://wakari.io/>`__.
 - `Other IDE links <https://wiki.python.org/moin/IntegratedDevelopmentEnvironments>`__: the official Python website maintains a comprehensive lists of IDEs for Python.
 
 Science: basic tools
@@ -138,7 +137,7 @@ Wrapping C, C++, and FORTRAN code
 - `railgun <http://tkf.bitbucket.org/railgun-doc/>`__: ctypes utilities for faster and easier simulation programming in C and Python
 
 Wrapping MATLAB, R, and IDL codes
---------------------------------
+---------------------------------
 
 - `matlab <http://www.mathworks.com/help/matlab/matlab_external/get-started-with-matlab-engine-for-python.html>`__: the "official" Python interface to MATLAB. Interfaces with MATLAB by treating it as a computational engine. For information about how to interface with Python from MATLAB, visit this link `here <http://www.mathworks.com/help/matlab/getting-started_buik_wp-3.html>`__.
 - `pythoncall <http://pav.iki.fi/software/pythoncall/>`__: a MATLAB-to-Python bridge. Runs a Python interpreter inside MATLAB and allows transferring data (matrices etc.) between the Python and MATLAB workspaces.
