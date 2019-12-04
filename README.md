@@ -4,8 +4,10 @@ This repository contains the Sphinx source for the [SciPy website](http://www.sc
 
 After cloning this repository, run
 
-`$ git submodule init`  
-`$ git submodule update`
+```
+$ git submodule init
+$ git submodule update
+```
 
 to get the Sphinx theme used.
 
