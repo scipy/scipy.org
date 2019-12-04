@@ -14,7 +14,7 @@ commands apply:
 
 To make a local build of the website
 
-`$ cd www`
+`$ cd www`  
 `$ make html`
 
 To build and upload the site (requires ssh access to www.scipy.org,
