@@ -215,6 +215,9 @@ News
 .. role:: news-date
    :class: news-date
 
+NumPy 1.18.0rc1 released :news-date:`2019-12-05`
+    See :doc:`/scipylib/download`.
+
 SciPy user survey results :news-date:`2019-11-13`
     See the survey results `here <https://github.com/mkg33/GSoD/blob/master/user_survey_summary.pdf>`_.
 
