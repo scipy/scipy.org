@@ -13,8 +13,7 @@ __ http://scitation.aip.org/content/aip/journal/cise/13/2
 SciPy (the library)
 ###################
 
-There is now a preprint available for citing usage of SciPy until
-the journal article is available:
+There is now a journal article available for citing usage of SciPy:
 
 Pauli Virtanen, Ralf Gommers, Travis E. Oliphant, Matt Haberland,
 Tyler Reddy, David Cournapeau, Evgeni Burovski, Pearu Peterson,
@@ -24,14 +23,14 @@ Andrew R. J. Nelson, Eric Jones, Robert Kern, Eric Larson, CJ Carey,
 İlhan Polat, Yu Feng, Eric W. Moore, Jake VanderPlas, Denis Laxalde,
 Josef Perktold, Robert Cimrman, Ian Henriksen, E.A. Quintero, Charles R Harris,
 Anne M. Archibald, Antônio H. Ribeiro, Fabian Pedregosa, Paul van Mulbregt,
-and SciPy 1.0 Contributors. (2019) **SciPy 1.0--Fundamental Algorithms
-for Scientific Computing in Python**. *preprint* arXiv:1907.10121_
+and SciPy 1.0 Contributors. (2020) **SciPy 1.0: Fundamental Algorithms
+for Scientific Computing in Python**. *Nature Methods*, in press.
 
 Here's an example of a BibTeX entry:
 
 ::
 
-    @ARTICLE{2019arXiv190710121V,
+    @ARTICLE{2020-NMETH,
            author = {{Virtanen}, Pauli and {Gommers}, Ralf and {Oliphant},
              Travis E. and {Haberland}, Matt and {Reddy}, Tyler and
              {Cournapeau}, David and {Burovski}, Evgeni and {Peterson}, Pearu
@@ -45,21 +44,15 @@ Here's an example of a BibTeX entry:
              {Quintero}, E.~A. and {Harris}, Charles R and {Archibald}, Anne M.
              and {Ribeiro}, Ant{\^o}nio H. and {Pedregosa}, Fabian and
              {van Mulbregt}, Paul and {Contributors}, SciPy 1. 0},
-            title = "{SciPy 1.0--Fundamental Algorithms for Scientific
+            title = "{SciPy 1.0: Fundamental Algorithms for Scientific
                       Computing in Python}",
-          journal = {arXiv e-prints},
-             year = "2019",
-            month = "Jul",
-              eid = {arXiv:1907.10121},
-            pages = {arXiv:1907.10121},
-    archivePrefix = {arXiv},
-           eprint = {1907.10121},
-     primaryClass = {cs.MS},
-           adsurl = {https://ui.adsabs.harvard.edu/abs/2019arXiv190710121V},
-          adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+          journal = {Nature Methods},
+             year = "2020",
+           adsurl = {https://rdcu.be/b08Wh},
+           doi = {https://doi.org/10.1038/s41592-019-0686-2},
     }
 
-
+This supersedes the preprint in arXiv:1907.10121_
 .. _arXiv:1907.10121: https://arxiv.org/abs/1907.10121
 
 For any specific algorithm, also consider citing the original author's paper
