@@ -30,7 +30,7 @@ Here's an example of a BibTeX entry:
 
 ::
 
-    @ARTICLE{2020-NMETH,
+    @ARTICLE{2020SciPy-NMeth,
            author = {{Virtanen}, Pauli and {Gommers}, Ralf and {Oliphant},
              Travis E. and {Haberland}, Matt and {Reddy}, Tyler and
              {Cournapeau}, David and {Burovski}, Evgeni and {Peterson}, Pearu
