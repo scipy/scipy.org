@@ -53,6 +53,7 @@ Here's an example of a BibTeX entry:
     }
 
 This supersedes the preprint in arXiv:1907.10121_
+
 .. _arXiv:1907.10121: https://arxiv.org/abs/1907.10121
 
 For any specific algorithm, also consider citing the original author's paper
