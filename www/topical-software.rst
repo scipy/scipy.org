@@ -478,3 +478,4 @@ Miscellaneous
 - `VibrationTesting <http://vibration-testing.github.io/vibrationtesting/>`__: tools for signal processing, model solution, model manipulation, and system and modal identification of linear vibratory systems.
 - `Vibration_Toolbox <http://vibrationtoolbox.github.io/vibration_toolbox/>`__: educational set of tools intended primarily for the demonstration of vibration analysis and phenomenon. You may find them useful for application, but that isn't the intent of this module.
 - `Colour <https://colour-science.org/>`__: a package implementing a comprehensive number of color theory transformations and algorithms.
+- `PyBaMM <https://github.com/pybamm-team/PyBaMM>`_: fast and flexible physics-based battery models.
