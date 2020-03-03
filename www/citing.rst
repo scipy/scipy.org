@@ -47,9 +47,11 @@ Here's an example of a BibTeX entry:
             title = "{SciPy 1.0: Fundamental Algorithms for Scientific
                       Computing in Python}",
           journal = {Nature Methods},
-             year = "2020",
-           adsurl = {https://rdcu.be/b08Wh},
-           doi = {https://doi.org/10.1038/s41592-019-0686-2},
+          year = "2020",
+          volume={17},
+          pages={261--272},
+          adsurl = {https://rdcu.be/b08Wh},
+          doi = {https://doi.org/10.1038/s41592-019-0686-2},
     }
 
 This supersedes the preprint in arXiv:1907.10121_
