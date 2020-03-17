@@ -245,36 +245,6 @@ NumPy 1.18.0rc1 released :news-date:`2019-12-05`
 SciPy user survey results :news-date:`2019-11-13`
     See the survey results `here <https://github.com/mkg33/GSoD/blob/master/user_survey_summary.pdf>`_.
 
-NumPy 1.17.4 released :news-date:`2019-11-10`
-    See :doc:`/scipylib/download`.
-
-SciPy 1.3.2 released :news-date:`2019-11-09`
-    See :doc:`/scipylib/download`.
-
-NumPy 1.17.3 released :news-date:`2019-10-17`
-    See :doc:`/scipylib/download`.
-
-SciPy user survey :news-date:`2019-10-04`
-    `Tell us <http://forms.gle/LGxx5hXzrDyChj38A>`_
-    how we can improve the documentation.
-
-NumPy 1.17.2 released :news-date:`2019-09-06`
-    See :doc:`/scipylib/download`.
-
-NumPy 1.16.5 released :news-date:`2019-08-27`
-    See :doc:`/scipylib/download`.
-
-NumPy 1.17.1 released :news-date:`2019-08-26`
-    See :doc:`/scipylib/download`.
-
-SciPy 1.3.1 released :news-date:`2019-08-08`
-    See :doc:`/scipylib/download`.
-
-NumPy 1.17.0 released :news-date:`2019-07-26`
-    See :doc:`/scipylib/download`.
-
-SciPy 1.3.0 released :news-date:`2019-05-17`
-    See :doc:`/scipylib/download`.
 
 SciPy-NumFOCUS
     SciPy becomes a `NumFOCUS <http://numfocus.org/>`__ fiscally
