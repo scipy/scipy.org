@@ -65,7 +65,7 @@ Start learning
 
 Each package has official tutorials:
 
-- `NumPy User Guide <http://www.numpy.org/devdocs/user/>`_
+- `NumPy User Guide <https://numpy.org/devdocs/user/tutorials_index.html>`_
 
 - `SciPy Tutorial <http://docs.scipy.org/doc/scipy/reference/tutorial/index.html>`_
 
