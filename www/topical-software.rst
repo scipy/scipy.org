@@ -337,6 +337,7 @@ Artificial intelligence and machine learning
 - `PyPR <http://pypr.sourceforge.net>`__: a collection of machine learning methods written in Python: Artificial Neural Networks, Gaussian Processes, Gaussian mixture models, and K-means.
 - `Theano <http://deeplearning.net/software/theano/>`__: A CPU and GPU Math Expression Compiler, Theano is a Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently.
 - `NeuroLab <https://pypi.python.org/pypi/neurolab>`__: Neurolab is a simple and powerful neural networks library for Python.
+- `scikit network <https://scikit-network.readthedocs.io/en/latest/>`__: Python library for the analysis of large graphs, represented as sparse matrices in the CSR format of SciPy.
 
 Bayesian statistics
 -------------------
