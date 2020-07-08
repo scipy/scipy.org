@@ -221,6 +221,9 @@ SciPy 1.5.1 released :news-date:`2020-07-04`
 SciPy 1.5.0 released :news-date:`2020-06-21`
     See :doc:`/scipylib/download`.
 
+NumPy 1.19.0 released :news-date:`2020-06-20`
+    See :doc:`/scipylib/download`.
+
 NumPy 1.18.5 released :news-date:`2020-06-03`
     See :doc:`/scipylib/download`.
 
