@@ -43,6 +43,7 @@ Data and computation:
 
 * pandas_, providing high-performance, easy-to-use data structures.
 * SymPy_, for symbolic mathematics and computer algebra.
+* NetworkX_, is a collection of tools for analyzing complex networks.
 * scikit-image_ is a collection of algorithms for image processing.
 * scikit-learn_ is a collection of algorithms and tools for machine learning.
 * h5py_ and PyTables_ can both access data stored in the HDF5 format.
@@ -71,6 +72,7 @@ Quality assurance:
 .. _Python: https://www.python.org/
 .. _Cython: http://cython.org/
 .. _Scikits: http://scikits.appspot.com/scikits
+.. _NetworkX: https://networkx.github.io/
 .. _scikit-image: http://scikit-image.org/
 .. _scikit-learn: http://scikit-learn.org/
 .. _h5py: http://www.h5py.org
