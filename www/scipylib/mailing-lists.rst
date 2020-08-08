@@ -1,5 +1,5 @@
 =====================================
-NumPy and SciPy project mailing lists
+SciPy and NumPy project mailing lists
 =====================================
 
 The mailing lists are our primary community forum. This is where we
@@ -32,38 +32,25 @@ The following table lists the core NumPy and SciPy lists. Please see
 :ref:`before-you-post` to make sure that this is the right place to ask
 your question.
 
- +----------------------+----------------+---------------+----------------+
- | **NumPy-discussion** |`Read/Search`__ |`Archives`__   |`Subscribe`__   |
- |                      |                |               |                |
- |                      |__ gm-numpy-d_  |__ numpy-d-ar_ |__ numpy-d-su_  |
- +----------------------+----------------+---------------+----------------+
- |   For discussion of *just* the core NumPy package (not SciPy).         |
- +----------------------+----------------+---------------+----------------+
- | **SciPy-user**       |`Read/Search`__ |`Archives`__   |`Subscribe`__   |
- |                      |                |               |                |
- |                      |__ gm-scipy-u_  |__ scipy-u-ar_ |__ scipy-u-su_  |
- +----------------------+----------------+---------------+----------------+
- |   Our user-support forum, for discussions of how to use SciPy.         |
- +----------------------+----------------+---------------+----------------+
- | **SciPy-dev**        |                |`Archives`__   |`Subscribe`__   |
- |                      |                |               |                |
- |                      |                |__ scipy-d-ar_ |__ scipy-d-su_  |
- +----------------------+----------------+---------------+----------------+
- | For discussions about the development of SciPy, including code, website|
- | and documentation.                                                     |
- +----------------------+----------------+---------------+----------------+
- | **NumPy-svn**        |                |`Archives`__   |`Subscribe`__   |
- |                      |                |               |                |
- |                      |                |__ numpy-s-ar_ |__ numpy-s-su_  |
- +----------------------+----------------+---------------+----------------+
- | Commits to the NumPy repository                                        |
- +----------------------+----------------+---------------+----------------+
- | **SciPy-svn**        |                |`Archives`__   |`Subscribe`__   |
- |                      |                |               |                |
- |                      |                |__ scipy-s-ar_ |__ scipy-s-su_  |
- +----------------------+----------------+---------------+----------------+
- | Commits to the SciPy repository                                        |
- +------------------------------------------------------------------------+
++----------------------+----------------+---------------+-------------------+
+| **SciPy-user**       |`Read/Search`__ |`Archives`__   |`Subscribe`__      |
+|                      |                |               |                   |
+|                      |__ gm-scipy-u_  |__ scipy-u-ar_ |__ scipy-u-su_     |
++----------------------+----------------+---------------+-------------------+
+|   *Our user-support forum, for discussions of how to use SciPy.*          |
++----------------------+----------------+---------------+-------------------+
+| **SciPy-dev**        |                |`Archives`__   |`Subscribe`__      |
+|                      |                |               |                   |
+|                      |                |__ scipy-d-ar_ |__ scipy-d-su_     |
++----------------------+----------------+---------------+-------------------+
+| *For discussions about SciPy development (code, website, docs, and more).*|
++----------------------+----------------+---------------+------------------++
+| **NumPy-discussion** |`Read/Search`__ |`Archives`__   |`Subscribe`__      |
+|                      |                |               |                   |
+|                      |__ gm-numpy-d_  |__ numpy-d-ar_ |__ numpy-d-su_     |
++----------------------+----------------+---------------+-------------------+
+|  *For discussion of NumPy*                                                |
++----------------------+----------------+---------------+-------------------+
 
 
 StackOverflow
@@ -155,12 +142,8 @@ A few points on the mailing list etiquette:
 .. _numpy-d-ar: https://mail.python.org/pipermail/numpy-discussion/
 .. _scipy-u-ar: https://mail.python.org/pipermail/scipy-user/
 .. _scipy-d-ar: https://mail.python.org/pipermail/scipy-dev/
-.. _numpy-s-ar: https://mail.python.org/pipermail/numpy-svn/
-.. _scipy-s-ar: https://mail.python.org/pipermail/scipy-svn/
 
 
 .. _numpy-d-su: https://mail.python.org/mailman/listinfo/numpy-discussion
 .. _scipy-u-su: https://mail.python.org/mailman/listinfo/scipy-user
 .. _scipy-d-su: https://mail.python.org/mailman/listinfo/scipy-dev
-.. _numpy-s-su: https://mail.python.org/mailman/listinfo/numpy-svn
-.. _scipy-s-su: https://mail.python.org/mailman/listinfo/scipy-svn
