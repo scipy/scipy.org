@@ -221,8 +221,9 @@ SciPy 1.5.2 released :news-date:`2020-07-23`
 NumPy 1.19.1 released :news-date:`2020-07-21`
     See :doc:`/scipylib/download`.
 
-SciPy 1.5.1 released :news-date:`2020-07-04`
-    See :doc:`/scipylib/download`.
+NumPy survey :news-date:`2020-07-02`
+    The first-ever NumPy community survey is LIVE!
+    See https://numpy.org/news/
 
 SciPy 1.5.0 released :news-date:`2020-06-21`
     See :doc:`/scipylib/download`.
@@ -230,39 +231,16 @@ SciPy 1.5.0 released :news-date:`2020-06-21`
 NumPy 1.19.0 released :news-date:`2020-06-20`
     See :doc:`/scipylib/download`.
 
-NumPy 1.18.5 released :news-date:`2020-06-03`
-    See :doc:`/scipylib/download`.
-
-NumPy 1.19.0rc2 released :news-date:`2020-05-31`
-    See :doc:`/scipylib/download`.
-
-NumPy 1.19.0rc1 released :news-date:`2020-05-18`
-    See :doc:`/scipylib/download`.
-
-NumPy 1.18.4 released :news-date:`2020-05-03`
-    See :doc:`/scipylib/download`.
-
-NumPy 1.18.3 released :news-date:`2020-04-19`
-    See :doc:`/scipylib/download`.
-
-SciPy 1.2.3 released :news-date:`2020-01-21`
-    See :doc:`/scipylib/download`.
-
-NumPy 1.17.5 released :news-date:`2020-01-01`
-    See :doc:`/scipylib/download`.
-
-NumPy 1.16.6 released :news-date:`2019-12-29`
-    See :doc:`/scipylib/download`.
-
-SciPy 1.4.1 released :news-date:`2019-12-19`
-    See :doc:`/scipylib/download`.
-
 SciPy 1.4.0 released :news-date:`2019-12-16`
     See :doc:`/scipylib/download`.
 
+SciPy funding :news-date:`2019-11-15`
+    SciPy, NumPy, Matplotlib, Pandas, scikit-learn, scikit-image, Dask, Zarr
+    and others received functions from the Chan Zuckerberg Initiative!
+    See https://chanzuckerberg.com/eoss/
+
 SciPy user survey results :news-date:`2019-11-13`
     See the survey results `here <https://github.com/mkg33/GSoD/blob/master/user_survey_summary.pdf>`_.
-
 
 SciPy-NumFOCUS
     SciPy becomes a `NumFOCUS <http://numfocus.org/>`__ fiscally
