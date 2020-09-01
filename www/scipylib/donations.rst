@@ -61,14 +61,12 @@ updated in April 2019.*
 Thanks
 ------
 
-SciPy is a community project sponsored by Enthought, Inc.
 SciPy originated with code contributions by Travis Oliphant, Pearu
 Peterson, and Eric Jones.  Travis Oliphant and Eric Jones each contributed
 about half the initial code.  Pearu Peterson developed f2py, which is the
 integral to wrapping the many Fortran libraries used in SciPy.
 
-Below is a partial list of contributors to SciPy.  If you've
-been left off, please email the `SciPy Developers List`_.
+Below is a partial list of contributors to SciPy.
 
 The SciPy development team would like to thank the following individuals for
 submitting issues, bugfixes, enhancements, and development infrastructure:
