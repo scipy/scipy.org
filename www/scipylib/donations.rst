@@ -73,203 +73,206 @@ been left off, please email the `SciPy Developers List`_.
 The SciPy development team would like to thank the following individuals for
 submitting issues, bugfixes, enhancements, and development infrastructure:
 
-- Kumar Appaiah for Dolph Chebyshev window.
-- Nathan Bell for sparsetools, help with scipy.sparse and scipy.splinalg.
-- Robert Cimrman for UMFpack wrapper for sparse matrix module, and implementing the LOBPCG algorithm.
-- David M. Cooke for improvements to system_info, and LBFGSB wrapper.
-- Aric Hagberg for ARPACK wrappers, help with splinalg.eigen.
-- Chuck Harris for Zeros package in optimize (1d root-finding algorithms).
-- Prabhu Ramachandran for improvements to gui_thread.
-- Robert Kern for improvements to stats and bug-fixes.
-- Jean-Sebastien Roy for fmin_tnc code which he adapted from Stephen Nash's original Fortran.
-- Ed Schofield for Maximum entropy and Monte Carlo modules, help with sparse matrix module.
-- Travis Vaught for numerous contributions to annual conference and community web-site and the initial work on stats module clean up.
-- Jeff Whitaker for Mac OS X support.
-- David Cournapeau for bug-fixes, refactoring of fftpack and cluster, implementing the numscons and Bento build support, building Windows binaries and adding single precision FFT.
-- Damian Eads for hierarchical clustering, dendrogram plotting, distance functions in spatial package, vq documentation.
-- Anne Archibald for kd-trees and nearest neighbor in scipy.spatial.
-- Pauli Virtanen for Sphinx documentation generation, online documentation framework and interpolation bugfixes.
-- Josef Perktold for major improvements to scipy.stats and its test suite and fixes and tests to optimize.curve_fit and leastsq.
-- David Morrill for getting the scoreboard test system up and running.
-- Louis Luangkesorn for providing multiple tests for the stats module.
-- Jochen Kupper for the zoom feature in the now-deprecated plt plotting module.
-- Tiffany Kamm for working on the community web-site.
-- Mark Koudritsky for maintaining the web-site.
-- Andrew Straw for help with the web-page, documentation, packaging, testing and work on the linalg module.
-- Stefan van der Walt for numerous bug-fixes, testing and documentation.
-- Jarrod Millman for release management, community coordination, and code clean up.
-- Pierre Gerard-Marchant for statistical masked array functionality.
-- Alan McIntyre for updating SciPy tests to use the new NumPy test framework.
-- Matthew Brett for work on the Matlab file IO, bug-fixes, and improvements to the testing framework.
-- Gary Strangman for the scipy.stats package.
-- Tiziano Zito for generalized symmetric and hermitian eigenvalue problem solver.
-- Chris Burns for bug-fixes.
-- Per Brodtkorb for improvements to stats distributions.
-- Neilen Marais for testing and bug-fixing in the ARPACK wrappers.
-- Johannes Loehnert and Bart Vandereycken for fixes in the linalg module.
-- David Huard for improvements to the interpolation interface.
-- David Warde-Farley for converting the ndimage docs to ReST.
-- Uwe Schmitt for wrapping non-negative least-squares.
-- Ondrej Certik for Debian packaging.
-- Paul Ivanov for porting Numeric-style C code to the new NumPy API.
-- Ariel Rokem for contributions on percentileofscore fixes and tests.
-- Yosef Meller for tests in the optimization module.
-- Ralf Gommers for release management, code clean up and improvements to doc-string generation.
-- Bruce Southey for bug-fixes and improvements to scipy.stats.
-- Ernest Adrogué for the Skellam distribution.
-- Enzo Michelangeli for a fast kendall tau test.
-- David Simcha for a fisher exact test.
-- Warren Weckesser for bug-fixes, cleanups, and several new features.
-- Fabian Pedregosa for linear algebra bug-fixes, new features and refactoring.
-- Jake Vanderplas for wrapping ARPACK's generalized and shift-invert modes and improving its tests.
-- Collin RM Stocks for wrapping pivoted QR decomposition.
-- Martin Teichmann for improving scipy.special.ellipk & agm accuracy, and for linalg.qr_multiply.
-- Jeff Armstrong for discrete state-space and linear time-invariant functionality in scipy.signal, and sylvester/riccati/lyapunov solvers in scipy.linalg.
-- Mark Wiebe for fixing type casting after changes in NumPy.
-- Andrey Smirnov for improvements to FIR filter design.
-- Anthony Scopatz for help with code review and merging.
-- Lars Buitinck for improvements to scipy.sparse and various other modules.
-- Scott Sinclair for documentation improvements and some bug fixes.
-- Gael Varoquaux for cleanups in scipy.sparse.
-- Skipper Seabold for a fix to special.gammainc.
-- Wes McKinney for a fix to special.gamma.
-- Thouis (Ray) Jones for bug fixes in ndimage.
-- Yaroslav Halchenko for a bug fix in ndimage.
-- Thomas Robitaille for the IDL 'save' reader.
-- Fazlul Shahriar for fixes to the NetCDF3 I/O.
-- Chris Jordan-Squire for bug fixes, documentation improvements and scipy.special.logit & expit.
-- Christoph Gohlke for many bug fixes and help with Windows specific issues.
-- Jacob Silterra for cwt-based peak finding in scipy.signal.
-- Denis Laxalde for the unified interface to minimizers in scipy.optimize.
-- David Fong for the sparse LSMR solver.
-- Andreas Hilboll for adding several new interpolation methods.
-- Andrew Schein for improving the numerical precision of norm.logcdf().
-- Robert Gantner for improving expm() implementation.
-- Sebastian Werk for Halley's method in newton().
-- Bjorn Forsman for contributing signal.bode().
-- Tony S. Yu for ndimage improvements.
-- Jonathan J. Helmus for work on ndimage.
-- Alex Reinhart for documentation improvements.
-- Patrick Varilly for cKDTree improvements.
-- Sturla Molden for cKDTree improvements.
-- Nathan Crock for bug fixes.
-- Steven G. Johnson for Faddeeva W and erf* implementations.
-- Lorenzo Luengo for whosmat() in scipy.io.
-- Eric Moore for orthogonal polynomial recurrences in scipy.special.
-- Jacob Stevenson for the basinhopping optimization algorithm
-- Daniel Smith for sparse matrix functionality improvements
-- Gustav Larsson for a bug fix in convolve2d.
-- Alex Griffing for expm 2009, expm_multiply, expm_frechet, trust region optimization methods, and sparse matrix onenormest implementations, plus bugfixes.
-- Nils Werner for signal windowing and wavfile-writing improvements.
-- Kenneth L. Ho for the wrapper around the Interpolative Decomposition code.
-- Juan Luis Cano for refactorings in lti, sparse docs improvements and some trivial fixes.
-- Pawel Chojnacki for simple documentation fixes.
-- Gert-Ludwig Ingold for contributions to special functions.
-- Joris Vankerschaver for multivariate Gaussian functionality.
-- Rob Falck for the SLSQP interface and linprog.
-- Jörg Dietrich for the k-sample Anderson Darling test.
-- Blake Griffith for improvements to scipy.sparse.
-- Andrew Nelson for scipy.optimize.differential_evolution.
-- Brian Newsom for work on ctypes multivariate integration.
-- Nathan Woods for work on multivariate integration.
-- Brianna Laugher for bug fixes.
-- Johannes Kulick for the Dirichlet distribution and the softmax function.
-- Bastian Venthur for bug fixes.
-- Alex Rothberg for stats.combine_pvalues.
-- Brandon Liu for stats.combine_pvalues.
-- Clark Fitzgerald for namedtuple outputs in scipy.stats.
-- Florian Wilhelm for usage of RandomState in scipy.stats distributions.
-- Robert T. McGibbon for Levinson-Durbin Toeplitz solver, Hessian information from L-BFGS-B.
-- Alex Conley for the Exponentially Modified Normal distribution.
-- Abraham Escalante for contributions to scipy.stats
-- Johannes Ballé for the generalized normal distribution.
-- Irvin Probst (ENSTA Bretagne) for pole placement.
-- Ian Henriksen for Cython wrappers for BLAS and LAPACK
-- Fukumu Tsutsumi for bug fixes.
-- J.J. Green for interpolation bug fixes.
-- François Magimel for documentation improvements.
-- Josh Levy-Kramer for the log survival function of the hypergeometric distribution
-- Will Monroe for bug fixes.
-- Bernardo Sulzbach for bug fixes.
-- Alexander Grigorevskiy for adding extra LAPACK least-square solvers and modifying linalg.lstsq function accordingly.
-- Sam Lewis for enhancements to the basinhopping module.
-- Tadeusz Pudlik for documentation and vectorizing spherical Bessel functions.
-- Philip DeBoer for wrapping random SO(N) and adding random O(N) and correlation matrices in scipy.stats.
-- Tyler Reddy and Nikolai Nowaczyk for scipy.spatial.SphericalVoronoi
-- Bill Sacks for fixes to netcdf i/o.
-- Kolja Glogowski for a bug fix in scipy.special.
-- Surhud More for enhancing scipy.optimize.curve_fit to accept covariant errors on data.
-- Antonio H. Ribeiro for implementing iirnotch, iirpeak functions and trust-exact and trust-constr optimization methods.
-- Matt Haberland for improvements to scipy.optimize, scipy.linalg.lapack, and developer documentation.
-- Ilhan Polat for bug fixes on Riccati solvers.
-- Sebastiano Vigna for code in the stats package related to Kendall's tau.
-- John Draper for bug fixes.
-- Alvaro Sanchez-Gonzalez for axis-dependent modes in multidimensional filters.
-- Alessandro Pietro Bardelli for improvements to pdist/cdist and to related tests.
-- Jonathan T. Siebert for bug fixes.
-- Thomas Keck for adding new scipy.stats distributions used in HEP
-- David Nicholson for bug fixes in spectral functions.
-- Roman Feldbauer for improvements in scipy.sparse
-- Dominic Antonacci for statistics documentation.
-- David Hagen for the object-oriented ODE solver interface.
-- Arno Onken for contributions to scipy.stats.
-- Cathy Douglass for bug fixes in ndimage.
-- Adam Cox for contributions to scipy.constants.
-- Charles Masson for the Wasserstein and the Cramér-von Mises statistical distances.
-- Felix Lenders for implementing trust-trlib method.
-- Dezmond Goff for adding optional out parameter to pdist/cdist
-- Nick R. Papior for allowing a wider choice of solvers
-- Sean Quinn for the Moyal distribution
-- Lars Grüter for contributions to peak finding in scipy.signal
-- Jordan Heemskerk for exposing additional windowing functions in scipy.signal.
-- Michael Tartre (Two Sigma Investments) for contributions to weighted distance functions.
-- Shinya Suzuki for scipy.stats.brunnermunzel
-- Graham Clenaghan for bug fixes and optimizations in scipy.stats.
-- Konrad Griessinger for the small sample Kendall test
-- Tony Xiang for improvements in scipy.sparse
-- Roy Zywina for contributions to scipy.fftpack.
-- Christian H. Meyer for bug fixes in subspace_angles.
-- Kai Striega for improvements to the scipy.optimize.linprog simplex method.
-- Josua Sassen for improvements to scipy.interpolate.Rbf
-- Stiaan Gerber for a bug fix in scipy.optimize.
-- Nicolas Hug for the Yeo-Johnson transformation.
-- Idan David for improvements to the log survival function and log cumulative distribution function of the hypergeometric distribution.
-- Petar Mlinarić for a bug fix in scipy.io.mmio.
-- Franz Forstmayr for documentation in scipy.signal
-- Vega Theil Carstensen for a bug fix in scipy.optimize.linesearch.
-- Jordi Montes for initial contribution of the Clarkson-Woodruff sketch.
-- William Conner DiPaolo for improvements to the Clarkson-Woodruff transform.
-- Forrest Collman for adding multi-target dijsktra to scipy.sparse.csgraph
-- Carlos Ramos Carreño for adding support for relational attributes in loadarff.
-- Jason M. Manley for documentation fixes.
-- Aidan Dang for block QR wrappers in scipy.linalg.lapack.
-- Clement Ng for modifying tests in scipy.stats.
-- Fletcher H. Easton for a bug fix in scipy.linalg.interpolative.
-- Christian Brueffer for improvements to code readability/style and documentation.
-- Sambit Panda for integration of multiscale_graphcorr into scipy.stats.
-- Timothy C. Willard for contributions to x-value requirements in scipy.interpolate.
-- Andrew Knyazev, the original author of LOBPCG, for advice on and maintenance of sparse.linalg.lobpcg
-- Angeline G. Burrell for implementing nan_policy in the circular statistics
-- Michael Marien for contributing to scipy.stats.entropy
-- Joseph Weston for a bug fix in scipy.optimize.zeros.
-- Peyton Murray for a bug fix in scipy.optimize.curve_fit.
-- Leo P. Singer for bug fixes in scipy.optimize and scipy.interpolate and contribution of the beta-binomial distribution to scipy.stats.
-- Domen Gorjup and Janko Slavič for continuous wavelet transform with complex wavelets fix.
-- Søren Fuglede Jørgensen for improvements to scipy.sparse.csgraph
-- Grzegorz Mrukwa for a bug fix in rectangular_lsap.cpp
-- Milad Sadeghi.DM for adding khatri_rao matrix product to scipy.linalg.matfuncs.py
-- Santiago Hernandez for a bug fix in scipy.optimize._differentialevolution.py.
-- Dan Kleeman for implementing nan_policy in stats.zscores and winsorize
-- James Wright for simple documentation fixes
-- Paul van Mulbregt for stats (esp. Kolmogorov-Smirnov) and optimize (toms748 root finder).
-- Sam Wallan for scipy.linalg.lapack enhancements
-- Richard Weiss for a bug fix in scipy.optimize._differentialevolution.py.
-- Luigi F. Cruz for adding time/frequency domain option to scipy.signal.resample.
-- Wesley Alves for improvements to scipy.stats.jarque_bera and scipy.stats.shapiro
-- Mark Borgerding for contributing linalg.convolution_matrix.
-- Shashaank N for contributions to scipy.signal.
-- Frank Torres for fixing a bug with solve_bvp for large problems.
-- Ben West for updating the Gamma distribution documentation.
+- Kumar Appaiah
+- Nathan Bell
+- Robert Cimrman
+- David M. Cooke
+- Aric Hagberg
+- Chuck Harris
+- Prabhu Ramachandran
+- Robert Kern
+- Jean-Sebastien Roy
+- Ed Schofield
+- Travis Vaught
+- Jeff Whitaker
+- David Cournapeau
+- Damian Eads
+- Anne Archibald
+- Pauli Virtanen
+- Josef Perktold
+- David Morrill
+- Louis Luangkesorn
+- Jochen Kupper
+- Tiffany Kamm
+- Mark Koudritsky
+- Andrew Straw
+- Stefan van der Walt
+- Jarrod Millman
+- Pierre Gerard-Marchant
+- Alan McIntyre
+- Matthew Brett
+- Gary Strangman
+- Tiziano Zito
+- Chris Burns
+- Per Brodtkorb
+- Neilen Marais
+- Johannes Loehnert
+- Bart Vandereycken
+- David Huard
+- David Warde-Farley
+- Uwe Schmitt
+- Ondrej Certik
+- Paul Ivanov
+- Ariel Rokem
+- Yosef Meller
+- Ralf Gommers
+- Bruce Southey
+- Ernest Adrogué
+- Enzo Michelangeli
+- David Simcha
+- Warren Weckesser
+- Fabian Pedregosa
+- Jake Vanderplas
+- Collin RM Stocks
+- Martin Teichmann
+- Jeff Armstrong
+- Mark Wiebe
+- Andrey Smirnov
+- Anthony Scopatz
+- Lars Buitinck
+- Scott Sinclair
+- Gael Varoquaux
+- Skipper Seabold
+- Wes McKinney
+- Thouis (Ray) Jones
+- Yaroslav Halchenko
+- Thomas Robitaille
+- Fazlul Shahriar
+- Chris Jordan-Squire
+- Christoph Gohlke
+- Jacob Silterra
+- Denis Laxalde
+- David Fong
+- Andreas Hilboll
+- Andrew Schein
+- Robert Gantner
+- Sebastian Werk
+- Bjorn Forsman
+- Tony S. Yu
+- Jonathan J. Helmus
+- Alex Reinhart
+- Patrick Varilly
+- Sturla Molden
+- Nathan Crock
+- Steven G. Johnson
+- Lorenzo Luengo
+- Eric Moore
+- Jacob Stevenson
+- Daniel Smith
+- Gustav Larsson
+- Alex Griffing
+- Nils Werner
+- Kenneth L. Ho
+- Juan Luis Cano
+- Pawel Chojnacki
+- Gert-Ludwig Ingold
+- Joris Vankerschaver
+- Rob Falck
+- Jörg Dietrich
+- Blake Griffith
+- Andrew Nelson
+- Brian Newsom
+- Nathan Woods
+- Brianna Laugher
+- Johannes Kulick
+- Bastian Venthur
+- Alex Rothberg
+- Brandon Liu
+- Clark Fitzgerald
+- Florian Wilhelm
+- Robert T. McGibbon
+- Alex Conley
+- Abraham Escalante
+- Johannes Ballé
+- Irvin Probst
+- Ian Henriksen
+- Fukumu Tsutsumi
+- J.J. Green
+- François Magimel
+- Josh Levy-Kramer
+- Will Monroe
+- Bernardo Sulzbach
+- Alexander Grigorevskiy
+- Sam Lewis
+- Tadeusz Pudlik
+- Philip DeBoer
+- Tyler Reddy
+- Nikolai Nowaczyk
+- Bill Sacks
+- Kolja Glogowski
+- Surhud More
+- Antonio H. Ribeiro
+- Matt Haberland
+- Ilhan Polat
+- Sebastiano Vigna
+- John Draper
+- Alvaro Sanchez-Gonzalez
+- Alessandro Pietro Bardelli
+- Jonathan T. Siebert
+- Thomas Keck
+- David Nicholson
+- Roman Feldbauer
+- Dominic Antonacci
+- David Hagen
+- Arno Onken
+- Cathy Douglass
+- Adam Cox
+- Charles Masson
+- Felix Lenders
+- Dezmond Goff
+- Nick R. Papior
+- Sean Quinn
+- Lars Grüter
+- Jordan Heemskerk
+- Michael Tartre
+- Shinya Suzuki
+- Graham Clenaghan
+- Konrad Griessinger
+- Tony Xiang
+- Roy Zywina
+- Christian H. Meyer
+- Kai Striega
+- Josua Sassen
+- Stiaan Gerber
+- Nicolas Hug
+- Idan David
+- Petar Mlinarić
+- Franz Forstmayr
+- Vega Theil Carstensen
+- Jordi Montes
+- William Conner DiPaolo
+- Forrest Collman
+- Carlos Ramos Carreño
+- Jason M. Manley
+- Aidan Dang
+- Clement Ng
+- Fletcher H. Easton
+- Christian Brueffer
+- Sambit Panda
+- Timothy C. Willard
+- Andrew Knyazev
+- Angeline G. Burrell
+- Michael Marien
+- Joseph Weston
+- Peyton Murray
+- Leo P. Singer
+- Domen Gorjup
+- Janko Slavič
+- Søren Fuglede Jørgensen
+- Grzegorz Mrukwa
+- Milad Sadeghi.DM
+- Santiago Hernandez
+- Dan Kleeman
+- James Wright
+- Paul van Mulbregt
+- Sam Wallan
+- Richard Weiss
+- Luigi F. Cruz
+- Wesley Alves
+- Mark Borgerding
+- Shashaank N
+- Frank Torres
+- Ben West
 
 ..
    # end of page content; list of links below
