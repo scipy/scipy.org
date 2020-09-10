@@ -24,7 +24,7 @@ Andrew R. J. Nelson, Eric Jones, Robert Kern, Eric Larson, CJ Carey,
 Josef Perktold, Robert Cimrman, Ian Henriksen, E.A. Quintero, Charles R Harris,
 Anne M. Archibald, Antônio H. Ribeiro, Fabian Pedregosa, Paul van Mulbregt,
 and SciPy 1.0 Contributors. (2020) **SciPy 1.0: Fundamental Algorithms
-for Scientific Computing in Python**. *Nature Methods*, in press.
+for Scientific Computing in Python**. *Nature Methods*, 17(3), 261-272.
 
 Here's an example of a BibTeX entry:
 
@@ -43,11 +43,11 @@ Here's an example of a BibTeX entry:
              {Perktold}, Josef and {Cimrman}, Robert and {Henriksen}, Ian and
              {Quintero}, E.~A. and {Harris}, Charles R and {Archibald}, Anne M.
              and {Ribeiro}, Ant{\^o}nio H. and {Pedregosa}, Fabian and
-             {van Mulbregt}, Paul and {Contributors}, SciPy 1. 0},
-            title = "{SciPy 1.0: Fundamental Algorithms for Scientific
+             {van Mulbregt}, Paul and {SciPy 1.0 Contributors}},
+            title = "{{SciPy} 1.0: Fundamental Algorithms for Scientific
                       Computing in Python}",
           journal = {Nature Methods},
-          year = "2020",
+          year = {2020},
           volume={17},
           pages={261--272},
           adsurl = {https://rdcu.be/b08Wh},
