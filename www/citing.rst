@@ -97,6 +97,42 @@ NumPy
 __ http://dx.doi.org/10.1109/MCSE.2011.37
 __ http://scitation.aip.org/content/aip/journal/cise/13/2/10.1109/MCSE.2011.37
 
+* Charles R. Harris, K. Jarrod Millman, Stéfan J. van der Walt, Ralf
+  Gommers, Pauli Virtanen, David Cournapeau, Eric Wieser, Julian Taylor,
+  Sebastian Berg, Nathaniel J. Smith, Robert Kern, Matti Picus, Stephan
+  Hoyer, Marten H. van Kerkwijk, Matthew Brett, Allan Haldane, Jaime
+  Fernández del Río, Mark Wiebe, Pearu Peterson, Pierre Gérard-Marchant,
+  Kevin Sheppard, Tyler Reddy, Warren Weckesser, Hameer Abbasi,
+  Christoph Gohlke & Travis E. Oliphant. 
+  **Array programming with NumPy**, Nature, **585**, 357–362 (2020),
+  `DOI:10.1038/s41586-020-2649-2`__ (`publisher link`__)
+
+  __ https://doi.org/10.1038/s41586-020-2649-2
+  __ https://www.nature.com/articles/s41586-020-2649-2
+
+  ::
+
+      @ARTICLE{2020NumPy-Array,
+        author  = {Harris, Charles R. and Millman, K. Jarrod and 
+                  van der Walt, Stéfan J and Gommers, Ralf and 
+                  Virtanen, Pauli and Cournapeau, David and 
+                  Wieser, Eric and Taylor, Julian and Berg, Sebastian and
+                  Smith, Nathaniel J. and Kern, Robert and Picus, Matti and 
+                  Hoyer, Stephan and van Kerkwijk, Marten H. and
+                  Brett, Matthew and Haldane, Allan and 
+                  Fernández del Río, Jaime and Wiebe, Mark and 
+                  Peterson, Pearu and Gérard-Marchant, Pierre and 
+                  Sheppard, Kevin and Reddy, Tyler and Weckesser, Warren and 
+                  Abbasi, Hameer and Gohlke, Christoph and 
+                  Oliphant, Travis E.},
+        title   = {Array programming with NumPy},
+        journal = {Nature},
+        year    = {2020},
+        volume  = {585},
+        pages   = {357–362},
+        doi     = {10.1038/s41586-020-2649-2}
+      }
+
 
 IPython
 #######
