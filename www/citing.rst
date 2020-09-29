@@ -54,84 +54,52 @@ Here's an example of a BibTeX entry:
       doi     = {10.1038/s41592-019-0686-2},
     }
 
-This supersedes the preprint in arXiv:1907.10121_
-
-.. _arXiv:1907.10121: https://arxiv.org/abs/1907.10121
-
 For any specific algorithm, also consider citing the original author's paper
 (this can often be found under the "References" section of the docstring).
-
-
-Scientific computing in Python
-##############################
-
-* Travis E. Oliphant.
-  **Python for Scientific Computing**,
-  Computing in Science & Engineering, **9**, 10-20 (2007),
-  `DOI:10.1109/MCSE.2007.58`__ (`publisher link`__)
-
-__ https://doi.org/10.1109/MCSE.2007.58
-__ http://scitation.aip.org/content/aip/journal/cise/9/3/10.1109/MCSE.2007.58
-
-
-* K. Jarrod Millman and Michael Aivazis. **Python for Scientists and Engineers**,
-  Computing in Science & Engineering, **13**, 9-12 (2011),
-  `DOI:10.1109/MCSE.2011.36`__ (`publisher link`__)
-
-__ https://doi.org/10.1109/MCSE.2011.36
-__ http://scitation.aip.org/content/aip/journal/cise/13/2/10.1109/MCSE.2011.36
 
 
 NumPy
 #####
 
-* Travis E. Oliphant.
-  **A guide to NumPy**,
-  USA: Trelgol Publishing, (2006).
+There is now a journal article available for citing usage of NumPy:
 
-* Stéfan van der Walt, S. Chris Colbert and Gaël Varoquaux.
-  **The NumPy Array: A Structure for Efficient Numerical Computation**,
-  Computing in Science & Engineering, **13**, 22-30 (2011),
-  `DOI:10.1109/MCSE.2011.37`__ (`publisher link`__)
+Charles R. Harris, K. Jarrod Millman, Stéfan J. van der Walt, Ralf
+Gommers, Pauli Virtanen, David Cournapeau, Eric Wieser, Julian Taylor,
+Sebastian Berg, Nathaniel J. Smith, Robert Kern, Matti Picus, Stephan
+Hoyer, Marten H. van Kerkwijk, Matthew Brett, Allan Haldane, Jaime
+Fernández del Río, Mark Wiebe, Pearu Peterson, Pierre Gérard-Marchant,
+Kevin Sheppard, Tyler Reddy, Warren Weckesser, Hameer Abbasi,
+Christoph Gohlke & Travis E. Oliphant.
+**Array programming with NumPy**, Nature, **585**, 357–362 (2020),
+`DOI:10.1038/s41586-020-2649-2`__ (`publisher link`__)
 
-__ http://dx.doi.org/10.1109/MCSE.2011.37
-__ http://scitation.aip.org/content/aip/journal/cise/13/2/10.1109/MCSE.2011.37
+__ https://doi.org/10.1038/s41586-020-2649-2
+__ https://www.nature.com/articles/s41586-020-2649-2
 
-* Charles R. Harris, K. Jarrod Millman, Stéfan J. van der Walt, Ralf
-  Gommers, Pauli Virtanen, David Cournapeau, Eric Wieser, Julian Taylor,
-  Sebastian Berg, Nathaniel J. Smith, Robert Kern, Matti Picus, Stephan
-  Hoyer, Marten H. van Kerkwijk, Matthew Brett, Allan Haldane, Jaime
-  Fernández del Río, Mark Wiebe, Pearu Peterson, Pierre Gérard-Marchant,
-  Kevin Sheppard, Tyler Reddy, Warren Weckesser, Hameer Abbasi,
-  Christoph Gohlke & Travis E. Oliphant. 
-  **Array programming with NumPy**, Nature, **585**, 357–362 (2020),
-  `DOI:10.1038/s41586-020-2649-2`__ (`publisher link`__)
+Here's an example of a BibTeX entry:
 
-  __ https://doi.org/10.1038/s41586-020-2649-2
-  __ https://www.nature.com/articles/s41586-020-2649-2
+::
 
-  ::
-
-      @ARTICLE{2020NumPy-Array,
-        author  = {Harris, Charles R. and Millman, K. Jarrod and 
-                  van der Walt, Stéfan J and Gommers, Ralf and 
-                  Virtanen, Pauli and Cournapeau, David and 
-                  Wieser, Eric and Taylor, Julian and Berg, Sebastian and
-                  Smith, Nathaniel J. and Kern, Robert and Picus, Matti and 
-                  Hoyer, Stephan and van Kerkwijk, Marten H. and
-                  Brett, Matthew and Haldane, Allan and 
-                  Fernández del Río, Jaime and Wiebe, Mark and 
-                  Peterson, Pearu and Gérard-Marchant, Pierre and 
-                  Sheppard, Kevin and Reddy, Tyler and Weckesser, Warren and 
-                  Abbasi, Hameer and Gohlke, Christoph and 
-                  Oliphant, Travis E.},
-        title   = {Array programming with NumPy},
-        journal = {Nature},
-        year    = {2020},
-        volume  = {585},
-        pages   = {357–362},
-        doi     = {10.1038/s41586-020-2649-2}
-      }
+    @ARTICLE{2020NumPy-Array,
+      author  = {Harris, Charles R. and Millman, K. Jarrod and
+                van der Walt, Stéfan J and Gommers, Ralf and
+                Virtanen, Pauli and Cournapeau, David and
+                Wieser, Eric and Taylor, Julian and Berg, Sebastian and
+                Smith, Nathaniel J. and Kern, Robert and Picus, Matti and
+                Hoyer, Stephan and van Kerkwijk, Marten H. and
+                Brett, Matthew and Haldane, Allan and
+                Fernández del Río, Jaime and Wiebe, Mark and
+                Peterson, Pearu and Gérard-Marchant, Pierre and
+                Sheppard, Kevin and Reddy, Tyler and Weckesser, Warren and
+                Abbasi, Hameer and Gohlke, Christoph and
+                Oliphant, Travis E.},
+      title   = {Array programming with {NumPy}},
+      journal = {Nature},
+      year    = {2020},
+      volume  = {585},
+      pages   = {357–362},
+      doi     = {10.1038/s41586-020-2649-2}
+    }
 
 
 IPython
@@ -226,3 +194,24 @@ SymPy
   (`publisher link`__)
 
 __ https://doi.org/10.7717/peerj-cs.103
+
+
+Scientific computing in Python
+##############################
+
+* Travis E. Oliphant.
+  **Python for Scientific Computing**,
+  Computing in Science & Engineering, **9**, 10-20 (2007),
+  `DOI:10.1109/MCSE.2007.58`__ (`publisher link`__)
+
+__ https://doi.org/10.1109/MCSE.2007.58
+__ http://scitation.aip.org/content/aip/journal/cise/9/3/10.1109/MCSE.2007.58
+
+
+* K. Jarrod Millman and Michael Aivazis. **Python for Scientists and Engineers**,
+  Computing in Science & Engineering, **13**, 9-12 (2011),
+  `DOI:10.1109/MCSE.2011.36`__ (`publisher link`__)
+
+__ https://doi.org/10.1109/MCSE.2011.36
+__ http://scitation.aip.org/content/aip/journal/cise/13/2/10.1109/MCSE.2011.36
+
