@@ -104,7 +104,7 @@ particular, these are some of the core packages:
   <div class="thumbnail">
   <div class="pull-left img">
     <a href="http://numpy.org">
-    <img alt="numpy" src="_static/images/numpylogo_med.png" width="64">
+    <img alt="numpy" src="_static/images/numpylogoicon.png" width="64">
     </a>
   </div>
   <div class="img-label">
