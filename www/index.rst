@@ -230,33 +230,6 @@ NumPy 1.19.5 released :news-date:`2021-01-05`
 SciPy 1.6.0 released :news-date:`2020-12-31`
     See :doc:`/scipylib/download`.
 
-NumPy 1.20.0rc2 released :news-date:`2020-12-24`
-    See :doc:`/scipylib/download`.
-
-NumPy 1.20.0rc1 released :news-date:`2020-12-03`
-    See :doc:`/scipylib/download`.
-
-SciPy 1.5.4 released :news-date:`2020-11-04`
-    See :doc:`/scipylib/download`.
-
-NumPy 1.19.4 released :news-date:`2020-11-02`
-    See :doc:`/scipylib/download`.
-
-NumPy 1.19.3 released :news-date:`2020-10-28`
-    See :doc:`/scipylib/download`.
-
-SciPy 1.5.3 released :news-date:`2020-10-17`
-    See :doc:`/scipylib/download`.
-
-NumPy 1.19.2 released :news-date:`2020-09-10`
-    See :doc:`/scipylib/download`.
-
-SciPy 1.5.2 released :news-date:`2020-07-23`
-    See :doc:`/scipylib/download`.
-
-NumPy 1.19.1 released :news-date:`2020-07-21`
-    See :doc:`/scipylib/download`.
-
 NumPy survey :news-date:`2020-07-02`
     The first-ever NumPy community survey is LIVE!
     See https://numpy.org/news/
