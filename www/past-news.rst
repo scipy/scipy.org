@@ -8,6 +8,27 @@ Past News
 .. role:: news-date
    :class: news-date
 
+SciPy 1.5.4 released :news-date:`2020-11-04`
+    See :doc:`/scipylib/download`.
+
+NumPy 1.19.4 released :news-date:`2020-11-02`
+    See :doc:`/scipylib/download`.
+
+NumPy 1.19.3 released :news-date:`2020-10-28`
+    See :doc:`/scipylib/download`.
+
+SciPy 1.5.3 released :news-date:`2020-10-17`
+    See :doc:`/scipylib/download`.
+
+NumPy 1.19.2 released :news-date:`2020-09-10`
+    See :doc:`/scipylib/download`.
+
+SciPy 1.5.2 released :news-date:`2020-07-23`
+    See :doc:`/scipylib/download`.
+
+NumPy 1.19.1 released :news-date:`2020-07-21`
+    See :doc:`/scipylib/download`.
+
 SciPy 1.5.1 released :news-date:`2020-07-04`
     See :doc:`/scipylib/download`.
 
