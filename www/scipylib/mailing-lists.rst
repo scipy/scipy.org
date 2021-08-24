@@ -62,21 +62,6 @@ Usage questions can, of course, also be asked on the ``scipy-user`` or
 ``numpy-discussion`` lists.
 
 
-IRC
----
-
-There is also an IRC chat channel `#scipy <scipy-irc_>`__ on ``irc.freenode.net``.
-This channel can be used for usage questions and getting help with SciPy and
-related packages from other community members. It is not meant for discussing
-the development of SciPy itself; that happens on the ``scipy-dev`` mailing list.
-
-If you are new to IRC, you may be interested in reading
-`How to get useful help on IRC <debian-irchelp_>`__.
-
-.. _scipy-irc: https://webchat.freenode.net?channels=%23scipy
-
-.. _debian-irchelp: https://wiki.debian.org/GettingHelpOnIrc
-
 .. _before-you-post:
 
 Before you post
