@@ -113,7 +113,7 @@ A few points on the mailing list etiquette:
   Please keep the tone of conversations cordial and respectful, and
   recognize that those responding to your questions are volunteering
   their free time to do so. The `SciPy code of conduct <scipy-coc_>`__ applies on
-  SciPy lists and IRC.
+  SciPy lists and GitHub.
 
 .. _Nabble: http://www.nabble.com
 .. _matplotlib: http://matplotlib.org/
