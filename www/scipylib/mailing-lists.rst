@@ -6,11 +6,6 @@ The mailing lists are our primary community forum. This is where we
 organize projects, announce new releases, plan future directions, and give and
 receive user support.
 
-**Searching a list** is a great way to get your questions answered without
-actually signing up for a list. Follow the **Read/Search** link for a nice
-interface from Nabble_. Or, browse the old fashioned way at the official
-**Archives** link.
-
 To post to a list, you have to be on it. If you want to see **how much
 traffic** a list gets, just go to the list archive and take a look. You can opt
 to receive messages in digest form. Groups of about 10 messages are sent in
