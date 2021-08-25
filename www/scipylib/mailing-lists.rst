@@ -6,11 +6,6 @@ The mailing lists are our primary community forum. This is where we
 organize projects, announce new releases, plan future directions, and give and
 receive user support.
 
-**Searching a list** is a great way to get your questions answered without
-actually signing up for a list. Follow the **Read/Search** link for a nice
-interface from Nabble_. Or, browse the old fashioned way at the official
-**Archives** link.
-
 To post to a list, you have to be on it. If you want to see **how much
 traffic** a list gets, just go to the list archive and take a look. You can opt
 to receive messages in digest form. Groups of about 10 messages are sent in
@@ -32,25 +27,25 @@ The following table lists the core NumPy and SciPy lists. Please see
 :ref:`before-you-post` to make sure that this is the right place to ask
 your question.
 
-+----------------------+----------------+---------------+-------------------+
-| **SciPy-user**       |`Read/Search`__ |`Archives`__   |`Subscribe`__      |
-|                      |                |               |                   |
-|                      |__ gm-scipy-u_  |__ scipy-u-ar_ |__ scipy-u-su_     |
-+----------------------+----------------+---------------+-------------------+
++--------------------------------------+------------------+-----------------+
+| **SciPy-user**                       |`Archives`__      |`Subscribe`__    |
+|                                      |                  |                 |
+|                                      |__ scipy-u-ar_    |__ scipy-u-su_   |
++--------------------------------------+------------------+-----------------+
 |   *Our user-support forum, for discussions of how to use SciPy.*          |
-+----------------------+----------------+---------------+-------------------+
-| **SciPy-dev**        |                |`Archives`__   |`Subscribe`__      |
-|                      |                |               |                   |
-|                      |                |__ scipy-d-ar_ |__ scipy-d-su_     |
-+----------------------+----------------+---------------+-------------------+
++--------------------------------------+------------------+-----------------+
+| **SciPy-dev**                        |`Archives`__      |`Subscribe`__    |
+|                                      |                  |                 |
+|                                      |__ scipy-d-ar_    |__ scipy-d-su_   |
++--------------------------------------+------------------+-----------------+
 | *For discussions about SciPy development (code, website, docs, and more).*|
-+----------------------+----------------+---------------+------------------++
-| **NumPy-discussion** |`Read/Search`__ |`Archives`__   |`Subscribe`__      |
-|                      |                |               |                   |
-|                      |__ gm-numpy-d_  |__ numpy-d-ar_ |__ numpy-d-su_     |
-+----------------------+----------------+---------------+-------------------+
++--------------------------------------+------------------+-----------------+
+| **NumPy-discussion**                 |`Archives`__      |`Subscribe`__    |
+|                                      |                  |                 |
+|                                      |__ numpy-d-ar_    |__ numpy-d-su_   |
++--------------------------------------+------------------+-----------------+
 |  *For discussion of NumPy*                                                |
-+----------------------+----------------+---------------+-------------------+
++--------------------------------------+------------------+-----------------+
 
 
 StackOverflow
@@ -61,21 +56,6 @@ with ``numpy`` or ``scipy``, and with ``python``.
 Usage questions can, of course, also be asked on the ``scipy-user`` or
 ``numpy-discussion`` lists.
 
-
-IRC
----
-
-There is also an IRC chat channel `#scipy <scipy-irc_>`__ on ``irc.freenode.net``.
-This channel can be used for usage questions and getting help with SciPy and
-related packages from other community members. It is not meant for discussing
-the development of SciPy itself; that happens on the ``scipy-dev`` mailing list.
-
-If you are new to IRC, you may be interested in reading
-`How to get useful help on IRC <debian-irchelp_>`__.
-
-.. _scipy-irc: https://webchat.freenode.net?channels=%23scipy
-
-.. _debian-irchelp: https://wiki.debian.org/GettingHelpOnIrc
 
 .. _before-you-post:
 
@@ -128,16 +108,13 @@ A few points on the mailing list etiquette:
   Please keep the tone of conversations cordial and respectful, and
   recognize that those responding to your questions are volunteering
   their free time to do so. The `SciPy code of conduct <scipy-coc_>`__ applies on
-  SciPy lists and IRC.
+  SciPy lists and GitHub.
 
 .. _Nabble: http://www.nabble.com
 .. _matplotlib: http://matplotlib.org/
 .. _IPython: http://ipython.org/
 .. _StackOverflow: http://stackoverflow.com
 .. _scipy-coc: https://docs.scipy.org/doc/scipy-dev/reference/dev/conduct/code_of_conduct.html
-
-.. _gm-numpy-d: http://numpy-discussion.10968.n7.nabble.com
-.. _gm-scipy-u: http://scipy-user.10969.n7.nabble.com
 
 .. _numpy-d-ar: https://mail.python.org/pipermail/numpy-discussion/
 .. _scipy-u-ar: https://mail.python.org/pipermail/scipy-user/
