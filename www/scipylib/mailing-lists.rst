@@ -116,9 +116,9 @@ A few points on the mailing list etiquette:
 .. _StackOverflow: http://stackoverflow.com
 .. _scipy-coc: https://docs.scipy.org/doc/scipy-dev/reference/dev/conduct/code_of_conduct.html
 
-.. _numpy-d-ar: https://mail.python.org/pipermail/numpy-discussion/
-.. _scipy-u-ar: https://mail.python.org/pipermail/scipy-user/
-.. _scipy-d-ar: https://mail.python.org/pipermail/scipy-dev/
+.. _numpy-d-ar: https://mail.python.org/archives/list/numpy-discussion@python.org/
+.. _scipy-u-ar: https://mail.python.org/archives/list/scipy-user@python.org/
+.. _scipy-d-ar: https://mail.python.org/archives/list/scipy-dev@python.org/
 
 
 .. _numpy-d-su: https://mail.python.org/mailman/listinfo/numpy-discussion
