@@ -1,0 +1,38 @@
+version: 2.1
+
+jobs:
+  build:
+    working_directory: ~/repo
+    docker:
+      - image: cibuilds/hugo:latest
+
+    steps:
+      - checkout
+
+      - run:
+          name: Install hugo theme
+          command: git submodule update --init --recursive
+
+      - run:
+          name: Build site
+          command: |
+            sed -i '/theme/a uglyurls: true' config.yaml
+            sed -i '/uglyurls/a relativeURLs: true' config.yaml
+            sed -i 's/\"\/\"/\"\/index.html\"/g' config.yaml
+            sed -i 's/\/install/\/install.html/g' config.yaml
+            sed -i 's/\/download/\/download.html/g' config.yaml
+            sed -i 's/\/mailing-lists/\/mailing-lists.html/g' config.yaml
+            sed -i 's/\/bug-report/\/bug-report.html/g' config.yaml
+            sed -i 's/\/citing-scipy/\/citing-scipy.html/g' config.yaml
+            sed -i 's/\/donations/\/donations.html/g' config.yaml
+            sed -i 's/\/dev-zone/\/dev-zone.html/g' config.yaml
+            sed -i 's/\/faq/\/faq.html/g' config.yaml
+            sed -i 's/\/gethelp/\/gethelp.html/g' config.yaml
+            sed -i 's/\/terms/\/terms.html/g' config.yaml
+            sed -i 's/\/privacy/\/privacy.html/g' config.yaml
+            sed -i 's/\/press-kit/\/press-kit.html/g' config.yaml
+            sed -i 's/\/news/\/news.html/g' config.yaml
+            hugo
+
+      - store_artifacts:
+          path: public/

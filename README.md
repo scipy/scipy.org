@@ -1,30 +1,17 @@
-# Scipy.org Website Source Code
- 
-This repository contains the Sphinx source for the [SciPy website](http://www.scipy.org/).
+# scipy.org
 
-After cloning this repository, run
+## Build
 
 ```
-$ git submodule init
-$ git submodule update
+git submodule update --init --recursive
+make hugo
 ```
 
-to get the Sphinx theme used.
+The pages are in `public/`.
 
-The source is in the `www` directory, `cd` there, then the following
-commands apply:
+To run the development server, which hosts the site and recompiles
+automatically on edits:
 
-To make a local build of the website
-
-`$ cd www`  
-`$ make html`
-
-To build and upload the site (requires ssh access to www.scipy.org,
-and if you're on macOS then upgrade rsync with Homebrew first):
-
-`$ make upload USERNAME=myusername`  
-
-To test external links from the site
-
-`$ make linkcheck`
-
+```
+make serve
+```
