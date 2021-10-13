@@ -55,59 +55,7 @@ rows:
     - colspan: 3
       text: For discussions about SciPy development (code, website, docs, and more).
 
-  - columns:
-    - "**NumPy-discussion**"
-    - "[Archives](https://mail.python.org/archives/list/numpy-discussion@python.org/)"
-    - "[Subscribe](https://mail.python.org/mailman/listinfo/numpy-discussion/)"
-
-  - columns:
-    - colspan: 3
-      text: For discussion of NumPy.
-
 {{< /yamlToTable >}}
-
-<!--
-+-----------------------------------+----------------+----------------+
-| **SciPy-user**                    | [Archives]{.   | [Subscribe]{.  |
-|                                   | title-ref}\_\_ | title-ref}\_\_ |
-|                                   |                |                |
-|                                   | \_\_           | \_\_           |
-|                                   | [sc            | [scipy-u-      |
-|                                   | ipy-u-ar](http | su](https://ma |
-|                                   | s://mail.pytho | il.python.org/ |
-|                                   | n.org/pipermai | mailman/listin |
-|                                   | l/scipy-user/) | fo/scipy-user) |
-+-----------------------------------+----------------+----------------+
-| > \*Our user-support forum, for   | ions of how to | SciPy.\*       |
-| > discuss                         | use            |                |
-+-----------------------------------+----------------+----------------+
-| **SciPy-dev**                     | [Archives]{.   | [Subscribe]{.  |
-|                                   | title-ref}\_\_ | title-ref}\_\_ |
-|                                   |                |                |
-|                                   | \_\_           | \_\_           |
-|                                   | [s             | [scipy-d       |
-|                                   | cipy-d-ar](htt | -su](https://m |
-|                                   | ps://mail.pyth | ail.python.org |
-|                                   | on.org/piperma | /mailman/listi |
-|                                   | il/scipy-dev/) | nfo/scipy-dev) |
-+-----------------------------------+----------------+----------------+
-| \*For discussions about SciPy     | nt (code,      | docs, and      |
-| developme                         | website,       | more).\*       |
-+-----------------------------------+----------------+----------------+
-| **NumPy-discussion**              | [Archives]{.   | [Subscribe]{.  |
-|                                   | title-ref}\_\_ | title-ref}\_\_ |
-|                                   |                |                |
-|                                   | \_\_           | \_\_           |
-|                                   | [numpy-d-      | [              |
-|                                   | ar](https://ma | numpy-d-su](ht |
-|                                   | il.python.org/ | tps://mail.pyt |
-|                                   | pipermail/nump | hon.org/mailma |
-|                                   | y-discussion/) | n/listinfo/num |
-|                                   |                | py-discussion) |
-+-----------------------------------+----------------+----------------+
-| > *For discussion of NumPy*       |                |                |
-+-----------------------------------+----------------+----------------+
--->
 
 # StackOverflow
 
