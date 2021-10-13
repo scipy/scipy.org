@@ -94,11 +94,6 @@ using dnf:
 Mac doesn\'t have a preinstalled package manager, but there are a couple
 of popular package managers you can install.
 
-For Python 3.5 with [Macports](https://www.macports.org) , execute this
-command in a terminal:
-
-    sudo port install py35-numpy py35-scipy py35-matplotlib py35-ipython +notebook py35-pandas py35-sympy py35-nose
-
 [Homebrew](https://brew.sh/) has an incomplete coverage of the SciPy
 ecosystem, but does install these packages:
 

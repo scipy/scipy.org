@@ -7,7 +7,9 @@ sidebar: false
 
 This is a distributed, volunteer project and we welcome additional
 contributors. If you\'re keen to help out, a good start is to monitor
-the [mailing lists]({{< ref "/mailing-lists" >}}).
+the [mailing lists]({{< ref "/mailing-lists" >}}) and
+[SciPy library bug
+         reports](https://github.com/scipy/scipy/issues).
 You\'ll soon begin to recognize the areas where your assistance and
 expertise can make a difference.
 
@@ -39,10 +41,6 @@ capabilities. You need NumPy for SciPy to work.
   SciPy   Code repository         <https://github.com/scipy/scipy>
   ------- ----------------------- ---------------------------------------
 
-Interested people can get repository write access as well. This usually
-requires a developer \"vouching\" for you, which happens more easily if
-you already made a number of patch contributions.
-
 # On packaging
 
 For the majority of users who do not want to build the code from source,
@@ -54,7 +52,7 @@ job.
 
 A releasable tarball gets made from the sources following a
 straightforward procedure (see
-[HOWTO\_RELEASE.txt](https://github.com/numpy/numpy/blob/master/doc/HOWTO_RELEASE.rst.txt)).
+[core-dev\releasing.rst.inc](http://scipy.github.io/devdocs/dev/core-dev/index.html#making-a-scipy-release)).
 To make an official release to the community, the release manager
 typically makes a series of test releases and announces them on the
 mailing lists. After getting feedback, the release manager makes a final

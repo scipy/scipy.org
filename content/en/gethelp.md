@@ -3,11 +3,11 @@ title: Get Help
 sidebar: false
 ---
 
-**User questions:** The best way to get help is to post your question to a site
+**User questions:** The best way to get help is to post your question to
+the [user mailing list](https://mail.python.org/archives/list/scipy-user@python.org/)
+or a site
 like [StackOverflow](http://stackoverflow.com/questions/tagged/scipy), with
-thousands of users available to answer.  Smaller alternatives include
-[IRC](https://webchat.freenode.net/?channels=%23scipy) and
-[Reddit](https://www.reddit.com/r/Scipy/). We wish we could keep an eye on
+thousands of users available to answer. We wish we could keep an eye on
 these sites, or answer questions directly, but the volume is just a little
 overwhelming!
 
@@ -20,16 +20,3 @@ see [Developer Zone](/dev-zone).
 
 A forum for asking usage questions, e.g. "How do I do X in SciPy?”. Please [use the `#scipy` tag](https://stackoverflow.com/help/tagging)
 
-***
-
-# [Reddit](https://www.reddit.com/r/Scipy/)
-
-Another forum for usage questions.
-
-***
-
-# [IRC](https://webchat.freenode.net/?channels=%23scipy)
-
-Another real-time chat room where users and community members help each other.
-
-***
