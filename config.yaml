@@ -2,7 +2,6 @@ baseURL: https://scipy.scientific-python.org/
 languageCode: en-us
 theme: scientific-python-hugo-theme
 disableKinds: ["taxonomyTerm"]
-googleAnalytics: UA-162151853-1
 DefaultContentLanguage: en
 markup:
   goldmark:
@@ -11,8 +10,8 @@ markup:
 
 # Uncomment this to disable the translations for the specified languages.
 # This may be useful to be able to merge partial translations without deploying
-# them to numpy.org immediately.
-disableLanguages: ["pt", "ja"]
+# them to scipy.org immediately.
+# disableLanguages: ["pt", "ja"]
 
 params:
   images:
@@ -51,26 +50,6 @@ languages:
         title: SciPy 1.7.1 released
         content: 2021-08-01
         url: /news
-
-      #shell:
-      #  title: placeholder
-
-      #  promptlabel: interactive shell prompt
-
-      #  button:
-      #  - label: Enables the interactive tutorial shell
-      #    text: Enable
-
-      #shellcontent:
-      #  intro:
-      #  - title: Try SciPy
-      #    text: Enable the interactive shell
-
-      #  loading:
-      #  - title: While we wait...
-      #    text: Launching container on mybinder.org...
-
-      #  docslink: Don't forget to check out the <a href="https://docs.scipy.org/doc/scipy/reference/" target="_blank">docs</a>.
 
       keyfeatures:
         features:
