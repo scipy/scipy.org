@@ -1,55 +1,37 @@
-# type `make help` to see all options 
+HTMLDIR=public
+USERNAME=rgommers
 
-# If you have naively forked this repo, say to
-# github.com://myname/numpy.org.git, you can test out the build via
-# make TARGET=myname BASEURL=https://myname.github.io/numpy.org deploy
-
-TARGET ?= origin
-BASEURL ?= 
+BASEURL ?=
 
 ifdef BASEURL
-	BASEURLARG=-b $(BASEURL)
-endif 
+        BASEURLARG=-b $(BASEURL)
+endif
 
-all: build
+.PHONY: help clean html
 
-.PHONY: serve html clean deploy help
 
-.SILENT: # remove this to see the commands executed
-
-serve: public ## serve the website
-	hugo --i18n-warnings server -D
-
-public: ## create a worktree branch in the public directory
-	git worktree add -B gh-pages public $(TARGET)/gh-pages
-	rm -rf public/*
-
-html: public ## build the website in ./public
-	hugo $(BASEURLARG)
-	touch public/.nojekyll
-
-public/.nojekyll: html
+help:
+	@echo "Please use \`make <target>' where <target> is one of"
+	@echo "  upload USERNAME=user   to upload the generated pages to scipy.org"
+	@echo "  html                   to make standalone HTML files"
 
 clean: ## remove the build artifacts, mainly the "public" directory
-	rm -rf public
-	git worktree prune
-	rm -rf .git/worktrees/public
+	rm -rf $(HTMLDIR)
 
-deploy: public/.nojekyll ## push the built site to the gh-pages of this repo
-	cd public && git add --all && git commit -m"Publishing to gh-pages"
-	@echo pushint to $(TARGET) gh-pages
-	git push $(TARGET) gh-pages
+upload: html
+	# SSH must be correctly configured for this to work.
+	# cp .htaccess $(HTMLDIR)
+	chmod -R a+rX $(HTMLDIR)
+	rsync -og --chown=www-data:www-data --delete-after -r \
+	    --exclude '.git' $(HTMLDIR) \
+	    $(USERNAME)@scipy.org:/var/www/html
 
-hugo: ## for local development
+html: ## build the website in ./public
 	hugo $(BASEURLARG)
 
-# Add help text after each target name starting with '\#\#'
-help:   ## Show this help.
-	@echo "\nHelp for this makefile"
-	@echo "Possible commands are:"
-	@grep -h "##" $(MAKEFILE_LIST) | grep -v grep | sed -e 's/\(.*\):.*##\(.*\)/    \1: \2/'
-	@echo 
-	@echo If you have naively forked this repo, say to
-	@echo github.com://myname/numpy.org.git, you can test out the build via
-	@echo make TARGET=myname BASEURL=https://myname.github.io/numpy.org deploy
- 
+serve:
+	@hugo --i18n-warnings --buildDrafts server
+
+
+serve-dev:
+	@hugo --i18n-warnings --buildDrafts server --disableFastRender
