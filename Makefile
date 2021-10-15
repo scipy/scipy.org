@@ -18,15 +18,10 @@ help:
 clean: ## remove the build artifacts, mainly the "public" directory
 	rm -rf $(HTMLDIR)
 
-upload: html
-	# SSH must be correctly configured for this to work.
-	# cp .htaccess $(HTMLDIR)
-	chmod -R a+rX $(HTMLDIR)
-	rsync -og --chown=www-data:www-data --delete-after -r \
-	    --exclude '.git' $(HTMLDIR) \
-	    $(USERNAME)@scipy.org:/var/www/html
+prepare: clean
+	git submodule update --init --recursive
 
-html: ## build the website in ./public
+html: prepare ## build the website in ./public
 	hugo $(BASEURLARG)
 
 serve:
