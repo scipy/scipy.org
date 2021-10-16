@@ -73,7 +73,7 @@ languages:
       - title: Install
         url: /install
       - title: Documentation
-        url: https://docs.scipy.org/doc/scipy/reference/
+        url: https://scipy.github.io/devdocs/index.html
       - title: Download
         url: /download
       - title: Mailing Lists
@@ -93,17 +93,17 @@ languages:
             - text: Install
               link: /install
             - text: Documentation
-              link: https://docs.scipy.org/doc/scipy/reference/
+              link: https://scipy.github.io/devdocs/index.html
             - text: Citing SciPy
               link: /citing-scipy
             - text: Roadmap
-              link: https://docs.scipy.org/doc/scipy/reference/dev/roadmap.html
+              link: https://scipy.github.io/devdocs/dev/roadmap.html
             - text: Donate
               link: /donations
         column2:
           links:
             - text: About Us
-              link: https://docs.scipy.org/doc/scipy/reference/dev/governance/people.html
+              link: https://scipy.github.io/devdocs/dev/governance/people.html
             - text: Code of Conduct
               link: http://scipy.github.io/devdocs/dev/conduct/code_of_conduct.html
             - text: Developer Zone

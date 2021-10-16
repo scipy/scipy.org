@@ -46,7 +46,7 @@ To check out the latest **SciPy** sources:
 
 Build instructions for SciPy can be found in its documentation. The
 latest version can be found at:
-<https://docs.scipy.org/doc/scipy-dev/reference/building/index.html>
+<https://scipy.github.io/devdocs/building/index.html>
 
 # Third-party/vendor package managers
 

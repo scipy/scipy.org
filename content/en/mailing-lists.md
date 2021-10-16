@@ -117,5 +117,5 @@ A few points on the mailing list etiquette:
     Please keep the tone of conversations cordial and respectful, and
     recognize that those responding to your questions are volunteering
     their free time to do so. The [SciPy code of
-    conduct](https://docs.scipy.org/doc/scipy-dev/reference/dev/conduct/code_of_conduct.html)
+    conduct](http://scipy.github.io/devdocs/dev/conduct/code_of_conduct.html)
     applies on SciPy lists and GitHub.
