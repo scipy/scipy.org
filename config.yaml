@@ -110,10 +110,12 @@ languages:
               link: /dev-zone
             - text: Mailing Lists
               link: /mailing-lists
-            - text: FAQ
-              link: /faq
+            - text: SciPy Conference
+              link: https://conference.scipy.org/
         column3:
           links:
+            - text: FAQ
+              link: /faq
             - text: Get Help
               link: /gethelp
             - text: Terms of Use
