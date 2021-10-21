@@ -15,31 +15,21 @@ found SciPy useful in your work, research, or company, please consider
 making a donation to the project commensurate with your resources. Any
 amount helps!
 
-If you are interested in donating to the project, you can use the
-*PayPal* button below or click the \"Support NumFOCUS\" button at the
-bottom our [homepage](http://www.numfocus.org/) (if you use the latter,
-please indicate that you are donating to the SciPy project). All
-donations will be used strictly to fund SciPy development, by supporting
-activities such as developer sprints, documentation and maintenance
-work, and paying for hosting costs of servers and build slaves.
-
-Our donations are managed by the [NumFOCUS](https://numfocus.org)
+Donations are managed by the [NumFOCUS](https://numfocus.org)
 foundation, which passes 90% of your contribution to the SciPy project,
 and provides the SciPy development team with basic administrative and
 legal services for the other 10%. NumFOCUS is a 501(c)3 non-profit
 foundation, so if you are subject to the US Tax law, your contributions
 are tax-deductible.
 
-```{=html}
 <div style="display: block; float:center;">
    <a href="https://numfocus.salsalabs.org/donate-to-scipy" target="_blank"
-      style="background:#a0c4ff;padding:10px;margin:10px 0px;
+      style="background:#1e87f0;padding:10px;margin:10px 0px;
              text-decoration:none;font-size:12pt;color:#ffffff;
              font-family:Arial,Helvetica,sans-serif;display:inline-block;">
       Donate to SciPy
    </a>
 </div>
-```
 
 # Acknowledgements
 
