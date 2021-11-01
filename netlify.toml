@@ -1,2 +1,34 @@
 [context.production.environment]
   HUGO_VERSION = "0.88.1"
+
+[[redirects]]
+  from = "/scipylib"
+  to = "/"
+
+[[redirects]]
+  from = "/scipylib/license.html"
+  to = "https://github.com/scipy/scipy/blob/master/LICENSE.txt"
+
+[[redirects]]
+  from = "/scipylib/download.html"
+  to = "/download/"
+
+[[redirects]]
+  from = "/scipylib/mailing-lists.html"
+  to = "/mailing-lists/"
+
+[[redirects]]
+  from = "/scipylib/bug-report.html"
+  to = "/bug-report/"
+
+[[redirects]]
+  from = "/scipylib/dev-zone.html"
+  to = "/dev-zone/"
+
+[[redirects]]
+  from = "/scipylib/donations.html"
+  to = "/donations/"
+
+[[redirects]]
+  from = "/scipylib/faq.html"
+  to = "/faq/"
