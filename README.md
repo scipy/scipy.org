@@ -21,3 +21,12 @@ automatically on edits:
 ```
 make serve
 ```
+
+## Team lists
+
+To update the teams, use the `team_query.py` from the theme. 
+
+```
+python team_query.py --org=scipy --team=scipy-core-team --title=Maintainers > maintainers.md
+python team_query.py --org=scipy --team=triage --title=Triage > triage.md
+```
