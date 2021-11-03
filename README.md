@@ -1,9 +1,12 @@
 # scipy.org
 
+The SciPy organization website is built on the theme 
+[scientific-python-hugo-theme](https://github.com/scientific-python/scientific-python-hugo-theme)
+and served using [Hugo](https://gohugo.io).
+
 ## Build
 
-The website is using [Hugo](https://gohugo.io). Install it to build locally.
-Then:
+After installing Hugo, build locally:
 
 ```
 git submodule update --init --recursive
