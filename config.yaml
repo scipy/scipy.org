@@ -76,9 +76,11 @@ languages:
         url: https://scipy.github.io/devdocs/index.html
       - title: Download
         url: /download
-      - title: Mailing Lists
+      - title: Community
         url: /mailing-lists
-      - title: Report bugs
+      - title: About Us
+        url: /about
+      - title: Contribute
         url: /bug-report
     footer:
       logo: logo.svg
@@ -103,7 +105,7 @@ languages:
         column2:
           links:
             - text: About Us
-              link: https://scipy.github.io/devdocs/dev/governance/people.html
+              link: /about
             - text: Code of Conduct
               link: http://scipy.github.io/devdocs/dev/conduct/code_of_conduct.html
             - text: Developer Zone
