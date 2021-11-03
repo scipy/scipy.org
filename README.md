@@ -1,6 +1,6 @@
 # scipy.org
 
-The SciPy organization website is built on the theme 
+The SciPy website is built on the 
 [scientific-python-hugo-theme](https://github.com/scientific-python/scientific-python-hugo-theme)
 and served using [Hugo](https://gohugo.io).
 
@@ -24,7 +24,7 @@ make serve
 
 ## Team lists
 
-To update the teams, use the `team_query.py` from the theme. 
+To update the teams, run `team_query.py` provided by the theme:
 
 ```
 python team_query.py --org=scipy --team=scipy-core-team --title=Maintainers > maintainers.md
