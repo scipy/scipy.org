@@ -24,9 +24,12 @@ make serve
 
 ## Team lists
 
-To update the teams, run `team_query.py` provided by the theme:
+To update the teams, the `team_query.py` provided by the theme is used.
+It needs a
+[GitHub token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+with `read:org` permissions. The token has to be exported as `GH_TOKEN`.
 
 ```
-python team_query.py --org=scipy --team=scipy-core-team --title=Maintainers > maintainers.md
-python team_query.py --org=scipy --team=triage --title=Triage > triage.md
+export GH_TOKEN=xxxxxxxxxx
+make teams
 ```
