@@ -3,8 +3,8 @@ title: Teams
 sidebar: false
 ---
 
-{{< include-md "/gallery/maintainers.md" >}}
+{{< include-html "static/teams/scipy-core-team.html" >}}
 
-{{< include-md "/gallery/triage.md" >}}
+{{< include-html "static/teams/triage.html" >}}
 
-{{< include-md "/gallery/website.md" >}}
+{{< include-html "static/teams/website.html" >}}

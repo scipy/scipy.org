@@ -6,7 +6,7 @@ ifdef BASEURL
         BASEURLARG=-b $(BASEURL)
 endif
 
-.PHONY: help clean html serve serve-dev
+.PHONY: help clean html serve serve-dev teams teams-clean
 
 
 help:
@@ -22,16 +22,23 @@ clean: ## remove the build artifacts, mainly the "public" directory
 prepare: clean
 	git submodule update --init --recursive
 
-teams: prepare
-	python themes/scientific-python-hugo-theme/tools/team_query.py \
-		--org=scipy --team=scipy-core-team --title=Maintainers \
-		> static/gallery/maintainers.md
-	python themes/scientific-python-hugo-theme/tools/team_query.py \
-		--org=scipy --team=triage --title=Triage \
-		> static/gallery/triage.md
-#   python themes/scientific-python-hugo-theme/tools/team_query.py \
-#		--org=scipy --team=website --title=Website \
-#		> static/gallery/website.md
+TEAMS_DIR = static/teams
+TEAMS = scipy-core-team triage # website
+TEAMS_QUERY = python themes/scientific-python-hugo-theme/tools/team_query.py
+
+$(TEAMS_DIR):
+	mkdir -p $(TEAMS_DIR)
+
+$(TEAMS_DIR)/%.md: $(TEAMS_DIR)
+	$(eval TEAM_NAME=$(shell python -c "import re; print(' '.join(x.capitalize() for x in re.split('-|_', '$*')))"))
+	$(TEAMS_QUERY) --org scipy --team "$*"  >  $(TEAMS_DIR)/$*.html
+
+teams-clean: prepare
+	for team in $(TEAMS); do \
+	  rm -f $(TEAMS_DIR)/$${team}.html ;\
+	done
+
+teams: | teams-clean $(patsubst %,$(TEAMS_DIR)/%.md,$(TEAMS))
 
 html: prepare ## build the website in ./public
 	hugo $(BASEURLARG)
