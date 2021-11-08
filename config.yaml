@@ -47,8 +47,8 @@ languages:
         image: logo.svg
       # Customizable navbar. For a dropdown, add a "sublinks" list.
       news:
-        title: SciPy 1.7.1 released
-        content: 2021-08-01
+        title: SciPy 1.7.2 released
+        content: 2021-11-05
         url: /news
 
       keyfeatures:

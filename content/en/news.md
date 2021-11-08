@@ -3,6 +3,10 @@ title: News
 sidebar: false
 ---
 
+### SciPy 1.7.2 released
+
+_November 5, 2021_ -- SciPy 1.7.2 is a bug-fix release that adds support and binary wheels for Python 3.10.
+
 ### SciPy 1.7.1 released
 
 _August 1, 2021_ -- SciPy 1.7.1 is a bug-fix release with no new features compared to 1.7.0.
@@ -111,6 +115,7 @@ Here is a list of SciPy releases, with links to release notes. Bugfix
 releases (only the `z` changes in the `x.y.z` version number) have no new
 features; minor releases (the `y` increases) do.
 
+- SciPy 1.7.2 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.7.2)) -- _2021-11-05_.
 - SciPy 1.7.1 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.7.1)) -- _2021-08-01_.
 - SciPy 1.7.0 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.7.0)) -- _2021-06-20_.
 - SciPy 1.6.3 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.6.3)) -- _2021-04-25_.
