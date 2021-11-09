@@ -23,14 +23,13 @@ prepare: clean
 	git submodule update --init --recursive
 
 TEAMS_DIR = static/teams
-TEAMS = scipy-core-team triage # website
+TEAMS = scipy-core-team triage website
 TEAMS_QUERY = python themes/scientific-python-hugo-theme/tools/team_query.py
 
 $(TEAMS_DIR):
 	mkdir -p $(TEAMS_DIR)
 
 $(TEAMS_DIR)/%.md: $(TEAMS_DIR)
-	$(eval TEAM_NAME=$(shell python -c "import re; print(' '.join(x.capitalize() for x in re.split('-|_', '$*')))"))
 	$(TEAMS_QUERY) --org scipy --team "$*"  >  $(TEAMS_DIR)/$*.html
 
 teams-clean: prepare
