@@ -1,6 +1,8 @@
 ---
 title: News
 sidebar: false
+newsHeader: SciPy 1.7.2 released!
+date: 2021-11-05
 ---
 
 ### SciPy 1.7.2 released
