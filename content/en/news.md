@@ -1,9 +1,13 @@
 ---
 title: News
 sidebar: false
-newsHeader: SciPy 1.7.2 released!
-date: 2021-11-05
+newsHeader: SciPy 1.7.3 released!
+date: 2021-11-24
 ---
+
+### SciPy 1.7.3 released
+
+_November 24, 2021_ -- SciPy 1.7.3 is a bug-fix release that adds MacOS 12+ arm64 binary wheels.
 
 ### SciPy 1.7.2 released
 
@@ -119,6 +123,7 @@ Here is a list of SciPy releases, with links to release notes. Bugfix
 releases (only the `z` changes in the `x.y.z` version number) have no new
 features; minor releases (the `y` increases) do.
 
+- SciPy 1.7.3 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.7.3)) -- _2021-11-24_.
 - SciPy 1.7.2 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.7.2)) -- _2021-11-05_.
 - NumPy 1.21.2 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.21.2)) -- _2021-08-15_.
 - SciPy 1.7.1 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.7.1)) -- _2021-08-01_.
