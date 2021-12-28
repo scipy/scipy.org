@@ -23,7 +23,7 @@ prepare: clean
 	git submodule update --init --recursive
 
 TEAMS_DIR = static/teams
-TEAMS = scipy-core-team triage website
+TEAMS = emeritus-maintainers maintainers triage-team web-team
 TEAMS_QUERY = python themes/scientific-python-hugo-theme/tools/team_query.py
 
 $(TEAMS_DIR):
