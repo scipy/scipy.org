@@ -59,7 +59,7 @@ languages:
         - title: Easy to use
           text: SciPy's high level syntax makes it accessible and productive for programmers from any background or experience level.
         - title: Open source
-          text: Distributed under a liberal [BSD license](https://github.com/scipy/scipy/blob/master/LICENSE.txt), SciPy is developed and maintained [publicly on GitHub](https://github.com/scipy/scipy) by a vibrant, responsive, and diverse [community](/dev-zone).
+          text: Distributed under a liberal [BSD license](https://github.com/scipy/scipy/blob/main/LICENSE.txt), SciPy is developed and maintained [publicly on GitHub](https://github.com/scipy/scipy) by a vibrant, responsive, and diverse [community](/dev-zone).
 
       section5: false
 
