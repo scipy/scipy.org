@@ -7,7 +7,7 @@
 
 [[redirects]]
   from = "/scipylib/license.html"
-  to = "https://github.com/scipy/scipy/blob/master/LICENSE.txt"
+  to = "https://github.com/scipy/scipy/blob/main/LICENSE.txt"
 
 [[redirects]]
   from = "/scipylib/download.html"

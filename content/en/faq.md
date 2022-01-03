@@ -23,7 +23,7 @@ in any way allowed by its liberal BSD license.
 
 SciPy\'s license is free for both commercial and non-commercial use, per
 the terms of the BSD license
-[here](https://github.com/scipy/scipy/blob/master/LICENSE.txt).
+[here](https://github.com/scipy/scipy/blob/main/LICENSE.txt).
 
 ## How can SciPy be fast if it is written in an interpreted language like Python?
 
