@@ -38,7 +38,7 @@ languages:
         # Main hero title
         title: SciPy
         # Hero subtitle (optional)
-        subtitle: Fundamental algorithms for scientific computing in Python
+        subtitle: Fundamental Algorithms for scientific computing in Python
         # Button text
         buttontext: Get started
         # Where the main hero button links to
