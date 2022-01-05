@@ -1,5 +1,5 @@
-[context.production.environment]
-  HUGO_VERSION = "0.88.1"
+[build.environment]
+  HUGO_VERSION = "0.91.2"
 
 [[redirects]]
   from = "/scipylib"
