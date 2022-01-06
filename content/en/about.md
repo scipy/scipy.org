@@ -8,6 +8,35 @@ and wider scientific Python community. For more information on our governance
 approach, please see our
 [Governance Document](https://scipy.github.io/devdocs/dev/governance/governance.html).
 
+## Steering Council
+
+The role of the SciPy Steering Council is to ensure, through working with and
+serving the broader SciPy community, the long-term well-being of the project,
+both technically and as a community. The SciPy Steering Council currently
+consists of the following members (in alphabetical order):
+
+* Anne Archibald
+* Andrew Nelson
+* Charles Harris
+* Christoph Baumgarten
+* CJ Carey
+* Eric Larson
+* Eric Moore
+* Eric Quintero
+* Evgeni Burovski
+* Ilhan Polat
+* Jaime Fernández del Río
+* Josef Perktold
+* Josh Wilson
+* Matt Haberland
+* Matthew Brett
+* Nikolay Mayorov
+* Paul van Mulbregt
+* Pauli Virtanen
+* Ralf Gommers (Chair)
+* Tyler Reddy
+* Warren Weckesser
+
 ## Teams
 
 The SciPy project is growing; we have teams for
