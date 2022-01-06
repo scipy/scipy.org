@@ -95,8 +95,6 @@ languages:
               link: /citing-scipy
             - text: Roadmap
               link: https://scipy.github.io/devdocs/dev/roadmap.html
-            - text: Donate
-              link: /donations
         column2:
           links:
             - text: About Us
