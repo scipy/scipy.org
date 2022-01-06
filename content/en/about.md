@@ -37,6 +37,14 @@ consists of the following members (in alphabetical order):
 * Tyler Reddy
 * Warren Weckesser
 
+Emeritus:
+
+* Eric Jones
+* Jarrod Millman
+* Robert Kern
+* Stéfan van der Walt
+* Travis Oliphant
+
 ## Teams
 
 The SciPy project is growing; we have teams for
