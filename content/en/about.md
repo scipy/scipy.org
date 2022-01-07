@@ -15,35 +15,35 @@ serving the broader SciPy community, the long-term well-being of the project,
 both technically and as a community. The SciPy Steering Council currently
 consists of the following members (in alphabetical order):
 
-* Anne Archibald
 * Andrew Nelson
 * Charles Harris
 * Christoph Baumgarten
 * CJ Carey
 * Eric Larson
-* Eric Moore
-* Eric Quintero
 * Evgeni Burovski
 * Ilhan Polat
-* Jaime Fernández del Río
 * Josef Perktold
 * Josh Wilson
 * Matt Haberland
 * Matthew Brett
 * Nikolay Mayorov
 * Paul van Mulbregt
-* Pauli Virtanen
+* Pauli Virtanen (BDFL)
 * Ralf Gommers (Chair)
-* Tyler Reddy
+* Tyler Reddy (Release manager)
 * Warren Weckesser
 
 Emeritus:
 
+* Anne Archibald
 * Eric Jones
+* Eric Moore
+* Eric Quintero
+* Jaime Fernández del Río
 * Jarrod Millman
 * Robert Kern
 * Stéfan van der Walt
-* Travis Oliphant
+* Travis Oliphant (Creator of SciPy)
 
 ## Teams
 
