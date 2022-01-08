@@ -36,14 +36,15 @@ consists of the following members (in alphabetical order):
 Emeritus:
 
 * Anne Archibald
-* Eric Jones
+* Eric Jones (co-creator of Scipy)
 * Eric Moore
 * Eric Quintero
 * Jaime Fernández del Río
 * Jarrod Millman
+* Pearu Peterson (co-creator of SciPy)
 * Robert Kern
 * Stéfan van der Walt
-* Travis Oliphant (Creator of SciPy)
+* Travis Oliphant (co-creator of SciPy)
 
 ## Teams
 
