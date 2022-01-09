@@ -36,7 +36,7 @@ consists of the following members (in alphabetical order):
 Emeritus:
 
 * Anne Archibald
-* Eric Jones (co-creator of Scipy)
+* Eric Jones (co-creator of SciPy)
 * Eric Moore
 * Eric Quintero
 * Jaime Fernández del Río
