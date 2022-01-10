@@ -33,3 +33,10 @@ with `read:org` permissions. The token has to be exported as `GH_TOKEN`.
 export GH_TOKEN=xxxxxxxxxx
 make teams
 ```
+
+## Analytics
+
+The service [Plausible.io](https://plausible.io) is used to gather simple
+and privacy-friendly analytics for the site. The dashboard can be accessed
+[here](https://analytics.scientific-python.org/scipy.org).
+The Scientific-Python community is managing the account.
