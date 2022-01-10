@@ -22,7 +22,6 @@ params:
     sizes: [400,900]
   plausible:
     dataDomain: scipy.org
-    javaScript: "https://analytics.scientific-python.org/js/plausible.js"
 
 languages:
   en:
