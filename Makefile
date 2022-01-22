@@ -20,7 +20,7 @@ clean: ## remove the build artifacts, mainly the "public" directory
 	rm -rf $(HTMLDIR)
 
 prepare: clean
-	git submodule update --init --recursive
+	git submodule update --init
 
 TEAMS_DIR = static/teams
 TEAMS = emeritus-maintainers maintainers triage-team web-team
