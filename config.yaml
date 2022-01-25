@@ -74,7 +74,7 @@ languages:
       - title: Download
         url: /download
       - title: Community
-        url: /mailing-lists
+        url: /community
       - title: About Us
         url: /about
       - title: Contribute
@@ -101,14 +101,12 @@ languages:
           links:
             - text: About Us
               link: /about
-            - text: Code of Conduct
-              link: http://scipy.github.io/devdocs/dev/conduct/code_of_conduct.html
-            - text: Developer Zone
-              link: /dev-zone
-            - text: Mailing Lists
-              link: /mailing-lists
+            - text: Community
+              link: /community
             - text: SciPy Conference
               link: https://conference.scipy.org/
+            - text: Code of Conduct
+              link: http://scipy.github.io/devdocs/dev/conduct/code_of_conduct.html
         column3:
           links:
             - text: FAQ
