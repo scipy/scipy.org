@@ -78,7 +78,7 @@ languages:
       - title: About Us
         url: /about
       - title: Contribute
-        url: /bug-report
+        url: /contribute
     footer:
       logo: logo.svg
       socialmediatitle: ""
@@ -105,6 +105,8 @@ languages:
               link: /community
             - text: SciPy Conference
               link: https://conference.scipy.org/
+            - text: Contribute
+              link: /contribute
             - text: Code of Conduct
               link: http://scipy.github.io/devdocs/dev/conduct/code_of_conduct.html
         column3:

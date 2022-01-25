@@ -50,16 +50,13 @@ algorithm coded in C.
 The SciPy development team works hard to make SciPy as reliable as
 possible, but, as in any software product, bugs do occur. If you find
 bugs that affect your software, please tell us by entering a ticket in
-the [SciPy bug tracker](https://github.com/scipy/scipy/issues), or
-[NumPy bug tracker](https://github.com/numpy/numpy/issues), as
-appropriate.
+the [SciPy bug tracker](https://github.com/scipy/scipy/issues).
 
 ## How can I get involved in SciPy?
 
-Drop us a mail on the [mailing lists]({{< ref "/mailing-lists" >}}).
-We are keen for more people to help out writing code, unit
-tests, documentation (including translations into other languages), and
-helping out with the website.
+Head to our [community](/community) page.
+We are keen for more people to help out writing code,
+tests, documentation, and helping out with the website.
 
 ## Is there commercial support available?
 
@@ -84,20 +81,19 @@ modules, as well as many other numerical algorithms. If you are doing
 scientific computing with Python, you should probably install both NumPy
 and SciPy. Most new features belong in SciPy rather than NumPy.
 
-## How do I make plots using NumPy/SciPy?
+## How do I make plots using SciPy?
 
-Plotting functionality is beyond the scope of NumPy and SciPy, which
+Plotting functionality is beyond the scope of SciPy, which
 focus on numerical objects and algorithms. Several packages exist that
-integrate closely with NumPy and Pandas to produce high quality plots,
+integrate closely with SciPy to produce high quality plots,
 such as the immensely popular [Matplotlib](http://matplotlib.org). Other
 popular options are [Bokeh](https://bokeh.pydata.org/en/latest),
-[Plotly](https://plot.ly), [Altair](https://altair-viz.github.io), and
-[Chaco](http://code.enthought.com/projects/chaco).
+[Plotly](https://plot.ly) and [Altair](https://altair-viz.github.io).
 
-## How do I make 3D plots/visualizations using NumPy/SciPy?
+## How do I make 3D plots/visualizations using SciPy?
 
-Like 2D plotting, 3D graphics is beyond the scope of NumPy and SciPy,
-but just as in the 2D case, packages exist that integrate with NumPy.
+Like 2D plotting, 3D graphics is beyond the scope of SciPy,
+but just as in the 2D case, packages exist that integrate with SciPy.
 [Matplotlib](http://matplotlib.org) provides basic 3D plotting in the
 `mplot3d` subpackage, whereas
 [Mayavi](http://code.enthought.com/projects/mayavi/) provides a wide
@@ -141,18 +137,17 @@ last SciPy version to do so is SciPy 1.2.x. The first release of NumPy
 to support Python 3.x was NumPy 1.5.0. Python 3 support in SciPy was
 introduced in SciPy 0.9.0.
 
-## Does NumPy/SciPy work with PyPy?
+## Does SciPy work with PyPy?
 
 In general, yes. Recent improvements in [PyPy](http://pypy.org) have
-made the scientific Python stack work with PyPy. The NumPy and SciPy
-projects run PyPy in continuous integration and aim to further improve
-support over time. Since much of NumPy and SciPy is implemented as C
+made the scientific Python stack work with PyPy. Since much of SciPy is
+implemented as C
 extension modules, the code may not run any faster (for most cases it\'s
 significantly slower still, however, PyPy is actively working on
 improving this). As always when benchmarking, your experience is the
 best guide.
 
-## Does NumPy/SciPy work with Jython or C\#/.NET?
+## Does SciPy work with Jython or C\#/.NET?
 
 No, neither is supported. Jython never worked, because it runs on top of
 the Java Virtual Machine and has no way to interface with extensions
@@ -161,13 +156,17 @@ written in C for the standard Python (CPython) interpreter.
 Some years ago, there was an effort to make NumPy and SciPy compatible
 with .NET. Some users at the time reported success in using NumPy with
 [Ironclad](https://code.google.com/archive/p/ironclad) on 32-bit
-Windows.
+Windows. Lastly, [Pyjion](https://www.trypyjion.com) is a new project which
+reportedly could work with SciPy.
+
+In any case, these runtime/compilers are out of scope of SciPy and not
+officially supported by the development team.
 
 # Where to get help
 
 You can ask questions with the [SciPy tag on
 StackOverflow](http://stackoverflow.com/questions/tagged/scipy), or on
-the scipy-user [mailing lists]({{< ref "/mailing-lists" >}}).
+the scipy-user [mailing lists](/community).
 Search for an answer first, because someone may already
 have found a solution to your problem, and using that will save everyone
 time.
