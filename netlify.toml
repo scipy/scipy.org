@@ -32,3 +32,6 @@
 [[redirects]]
   from = "/scipylib/faq.html"
   to = "/faq/"
+
+[[plugins]]
+  package = "netlify-plugin-checklinks"
