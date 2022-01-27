@@ -89,11 +89,7 @@ rows:
 
   - columns:
     - "[Fedora](https://getfedora.org/)"
-    - "[scipy](https://apps.fedoraproject.org/packages/scipy)"
-
-  - columns:
-    - "[Fink](http://www.finkproject.org/)"
-    - "[scipy-py38](http://pdb.finkproject.org/pdb/package.php/scipy-py38)"
+    - "[scipy](https://src.fedoraproject.org/rpms/scipy)"
 
   - columns:
     - "[FreeBSD (Ports)](https://www.freebsd.org/ports/)"
@@ -101,11 +97,7 @@ rows:
 
   - columns:
     - "[Gentoo Linux](https://www.gentoo.org/)"
-    - "[sci-libs/scipy](https://packages.gentoo.org/packages/sci-libs/scipy)"
-
-  - columns:
-    - "[MacPorts](http://www.macports.org/)"
-    - "[py-scipy](http://trac.macports.org/browser/trunk/dports/python/py-scipy/Portfile)"
+    - "[sci-libs/scipy](https://packages.gentoo.org/packages/dev-python/scipy)"
 
   - columns:
     - "[NetBSD (pkgsrc)](http://www.pkgsrc.org/)"
@@ -113,12 +105,10 @@ rows:
 
   - columns:
     - "[OpenSUSE](https://www.opensuse.org/)"
-    - |
-      [python-scipy](http://software.opensuse.org/search?q=python-scipy),
-      [python-scipy-devel](http://software.opensuse.org/search?q=python-scipy-devel)
+    - "[python-scipy](https://build.opensuse.org/package/show/openSUSE:Factory/python-scipy)"
 
   - columns:
-    - "[Slackware Linux](http://www.slackware.com/)"
-    - "[scipy (slackbuilds.org)](https://slackbuilds.org/result/?search=scipy)"
+    - "[Homebrew](https://brew.sh)"
+    - "[scipy](https://formulae.brew.sh/formula/scipy)"
 
 {{< /yamlToTable >}}
