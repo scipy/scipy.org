@@ -12,7 +12,7 @@ these sites, or answer questions directly, but the volume is just a little
 overwhelming!
 
 **Development issues:** For SciPy development-related matters (e.g. bug reports), please
-see [Developer Zone](/dev-zone).
+see [Community](/community).
 
 
 
