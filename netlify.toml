@@ -23,7 +23,7 @@
 
 [[redirects]]
   from = "/scipylib/dev-zone.html"
-  to = "/dev-zone/"
+  to = "/contribute/"
 
 [[redirects]]
   from = "/scipylib/donations.html"
@@ -32,6 +32,9 @@
 [[redirects]]
   from = "/scipylib/faq.html"
   to = "/faq/"
+
+[[plugins]]
+  package = "netlify-plugin-checklinks"
 
 [[plugins]]
   package = "@netlify/plugin-lighthouse"
