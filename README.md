@@ -9,7 +9,7 @@ and served using [Hugo](https://gohugo.io).
 After installing Hugo, build locally:
 
 ```
-git submodule update --init --recursive
+git submodule update --init
 make html
 ```
 
