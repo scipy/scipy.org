@@ -38,5 +38,5 @@ make teams
 
 The service [Plausible.io](https://plausible.io) is used to gather simple
 and privacy-friendly analytics for the site. The dashboard can be accessed
-[here](https://analytics.scientific-python.org/scipy.org).
+[here](https://views.scientific-python.org/scipy.org).
 The Scientific-Python community is managing the account.
