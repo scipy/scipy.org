@@ -43,7 +43,7 @@ html: prepare ## build the website in ./public
 	hugo $(BASEURLARG)
 
 serve: html
-	@hugo --i18n-warnings server
+	@hugo --printI18nWarnings server
 
 serve-dev: html
-	@hugo --i18n-warnings server --disableFastRender
+	@hugo --printI18nWarnings --disableFastRender server
