@@ -9,4 +9,3 @@ Numpy, please use the appropriate bug trackers, not this one:
 - https://github.com/scipy/scipy/issues
 
 -->
-

@@ -15,11 +15,11 @@ markup:
 
 params:
   images:
-  - /images/logo.svg
+    - /images/logo.svg
   navColor: blue
   font:
     name: "Lato"
-    sizes: [400,900]
+    sizes: [400, 900]
   plausible:
     dataDomain: scipy.org
 
@@ -50,21 +50,20 @@ languages:
 
       keyfeatures:
         features:
-        - title: Fundamental algorithms
-          text: SciPy provides algorithms for optimization, integration, interpolation, eigenvalue problems, algebraic equations, differential equations, statistics and many other classes of problems.
-        - title: Broadly applicable
-          text: The algorithms and data structures provided by SciPy are broadly applicable across domains.
-        - title: Foundational
-          text:  Extends NumPy providing additional tools for array computing and provides specialized data structures, such as sparse matrices and k-dimensional trees.
-        - title: Performant
-          text: SciPy wraps highly-optimized implementations written in low-level languages like Fortran, C, and C++. Enjoy the flexibility of Python with the speed of compiled code.
-        - title: Easy to use
-          text: SciPy's high level syntax makes it accessible and productive for programmers from any background or experience level.
-        - title: Open source
-          text: Distributed under a liberal [BSD license](https://github.com/scipy/scipy/blob/main/LICENSE.txt), SciPy is developed and maintained [publicly on GitHub](https://github.com/scipy/scipy) by a vibrant, responsive, and diverse [community](/community).
+          - title: Fundamental algorithms
+            text: SciPy provides algorithms for optimization, integration, interpolation, eigenvalue problems, algebraic equations, differential equations, statistics and many other classes of problems.
+          - title: Broadly applicable
+            text: The algorithms and data structures provided by SciPy are broadly applicable across domains.
+          - title: Foundational
+            text: Extends NumPy providing additional tools for array computing and provides specialized data structures, such as sparse matrices and k-dimensional trees.
+          - title: Performant
+            text: SciPy wraps highly-optimized implementations written in low-level languages like Fortran, C, and C++. Enjoy the flexibility of Python with the speed of compiled code.
+          - title: Easy to use
+            text: SciPy's high level syntax makes it accessible and productive for programmers from any background or experience level.
+          - title: Open source
+            text: Distributed under a liberal [BSD license](https://github.com/scipy/scipy/blob/main/LICENSE.txt), SciPy is developed and maintained [publicly on GitHub](https://github.com/scipy/scipy) by a vibrant, responsive, and diverse [community](/community).
 
       section5: false
-
 
     navbar:
       - title: Install
@@ -83,8 +82,8 @@ languages:
       logo: logo.svg
       socialmediatitle: ""
       socialmedia:
-      - link: https://github.com/scipy/scipy
-        icon: github
+        - link: https://github.com/scipy/scipy
+          icon: github
       quicklinks:
         column1:
           title: ""
