@@ -25,7 +25,7 @@ repos:
     rev: v2.6.0
     hooks:
       - id: prettier
-        files: \.(md|yml|yaml)
+        files: \.(html|md|yml|yaml)
         args: [--prose-wrap=preserve]
 
   - repo: https://github.com/asottile/pyupgrade
