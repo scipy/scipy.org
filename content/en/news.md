@@ -41,7 +41,6 @@ _2019-11-13_ See the survey results
 SciPy becomes a [NumFOCUS](http://numfocus.org/) fiscally sponsored
 project _2019-04-18_
 
-
 ### SciPy user survey
 
 _2019-10-04_ [Tell us](http://forms.gle/LGxx5hXzrDyChj38A) how we can improve the

@@ -14,9 +14,6 @@ overwhelming!
 **Development issues:** For SciPy development-related matters (e.g. bug reports), please
 see [Community](/community).
 
-
-
 # [StackOverflow](http://stackoverflow.com/questions/tagged/scipy)
 
 A forum for asking usage questions, e.g. "How do I do X in SciPy?”. Please [use the `#scipy` tag](https://stackoverflow.com/help/tagging)
-

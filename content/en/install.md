@@ -23,6 +23,7 @@ installation method you need or prefer, we recommend the Scientific
 Python Distribution [Anaconda](https://www.anaconda.com/download/).
 
 <a name="distributions"></a>
+
 # Scientific Python Distributions (recommended)
 
 Python distributions provide the language itself, along with the most
@@ -37,18 +38,19 @@ a large collection of libraries all in one.
 
 For more advanced users who will need to install or upgrade regularly,
 [Miniconda](https://docs.conda.io/en/latest/miniconda.html) is a more
-suitable way to install the *conda* package manager.
+suitable way to install the _conda_ package manager.
 
 Other options include:
 
--   [WinPython](https://winpython.github.io): Another free distribution
-    including scientific packages and the Spyder IDE; Windows only, but
-    more actively maintained and supports the latest Python 3 versions.
--   [Pyzo](http://www.pyzo.org/): A free distribution based on Anaconda
-    and the IEP interactive development environment; Supports Linux,
-    Windows, and Mac.
+- [WinPython](https://winpython.github.io): Another free distribution
+  including scientific packages and the Spyder IDE; Windows only, but
+  more actively maintained and supports the latest Python 3 versions.
+- [Pyzo](http://www.pyzo.org/): A free distribution based on Anaconda
+  and the IEP interactive development environment; Supports Linux,
+  Windows, and Mac.
 
 <a name="pip-install"></a>
+
 # Installing via pip
 
 Python comes with an inbuilt package management system,
@@ -59,7 +61,7 @@ You can install packages via the command line by entering:
 
     python -m pip install --user numpy scipy matplotlib ipython jupyter pandas sympy nose
 
-We recommend using an *user* install, sending the `--user` flag to pip.
+We recommend using an _user_ install, sending the `--user` flag to pip.
 `pip` installs packages for the local user and does not write to the
 system directories. Preferably, do not use `sudo pip`, as this
 combination can cause problems.
@@ -68,9 +70,10 @@ Pip accesses the Python Package Index, [PyPI](https://pypi.org/) , which
 stores almost 200,000 projects and all previous releases of said
 projects. Because the repository keeps previous versions, you can pin to
 a version and not worry about updates causing conflicts. Pip can also
-install packages in local *virtualenv*, or virtual environment.
+install packages in local _virtualenv_, or virtual environment.
 
 <a name="package_manager"></a>
+
 # Install system-wide via a package manager
 
 System package managers can install the most common Python packages.
@@ -100,6 +103,7 @@ ecosystem, but does install these packages:
     brew install numpy scipy ipython jupyter
 
 <a name="source"></a>
+
 # Source packages
 
 You can build any of the packages from source. Those involved in

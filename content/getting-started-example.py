@@ -9,6 +9,7 @@ import numpy as np
 from scipy import special, optimize
 import matplotlib.pyplot as plt
 
+
 def main():
     # Parse command-line arguments
     parser = argparse.ArgumentParser(usage=__doc__)
@@ -22,10 +23,11 @@ def main():
 
     # Plot
     x = np.linspace(0, 10, 5000)
-    plt.plot(x, special.jv(args.order, x), '-', sol.x, -sol.fun, 'o')
+    plt.plot(x, special.jv(args.order, x), "-", sol.x, -sol.fun, "o")
 
     # Produce output
     plt.savefig(args.output, dpi=96)
+
 
 if __name__ == "__main__":
     main()

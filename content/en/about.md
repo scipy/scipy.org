@@ -15,36 +15,36 @@ serving the broader SciPy community, the long-term well-being of the project,
 both technically and as a community. The SciPy Steering Council currently
 consists of the following members (in alphabetical order):
 
-* Andrew Nelson
-* Charles Harris
-* Christoph Baumgarten
-* CJ Carey
-* Eric Larson
-* Evgeni Burovski
-* Ilhan Polat
-* Josef Perktold
-* Josh Wilson
-* Matt Haberland
-* Matthew Brett
-* Nikolay Mayorov
-* Paul van Mulbregt
-* Pauli Virtanen (BDFL)
-* Ralf Gommers (Chair)
-* Tyler Reddy (Release manager)
-* Warren Weckesser
+- Andrew Nelson
+- Charles Harris
+- Christoph Baumgarten
+- CJ Carey
+- Eric Larson
+- Evgeni Burovski
+- Ilhan Polat
+- Josef Perktold
+- Josh Wilson
+- Matt Haberland
+- Matthew Brett
+- Nikolay Mayorov
+- Paul van Mulbregt
+- Pauli Virtanen (BDFL)
+- Ralf Gommers (Chair)
+- Tyler Reddy (Release manager)
+- Warren Weckesser
 
 Emeritus:
 
-* Anne Archibald
-* Eric Jones (co-creator of SciPy)
-* Eric Moore
-* Eric Quintero
-* Jaime Fernández del Río
-* Jarrod Millman
-* Pearu Peterson (co-creator of SciPy)
-* Robert Kern
-* Stéfan van der Walt
-* Travis Oliphant (co-creator of SciPy)
+- Anne Archibald
+- Eric Jones (co-creator of SciPy)
+- Eric Moore
+- Eric Quintero
+- Jaime Fernández del Río
+- Jarrod Millman
+- Pearu Peterson (co-creator of SciPy)
+- Robert Kern
+- Stéfan van der Walt
+- Travis Oliphant (co-creator of SciPy)
 
 ## Teams
 
@@ -61,7 +61,6 @@ See the [Teams](/teams) page for individual team members.
 SciPy receives direct funding from the following sources:
 
 {{< sponsors >}}
-
 
 ## Institutional Partners
 
@@ -110,24 +109,24 @@ development infrastructure:
 - [JetBrains](https://jb.gg/OpenSourceSupport): licenses of all their
   products for all active maintainers
 - [Tidelift](https://tidelift.com/subscription/pkg/pypi-scipy?utm_source=pypi-scipy&utm_medium=referral&utm_campaign=readme):
-    financial support for SciPy through the Tidelift open source
-    subscription
+  financial support for SciPy through the Tidelift open source
+  subscription
 - [CircleCI](https://circleci.com): continuous integration credit
 - [TravisCI](https://travis-ci.com): continuous integration credit
 - [Appveyor](https://ci.appveyor.com): continuous integration credit
 - [Azure](https://dev.azure.com): continuous integration credit
 - [Enthought](https://www.enthought.com): scipy.org and mailing lists
-    hosting, holding the SciPy trademark
+  hosting, holding the SciPy trademark
 - [NumFOCUS](https://numfocus.org): several small development grants,
-    and a hosted Mac Mini build machine
+  and a hosted Mac Mini build machine
 - [Google](https://google.com): support for many Google Summer of Code
-    students
+  students
 - [Intel](https://www.intel.com): Intel
-    [MKL](https://software.intel.com/en-us/intel-mkl/) licenses
+  [MKL](https://software.intel.com/en-us/intel-mkl/) licenses
 - [BYU](https://www.byu.edu): employed Travis Oliphant while working
-    on SciPy
+  on SciPy
 - [Mayo Clinic](https://www.mayoclinic.org): employed Travis Oliphant
-    while working on SciPy
+  while working on SciPy
 
-*This list is ordered by time (most recent contributions first) and was
-last updated in January 2022.*
+_This list is ordered by time (most recent contributions first) and was
+last updated in January 2022._

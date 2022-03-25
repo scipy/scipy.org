@@ -13,13 +13,11 @@ thrive.
 We offer several communication channels to learn, share your knowledge and
 connect with others within the SciPy community.
 
-
 ## Participate online
 
 The following are ways to engage directly with the SciPy project and community.
 _Please note that we encourage users and community members to support each
 other for usage questions - see [Get Help](/gethelp)._
-
 
 ### [SciPy mailing list](https://mail.python.org/mailman3/lists/scipy-dev.python.org/)
 
@@ -32,7 +30,7 @@ On this list please use bottom posting, reply to the list (rather than to
 another sender), and don't reply to digests. A searchable archive of this list
 is available [here](https://mail.python.org/archives/list/scipy-dev@python.org/).
 
-***
+---
 
 ### [GitHub issue tracker](https://github.com/scipy/scipy/issues)
 
@@ -44,7 +42,7 @@ _Please note that GitHub is not the right place to report a security
 vulnerability. If you think you have found a security vulnerability in SciPy,
 please report it [here](https://tidelift.com/docs/security)._
 
-***
+---
 
 ## Study Groups and Meetups
 
@@ -58,7 +56,6 @@ SciPy also organizes in-person sprints for its team and interested contributors
 occasionally. These are typically planned several months in advance and will
 be announced on the
 [mailing list](https://mail.python.org/mailman3/lists/scipy-dev.python.org/).
-
 
 ## Conferences
 
@@ -75,7 +72,6 @@ users are the SciPy and PyData conference series:
 
 Many of these conferences include tutorial days that cover SciPy and/or sprints
 where you can learn how to contribute to SciPy or related open source projects.
-
 
 ## Join the SciPy community
 
