@@ -90,7 +90,7 @@ using apt-get:
 
 using dnf:
 
-    sudo dnf install numpy scipy python-matplotlib ipython python-pandas sympy python-nose atlas-devel
+    sudo dnf install python-numpy python-scipy python-matplotlib ipython python-pandas python-sympy python-nose atlas-devel
 
 ## Mac
 
