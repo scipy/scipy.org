@@ -86,11 +86,11 @@ using apt-get:
 
     sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
 
-## Fedora 22 and later
+## Fedora
 
 using dnf:
 
-    sudo dnf install numpy scipy python-matplotlib ipython python-pandas sympy python-nose atlas-devel
+    sudo dnf install python3-numpy python3-scipy python3-matplotlib python3-ipython python3-pandas python3-sympy python3-pytest
 
 ## Mac
 
