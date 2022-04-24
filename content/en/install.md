@@ -90,7 +90,7 @@ using apt-get:
 
 using dnf:
 
-    sudo dnf install python3-numpy python3-scipy python3-matplotlib ipython python3-pandas python3-sympy python3-nose atlas-devel
+    sudo dnf install python3-numpy python3-scipy python3-matplotlib python3-ipython python3-pandas python3-sympy python3-pytest
 
 ## Mac
 
