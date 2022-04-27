@@ -1,6 +1,6 @@
 [build.environment]
   PYTHON_VERSION = "3.8"
-  HUGO_VERSION = "0.94.2"
+  HUGO_VERSION = "0.97.3"
 
 [[redirects]]
   from = "/scipylib"
