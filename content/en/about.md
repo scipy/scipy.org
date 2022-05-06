@@ -77,7 +77,7 @@ Partners include:
 SciPy will always be 100% open source software, free for all to use and
 released under the liberal terms of the modified BSD license. While we
 have a large number of
-[contributors](https://github.com/scipy/scipy/blob/main/THANKS.txt)
+[contributors](https://github.com/scipy/scipy/graphs/contributors)
 who volunteer their time to improve SciPy, financial resources are
 needed to run the project and accelerate its development. If you have
 found SciPy useful in your work, research, or company, please consider
