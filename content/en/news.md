@@ -1,9 +1,13 @@
 ---
 title: News
 sidebar: false
-newsHeader: SciPy 1.8.0 released!
-date: 2022-02-05
+newsHeader: SciPy 1.8.1 released!
+date: 2022-05-18
 ---
+
+### SciPy 1.8.1 released
+
+_May 18, 2022_ -- SciPy 1.8.1 has been released!
 
 ### SciPy 1.8.0 released
 
@@ -124,6 +128,7 @@ Here is a list of SciPy releases, with links to release notes. Bugfix
 releases (only the `z` changes in the `x.y.z` version number) have no new
 features; minor releases (the `y` increases) do.
 
+- SciPy 1.8.1 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.8.1)) -- _2022-05-18_.
 - SciPy 1.8.0 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.8.0)) -- _2022-02-05_.
 - SciPy 1.7.3 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.7.3)) -- _2021-11-24_.
 - SciPy 1.7.2 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.7.2)) -- _2021-11-05_.
