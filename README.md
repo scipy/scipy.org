@@ -1,5 +1,7 @@
 # scipy.org
 
+Test
+
 The SciPy website is built on the
 [scientific-python-hugo-theme](https://github.com/scientific-python/scientific-python-hugo-theme)
 and served using [Hugo](https://gohugo.io).
