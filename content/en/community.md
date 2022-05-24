@@ -21,9 +21,8 @@ other for usage questions - see [Get Help](/gethelp)._
 
 ### [SciPy community meetings](https://scientific-python.org/calendars/)
 
-The Scientific Python community is organizing various meetings. SciPy
-community meetings are ideal to anyone wanting to contribute to SciPy or just
-know how current development is going.
+SciPy community meetings are ideal to anyone wanting to contribute to SciPy
+or just know how current development is going.
 
 ### [SciPy mailing list](https://mail.python.org/mailman3/lists/scipy-dev.python.org/)
 
