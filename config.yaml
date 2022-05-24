@@ -69,7 +69,7 @@ languages:
       - title: Install
         url: /install
       - title: Documentation
-        url: https://scipy.github.io/devdocs/index.html
+        url: https://docs.scipy.org/doc/scipy/
       - title: Download
         url: /download
       - title: Community
@@ -91,7 +91,7 @@ languages:
             - text: Install
               link: /install
             - text: Documentation
-              link: https://scipy.github.io/devdocs/index.html
+              link: https://docs.scipy.org/doc/scipy/
             - text: Citing SciPy
               link: /citing-scipy
             - text: Roadmap
