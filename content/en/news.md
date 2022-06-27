@@ -1,9 +1,13 @@
 ---
 title: News
 sidebar: false
-newsHeader: SciPy 1.8.1 released!
-date: 2022-05-18
+newsHeader: Join us at SciPy 2022 July 11th - 17th!
+date: 2022-06-27
 ---
+
+### SciPy 2022 Conference
+
+_June 27, 2022_ -- Join us at [SciPy 2022 July 11th - 17th!](https://www.scipy2022.scipy.org)
 
 ### SciPy 1.8.1 released
 
