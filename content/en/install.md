@@ -84,7 +84,7 @@ and don\'t have as many available versions.
 
 using apt-get:
 
-    sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
+    sudo apt-get install python3-numpy python3-scipy python3-matplotlib ipython3 python3-notebook python3-pandas python3-sympy python3-nose
 
 ## Fedora
 
