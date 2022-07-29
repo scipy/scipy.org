@@ -1,9 +1,13 @@
 ---
 title: News
 sidebar: false
-newsHeader: Join us at SciPy 2022 July 11th - 17th!
-date: 2022-06-27
+newsHeader: SciPy 1.9.0 released!
+date: 2022-07-29
 ---
+
+### SciPy 1.9.0 released
+
+_July 29, 2022_ -- SciPy 1.9.0 has been released!
 
 ### SciPy 2022 Conference
 
@@ -132,6 +136,7 @@ Here is a list of SciPy releases, with links to release notes. Bugfix
 releases (only the `z` changes in the `x.y.z` version number) have no new
 features; minor releases (the `y` increases) do.
 
+- SciPy 1.9.0 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.9.0)) -- _2022-07-29_.
 - SciPy 1.8.1 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.8.1)) -- _2022-05-18_.
 - SciPy 1.8.0 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.8.0)) -- _2022-02-05_.
 - SciPy 1.7.3 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.7.3)) -- _2021-11-24_.
