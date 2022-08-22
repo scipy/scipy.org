@@ -7,9 +7,9 @@ Installations methods include:
 
 - [Distributions](#distributions)
 - [pip](#pip-install)
+- [conda](#pip-install)
 - [Package Manager](#package_manager)
 - [Source](#source)
-- [Binaries](#binaries)
 
 Methods differ in ease of use, coverage, maintenance of old versions,
 system-wide versus local environment use, and control. With pip or
@@ -29,16 +29,17 @@ Python Distribution [Anaconda](https://www.anaconda.com/download/).
 Python distributions provide the language itself, along with the most
 commonly used packages and tools. These downloadable files require
 little configuration, work on almost all setups, and provide all the
-commonly used scientific python tools.
+commonly used scientific Python tools.
 
 [Anaconda](https://www.anaconda.com/download/) works on Windows, Mac,
-and Linux, provides over 1,500 Python/R packages, and is used by over 15
+and Linux, provides over 1,500 Python packages, and is used by over 15
 million people. Anaconda is best suited to beginning users; it provides
 a large collection of libraries all in one.
 
 For more advanced users who will need to install or upgrade regularly,
-[Miniconda](https://docs.conda.io/en/latest/miniconda.html) is a more
-suitable way to install the _conda_ package manager.
+[Mambaforge](https://github.com/conda-forge/miniforge#mambaforge) is a more
+suitable way to install the `conda` (and `mamba`, a faster `conda` alternative)
+package manager.
 
 Other options include:
 
@@ -51,26 +52,19 @@ Other options include:
 
 <a name="pip-install"></a>
 
-# Installing via pip
+# Installing with Pip
 
-Python comes with an inbuilt package management system,
-[pip](https://pip.pypa.io/en/stable). Pip can install, update, or delete
-any official package.
+You can install SciPy from PyPI with `pip`:
 
-You can install packages via the command line by entering:
+    python -m pip install scipy
 
-    python -m pip install --user numpy scipy matplotlib ipython jupyter pandas sympy nose
+<a name="conda-install"></a>
 
-We recommend using an _user_ install, sending the `--user` flag to pip.
-`pip` installs packages for the local user and does not write to the
-system directories. Preferably, do not use `sudo pip`, as this
-combination can cause problems.
+# Installing via Conda
 
-Pip accesses the Python Package Index, [PyPI](https://pypi.org/) , which
-stores almost 200,000 projects and all previous releases of said
-projects. Because the repository keeps previous versions, you can pin to
-a version and not worry about updates causing conflicts. Pip can also
-install packages in local _virtualenv_, or virtual environment.
+You can install SciPy from the `defaults` or `conda-forge` channels with `conda`:
+
+    conda install scipy
 
 <a name="package_manager"></a>
 
@@ -78,45 +72,32 @@ install packages in local _virtualenv_, or virtual environment.
 
 System package managers can install the most common Python packages.
 They install packages for the entire computer, often use older versions,
-and don\'t have as many available versions.
+and don't have as many available versions.
 
 ## Ubuntu and Debian
 
-using apt-get:
+Using `apt-get`:
 
-    sudo apt-get install python3-numpy python3-scipy python3-matplotlib ipython3 python3-notebook python3-pandas python3-sympy python3-nose
+    sudo apt-get install python3-scipy
 
 ## Fedora
 
-using dnf:
+Using `dnf`:
 
-    sudo dnf install python3-numpy python3-scipy python3-matplotlib python3-ipython python3-pandas python3-sympy python3-pytest
+    sudo dnf install python3-scipy
 
-## Mac
+## macOS
 
-Mac doesn\'t have a preinstalled package manager, but there are a couple
-of popular package managers you can install.
+macOS doesn't have a preinstalled package manager, but you can install
+[Homebrew](https://brew.sh/) and use it to install SciPy (and Python itself):
 
-[Homebrew](https://brew.sh/) has an incomplete coverage of the SciPy
-ecosystem, but does install these packages:
-
-    brew install numpy scipy ipython jupyter
+    brew install scipy
 
 <a name="source"></a>
 
 # Source packages
 
-You can build any of the packages from source. Those involved in
-development may take this route to get developmental versions or alter
-source code. Refer to individual projects for more details.
-
-# Binaries
-
-Binary files can directly install the packages. These can either come
-from the direct source, like [GitHub](https://github.com/) or
-[PyPI](https://pypi.org/) , or third-party repositories. Linux operating
-systems, like [Ubuntu](https://packages.ubuntu.com/) , have package
-repositories where you can search for and download individual binaries.
-For Windows, Christoph Gohlke provides [pre-built Windows
-installers](http://www.lfd.uci.edu/~gohlke/pythonlibs) for many
-packages.
+A word of warning: building SciPy from source can be a nontrivial exercise. We
+recommend using binaries instead if those are available for your platform.
+For details on how to build from source, see
+[this guide in the SciPy docs](http://scipy.github.io/devdocs/dev/contributor/building.html).
