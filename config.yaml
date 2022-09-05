@@ -109,7 +109,7 @@ languages:
             - text: Contribute
               link: /contribute
             - text: Code of Conduct
-              link: http://scipy.github.io/devdocs/dev/conduct/code_of_conduct.html
+              link: https://docs.scipy.org/doc/scipy/dev/conduct/code_of_conduct.html
         column3:
           links:
             - text: FAQ

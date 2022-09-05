@@ -86,13 +86,13 @@ rows:
 
 - columns:
 
-  - "[Debian GNU/Linux](http://www.debian.org/)"
+  - "[Debian GNU/Linux](https://www.debian.org/)"
   - "[python-scipy](https://packages.debian.org/search?keywords=python-scipy)"
 
 - columns:
 
-  - "[Ubuntu Linux](http://www.ubuntu.com/)"
-  - "[pythonscipy](http://packages.ubuntu.com/search?keywords=python-scipy)"
+  - "[Ubuntu Linux](https://www.ubuntu.com/)"
+  - "[pythonscipy](https://packages.ubuntu.com/search?keywords=python-scipy)"
 
 - columns:
 
@@ -111,8 +111,8 @@ rows:
 
 - columns:
 
-  - "[NetBSD (pkgsrc)](http://www.pkgsrc.org/)"
-  - "[math/py-scipy](http://pkgsrc.se/math/py-scipy)"
+  - "[NetBSD (pkgsrc)](https://www.pkgsrc.org/)"
+  - "[math/py-scipy](https://pkgsrc.se/math/py-scipy)"
 
 - columns:
 

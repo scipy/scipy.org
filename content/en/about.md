@@ -6,7 +6,7 @@ sidebar: false
 SciPy is developed in the open on GitHub, through the consensus of the SciPy
 and wider scientific Python community. For more information on our governance
 approach, please see our
-[Governance Document](https://scipy.github.io/devdocs/dev/governance.html).
+[Governance Document](https://docs.scipy.org/doc/scipy/dev/governance.html).
 
 ## Steering Council
 

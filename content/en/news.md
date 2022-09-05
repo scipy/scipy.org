@@ -54,12 +54,12 @@ _2019-11-13_ See the survey results
 
 ### SciPy-NumFOCUS
 
-SciPy becomes a [NumFOCUS](http://numfocus.org/) fiscally sponsored
+SciPy becomes a [NumFOCUS](https://numfocus.org/) fiscally sponsored
 project _2019-04-18_
 
 ### SciPy user survey
 
-_2019-10-04_ [Tell us](http://forms.gle/LGxx5hXzrDyChj38A) how we can improve the
+_2019-10-04_ [Tell us](https://forms.gle/LGxx5hXzrDyChj38A) how we can improve the
 documentation.
 
 ### SciPy 2019
@@ -89,7 +89,7 @@ place in Cambridge, UK, Aug. 27-31.
 
 ### SciPy 2014
 
-[SciPy](http://conference.scipy.org/scipy2014/) is an annual
+[SciPy](https://conference.scipy.org/scipy2014/) is an annual
 conference for scientists using Python. The 2014 edition will take
 place in Austin, Texas, July 6-12.
 
@@ -101,14 +101,14 @@ Brussels, Aug. 21-24.
 
 ### SciPy 2013
 
-[SciPy](http://conference.scipy.org/scipy2013/) is an annual
+[SciPy](https://conference.scipy.org/scipy2013/) is an annual
 conference for scientists using Python. The 2013 edition will take
 place in Austin, Texas, June 24-29.
 
 ### SIAM CSE \'13
 
 The [SIAM Conference on Computational Science and
-Engineering](http://www.siam.org/meetings/cse13) will take place in
+Engineering](https://archive.siam.org/meetings/cse13/) will take place in
 Boston, February 25-March 1, 2013, and for this version there will
 be a track focused on the topic of Big Data.
 
