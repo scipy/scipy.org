@@ -46,7 +46,7 @@ Other options include:
 - [WinPython](https://winpython.github.io): Another free distribution
   including scientific packages and the Spyder IDE; Windows only, but
   more actively maintained and supports the latest Python 3 versions.
-- [Pyzo](http://www.pyzo.org/): A free distribution based on Anaconda
+- [Pyzo](https://www.pyzo.org/): A free distribution based on Anaconda
   and the IEP interactive development environment; Supports Linux,
   Windows, and Mac.
 
@@ -100,4 +100,4 @@ macOS doesn't have a preinstalled package manager, but you can install
 A word of warning: building SciPy from source can be a nontrivial exercise. We
 recommend using binaries instead if those are available for your platform.
 For details on how to build from source, see
-[this guide in the SciPy docs](http://scipy.github.io/devdocs/dev/contributor/building.html).
+[this guide in the SciPy docs](https://scipy.github.io/devdocs/dev/contributor/building.html).

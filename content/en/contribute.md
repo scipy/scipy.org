@@ -10,7 +10,7 @@ see below there are many areas where we need **your** help.
 If you're unsure where to start or how your skills fit in, _reach out!_ You
 can ask on the [mailing
 list](https://mail.python.org/mailman3/lists/scipy-dev.python.org/) or
-[GitHub](http://github.com/scipy/scipy) (open an
+[GitHub](https://github.com/scipy/scipy) (open an
 [issue](https://github.com/scipy/scipy/issues) or comment on a relevant
 issue).
 
@@ -24,7 +24,7 @@ If you are new to contributing to open source, we also highly recommend reading
 
 Our community aspires to treat everyone equally and to value all contributions.
 We have a
-[Code of Conduct](http://scipy.github.io/devdocs/dev/conduct/code_of_conduct.html)
+[Code of Conduct](https://docs.scipy.org/doc/scipy/dev/conduct/code_of_conduct.html)
 to foster an open and welcoming environment.
 
 ### Writing code
@@ -46,7 +46,7 @@ codebase. You can:
 
 ### Developing educational materials
 
-SciPy's [User Guide](https://scipy.github.io/devdocs/tutorial/index.html)
+SciPy's [User Guide](https://docs.scipy.org/doc/scipy/tutorial/index.html)
 deserves attention.
 We're in need of new tutorials, how-to's, and deep-dive explanations, and the
 site needs restructuring. Opportunities aren't limited to writers. We'd also

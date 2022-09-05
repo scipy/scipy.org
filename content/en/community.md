@@ -6,7 +6,7 @@ sidebar: false
 SciPy is a community-driven open source project developed by a diverse group of
 [contributors](/teams/). The SciPy leadership has made a strong commitment to
 creating an open, inclusive, and positive community. Please read the
-[SciPy Code of Conduct](http://scipy.github.io/devdocs/dev/conduct/code_of_conduct.html)
+[SciPy Code of Conduct](https://docs.scipy.org/doc/scipy/dev/conduct/code_of_conduct.html)
 for guidance on how to interact with others in a way that makes the community
 thrive.
 
