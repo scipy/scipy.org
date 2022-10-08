@@ -1,9 +1,13 @@
 ---
 title: News
 sidebar: false
-newsHeader: SciPy 1.9.1 released!
-date: 2022-08-26
+newsHeader: SciPy 1.9.2 released!
+date: 2022-10-08
 ---
+
+### SciPy 1.9.2 released
+
+_October 8, 2022_ -- SciPy 1.9.2 is a bug fix release that also includes binary wheels for Python 3.11.
 
 ### SciPy 1.9.1 released
 
@@ -140,6 +144,7 @@ Here is a list of SciPy releases, with links to release notes. Bugfix
 releases (only the `z` changes in the `x.y.z` version number) have no new
 features; minor releases (the `y` increases) do.
 
+- SciPy 1.9.2 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.9.2)) -- _2022-10-08_.
 - SciPy 1.9.1 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.9.1)) -- _2022-08-26_.
 - SciPy 1.9.0 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.9.0)) -- _2022-07-29_.
 - SciPy 1.8.1 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.8.1)) -- _2022-05-18_.
