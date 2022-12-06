@@ -12,7 +12,7 @@
 
 [[redirects]]
   from = "/scipylib/download.html"
-  to = "/download/"
+  to = "/install/"
 
 [[redirects]]
   from = "/scipylib/mailing-lists.html"
