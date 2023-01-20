@@ -73,6 +73,8 @@ Partners include:
 
 {{< partners >}}
 
+- Los Alamos National Laboratory (Tyler Reddy)
+
 ## Donate
 
 SciPy will always be 100% open source software, free for all to use and
