@@ -25,7 +25,7 @@ SciPy community meetings are ideal to anyone wanting to contribute to SciPy
 or just know how current development is going. You can follow
 [our community calendar](https://scientific-python.org/calendars/) from your
 preferred calendar manager, or look out for the announcements on our mailing
-list. 
+list.
 
 ### [SciPy new contributor meetings](https://scientific-python.org/calendars/)
 
