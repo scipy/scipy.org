@@ -22,7 +22,16 @@ other for usage questions - see [Get Help](/gethelp)._
 ### [SciPy community meetings](https://scientific-python.org/calendars/)
 
 SciPy community meetings are ideal to anyone wanting to contribute to SciPy
-or just know how current development is going.
+or just know how current development is going. You can follow
+[our community calendar](https://scientific-python.org/calendars/) from your
+preferred calendar manager, or look out for the announcements on our mailing
+list. 
+
+### [SciPy new contributor meetings](https://scientific-python.org/calendars/)
+
+Once a month we have special meetings for folks who want to start contributing
+or have just started. All are welcome! Check our community calendar for details,
+or look out for the announcements on our mailing list.
 
 ### [SciPy mailing list](https://mail.python.org/mailman3/lists/scipy-dev.python.org/)
 
