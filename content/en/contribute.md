@@ -16,8 +16,10 @@ issue).
 
 Those are our preferred channels (open source is open by nature).
 
-We also have a biweekly _community call_, details of which are announced on the
-[mailing list](https://mail.python.org/mailman3/lists/scipy-dev.python.org/).
+We also have a biweekly _community call_ and a monthly _new contributors meeting_,
+details of which are announced on the
+[mailing list](https://mail.python.org/mailman3/lists/scipy-dev.python.org/) and
+listed in our [community calendar](https://scientific-python.org/calendars/).
 You are very welcome to join.
 If you are new to contributing to open source, we also highly recommend reading
 [this guide](https://opensource.guide/how-to-contribute/).
