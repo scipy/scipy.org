@@ -44,6 +44,12 @@ On this list please use bottom posting, reply to the list (rather than to
 another sender), and don't reply to digests. A searchable archive of this list
 is available [here](https://mail.python.org/archives/list/scipy-dev@python.org/).
 
+### [SciPy Slack space](https://join.slack.com/t/scipy-community/shared_invite/zt-1a76bomjr-fuS1ZTnmP7b32kIhLb6QMg)
+
+The SciPy team also has a Slack space that you can join. This is not a user
+support forum, but you can ask questions about contributing and getting involved
+in the community. To join, please [follow this invite link](https://join.slack.com/t/scipy-community/shared_invite/zt-1a76bomjr-fuS1ZTnmP7b32kIhLb6QMg).
+
 ---
 
 ### [GitHub issue tracker](https://github.com/scipy/scipy/issues)
