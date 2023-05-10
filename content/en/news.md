@@ -13,6 +13,13 @@ _February 19, 2023_ -- SciPy 1.10.1 has been released!
 
 _January 3, 2023_ -- SciPy 1.10.0 has been released!
 
+### SciPy funding
+
+_November, 2022_ -- SciPy received a grant from the Chan Zuckerberg
+Initiative!
+
+See <https://chanzuckerberg.com/eoss/proposals/scipy-fundamental-tools-for-biomedical-research/>
+
 ### SciPy 1.9.3 released
 
 _October 19, 2022_ -- SciPy 1.9.3 has been released!
