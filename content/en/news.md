@@ -1,9 +1,17 @@
 ---
 title: News
 sidebar: false
-newsHeader: SciPy 1.10.1 released!
-date: 2023-02-19
+newsHeader: "Fostering an Inclusive Culture: Call for Participation"
+date: 2023-05-10
 ---
+
+### Fostering an Inclusive Culture: Call for Participation
+
+_May 10, 2023_ -- Fostering an Inclusive Culture: Call for Participation
+
+How can we be better when it comes to diversity and inclusion?
+Read the report and find out how to get involved here
+<https://contributor-experience.org/docs/posts/dei-report/>
 
 ### SciPy 1.10.1 released
 
@@ -12,6 +20,13 @@ _February 19, 2023_ -- SciPy 1.10.1 has been released!
 ### SciPy 1.10.0 released
 
 _January 3, 2023_ -- SciPy 1.10.0 has been released!
+
+### SciPy funding
+
+_November, 2022_ -- SciPy received a grant from the Chan Zuckerberg
+Initiative!
+
+See <https://chanzuckerberg.com/eoss/proposals/scipy-fundamental-tools-for-biomedical-research/>
 
 ### SciPy 1.9.3 released
 
