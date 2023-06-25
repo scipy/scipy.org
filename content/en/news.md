@@ -1,9 +1,13 @@
 ---
 title: News
 sidebar: false
-newsHeader: "Fostering an Inclusive Culture: Call for Participation"
-date: 2023-05-10
+newsHeader: SciPy 1.11.0 released!
+date: 2023-06-25
 ---
+
+### SciPy 1.11.0 released
+
+_June 25, 2023_ -- SciPy 1.11.0 has been released!
 
 ### Fostering an Inclusive Culture: Call for Participation
 
@@ -171,6 +175,7 @@ Here is a list of SciPy releases, with links to release notes. Bugfix
 releases (only the `z` changes in the `x.y.z` version number) have no new
 features; minor releases (the `y` increases) do.
 
+- SciPy 1.11.0 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.11.0)) -- _2023-06-25_.
 - SciPy 1.10.1 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.10.1)) -- _2023-02-19_.
 - SciPy 1.10.0 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.10.0)) -- _2023-01-03_.
 - SciPy 1.9.3 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.9.3)) -- _2022-10-19_.
