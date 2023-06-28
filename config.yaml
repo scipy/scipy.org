@@ -65,58 +65,58 @@ languages:
 
       section5: false
 
-    navbar:
-      - title: Install
-        url: /install
-      - title: Documentation
-        url: https://docs.scipy.org/doc/scipy/
-      - title: Community
-        url: /community
-      - title: About Us
-        url: /about
-      - title: Contribute
-        url: /contribute
-    footer:
-      logo: logo.svg
-      socialmediatitle: ""
-      socialmedia:
-        - link: https://github.com/scipy/scipy
-          icon: github
-        - link: https://twitter.com/SciPy_team
-          icon: twitter
-      quicklinks:
-        column1:
-          title: ""
-          links:
-            - text: Install
-              link: /install
-            - text: Documentation
-              link: https://docs.scipy.org/doc/scipy/
-            - text: Citing SciPy
-              link: /citing-scipy
-            - text: Roadmap
-              link: https://scipy.github.io/devdocs/dev/roadmap.html
-        column2:
-          links:
-            - text: About Us
-              link: /about
-            - text: Community
-              link: /community
-            - text: SciPy Conference
-              link: https://conference.scipy.org/
-            - text: Contribute
-              link: /contribute
-            - text: Code of Conduct
-              link: https://docs.scipy.org/doc/scipy/dev/conduct/code_of_conduct.html
-        column3:
-          links:
-            - text: FAQ
-              link: /faq
-            - text: Get Help
-              link: /gethelp
-            - text: Terms of Use
-              link: /terms
-            - text: Privacy
-              link: /privacy
-            - text: Press Kit
-              link: /press-kit
+      navbar:
+        - title: Install
+          url: /install
+        - title: Documentation
+          url: https://docs.scipy.org/doc/scipy/
+        - title: Community
+          url: /community
+        - title: About Us
+          url: /about
+        - title: Contribute
+          url: /contribute
+      footer:
+        logo: logo.svg
+        socialmediatitle: ""
+        socialmedia:
+          - link: https://github.com/scipy/scipy
+            icon: github
+          - link: https://twitter.com/SciPy_team
+            icon: twitter
+        quicklinks:
+          column1:
+            title: ""
+            links:
+              - text: Install
+                link: /install
+              - text: Documentation
+                link: https://docs.scipy.org/doc/scipy/
+              - text: Citing SciPy
+                link: /citing-scipy
+              - text: Roadmap
+                link: https://scipy.github.io/devdocs/dev/roadmap.html
+          column2:
+            links:
+              - text: About Us
+                link: /about
+              - text: Community
+                link: /community
+              - text: SciPy Conference
+                link: https://conference.scipy.org/
+              - text: Contribute
+                link: /contribute
+              - text: Code of Conduct
+                link: https://docs.scipy.org/doc/scipy/dev/conduct/code_of_conduct.html
+          column3:
+            links:
+              - text: FAQ
+                link: /faq
+              - text: Get Help
+                link: /gethelp
+              - text: Terms of Use
+                link: /terms
+              - text: Privacy
+                link: /privacy
+              - text: Press Kit
+                link: /press-kit
