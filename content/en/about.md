@@ -68,7 +68,7 @@ Institutional Partners are organizations that support the project by employing
 people that contribute to SciPy as part of their job. Current Institutional
 Partners include:
 
-- Quansight (Ralf Gommers, Peter Bell, Pamphile Roy, Melissa Weber Mendonça,
+- Quansight (Ralf Gommers, Peter Bell, Melissa Weber Mendonça,
   Evgeni Burovski)
 
 {{< partners >}}
