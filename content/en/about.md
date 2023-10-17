@@ -69,7 +69,7 @@ people that contribute to SciPy as part of their job. Current Institutional
 Partners include:
 
 - Quansight (Ralf Gommers, Peter Bell, Melissa Weber Mendonça,
-  Evgeni Burovski)
+  Evgeni Burovski, Albert Steppi)
 
 {{< partners >}}
 
