@@ -46,7 +46,7 @@ Other options include:
 - [WinPython](https://winpython.github.io): Another free distribution
   including scientific packages and the Spyder IDE; Windows only, but
   more actively maintained and supports the latest Python 3 versions.
-- [Pyzo](https://www.pyzo.org/): A free distribution based on Anaconda
+- [Pyzo](https://pyzo.org): A free distribution based on Anaconda
   and the IEP interactive development environment; Supports Linux,
   Windows, and Mac.
 
