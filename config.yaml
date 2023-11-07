@@ -35,6 +35,7 @@ languages:
       navbarlogo:
         image: logo.svg
         altText: A blue circle with a snake in the shape of the letter 'S'.
+        text: SciPy
         link: /
       hero:
         # Main hero title
