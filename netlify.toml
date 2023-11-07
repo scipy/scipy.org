@@ -50,3 +50,5 @@
 
 [[plugins]]
   package = "netlify-plugin-checklinks"
+  [plugins.inputs]
+  skipPatterns = ['https://fonts.gstatic.com', 'https://fonts.googleapis.com']
