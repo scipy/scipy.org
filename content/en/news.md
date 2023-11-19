@@ -1,9 +1,13 @@
 ---
 title: News
 sidebar: false
-newsHeader: SciPy 1.11.3 released!
-date: 2023-09-27
+newsHeader: SciPy 1.11.4 released!
+date: 2023-11-18
 ---
+
+### SciPy 1.11.4 released
+
+_November 18, 2023_ -- SciPy 1.11.4 has been released!
 
 ### SciPy 1.11.3 released
 
@@ -187,6 +191,7 @@ Here is a list of SciPy releases, with links to release notes. Bugfix
 releases (only the `z` changes in the `x.y.z` version number) have no new
 features; minor releases (the `y` increases) do.
 
+- SciPy 1.11.4 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.11.4)) -- _2023-11-18_.
 - SciPy 1.11.3 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.11.3)) -- _2023-09-27_.
 - SciPy 1.11.2 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.11.2)) -- _2023-08-17_.
 - SciPy 1.11.1 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.11.1)) -- _2023-06-28_.
