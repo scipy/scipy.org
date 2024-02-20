@@ -1,0 +1,49 @@
+---
+title:
+---
+
+{{< grid columns="1 2 2 3" >}}
+
+{{< card >}}
+title = 'Fundamental algorithms'
+body = '''
+SciPy provides algorithms for optimization, integration, interpolation, eigenvalue problems, algebraic equations, differential equations, statistics and many other classes of problems.
+'''
+{{< /card >}}
+
+{{< card >}}
+title = 'Broadly applicable'
+body = '''
+The algorithms and data structures provided by SciPy are broadly applicable across domains.
+'''
+{{< /card >}}
+
+{{< card >}}
+title = 'Foundational'
+body = '''
+Extends NumPy providing additional tools for array computing and provides specialized data structures, such as sparse matrices and k-dimensional trees.
+'''
+{{< /card >}}
+
+{{< card >}}
+title = 'Performant'
+body = '''
+SciPy wraps highly-optimized implementations written in low-level languages like Fortran, C, and C++. Enjoy the flexibility of Python with the speed of compiled code.
+'''
+{{< /card >}}
+
+{{< card >}}
+title = 'Easy to use'
+body = '''
+SciPy's high level syntax makes it accessible and productive for programmers from any background or experience level.
+'''
+{{< /card >}}
+
+{{< card >}}
+title = 'Open source'
+body = '''
+Distributed under a liberal [BSD license](https://github.com/scipy/scipy/blob/main/LICENSE.txt), SciPy is developed and maintained [publicly on GitHub](https://github.com/scipy/scipy) by a vibrant, responsive, and diverse [community](/community).
+'''
+{{< /card >}}
+
+{{< /grid >}}
