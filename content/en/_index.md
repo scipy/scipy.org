@@ -5,8 +5,8 @@ title:
 {{< grid1 columns="1 2 2 3" >}}
 
 [[item]]
-type = 'card
-'title = 'Fundamental algorithms'
+type = 'card'
+title = 'Fundamental algorithms'
 body = '''
 SciPy provides algorithms for optimization, integration, interpolation, eigenvalue problems, algebraic equations, differential equations, statistics and many other classes of problems.
 '''
