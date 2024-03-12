@@ -22,22 +22,19 @@ clean: ## remove the build artifacts, mainly the "public" directory
 prepare: clean
 	git submodule update --init
 
-TEAMS_DIR = static/teams
+TEAMS_DIR = content/en/teams
 TEAMS = emeritus-maintainers maintainers triage-team web-team
 TEAMS_QUERY = python themes/scientific-python-hugo-theme/tools/team_query.py
 
-$(TEAMS_DIR):
-	mkdir -p $(TEAMS_DIR)
-
-$(TEAMS_DIR)/%.md: $(TEAMS_DIR)
-	$(TEAMS_QUERY) --org scipy --team "$*"  >  $(TEAMS_DIR)/$*.html
+$(TEAMS_DIR)/%.toml:
+	$(TEAMS_QUERY) --org scipy --team "$*"  >  $(TEAMS_DIR)/$*.toml
 
 teams-clean: prepare
 	for team in $(TEAMS); do \
-	  rm -f $(TEAMS_DIR)/$${team}.html ;\
+	  rm -f $(TEAMS_DIR)/$${team}.toml ;\
 	done
 
-teams: | teams-clean $(patsubst %,$(TEAMS_DIR)/%.md,$(TEAMS))
+teams: | teams-clean $(patsubst %,$(TEAMS_DIR)/%.toml,$(TEAMS))
 
 html: prepare ## build the website in ./public
 	hugo $(BASEURLARG)
