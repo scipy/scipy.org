@@ -2,7 +2,7 @@
 title:
 ---
 
-{{< grid1 columns="1 2 2 3" >}}
+{{< grid columns="1 2 2 3" >}}
 
 [[item]]
 type = 'card'
@@ -46,4 +46,4 @@ body = '''
 Distributed under a liberal [BSD license](https://github.com/scipy/scipy/blob/main/LICENSE.txt), SciPy is developed and maintained [publicly on GitHub](https://github.com/scipy/scipy) by a vibrant, responsive, and diverse [community](/community).
 '''
 
-{{< /grid1 >}}
+{{< /grid >}}
