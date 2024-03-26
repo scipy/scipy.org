@@ -42,7 +42,7 @@ link = 'https://github.com/charlotte12l'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image >}}
-src = 'https://avatars.githubusercontent.com/u/36567889?u=cbc76d558d375ebafd4a05a505f500eb94e00611&v=4"'
+src = 'https://avatars.githubusercontent.com/u/36567889?u=2be04cb2955119b2a22c1c391ddbcb0bceb9fcd5&v=4"'
 alt = 'Avatar of ਗਗਨਦੀਪ ਸਿੰਘ (Gagandeep Singh)'
 {{< /image >}}
 ਗਗਨਦੀਪ ਸਿੰਘ (Gagandeep Singh)'''

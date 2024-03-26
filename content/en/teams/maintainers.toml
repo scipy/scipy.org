@@ -292,6 +292,16 @@ link = 'https://github.com/steppi'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image >}}
+src = 'https://avatars.githubusercontent.com/u/67928790?u=e85f64cbd3fa3f43b87946e350812d5d77391f82&v=4"'
+alt = 'Avatar of thalassemia'
+{{< /image >}}
+thalassemia'''
+link = 'https://github.com/thalassemia'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
 src = 'https://avatars.githubusercontent.com/u/43181252?u=9b73b5e2860a399c56235dbe2cbfcd5ce58836de&v=4"'
 alt = 'Avatar of Tirth Patel'
 {{< /image >}}
