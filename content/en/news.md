@@ -1,9 +1,15 @@
 ---
 title: News
 sidebar: false
-newsHeader: SciPy 1.12.0 released!
-date: 2024-01-20
+newsHeader: SciPy 1.13.0 released!
+date: 2024-04-02
 ---
+
+### SciPy 1.13.0 released
+
+_April 2, 2024_ -- SciPy 1.13.0 has been released. This is the first stable
+release to support the NumPy 2.x series, and is backwards compatible to
+NumPy 1.22.4.
 
 ### SciPy 1.12.0 released
 
@@ -195,6 +201,7 @@ Here is a list of SciPy releases, with links to release notes. Bugfix
 releases (only the `z` changes in the `x.y.z` version number) have no new
 features; minor releases (the `y` increases) do.
 
+- SciPy 1.13.0 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.13.0)) -- _2024-04-02_.
 - SciPy 1.12.0 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.12.0)) -- _2024-01-20_.
 - SciPy 1.11.4 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.11.4)) -- _2023-11-18_.
 - SciPy 1.11.3 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.11.3)) -- _2023-09-27_.
