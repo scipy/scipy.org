@@ -53,15 +53,15 @@ languages:
 
       navbar:
         - title: Install
-          url: /install
+          url: install
         - title: Documentation
           url: https://docs.scipy.org/doc/scipy/
         - title: Community
-          url: /community
+          url: community
         - title: About Us
-          url: /about
+          url: about
         - title: Contribute
-          url: /contribute
+          url: contribute
       footer:
         logo: logo.svg
         socialmediatitle: ""
@@ -75,34 +75,34 @@ languages:
             title: ""
             links:
               - text: Install
-                link: /install
+                link: install
               - text: Documentation
                 link: https://docs.scipy.org/doc/scipy/
               - text: Citing SciPy
-                link: /citing-scipy
+                link: citing-scipy
               - text: Roadmap
                 link: https://scipy.github.io/devdocs/dev/roadmap.html
           column2:
             links:
               - text: About Us
-                link: /about
+                link: about
               - text: Community
-                link: /community
+                link: community
               - text: SciPy Conference
                 link: https://conference.scipy.org/
               - text: Contribute
-                link: /contribute
+                link: contribute
               - text: Code of Conduct
                 link: https://docs.scipy.org/doc/scipy/dev/conduct/code_of_conduct.html
           column3:
             links:
               - text: FAQ
-                link: /faq
+                link: faq
               - text: Get Help
-                link: /gethelp
+                link: gethelp
               - text: Terms of Use
-                link: /terms
+                link: terms
               - text: Privacy
-                link: /privacy
+                link: privacy
               - text: Press Kit
-                link: /press-kit
+                link: press-kit
