@@ -45,6 +45,10 @@
   to = "/donations/"
 
 [[redirects]]
+  from = "/gethelp"
+  to = "/community/"
+
+[[redirects]]
   from = "/scipylib/faq.html"
   to = "/faq/"
 

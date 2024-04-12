@@ -33,7 +33,7 @@ Once a month we have special meetings for folks who want to start contributing
 or have just started. All are welcome! Check our community calendar for details,
 or look out for the announcements on our mailing list.
 
-### [SciPy mailing list](https://discuss.scientific-python.org/c/contributor/scipy)
+### [SciPy Forum](https://discuss.scientific-python.org/c/contributor/scipy)
 
 This list is the main forum for longer-form discussions, like adding new
 features to SciPy, making changes to the SciPy Roadmap, and all kinds of
@@ -48,6 +48,10 @@ is available [here](https://mail.python.org/archives/list/scipy-dev@python.org/)
 The SciPy team also has a Slack space that you can join. This is not a user
 support forum, but you can ask questions about contributing and getting involved
 in the community. To join, please [follow this invite link](https://join.slack.com/t/scipy-community/shared_invite/zt-1a76bomjr-fuS1ZTnmP7b32kIhLb6QMg).
+
+### [Scientific Python Discord](https://discord.com/invite/vur45CbwMz)
+
+You can also join the `#scipy` channel on the Scientific Python discord.
 
 ---
 
@@ -74,7 +78,7 @@ scientific computing, we recommend exploring the
 SciPy also organizes in-person sprints for its team and interested contributors
 occasionally. These are typically planned several months in advance and will
 be announced on the
-[mailing list](https://mail.python.org/mailman3/lists/scipy-dev.python.org/).
+[forum](https://discuss.scientific-python.org/c/contributor/scipy).
 
 ## Conferences
 

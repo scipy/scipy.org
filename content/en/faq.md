@@ -166,7 +166,7 @@ officially supported by the development team.
 
 You can ask questions with the [SciPy tag on
 StackOverflow](https://stackoverflow.com/questions/tagged/scipy), or on
-the scipy-user [mailing lists](/community).
+the scipy-user [forum](https://discuss.scientific-python.org/c/user/scipy/30).
 Search for an answer first, because someone may already
 have found a solution to your problem, and using that will save everyone
 time.

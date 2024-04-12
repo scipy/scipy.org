@@ -7,22 +7,8 @@ The SciPy project welcomes your expertise and enthusiasm!
 Your choices aren't limited to programming, as you can
 see below there are many areas where we need **your** help.
 
-If you're unsure where to start or how your skills fit in, _reach out!_ You
-can ask on the [mailing
-list](https://mail.python.org/mailman3/lists/scipy-dev.python.org/) or
-[GitHub](https://github.com/scipy/scipy) (open an
-[issue](https://github.com/scipy/scipy/issues) or comment on a relevant
-issue).
-
-Those are our preferred channels (open source is open by nature).
-
-We also have a biweekly _community call_ and a monthly _new contributors meeting_,
-details of which are announced on the
-[mailing list](https://mail.python.org/mailman3/lists/scipy-dev.python.org/) and
-listed in our [community calendar](https://scientific-python.org/calendars/).
-You are very welcome to join.
-If you are new to contributing to open source, we also highly recommend reading
-[this guide](https://opensource.guide/how-to-contribute/).
+If you're unsure where to start or how your skills fit in, _reach out!_
+See the [community](/community) page.
 
 Our community aspires to treat everyone equally and to value all contributions.
 We have a
