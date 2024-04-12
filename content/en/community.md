@@ -57,7 +57,7 @@ in the community. To join, please [follow this invite link](https://join.slack.c
 
 You can also join the `#scipy` channel on the Scientific Python discord.
 
-### (StackOverflow)[https://stackoverflow.com/questions/tagged/scipy]
+### [StackOverflow](https://stackoverflow.com/questions/tagged/scipy)
 
 You can ask questions with the `scipy` tag on
 StackOverflow.
