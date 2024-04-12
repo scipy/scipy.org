@@ -98,8 +98,6 @@ languages:
             links:
               - text: FAQ
                 link: /faq
-              - text: Get Help
-                link: /gethelp
               - text: Terms of Use
                 link: /terms
               - text: Privacy

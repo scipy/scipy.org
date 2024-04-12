@@ -164,9 +164,4 @@ officially supported by the development team.
 
 # Where to get help
 
-You can ask questions with the [SciPy tag on
-StackOverflow](https://stackoverflow.com/questions/tagged/scipy), or on
-the scipy-user [mailing lists](/community).
-Search for an answer first, because someone may already
-have found a solution to your problem, and using that will save everyone
-time.
+See the [community](/community) page.

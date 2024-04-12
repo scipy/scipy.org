@@ -30,7 +30,7 @@
 
 [[redirects]]
   from = "/scipylib/mailing-lists.html"
-  to = "/mailing-lists/"
+  to = "/community/"
 
 [[redirects]]
   from = "/scipylib/bug-report.html"
@@ -43,6 +43,10 @@
 [[redirects]]
   from = "/scipylib/donations.html"
   to = "/donations/"
+
+[[redirects]]
+  from = "/gethelp"
+  to = "/community/"
 
 [[redirects]]
   from = "/scipylib/faq.html"
