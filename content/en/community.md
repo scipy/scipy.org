@@ -42,7 +42,7 @@ or look out for the announcements on our development forum.
 This space is the main forum for longer-form discussions, like adding new
 features to SciPy, making changes to the SciPy Roadmap, and all kinds of
 project-wide decision making. Announcements about SciPy, such as for releases,
-developer meetings, sprints or conference talks are also made on this list.
+developer meetings, sprints or conference talks are also made on this forum.
 
 A searchable archive of the old mailing list
 is available [here](https://mail.python.org/archives/list/scipy-dev@python.org/).
