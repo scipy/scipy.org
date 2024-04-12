@@ -16,8 +16,12 @@ connect with others within the SciPy community.
 ## Participate online
 
 The following are ways to engage directly with the SciPy project and community.
-_Please note that we encourage users and community members to support each
-other for usage questions - see [community](/community)._
+
+Please note that we encourage users and community members to support each
+other for usage questions. Search for an answer first, because someone may
+already have found a solution to your problem.
+
+Lastly, maintainers are mostly monitoring the forum and GitHub.
 
 ### [SciPy community meetings](https://scientific-python.org/calendars/)
 
@@ -52,6 +56,11 @@ in the community. To join, please [follow this invite link](https://join.slack.c
 ### [Scientific Python Discord](https://discord.com/invite/vur45CbwMz)
 
 You can also join the `#scipy` channel on the Scientific Python discord.
+
+### (StackOverflow)[https://stackoverflow.com/questions/tagged/scipy]
+
+You can ask questions with the `scipy` tag on
+StackOverflow.
 
 ---
 
