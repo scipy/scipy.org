@@ -28,18 +28,18 @@ Lastly, maintainers are mostly monitoring the forum and GitHub.
 SciPy community meetings are ideal to anyone wanting to contribute to SciPy
 or just know how current development is going. You can follow
 [our community calendar](https://scientific-python.org/calendars/) from your
-preferred calendar manager, or look out for the announcements on our mailing
-list.
+preferred calendar manager, or look out for the announcements on our
+development forum.
 
 ### [SciPy new contributor meetings](https://scientific-python.org/calendars/)
 
 Once a month we have special meetings for folks who want to start contributing
 or have just started. All are welcome! Check our community calendar for details,
-or look out for the announcements on our mailing list.
+or look out for the announcements on our development forum.
 
-### [SciPy Forum](https://discuss.scientific-python.org/c/contributor/scipy)
+### [SciPy development forum](https://discuss.scientific-python.org/c/contributor/scipy)
 
-This list is the main forum for longer-form discussions, like adding new
+This space is the main forum for longer-form discussions, like adding new
 features to SciPy, making changes to the SciPy Roadmap, and all kinds of
 project-wide decision making. Announcements about SciPy, such as for releases,
 developer meetings, sprints or conference talks are also made on this list.
