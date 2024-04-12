@@ -17,7 +17,7 @@ connect with others within the SciPy community.
 
 The following are ways to engage directly with the SciPy project and community.
 _Please note that we encourage users and community members to support each
-other for usage questions - see [Get Help](/gethelp)._
+other for usage questions - see [community](/community)._
 
 ### [SciPy community meetings](https://scientific-python.org/calendars/)
 
