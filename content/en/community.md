@@ -33,15 +33,14 @@ Once a month we have special meetings for folks who want to start contributing
 or have just started. All are welcome! Check our community calendar for details,
 or look out for the announcements on our mailing list.
 
-### [SciPy mailing list](https://mail.python.org/mailman3/lists/scipy-dev.python.org/)
+### [SciPy mailing list](https://discuss.scientific-python.org/c/contributor/scipy)
 
 This list is the main forum for longer-form discussions, like adding new
 features to SciPy, making changes to the SciPy Roadmap, and all kinds of
 project-wide decision making. Announcements about SciPy, such as for releases,
 developer meetings, sprints or conference talks are also made on this list.
 
-On this list please use bottom posting, reply to the list (rather than to
-another sender), and don't reply to digests. A searchable archive of this list
+A searchable archive of the old mailing list
 is available [here](https://mail.python.org/archives/list/scipy-dev@python.org/).
 
 ### [SciPy Slack space](https://join.slack.com/t/scipy-community/shared_invite/zt-1a76bomjr-fuS1ZTnmP7b32kIhLb6QMg)
