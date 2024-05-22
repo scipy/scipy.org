@@ -6,7 +6,7 @@ and served using [Hugo](https://gohugo.io).
 
 ## Build
 
-After installing Hugo, build locally:
+After installing Hugo and Dart Sass, build locally:
 
 ```
 git submodule update --init
@@ -30,8 +30,7 @@ It needs a
 with `read:org` permissions. The token has to be exported as `GH_TOKEN`.
 
 ```
-export GH_TOKEN=xxxxxxxxxx
-make teams
+GH_TOKEN=xxxxxxxxxx make teams
 ```
 
 ## Analytics

@@ -88,20 +88,13 @@ making a donation to the project commensurate with your resources. Any
 amount helps!
 
 Donations are managed by the [NumFOCUS](https://numfocus.org)
-foundation, which passes 90% of your contribution to the SciPy project,
+foundation, which passes your contribution to the SciPy project,
 and provides the SciPy development team with basic administrative and
-legal services for the other 10%. NumFOCUS is a 501(c)3 non-profit
+legal services. NumFOCUS is a 501(c)3 non-profit
 foundation, so if you are subject to the US Tax law, your contributions
 are tax-deductible.
 
-<div style="display: block; float:center;">
-   <a href="https://numfocus.salsalabs.org/donate-to-scipy" target="_blank"
-      style="background:#1e87f0;padding:10px;margin:10px 0px;
-             text-decoration:none;font-size:12pt;color:#ffffff;
-             font-family:Arial,Helvetica,sans-serif;display:inline-block;">
-      Donate to SciPy
-   </a>
-</div>
+{{<opencollective>}}
 
 ## Acknowledgements
 
