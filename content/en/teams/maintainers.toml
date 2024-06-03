@@ -52,6 +52,16 @@ link = 'https://github.com/dschmitz89'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image >}}
+src = 'https://avatars.githubusercontent.com/u/915037?u=6a27f396c666c5c2172a1cfc7b0d4bbcd0069eed&v=4"'
+alt = 'Avatar of Dan Schult'
+{{< /image >}}
+Dan Schult'''
+link = 'https://github.com/dschult'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
 src = 'https://avatars.githubusercontent.com/u/2133832?v=4"'
 alt = 'Avatar of Evgeni Burovski'
 {{< /image >}}
@@ -302,7 +312,7 @@ link = 'https://github.com/thalassemia'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image >}}
-src = 'https://avatars.githubusercontent.com/u/43181252?u=9b73b5e2860a399c56235dbe2cbfcd5ce58836de&v=4"'
+src = 'https://avatars.githubusercontent.com/u/43181252?v=4"'
 alt = 'Avatar of Tirth Patel'
 {{< /image >}}
 Tirth Patel'''
