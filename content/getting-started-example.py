@@ -3,6 +3,7 @@
 Compute the maximum of a Bessel function and plot it.
 
 """
+
 import argparse
 
 import numpy as np
