@@ -123,9 +123,9 @@ type = 'card'
 classcard = 'text-center'
 body = '''{{< image >}}
 src = 'https://avatars.githubusercontent.com/u/30074037?u=c2549c85c82266302c71aef5c20446871323d91b&v=4"'
-alt = 'Avatar of Kai'
+alt = 'Avatar of Kai Striega'
 {{< /image >}}
-Kai'''
+Kai Striega'''
 link = 'https://github.com/Kai-Striega'
 
 [[item]]
@@ -282,7 +282,7 @@ link = 'https://github.com/rlucas7'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image >}}
-src = 'https://avatars.githubusercontent.com/u/45071?u=c779b5e06448fbc638bc987cdfe305c7f9a7175e&v=4"'
+src = 'https://avatars.githubusercontent.com/u/45071?u=ef2af0a29229833cd2ae0e5aeb90283881e8c1e0&v=4"'
 alt = 'Avatar of Stefan van der Walt'
 {{< /image >}}
 Stefan van der Walt'''
