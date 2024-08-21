@@ -1,9 +1,14 @@
 ---
 title: News
 sidebar: false
-newsHeader: SciPy 1.14.0 released!
-date: 2024-06-24
+newsHeader: SciPy 1.14.1 released!
+date: 2024-08-20
 ---
+
+### SciPy 1.14.1 released
+
+_August 20, 2024_ -- SciPy 1.14.1 has been released! This is the first
+stable release to support Python 3.13, including PyPI wheels.
 
 ### SciPy 1.14.0 released
 
@@ -209,6 +214,7 @@ Here is a list of SciPy releases, with links to release notes. Bugfix
 releases (only the `z` changes in the `x.y.z` version number) have no new
 features; minor releases (the `y` increases) do.
 
+- SciPy 1.14.1 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.14.1)) -- _2024-08-20_.
 - SciPy 1.14.0 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.14.0)) -- _2024-06-24_.
 - SciPy 1.13.1 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.13.1)) -- _2024-05-22_.
 - SciPy 1.13.0 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.13.0)) -- _2024-04-02_.
