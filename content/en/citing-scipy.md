@@ -16,7 +16,7 @@ Eric W. Moore, Jake VanderPlas, Denis Laxalde, Josef Perktold, Robert
 Cimrman, Ian Henriksen, E.A. Quintero, Charles R Harris, Anne M.
 Archibald, Antônio H. Ribeiro, Fabian Pedregosa, Paul van Mulbregt, and
 SciPy 1.0 Contributors. (2020) **SciPy 1.0: Fundamental Algorithms for
-Scientific Computing in Python**. _Nature Methods_, 17(3), 261-272.
+Scientific Computing in Python**. _Nature Methods_, 17(3), 261-272. DOI: [10.1038/s41592-019-0686-2](https://doi.org/10.1038/s41592-019-0686-2).
 
 Here\'s an example of a BibTeX entry:
 
