@@ -42,6 +42,16 @@ link = 'https://github.com/chrisb83'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image >}}
+src = 'https://avatars.githubusercontent.com/u/12721170?u=523b41364ac96519a0abbe367ff96aa82e071755&v=4"'
+alt = 'Avatar of Dietrich Brunn'
+{{< /image >}}
+Dietrich Brunn'''
+link = 'https://github.com/DietBru'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
 src = 'https://avatars.githubusercontent.com/u/40656107?u=ec1b5e41026e08a37464489f421f0eac3474d1b1&v=4"'
 alt = 'Avatar of Daniel Schmitz'
 {{< /image >}}
