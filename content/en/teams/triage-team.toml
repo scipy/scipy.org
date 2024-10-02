@@ -42,21 +42,11 @@ link = 'https://github.com/charlotte12l'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image >}}
-src = 'https://avatars.githubusercontent.com/u/36567889?u=2be04cb2955119b2a22c1c391ddbcb0bceb9fcd5&v=4"'
+src = 'https://avatars.githubusercontent.com/u/36567889?u=39ead62a22648e6d623de16e97ecd8adf9a28ddf&v=4"'
 alt = 'Avatar of ਗਗਨਦੀਪ ਸਿੰਘ (Gagandeep Singh)'
 {{< /image >}}
 ਗਗਨਦੀਪ ਸਿੰਘ (Gagandeep Singh)'''
 link = 'https://github.com/czgdp1807'
-
-[[item]]
-type = 'card'
-classcard = 'text-center'
-body = '''{{< image >}}
-src = 'https://avatars.githubusercontent.com/u/12721170?u=523b41364ac96519a0abbe367ff96aa82e071755&v=4"'
-alt = 'Avatar of Dietrich Brunn'
-{{< /image >}}
-Dietrich Brunn'''
-link = 'https://github.com/DietBru'
 
 [[item]]
 type = 'card'
