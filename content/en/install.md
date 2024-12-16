@@ -179,4 +179,3 @@ you should install version `x.y.z.*` below:
     uv add 'scipy-stubs[scipy]==1.14.*' # or
     mamba install 'scipy-typed==1.14.1.*' # or
     pixi add 'scipy-typed==1.15.0.*'
-
