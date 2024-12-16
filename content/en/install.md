@@ -34,7 +34,7 @@ see [Installing with type stubs](#type-stubs).
 
 <a name="distributions"></a>
 
-# Scientific Python Distributions (recommended for new users)
+## Scientific Python Distributions (recommended for new users)
 
 Python distributions provide the language itself, along with the most
 commonly used packages and tools. These downloadable files require
@@ -68,13 +68,13 @@ you may prefer to use a dedicated package manager like [`uv`]
 
 <a name="pypi-install"></a>
 
-# Installing from PyPI
+## Installing from PyPI
 
 SciPy is [available on PyPI](https://pypi.org/project/scipy/), the Python Package Index.
 
 <a name="pip-install"></a>
 
-## Installing with `pip`
+### Installing with `pip`
 
 You can install SciPy from PyPI with `pip`:
 
@@ -82,7 +82,7 @@ You can install SciPy from PyPI with `pip`:
 
 <a name="uv-install"></a>
 
-## Installing with `uv`
+### Installing with `uv`
 
 You can also add SciPy from PyPI to a `uv` project:
 
@@ -90,9 +90,9 @@ You can also add SciPy from PyPI to a `uv` project:
 
 <a name="conda-forge-install"></a>
 
-# Installing from conda-forge
+## Installing from conda-forge
 
-## Installing with `conda` or `mamba`
+### Installing with `conda` or `mamba`
 
 [`Miniforge`] is the recommended way to install the `conda`
 (and `mamba`, a faster `conda` alternative) package manager.
@@ -102,13 +102,13 @@ You can then install SciPy as follows:
 
 [`Miniforge`]: https://conda-forge.org/download/
 
-## Installing with `pixi`
+### Installing with `pixi`
 
 You can also add SciPy from conda-forge to a [`pixi`] project:
 
     pixi add scipy
 
-# Installing from the Anaconda Repository
+## Installing from the Anaconda Repository
 
 If you instead install `conda` via [`Miniconda`], you can install
 [SciPy from the Anaconda repository](https://anaconda.org/anaconda/scipy):
@@ -117,25 +117,25 @@ If you instead install `conda` via [`Miniconda`], you can install
 
 <a name="system-package-manager"></a>
 
-# Install system-wide via a system package manager
+## Install system-wide via a system package manager
 
 System package managers can install the most common Python packages.
 They install packages for the entire computer, often use older versions,
 and don't have as many available versions.
 
-## Ubuntu and Debian
+### Ubuntu and Debian
 
 Using `apt-get`:
 
     sudo apt-get install python3-scipy
 
-## Fedora
+### Fedora
 
 Using `dnf`:
 
     sudo dnf install python3-scipy
 
-## macOS
+### macOS
 
 macOS doesn't have a preinstalled package manager, but you can install
 [Homebrew](https://brew.sh/) and use it to install SciPy (and Python itself):
@@ -144,7 +144,7 @@ macOS doesn't have a preinstalled package manager, but you can install
 
 <a name="source"></a>
 
-# Source packages
+## Source packages
 
 A word of warning: building SciPy from source can be a nontrivial exercise. We
 recommend using binaries instead if those are available for your platform.
@@ -153,7 +153,7 @@ For details on how to build from source, see
 
 <a name="type-stubs"></a>
 
-# Installing with type stubs
+## Installing with type stubs
 
 Static type stubs are available via a separate package, `scipy-stubs`, on
 PyPI and conda-forge. If you have already installed SciPy, you just need to
