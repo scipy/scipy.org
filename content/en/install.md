@@ -78,9 +78,7 @@ SciPy is [available on PyPI](https://pypi.org/project/scipy/), the Python Packag
 
 You can install SciPy from PyPI with `pip`:
 
-```bash
-python -m pip install scipy
-```
+    python -m pip install scipy
 
 <a name="uv-install"></a>
 
@@ -88,9 +86,7 @@ python -m pip install scipy
 
 You can also add SciPy from PyPI to a `uv` project:
 
-```bash
-uv add scipy
-```
+    uv add scipy
 
 <a name="conda-forge-install"></a>
 
@@ -102,9 +98,7 @@ uv add scipy
 (and `mamba`, a faster `conda` alternative) package manager.
 You can then install SciPy as follows:
 
-```bash
-mamba install scipy
-```
+    mamba install scipy
 
 [`Miniforge`]: https://conda-forge.org/download/
 
@@ -112,18 +106,14 @@ mamba install scipy
 
 You can also add SciPy from conda-forge to a [`pixi`] project:
 
-```bash
-pixi add scipy
-```
+    pixi add scipy
 
 # Installing from the Anaconda Repository
 
 If you instead install `conda` via [`Miniconda`], you can install
 [SciPy from the Anaconda repository](https://anaconda.org/anaconda/scipy):
 
-```bash
-conda install scipy
-```
+    conda install scipy
 
 <a name="system-package-manager"></a>
 
@@ -137,26 +127,20 @@ and don't have as many available versions.
 
 Using `apt-get`:
 
-```bash
-sudo apt-get install python3-scipy
-```
+    sudo apt-get install python3-scipy
 
 ## Fedora
 
 Using `dnf`:
 
-```bash
-sudo dnf install python3-scipy
-```
+    sudo dnf install python3-scipy
 
 ## macOS
 
 macOS doesn't have a preinstalled package manager, but you can install
 [Homebrew](https://brew.sh/) and use it to install SciPy (and Python itself):
 
-```bash
-brew install scipy
-```
+    brew install scipy
 
 <a name="source"></a>
 
@@ -175,12 +159,10 @@ Static type stubs are available via a separate package, `scipy-stubs`, on
 PyPI and conda-forge. If you have already installed SciPy, you just need to
 install `scipy-stubs` in the same way:
 
-```bash
-python -m pip install scipy-stubs # or
-uv add scipy-stubs # or
-mamba install scipy-stubs # or
-pixi add scipy-stubs
-```
+    python -m pip install scipy-stubs # or
+    uv add scipy-stubs # or
+    mamba install scipy-stubs # or
+    pixi add scipy-stubs
 
 <!---
 XXX: https://github.com/conda-forge/scipy-stubs-feedstock/pull/5
@@ -192,10 +174,9 @@ package on conda-forge.
 To get a specific version `x.y.z` of SciPy (such as `1.14.1`),
 you should install version `x.y.z.*` below:
 
-```bash
-python -m pip install 'scipy-stubs[scipy]' # or
-# versions for illustrative purposes
-uv add 'scipy-stubs[scipy]==1.14.*' # or
-mamba install 'scipy-typed==1.14.1.*' # or
-pixi add 'scipy-typed==1.15.0.*'
-```
+    python -m pip install 'scipy-stubs[scipy]' # or
+    # versions for illustrative purposes
+    uv add 'scipy-stubs[scipy]==1.14.*' # or
+    mamba install 'scipy-typed==1.14.1.*' # or
+    pixi add 'scipy-typed==1.15.0.*'
+
