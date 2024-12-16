@@ -70,9 +70,7 @@ you may prefer to use a dedicated package manager like [`uv`]
 
 # Installing from PyPI
 
-SciPy is [available on PyPI](PyPI-scipy), the Python Package Index.
-
-[PyPI-scipy]: https://pypi.org/project/scipy/
+SciPy is [available on PyPI](https://pypi.org/project/scipy/), the Python Package Index.
 
 <a name="pip-install"></a>
 
