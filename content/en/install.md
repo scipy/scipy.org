@@ -59,7 +59,7 @@ If you already have Python installed, you can
 [install SciPy with `pip`](#pip-install).
 For more advanced users who will need to install or upgrade regularly,
 you may prefer to use a dedicated package manager like [`uv`]
-(see [Installing with `uv`](#uv-install])),
+(see [Installing with `uv`](#uv-install)),
 [Conda], or [`pixi`] (see [Installing from conda-forge](#conda-forge-install)).
 
 [`uv`]: https://docs.astral.sh/uv/
