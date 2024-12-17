@@ -147,4 +147,4 @@ you should install version `x.y.z.*` below:
     pixi add "scipy-typed=1.15.0.*"
 
 Please direct questions about static typing support to
-[the `scipy-stubs` repo](https://github.com/jorenham/scipy-stubs).
+[the `scipy-stubs` GitHub repository](https://github.com/jorenham/scipy-stubs).
