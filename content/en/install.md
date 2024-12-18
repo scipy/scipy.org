@@ -46,7 +46,7 @@ a Python package manager.
         cd try-scipy
 
     {{< admonition hint >}}
-    The second command changes directory into the directory of your project.
+The second command changes directory into the directory of your project.
     {{< /admonition >}}
 
 3.  Install Python:
@@ -54,7 +54,7 @@ a Python package manager.
         uv python install
 
     {{< admonition note >}}
-    If you have already installed Python, this step is optional.
+If you have already installed Python, this step is optional.
     {{< /admonition >}}
 
 4.  Add SciPy to your project:
@@ -101,7 +101,7 @@ tool [`pixi`] are very similar to the steps for `uv`:
         uv add scipy
 
     {{< admonition note >}}
-    This step also adds Python from conda-forge.
+This step also adds Python from conda-forge.
     {{< /admonition >}}
 
 4.  Try out SciPy!
@@ -126,7 +126,7 @@ but lack some reproducibility benefits of project-based workflows.
 2. Create and activate a virtual environment with `venv`.
 
    {{< admonition hint >}}
-   See [the tutorial in the Python Packaging User Guide][venv-guide].
+See [the tutorial in the Python Packaging User Guide][venv-guide].
    {{< /admonition >}}
 
 [venv-guide]: https://packaging.python.org/en/latest/tutorials/installing-packages/#creating-virtual-environments
