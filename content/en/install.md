@@ -126,10 +126,8 @@ but lack some reproducibility benefits of project-based workflows.
 2. Create and activate a virtual environment with `venv`.
 
    {{< admonition hint >}}
-See [the tutorial in the Python Packaging User Guide][venv-guide].
+See [the tutorial in the Python Packaging User Guide](https://packaging.python.org/en/latest/tutorials/installing-packages/#creating-virtual-environments).
    {{< /admonition >}}
-
-[venv-guide]: https://packaging.python.org/en/latest/tutorials/installing-packages/#creating-virtual-environments
 
 3.  Install SciPy, using [`pip`]:
 
