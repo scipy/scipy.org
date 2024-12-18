@@ -40,7 +40,7 @@ a Python package manager.
 
 [install-uv]: https://docs.astral.sh/uv/getting-started/installation/
 
-2. Create a new project in a new subdirectory, by executing the following in a terminal:
+2.  Create a new project in a new subdirectory, by executing the following in a terminal:
 
         uv init try-scipy
         cd try-scipy
@@ -49,7 +49,7 @@ a Python package manager.
     The second command changes directory into the directory of your project.
     {{< /admonition >}}
 
-3. Install Python:
+3.  Install Python:
 
         uv python install
 
@@ -57,11 +57,11 @@ a Python package manager.
     If you have already installed Python, this step is optional.
     {{< /admonition >}}
 
-4. Add SciPy to your project:
+4.  Add SciPy to your project:
 
         uv add scipy
 
-5. Try out SciPy!
+5.  Try out SciPy!
 
         uv run python
 
@@ -91,12 +91,12 @@ tool [`pixi`] are very similar to the steps for `uv`:
 
 [install-pixi]: https://pixi.sh/latest/
 
-2. Create a new project in a new subdirectory:
+2.  Create a new project in a new subdirectory:
 
         pixi init try-scipy
         cd try-scipy
 
-4. Add SciPy to your project:
+3.  Add SciPy to your project:
 
         uv add scipy
 
@@ -104,7 +104,7 @@ tool [`pixi`] are very similar to the steps for `uv`:
     This step also adds Python from conda-forge.
     {{< /admonition >}}
 
-5. Try out SciPy!
+4.  Try out SciPy!
 
         pixi run python
 
@@ -125,13 +125,13 @@ but lack some reproducibility benefits of project-based workflows.
 
 2. Create and activate a virtual environment with `venv`.
 
-    {{< admonition hint >}}
-    See [the tutorial in the Python Packaging User Guide][venv-guide].
-    {{< /admonition >}}
+   {{< admonition hint >}}
+   See [the tutorial in the Python Packaging User Guide][venv-guide].
+   {{< /admonition >}}
 
 [venv-guide]: https://packaging.python.org/en/latest/tutorials/installing-packages/#creating-virtual-environments
 
-3. Install SciPy, using [`pip`]:
+3.  Install SciPy, using [`pip`]:
 
         python -m pip install scipy
 
