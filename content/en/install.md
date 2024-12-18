@@ -111,7 +111,8 @@ macOS doesn't have a preinstalled package manager, but you can install
 ## Building from source
 
 A word of warning: building SciPy from source can be a nontrivial exercise. We
-recommend using binaries instead if those are available for your platform.
+recommend using binaries instead if those are available for your platform
+via one of the above methods.
 For details on how to build from source, see
 [the building from source guide in the SciPy docs][building-docs].
 
