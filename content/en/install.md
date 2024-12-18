@@ -121,9 +121,9 @@ but lack some reproducibility benefits of project-based workflows.
 
 ### Installing with `pip`
 
-1. [Install Python](https://www.python.org/downloads/).
+1.  [Install Python](https://www.python.org/downloads/).
 
-2. Create and activate a virtual environment with `venv`.
+2.  Create and activate a virtual environment with `venv`.
 
    {{< admonition hint >}}
 See [the tutorial in the Python Packaging User Guide](https://packaging.python.org/en/latest/tutorials/installing-packages/#creating-virtual-environments).
