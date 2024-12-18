@@ -98,7 +98,7 @@ tool [`pixi`] are very similar to the steps for `uv`:
 
 3.  Add SciPy to your project:
 
-        uv add scipy
+        pixi add scipy
 
     {{< admonition note >}}
 This step also adds Python from conda-forge.
