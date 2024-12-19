@@ -21,17 +21,13 @@ see [Installing with type stubs](#type-stubs).
 
 ## Project-based workflows
 
-In project-based workflows, a project is a directory containing a manifest
-file describing the project, a lock-file describing the exact dependencies
-of the project, and the project's (potentially multiple) environments.
-
 ### Installing with `uv`
 
 {{< admonition tip >}}
 If it is your first time installing a Python library, start here!
 {{< /admonition >}}
 
-Here is a step-by-step guide to setting up a project to try SciPy with [`uv`],
+Here is a step-by-step guide to setting up a project to try SciPy, with [`uv`],
 a Python package manager.
 
 [`uv`]: https://docs.astral.sh/uv/
@@ -49,19 +45,22 @@ a Python package manager.
 The second command changes directory into the directory of your project.
     {{< /admonition >}}
 
-3.  Install Python:
-
-        uv python install
-
-    {{< admonition note >}}
-If you have already installed Python, this step is optional.
-    {{< /admonition >}}
-
-4.  Add SciPy to your project:
+3.  Add SciPy to your project:
 
         uv add scipy
 
-5.  Try out SciPy!
+    {{< admonition note >}}
+This will automatically install Python if you don't already have it installed!
+    {{< /admonition >}}
+
+{{< admonition note >}}
+You can install other Python libraries in the same way, e.g.
+
+    uv add matplotlib
+
+{{< /admonition >}}
+
+4.  Try out SciPy!
 
         uv run python
 
@@ -100,10 +99,6 @@ tool [`pixi`] are very similar to the steps for `uv`:
 
         pixi add scipy
 
-    {{< admonition note >}}
-This step also adds Python from conda-forge.
-    {{< /admonition >}}
-
 4.  Try out SciPy!
 
         pixi run python
@@ -114,8 +109,13 @@ See next steps in [the SciPy user guide][scipy-user-guide].
 
 ## Environment-based workflows
 
-In environment-based workflows, you install packages into an environment, which you
-can activate and deactivate.
+In project-based workflows, a project is a directory containing a manifest
+file describing the project, a lock-file describing the exact dependencies
+of the project, and the project's (potentially multiple) environments.
+
+In contrast,
+in environment-based workflows you install packages into an environment,
+which you can activate and deactivate from any directory.
 These workflows are well-established,
 but lack some reproducibility benefits of project-based workflows.
 
@@ -125,9 +125,9 @@ but lack some reproducibility benefits of project-based workflows.
 
 2.  Create and activate a virtual environment with `venv`.
 
-   {{< admonition hint >}}
+    {{< admonition hint >}}
 See [the tutorial in the Python Packaging User Guide](https://packaging.python.org/en/latest/tutorials/installing-packages/#creating-virtual-environments).
-   {{< /admonition >}}
+    {{< /admonition >}}
 
 3.  Install SciPy, using [`pip`]:
 
@@ -139,7 +139,7 @@ See [the tutorial in the Python Packaging User Guide](https://packaging.python.o
 
 [Miniforge] is the recommended way to install `conda` and [`mamba`],
 two Conda-based environment managers.
-You can then install SciPy from conda-forge as follows:
+After creating an environment, you can install SciPy from conda-forge as follows:
 
     conda install scipy # or
     mamba install scipy
