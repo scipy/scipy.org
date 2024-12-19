@@ -53,7 +53,7 @@ The second command changes directory into the directory of your project.
 This will automatically install Python if you don't already have it installed!
     {{< /admonition >}}
 
-{{< admonition note >}}
+{{< admonition tip >}}
 You can install other Python libraries in the same way, e.g.
 
     uv add matplotlib
