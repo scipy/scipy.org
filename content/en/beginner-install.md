@@ -24,6 +24,8 @@ just write `import scipy` in one of the notebook "cells" and hit play.
 
 For next steps, see [the SciPy user guide][scipy-user-guide].
 
+[scipy-user-guide]: https://docs.scipy.org/doc/scipy/tutorial/
+
 <a name="distributions"></a>
 
 ## Scientific Python Distributions
