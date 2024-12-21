@@ -6,7 +6,7 @@ sidebar: false
 {{< admonition tip >}}
 This is the beginner installation guide.
 If you are comfortable with using a terminal and happy to learn
-how to use a package manager, check out 
+how to use a package manager, check out
 [the main installation guide](./install.md)!
 {{< /admonition >}}
 
@@ -35,6 +35,7 @@ most commonly used scientific Python tools.
 [Anaconda](https://www.anaconda.com/download/) works on Windows, Mac,
 and Linux, and is best suited to beginning users.
 Other options include:
+
 - [WinPython](https://winpython.github.io): Another free distribution
   including scientific packages and the Spyder IDE; Windows only, but
   more actively maintained and supports the latest Python 3 versions.
