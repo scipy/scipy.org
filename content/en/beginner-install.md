@@ -45,10 +45,10 @@ Other options include:
   and the IEP interactive development environment; Supports Linux,
   Windows, and Mac.
 
+{{< admonition note >}}
 Users in large, non-university institutions may want to read Anaconda's
-helpful blog on ["when is Anaconda free to use?"][anaconda-blog]
-
-[anaconda-blog]: https://www.anaconda.com/blog/update-on-anacondas-terms-of-service-for-academia-and-research
+helpful blog on ["when is Anaconda free to use?"](https://www.anaconda.com/blog/update-on-anacondas-terms-of-service-for-academia-and-research)
+{{< /admonition >}}
 
 After installing a scientific Python distribution,
 see next steps in [the SciPy user guide][scipy-user-guide].
