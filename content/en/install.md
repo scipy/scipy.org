@@ -3,6 +3,13 @@ title: Installation
 sidebar: false
 ---
 
+{{< admonition tip >}}
+This page assumes that you are comfortable with using a terminal and happy to learn
+how to use a package manager. If you are a beginner and just want to get started
+with SciPy as quickly as possible, check out
+[the beginner installation guide](./beginner-install.md)!
+{{< /admonition >}}
+
 The recommended method of installing SciPy depends on your preferred workflow.
 The common workflows can roughly be broken down into the following
 categories:
@@ -23,11 +30,7 @@ see [Installing with type stubs](#type-stubs).
 
 ### Installing with `uv`
 
-{{< admonition tip >}}
-If it is your first time installing a Python library, start here!
-{{< /admonition >}}
-
-Here is a step-by-step guide to setting up a project to try SciPy, with [`uv`],
+Here is a step-by-step guide to setting up a project to use SciPy, with [`uv`],
 a Python package manager.
 
 [`uv`]: https://docs.astral.sh/uv/
@@ -69,6 +72,19 @@ You can install other Python libraries in the same way, e.g.
 See next steps in [the SciPy user guide][scipy-user-guide].
 
 [scipy-user-guide]: https://docs.scipy.org/doc/scipy/tutorial/
+
+{{< admonition note >}}
+
+After rebooting your computer, you'll want to navigate to your `try-scipy`
+project directory and execute `uv run python` to drop back into a Python interpreter
+with SciPy importable.
+To execute a Python script, you can use `uv run myscript.py`.
+
+Read more at [the uv guide to working on projects][uv-projects].
+
+[uv-projects]: https://docs.astral.sh/uv/guides/projects/
+
+{{< /admonition >}}
 
 ### Installing with `pixi`
 
