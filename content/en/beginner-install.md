@@ -62,10 +62,12 @@ with `pip` by executing the following in a terminal/shell:
 
     python -m pip install scipy
 
+{{< admonition warning >}}
 You may see this recommended in tutorials or classes, but it is not
 recommended to install packages globally on your system.
 The recommended way to install SciPy with `pip` is to use a virtual
 environment - see [Installing with `pip`](./install.md#installing-with-pip).
+{{< /admonition >}}
 
 {{< admonition note >}}
 For more information on why this is not a recommended installation method,
