@@ -20,7 +20,8 @@ how to use a package manager, check out
 
 To try out SciPy, you don't even need to install it!
 You can use SciPy in your browser at https://jupyter.org/try-jupyter/lab/ -
-just write `import scipy` in one of the notebook "cells" and hit play.
+just open a Python Notebook, then write `import scipy` in one of
+the notebook "cells" and hit play.
 
 For next steps, see [the SciPy user guide][scipy-user-guide].
 
@@ -46,8 +47,9 @@ Other options include:
   Windows, and Mac.
 
 {{< admonition note >}}
-Users in large, non-university institutions may want to read Anaconda's
-helpful blog on ["when is Anaconda free to use?"](https://www.anaconda.com/blog/update-on-anacondas-terms-of-service-for-academia-and-research)
+Anaconda is free to use for inviduals, universities, and companies smaller than
+200 employees. For more detail, see Anaconda's helpful blog on
+["when is Anaconda free to use?"](https://www.anaconda.com/blog/update-on-anacondas-terms-of-service-for-academia-and-research)
 {{< /admonition >}}
 
 After installing a scientific Python distribution,
@@ -58,6 +60,7 @@ see next steps in [the SciPy user guide][scipy-user-guide].
 ## Installing globally with `pip`
 
 If you already have Python installed, you can install SciPy globally
+(for all users on the system)
 with `pip` by executing the following in a terminal/shell:
 
     python -m pip install scipy
