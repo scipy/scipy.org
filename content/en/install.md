@@ -35,6 +35,8 @@ a Python package manager.
 
 [`uv`]: https://docs.astral.sh/uv/
 
+<!-- prettier-ignore-start -->
+
 1. Install `uv`, following [the instructions in the `uv` documentation][install-uv].
 
 [install-uv]: https://docs.astral.sh/uv/getting-started/installation/
@@ -56,18 +58,20 @@ The second command changes directory into the directory of your project.
 This will automatically install Python if you don't already have it installed!
     {{< /admonition >}}
 
-{{< admonition tip >}}
+    {{< admonition tip >}}
 You can install other Python libraries in the same way, e.g.
 
     uv add matplotlib
 
-{{< /admonition >}}
+    {{< /admonition >}}
 
 4.  Try out SciPy!
 
         uv run python
 
     This will launch a Python interpreter session, from which you can `import scipy`.
+
+<!-- prettier-ignore-end -->
 
 See next steps in [the SciPy user guide][scipy-user-guide].
 
@@ -137,6 +141,8 @@ but lack some reproducibility benefits of project-based workflows.
 
 ### Installing with `pip`
 
+<!-- prettier-ignore-start -->
+
 1.  [Install Python](https://www.python.org/downloads/).
 
 2.  Create and activate a virtual environment with `venv`.
@@ -148,6 +154,8 @@ See [the tutorial in the Python Packaging User Guide](https://packaging.python.o
 3.  Install SciPy, using [`pip`]:
 
         python -m pip install scipy
+
+<!-- prettier-ignore-end -->
 
 [`pip`]: https://pip.pypa.io/en/stable/getting-started/
 
