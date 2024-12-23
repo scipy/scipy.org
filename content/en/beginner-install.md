@@ -40,8 +40,7 @@ and Linux, and is best suited to beginning users.
 Other options include:
 
 - [WinPython](https://winpython.github.io): Another free distribution
-  including scientific packages and the Spyder IDE; Windows only, but
-  more actively maintained and supports the latest Python 3 versions.
+  including scientific packages and the Spyder IDE; Windows only.
 - [Pyzo](https://pyzo.org): A free distribution based on Anaconda
   and the IEP interactive development environment; Supports Linux,
   Windows, and Mac.
@@ -59,8 +58,7 @@ see next steps in [the SciPy user guide][scipy-user-guide].
 
 ## Installing globally with `pip`
 
-If you already have Python installed, you can install SciPy globally
-(for all users on the system)
+If you already have Python installed, you can install SciPy
 with `pip` by executing the following in a terminal/shell:
 
     python -m pip install scipy
