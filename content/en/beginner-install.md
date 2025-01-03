@@ -46,7 +46,7 @@ Other options include:
   Windows, and Mac.
 
 {{< admonition note >}}
-Anaconda is free to use for inviduals, universities, and companies smaller than
+Anaconda is free to use for individuals, universities, and companies smaller than
 200 employees. For more detail, see Anaconda's helpful blog on
 ["when is Anaconda free to use?"](https://www.anaconda.com/blog/update-on-anacondas-terms-of-service-for-academia-and-research)
 {{< /admonition >}}
