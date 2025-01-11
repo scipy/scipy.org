@@ -68,8 +68,8 @@ languages:
         socialmedia:
           - link: https://github.com/scipy/scipy
             icon: github
-          - link: https://twitter.com/SciPy_team
-            icon: twitter
+          - link: https://x.com/SciPy_team
+            icon: x-twitter
         quicklinks:
           column1:
             title: ""
