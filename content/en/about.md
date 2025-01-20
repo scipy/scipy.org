@@ -131,5 +131,5 @@ last updated in January 2022._
 
 ## Social Media
 
-- [@scipy on Mastodon](https://mastodon.social/@scipy@fosstodon.org)
+- [@scipy on Mastodon](https://fosstodon.org/@scipy)
 - [@SciPy_team on X](https://x.com/scipy_team)
