@@ -126,3 +126,10 @@ development infrastructure:
 
 _This list is ordered by time (most recent contributions first) and was
 last updated in January 2022._
+
+<a name="social-media"></a>
+
+## Social Media
+
+- [@scipy on Mastodon](https://mastodon.social/@scipy@fosstodon.org)
+- [@SciPy_team on X](https://x.com/scipy_team)

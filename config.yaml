@@ -68,8 +68,8 @@ languages:
         socialmedia:
           - link: https://github.com/scipy/scipy
             icon: github
-          - link: https://twitter.com/SciPy_team
-            icon: twitter
+          - link: https://discuss.scientific-python.org/c/contributor/scipy/
+            icon: scientific-python
         quicklinks:
           column1:
             title: ""
@@ -104,3 +104,5 @@ languages:
                 link: /privacy
               - text: Press Kit
                 link: /press-kit
+              - text: Social Media
+                link: /about/#social-media
