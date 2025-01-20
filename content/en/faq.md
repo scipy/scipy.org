@@ -156,7 +156,7 @@ written in C for the standard Python (CPython) interpreter.
 Some years ago, there was an effort to make NumPy and SciPy compatible
 with .NET. Some users at the time reported success in using NumPy with
 [Ironclad](https://code.google.com/archive/p/ironclad) on 32-bit
-Windows. Lastly, [Pyjion](https://www.trypyjion.com) is a new project which
+Windows. Lastly, [Pyjion](https://pyjion.readthedocs.io/) is a new project which
 reportedly could work with SciPy.
 
 In any case, these runtime/compilers are out of scope of SciPy and not
