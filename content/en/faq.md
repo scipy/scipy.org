@@ -104,7 +104,7 @@ range of high-quality 3D visualization features, utilizing the powerful
 
 `scipy.linalg` is a more complete wrapping
 of Fortran [LAPACK](https://www.netlib.org/lapack/) using
-[f2py](https://www.f2py.com).
+[f2py](https://numpy.org/doc/stable/f2py/index.html).
 
 One of the design goals of NumPy was to make it buildable without a
 Fortran compiler, and if you don\'t have LAPACK available, NumPy will
