@@ -24,6 +24,11 @@ see [Installing with type stubs](#type-stubs).
 
 [static type stubs]: https://typing.readthedocs.io/en/latest/guides/libraries.html
 
+{{< admonition tip >}}
+Installing type stubs may be required for
+Interactive Development Environments (IDEs) to provide accurate type hints.
+{{< /admonition >}}
+
 <a name="project-based"></a>
 
 ## Project-based workflows
