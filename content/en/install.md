@@ -24,6 +24,10 @@ see [Installing with type stubs](#type-stubs).
 
 [static type stubs]: https://typing.readthedocs.io/en/latest/guides/libraries.html
 
+{{< admonition tip >}}
+This is required for VSCode to provide typing hints.
+{{< /admonition >}}
+
 <a name="project-based"></a>
 
 ## Project-based workflows
