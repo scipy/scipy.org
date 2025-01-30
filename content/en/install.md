@@ -30,11 +30,14 @@ Interactive Development Environments (IDEs) to provide accurate type hints.
 {{< /admonition >}}
 
 
-{{<tab-widget>}}
-Project-based
-$$$
+{{< tabs >}}
+
+[[tab]]
+name = 'Project Based'
+content = '''
 <a name="project-based"></a>
-## Installing with uv
+
+### Installing with uv
 
 Here is a step-by-step guide to setting up a project to use SciPy, with uv, a Python package manager.
 
@@ -129,13 +132,12 @@ pixi run python
 ```
 
 See next steps in [the SciPy user guide][scipy-user-guide].
----
+'''
 
-Environment-based
-$$$
+[[tab]]
+name = 'Environment Based'
+content = '''
 <a name="environment-based"></a>
-
-## Environment-based workflows
 
 In project-based workflows, a project is a directory containing a manifest
 file describing the project, a lock-file describing the exact dependencies
@@ -181,10 +183,11 @@ mamba install scipy
 
 [Miniforge]: https://conda-forge.org/download/
 [`mamba`]: https://mamba.readthedocs.io/en/latest/
----
+'''
 
-Package Manager
-$$$
+[[tab]]
+name = 'Package Manager'
+content = '''
 <a name="system-package-managers"></a>
 
 ## Installing system-wide via a system package manager
@@ -215,12 +218,12 @@ macOS doesn't have a preinstalled package manager, but you can install
 ```bash
 brew install scipy
 ```
----
-Building from Source
-$$$
-<a name="building-from-source"></a>
+'''
 
-## Building from source
+[[tab]]
+name = 'Building from Source'
+content = '''
+<a name="building-from-source"></a>
 
 A word of warning: building SciPy from source can be a nontrivial exercise. We
 recommend using binaries instead if those are available for your platform
@@ -230,12 +233,13 @@ For details on how to build from source, see
 
 [building-docs]: https://scipy.github.io/devdocs/building/index.html
 
----
-Types Stubs
-$$$
+'''
+
+[[tab]]
+name = 'Types Stubs'
+content = '''
 <a name="type-stubs"></a>
 
-## Installing with type stubs
 
 Static type stubs are available via a separate package, `scipy-stubs`, on
 PyPI and conda-forge.
@@ -254,6 +258,7 @@ conda install "scipy-typed>=1.14"
 
 Please direct questions about static typing support to
 [the `scipy-stubs` GitHub repository](https://github.com/jorenham/scipy-stubs).
+'''
 
-{{</tab-widget>}}
+{{</ tabs >}}
 
