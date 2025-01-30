@@ -29,52 +29,47 @@ Installing type stubs may be required for
 Interactive Development Environments (IDEs) to provide accurate type hints.
 {{< /admonition >}}
 
+
+{{<tab-widget>}}
+Project-based
+$$$
 <a name="project-based"></a>
+## Installing with uv
 
-## Project-based workflows
+Here is a step-by-step guide to setting up a project to use SciPy, with uv, a Python package manager.
 
-### Installing with `uv`
+1. Install uv, following the instructions in the uv documentation.
 
-Here is a step-by-step guide to setting up a project to use SciPy, with [`uv`],
-a Python package manager.
-
-[`uv`]: https://docs.astral.sh/uv/
-
-<!-- prettier-ignore-start -->
-
-1. Install `uv`, following [the instructions in the `uv` documentation][install-uv].
-
-[install-uv]: https://docs.astral.sh/uv/getting-started/installation/
-
-2.  Create a new project in a new subdirectory, by executing the following in a terminal:
-
-        uv init try-scipy
-        cd try-scipy
-
-    {{< admonition hint >}}
+2. Create a new project in a new subdirectory, by executing the following in a terminal:
+```bash
+uv init try-scipy
+cd try-scipy
+```
+{{< admonition hint >}}
 The second command changes directory into the directory of your project.
-    {{< /admonition >}}
+{{< /admonition >}}
 
-3.  Add SciPy to your project:
+3. Add SciPy to your project:
+```bash
+uv add scipy
+```
 
-        uv add scipy
-
-    {{< admonition note >}}
+{{< admonition note >}}
 This will automatically install Python if you don't already have it installed!
-    {{< /admonition >}}
+{{< /admonition >}}
 
-    {{< admonition tip >}}
+{{< admonition tip >}}
 You can install other Python libraries in the same way, e.g.
+```bash
+uv add matplotlib
+```
+{{< /admonition >}}
 
-    uv add matplotlib
-
-    {{< /admonition >}}
-
-4.  Try out SciPy!
-
-        uv run python
-
-    This will launch a Python interpreter session, from which you can `import scipy`.
+4. Try out SciPy!
+```bash
+uv run python
+```
+This will launch a Python interpreter session, from which you can `import scipy`.
 
 <!-- prettier-ignore-end -->
 
@@ -117,19 +112,27 @@ tool [`pixi`] are very similar to the steps for `uv`:
 
 2.  Create a new project in a new subdirectory:
 
-        pixi init try-scipy
-        cd try-scipy
+```bash
+pixi init try-scipy
+cd try-scipy
+```
 
 3.  Add SciPy to your project:
-
-        pixi add scipy
+```bash
+pixi add scipy
+```
 
 4.  Try out SciPy!
 
-        pixi run python
+```bash
+pixi run python
+```
 
 See next steps in [the SciPy user guide][scipy-user-guide].
+---
 
+Environment-based
+$$$
 <a name="environment-based"></a>
 
 ## Environment-based workflows
@@ -152,14 +155,15 @@ but lack some reproducibility benefits of project-based workflows.
 
 2.  Create and activate a virtual environment with `venv`.
 
-    {{< admonition hint >}}
+{{< admonition hint >}}
 See [the tutorial in the Python Packaging User Guide](https://packaging.python.org/en/latest/tutorials/installing-packages/#creating-virtual-environments).
-    {{< /admonition >}}
+{{< /admonition >}}
 
 3.  Install SciPy, using [`pip`]:
 
-        python -m pip install scipy
-
+```bash
+python -m pip install scipy
+```
 <!-- prettier-ignore-end -->
 
 [`pip`]: https://pip.pypa.io/en/stable/getting-started/
@@ -170,12 +174,17 @@ See [the tutorial in the Python Packaging User Guide](https://packaging.python.o
 two Conda-based environment managers.
 After creating an environment, you can install SciPy from conda-forge as follows:
 
-    conda install scipy # or
-    mamba install scipy
+```bash
+conda install scipy # or
+mamba install scipy
+```
 
 [Miniforge]: https://conda-forge.org/download/
 [`mamba`]: https://mamba.readthedocs.io/en/latest/
+---
 
+Package Manager
+$$$
 <a name="system-package-managers"></a>
 
 ## Installing system-wide via a system package manager
@@ -188,22 +197,27 @@ installation method.
 ### Ubuntu and Debian
 
 Using `apt-get`:
-
-    sudo apt-get install python3-scipy
+```bash
+sudo apt-get install python3-scipy
+```
 
 ### Fedora
 
 Using `dnf`:
-
-    sudo dnf install python3-scipy
+```bash
+sudo dnf install python3-scipy
+```
 
 ### macOS
 
 macOS doesn't have a preinstalled package manager, but you can install
 [Homebrew](https://brew.sh/) and use it to install SciPy (and Python itself):
-
-    brew install scipy
-
+```bash
+brew install scipy
+```
+---
+Building from Source
+$$$
 <a name="building-from-source"></a>
 
 ## Building from source
@@ -216,6 +230,9 @@ For details on how to build from source, see
 
 [building-docs]: https://scipy.github.io/devdocs/building/index.html
 
+---
+Types Stubs
+$$$
 <a name="type-stubs"></a>
 
 ## Installing with type stubs
@@ -228,10 +245,15 @@ package on conda-forge.
 To get a specific version `x.y.z` of SciPy (such as `1.14.1`),
 you should install version `x.y.z.*`, for example:
 
-    uv add "scipy-stubs[scipy]==1.14.1.*" # or
-    pixi add "scipy-typed=1.15.0.*" # or
-    python -m pip install "scipy-stubs[scipy]" # or
-    conda install "scipy-typed>=1.14"
+```bash
+uv add "scipy-stubs[scipy]==1.14.1.*" # or
+pixi add "scipy-typed=1.15.0.*" # or
+python -m pip install "scipy-stubs[scipy]" # or
+conda install "scipy-typed>=1.14"
+```
 
 Please direct questions about static typing support to
 [the `scipy-stubs` GitHub repository](https://github.com/jorenham/scipy-stubs).
+
+{{</tab-widget>}}
+
