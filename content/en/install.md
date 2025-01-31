@@ -14,10 +14,10 @@ The recommended method of installing SciPy depends on your preferred workflow.
 The common workflows can roughly be broken down into the following
 categories:
 
-- [Project-based (e.g. `uv`, `pixi`)](#project-based) (recommended for new users)
-- [Environment-based (e.g. `pip`, `conda`)](#environment-based) (the traditional workflow)
-- [System package managers](#system-package-managers) (not recommended)
-- [Building from source](#building-from-source) (for debugging and development)
+- **Project-based (e.g. `uv`, `pixi`)** (recommended for new users)
+- **Environment-based (e.g. `pip`, `conda`)** (the traditional workflow)
+- **System package managers (not recommended)**
+- **Building from source (for debugging and development)**
 
 To install SciPy with [static type stubs],
 see [Installing with type stubs](#type-stubs).
@@ -125,12 +125,6 @@ cd try-scipy
 pixi add scipy
 ```
 
-4.  Try out SciPy!
-
-```bash
-pixi run python
-```
-
 See next steps in [the SciPy user guide][scipy-user-guide].
 '''
 
@@ -235,12 +229,17 @@ For details on how to build from source, see
 
 '''
 
-[[tab]]
-name = 'Types Stubs'
-content = '''
+{{</ tabs >}}
+
+### Try out SciPy!
+
+```bash
+pixi run python
+```
+
 <a name="type-stubs"></a>
 
-
+## Installing with Type Stubs
 Static type stubs are available via a separate package, `scipy-stubs`, on
 PyPI and conda-forge.
 You can also install SciPy and `scipy-stubs` as a single package,
@@ -258,7 +257,4 @@ conda install "scipy-typed>=1.14"
 
 Please direct questions about static typing support to
 [the `scipy-stubs` GitHub repository](https://github.com/jorenham/scipy-stubs).
-'''
-
-{{</ tabs >}}
 
