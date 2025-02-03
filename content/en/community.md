@@ -56,6 +56,7 @@ in the community. To join, please [follow this invite link](https://join.slack.c
 ### [Scientific Python Discord](https://discord.com/invite/vur45CbwMz)
 
 You can also join the `#scipy` channel on the Scientific Python discord.
+To join, please [follow this invite link](https://discord.com/invite/vur45CbwMz).
 
 ### [StackOverflow](https://stackoverflow.com/questions/tagged/scipy)
 
