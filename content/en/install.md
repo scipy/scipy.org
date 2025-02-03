@@ -124,8 +124,11 @@ cd try-scipy
 ```bash
 pixi add scipy
 ```
+4. Try out SciPy!
 
-See next steps in [the SciPy user guide][scipy-user-guide].
+```bash
+pixi run python
+```
 '''
 
 [[tab]]
@@ -231,11 +234,7 @@ For details on how to build from source, see
 
 {{</ tabs >}}
 
-### Try out SciPy!
-
-```bash
-pixi run python
-```
+See next steps in the [SciPy user guide](https://docs.scipy.org/doc/scipy/tutorial/).
 
 <a name="type-stubs"></a>
 
