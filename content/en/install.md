@@ -14,10 +14,10 @@ The recommended method of installing SciPy depends on your preferred workflow.
 The common workflows can roughly be broken down into the following
 categories:
 
-- **Project-based** (e.g. `uv`, `pixi`) *(recommended for new users)*
-- **Environment-based** (e.g. `pip`, `conda`) *(the traditional workflow)*
-- **System package managers** *(not recommended)*
-- **Building from source** *(for debugging and development)*
+- **Project-based (e.g. `uv`, `pixi`)** (recommended for new users)
+- **Environment-based (e.g. `pip`, `conda`)** (the traditional workflow)
+- **System package managers (not recommended)**
+- **Building from source (for debugging and development)**
 
 To install SciPy with [static type stubs],
 see [Installing with type stubs](#type-stubs).
@@ -41,7 +41,7 @@ content = '''
 
 Here is a step-by-step guide to setting up a project to use SciPy, with uv, a Python package manager.
 
-1. Install uv, following the instructions in the uv documentation.
+1. Install `uv` following, [the instructions in the uv documentation](https://docs.astral.sh/uv/getting-started/installation/).
 
 2. Create a new project in a new subdirectory, by executing the following in a terminal:
 ```bash
