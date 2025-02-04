@@ -14,10 +14,10 @@ The recommended method of installing SciPy depends on your preferred workflow.
 The common workflows can roughly be broken down into the following
 categories:
 
-- **Project-based (e.g. `uv`, `pixi`)** (recommended for new users)
-- **Environment-based (e.g. `pip`, `conda`)** (the traditional workflow)
-- **System package managers (not recommended)**
-- **Building from source (for debugging and development)**
+- **Project-based** (e.g. `uv`, `pixi`) *(recommended for new users)*
+- **Environment-based** (e.g. `pip`, `conda`) *(the traditional workflow)*
+- **System package managers** *(not recommended)*
+- **Building from source** *(for debugging and development)*
 
 To install SciPy with [static type stubs],
 see [Installing with type stubs](#type-stubs).
