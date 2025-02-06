@@ -98,7 +98,7 @@ users are the SciPy and PyData conference series:
 
 - [SciPy US](https://conference.scipy.org)
 - [EuroSciPy](https://www.euroscipy.org)
-- [SciPy Latin America](https://www.scipyla.org)
+- [SciPy Latin America](https://pythoncientifico.ar/)
 - [SciPy India](https://scipy.in)
 - [SciPyData (Japan)](https://scipydata.connpass.com/)
 - [PyData conferences](https://pydata.org/event-schedule/) (15-20 events a year spread over many countries)
