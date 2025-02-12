@@ -21,7 +21,7 @@ consists of the following members (in alphabetical order):
 - CJ Carey
 - Eric Larson
 - Evgeni Burovski
-- Ilhan Polat
+- İlhan Polat
 - Josef Perktold
 - Josh Wilson
 - Matt Haberland
