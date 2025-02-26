@@ -1,5 +1,5 @@
 ---
-title:
+title: SciPy
 ---
 
 {{< grid columns="1 2 2 3" >}}
