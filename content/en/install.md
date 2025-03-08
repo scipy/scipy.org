@@ -26,7 +26,7 @@ see [Installing with type stubs](#type-stubs).
 
 {{< admonition tip >}}
 Installing type stubs may be required for
-Interactive Development Environments (IDEs) to provide accurate type hints.
+Integrated Development Environments (IDEs) to provide accurate type hints.
 {{< /admonition >}}
 
 {{< tabs >}}
