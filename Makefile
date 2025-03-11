@@ -21,7 +21,9 @@ clean: ## remove the build artifacts, mainly the "public" directory
 
 prepare: clean
 	git submodule update --init
+	python gen_config.py
 
+# All translations share the <team>.toml files in the en translation
 TEAMS_DIR = content/en/teams
 TEAMS = emeritus-maintainers maintainers triage-team web-team
 TEAMS_QUERY = python themes/scientific-python-hugo-theme/tools/team_query.py
