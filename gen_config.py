@@ -3,9 +3,7 @@ import re
 import yaml
 
 
-config = yaml.load(
-    open("config.yaml.in", "r", encoding="utf-8"), Loader=yaml.SafeLoader
-)
+config = yaml.load(open("config.yaml.in", encoding="utf-8"), Loader=yaml.SafeLoader)
 
 
 def merge_dicts(d1, d2):
@@ -29,7 +27,7 @@ def include_files(d):
         elif key == "include-files":
             for otherfile in val:
                 external_data = yaml.load(
-                    open(otherfile, "r", encoding="utf-8"), Loader=yaml.SafeLoader
+                    open(otherfile, encoding="utf-8"), Loader=yaml.SafeLoader
                 )
                 external = merge_dicts(external, external_data)
 
@@ -42,4 +40,4 @@ if os.environ.get("SCIPYORG_WITH_TRANSLATIONS"):
     del config["disableLanguages"]
 
 
-yaml.dump(config, open('config.yaml', 'w', encoding='utf-8'), sort_keys=False)
+yaml.dump(config, open("config.yaml", "w", encoding="utf-8"), sort_keys=False)
