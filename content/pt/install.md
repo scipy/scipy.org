@@ -29,8 +29,6 @@ Ambientes de Desenvolvimento Interativo (IDEs) para fornecer dicas de tipo preci
 
 {{< tabs >}}
 
-
-
 ### Instalando com uv
 
 Aqui está um guia passo-a-passo para criar um projeto para usar a SciPy, com uv,
@@ -178,6 +176,7 @@ mamba install scipy
 ```
 
 [Miniforge]: https://conda-forge.org/download/
+
 [`mamba`]: https://mamba.readthedocs.io/en/latest/
 
 '''

@@ -104,7 +104,7 @@ infraestrutura de desenvolvimento:
 - [BYU](https://www.byu.edu): vínculo empregatício enquanto Travis Oliphant trabalhava na SciPy
 - [Mayo Clinic](https://www.mayoclinic.org): vínculo empregatício enquanto Travis Oliphant trabalhava na SciPy
 
-_Esta lista é ordenada pelo tempo (contribuições mais recentes primeiro) e foi atualizada pela última vez  em janeiro de 2022._
+_Esta lista é ordenada pelo tempo (contribuições mais recentes primeiro) e foi atualizada pela última vez em janeiro de 2022._
 
 <a name="social-media"></a>
 
