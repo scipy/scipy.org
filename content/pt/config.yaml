@@ -1,6 +1,6 @@
 languageName: Português
 params:
-  description: Por que SciPy? Algoritmos fundamentais. Broadly applicable. Foundational. Interoperable. Performant. Open source.
+  description: Por que SciPy? Algoritmos fundamentais. Amplas aplicações. Fundamental. Interoperável. Alto desempenho. Open source.
   navbarlogo:
     image: logo.svg
     altText: A blue circle with a snake in the shape of the letter 'S'.
@@ -10,9 +10,9 @@ params:
     # Main hero title
     title: SciPy
     # Hero subtitle (optional)
-    subtitle: Fundamental algorithms for scientific computing in Python
+    subtitle: Algoritmos fundamentais para computação científica com Python
     # Button text
-    buttontext: Get started
+    buttontext: Comece aqui
     # Where the main hero button links to
     buttonlink: "/pt/install"
     # Hero image (from static/images/___)
@@ -21,15 +21,15 @@ params:
   section5: false
 
   navbar:
-    - title: Install
+    - title: Instalar
       url: /pt/install
-    - title: Documentation
+    - title: Documentação
       url: https://docs.scipy.org/doc/scipy/
-    - title: Community
+    - title: Comunidade
       url: /pt/community
-    - title: About Us
+    - title: Quem somos
       url: /pt/about
-    - title: Contribute
+    - title: Contribuir
       url: /pt/contribute
   footer:
     logo: logo.svg
@@ -43,35 +43,35 @@ params:
       column1:
         title: ""
         links:
-          - text: Install
+          - text: Instalar
             link: /pt/install
-          - text: Documentation
+          - text: Documentação
             link: https://docs.scipy.org/doc/scipy/
-          - text: Citing SciPy
+          - text: Citar a SciPy
             link: /pt/citing-scipy
           - text: Roadmap
             link: https://scipy.github.io/devdocs/dev/roadmap.html
       column2:
         links:
-          - text: About Us
+          - text: Quem somos
             link: /pt/about
-          - text: Community
+          - text: Comunidade
             link: /pt/community
           - text: SciPy Conference
             link: https://conference.scipy.org/
-          - text: Contribute
+          - text: Contribuir
             link: /pt/contribute
-          - text: Code of Conduct
+          - text: Código de Conduta (em inglês)
             link: https://docs.scipy.org/doc/scipy/dev/conduct/code_of_conduct.html
       column3:
         links:
           - text: FAQ
             link: /pt/faq
-          - text: Terms of Use
+          - text: Termos de Uso (em inglês)
             link: /pt/terms
-          - text: Privacy
+          - text: Privacidade
             link: /pt/privacy
-          - text: Press Kit
+          - text: Kit de imprensa
             link: /pt/press-kit
-          - text: Social Media
+          - text: Mídias Sociais
             link: /pt/about/#social-media
