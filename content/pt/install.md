@@ -33,6 +33,7 @@ Ambientes de Desenvolvimento Interativo (IDEs) para fornecer dicas de tipo preci
 name = 'Baseado em Projetos'
 content = '''
 <a name="project-based"></a>
+
 ### Instalando com uv
 
 Aqui está um guia passo-a-passo para criar um projeto para usar a SciPy, com uv,
