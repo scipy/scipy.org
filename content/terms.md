@@ -25,23 +25,23 @@ You may not access or use the Site for any purpose other than that for which we 
 
 As a user of the Site, you agree not to:
 
-1.  Systematically retrieve data or other content from the Site to create or compile, directly or indirectly, a collection, compilation, database, or directory without written permission from us.
+1. Systematically retrieve data or other content from the Site to create or compile, directly or indirectly, a collection, compilation, database, or directory without written permission from us.
 
-2.  Make any unauthorized use of the Site, including collecting usernames and/or email addresses of users by electronic or other means for the purpose of sending unsolicited email, or creating user accounts by automated means or under false pretenses.
+2. Make any unauthorized use of the Site, including collecting usernames and/or email addresses of users by electronic or other means for the purpose of sending unsolicited email, or creating user accounts by automated means or under false pretenses.
 
-3.  Use the Site to advertise or offer to sell goods and services.
+3. Use the Site to advertise or offer to sell goods and services.
 
-4.  Circumvent, disable, or otherwise interfere with security-related features of the Site.
+4. Circumvent, disable, or otherwise interfere with security-related features of the Site.
 
-5.  Engage in unauthorized framing of or linking to the Site.
+5. Engage in unauthorized framing of or linking to the Site.
 
-6.  Trick, defraud, or mislead us and other users, especially in any attempt to learn sensitive account information such as user passwords.
+6. Trick, defraud, or mislead us and other users, especially in any attempt to learn sensitive account information such as user passwords.
 
-7.  Make improper use of our support services or submit false reports of abuse or misconduct.
+7. Make improper use of our support services or submit false reports of abuse or misconduct.
 
-8.  Engage in any automated use of the system, such as using scripts to send comments or messages, or using any data mining, robots, or similar data gathering and extraction tools.
+8. Engage in any automated use of the system, such as using scripts to send comments or messages, or using any data mining, robots, or similar data gathering and extraction tools.
 
-9.  Interfere with, disrupt, or create an undue burden on the Site or the networks or services connected to the Site.
+9. Interfere with, disrupt, or create an undue burden on the Site or the networks or services connected to the Site.
 
 10. Attempt to impersonate another user or person or use the username of another user.
 
@@ -147,8 +147,4 @@ These Terms of Use and any policies or operating rules posted by us on the Site 
 
 In order to resolve a complaint regarding the Site or to receive further information regarding use of the Site, please contact us at:
 
-NumFOCUS, Inc.
-</br>P.O. Box 90596
-</br>Austin, TX, USA 78709
-</br>info@numfocus.org
-</br>+1 (512) 222-5449
+NumFOCUS, Inc. </br>P.O. Box 90596 </br>Austin, TX, USA 78709 </br>info@numfocus.org </br>+1 (512) 222-5449
