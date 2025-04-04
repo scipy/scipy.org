@@ -42,6 +42,16 @@ link = 'https://github.com/charlotte12l'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image >}}
+src = 'https://avatars.githubusercontent.com/u/6213168?u=b69e5910ac6277e04ddd1723c91811d96b3eb49a&v=4"'
+alt = 'Avatar of Guido Imperiale'
+{{< /image >}}
+Guido Imperiale'''
+link = 'https://github.com/crusaderky'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
 src = 'https://avatars.githubusercontent.com/u/36567889?u=39ead62a22648e6d623de16e97ecd8adf9a28ddf&v=4"'
 alt = 'Avatar of ਗਗਨਦੀਪ ਸਿੰਘ (Gagandeep Singh)'
 {{< /image >}}

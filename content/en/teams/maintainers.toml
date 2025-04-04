@@ -112,7 +112,7 @@ link = 'https://github.com/ilayn'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image >}}
-src = 'https://avatars.githubusercontent.com/u/60778417?u=6272842e4c0946308604a5f54cdaa8e6505adcbe&v=4"'
+src = 'https://avatars.githubusercontent.com/u/60778417?u=29f920eaf5b41b5bdfbde65631d0581a0bf870b8&v=4"'
 alt = 'Avatar of Jake Bowhay'
 {{< /image >}}
 Jake Bowhay'''
@@ -197,6 +197,16 @@ alt = 'Avatar of Melissa Weber Mendonça'
 {{< /image >}}
 Melissa Weber Mendonça'''
 link = 'https://github.com/melissawm'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://avatars.githubusercontent.com/u/666402?u=08764de13b66ac2a20ff7fe3913c9f73cb1f8578&v=4"'
+alt = 'Avatar of Nick ODell'
+{{< /image >}}
+Nick ODell'''
+link = 'https://github.com/nickodell'
 
 [[item]]
 type = 'card'
