@@ -102,16 +102,6 @@ link = 'https://github.com/mkg33'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image >}}
-src = 'https://avatars.githubusercontent.com/u/666402?u=08764de13b66ac2a20ff7fe3913c9f73cb1f8578&v=4"'
-alt = 'Avatar of Nick ODell'
-{{< /image >}}
-Nick ODell'''
-link = 'https://github.com/nickodell'
-
-[[item]]
-type = 'card'
-classcard = 'text-center'
-body = '''{{< image >}}
 src = 'https://avatars.githubusercontent.com/u/6564007?u=e5fb962de792bbce925c0c94fb7a748803c8bfa0&v=4"'
 alt = 'Avatar of Noa Tamir'
 {{< /image >}}
