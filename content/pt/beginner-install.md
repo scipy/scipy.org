@@ -61,7 +61,7 @@ com o `pip` executando o seguinte em um terminal/shell:
 python -m pip install scipy
 ```
 
-{{< Admonition warning >}}
+{{< admonition warning >}}
 Você pode ver isto recomendado nos tutoriais ou materiais educacionais, mas a maneira
 recomendada para instalar a SciPy com `pip` é usar um ambiente virtual -
 consulte [Instalando com `pip`](./install.md#installing-with-pip).
