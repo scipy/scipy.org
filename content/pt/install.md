@@ -17,8 +17,7 @@ Os fluxos de trabalho comuns podem ser divididos nas seguintes categorias:
 - [Gerenciador de pacotes do sistema](#system-package-managers) (não recomendado)
 - [Compilando a partir do código-fonte](#building-from-source) (para depuração e desenvolvimento)
 
-Para instalar a SciPy com \\[stubs para tipagem estática],
-veja [Instalando com stubs para tipagem](#type-stubs).
+Para instalar a SciPy com [stubs para tipagem estática][static type stubs], veja [Instalando com stubs para tipagem](#type-stubs).
 
 [static type stubs]: https://typing.readthedocs.io/en/latest/guides/libraries.html
 
@@ -29,7 +28,9 @@ Ambientes de Desenvolvimento Interativo (IDEs) para fornecer dicas de tipo preci
 
 {{< tabs >}}
 
-Criar um novo projeto em um novo subdiretório, executando o seguinte em um terminal:
+[[tab]]
+name = 'Baseado em Projetos'
+content = ''' <a name="project-based"></a>
 
 ### Instalando com uv
 
@@ -82,8 +83,7 @@ Para as próximas etapas, consulte [o guia do usuário SciPy][scipy-user-guide].
 
 [scipy-user-guide]: https://docs.conda.io/projects/conda/en/latest/index.html
 
-Os passos para instalar SciPy a partir do [conda-forge] usando a ferramenta
-de gerenciamento de pacotes [`pixi`] são muito semelhantes aos passos para o `uv`:
+{{< admonition note >}}
 
 Depois de reiniciar o computador, você deve navegar até o diretório do seu projeto `try-scipy`
 e executar `uv run python` para entrar novamente em uma sessão do interpretador Python
@@ -137,7 +137,7 @@ pixi run python
 
 [[tab]]
 name = 'Environment Based'
-content = ''' <a name="environment-based"></a>
+content = '''<a name="environment-based"></a>
 
 Em fluxos de trabalho baseados em projetos, um projeto é um diretório que contém um arquivo manifesto descrevendo o projeto, um arquivo <i>lock-file</i> descrevendo as dependências exatas do projeto, e os (potencialmente vários) ambientes do projeto.
 
@@ -225,8 +225,7 @@ name = 'Building from Source'
 content = ''' <a name="building-from-source"></a>
 
 Cuidado: compilar a SciPy a partir do código fonte pode ser um exercício não trivial. Recomendamos o uso de binários, em vez disso, se eles estiverem disponíveis para a sua plataforma em um dos métodos acima.
-Para mais detalhes sobre como compilar a partir do código fonte, consulte
-\\[o guia de compilação a partir do código fonte na documentação da SciPy[building-docs].
+Para mais detalhes sobre como compilar a partir do código fonte, consulte [o guia de compilação a partir do código fonte na documentação da SciPy][building-docs].
 
 [building-docs]: https://scipy.github.io/devdocs/building/index.html
 
@@ -238,7 +237,7 @@ Veja os próximos passos no [guia do usuário SciPy](https://docs.scipy.org/doc/
 
 <a name="type-stubs"></a>
 
-## Installing with Type Stubs
+## Instalando com os stubs de tipagem
 
 Os stubs de tipagem estática estão disponíveis através de um pacote separado, `scipy-stubs`, no PyPI e conda-forge.
 Você também pode instalar a SciPy e `scipy-stubs` como um único pacote,

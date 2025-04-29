@@ -208,7 +208,7 @@ a conferência será realizada de 7 a 15 de março em Santa Clara, Califórnia.
 
 Aqui está uma lista de versões da SciPy, com links para notas de lançamento. Versões de correção de bugs (apenas o `z` muda no número de versão `x.y.z`) não tem novas funcionalidades; versões menores (o `y` muda) tem novas funcionalidades.
 
-- SciPy 1.15.2 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.15.2)) -- _2025-02-16_.
+- SciPy 1.15.2 ([notas de lançamento](https://github.com/scipy/scipy/releases/tag/v1.15.2)) -- _2025-02-16_.
 - SciPy 1.15.1 ([notas de versão](https://github.com/scipy/scipy/releases/tag/v1.15.1)) -- _2025-01-10_.
 - SciPy 1.15.0 ([notas de versão](https://github.com/scipy/scipy/releases/tag/v1.15.0)) -- _2025-01-03_.
 - SciPy 1.14.1 ([notas de versão](https://github.com/scipy/scipy/releases/tag/v1.14.1)) -- _2024-08-20_.

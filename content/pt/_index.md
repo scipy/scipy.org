@@ -22,7 +22,7 @@ Os algoritmos e estruturas de dados disponibilizados pela SciPy são amplamente 
 type = 'card'
 title = 'Fundamental'
 body = '''
-Estende a NumPy, adicionando ferramentas para computação com arrays e disponibiliza estruturas de dados especializadas, tais como matrizes esparsas e árvores k-dimensionais.
+Estende o NumPy, adicionando ferramentas adicionais para computação com arrays e oferecendo estruturas de dados especializadas, como matrizes esparsas e árvores k-dimensionais.
 '''
 
 [[item]]
@@ -43,7 +43,7 @@ A sintaxe de alto nível da SciPy faz com que ela seja acessível e produtiva pa
 type = 'card'
 title = 'Open source'
 body = '''
-Distribuída com uma [licença BSD](https://github.com/scipy/scipy/blob/main/LICENSE.txt) liberal, a SciPy é desenvolvida e mantida [publicamente no GitHub](https://github.com/scipy/scipy) por uma [comunidade](/community) vibrante, solícita e diversa.
+Distribuída sob uma [licença BSD](https://github.com/scipy/scipy/blob/main/LICENSE.txt) liberal, a SciPy é desenvolvida e mantida [publicamente no GitHub](https://github.com/scipy/scipy) por uma [comunidade](/community) vibrante, participativa e diversa.
 '''
 
 {{< /grid >}}

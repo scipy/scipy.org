@@ -1,14 +1,14 @@
 ---
-title: Quem Somos
+title: Sobre o Nós
 sidebar: false
 ---
 
 A SciPy é desenvolvida publicamente no GitHub, através do consenso das comunidades da SciPy e, mais amplamente, do Python científico. Para mais informações sobre nosso modelo de governança, por favor veja nosso
 [Documento de Governança](https://docs.scipy.org/doc/scipy/dev/governance.html).
 
-## Conselho Diretor (Steering Council)
+## Conselho Diretor
 
-O papel do Conselho Diretor da SciPy é trabalhar com a comunidade e servi-la para garantir a saúde do projeto a longo prazo, tanto tecnicamente quanto no contexto da comunidade. O Conselho Diretor da SciPy atualmente consiste nos seguintes membros: (em ordem alfabética):
+O papel do Conselho Diretor da SciPy é garantir, em colaboração com a comunidade, o bem-estar do projeto a longo prazo — tanto do ponto de vista técnico quanto comunitário. O Conselho Diretor da SciPy atualmente consiste nos seguintes membros: (em ordem alfabética):
 
 - Andrew Nelson
 - Charles Harris
@@ -70,7 +70,8 @@ Parceiros Institucionais são organizações que apoiam o projeto ao empregar pe
 
 ## Doações
 
-A SciPy sempre será 100% open source, livre e gratuita para todos usarem e será lançada nos termos liberais da licença BSD modificada. Mesmo que a SciPy tenha um grande número de
+A SciPy sempre será 100% de software de código aberto, gratuito para uso e
+lançado sob os termos liberais da licença BSD modificada. Mesmo que a SciPy tenha um grande número de
 [contribuidores](https://github.com/scipy/scipy/graphs/contributors)
 oferecendo seu tempo para melhorias da SciPy, precisamos de recursos financeiros para gerenciar o projeto e acelerar o seu desenvolvimento. Se você considera que a SciPy é útil no seu trabalho, ou empresa, por favor considere fazer uma doação para o projeto compatível com seus recursos. Qualquer quantidade ajuda!
 
@@ -89,7 +90,7 @@ infraestrutura de desenvolvimento:
 
 - [JetBrains](https://jb.gg/OpenSourceSupport): licenças de todos os seus produtos
   para todos os mantenedores ativos
-- Tidelift:
+- Tidelift:(https://tidelift.com/subscription/pkg/pypi-scipy?utm_source=pypi-scipy&utm_medium=referral&utm_campaign=readme):
   suporte financeiro para SciPy através da assinatura do Tidelift open source
 - [CircleCI](https://circleci.com): crédito para serviços de integração contínua (CI)
 - [TravisCI](https://travis-ci.com): crédito para serviços de integração contínua (CI)
