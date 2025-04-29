@@ -31,6 +31,20 @@ languages:
     include-files:
       - content/en/config.yaml
 
+  es:
+    title: SciPy
+    weight: 3
+    contentDir: content/es
+    include-files:
+      - content/es/config.yaml
+
+  ja:
+    title: SciPy
+    weight: 4
+    contentDir: content/ja
+    include-files:
+      - content/ja/config.yaml
+
   pt:
     title: SciPy
     weight: 2
