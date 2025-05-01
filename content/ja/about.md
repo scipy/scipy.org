@@ -101,7 +101,7 @@ SciPy 開発チームは、経済的支援、サービス、または開発イ�
 - [BYU](https://www.byu.edu): SciPyの開発中のTravisOliphantの雇用
 - [Mayo Clinic](https://www.mayoclinic.org): SciPy開発中のTravis Oliphantの雇用
 
-\_このリストはサポート開始の次期順に並べられており、
+_このリストはサポート開始の次期順に並べられており、
 最後に更新されたのは2022年1月です。
 
 <a name="social-media"></a>

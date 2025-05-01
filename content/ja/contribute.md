@@ -37,7 +37,7 @@ SciPyの [ユーザガイド](https://docs.scipy.org/doc/scipy/tutorial/index.ht
 
 ### イシューのトリアージ
 
-[SciPyのイシュートラッカー](https://github.com/scipy/scipy/issues) には、未解決の課題が *大量*に残っています。 いくつかの課題はすでに解決されていたり、いくつかは優先順位付けが必要で、
+[SciPyのイシュートラッカー](https://github.com/scipy/scipy/issues) には、未解決の課題が _大量_に残っています。 いくつかの課題はすでに解決されていたり、いくつかは優先順位付けが必要で、
 いくつかは、SciPyの初心者が取り組むのに良い課題でしょう。 例えば、
 
 - 古くのバグが最新のコードでも存在しているか確認する
