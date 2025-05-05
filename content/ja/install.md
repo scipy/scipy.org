@@ -36,7 +36,7 @@ content = ''' <a name="project-based"></a>
 
 Pythonパッケージマネージャーであるuvを使用してSciPyを使用するためのプロジェクトをセットアップする手順は以下の通りです。
 
-1. [uvドキュメントのインストール手順]([https://docs.astral.sh/uv/getting-started/installation/)に従って](https://www.google.com/search?q=https://docs.astral.sh/uv/getting-started/installation/)%E3%81%AB%E5%BE%93%E3%81%A3%E3%81%A6)、\`uv\`をインストールします。
+1. [uvドキュメントのインストール手順](\[https://docs.astral.sh/uv/getting-started/installation/)に従って](https://www.google.com/search?q=https://docs.astral.sh/uv/getting-started/installation/)%E3%81%AB%E5%BE%93%E3%81%A3%E3%81%A6)、\`uv\`をインストールします。
 
 2. 新しいサブディレクトリに新しいプロジェクトを作成します。ターミナルで以下を実行します。
 
@@ -237,7 +237,7 @@ content = ''' <a name="building-from-source"></a>
 
 {{</ tabs >}}
 
-次のステップは[SciPyユーザーガイド]([https://docs.scipy.org/doc/scipy/tutorial/)をご覧ください]([https://www.google.com/search?q=https://docs.scipy.org/doc/scipy/tutorial/)%E3%82%92%E3%81%94%E8%A6%A7%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84](https://www.google.com/search?q=https://docs.scipy.org/doc/scipy/tutorial/)%E3%82%92%E3%81%94%E8%A6%A7%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84))。
+次のステップは[SciPyユーザーガイド](\[https://docs.scipy.org/doc/scipy/tutorial/)をご覧ください]([https://www.google.com/search?q=https://docs.scipy.org/doc/scipy/tutorial/)%E3%82%92%E3%81%94%E8%A6%A7%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84](https://www.google.com/search?q=https://docs.scipy.org/doc/scipy/tutorial/)%E3%82%92%E3%81%94%E8%A6%A7%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84))。
 
 {{< admonition tip >}}
 IDE（統合開発環境）で正確な型ヒントを提供するために、型スタブのインストールが必要になる場合があります。
@@ -261,4 +261,4 @@ conda install "scipy-typed>=1.14"
 ```
 
 静的型付けのサポートに関する質問は、
-[`scipy-stubs` GitHubリポジトリ]([https://github.com/jorenham/scipy-stubs)にお寄せください](https://www.google.com/search?q=https://github.com/jorenham/scipy-stubs)%E3%81%AB%E3%81%8A%E5%AF%84%E3%81%9B%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84)。
+[`scipy-stubs` GitHubリポジトリ](\[https://github.com/jorenham/scipy-stubs)にお寄せください](https://www.google.com/search?q=https://github.com/jorenham/scipy-stubs)%E3%81%AB%E3%81%8A%E5%AF%84%E3%81%9B%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84)。
