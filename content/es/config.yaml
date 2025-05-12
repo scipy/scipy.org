@@ -1,0 +1,77 @@
+languageName: Español
+params:
+  description: Why SciPy? Fundamental algorithms. Broadly applicable. Foundational. Interoperable. Performant. Open source.
+  navbarlogo:
+    image: logo.svg
+    altText: A blue circle with a snake in the shape of the letter 'S'.
+    text: SciPy
+    link: /es/
+  hero:
+    # Main hero title
+    title: SciPy
+    # Hero subtitle (optional)
+    subtitle: Fundamental algorithms for scientific computing in Python
+    # Button text
+    buttontext: Get started
+    # Where the main hero button links to
+    buttonlink: "/es/install"
+    # Hero image (from static/images/___)
+    image: logo.svg
+
+  section5: false
+
+  navbar:
+    - title: Install
+      url: /es/install
+    - title: Documentation
+      url: https://docs.scipy.org/doc/scipy/
+    - title: Community
+      url: /es/community
+    - title: About Us
+      url: /es/about
+    - title: Contribute
+      url: /es/contribute
+  footer:
+    logo: logo.svg
+    socialmediatitle: ""
+    socialmedia:
+      - link: https://github.com/scipy/scipy
+        icon: github
+      - link: https://discuss.scientific-python.org/c/contributor/scipy/
+        icon: scientific-python
+    quicklinks:
+      column1:
+        title: ""
+        links:
+          - text: Install
+            link: /es/install
+          - text: Documentation
+            link: https://docs.scipy.org/doc/scipy/
+          - text: Citing SciPy
+            link: /es/citing-scipy
+          - text: Roadmap
+            link: https://scipy.github.io/devdocs/dev/roadmap.html
+      column2:
+        links:
+          - text: About Us
+            link: /es/about
+          - text: Community
+            link: /es/community
+          - text: SciPy Conference
+            link: https://conference.scipy.org/
+          - text: Contribute
+            link: /es/contribute
+          - text: Code of Conduct
+            link: https://docs.scipy.org/doc/scipy/dev/conduct/code_of_conduct.html
+      column3:
+        links:
+          - text: FAQ
+            link: /es/faq
+          - text: Terms of Use
+            link: /es/terms
+          - text: Privacy
+            link: /es/privacy
+          - text: Press Kit
+            link: /es/press-kit
+          - text: Social Media
+            link: /es/about/#social-media
