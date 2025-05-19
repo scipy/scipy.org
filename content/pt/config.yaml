@@ -1,0 +1,77 @@
+languageName: Português
+params:
+  description: Por que SciPy? Algoritmos fundamentais. Amplas aplicações. Fundamental. Interoperável. Alto desempenho. Open source.
+  navbarlogo:
+    image: logo.svg
+    altText: A blue circle with a snake in the shape of the letter 'S'.
+    text: SciPy
+    link: /pt/
+  hero:
+    # Main hero title
+    title: SciPy
+    # Hero subtitle (optional)
+    subtitle: Algoritmos fundamentais para computação científica com Python
+    # Button text
+    buttontext: Comece aqui
+    # Where the main hero button links to
+    buttonlink: "/pt/install"
+    # Hero image (from static/images/___)
+    image: logo.svg
+
+  section5: false
+
+  navbar:
+    - title: Instalar
+      url: /pt/install
+    - title: Documentação
+      url: https://docs.scipy.org/doc/scipy/
+    - title: Comunidade
+      url: /pt/community
+    - title: Quem somos
+      url: /pt/about
+    - title: Contribuir
+      url: /pt/contribute
+  footer:
+    logo: logo.svg
+    socialmediatitle: ""
+    socialmedia:
+      - link: https://github.com/scipy/scipy
+        icon: github
+      - link: https://discuss.scientific-python.org/c/contributor/scipy/
+        icon: scientific-python
+    quicklinks:
+      column1:
+        title: ""
+        links:
+          - text: Instalar
+            link: /pt/install
+          - text: Documentação
+            link: https://docs.scipy.org/doc/scipy/
+          - text: Citar a SciPy
+            link: /pt/citing-scipy
+          - text: Roadmap
+            link: https://scipy.github.io/devdocs/dev/roadmap.html
+      column2:
+        links:
+          - text: Quem somos
+            link: /pt/about
+          - text: Comunidade
+            link: /pt/community
+          - text: SciPy Conference
+            link: https://conference.scipy.org/
+          - text: Contribuir
+            link: /pt/contribute
+          - text: Código de Conduta (em inglês)
+            link: https://docs.scipy.org/doc/scipy/dev/conduct/code_of_conduct.html
+      column3:
+        links:
+          - text: FAQ
+            link: /pt/faq
+          - text: Termos de Uso (em inglês)
+            link: /pt/terms
+          - text: Privacidade
+            link: /pt/privacy
+          - text: Kit de imprensa
+            link: /pt/press-kit
+          - text: Mídias Sociais
+            link: /pt/about/#social-media
