@@ -8,7 +8,7 @@ markup:
     renderer:
       unsafe: true
 
-# Uncomment this to disable the translations for the specified languages.
+# Add languages to the list to disable their translations.
 # This may be useful to be able to merge partial translations without deploying
 # them to scipy.org immediately.
 disableLanguages: []
