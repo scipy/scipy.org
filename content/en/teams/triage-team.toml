@@ -1,169 +1,169 @@
 [[item]]
 type = 'card'
 classcard = 'text-center'
-body = '''{{< image >}}
-src = 'https://avatars.githubusercontent.com/u/23621655?u=525aca83e7dda8d8474e35c0edc5a233af2f8bde&v=4"'
-alt = 'Avatar of Anirudh Dagar'
-{{< /image >}}
+body = '''{{< image
+  src="https://avatars.githubusercontent.com/u/23621655?u=525aca83e7dda8d8474e35c0edc5a233af2f8bde&v=4\""
+  alt="Avatar of Anirudh Dagar"
+>}}
 Anirudh Dagar'''
 link = 'https://github.com/AnirudhDagar'
 
 [[item]]
 type = 'card'
 classcard = 'text-center'
-body = '''{{< image >}}
-src = 'https://avatars.githubusercontent.com/u/43369155?u=1f1fcabf979a2f00f403c60b816ba9f573026181&v=4"'
-alt = 'Avatar of Bas van Beek'
-{{< /image >}}
+body = '''{{< image
+  src="https://avatars.githubusercontent.com/u/43369155?u=1f1fcabf979a2f00f403c60b816ba9f573026181&v=4\""
+  alt="Avatar of Bas van Beek"
+>}}
 Bas van Beek'''
 link = 'https://github.com/BvB93'
 
 [[item]]
 type = 'card'
 classcard = 'text-center'
-body = '''{{< image >}}
-src = 'https://avatars.githubusercontent.com/u/5476002?u=5352f057ef8cb5de29e4d2a9fa8b0d0f49580dc8&v=4"'
-alt = 'Avatar of carlkl'
-{{< /image >}}
+body = '''{{< image
+  src="https://avatars.githubusercontent.com/u/5476002?u=5352f057ef8cb5de29e4d2a9fa8b0d0f49580dc8&v=4\""
+  alt="Avatar of carlkl"
+>}}
 carlkl'''
 link = 'https://github.com/carlkl'
 
 [[item]]
 type = 'card'
 classcard = 'text-center'
-body = '''{{< image >}}
-src = 'https://avatars.githubusercontent.com/u/38244988?u=6b8f3360d47bc3c7f48f7b5e77535f96320d0b54&v=4"'
-alt = 'Avatar of Xingyu Liu'
-{{< /image >}}
+body = '''{{< image
+  src="https://avatars.githubusercontent.com/u/38244988?u=6b8f3360d47bc3c7f48f7b5e77535f96320d0b54&v=4\""
+  alt="Avatar of Xingyu Liu"
+>}}
 Xingyu Liu'''
 link = 'https://github.com/charlotte12l'
 
 [[item]]
 type = 'card'
 classcard = 'text-center'
-body = '''{{< image >}}
-src = 'https://avatars.githubusercontent.com/u/6213168?u=b69e5910ac6277e04ddd1723c91811d96b3eb49a&v=4"'
-alt = 'Avatar of Guido Imperiale'
-{{< /image >}}
+body = '''{{< image
+  src="https://avatars.githubusercontent.com/u/6213168?u=b69e5910ac6277e04ddd1723c91811d96b3eb49a&v=4\""
+  alt="Avatar of Guido Imperiale"
+>}}
 Guido Imperiale'''
 link = 'https://github.com/crusaderky'
 
 [[item]]
 type = 'card'
 classcard = 'text-center'
-body = '''{{< image >}}
-src = 'https://avatars.githubusercontent.com/u/36567889?u=39ead62a22648e6d623de16e97ecd8adf9a28ddf&v=4"'
-alt = 'Avatar of ਗਗਨਦੀਪ ਸਿੰਘ (Gagandeep Singh)'
-{{< /image >}}
+body = '''{{< image
+  src="https://avatars.githubusercontent.com/u/36567889?u=39ead62a22648e6d623de16e97ecd8adf9a28ddf&v=4\""
+  alt="Avatar of ਗਗਨਦੀਪ ਸਿੰਘ (Gagandeep Singh)"
+>}}
 ਗਗਨਦੀਪ ਸਿੰਘ (Gagandeep Singh)'''
 link = 'https://github.com/czgdp1807'
 
 [[item]]
 type = 'card'
 classcard = 'text-center'
-body = '''{{< image >}}
-src = 'https://avatars.githubusercontent.com/u/58611?v=4"'
-alt = 'Avatar of endolith'
-{{< /image >}}
+body = '''{{< image
+  src="https://avatars.githubusercontent.com/u/58611?v=4\""
+  alt="Avatar of endolith"
+>}}
 endolith'''
 link = 'https://github.com/endolith'
 
 [[item]]
 type = 'card'
 classcard = 'text-center'
-body = '''{{< image >}}
-src = 'https://avatars.githubusercontent.com/u/10579828?v=4"'
-alt = 'Avatar of fancidev'
-{{< /image >}}
+body = '''{{< image
+  src="https://avatars.githubusercontent.com/u/10579828?v=4\""
+  alt="Avatar of fancidev"
+>}}
 fancidev'''
 link = 'https://github.com/fancidev'
 
 [[item]]
 type = 'card'
 classcard = 'text-center'
-body = '''{{< image >}}
-src = 'https://avatars.githubusercontent.com/u/29243905?u=717fe493c112cc5a59951923d6dd2fb36ba79fb2&v=4"'
-alt = 'Avatar of Hari'
-{{< /image >}}
+body = '''{{< image
+  src="https://avatars.githubusercontent.com/u/29243905?u=717fe493c112cc5a59951923d6dd2fb36ba79fb2&v=4\""
+  alt="Avatar of Hari"
+>}}
 Hari'''
 link = 'https://github.com/Harivallabha'
 
 [[item]]
 type = 'card'
 classcard = 'text-center'
-body = '''{{< image >}}
-src = 'https://avatars.githubusercontent.com/u/26354268?u=80728e8bc7eac38b5fb5786a99dbe437ee00ff88&v=4"'
-alt = 'Avatar of Maja Gwóźdź'
-{{< /image >}}
+body = '''{{< image
+  src="https://avatars.githubusercontent.com/u/26354268?u=80728e8bc7eac38b5fb5786a99dbe437ee00ff88&v=4\""
+  alt="Avatar of Maja Gwóźdź"
+>}}
 Maja Gwóźdź'''
 link = 'https://github.com/mkg33'
 
 [[item]]
 type = 'card'
 classcard = 'text-center'
-body = '''{{< image >}}
-src = 'https://avatars.githubusercontent.com/u/6564007?u=e5fb962de792bbce925c0c94fb7a748803c8bfa0&v=4"'
-alt = 'Avatar of Noa Tamir'
-{{< /image >}}
+body = '''{{< image
+  src="https://avatars.githubusercontent.com/u/6564007?u=e5fb962de792bbce925c0c94fb7a748803c8bfa0&v=4\""
+  alt="Avatar of Noa Tamir"
+>}}
 Noa Tamir'''
 link = 'https://github.com/noatamir'
 
 [[item]]
 type = 'card'
 classcard = 'text-center'
-body = '''{{< image >}}
-src = 'https://avatars.githubusercontent.com/u/14363975?u=1b2685931a63e81d379f7ec657d97456dc6eca0d&v=4"'
-alt = 'Avatar of Scott Shambaugh'
-{{< /image >}}
+body = '''{{< image
+  src="https://avatars.githubusercontent.com/u/14363975?u=1b2685931a63e81d379f7ec657d97456dc6eca0d&v=4\""
+  alt="Avatar of Scott Shambaugh"
+>}}
 Scott Shambaugh'''
 link = 'https://github.com/scottshambaugh'
 
 [[item]]
 type = 'card'
 classcard = 'text-center'
-body = '''{{< image >}}
-src = 'https://avatars.githubusercontent.com/u/5774448?u=7c9c9b2854994aed2673ff4fdd3c4f2fda07f425&v=4"'
-alt = 'Avatar of Shekhar Prasad Rajak'
-{{< /image >}}
+body = '''{{< image
+  src="https://avatars.githubusercontent.com/u/5774448?u=7c9c9b2854994aed2673ff4fdd3c4f2fda07f425&v=4\""
+  alt="Avatar of Shekhar Prasad Rajak"
+>}}
 Shekhar Prasad Rajak'''
 link = 'https://github.com/Shekharrajak'
 
 [[item]]
 type = 'card'
 classcard = 'text-center'
-body = '''{{< image >}}
-src = 'https://avatars.githubusercontent.com/u/55887635?u=57b14b85ad70a520e61aa13ec8603d8c895ac000&v=4"'
-alt = 'Avatar of Smit Lunagariya'
-{{< /image >}}
+body = '''{{< image
+  src="https://avatars.githubusercontent.com/u/55887635?u=57b14b85ad70a520e61aa13ec8603d8c895ac000&v=4\""
+  alt="Avatar of Smit Lunagariya"
+>}}
 Smit Lunagariya'''
 link = 'https://github.com/Smit-create'
 
 [[item]]
 type = 'card'
 classcard = 'text-center'
-body = '''{{< image >}}
-src = 'https://avatars.githubusercontent.com/u/44255917?u=1052ccbba83b70e02046098c140ff79c54b03200&v=4"'
-alt = 'Avatar of Samuel Wallan'
-{{< /image >}}
+body = '''{{< image
+  src="https://avatars.githubusercontent.com/u/44255917?u=1052ccbba83b70e02046098c140ff79c54b03200&v=4\""
+  alt="Avatar of Samuel Wallan"
+>}}
 Samuel Wallan'''
 link = 'https://github.com/swallan'
 
 [[item]]
 type = 'card'
 classcard = 'text-center'
-body = '''{{< image >}}
-src = 'https://avatars.githubusercontent.com/u/23552331?u=6664f9601eaa19d06ea7a4168fd3840d986e4eca&v=4"'
-alt = 'Avatar of Tania Allard'
-{{< /image >}}
+body = '''{{< image
+  src="https://avatars.githubusercontent.com/u/23552331?u=6664f9601eaa19d06ea7a4168fd3840d986e4eca&v=4\""
+  alt="Avatar of Tania Allard"
+>}}
 Tania Allard'''
 link = 'https://github.com/trallard'
 
 [[item]]
 type = 'card'
 classcard = 'text-center'
-body = '''{{< image >}}
-src = 'https://avatars.githubusercontent.com/u/37664438?u=6f35d2f9483e79403d04d1ab6f339f30fa082662&v=4"'
-alt = 'Avatar of Arthur'
-{{< /image >}}
+body = '''{{< image
+  src="https://avatars.githubusercontent.com/u/37664438?u=6f35d2f9483e79403d04d1ab6f339f30fa082662&v=4\""
+  alt="Avatar of Arthur"
+>}}
 Arthur'''
 link = 'https://github.com/V0lantis'
