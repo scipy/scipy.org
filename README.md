@@ -33,6 +33,8 @@ with `read:org` permissions. The token has to be exported as `GH_TOKEN`.
 GH_TOKEN=xxxxxxxxxx make teams
 ```
 
+`requests` must be installed in your environment.
+
 ## Analytics
 
 The service [Plausible.io](https://plausible.io) is used to gather simple
