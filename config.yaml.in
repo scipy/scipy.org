@@ -1,0 +1,53 @@
+baseURL: https://scipy.org/
+languageCode: en-us
+theme: scientific-python-hugo-theme
+disableKinds: ["taxonomy", "term"]
+DefaultContentLanguage: en
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+# Add languages to the list to disable their translations.
+# This may be useful to be able to merge partial translations without deploying
+# them to scipy.org immediately.
+disableLanguages: []
+
+params:
+  images:
+    - /images/logo.svg
+  navColor: blue
+  font:
+    name: "Lato"
+    sizes: [400, 900]
+  plausible:
+    dataDomain: scipy.org
+
+languages:
+  en:
+    title: SciPy
+    weight: 1
+    contentDir: content/en
+    include-files:
+      - content/en/config.yaml
+
+  es:
+    title: SciPy
+    weight: 3
+    contentDir: content/es
+    include-files:
+      - content/es/config.yaml
+
+  ja:
+    title: SciPy
+    weight: 4
+    contentDir: content/ja
+    include-files:
+      - content/ja/config.yaml
+
+  pt:
+    title: SciPy
+    weight: 2
+    contentDir: content/pt
+    include-files:
+      - content/pt/config.yaml
