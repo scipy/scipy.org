@@ -87,7 +87,7 @@ SciPyは、いつまでも 100% オープンソースのソフトウェアであ
 SciPy 開発チームは、経済的支援、サービス、または開発インフラを提供してくださっている以下の企業や組織に感謝を申し上げます。
 
 - [JetBrains](https://jb.gg/OpenSourceSupport): すべての活動中のメンテナに対するすべての製品のライセンス付与
-- Tidelift:
+- [Tidelift](https://tidelift.com/subscription/pkg/pypi-scipy?utm_source=pypi-scipy&utm_medium=referral&utm_campaign=readme):
   Tideliftのオープンソースサブスクリプションを通じたSciPyへの経済的支援
 - [CircleCI](https://circleci.com): CIサービスのクレジット付与
 - [TravisCI](https://travis-ci.com): CIサービスのクレジット付与
