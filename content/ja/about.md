@@ -87,7 +87,7 @@ SciPyは、いつまでも 100% オープンソースのソフトウェアであ
 SciPy 開発チームは、経済的支援、サービス、または開発インフラを提供してくださっている以下の企業や組織に感謝を申し上げます。
 
 - [JetBrains](https://jb.gg/OpenSourceSupport): すべての活動中のメンテナに対するすべての製品のライセンス付与
-- Tidelift:
+- [Tidelift](https://tidelift.com/subscription/pkg/pypi-scipy?utm_source=pypi-scipy&utm_medium=referral&utm_campaign=readme):
   Tideliftのオープンソースサブスクリプションを通じたSciPyへの経済的支援
 - [CircleCI](https://circleci.com): CIサービスのクレジット付与
 - [TravisCI](https://travis-ci.com): CIサービスのクレジット付与
@@ -101,7 +101,7 @@ SciPy 開発チームは、経済的支援、サービス、または開発イ�
 - [BYU](https://www.byu.edu): SciPyの開発中のTravisOliphantの雇用
 - [Mayo Clinic](https://www.mayoclinic.org): SciPy開発中のTravis Oliphantの雇用
 
-\_このリストはサポート開始の次期順に並べられており、
+_このリストはサポート開始の次期順に並べられており、
 最後に更新されたのは2022年1月です。
 
 <a name="social-media"></a>
