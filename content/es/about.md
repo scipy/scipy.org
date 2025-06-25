@@ -79,7 +79,7 @@ Las donaciones son gestionadas por la fundación [NumFOCUS](https://numfocus.org
 El equipo de desarrollo de SciPy desea agradecer a las siguientes empresas y organizaciones por brindar apoyo financiero, servicios o infraestructura de desarrollo:
 
 - [JetBrains](https://jb.gg/OpenSourceSupport): licencias de todos sus productos para todos los mantenedores activos
-- Tidelift: apoyo financiero para SciPy a través de la suscripción de código abierto de Tidelift
+- [Tidelift](https://tidelift.com/subscription/pkg/pypi-scipy?utm_source=pypi-scipy&utm_medium=referral&utm_campaign=readme): apoyo financiero para SciPy a través de la suscripción de código abierto de Tidelift
 - [CircleCI](https://circleci.com): créditos de integración continua
 - [TravisCI](https://travis-ci.com): créditos de integración continua
 - [Appveyor](https://ci.appveyor.com): créditos de integración continua
