@@ -122,7 +122,7 @@ link = 'https://github.com/scottshambaugh'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image >}}
-src = 'https://avatars.githubusercontent.com/u/5774448?u=7c9c9b2854994aed2673ff4fdd3c4f2fda07f425&v=4"'
+src = 'https://avatars.githubusercontent.com/u/5774448?u=4cf0763f723b0966331b971e1de783b3a3e1b4a6&v=4"'
 alt = 'Avatar of Shekhar Prasad Rajak'
 {{< /image >}}
 Shekhar Prasad Rajak'''
