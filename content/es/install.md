@@ -21,6 +21,7 @@ Para instalar SciPy con \[archivos de tipado estáticos], revisa [Instalación c
 
 [static type stubs]: https://typing.readthedocs.io/en/latest/guides/libraries.html
 
+{{< admonition tip >}}
 Es posible que se requiera instalar archivos de anotaciones de tipos para que los Entornos de Desarrollo Interactivos (IDEs) ofrezcan sugerencias de tipos más precisas.
 {{< /admonition >}}
 
@@ -170,7 +171,6 @@ mamba install scipy
 ```
 
 [Miniforge]: https://conda-forge.org/download/
-
 [`mamba`]: https://mamba.readthedocs.io/es/latest/
 
 '''

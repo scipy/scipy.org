@@ -44,4 +44,4 @@ Aquí tienes un ejemplo de una entrada BibTeX:
 }
 ```
 
-En el caso de un algoritmo específico, considera citar el artículo original de su autor o autora (que usualmente se encuentra en la sección \"Referencias\" del docstring.
+En el caso de un algoritmo específico, considera citar el artículo original de su autor o autora (que usualmente se encuentra en la sección  \"Referencias\"  del docstring.
