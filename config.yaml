@@ -1,56 +1,48 @@
-baseURL: https://scipy.scientific-python.org/
+baseURL: https://scipy.org/
 languageCode: en-us
 theme: scientific-python-hugo-theme
-disableKinds: ["taxonomy", "term"]
+disableKinds:
+  - taxonomy
+  - term
 DefaultContentLanguage: en
 markup:
   goldmark:
     renderer:
       unsafe: true
-
-# Uncomment this to disable the translations for the specified languages.
-# This may be useful to be able to merge partial translations without deploying
-# them to scipy.org immediately.
-# disableLanguages: ["pt", "ja"]
-
+disableLanguages: []
 params:
   images:
     - /images/logo.svg
   navColor: blue
   font:
-    name: "Lato"
-    sizes: [400, 900]
+    name: Lato
+    sizes:
+      - 400
+      - 900
   plausible:
     dataDomain: scipy.org
-
 languages:
   en:
     title: SciPy
     weight: 1
     contentDir: content/en
-
     languageName: English
     params:
-      description: Why SciPy? Fundamental algorithms. Broadly applicable. Foundational. Interoperable. Performant. Open source.
+      description:
+        Why SciPy? Fundamental algorithms. Broadly applicable. Foundational.
+        Interoperable. Performant. Open source.
       navbarlogo:
         image: logo.svg
         altText: A blue circle with a snake in the shape of the letter 'S'.
         text: SciPy
         link: /
       hero:
-        # Main hero title
         title: SciPy
-        # Hero subtitle (optional)
         subtitle: Fundamental algorithms for scientific computing in Python
-        # Button text
         buttontext: Get started
-        # Where the main hero button links to
-        buttonlink: "/install"
-        # Hero image (from static/images/___)
+        buttonlink: /install
         image: logo.svg
-
       section5: false
-
       navbar:
         - title: Install
           url: /install
@@ -106,3 +98,79 @@ languages:
                 link: /press-kit
               - text: Social Media
                 link: /about/#social-media
+  pt:
+    title: SciPy
+    weight: 2
+    contentDir: content/pt
+    languageName: "Portugu\xEAs"
+    params:
+      description:
+        Por que SciPy? Algoritmos fundamentais. Broadly applicable. Foundational.
+        Interoperable. Performant. Open source.
+      navbarlogo:
+        image: logo.svg
+        altText: A blue circle with a snake in the shape of the letter 'S'.
+        text: SciPy
+        link: /pt/
+      hero:
+        title: SciPy
+        subtitle: Fundamental algorithms for scientific computing in Python
+        buttontext: Get started
+        buttonlink: /pt/install
+        image: logo.svg
+      section5: false
+      navbar:
+        - title: Install
+          url: /pt/install
+        - title: Documentation
+          url: https://docs.scipy.org/doc/scipy/
+        - title: Community
+          url: /pt/community
+        - title: About Us
+          url: /pt/about
+        - title: Contribute
+          url: /pt/contribute
+      footer:
+        logo: logo.svg
+        socialmediatitle: ""
+        socialmedia:
+          - link: https://github.com/scipy/scipy
+            icon: github
+          - link: https://discuss.scientific-python.org/c/contributor/scipy/
+            icon: scientific-python
+        quicklinks:
+          column1:
+            title: ""
+            links:
+              - text: Install
+                link: /pt/install
+              - text: Documentation
+                link: https://docs.scipy.org/doc/scipy/
+              - text: Citing SciPy
+                link: /pt/citing-scipy
+              - text: Roadmap
+                link: https://scipy.github.io/devdocs/dev/roadmap.html
+          column2:
+            links:
+              - text: About Us
+                link: /pt/about
+              - text: Community
+                link: /pt/community
+              - text: SciPy Conference
+                link: https://conference.scipy.org/
+              - text: Contribute
+                link: /pt/contribute
+              - text: Code of Conduct
+                link: https://docs.scipy.org/doc/scipy/dev/conduct/code_of_conduct.html
+          column3:
+            links:
+              - text: FAQ
+                link: /pt/faq
+              - text: Terms of Use
+                link: /pt/terms
+              - text: Privacy
+                link: /pt/privacy
+              - text: Press Kit
+                link: /pt/press-kit
+              - text: Social Media
+                link: /pt/about/#social-media

@@ -53,9 +53,6 @@ python -m pip install scipy
 ```
 
 {{< admonition warning >}}
-You may see this recommended in tutorials or classes, but the recommended
-way to install SciPy with `pip` is to use a virtual environment -
-see.{{< admonition warning >}}
 チュートリアルや学校の授業で、このインストール方法が推奨されることがあるかもしれませんが、`pip`を使用して SciPy をインストールする我々としての推奨方法は、仮想環境を利用することです。詳しくは、[`pip`を利用したインストール](./install.md#installing-with-pip)を参照してください。
 {{< /admonition >}}
 
