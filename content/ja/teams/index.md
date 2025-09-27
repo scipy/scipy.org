@@ -9,6 +9,12 @@ GitHubでマージ権をもつ開発者
 
 {{< grid file="maintainers.toml" columns="2 3 4 5" />}}
 
+### 型ヒントチーム
+
+`scipy-stubs` のマージ権限を持つコントリビュータ
+
+{{< grid file="typing-team.toml" columns="2 3 4 5" />}}
+
 ### トリアージチーム
 
 GitHubでトリアージ権をもつ開発者
