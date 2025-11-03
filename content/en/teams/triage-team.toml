@@ -32,7 +32,7 @@ link = 'https://github.com/carlkl'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image >}}
-src = 'https://avatars.githubusercontent.com/u/38244988?u=6b8f3360d47bc3c7f48f7b5e77535f96320d0b54&v=4"'
+src = 'https://avatars.githubusercontent.com/u/38244988?u=39298e997e8c1ec386e0465cbd0a92de649fe798&v=4"'
 alt = 'Avatar of Xingyu Liu'
 {{< /image >}}
 Xingyu Liu'''
@@ -52,10 +52,10 @@ link = 'https://github.com/crusaderky'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image >}}
-src = 'https://avatars.githubusercontent.com/u/36567889?u=39ead62a22648e6d623de16e97ecd8adf9a28ddf&v=4"'
-alt = 'Avatar of ਗਗਨਦੀਪ ਸਿੰਘ (Gagandeep Singh)'
+src = 'https://avatars.githubusercontent.com/u/36567889?v=4"'
+alt = 'Avatar of czgdp1807'
 {{< /image >}}
-ਗਗਨਦੀਪ ਸਿੰਘ (Gagandeep Singh)'''
+czgdp1807'''
 link = 'https://github.com/czgdp1807'
 
 [[item]]
@@ -87,6 +87,16 @@ alt = 'Avatar of Hari'
 {{< /image >}}
 Hari'''
 link = 'https://github.com/Harivallabha'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://avatars.githubusercontent.com/u/6208662?u=f5b6702cd80c1cd85d9a9cdc84fee65bedae24ca&v=4"'
+alt = 'Avatar of Joren Hammudoglu'
+{{< /image >}}
+Joren Hammudoglu'''
+link = 'https://github.com/jorenham'
 
 [[item]]
 type = 'card'
