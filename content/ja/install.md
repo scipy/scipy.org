@@ -146,6 +146,8 @@ content = ''' <a name="environment-based"></a>
 この環境ベースのワークフローは十分に方法論として確立されていますが、
 プロジェクトベースのワークフローのような再現性という利点はありません。
 
+<a name="installing-with-pip"/>
+
 ### `pip` を使用したインストール
 
 <!-- prettier-ignore-start -->
@@ -241,6 +243,8 @@ content = ''' <a name="building-from-source"></a>
 {{< admonition tip >}}
 IDE（統合開発環境）で正確な型ヒントを提供するために、型スタブのインストールが必要になる場合があります。
 {{< /admonition >}}
+
+<a name="type-stubs"></a>
 
 ## 型スタブを使用したインストール
 
