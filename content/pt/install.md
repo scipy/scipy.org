@@ -146,6 +146,8 @@ Em fluxos de trabalho baseados em projetos, um projeto é um diretório que cont
 Em contrapartida, em fluxos de trabalho baseados em ambientes você instala pacotes em um ambiente, que você pode ativar e desativar de qualquer diretório.
 Estes fluxos de trabalho são bem estabelecidos, mas não possuem alguns benefícios de fluxos de trabalho baseados em projetos.
 
+<a name="installing-with-pip"/>
+
 ### Instalando com `pip`
 
 <!-- prettier-ignore-start -->
