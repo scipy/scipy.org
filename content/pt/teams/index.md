@@ -9,6 +9,12 @@ Contributors with merge rights on GitHub.
 
 {{< grid file="maintainers.toml" columns="2 3 4 5" />}}
 
+### Typing team
+
+Contributors with merge rights on `scipy-stubs`.
+
+{{< grid file="typing-team.toml" columns="2 3 4 5" />}}
+
 ### Equipe de Triagem
 
 Contributors with triage rights on GitHub.
