@@ -82,6 +82,16 @@ link = 'https://github.com/fancidev'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image >}}
+src = 'https://avatars.githubusercontent.com/u/11718923?u=c20851d8f7dcd9373557fb7b1a64774214d58fa1&v=4"'
+alt = 'Avatar of Filipe Laíns'
+{{< /image >}}
+Filipe Laíns'''
+link = 'https://github.com/FFY00'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
 src = 'https://avatars.githubusercontent.com/u/29243905?u=717fe493c112cc5a59951923d6dd2fb36ba79fb2&v=4"'
 alt = 'Avatar of Hari'
 {{< /image >}}
