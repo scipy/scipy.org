@@ -2,7 +2,7 @@
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image
-  src="https://avatars.githubusercontent.com/u/702934?u=a026c1b1117981cea46e56ba562f3e80dfa71329&v=4\""
+  src="https://avatars.githubusercontent.com/u/702934?u=a026c1b1117981cea46e56ba562f3e80dfa71329&v=4"
   alt="Avatar of Andrew Nelson"
 >}}
 Andrew Nelson'''
@@ -12,7 +12,7 @@ link = 'https://github.com/andyfaff'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image
-  src="https://avatars.githubusercontent.com/u/3813847?v=4\""
+  src="https://avatars.githubusercontent.com/u/3813847?v=4"
   alt="Avatar of Atsushi Sakai"
 >}}
 Atsushi Sakai'''
@@ -22,7 +22,7 @@ link = 'https://github.com/AtsushiSakai'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image
-  src="https://avatars.githubusercontent.com/u/77272?v=4\""
+  src="https://avatars.githubusercontent.com/u/77272?v=4"
   alt="Avatar of Charles Harris"
 >}}
 Charles Harris'''
@@ -32,7 +32,7 @@ link = 'https://github.com/charris'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image
-  src="https://avatars.githubusercontent.com/u/33071866?v=4\""
+  src="https://avatars.githubusercontent.com/u/33071866?v=4"
   alt="Avatar of Christoph Baumgarten"
 >}}
 Christoph Baumgarten'''
@@ -42,7 +42,7 @@ link = 'https://github.com/chrisb83'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image
-  src="https://avatars.githubusercontent.com/u/12721170?u=523b41364ac96519a0abbe367ff96aa82e071755&v=4\""
+  src="https://avatars.githubusercontent.com/u/12721170?u=523b41364ac96519a0abbe367ff96aa82e071755&v=4"
   alt="Avatar of Dietrich Brunn"
 >}}
 Dietrich Brunn'''
@@ -52,7 +52,7 @@ link = 'https://github.com/DietBru'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image
-  src="https://avatars.githubusercontent.com/u/40656107?u=ec1b5e41026e08a37464489f421f0eac3474d1b1&v=4\""
+  src="https://avatars.githubusercontent.com/u/40656107?u=ec1b5e41026e08a37464489f421f0eac3474d1b1&v=4"
   alt="Avatar of Daniel Schmitz"
 >}}
 Daniel Schmitz'''
@@ -62,7 +62,7 @@ link = 'https://github.com/dschmitz89'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image
-  src="https://avatars.githubusercontent.com/u/915037?u=6a27f396c666c5c2172a1cfc7b0d4bbcd0069eed&v=4\""
+  src="https://avatars.githubusercontent.com/u/915037?u=6a27f396c666c5c2172a1cfc7b0d4bbcd0069eed&v=4"
   alt="Avatar of Dan Schult"
 >}}
 Dan Schult'''
@@ -72,7 +72,7 @@ link = 'https://github.com/dschult'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image
-  src="https://avatars.githubusercontent.com/u/2133832?v=4\""
+  src="https://avatars.githubusercontent.com/u/2133832?v=4"
   alt="Avatar of Evgeni Burovski"
 >}}
 Evgeni Burovski'''
@@ -82,7 +82,7 @@ link = 'https://github.com/ev-br'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image
-  src="https://avatars.githubusercontent.com/u/6528957?u=b74cdd23ec9edad8546b503b3fe86b927de41c25&v=4\""
+  src="https://avatars.githubusercontent.com/u/6528957?u=b74cdd23ec9edad8546b503b3fe86b927de41c25&v=4"
   alt="Avatar of Gregory Lee"
 >}}
 Gregory Lee'''
@@ -92,7 +92,7 @@ link = 'https://github.com/grlee77'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image
-  src="https://avatars.githubusercontent.com/u/33685575?v=4\""
+  src="https://avatars.githubusercontent.com/u/33685575?v=4"
   alt="Avatar of h-vetinari"
 >}}
 h-vetinari'''
@@ -102,7 +102,7 @@ link = 'https://github.com/h-vetinari'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image
-  src="https://avatars.githubusercontent.com/u/1303842?u=b5e1e287787b49216b2942bf4b5880e4b91b8d90&v=4\""
+  src="https://avatars.githubusercontent.com/u/1303842?u=b5e1e287787b49216b2942bf4b5880e4b91b8d90&v=4"
   alt="Avatar of Ilhan Polat"
 >}}
 Ilhan Polat'''
@@ -112,7 +112,7 @@ link = 'https://github.com/ilayn'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image
-  src="https://avatars.githubusercontent.com/u/60778417?u=29f920eaf5b41b5bdfbde65631d0581a0bf870b8&v=4\""
+  src="https://avatars.githubusercontent.com/u/60778417?u=29f920eaf5b41b5bdfbde65631d0581a0bf870b8&v=4"
   alt="Avatar of Jake Bowhay"
 >}}
 Jake Bowhay'''
@@ -122,7 +122,7 @@ link = 'https://github.com/j-bowhay'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image
-  src="https://avatars.githubusercontent.com/u/440735?v=4\""
+  src="https://avatars.githubusercontent.com/u/440735?v=4"
   alt="Avatar of Josef Perktold"
 >}}
 Josef Perktold'''
@@ -132,7 +132,7 @@ link = 'https://github.com/josef-pkt'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image
-  src="https://avatars.githubusercontent.com/u/30074037?u=c2549c85c82266302c71aef5c20446871323d91b&v=4\""
+  src="https://avatars.githubusercontent.com/u/30074037?u=c2549c85c82266302c71aef5c20446871323d91b&v=4"
   alt="Avatar of Kai Striega"
 >}}
 Kai Striega'''
@@ -142,7 +142,7 @@ link = 'https://github.com/Kai-Striega'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image
-  src="https://avatars.githubusercontent.com/u/2365790?v=4\""
+  src="https://avatars.githubusercontent.com/u/2365790?v=4"
   alt="Avatar of Eric Larson"
 >}}
 Eric Larson'''
@@ -152,7 +152,7 @@ link = 'https://github.com/larsoner'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image
-  src="https://avatars.githubusercontent.com/u/51488791?u=57da3ab3e223374ed21bad2b965fced84e6a397c&v=4\""
+  src="https://avatars.githubusercontent.com/u/51488791?u=57da3ab3e223374ed21bad2b965fced84e6a397c&v=4"
   alt="Avatar of Lucas Colley"
 >}}
 Lucas Colley'''
@@ -162,7 +162,7 @@ link = 'https://github.com/lucascolley'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image
-  src="https://avatars.githubusercontent.com/u/67612?v=4\""
+  src="https://avatars.githubusercontent.com/u/67612?v=4"
   alt="Avatar of Matthew Brett"
 >}}
 Matthew Brett'''
@@ -171,10 +171,10 @@ link = 'https://github.com/matthew-brett'
 [[item]]
 type = 'card'
 classcard = 'text-center'
-body = '''{{< image >}}
-src = 'https://avatars.githubusercontent.com/u/6570539?u=cfb3e218754e85c4fac18064d7cfdce0b67ddaa6&v=4"'
-alt = 'Avatar of Matt Haberland'
-{{< /image >}}
+body = '''{{< image
+  src="https://avatars.githubusercontent.com/u/6570539?u=cfb3e218754e85c4fac18064d7cfdce0b67ddaa6&v=4"
+  alt="Avatar of Matt Haberland"
+>}}
 Matt Haberland'''
 link = 'https://github.com/mdhaber'
 
@@ -182,7 +182,7 @@ link = 'https://github.com/mdhaber'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image
-  src="https://avatars.githubusercontent.com/u/3949932?u=aacac68df60d2cf64c17c7e5aa17adf8b738aa7b&v=4\""
+  src="https://avatars.githubusercontent.com/u/3949932?u=aacac68df60d2cf64c17c7e5aa17adf8b738aa7b&v=4"
   alt="Avatar of Melissa Weber Mendonça"
 >}}
 Melissa Weber Mendonça'''
@@ -191,10 +191,10 @@ link = 'https://github.com/melissawm'
 [[item]]
 type = 'card'
 classcard = 'text-center'
-body = '''{{< image >}}
-src = 'https://avatars.githubusercontent.com/u/666402?u=3c29c91b51c90b896000a35912b160357f9fcdee&v=4"'
-alt = 'Avatar of Nick ODell'
-{{< /image >}}
+body = '''{{< image
+  src="https://avatars.githubusercontent.com/u/666402?u=3c29c91b51c90b896000a35912b160357f9fcdee&v=4"
+  alt="Avatar of Nick ODell"
+>}}
 Nick ODell'''
 link = 'https://github.com/nickodell'
 
@@ -202,7 +202,7 @@ link = 'https://github.com/nickodell'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image
-  src="https://avatars.githubusercontent.com/u/7074023?u=a20dd05a809e6865c29deca04e5cbb0c6f9e5433&v=4\""
+  src="https://avatars.githubusercontent.com/u/7074023?u=a20dd05a809e6865c29deca04e5cbb0c6f9e5433&v=4"
   alt="Avatar of Nikolay Mayorov"
 >}}
 Nikolay Mayorov'''
@@ -212,7 +212,7 @@ link = 'https://github.com/nmayorov'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image
-  src="https://avatars.githubusercontent.com/u/82855?v=4\""
+  src="https://avatars.githubusercontent.com/u/82855?v=4"
   alt="Avatar of CJ Carey"
 >}}
 CJ Carey'''
@@ -221,10 +221,10 @@ link = 'https://github.com/perimosocordiae'
 [[item]]
 type = 'card'
 classcard = 'text-center'
-body = '''{{< image >}}
-src = 'https://avatars.githubusercontent.com/u/13238737?v=4"'
-alt = 'Avatar of peterbell10'
-{{< /image >}}
+body = '''{{< image
+  src="https://avatars.githubusercontent.com/u/13238737?v=4"
+  alt="Avatar of peterbell10"
+>}}
 peterbell10'''
 link = 'https://github.com/peterbell10'
 
@@ -232,7 +232,7 @@ link = 'https://github.com/peterbell10'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image
-  src="https://avatars.githubusercontent.com/u/35046?v=4\""
+  src="https://avatars.githubusercontent.com/u/35046?v=4"
   alt="Avatar of Pauli Virtanen"
 >}}
 Pauli Virtanen'''
@@ -241,10 +241,10 @@ link = 'https://github.com/pv'
 [[item]]
 type = 'card'
 classcard = 'text-center'
-body = '''{{< image >}}
-src = 'https://avatars.githubusercontent.com/u/98330?u=22a023f8d191ba200ab13d476c83860d015cc9fe&v=4"'
-alt = 'Avatar of Ralf Gommers'
-{{< /image >}}
+body = '''{{< image
+  src="https://avatars.githubusercontent.com/u/98330?u=22a023f8d191ba200ab13d476c83860d015cc9fe&v=4"
+  alt="Avatar of Ralf Gommers"
+>}}
 Ralf Gommers'''
 link = 'https://github.com/rgommers'
 
@@ -252,7 +252,7 @@ link = 'https://github.com/rgommers'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image
-  src="https://avatars.githubusercontent.com/u/46135?u=305a96a4778daecacbc8ec97ac25a48099a239cc&v=4\""
+  src="https://avatars.githubusercontent.com/u/46135?u=305a96a4778daecacbc8ec97ac25a48099a239cc&v=4"
   alt="Avatar of Robert Kern"
 >}}
 Robert Kern'''
@@ -262,7 +262,7 @@ link = 'https://github.com/rkern'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image
-  src="https://avatars.githubusercontent.com/u/5400493?u=64e192c8183394028227beef8d180cc9a089b318&v=4\""
+  src="https://avatars.githubusercontent.com/u/5400493?u=64e192c8183394028227beef8d180cc9a089b318&v=4"
   alt="Avatar of Lucas Roberts"
 >}}
 Lucas Roberts'''
@@ -272,7 +272,7 @@ link = 'https://github.com/rlucas7'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image
-  src="https://avatars.githubusercontent.com/u/45071?u=ef2af0a29229833cd2ae0e5aeb90283881e8c1e0&v=4\""
+  src="https://avatars.githubusercontent.com/u/45071?u=ef2af0a29229833cd2ae0e5aeb90283881e8c1e0&v=4"
   alt="Avatar of Stefan van der Walt"
 >}}
 Stefan van der Walt'''
@@ -281,10 +281,10 @@ link = 'https://github.com/stefanv'
 [[item]]
 type = 'card'
 classcard = 'text-center'
-body = '''{{< image >}}
-src = 'https://avatars.githubusercontent.com/u/1953382?u=ec2976a12aa587b07f7ca2ad4100560f1bf32a8a&v=4"'
-alt = 'Avatar of Albert Steppi'
-{{< /image >}}
+body = '''{{< image
+  src="https://avatars.githubusercontent.com/u/1953382?u=ec2976a12aa587b07f7ca2ad4100560f1bf32a8a&v=4"
+  alt="Avatar of Albert Steppi"
+>}}
 Albert Steppi'''
 link = 'https://github.com/steppi'
 
@@ -292,7 +292,7 @@ link = 'https://github.com/steppi'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image
-  src="https://avatars.githubusercontent.com/u/67928790?u=e85f64cbd3fa3f43b87946e350812d5d77391f82&v=4\""
+  src="https://avatars.githubusercontent.com/u/67928790?u=e85f64cbd3fa3f43b87946e350812d5d77391f82&v=4"
   alt="Avatar of thalassemia"
 >}}
 thalassemia'''
@@ -301,10 +301,10 @@ link = 'https://github.com/thalassemia'
 [[item]]
 type = 'card'
 classcard = 'text-center'
-body = '''{{< image >}}
-src = 'https://avatars.githubusercontent.com/u/43181252?u=83aa6e78d73a0ea5be9fdd866e91564b66fbf1cd&v=4"'
-alt = 'Avatar of Tirth Patel'
-{{< /image >}}
+body = '''{{< image
+  src="https://avatars.githubusercontent.com/u/43181252?u=83aa6e78d73a0ea5be9fdd866e91564b66fbf1cd&v=4"
+  alt="Avatar of Tirth Patel"
+>}}
 Tirth Patel'''
 link = 'https://github.com/tirthasheshpatel'
 
@@ -312,7 +312,7 @@ link = 'https://github.com/tirthasheshpatel'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image
-  src="https://avatars.githubusercontent.com/u/23188539?u=64445b52dbf3f75de8006ed4264fdd2afaed97a3&v=4\""
+  src="https://avatars.githubusercontent.com/u/23188539?u=64445b52dbf3f75de8006ed4264fdd2afaed97a3&v=4"
   alt="Avatar of Pamphile Roy"
 >}}
 Pamphile Roy'''
@@ -322,7 +322,7 @@ link = 'https://github.com/tupui'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image
-  src="https://avatars.githubusercontent.com/u/7903078?u=2762d9ff13b992dc635f8f190a17f9a90cddfae1&v=4\""
+  src="https://avatars.githubusercontent.com/u/7903078?u=2762d9ff13b992dc635f8f190a17f9a90cddfae1&v=4"
   alt="Avatar of Tyler Reddy"
 >}}
 Tyler Reddy'''
@@ -332,7 +332,7 @@ link = 'https://github.com/tylerjereddy'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image
-  src="https://avatars.githubusercontent.com/u/321463?v=4\""
+  src="https://avatars.githubusercontent.com/u/321463?v=4"
   alt="Avatar of Warren Weckesser"
 >}}
 Warren Weckesser'''
