@@ -17,12 +17,12 @@ SciPy運営委員会の役割は、SciPyのコミュニティと協力し、コ�
 - Eric Larson
 - Evgeni Burovski
 - Ilhan Polat
+- Jake Bowhay
 - Josef Perktold
-- Josh Wilson
+- Lucas Colley
 - Matt Haberland
 - Matthew Brett
 - Nikolay Mayorov
-- Paul van Mulbregt
 - Pauli Virtanen (慈悲深い終身の独裁者)
 - Ralf Gommers (議長)
 - Tyler Redy (リリースマネージャー)
@@ -36,6 +36,8 @@ SciPy運営委員会の役割は、SciPyのコミュニティと協力し、コ�
 - Eric Quintero
 - Jaime Fernández del Río
 - Jarrod Millman
+- Josh Wilson
+- Paul van Mulbregt
 - Pearu Peterson (SciPyの共同創作者)
 - Robert Kern
 - Stéfan van der Walt

@@ -16,12 +16,12 @@ El papel del Consejo Directivo de SciPy es garantizar, a través del trabajo y e
 - Eric Larson
 - Evgeni Burovski
 - Ilhan Polat
+- Jake Bowhay
 - Josef Perktold
-- Josh Wilson
+- Lucas Colley
 - Matt Haberland
 - Matthew Brett
 - Nikolay Mayorov
-- Paul van Mulbregt
 - Pauli Virtanen (BDFL)
 - Ralf Gommers (Chair)
 - Tyler Reddy (Release Manager)
@@ -35,6 +35,8 @@ Eméritos:
 - Eric Quintero
 - Jaime Fernández del Río
 - Jarrod Millman
+- Josh Wilson
+- Paul van Mulbregt
 - Pearu Peterson (co-creador de SciPy)
 - Robert Kern
 - Stéfan van der Walt
