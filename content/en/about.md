@@ -22,12 +22,12 @@ consists of the following members (in alphabetical order):
 - Eric Larson
 - Evgeni Burovski
 - İlhan Polat
+- Jake Bowhay
 - Josef Perktold
-- Josh Wilson
+- Lucas Colley
 - Matt Haberland
 - Matthew Brett
 - Nikolay Mayorov
-- Paul van Mulbregt
 - Pauli Virtanen (BDFL)
 - Ralf Gommers (Chair)
 - Tyler Reddy (Release manager)
@@ -41,6 +41,8 @@ Emeritus:
 - Eric Quintero
 - Jaime Fernández del Río
 - Jarrod Millman
+- Josh Wilson
+- Paul van Mulbregt
 - Pearu Peterson (co-creator of SciPy)
 - Robert Kern
 - Stéfan van der Walt
