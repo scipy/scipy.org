@@ -16,14 +16,13 @@ SciPyの推奨されるインストール方法は、あなたの好みのワー
 - **システムパッケージマネージャー** _(推奨されません)_
 - **ソースからのビルド** _(デバッグと開発用)_
 
-\[静的型スタブ]を使用してSciPyをインストールするには、
+[静的型スタブ]を使用してSciPyをインストールするには、
 [型スタブを使用したインストール](#type-stubs)をご覧ください。
 
-[static type stubs]: [https://typing.readthedocs.io/en/latest/guides/libraries.html]\(https://typing.readthedocs.io/en/latest/guides/libraries.html\)
+[static type stubs]: https://typing.readthedocs.io/en/latest/guides/libraries.html
 
 {{< admonition tip >}}
 統合開発環境 (IDE) が正確な型ヒントを提供するためには、型スタブのインストールが必要となる場合があります。
-{{< /admonition >}}
 {{< /admonition >}}
 
 {{< tabs >}}
@@ -36,7 +35,7 @@ content = ''' <a name="project-based"></a>
 
 Pythonパッケージマネージャーであるuvを使用してSciPyを使用するためのプロジェクトをセットアップする手順は以下の通りです。
 
-1. [uvドキュメントのインストール手順]([https://docs.astral.sh/uv/getting-started/installation/)に従って](https://www.google.com/search?q=https://docs.astral.sh/uv/getting-started/installation/)%E3%81%AB%E5%BE%93%E3%81%A3%E3%81%A6)、\`uv\`をインストールします。
+1. [uvドキュメントのインストール手順](https://docs.astral.sh/uv/getting-started/installation/)に従って、\`uv\`をインストールします。
 
 2. 新しいサブディレクトリに新しいプロジェクトを作成します。ターミナルで以下を実行します。
 
@@ -48,7 +47,6 @@ cd try-scipy
 {{< admonition hint >}}
 2番目のコマンドは、ディレクトリをプロジェクトのディレクトリに変更します。
 {{< /admonition >}}
-{{< /admonition >}}
 
 3. SciPyをプロジェクトに追加します。
 
@@ -58,7 +56,6 @@ uv add scipy
 
 {{< admonition note >}}
 これは、Pythonがまだインストールされていない場合に、自動的にPythonをインストールします！
-{{< /admonition >}}
 {{< /admonition >}}
 
 {{< admonition tip >}}
@@ -84,6 +81,8 @@ uv run python
 
 [scipy-user-guide]: https://docs.conda.io/projects/conda/en/latest/index.html
 
+{{< admonition note >}}
+
 パッケージ管理ツール[`pixi`]を使用して[conda-forge]からSciPyをインストールする手順は、`uv`を使った場合と非常に似ています。
 
 コンピューターを再起動した後、`try-scipy`プロジェクトディレクトリに移動し、`uv run python`を実行して、SciPyをインポート可能なPythonインタプリタに戻る必要があります。
@@ -92,7 +91,7 @@ Pythonスクリプトを実行するには、`uv run myscript.py`を使用でき
 
 詳細は[uvのプロジェクトでの作業ガイド][uv-projects]をご覧ください。
 
-[uv-projects]: [https://docs.astral.sh/uv/guides/projects/]\(https://docs.astral.sh/uv/guides/projects/\)
+[uv-projects]: https://docs.astral.sh/uv/guides/projects/
 
 {{< /admonition >}}
 
@@ -103,16 +102,16 @@ Condaはあらゆる言語のパッケージを管理できるため、Python自
 Condaは任意の言語でパッケージを管理できるため、
 Python自体や、コンパイラ、その他の言語をインストールするのにも使用できます。
 
-[Conda]: [https://docs.conda.io/projects/conda/en/latest/index.html]\(https://docs.conda.io/projects/conda/en/latest/index.html\)
+[Conda]: https://docs.conda.io/projects/conda/en/latest/index.html
 
 パッケージ管理ツール[`pixi`]を使用して[conda-forge]からSciPyをインストールする手順は、`uv`の手順と非常によく似ています。
 
-[conda-forge]: [https://conda-forge.org/]\(https://conda-forge.org/\)
-[`pixi`]: [https://pixi.sh/latest/]\(https://pixi.sh/latest/\)
+[conda-forge]: https://conda-forge.org/
+[`pixi`]: https://pixi.sh/latest/
 
 1. [`pixi`ドキュメントのインストール手順][install-pixi]に従って、`pixi`をインストールします。
 
-[install-pixi]: [https://pixi.sh/latest/]\(https://pixi.sh/latest/\)
+[install-pixi]: https://pixi.sh/latest/
 
 2. 新しいサブディレクトリに新しいプロジェクトを作成します。
 
@@ -147,17 +146,18 @@ content = ''' <a name="environment-based"></a>
 この環境ベースのワークフローは十分に方法論として確立されていますが、
 プロジェクトベースのワークフローのような再現性という利点はありません。
 
+<a name="installing-with-pip"/>
+
 ### `pip` を使用したインストール
 
 <!-- prettier-ignore-start -->
 
-1. [Pythonをインストール](\[https://www.python.org/downloads/)します]([https://www.google.com/search?q=https://www.python.org/downloads/)%E3%81%97%E3%81%BE%E3%81%99](https://www.google.com/search?q=https://www.python.org/downloads/)%E3%81%97%E3%81%BE%E3%81%99))。
+1. [Pythonをインストール](https://www.python.org/downloads/)します。
 
 2. `venv` を使用して仮想環境を作成し、アクティブ化します。
 
 {{< admonition hint >}}
-[Python Packaging User Guideのチュートリアル](\[https://packaging.python.org/en/latest/tutorials/installing-packages/#creating-virtual-environments)をご覧ください]([https://www.google.com/search?q=https://packaging.python.org/en/latest/tutorials/installing-packages/%23creating-virtual-environments)%E3%82%92%E3%81%94%E8%A6%A7%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84](https://www.google.com/search?q=https://packaging.python.org/en/latest/tutorials/installing-packages/%23creating-virtual-environments)%E3%82%92%E3%81%94%E8%A6%A7%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84))。
-{{< /admonition >}}
+[Python Packaging User Guideのチュートリアル](https://packaging.python.org/en/latest/tutorials/installing-packages/#creating-virtual-environments)をご覧ください。
 {{< /admonition >}}
 
 3. [`pip`] を使用して SciPy をインストールします。
@@ -168,7 +168,7 @@ python -m pip install scipy
 
 <!-- prettier-ignore-end -->
 
-[`pip`]: [https://pip.pypa.io/en/stable/getting-started/]\(https://pip.pypa.io/en/stable/getting-started/\)
+[`pip`]: https://pip.pypa.io/en/stable/getting-started/
 
 ### `conda` を使用したインストール
 
@@ -181,8 +181,9 @@ conda install scipy # または
 mamba install scipy
 ```
 
-[Miniforge]: [https://conda-forge.org/download/]\(https://conda-forge.org/download/\)
-[`mamba`]: [https://mamba.readthedocs.io/en/latest/]\(https://mamba.readthedocs.io/en/latest/\)
+[Miniforge]: https://conda-forge.org/download/
+
+[`mamba`]: https://mamba.readthedocs.io/en/latest/
 
 '''
 
@@ -229,7 +230,7 @@ content = ''' <a name="building-from-source"></a>
 
 注意点: ソースコードからSciPyをビルドするのは簡単ではない場合があります。 お使いのプラットフォームで、上記の方法のいずれかを通じてバイナリソフトが利用可能な場合は、それを使用することをおすすめします。
 ソースコードからのビルド方法の詳細については、
-\[ビルドドキュメント] を参照してください。
+[ビルドドキュメント] を参照してください。
 
 [building-docs]: https://scipy.github.io/devdocs/building/index.html
 
@@ -237,11 +238,13 @@ content = ''' <a name="building-from-source"></a>
 
 {{</ tabs >}}
 
-次のステップは[SciPyユーザーガイド]([https://docs.scipy.org/doc/scipy/tutorial/)をご覧ください]([https://www.google.com/search?q=https://docs.scipy.org/doc/scipy/tutorial/)%E3%82%92%E3%81%94%E8%A6%A7%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84](https://www.google.com/search?q=https://docs.scipy.org/doc/scipy/tutorial/)%E3%82%92%E3%81%94%E8%A6%A7%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84))。
+次のステップは[SciPyユーザーガイド](https://docs.scipy.org/doc/scipy/tutorial/)をご覧ください。
 
 {{< admonition tip >}}
 IDE（統合開発環境）で正確な型ヒントを提供するために、型スタブのインストールが必要になる場合があります。
 {{< /admonition >}}
+
+<a name="type-stubs"></a>
 
 ## 型スタブを使用したインストール
 
@@ -261,4 +264,4 @@ conda install "scipy-typed>=1.14"
 ```
 
 静的型付けのサポートに関する質問は、
-[`scipy-stubs` GitHubリポジトリ]([https://github.com/jorenham/scipy-stubs)にお寄せください](https://www.google.com/search?q=https://github.com/jorenham/scipy-stubs)%E3%81%AB%E3%81%8A%E5%AF%84%E3%81%9B%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84)。
+[`scipy-stubs` GitHubリポジトリ](https://github.com/jorenham/scipy-stubs)にお寄せください。

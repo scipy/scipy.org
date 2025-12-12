@@ -30,7 +30,8 @@ Ambientes de Desenvolvimento Interativo (IDEs) para fornecer dicas de tipo preci
 
 [[tab]]
 name = 'Baseado em Projetos'
-content = ''' <a name="project-based"></a>
+content = '''
+<a name="project-based"></a>
 
 ### Instalando com uv
 
@@ -121,7 +122,7 @@ pixi init try-scipy
 cd try-scipy
 ```
 
-3. Criar um novo projeto em um novo subdiretório, executando o seguinte em um terminal:
+3. Adicionar a SciPy ao seu projeto:
 
 ```bash
 pixi add scipy
@@ -137,12 +138,15 @@ pixi run python
 
 [[tab]]
 name = 'Environment Based'
-content = '''<a name="environment-based"></a>
+content = '''
+<a name="environment-based"></a>
 
 Em fluxos de trabalho baseados em projetos, um projeto é um diretório que contém um arquivo manifesto descrevendo o projeto, um arquivo <i>lock-file</i> descrevendo as dependências exatas do projeto, e os (potencialmente vários) ambientes do projeto.
 
 Em contrapartida, em fluxos de trabalho baseados em ambientes você instala pacotes em um ambiente, que você pode ativar e desativar de qualquer diretório.
 Estes fluxos de trabalho são bem estabelecidos, mas não possuem alguns benefícios de fluxos de trabalho baseados em projetos.
+
+<a name="installing-with-pip"/>
 
 ### Instalando com `pip`
 
@@ -161,7 +165,6 @@ Veja [o tutorial no Python Packaging User Guide](https://packaging.python.org/en
 ```bash
 python -m pip install scipy
 ```
-
 <!-- prettier-ignore-end -->
 
 [`pip`]: https://pip.pypa.io/en/stable/getting-started/
@@ -180,12 +183,12 @@ mamba install scipy
 [Miniforge]: https://conda-forge.org/download/
 
 [`mamba`]: https://mamba.readthedocs.io/en/latest/
-
 '''
 
 [[tab]]
 name = 'Package Manager'
-content = ''' <a name="system-package-managers"></a>
+content = '''
+<a name="system-package-managers"></a>
 
 ## Instalando com os stubs de tipagem
 
@@ -222,7 +225,8 @@ brew install scipy
 
 [[tab]]
 name = 'Building from Source'
-content = ''' <a name="building-from-source"></a>
+content = '''
+<a name="building-from-source"></a>
 
 Cuidado: compilar a SciPy a partir do código fonte pode ser um exercício não trivial. Recomendamos o uso de binários, em vez disso, se eles estiverem disponíveis para a sua plataforma em um dos métodos acima.
 Para mais detalhes sobre como compilar a partir do código fonte, consulte [o guia de compilação a partir do código fonte na documentação da SciPy][building-docs].
