@@ -5,6 +5,28 @@ newsHeader: SciPy 1.15.2 がリリースされました！
 date: 2025-02-16
 ---
 
+### SciPy 1.16.3 released
+
+_October 28, 2025_ -- SciPy 1.16.3 has been released!
+
+### SciPy 1.16.2 がリリースされました
+
+_2025年9月11日_ -- SciPy 1.16.2 がリリースされました！ このリリースは、PyPIのARM上でWindows OSに対する最初の安定版wheelです。
+
+### SciPy 1.16.1 がリリースされました
+
+_July 27, 2025_ -- SciPy 1.16.1 has been released! This is the
+first stable release to support Python 3.14 and provide corresponding
+binaries on PyPI.
+
+### SciPy 1.16.0 がリリースされました
+
+_2025年6月22日_ -- SciPy 1.16.0 がリリースされました！
+
+### SciPy 1.15.3 がリリースされました
+
+_2025年5月8日_ -- SciPy 1.15.3 がリリースされました！
+
 ### SciPy 1.15.2 がリリースされました
 
 _2025年2月16日_ -- SciPy 1.15.2 がリリースされました！
@@ -15,11 +37,11 @@ _2025年1月10日_ -- SciPy 1.15.1 がリリースされました！
 
 ### SciPy 1.15.0 がリリースされました
 
-_2025年1月3日_ -- SciPy 1.15.0 がリリースされました！ これはPyPI 上でリリースされている、 Python 3.13 のフリースレッドに対応した最初の安定版バイナリアプリです。
+_2025年1月3日_ -- SciPy 1.15.0 がリリースされました！ これは、PyPI で Python 3.13 フリースレッドバイナリを提供する最初の安定リリースです。
 
 ### SciPy 1.14.1 がリリースされました
 
-_2024年8月20日_ -- SciPy 1.14.1 がリリースされました！ このリリースは、PyPI ホイールを含めた Python 3.13 をサポートする最初の安定版リリースです。
+_2024年8月20日_ -- SciPy 1.14.1 がリリースされました！ このリリースは、PyPI wheel を含む Python 3.13 をサポートする最初の安定版リリースです。
 
 ### SciPy 1.14.0 がリリースされました
 
@@ -196,6 +218,11 @@ PyConはオープンソースのPythonプログラミング言語を開発して
 
 以下は、SciPyの各リリースのリリースノートのリンク一覧です。 バグ修正リリース（バージョン番号の x.y.z のうち z だけが変更されるもの）には新機能は追加されません。マイナーリリース（y が増加するもの）には新機能が含まれます。
 
+- SciPy 1.16.3 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.16.3)) -- _2025-10-28_.
+- SciPy 1.16.2 ([リリースノート](https://github.com/scipy/scipy/releases/tag/v1.16.2)) -- _2025-09-11_.
+- SciPy 1.16.1 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.16.1)) -- _2025-07-27_.
+- SciPy 1.16.0 ([リリースノート](https://github.com/scipy/scipy/releases/tag/v1.16.0)) -- _2025-06-22_.
+- SciPy 1.15.3 ([リリースノート](https://github.com/scipy/scipy/releases/tag/v1.15.3)) -- _2022-05-08_.
 - SciPy 1.15.2 ([リリースノート](https://github.com/scipy/scipy/releases/tag/v1.15.2)) -- _2025-02-16_
 - SciPy 1.15.1 ([リリースノート](https://github.com/scipy/scipy/releases/tag/v1.15.1)) -- _2025-01-10_.
 - SciPy 1.15.0 ([リリースノート](https://github.com/scipy/scipy/releases/tag/v1.15.0)) -- _2025-01-03_.
