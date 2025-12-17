@@ -180,6 +180,7 @@ mamba install scipy
 ```
 
 [Miniforge]: https://conda-forge.org/download/
+
 [`mamba`]: https://mamba.readthedocs.io/en/latest/
 
 '''
