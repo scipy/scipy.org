@@ -166,7 +166,7 @@ documentación.
 
 ### SciPy 2019
 
-_2019-07-08_ [SciPy](https://scipy2019.scipy.org/), la 18ª  conferencia anual de Computación científica con Python, se llevará a cabo del 8 al 14 de julio de 2019 en Austin, Texas.
+_2019-07-08_ [SciPy](https://scipy2019.scipy.org/), la 18ª conferencia anual de Computación científica con Python, se llevará a cabo del 8 al 14 de julio de 2019 en Austin, Texas.
 
 ### EuroSciPy 2017 _2017-08-28_
 
