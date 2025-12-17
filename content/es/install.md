@@ -99,7 +99,7 @@ Conda puede administrar paquetes en cualquier lenguaje, por lo que puedes usarlo
 
 [Conda]: https://docs.conda.io/projects/conda/en/latest/index.html
 
-Los pasos para instalar SciPy desde [conda-forge] usando la herramienta de gestión de paquetes [`pixi`] son muy similares a los pasos para `uv`:
+Los pasos para instalar SciPy desde [conda-forge] usando la herramienta de gestión de paquetes [`pixi`] son ​​muy similares a los pasos para `uv`:
 
 [conda-forge]: https://conda-forge.org/
 [`pixi`]: https://pixi.sh/latest/
@@ -133,10 +133,10 @@ pixi run python
 name = 'Basado en entornos'
 content = ''' <a name="environment-based"></a>
 
-En los flujos de trabajo basados en proyectos, un proyecto es un directorio que contiene un archivo que describe el proyecto, un archivo que describe las dependencias exactas del proyecto y los entornos (potencialmente múltiples) del mismo.
+En los flujos de trabajo basados ​​en proyectos, un proyecto es un directorio que contiene un archivo que describe el proyecto, un archivo que describe las dependencias exactas del proyecto y los entornos (potencialmente múltiples) del mismo.
 
-Por el contrario, en los flujos de trabajo basados en entornos, instalas paquetes en un entorno, que puedes activar y desactivar desde cualquier directorio.
-Estos flujos de trabajo están bien establecidos, pero carecen de algunos beneficios de reproducibilidad de los flujos de trabajo basados en proyectos.
+Por el contrario, en los flujos de trabajo basados ​​en entornos, instalas paquetes en un entorno, que puedes activar y desactivar desde cualquier directorio.
+Estos flujos de trabajo están bien establecidos, pero carecen de algunos beneficios de reproducibilidad de los flujos de trabajo basados ​​en proyectos.
 
 ### Instalación con `pip`
 
@@ -162,7 +162,7 @@ python -m pip install scipy
 
 ### Instalación con `conda`
 
-[Miniforge] es la forma recomendada de instalar `conda` y [`mamba`], dos administradores de entorno basados en Conda.
+[Miniforge] es la forma recomendada de instalar `conda` y [`mamba`], dos administradores de entorno basados ​​en Conda.
 Después de crear un entorno, puedes instalar SciPy desde conda-forge de la siguiente manera:
 
 ```bash
@@ -171,7 +171,6 @@ mamba install scipy
 ```
 
 [Miniforge]: https://conda-forge.org/download/
-
 [`mamba`]: https://mamba.readthedocs.io/es/latest/
 
 '''
