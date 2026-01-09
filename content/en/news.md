@@ -5,6 +5,15 @@ newsHeader: SciPy 1.16.3 released!
 date: 2025-10-28
 ---
 
+### NumPy Fellowship Program 2025: Bringing `scipy-stubs` to Maturity
+
+_8 Jan, 2026_ -- The NumPy Fellowship Program helped bring
+[`scipy-stubs`](https://github.com/scipy/scipy-stubs) to maturity, delivering complete and reliable
+type annotations for SciPy that enable better IDE support, early bug detection, and a smoother
+developer experience. Read the full retrospective by Joren Hammudoglu
+([@jorenham](https://github.com/jorenham)) on the Scientific Python blog:
+<https://blog.scientific-python.org/numpy/fellowship-program-2025-retrospective/>.
+
 ### SciPy 1.16.3 released
 
 _October 28, 2025_ -- SciPy 1.16.3 has been released!
