@@ -1,9 +1,22 @@
 ---
 title: News
 sidebar: false
-newsHeader: SciPy 1.16.3 released!
-date: 2025-10-28
+newsHeader: SciPy 1.17.0 released!
+date: 2026-01-10
 ---
+
+### SciPy 1.17.0 released
+
+_January 10, 2026_ -- SciPy 1.17.0 has been released!
+
+### NumPy Fellowship Program 2025: Bringing `scipy-stubs` to Maturity
+
+_January 8, 2026_ -- The NumPy Fellowship Program helped bring
+[`scipy-stubs`](https://github.com/scipy/scipy-stubs) to maturity, delivering complete and reliable
+type annotations for SciPy that enable better IDE support, early bug detection, and a smoother
+developer experience. Read the full retrospective by Joren Hammudoglu
+([@jorenham](https://github.com/jorenham)) on the Scientific Python blog:
+<https://blog.scientific-python.org/numpy/fellowship-program-2025-retrospective/>.
 
 ### SciPy 1.16.3 released
 
@@ -250,6 +263,7 @@ Here is a list of SciPy releases, with links to release notes. Bugfix
 releases (only the `z` changes in the `x.y.z` version number) have no new
 features; minor releases (the `y` increases) do.
 
+- SciPy 1.17.0 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.17.0)) -- _2026-01-10_.
 - SciPy 1.16.3 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.16.3)) -- _2025-10-28_.
 - SciPy 1.16.2 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.16.2)) -- _2025-09-11_.
 - SciPy 1.16.1 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.16.1)) -- _2025-07-27_.
