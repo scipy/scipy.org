@@ -1,19 +1,19 @@
 [[item]]
 type = 'card'
 classcard = 'text-center'
-body = '''{{< image >}}
-src = 'https://avatars.githubusercontent.com/u/6208662?u=f5b6702cd80c1cd85d9a9cdc84fee65bedae24ca&v=4"'
-alt = 'Avatar of Joren Hammudoglu'
-{{< /image >}}
+body = '''{{< image
+  src="https://avatars.githubusercontent.com/u/6208662?u=f5b6702cd80c1cd85d9a9cdc84fee65bedae24ca&v=4"
+  alt="Avatar of Joren Hammudoglu"
+>}}
 Joren Hammudoglu'''
 link = 'https://github.com/jorenham'
 
 [[item]]
 type = 'card'
 classcard = 'text-center'
-body = '''{{< image >}}
-src = 'https://avatars.githubusercontent.com/u/98330?u=22a023f8d191ba200ab13d476c83860d015cc9fe&v=4"'
-alt = 'Avatar of Ralf Gommers'
-{{< /image >}}
+body = '''{{< image
+  src="https://avatars.githubusercontent.com/u/98330?u=22a023f8d191ba200ab13d476c83860d015cc9fe&v=4"
+  alt="Avatar of Ralf Gommers"
+>}}
 Ralf Gommers'''
 link = 'https://github.com/rgommers'
