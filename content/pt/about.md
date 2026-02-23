@@ -17,12 +17,12 @@ O papel do Conselho Diretor da SciPy é garantir, em colaboração com a comunid
 - Eric Larson
 - Evgeni Burovski
 - Ilhan Polat
+- Jake Bowhay
 - Josef Perktold
-- Josh Wilson
+- Lucas Colley
 - Matt Haberland
 - Matthew Brett
 - Nikolay Mayorov
-- Paul van Mulbregt
 - Pauli Virtanen (BDFL)
 - Ralf Gommers (Presidente)
 - Tyler Reddy (Release manager - responsável pelo lançamento de novas versões)
@@ -36,6 +36,8 @@ Membros eméritos:
 - Eric Quintero
 - Jaime Fernández del Río
 - Jarrod Millman
+- Josh Wilson
+- Paul van Mulbregt
 - Pearu Peterson (co-criador da SciPy)
 - Robert Kern
 - Stéfan van der Walt

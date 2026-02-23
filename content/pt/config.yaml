@@ -1,36 +1,36 @@
-languageName: Português
+languageName: English
 params:
-  description: Por que SciPy? Algoritmos fundamentais. Amplas aplicações. Fundamental. Interoperável. Alto desempenho. Open source.
+  description: Why SciPy? Fundamental algorithms. Broadly applicable. Foundational. Interoperable. Performant. Open source.
   navbarlogo:
     image: logo.svg
     altText: A blue circle with a snake in the shape of the letter 'S'.
     text: SciPy
-    link: /pt/
+    link: /
   hero:
     # Main hero title
     title: SciPy
     # Hero subtitle (optional)
-    subtitle: Algoritmos fundamentais para computação científica com Python
+    subtitle: Fundamental algorithms for scientific computing in Python
     # Button text
-    buttontext: Comece aqui
+    buttontext: Get started
     # Where the main hero button links to
-    buttonlink: "/pt/install"
+    buttonlink: "/install"
     # Hero image (from static/images/___)
     image: logo.svg
 
   section5: false
 
   navbar:
-    - title: Instalar
-      url: /pt/install
-    - title: Documentação
+    - title: Install
+      url: /install
+    - title: Documentation
       url: https://docs.scipy.org/doc/scipy/
-    - title: Comunidade
-      url: /pt/community
-    - title: Quem somos
-      url: /pt/about
-    - title: Contribuir
-      url: /pt/contribute
+    - title: Community
+      url: /community
+    - title: About Us
+      url: /about
+    - title: Contribute
+      url: /contribute
   footer:
     logo: logo.svg
     socialmediatitle: ""
@@ -43,35 +43,35 @@ params:
       column1:
         title: ""
         links:
-          - text: Instalar
-            link: /pt/install
-          - text: Documentação
+          - text: Install
+            link: /install
+          - text: Documentation
             link: https://docs.scipy.org/doc/scipy/
-          - text: Citar a SciPy
-            link: /pt/citing-scipy
+          - text: Citing SciPy
+            link: /citing-scipy
           - text: Roadmap
             link: https://scipy.github.io/devdocs/dev/roadmap.html
       column2:
         links:
-          - text: Quem somos
-            link: /pt/about
-          - text: Comunidade
-            link: /pt/community
+          - text: About Us
+            link: /about
+          - text: Community
+            link: /community
           - text: SciPy Conference
             link: https://conference.scipy.org/
-          - text: Contribuir
-            link: /pt/contribute
-          - text: Código de Conduta (em inglês)
+          - text: Contribute
+            link: /contribute
+          - text: Code of Conduct
             link: https://docs.scipy.org/doc/scipy/dev/conduct/code_of_conduct.html
       column3:
         links:
           - text: FAQ
-            link: /pt/faq
-          - text: Termos de Uso (em inglês)
-            link: /pt/terms
-          - text: Privacidade
-            link: /pt/privacy
-          - text: Kit de imprensa
-            link: /pt/press-kit
-          - text: Mídias Sociais
-            link: /pt/about/#social-media
+            link: /faq
+          - text: Terms of Use
+            link: /terms
+          - text: Privacy
+            link: /privacy
+          - text: Press Kit
+            link: /press-kit
+          - text: Social Media
+            link: /about/#social-media
