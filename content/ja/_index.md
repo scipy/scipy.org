@@ -43,7 +43,7 @@ SciPyの高いレベルで抽象化されたAPIは、どんな技術的バック
 type = 'card'
 title = 'オープンソース'
 body = '''
-SciPyは、様々な利用用途に寛容な[BSDライセンス](https://github.com/numpy/numpy/blob/main/LICENSE.txt)で公開されています。SciPyは活発で、互いを尊重し、多様性を認め合う[コミュニティ](/ja/community)によって、 [GitHub](https://github.com/numpy/numpy)上でオープンに開発されています。
+SciPyは、様々な利用用途に寛容な[BSDライセンス](https://github.com/scipy/scipy/blob/main/LICENSE.txt)で公開されています。SciPyは活発で、互いを尊重し、多様性を認め合う[コミュニティ](/ja/community)によって、 [GitHub](https://github.com/scipy/scipy)上でオープンに開発されています。
 '''
 
 {{< /grid >}}
