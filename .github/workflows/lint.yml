@@ -2,6 +2,9 @@ name: style
 
 on: [push, pull_request]
 
+permissions:
+  contents: read
+
 jobs:
   pre-commit:
     name: Linting
