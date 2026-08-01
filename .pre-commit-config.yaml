@@ -10,7 +10,8 @@ repos:
       - id: check-builtin-literals
       - id: check-case-conflict
       - id: check-json
-      - id: check-toml
+      # Does not support TOML 1.1 ☹️
+      # - id: check-toml
       - id: check-yaml
         args: [--allow-multiple-documents]
       - id: debug-statements
