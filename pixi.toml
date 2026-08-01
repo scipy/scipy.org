@@ -1,0 +1,29 @@
+[workspace]
+authors = ["SciPy Developers"]
+channels = ["https://prefix.dev/conda-forge"]
+name = "scipy.org"
+platforms = ["osx-arm64", "linux-64", "linux-aarch64", "win-64"]
+
+[tasks]
+lint = "pre-commit run --all-files"
+build = {
+  description = "Build the site",
+  cmd = "make html",
+}
+serve = {
+  description = "Serve the site locally",
+  cmd = "make serve",
+}
+teams = {
+  description = "Update teams (must pass a token with `read:org` permissions)",
+  args = ["token"],
+  cmd = "GH_TOKEN={{ token }} make teams",
+}
+
+[dependencies]
+make = "*"
+hugo = "*"
+dart-sass = "*"
+pyyaml = "*"
+requests = "*"
+pre-commit = "*"
