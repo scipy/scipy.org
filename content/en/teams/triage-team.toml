@@ -3,6 +3,17 @@ type = 'card'
 classcard = 'text-center'
 body = '''
 {{< image
+    src="https://avatars.githubusercontent.com/u/57562633?u=18373b73b2a525bb643839433e3d1ea605a7c88b&v=4"
+    alt="Avatar of Martin Schuck"
+>}}
+Martin Schuck'''
+link = 'https://github.com/amacati'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''
+{{< image
     src="https://avatars.githubusercontent.com/u/23621655?u=525aca83e7dda8d8474e35c0edc5a233af2f8bde&v=4"
     alt="Avatar of Anirudh Dagar"
 >}}
