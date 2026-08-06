@@ -8,3 +8,6 @@ resources/
 .idea/*
 
 .DS_Store
+# pixi environments
+.pixi/*
+!.pixi/config.toml
