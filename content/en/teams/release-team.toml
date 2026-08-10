@@ -1,0 +1,32 @@
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''
+{{< image
+    src="https://avatars.githubusercontent.com/u/702934?u=a026c1b1117981cea46e56ba562f3e80dfa71329&v=4"
+    alt="Avatar of Andrew Nelson"
+>}}
+Andrew Nelson'''
+link = 'https://github.com/andyfaff'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''
+{{< image
+    src="https://avatars.githubusercontent.com/u/98330?u=22a023f8d191ba200ab13d476c83860d015cc9fe&v=4"
+    alt="Avatar of Ralf Gommers"
+>}}
+Ralf Gommers'''
+link = 'https://github.com/rgommers'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''
+{{< image
+    src="https://avatars.githubusercontent.com/u/7903078?u=2762d9ff13b992dc635f8f190a17f9a90cddfae1&v=4"
+    alt="Avatar of Tyler Reddy"
+>}}
+Tyler Reddy'''
+link = 'https://github.com/tylerjereddy'

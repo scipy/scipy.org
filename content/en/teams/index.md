@@ -9,9 +9,21 @@ Contributors with merge rights on GitHub.
 
 {{< grid file="maintainers.toml" columns="2 3 4 5" />}}
 
+### Release team
+
+Contributors responsible for SciPy's official releases.
+
+{{< grid file="release-team.toml" columns="2 3 4 5" />}}
+
+### XSF team
+
+Contributors with merge rights on `scipy/xsf`.
+
+{{< grid file="xsf-team.toml" columns="2 3 4 5" />}}
+
 ### Typing team
 
-Contributors with merge rights on `scipy-stubs`.
+Contributors with merge rights on `scipy/scipy-stubs`.
 
 {{< grid file="typing-team.toml" columns="2 3 4 5" />}}
 
