@@ -25,7 +25,7 @@ prepare: clean
 
 # All translations share the <team>.toml files in the en translation
 TEAMS_DIR = content/en/teams
-TEAMS = emeritus-maintainers maintainers triage-team web-team typing-team
+TEAMS = emeritus-maintainers maintainers triage-team web-team typing-team xsf-team release-team
 TEAMS_QUERY = python themes/scientific-python-hugo-theme/tools/team_query.py
 
 $(TEAMS_DIR)/%.toml:
