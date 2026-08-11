@@ -9,6 +9,12 @@ Colaboradores con derechos de commit en GitHub.
 
 {{< grid file="maintainers.toml" columns="2 3 4 5" />}}
 
+### Typing team
+
+Contributors with merge rights on `scipy-stubs`.
+
+{{< grid file="typing-team.toml" columns="2 3 4 5" />}}
+
 ### Equipo de Clasificación
 
 Colaboradores con derechos de clasificación en GitHub.

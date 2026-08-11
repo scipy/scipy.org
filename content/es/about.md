@@ -16,12 +16,12 @@ El papel del Consejo Directivo de SciPy es garantizar, a través del trabajo y e
 - Eric Larson
 - Evgeni Burovski
 - Ilhan Polat
+- Jake Bowhay
 - Josef Perktold
-- Josh Wilson
+- Lucas Colley
 - Matt Haberland
 - Matthew Brett
 - Nikolay Mayorov
-- Paul van Mulbregt
 - Pauli Virtanen (BDFL)
 - Ralf Gommers (Chair)
 - Tyler Reddy (Release Manager)
@@ -35,6 +35,8 @@ Eméritos:
 - Eric Quintero
 - Jaime Fernández del Río
 - Jarrod Millman
+- Josh Wilson
+- Paul van Mulbregt
 - Pearu Peterson (co-creador de SciPy)
 - Robert Kern
 - Stéfan van der Walt
@@ -79,7 +81,7 @@ Las donaciones son gestionadas por la fundación [NumFOCUS](https://numfocus.org
 El equipo de desarrollo de SciPy desea agradecer a las siguientes empresas y organizaciones por brindar apoyo financiero, servicios o infraestructura de desarrollo:
 
 - [JetBrains](https://jb.gg/OpenSourceSupport): licencias de todos sus productos para todos los mantenedores activos
-- Tidelift: apoyo financiero para SciPy a través de la suscripción de código abierto de Tidelift
+- [Tidelift](https://tidelift.com/subscription/pkg/pypi-scipy?utm_source=pypi-scipy&utm_medium=referral&utm_campaign=readme): apoyo financiero para SciPy a través de la suscripción de código abierto de Tidelift
 - [CircleCI](https://circleci.com): créditos de integración continua
 - [TravisCI](https://travis-ci.com): créditos de integración continua
 - [Appveyor](https://ci.appveyor.com): créditos de integración continua
