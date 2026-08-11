@@ -4,25 +4,27 @@ sidebar: false
 ---
 
 {{< admonition tip >}}
-このページでは、あなたがターミナルの使用に慣れており、パッケージマネージャーの使い方を学ぶことに抵抗がないことを前提としています。 もしあなたが初心者で、できるだけ早くSciPyを始めたい場合は、[初心者向けインストールガイド](./beginner-install.md)をチェックしてみて下さい！
+このページでは、あなたがターミナルの使用に慣れており、パッケージマネージャーの使い方を学ぶことに抵抗がないことを前提としています。 {{< admonition tip >}}
+このページでは、ターミナル操作に慣れていて、パッケージマネージャーの使い方を学ぶ意欲があることを前提としています。初心者でとにかく早く SciPy を始めたい方は、[初心者向けインストールガイド](./beginner-install.md)をチェックしてください！
+{{< /admonition >}}
 {{< /admonition >}}
 
-SciPyの推奨されるインストール方法は、あなたの好みのワークフローによって異なります。
-一般的なワークフローは、大きく以下のカテゴリに分類できます。
+SciPy の推奨インストール方法は、あなたのワークフローのスタイルによって異なります。
+一般的なワークフローは以下のカテゴリに大別できます：
 一般的なワークフローは大まかに下記のカテゴリに分類できます。
 
-- **プロジェクトベース** (例: `uv`, `pixi`) _(新規ユーザーに推奨)_
-- **環境ベース** (例: `pip`, `conda`) _(従来のワークフロー)_
-- **システムパッケージマネージャー** _(推奨されません)_
-- **ソースからのビルド** _(デバッグと開発用)_
+- **プロジェクトベース**（例：`uv`, `pixi`）_(新規ユーザーに推奨)_
+- **環境ベース**（例：`pip`, `conda`）_(従来のワークフロー)_
+- **システムパッケージマネージャー** _(非推奨)_
+- **ソースからのビルド** _(デバッグや開発目的)_
 
-[静的型スタブ]を使用してSciPyをインストールするには、
-[型スタブを使用したインストール](#type-stubs)をご覧ください。
+\[スタブ付き型情報(static type stubs)]を使って SciPy をインストールするには、[型スタブ付きのインストール方法](#type-stubs)を参照してください。
 
-[static type stubs]: https://typing.readthedocs.io/en/latest/guides/libraries.html
+[static type stubs]: [https://typing.readthedocs.io/en/latest/guides/libraries.html]\(https://typing.readthedocs.io/en/latest/guides/libraries.html\)
 
 {{< admonition tip >}}
-統合開発環境 (IDE) が正確な型ヒントを提供するためには、型スタブのインストールが必要となる場合があります。
+統合開発環境（IDE）で正確な型ヒントを得るためには、型スタブのインストールが必要な場合があります。
+{{< /admonition >}}
 {{< /admonition >}}
 
 {{< tabs >}}
@@ -31,13 +33,13 @@ SciPyの推奨されるインストール方法は、あなたの好みのワー
 name = 'プロジェクトベース'
 content = ''' <a name="project-based"></a>
 
-### uv を使用したインストール
+### uv によるインストール
 
-Pythonパッケージマネージャーであるuvを使用してSciPyを使用するためのプロジェクトをセットアップする手順は以下の通りです。
+ここでは Python パッケージマネージャーである uv を使って SciPy を使用するためのプロジェクトをセットアップする手順を説明します。
 
-1. [uvドキュメントのインストール手順](https://docs.astral.sh/uv/getting-started/installation/)に従って、\`uv\`をインストールします。
+1. [uv のドキュメントのインストール手順](https://docs.astral.sh/uv/getting-started/installation/)に従って、\`uv\`をインストールします。
 
-2. 新しいサブディレクトリに新しいプロジェクトを作成します。ターミナルで以下を実行します。
+2. ターミナルで以下を実行して、新しいサブディレクトリに新しいプロジェクトを作成します。
 
 ```bash
 uv init try-scipy
@@ -45,10 +47,10 @@ cd try-scipy
 ```
 
 {{< admonition hint >}}
-2番目のコマンドは、ディレクトリをプロジェクトのディレクトリに変更します。
+2つ目のコマンドでプロジェクトのディレクトリに移動しています。
 {{< /admonition >}}
 
-3. SciPyをプロジェクトに追加します。
+3. プロジェクトに SciPy を追加します：
 
 ```bash
 uv add scipy
@@ -59,7 +61,8 @@ uv add scipy
 {{< /admonition >}}
 
 {{< admonition tip >}}
-同じ方法で他のPythonライブラリもインストールできます。例:
+他のPythonライブラリも同じようにインストールできます。
+例:
 
 ```bash
 uv add matplotlib
@@ -67,66 +70,63 @@ uv add matplotlib
 
 {{< /admonition >}}
 
-4. SciPyを試してみましょう！
+4. SciPy を試してみましょう！
 
 ```bash
 uv run python
 ```
 
-これによりPythonインタプリタセッションが起動し、そこから `import scipy` を実行できます。
+Python インタプリタが起動し、そこで `import scipy` が使えます。
 
 <!-- prettier-ignore-end -->
 
-次のステップは[SciPyユーザーガイド][scipy-user-guide]をご覧ください。
+[次のステップはこちら：SciPyユーザーガイド][scipy-user-guide]
 
 [scipy-user-guide]: https://docs.conda.io/projects/conda/en/latest/index.html
 
-{{< admonition note >}}
-
 パッケージ管理ツール[`pixi`]を使用して[conda-forge]からSciPyをインストールする手順は、`uv`を使った場合と非常に似ています。
 
-コンピューターを再起動した後、`try-scipy`プロジェクトディレクトリに移動し、`uv run python`を実行して、SciPyをインポート可能なPythonインタプリタに戻る必要があります。
-Pythonスクリプトを実行するには、`uv run myscript.py`を使用できます。
+再起動後は、`try-scipy` プロジェクトのディレクトリに移動して `uv run python` を実行することで、SciPy を使える Python インタプリタに入ることができます。
+スクリプトを実行するには `uv run myscript.py` を使用してください。
 あるPython スクリプトを実行するには、 `uv run myscript.py` コマンドを使用します。
 
-詳細は[uvのプロジェクトでの作業ガイド][uv-projects]をご覧ください。
+詳細は [uv プロジェクトガイド][uv-projects] をご覧ください。
 
 [uv-projects]: https://docs.astral.sh/uv/guides/projects/
 
 {{< /admonition >}}
 
-### `pixi` を使用したインストール
+### `pixi` によるインストール
 
 Python以外のパッケージも扱う場合、[Conda]パッケージとしてSciPyをインストールすることを好むかもしれません。[PyPI](https://pypi.org/)（Python Package Index）で利用できないパッケージにも同じワークフローを使用できるようにするためです。
 Condaはあらゆる言語のパッケージを管理できるため、Python自体、コンパイラー、その他の言語をインストールするために使用できます。
-Condaは任意の言語でパッケージを管理できるため、
-Python自体や、コンパイラ、その他の言語をインストールするのにも使用できます。
+Python 以外のパッケージも扱う場合は、[Conda] パッケージとして SciPy をインストールすると便利です。Conda は任意の言語のパッケージを管理でき、Python 本体やコンパイラ、他言語のインストールも可能です。
 
 [Conda]: https://docs.conda.io/projects/conda/en/latest/index.html
 
-パッケージ管理ツール[`pixi`]を使用して[conda-forge]からSciPyをインストールする手順は、`uv`の手順と非常によく似ています。
+[conda-forge] 経由での [`pixi`] を使った SciPy インストール手順は `uv` とほぼ同じです：
 
 [conda-forge]: https://conda-forge.org/
 [`pixi`]: https://pixi.sh/latest/
 
-1. [`pixi`ドキュメントのインストール手順][install-pixi]に従って、`pixi`をインストールします。
+1. [`pixi` のインストール手順][install-pixi] に従って `pixi` をインストールします。
 
 [install-pixi]: https://pixi.sh/latest/
 
-2. 新しいサブディレクトリに新しいプロジェクトを作成します。
+2. 新しいサブディレクトリにプロジェクトを作成します：
 
 ```bash
 pixi init try-scipy
 cd try-scipy
 ```
 
-3. SciPyをプロジェクトに追加します。
+3. SciPy を追加します：
 
 ```bash
 pixi add scipy
 ```
 
-4. SciPyを試してみましょう！
+4. SciPy を試してみましょう！
 
 ```bash
 pixi run python
@@ -138,29 +138,27 @@ pixi run python
 name = '環境ベース'
 content = ''' <a name="environment-based"></a>
 
-プロジェクトベースのワークフローでは、プロジェクトはプロジェクトを記述するマニフェストファイル、プロジェクトの正確な依存関係を記述するロックファイル、およびプロジェクトの（複数の可能性のある）環境を含むディレクトリです。
+プロジェクトベースのワークフローでは、マニフェストファイル、ロックファイル、複数の環境を含むプロジェクトディレクトリを作成します。
 
-対照的に、
-環境ベースのワークフローでは、パッケージを環境にインストールし、どのディレクトリからでもその環境をアクティブ化および非アクティブ化できます。
-これらのワークフローは確立されていますが、プロジェクトベースのワークフローのような再現性の利点がいくつか欠けています。
+一方、環境ベースのワークフローでは、任意のディレクトリから有効化/無効化可能な「環境」にパッケージをインストールします。
+この方法は確立されたものですが、プロジェクトベースのワークフローほど再現性が高くありません。
 この環境ベースのワークフローは十分に方法論として確立されていますが、
 プロジェクトベースのワークフローのような再現性という利点はありません。
 
-<a name="installing-with-pip"/>
-
-### `pip` を使用したインストール
+### `pip` を使ったインストール
 
 <!-- prettier-ignore-start -->
 
-1. [Pythonをインストール](https://www.python.org/downloads/)します。
+1. [Python をインストール](https://www.python.org/downloads/)します。
 
-2. `venv` を使用して仮想環境を作成し、アクティブ化します。
+2. `venv` を使って仮想環境を作成・有効化します。
 
 {{< admonition hint >}}
-[Python Packaging User Guideのチュートリアル](https://packaging.python.org/en/latest/tutorials/installing-packages/#creating-virtual-environments)をご覧ください。
+詳しくは [Python Packaging User Guide のチュートリアル](https://packaging.python.org/en/latest/tutorials/installing-packages/#creating-virtual-environments)を参照してください。
+{{< /admonition >}}
 {{< /admonition >}}
 
-3. [`pip`] を使用して SciPy をインストールします。
+3. [`pip`] を使って SciPy をインストールします：
 
 ```bash
 python -m pip install scipy
@@ -170,10 +168,10 @@ python -m pip install scipy
 
 [`pip`]: https://pip.pypa.io/en/stable/getting-started/
 
-### `conda` を使用したインストール
+### `conda` を使ったインストール
 
-[Miniforge] は、2つのCondaベースの環境マネージャーである `conda` と [`mamba`] をインストールする推奨方法です。
-環境を作成した後、conda-forge から SciPy を次のようにインストールできます。
+[Miniforge] は、`conda` および [`mamba`]（高速代替版）をインストールする推奨手段です。
+環境を作成後、conda-forge から以下のように SciPy をインストールします：
 環境を作成したら、conda-forgeから下記の方法でSciPyをインストールできます。
 
 ```bash
@@ -191,16 +189,16 @@ mamba install scipy
 name = 'パッケージマネージャー'
 content = ''' <a name="system-package-managers"></a>
 
-## システムパッケージマネージャーを介したシステムワイドなインストール
+## システムパッケージマネージャーを使った全体インストール
 
-システムパッケージマネージャーは、最も一般的なPythonパッケージをインストールできます。
-それらはコンピューター全体にパッケージをインストールし、多くの場合古いバージョンを使用し、利用可能なバージョンも多くありません。推奨されるインストール方法ではありません。
+システムパッケージマネージャーでも主要な Python パッケージのインストールが可能です。
+ただし、全体に対するインストールであり、バージョンが古いことが多く、種類も限られています。そのため推奨される方法ではありません。
 この方法を使うと、コンピュータ全体にパッケージがインストールされます。しかし、システムのパッケージマネージャーは、しばしば古いバージョンである
 パッケージをインストールし、利用可能なバージョンは他の方法に比べると、あまり多くはありません。 これらの方法は、推奨されるインストール方法ではありません。
 
 ### Ubuntu および Debian
 
-`apt-get` を使用する場合:
+`apt-get` を使う場合：
 
 ```bash
 sudo apt-get install python3-scipy
@@ -208,7 +206,7 @@ sudo apt-get install python3-scipy
 
 ### Fedora
 
-`dnf` を使用する場合:
+`dnf` を使う場合：
 
 ```bash
 sudo dnf install python3-scipy
@@ -216,7 +214,7 @@ sudo dnf install python3-scipy
 
 ### macOS
 
-macOS にはプリインストールされたパッケージマネージャーはありませんが、[Homebrew](https://brew.sh/) をインストールして、それを使用して SciPy (および Python 自体) をインストールできます。
+macOS にはデフォルトでパッケージマネージャーがありませんが、[Homebrew](https://brew.sh/) をインストールすることで、SciPy（と Python 本体）をインストールできます：
 
 ```bash
 brew install scipy
@@ -229,8 +227,8 @@ name = 'ソースからのビルド'
 content = ''' <a name="building-from-source"></a>
 
 注意点: ソースコードからSciPyをビルドするのは簡単ではない場合があります。 お使いのプラットフォームで、上記の方法のいずれかを通じてバイナリソフトが利用可能な場合は、それを使用することをおすすめします。
-ソースコードからのビルド方法の詳細については、
-[ビルドドキュメント] を参照してください。
+ソースからビルドする方法の詳細については、
+[SciPy ドキュメントのソースからのビルド ガイド][building-docs]。
 
 [building-docs]: https://scipy.github.io/devdocs/building/index.html
 
@@ -238,23 +236,18 @@ content = ''' <a name="building-from-source"></a>
 
 {{</ tabs >}}
 
-次のステップは[SciPyユーザーガイド](https://docs.scipy.org/doc/scipy/tutorial/)をご覧ください。
-
-{{< admonition tip >}}
-IDE（統合開発環境）で正確な型ヒントを提供するために、型スタブのインストールが必要になる場合があります。
-{{< /admonition >}}
+[次のステップは SciPy ユーザーガイド](https://docs.scipy.org/doc/scipy/tutorial/)を参照してください。
 
 <a name="type-stubs"></a>
 
-## 型スタブを使用したインストール
+## 型スタブ付きインストール
 
 静的型スタブは、PyPI および conda-forge 上の別のパッケージ `scipy-stubs` を介して利用可能です。
 PyPI の `scipy-stubs[scipy]` extra または conda-forge の `scipy-typed` パッケージを介して、SciPy と `scipy-stubs` を単一のパッケージとしてインストールすることもできます。
 SciPy の特定のバージョン `x.y.z` (例: `1.14.1`) を取得するには、バージョン `x.y.z.*` をインストールする必要があります。例:
-SciPy と `scipy-stubs` を単一のパッケージとしてインストールすることも可能です。
-PyPI の場合は、追加の `scipy-stubs[scipy]` 経由でインストールする方法や、conda-forge の `scipy-typed`
-パッケージ経由でインストールする方法があります。
-特定バージョンの SciPy（例: 1.14.1）を取得するには、以下のようにインストールします：
+型スタブは PyPI や conda-forge 上の別パッケージ `scipy-stubs` として提供されています。
+SciPy と `scipy-stubs` をまとめてインストールするには、PyPI の `scipy-stubs[scipy]` オプションや、conda-forge の `scipy-typed` パッケージを使うこともできます。
+SciPy の特定バージョン `x.y.z`（例：`1.14.1`）を取得したい場合は `x.y.z.*` を指定します。例えば：
 
 ```bash
 uv add "scipy-stubs[scipy]==1.14.1.*" # または
@@ -263,5 +256,4 @@ python -m pip install "scipy-stubs[scipy]" # または
 conda install "scipy-typed>=1.14"
 ```
 
-静的型付けのサポートに関する質問は、
-[`scipy-stubs` GitHubリポジトリ](https://github.com/jorenham/scipy-stubs)にお寄せください。
+型情報のサポートに関する質問は [scipy-stubs の GitHub リポジトリ](https://github.com/jorenham/scipy-stubs) までお寄せください。
