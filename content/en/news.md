@@ -1,9 +1,15 @@
 ---
 title: News
 sidebar: false
-newsHeader: SciPy 1.18.0 released!
-date: 2026-06-19
+newsHeader: SciPy 1.18.1 released!
+date: 2026-08-21
 ---
+
+### SciPy 1.18.1 released
+
+_August 21, 2026_ -- SciPy 1.18.1 has been released! This
+is the first release to include binaries for Python 3.15
+on PyPI.
 
 ### SciPy 1.18.0 released
 
@@ -271,6 +277,7 @@ Here is a list of SciPy releases, with links to release notes. Bugfix
 releases (only the `z` changes in the `x.y.z` version number) have no new
 features; minor releases (the `y` increases) do.
 
+- SciPy 1.18.1 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.18.1)) -- _2026-08-21_.
 - SciPy 1.18.0 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.18.0)) -- _2026-06-19_.
 - SciPy 1.17.1 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.17.1)) -- _2026-02-22_.
 - SciPy 1.17.0 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.17.0)) -- _2026-01-10_.
