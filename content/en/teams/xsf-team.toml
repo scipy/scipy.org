@@ -47,6 +47,17 @@ type = 'card'
 classcard = 'text-center'
 body = '''
 {{< image
+    src="https://avatars.githubusercontent.com/u/60778417?u=29f920eaf5b41b5bdfbde65631d0581a0bf870b8&v=4"
+    alt="Avatar of Jake Bowhay"
+>}}
+Jake Bowhay'''
+link = 'https://github.com/j-bowhay'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''
+{{< image
     src="https://avatars.githubusercontent.com/u/51488791?u=57da3ab3e223374ed21bad2b965fced84e6a397c&v=4"
     alt="Avatar of Lucas Colley"
 >}}
