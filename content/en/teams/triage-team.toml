@@ -25,6 +25,17 @@ type = 'card'
 classcard = 'text-center'
 body = '''
 {{< image
+    src="https://avatars.githubusercontent.com/u/100433776?v=4"
+    alt="Avatar of BasilLiekens"
+>}}
+BasilLiekens'''
+link = 'https://github.com/BasilLiekens'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''
+{{< image
     src="https://avatars.githubusercontent.com/u/6213168?u=b69e5910ac6277e04ddd1723c91811d96b3eb49a&v=4"
     alt="Avatar of Guido Imperiale"
 >}}
@@ -85,6 +96,17 @@ body = '''
 >}}
 Joren Hammudoglu'''
 link = 'https://github.com/jorenham'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''
+{{< image
+    src="https://avatars.githubusercontent.com/u/99216956?u=f871fed34c9892b5fa8d13d7c8abdac5e03db892&v=4"
+    alt="Avatar of Pradyot Ranjan"
+>}}
+Pradyot Ranjan'''
+link = 'https://github.com/prady0t'
 
 [[item]]
 type = 'card'
