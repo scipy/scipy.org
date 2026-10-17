@@ -7,7 +7,7 @@ and served using [Hugo](https://gohugo.io).
 ## Build
 
 ```
-git submodule update --init
+git submodule update --init --recursive
 pixi run build
 ```
 

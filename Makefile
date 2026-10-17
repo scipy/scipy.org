@@ -20,7 +20,7 @@ clean: ## remove the build artifacts, mainly the "public" directory
 	rm -rf $(HTMLDIR)
 
 prepare: clean
-	git submodule update --init
+	git submodule update --init --recursive
 	python gen_config.py
 
 # All translations share the <team>.toml files in the en translation
