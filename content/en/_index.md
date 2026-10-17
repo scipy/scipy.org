@@ -29,7 +29,7 @@ Extends NumPy providing additional tools for array computing and provides specia
 type = 'card'
 title = 'Performant'
 body = '''
-SciPy wraps highly-optimized implementations written in low-level languages like Fortran, C, and C++. Enjoy the flexibility of Python with the speed of compiled code.
+SciPy wraps highly-optimized implementations written in low-level languages like C and C++. Enjoy the flexibility of Python with the speed of compiled code.
 '''
 
 [[item]]
