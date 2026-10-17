@@ -27,11 +27,8 @@ the terms of the BSD license
 
 ## How can SciPy be fast if it is written in an interpreted language like Python?
 
-Actually, the time-critical loops are usually implemented in C or C++. Parts of SciPy are thin layers of code on top of the scientific
-routines that are freely available at <https://www.netlib.org/>. Netlib
-is a huge repository of incredibly valuable and robust scientific
-algorithms written in C and Fortran. It would be silly to rewrite these
-algorithms and would take years to debug them. Some of the newer contributions to SciPy
+Actually, the time-critical loops are usually implemented in C or C++.
+Some of the newer contributions to SciPy
 are either written entirely or wrapped with
 [Cython](https://cython.org/) or [Pythran](https://pythran.readthedocs.io).
 
